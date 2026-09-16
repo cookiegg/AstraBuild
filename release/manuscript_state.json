@@ -2,7 +2,7 @@
   "schema_version": "1.1",
   "project": {
     "id": "astrabuild",
-    "title": "AstraBuild: GPT-6 Astra as a Long-Horizon 3D Engineering Agent for Component-Level Substation Reconstruction",
+    "title": "AstraBuild: A Longitudinal Evaluation of GPT-6 Astra as a 3D Engineering Agent",
     "archetype": "longitudinal methods-and-systems case study",
     "study_designs": [
       "AI/LLM-based study",
@@ -10,37 +10,37 @@
       "framework/methods paper"
     ],
     "lifecycle_stage": "developmental_revision",
-    "review_maturity": "advisor_discussion",
+    "review_maturity": "advisor_discussion_restructured",
     "target_venue": "",
-    "active_release": "astra-build-v0.8-analysis-report"
+    "active_release": "astra-build-v0.9-robodojo-narrative"
   },
   "artifacts": [
     {
       "id": "paper-v08",
       "path": "paper/paper_v08_analysis.md",
       "role": "main_manuscript_analysis_draft",
-      "status": "ACTIVE",
-      "required_for_release": true
+      "status": "REFERENCE",
+      "required_for_release": false
     },
     {
       "id": "paper-md",
       "path": "paper/paper_teacher_discussion.md",
       "role": "main_manuscript",
-      "status": "REFERENCE",
+      "status": "ACTIVE",
       "required_for_release": true
     },
     {
       "id": "behavior-analysis",
       "path": "release/behavior_analysis.json",
       "role": "structured_evidence",
-      "status": "ACTIVE",
+      "status": "REFERENCE",
       "required_for_release": true
     },
     {
       "id": "paper-tex",
       "path": "paper/paper.tex",
       "role": "latex_manuscript",
-      "status": "ACTIVE",
+      "status": "REFERENCE",
       "required_for_release": true
     },
     {
@@ -61,14 +61,21 @@
       "id": "metrics",
       "path": "release/metrics.json",
       "role": "structured_evidence",
-      "status": "ACTIVE",
+      "status": "REFERENCE",
       "required_for_release": true
     },
     {
       "id": "claims",
       "path": "release/claim_matrix.md",
       "role": "claim_evidence_registry",
-      "status": "ACTIVE",
+      "status": "REFERENCE",
+      "required_for_release": true
+    },
+    {
+      "id": "prose-audit",
+      "path": "release/prose_audit_v0.9.md",
+      "role": "revision_audit",
+      "status": "REFERENCE",
       "required_for_release": true
     }
   ],
@@ -85,7 +92,7 @@
         "review pages"
       ],
       "status": "VERIFIED",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-17"
     },
     {
       "id": "technical-report",
@@ -98,7 +105,7 @@
         "limitations"
       ],
       "status": "VERIFIED",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-17"
     },
     {
       "id": "metrics-registry",
@@ -110,7 +117,7 @@
         "D41 semantics"
       ],
       "status": "VERIFIED",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-17"
     },
     {
       "id": "claim-matrix",
@@ -122,7 +129,7 @@
         "measurement interpretation"
       ],
       "status": "VERIFIED",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-17"
     },
     {
       "id": "behavior-analysis",
@@ -147,37 +154,43 @@
         "Codex interface"
       ],
       "status": "VERIFIED",
-      "last_verified": "2026-09-16"
+      "last_verified": "2026-09-17"
     }
   ],
   "contract": {
-    "gap": "Registered photogrammetric geometry and field imagery do not directly provide the editable component hierarchy, reusable asset structure, site-specific connections, persistent revision history, or inspection-addressable semantics required by the target engineering digital twin.",
-    "task": "Characterize how one GPT-6 Astra/Codex engineering workflow reconstructs heterogeneous substation equipment and infrastructure within one persistent Blender/Python state, and document how task-level outputs accumulate into a component-level station model.",
+    "gap": "Existing 3D reconstruction and generation results do not by themselves show whether a general-purpose reasoning model can form, test, and revise engineering hypotheses when registered physical evidence contradicts its current representation in a persistent engineering environment.",
+    "task": "Evaluate GPT-6 Astra as a model-in-harness across heterogeneous component-level substation reconstruction tasks, focusing on how it selects measurement problems and representations, revises higher-level engineering assumptions after contradiction, and maintains accepted outputs in persistent state.",
     "outcomes": [
-      "task-level editable component reconstructions",
-      "historical same-camera review evidence",
-      "preserved revision/failure traces",
-      "station-scale integrated model",
-      "D41 inspection-semantic augmentation"
+      "task capability across 12 reconstruction families",
+      "observable hypothesis-revision episodes",
+      "recurring failure boundaries in detail and coordinate semantics",
+      "human-steerable correction traces",
+      "long-horizon station composition stress test"
     ],
     "questions": [
       {
         "id": "Q1",
-        "text": "Can one general-purpose reasoning agent operate across heterogeneous component-level 3D reconstruction tasks and compose the resulting assets into a persistent industrial digital twin?",
+        "text": "When a general-purpose reasoning model is constrained by registered geometric evidence, programmatic tools, and deterministic validation in a persistent 3D environment, how does it form, test, and revise engineering hypotheses, and where do those decisions fail?",
         "lock": "SEMANTIC"
       }
     ],
-    "contribution": "A longitudinal, evidence-grounded case study of a general-purpose reasoning model operating a persistent 3D engineering workflow across heterogeneous reconstruction tasks, with auditable intermediate artifacts, revision histories, and station-scale integration.",
+    "contribution": "A longitudinal evaluation of one general-purpose reasoning model in a persistent 3D engineering harness, using heterogeneous reconstruction tasks as behavioral probes, preserved cases to analyze hypothesis revision and failure modes, and station-scale composition as a long-horizon stress test.",
     "nonclaims": [
       "not survey-grade reconstruction accuracy",
       "not a fully autonomous workflow",
       "not an IID benchmark",
       "not a matched model leaderboard",
       "not evidence of cross-site generalization",
+      "not an estimate of population-wide failure frequencies from the selected behavioral cases",
       "not proof that internal model chain-of-thought is recoverable from historical artifacts"
     ]
   },
   "semantic_locks": [
+    {
+      "id": "central-question",
+      "kind": "SEMANTIC",
+      "canonical": "study how Astra forms, tests, and revises engineering hypotheses under registered evidence, external tools, deterministic validation, and persistent state; characterize where those decisions fail"
+    },
     {
       "id": "study-design",
       "kind": "SEMANTIC",
@@ -290,7 +303,7 @@
       "value": 38,
       "source_id": "metrics-registry",
       "expected_strings": [
-        "38 core"
+        "38 sequential core batches"
       ],
       "scope_roles": [
         "interactive_technical_report"
@@ -348,7 +361,7 @@
         "9.5"
       ],
       "scope_roles": [
-        "interactive_technical_report"
+        "main_manuscript"
       ]
     },
     {
@@ -367,12 +380,12 @@
   "alignment": [
     {
       "question_id": "Q1",
-      "method": "Persistent Blender/Python reconstruction workflow using registered coarse geometry, field imagery, engineering records, prior batch state, deterministic execution, task-specific validation, and preserved review/revision artifacts.",
-      "evidence": "38 core batches; 12 task families; 32 original review pages; process dossiers; task-native validation ledgers; representative preserved failures and revisions; station integration artifacts.",
-      "result": "The workflow produced heterogeneous editable task outputs that were retained, revised, reused, connected, and integrated into a 37,153-object station model, followed by D41 inspection-semantic augmentation.",
-      "interpretation": "Within this single-site longitudinal case, one general-purpose reasoning-agent workflow operated across heterogeneous 3D engineering tasks while maintaining persistent external engineering state.",
-      "limitation": "No matched model comparison, independent survey truth, or cross-site replication; human feedback materially affected several trajectories; model metadata are owner-confirmed rather than independently recoverable from legacy logs.",
-      "contribution": "Documents the task breadth, observable revision behavior, process evidence, and system-level composition of a persistent 3D engineering agent workflow.",
+      "method": "One GPT-6 Astra/Codex model-in-harness is observed across 38 dependent core batches and 12 reconstruction task families. Evidence is externalized through registered geometry, images, records, diagnostics, original review pages, deterministic validation, and persistent batch state.",
+      "evidence": "Task-native metrics; B01/B15/B23/B25-B26/B36/D38 adaptation/failure episodes; B32 fine-detail interpretation trace; behavior_analysis.json; 32 historical reviews; 40 process dossiers; D38.2/D40 composition state.",
+      "result": "Astra can formulate and invoke explicit measurement procedures and can revise protocol, abstraction, representation, and task-selection decisions when contradictions are externalized. Fine-detail and coordinate-semantic interpretations remain error-prone; human steering and deterministic validation materially affect acceptance.",
+      "interpretation": "The supported role is a human-steerable engineering reasoner inside a deterministic reconstruction system rather than an autonomous reconstruction authority.",
+      "limitation": "Single site; correlated photogrammetric reference rather than independent survey truth; dependent batches; heterogeneous validators; selected behavioral episodes are descriptive; no matched second-model or expert baseline; legacy model configuration is owner-confirmed.",
+      "contribution": "Tasks are used as behavioral probes, preserved cases explain how modeling hypotheses change, and station composition tests persistent state over a long horizon.",
       "status": "SUPPORTED_WITH_LIMITATIONS"
     }
   ],
@@ -430,14 +443,14 @@
   "release": {
     "status": "WORKING",
     "candidate_artifact_ids": [
-      "paper-v08",
       "paper-md",
       "paper-tex",
       "website",
       "website-html",
+      "behavior-analysis",
       "metrics",
       "claims",
-      "behavior-analysis"
+      "prose-audit"
     ],
     "required_checks": [
       "argument_structure",
@@ -454,15 +467,20 @@
       "functional_completeness"
     ],
     "checked_hashes": {
-      "paper-v08": "b2443bc51a89d15f25792b048169b3a2d61350ba695e3897c9fd9b6d822397bd",
-      "paper-md": "3b5cde456033e837a22621c0fff5880c9692e2227410fd7d6a1d35cb7e1498ce",
-      "paper-tex": "4e3bf3f3230796ba45a6177710c2ff86a0ac9bdfe7e9dd5630e25a628155f006",
-      "website": "f5135fa8a05ebedc096d595540c7a394fd457450d865361b20ff333d4f24b44b",
-      "website-html": "7cff7895a4ec9267356379d1b824d002fb77a7bad77dcd0fd3e585f1a5f68f85",
+      "paper-md": "0a01b3512a841aa49d95db8982625d258cf30ee4ce6611c04abb7ea58b02da25",
+      "paper-tex": "3323e6997d505063a7ed9d2dff57d9babff3eff8f4620001ed5d16cb362a5bbc",
+      "website": "88a32b74dbce5a2394dd9bb4d3f58f5d362c521af6d9c00e83c5a1f62eb61117",
+      "website-html": "b203f2aa4bfe1711948d9e476fe80a1b5473324a435c11ec893ed7e987f92887",
+      "behavior-analysis": "22df5416a807a189e2c2f5d909a4a862d05e42432bcd3a711098d333f96c63b6",
       "metrics": "4d03cc0108280f52cd454fe7b78ac62413ad2e46d15a959d9a95651591408789",
       "claims": "7c1b5b11aab2b1a54f1f822edc4e0ff33aad2a4b32d1511f713270b6cba9295e",
-      "behavior-analysis": "22df5416a807a189e2c2f5d909a4a862d05e42432bcd3a711098d333f96c63b6"
+      "prose-audit": "121e56d1ef9dc3cf7fd2571d0df04c22ab451646ed644940bfff8506ac35fe61"
     },
-    "visual_check": "PARTIAL"
+    "visual_check": "PASSED",
+    "notes": {
+      "browser_check": "Google Chrome headless DOM verified main narrative order and review/dossier appendix controls on http://127.0.0.1:8765/website/.",
+      "scholarly_prose": "Website and paper scholarly prose exact-candidate audits passed with 0 findings after contextual exclusion of tables, filenames, code identifiers and metadata from stylistic judgment.",
+      "release_status": "WORKING intentionally retained for advisor discussion; no submission-ready claim."
+    }
   }
 }
