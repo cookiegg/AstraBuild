@@ -849,6 +849,93 @@ def figure13_review_protocol():
     save(fig,"fig13_review_protocol")
 
 
+def figure14_behavioral_analysis():
+    """v0.8: behavior-level statistics mined from the preserved batch history."""
+    beh = json.loads((ROOT / "release" / "behavior_analysis.json").read_text())
+    dist = beh["revision_distribution"]["batches_by_visible_attempt_tags"]
+    multi3 = beh["revision_distribution"]["three_or_more"]
+    layers = beh["failure_mode_layer_counts"]
+    modes = beh["adaptation_mode_counts"]
+    ops = beh["operator_prevalence_40_dossiers"]
+
+    fig, axes = plt.subplots(2, 2, figsize=(12.4, 8.6))
+    fig.subplots_adjust(left=0.09, right=0.97, top=0.86, bottom=0.10, hspace=0.52, wspace=0.30)
+    fig.text(0.02, 0.965, "Behavioral analysis of the preserved process record",
+             fontsize=15.5, fontweight="bold", color=INK)
+    fig.text(0.02, 0.925,
+             "Statistics mined by scripts/analyze_process_behavior.py from the read-only historical batch folders "
+             "(42 primary installation folders). Revision tags are a lower bound: revisions not frozen under an "
+             "r-tagged name (e.g. D38.1 → D38.2) are invisible to this scan.",
+             fontsize=9.0, color=MUTED)
+
+    # (a) revision attempt distribution
+    ax = axes[0][0]
+    cats = ["1 attempt", "2 attempts", "3+ attempts"]
+    vals = [dist["1"], dist["2"], dist["3+"]]
+    bars = ax.bar(cats, vals, color=[BLUE2, BLUE, DARK], width=0.62)
+    for b, v in zip(bars, vals):
+        ax.text(b.get_x() + b.get_width() / 2, v + 0.4, str(v), ha="center", fontsize=10, fontweight="bold", color=INK)
+    ax.set_ylim(0, max(vals) + 4)
+    ax.set_ylabel("batches")
+    ax.set_title("Visible revision tags per batch", loc="left", fontweight="bold")
+    ax.text(0.0, -0.32, "3+ attempts: " + ", ".join(multi3), transform=ax.transAxes, fontsize=7.6, color=MUTED)
+    for _s in ("top", "right"):
+        ax.spines[_s].set_visible(False)
+    panel_label(ax, "a")
+
+    # (b) failure-mode layers among annotated episodes
+    ax = axes[0][1]
+    order = ["protocol", "abstraction", "representation", "task-selection", "human-triggered"]
+    vals = [layers.get(k, 0) for k in order]
+    bars = ax.barh(order[::-1], vals[::-1], color=ORANGE, height=0.58)
+    for b, v in zip(bars, vals[::-1]):
+        ax.text(v + 0.05, b.get_y() + b.get_height() / 2, str(v), va="center", fontsize=10, fontweight="bold", color=INK)
+    ax.set_xlim(0, max(vals) + 1.2)
+    ax.set_xlabel("annotated episodes")
+    ax.set_title("Failure attribution by layer (7 documented episodes)", loc="left", fontweight="bold")
+    for _s in ("top", "right"):
+        ax.spines[_s].set_visible(False)
+    panel_label(ax, "b")
+
+    # (c) adaptation modes
+    ax = axes[1][0]
+    order = ["explicit self-diagnosed", "human-triggered", "human-authorized"]
+    vals = [modes.get(k, 0) for k in order]
+    colors = [TEAL, BLUE, PURPLE]
+    bars = ax.bar(order, vals, color=colors, width=0.55)
+    for b, v in zip(bars, vals):
+        ax.text(b.get_x() + b.get_width() / 2, v + 0.06, str(v), ha="center", fontsize=10, fontweight="bold", color=INK)
+    ax.set_ylim(0, max(vals) + 1.0)
+    ax.set_ylabel("annotated episodes")
+    ax.set_title("Adaptation behavior: who initiates the correction", loc="left", fontweight="bold")
+    ax.tick_params(axis="x", labelsize=8)
+    for _s in ("top", "right"):
+        ax.spines[_s].set_visible(False)
+    panel_label(ax, "c")
+
+    # (d) operator prevalence
+    ax = axes[1][1]
+    items = sorted(ops.items(), key=lambda kv: kv[1])
+    names = [k for k, _ in items]
+    vals = [v for _, v in items]
+    ax.barh(names, vals, color=BLUE2, height=0.62)
+    for i, v in enumerate(vals):
+        ax.text(v + 0.4, i, str(v), va="center", fontsize=7.6, color=MUTED)
+    ax.set_xlim(0, 44)
+    ax.set_xlabel("dossiers invoking the operator (of 40)")
+    ax.set_title("Canonical core vs task-specific operators", loc="left", fontweight="bold")
+    ax.tick_params(axis="y", labelsize=7.6)
+    for _s in ("top", "right"):
+        ax.spines[_s].set_visible(False)
+    panel_label(ax, "d")
+
+    fig.text(0.02, 0.012,
+             "Figure 14 · Panels a–c describe behavior of the reconstruction process (revision, failure attribution, adaptation initiation); "
+             "panel d shows that build/validate/release form a stable core while measure/inspect/refine/coverage operators activate only on the tasks that need them.",
+             fontsize=7.7, color=MUTED)
+    save(fig, "fig14_behavioral_analysis")
+
+
 def main():
     figure1_system_loop()
     figure2_longitudinal()
@@ -863,6 +950,7 @@ def main():
     figure11_canonical_workflow()
     figure12_b32_worked_example()
     figure13_review_protocol()
+    figure14_behavioral_analysis()
     print("generated", len(list(FIG.glob('fig*.svg'))), "SVG figures in", FIG)
 
 if __name__ == "__main__":

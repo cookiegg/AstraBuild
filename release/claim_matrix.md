@@ -21,6 +21,10 @@ should update this matrix before changing any headline number.
 | Semantic v3 correction | isolated renders/photos expose and repair naming/box-based mapping errors | `part-annotation/README.md` v3 audit sections | Semantic verifier/revision case study | That early semantic attachment was correct without review |
 | D41 | 79 accessory meshes; 17 missing inspection-relevant part classes; T1/T2; `ok=true` | `photo-first-pilot/output/installation_D41/D41_completion.md`; `D41_validation.json` | Inspection-semantic augmentation at research endpoint | Complete station-wide part semantics |
 | Autonomy | agent-driven, human-steerable | B08 authorization, B36 review, D38 markup | Human review is a method component | Fully autonomous reconstruction |
+| Revision distribution (v0.8) | 15 single-attempt / 18 two-attempt / 9 three-or-more visible revision tags across 42 primary installation folders | `release/behavior_analysis.json` from `scripts/analyze_process_behavior.py` | Lower-bound behavioral statistic over preserved r-tagged artifacts | Exact revision counts; reasoning-effort measurements; that untagged batches were never revised |
+| Failure attribution (v0.8) | 5 of 7 documented failure episodes are hypothesis-layer errors (protocol, abstraction, representation, task-selection) | `release/behavior_analysis.json` annotation table; paper v0.8 §5 episodes | Manual annotation of documented episodes, reported with sources | A derived measurement; a full-population failure taxonomy; that parameter errors never occur |
+| Adaptation modes (v0.8) | 4 explicit self-diagnosed / 2 human-triggered / 1 human-authorized adaptation episodes | `release/behavior_analysis.json` annotation table | Annotation of the documented episode set | Fully autonomous adaptation; absence of untraced in-flight adaptation |
+| State discipline (v0.8) | 2,859+ protected-file hashes; failed variants (C37_failed_camera, D37_modified_1930) preserved | `presentation/report/技术报告.md`; `release/behavior_analysis.json` | Evidence of history-preservation discipline | A correctness proof of the composed model |
 
 ## Editorial rule
 

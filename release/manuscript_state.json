@@ -12,13 +12,27 @@
     "lifecycle_stage": "developmental_revision",
     "review_maturity": "advisor_discussion",
     "target_venue": "",
-    "active_release": "astra-build-v0.8-academic-style"
+    "active_release": "astra-build-v0.8-analysis-report"
   },
   "artifacts": [
+    {
+      "id": "paper-v08",
+      "path": "paper/paper_v08_analysis.md",
+      "role": "main_manuscript_analysis_draft",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
     {
       "id": "paper-md",
       "path": "paper/paper_teacher_discussion.md",
       "role": "main_manuscript",
+      "status": "REFERENCE",
+      "required_for_release": true
+    },
+    {
+      "id": "behavior-analysis",
+      "path": "release/behavior_analysis.json",
+      "role": "structured_evidence",
       "status": "ACTIVE",
       "required_for_release": true
     },
@@ -109,6 +123,19 @@
       ],
       "status": "VERIFIED",
       "last_verified": "2026-09-16"
+    },
+    {
+      "id": "behavior-analysis",
+      "kind": "verified_primary_evidence",
+      "path_or_reference": "release/behavior_analysis.json (from scripts/analyze_process_behavior.py over read-only historical batch folders)",
+      "scope": [
+        "revision statistics",
+        "failure-mode annotations",
+        "adaptation annotations",
+        "operator prevalence"
+      ],
+      "status": "VERIFIED",
+      "last_verified": "2026-09-17"
     },
     {
       "id": "owner-model-config",
@@ -370,6 +397,11 @@
       "id": "D4",
       "status": "RESOLVED",
       "decision": "Website prose follows the project-scoped academic-writing-skills review contract; the final website prose candidate passed stock-prose and text-consistency audits on 2026-09-16."
+    },
+    {
+      "id": "D5",
+      "status": "RESOLVED",
+      "decision": "v0.8 reframes paper and website from outcome presentation to behavioral analysis of the agent under test, modeled on the robodojo gpt-6-astra-eval report style: model/harness decoupling, E1-E3 occupancy taxonomy, findings-first structure, negative results front-loaded. Paper lands as new file paper_v08_analysis.md (v0.7 retained as REFERENCE); website rewritten in place; tex sync deferred until venue decision."
     }
   ],
   "issues": [
@@ -398,12 +430,14 @@
   "release": {
     "status": "WORKING",
     "candidate_artifact_ids": [
+      "paper-v08",
       "paper-md",
       "paper-tex",
       "website",
       "website-html",
       "metrics",
-      "claims"
+      "claims",
+      "behavior-analysis"
     ],
     "required_checks": [
       "argument_structure",
@@ -420,12 +454,14 @@
       "functional_completeness"
     ],
     "checked_hashes": {
+      "paper-v08": "b2443bc51a89d15f25792b048169b3a2d61350ba695e3897c9fd9b6d822397bd",
       "paper-md": "3b5cde456033e837a22621c0fff5880c9692e2227410fd7d6a1d35cb7e1498ce",
       "paper-tex": "4e3bf3f3230796ba45a6177710c2ff86a0ac9bdfe7e9dd5630e25a628155f006",
-      "website": "41496d41323bd009ba0ac326dea26f7dd2e2edac38efec4afd3ff091cc376fcc",
-      "website-html": "e45ee7d1109d89bcc3b9d6a2fa9295125dd9727f2607e8eba06d4982a005b7fc",
+      "website": "f5135fa8a05ebedc096d595540c7a394fd457450d865361b20ff333d4f24b44b",
+      "website-html": "7cff7895a4ec9267356379d1b824d002fb77a7bad77dcd0fd3e585f1a5f68f85",
       "metrics": "4d03cc0108280f52cd454fe7b78ac62413ad2e46d15a959d9a95651591408789",
-      "claims": "c52f607bf24e482b4baf9cdff5e5bd57010546cc6dea93b9f9e8f9320822e3c8"
+      "claims": "7c1b5b11aab2b1a54f1f822edc4e0ff33aad2a4b32d1511f713270b6cba9295e",
+      "behavior-analysis": "22df5416a807a189e2c2f5d909a4a862d05e42432bcd3a711098d333f96c63b6"
     },
     "visual_check": "PARTIAL"
   }
