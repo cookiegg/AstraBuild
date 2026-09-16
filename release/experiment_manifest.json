@@ -1,0 +1,49 @@
+{
+  "release_name": "AstraBuild research draft v0.1",
+  "generated_on": "2026-09-16",
+  "working_title": "AstraBuild: Evidence-Grounded Agentic Reconstruction of Component-Level Substation Digital Twins",
+  "site": "220 kV Xialin Substation, Xuancheng",
+  "research_endpoint": {
+    "version": "D41",
+    "date": "2026-09-15",
+    "geometry_baseline": "D38.2",
+    "presentation_material_layer": "D40",
+    "semantic_inspection_layer": "D41",
+    "policy": "Report geometry, material, and semantic/inspection additions as separate layers. Do not merge their statistics without an explicit denominator."
+  },
+  "agent_configuration": {
+    "interface": "Codex",
+    "model": "GPT-6 Astra",
+    "reasoning_effort": "Extra High",
+    "provenance": "user_confirmed",
+    "historical_log_status": "not_found_in_inspected_blender_batch_records",
+    "claim_rule": "Treat model and reasoning-effort configuration as owner-supplied experiment metadata until a frozen first-party run manifest is attached."
+  },
+  "toolchain": {
+    "blender": "5.1.2",
+    "primary_execution_style": "Python-generated Blender scenes and validation scripts",
+    "historical_outputs_are_read_only_for_this_release": true
+  },
+  "study_type": "longitudinal single-site reconstruction case study",
+  "human_in_the_loop": true,
+  "autonomy_wording": "agent-driven, human-steerable closed-loop reconstruction",
+  "primary_sources": [
+    "experiments/blender-substation/presentation/report/技术报告.md",
+    "experiments/blender-substation/photo-first-pilot/README.md",
+    "experiments/blender-substation/photo-first-pilot/D38/README_D38.md",
+    "experiments/blender-substation/photo-first-pilot/D38/D38_evidence.md",
+    "experiments/blender-substation/photo-first-pilot/D40/README_D40.md",
+    "experiments/blender-substation/photo-first-pilot/D41/README_D41.md",
+    "experiments/blender-substation/photo-first-pilot/output/installation_D41/D41_completion.md",
+    "experiments/blender-substation/photo-first-pilot/output/installation_D41/D41_validation.json",
+    "experiments/blender-substation/photo-first-pilot/output/installation_D41/D41_part_world_locations.json"
+  ],
+  "external_style_and_related_work_references": [
+    "https://cheng-haha.github.io/GPT-Policy/",
+    "https://anonymous-report-421.github.io/public-website/index.html?lang=zh&view=1",
+    "https://robodojo-benchmark.com/report/gpt-6-astra-eval"
+  ],
+  "accuracy_disclaimer": "All reported centimeter-scale surface residuals are comparisons to the same photogrammetric reconstruction mesh used as a modeling reference; they are not independent survey accuracy.",
+  "release_status": "draft_for_research_writing_and_website_review"
+}
+

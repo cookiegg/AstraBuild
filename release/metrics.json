@@ -1,0 +1,181 @@
+{
+  "release": "AstraBuild worked-example release v0.7",
+  "metric_scope": "D38.2 geometry accounting unless a metric explicitly names another layer",
+  "study_type": "longitudinal single-site case study",
+  "headline": [
+    {
+      "id": "scene_objects",
+      "label_en": "Scene objects",
+      "label_zh": "场景对象",
+      "value": 37153,
+      "display": "37,153",
+      "scope": "D38.2/D40 geometry-equivalent project scale",
+      "source": "presentation/report/技术报告.md; D40/README_D40.md"
+    },
+    {
+      "id": "reconstruction_batches",
+      "label_en": "Core reconstruction batches",
+      "label_zh": "核心重建批次",
+      "value": 38,
+      "display": "38",
+      "scope": "core reconstruction history through D38; D40 and D41 are reported separately",
+      "source": "presentation/report/技术报告.md"
+    },
+    {
+      "id": "surface_records",
+      "label_en": "Surface comparison records",
+      "label_zh": "表面对照记录",
+      "value": 1550,
+      "display": "1,550",
+      "scope": "current residual ledger summarized in the historical technical report",
+      "source": "presentation/report/技术报告.md"
+    },
+    {
+      "id": "median_residual",
+      "label_en": "Median reference residual*",
+      "label_zh": "参考表面残差中位数*",
+      "value": 0.036,
+      "unit": "m",
+      "display": "3.6 cm*",
+      "scope": "same photogrammetric coarse-mesh reference; not independent survey accuracy",
+      "source": "presentation/report/技术报告.md"
+    },
+    {
+      "id": "instance_reuse",
+      "label_en": "Approx. object/mesh reuse",
+      "label_zh": "约对象/网格复用比",
+      "value": 9.5,
+      "unit": "x",
+      "display": "9.5×",
+      "scope": "37,153 objects / 3,916 mesh datablocks, approximate descriptive ratio",
+      "source": "presentation/report/技术报告.md"
+    },
+    {
+      "id": "protected_hashes",
+      "label_en": "Protected-file hashes",
+      "label_zh": "受保护文件哈希",
+      "value": 2859,
+      "display": "2,859+",
+      "scope": "B35-era chain and later report summary",
+      "source": "presentation/report/技术报告.md"
+    }
+  ],
+  "study_record": {
+    "core_batches": 38,
+    "build_scripts": 54,
+    "validate_scripts": 58,
+    "manifests": 150,
+    "validation_json": 71,
+    "installation_queue_versions": 28,
+    "coarse_reference_npz": 109,
+    "new_review_scenes": 719,
+    "note": "engineering-history counts, not IID samples",
+    "source": "presentation/report/技术报告.md"
+  },
+  "geometry": {
+    "surface_residual_m": {
+      "n": 1550,
+      "median": 0.036,
+      "p90": 0.084,
+      "p95": 0.116,
+      "reference": "same photogrammetric coarse mesh",
+      "independent_survey_accuracy": false
+    },
+    "pre_fit_reference_m": {
+      "n": 450,
+      "median": 0.093,
+      "max": 74.99,
+      "note": "Historical before-fit comparisons used for before/after engineering diagnosis; not a uniform accuracy distribution."
+    },
+    "five_cm_screen": {
+      "pass": 149,
+      "not_pass": 101,
+      "total": 250,
+      "pass_fraction": 0.596,
+      "policy": "non-passing checks remain visible in the rolling queue rather than being deleted or relabeled",
+      "interpretation": "validation-screen ledger, not task success rate"
+    }
+  },
+  "coverage_case": {
+    "description": "Selected high-region occupancy audit used as a trigger to move from inventory-driven completion to coverage-driven reconstruction.",
+    "beyond_1m_fraction_before": 0.788,
+    "beyond_1m_fraction_after": 0.146,
+    "delta_percentage_points": -64.2,
+    "gis220_median_m_before": 8.12,
+    "gis220_median_m_after": 0.15,
+    "transformer_median_m_before": 3.15,
+    "transformer_median_m_after": 0.06,
+    "source": "presentation/report/技术报告.md, B25/B26 summary"
+  },
+  "engineering_scale": {
+    "scenes": 755,
+    "collections": 858,
+    "mesh_datablocks": 3916,
+    "objects": 37153,
+    "vertices": 29986649,
+    "new_review_scenes": 719,
+    "new_root_objects_B14_B36": 9022,
+    "busbar_m": 88.8,
+    "insulator_discs": 804,
+    "ground_area_m2": 10182,
+    "main_building_components": 946,
+    "descriptive_object_mesh_ratio": 9.5
+  },
+  "semantic": {
+    "station_part_map_devices": 151,
+    "semantic_groups_attached": 100,
+    "official_names_total": 106,
+    "official_names_linked": 76,
+    "official_names_unmatched": 30,
+    "transformer_pilot": {
+      "semantic_meshes": 189,
+      "part_classes": 26,
+      "unclassified_meshes": 0,
+      "official_inspection_points": 36,
+      "model_part_points": 31,
+      "external_component_points": 4,
+      "nonvisual_points": 1
+    },
+    "source": "part-annotation/README.md; presentation/report/技术报告.md"
+  },
+  "d38_human_feedback": {
+    "template_ncc_clean": 0.94,
+    "template_ncc_overlay": 0.92,
+    "template_scale": 0.94,
+    "false_cabinet_groups": 3,
+    "quarantined_cabinet_objects": 9,
+    "gis_gaps": 3,
+    "additional_fire_room": 1,
+    "note": "D38.1 equipment-orientation semantics were revised in D38.2 after overlay review",
+    "source": "photo-first-pilot/D38/D38_evidence.md; photo-first-pilot/D38/README_D38.md"
+  },
+  "d40": {
+    "role": "material-only presentation layer",
+    "geometry_invariant_check": true,
+    "material_categories": 6,
+    "assigned_objects_reported": 1896,
+    "source": "photo-first-pilot/D40/README_D40.md"
+  },
+  "d41": {
+    "date": "2026-09-15",
+    "validation_ok": true,
+    "added_accessory_meshes": 79,
+    "inspection_part_classes_per_transformer": 17,
+    "instances": ["T1", "T2"],
+    "affine_alignment": {
+      "x_scale": 1.3235,
+      "y_scale": 1.3167,
+      "z_expression": "0.16 + (z - 0.45) * 1.1567"
+    },
+    "source": "photo-first-pilot/output/installation_D41/D41_completion.md"
+  },
+  "claim_disclaimers": [
+    "Surface residuals are not independent survey accuracy.",
+    "The coarse mesh is both a reconstruction input/reference and the comparison surface for these residuals.",
+    "The study is a longitudinal single-site case study, not an IID task benchmark.",
+    "Human review and intervention are part of the workflow; the release does not claim fully autonomous reconstruction.",
+    "Codex + GPT-6 Astra + Extra High reasoning is user-confirmed experiment configuration and was not found embedded in the inspected historical batch records.",
+    "The 5 cm screening ledger is not a model accuracy or task success rate.",
+    "The 78.8%→14.6% coverage-gap change is for a selected high-region audit and is not whole-station completeness."
+  ]
+}

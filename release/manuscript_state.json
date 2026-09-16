@@ -1,0 +1,432 @@
+{
+  "schema_version": "1.1",
+  "project": {
+    "id": "astrabuild",
+    "title": "AstraBuild: GPT-6 Astra as a Long-Horizon 3D Engineering Agent for Component-Level Substation Reconstruction",
+    "archetype": "longitudinal methods-and-systems case study",
+    "study_designs": [
+      "AI/LLM-based study",
+      "computational engineering case study",
+      "framework/methods paper"
+    ],
+    "lifecycle_stage": "developmental_revision",
+    "review_maturity": "advisor_discussion",
+    "target_venue": "",
+    "active_release": "astra-build-v0.8-academic-style"
+  },
+  "artifacts": [
+    {
+      "id": "paper-md",
+      "path": "paper/paper_teacher_discussion.md",
+      "role": "main_manuscript",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "paper-tex",
+      "path": "paper/paper.tex",
+      "role": "latex_manuscript",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "website",
+      "path": "release/website_prose_candidate.txt",
+      "role": "interactive_technical_report",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "website-html",
+      "path": "website/index.html",
+      "role": "web_delivery",
+      "status": "REFERENCE",
+      "required_for_release": true
+    },
+    {
+      "id": "metrics",
+      "path": "release/metrics.json",
+      "role": "structured_evidence",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "claims",
+      "path": "release/claim_matrix.md",
+      "role": "claim_evidence_registry",
+      "status": "ACTIVE",
+      "required_for_release": true
+    }
+  ],
+  "authority_sources": [
+    {
+      "id": "historical-batches",
+      "kind": "verified_primary_evidence",
+      "path_or_reference": "../../photo-first-pilot/output + ../../photo-first-pilot/installation",
+      "scope": [
+        "methods",
+        "results",
+        "figures",
+        "batch history",
+        "review pages"
+      ],
+      "status": "VERIFIED",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "id": "technical-report",
+      "kind": "current_methods_results",
+      "path_or_reference": "../report/技术报告.md",
+      "scope": [
+        "methods",
+        "results",
+        "numbers",
+        "limitations"
+      ],
+      "status": "VERIFIED",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "id": "metrics-registry",
+      "kind": "verified_primary_evidence",
+      "path_or_reference": "metrics.json",
+      "scope": [
+        "numbers",
+        "version boundary",
+        "D41 semantics"
+      ],
+      "status": "VERIFIED",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "id": "claim-matrix",
+      "kind": "claim_scope_registry",
+      "path_or_reference": "claim_matrix.md",
+      "scope": [
+        "claims",
+        "nonclaims",
+        "measurement interpretation"
+      ],
+      "status": "VERIFIED",
+      "last_verified": "2026-09-16"
+    },
+    {
+      "id": "owner-model-config",
+      "kind": "author_confirmed_metadata",
+      "path_or_reference": "owner confirmation in current conversation",
+      "scope": [
+        "model identifier",
+        "reasoning effort",
+        "Codex interface"
+      ],
+      "status": "VERIFIED",
+      "last_verified": "2026-09-16"
+    }
+  ],
+  "contract": {
+    "gap": "Registered photogrammetric geometry and field imagery do not directly provide the editable component hierarchy, reusable asset structure, site-specific connections, persistent revision history, or inspection-addressable semantics required by the target engineering digital twin.",
+    "task": "Characterize how one GPT-6 Astra/Codex engineering workflow reconstructs heterogeneous substation equipment and infrastructure within one persistent Blender/Python state, and document how task-level outputs accumulate into a component-level station model.",
+    "outcomes": [
+      "task-level editable component reconstructions",
+      "historical same-camera review evidence",
+      "preserved revision/failure traces",
+      "station-scale integrated model",
+      "D41 inspection-semantic augmentation"
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "text": "Can one general-purpose reasoning agent operate across heterogeneous component-level 3D reconstruction tasks and compose the resulting assets into a persistent industrial digital twin?",
+        "lock": "SEMANTIC"
+      }
+    ],
+    "contribution": "A longitudinal, evidence-grounded case study of a general-purpose reasoning model operating a persistent 3D engineering workflow across heterogeneous reconstruction tasks, with auditable intermediate artifacts, revision histories, and station-scale integration.",
+    "nonclaims": [
+      "not survey-grade reconstruction accuracy",
+      "not a fully autonomous workflow",
+      "not an IID benchmark",
+      "not a matched model leaderboard",
+      "not evidence of cross-site generalization",
+      "not proof that internal model chain-of-thought is recoverable from historical artifacts"
+    ]
+  },
+  "semantic_locks": [
+    {
+      "id": "study-design",
+      "kind": "SEMANTIC",
+      "canonical": "longitudinal single-site case study; later batches inherit earlier engineering state"
+    },
+    {
+      "id": "geometry-boundary",
+      "kind": "SEMANTIC",
+      "canonical": "D38.2 is the core geometry baseline; D40 is presentation-only and geometry-invariant; D41 is the additive inspection-semantic endpoint"
+    },
+    {
+      "id": "residual-boundary",
+      "kind": "SEMANTIC",
+      "canonical": "reference-surface residuals are against the same photogrammetric mesh used during reconstruction and are not independent survey accuracy"
+    },
+    {
+      "id": "human-role",
+      "kind": "SEMANTIC",
+      "canonical": "human feedback materially affects B08, B36, D38 and semantic audit decisions; the workflow is human-steerable rather than fully autonomous"
+    },
+    {
+      "id": "model-provenance",
+      "kind": "SEMANTIC",
+      "canonical": "Codex + GPT-6 Astra Extra High is owner-confirmed experimental metadata; old batch manifests do not independently freeze the model configuration"
+    }
+  ],
+  "terminology": [
+    {
+      "concept": "study type",
+      "preferred": "longitudinal single-site case study",
+      "prohibited": [
+        "benchmark study",
+        "controlled benchmark"
+      ]
+    },
+    {
+      "concept": "photogrammetry input",
+      "preferred": "registered photogrammetric reference / coarse geometry",
+      "prohibited": [
+        "ground truth mesh",
+        "survey ground truth"
+      ]
+    },
+    {
+      "concept": "output",
+      "preferred": "editable component-level station model / digital twin",
+      "prohibited": [
+        "perfect digital twin"
+      ]
+    },
+    {
+      "concept": "human interaction",
+      "preferred": "human-steerable correction / human review",
+      "prohibited": [
+        "fully autonomous correction"
+      ]
+    },
+    {
+      "concept": "review evidence",
+      "preferred": "Clean / Overlay / Reference review",
+      "prohibited": []
+    }
+  ],
+  "style_profile": {
+    "language_variant": "English research prose with Chinese parallel translation on website",
+    "protected_terms": [
+      "GPT-6 Astra",
+      "Codex",
+      "AstraBuild",
+      "MASTER",
+      "SITE",
+      "Clean",
+      "Overlay",
+      "Reference",
+      "D38.2",
+      "D40",
+      "D41"
+    ],
+    "discouraged_phrases": [
+      "The central question is not",
+      "The strongest evidence",
+      "This is the main",
+      "not merely",
+      "not just",
+      "What makes this",
+      "We therefore present",
+      "Taken together",
+      "Overall,",
+      "This section",
+      "The most informative",
+      "This is important because"
+    ],
+    "preferred_open_compounds": [
+      "digital twin",
+      "engineering state",
+      "review page"
+    ],
+    "allowed_repetitions": [
+      "registered photogrammetric reference",
+      "persistent engineering state",
+      "task-native validation"
+    ],
+    "sentence_opening_words": 4,
+    "phrase_words": 5,
+    "phrase_min_occurrences": 3
+  },
+  "facts": [
+    {
+      "id": "core-batches",
+      "value": 38,
+      "source_id": "metrics-registry",
+      "expected_strings": [
+        "38 core"
+      ],
+      "scope_roles": [
+        "interactive_technical_report"
+      ]
+    },
+    {
+      "id": "task-families",
+      "value": 12,
+      "source_id": "metrics-registry",
+      "expected_strings": [
+        "12"
+      ],
+      "scope_roles": [
+        "interactive_technical_report"
+      ]
+    },
+    {
+      "id": "scene-objects",
+      "value": 37153,
+      "source_id": "metrics-registry",
+      "expected_strings": [
+        "37,153"
+      ],
+      "scope_roles": [
+        "interactive_technical_report"
+      ]
+    },
+    {
+      "id": "review-pages",
+      "value": 32,
+      "source_id": "historical-batches",
+      "expected_strings": [
+        "32"
+      ],
+      "scope_roles": [
+        "interactive_technical_report"
+      ]
+    },
+    {
+      "id": "surface-records",
+      "value": 1550,
+      "source_id": "metrics-registry",
+      "expected_strings": [
+        "1,550"
+      ],
+      "scope_roles": [
+        "interactive_technical_report"
+      ]
+    },
+    {
+      "id": "reuse-ratio",
+      "value": "~9.5x descriptive object/mesh ratio",
+      "source_id": "metrics-registry",
+      "expected_strings": [
+        "9.5"
+      ],
+      "scope_roles": [
+        "interactive_technical_report"
+      ]
+    },
+    {
+      "id": "d41-accessories",
+      "value": "79 accessory meshes; 17 selected inspection-relevant classes on T1 and T2",
+      "source_id": "metrics-registry",
+      "expected_strings": [
+        "79",
+        "17"
+      ],
+      "scope_roles": [
+        "interactive_technical_report"
+      ]
+    }
+  ],
+  "alignment": [
+    {
+      "question_id": "Q1",
+      "method": "Persistent Blender/Python reconstruction workflow using registered coarse geometry, field imagery, engineering records, prior batch state, deterministic execution, task-specific validation, and preserved review/revision artifacts.",
+      "evidence": "38 core batches; 12 task families; 32 original review pages; process dossiers; task-native validation ledgers; representative preserved failures and revisions; station integration artifacts.",
+      "result": "The workflow produced heterogeneous editable task outputs that were retained, revised, reused, connected, and integrated into a 37,153-object station model, followed by D41 inspection-semantic augmentation.",
+      "interpretation": "Within this single-site longitudinal case, one general-purpose reasoning-agent workflow operated across heterogeneous 3D engineering tasks while maintaining persistent external engineering state.",
+      "limitation": "No matched model comparison, independent survey truth, or cross-site replication; human feedback materially affected several trajectories; model metadata are owner-confirmed rather than independently recoverable from legacy logs.",
+      "contribution": "Documents the task breadth, observable revision behavior, process evidence, and system-level composition of a persistent 3D engineering agent workflow.",
+      "status": "SUPPORTED_WITH_LIMITATIONS"
+    }
+  ],
+  "dimensions": [],
+  "decisions": [
+    {
+      "id": "D1",
+      "status": "RESOLVED",
+      "decision": "Website should read as an interactive technical report, not a product landing page or benchmark dashboard."
+    },
+    {
+      "id": "D2",
+      "status": "RESOLVED",
+      "decision": "Original batch review.html pages are primary task-level qualitative evidence."
+    },
+    {
+      "id": "D3",
+      "status": "RESOLVED",
+      "decision": "Kimi/specialist 3D baselines are out of scope for the current advisor-discussion draft."
+    },
+    {
+      "id": "D4",
+      "status": "RESOLVED",
+      "decision": "Website prose follows the project-scoped academic-writing-skills review contract; the final website prose candidate passed stock-prose and text-consistency audits on 2026-09-16."
+    }
+  ],
+  "issues": [
+    {
+      "id": "I1",
+      "status": "RESOLVED",
+      "severity": "S3",
+      "evidence_status": "CONFIRMED",
+      "description": "No independent survey/LiDAR truth; geometric residuals use correlated photogrammetric reference. This is retained as an explicit validity limitation and claim boundary."
+    },
+    {
+      "id": "I2",
+      "status": "RESOLVED",
+      "severity": "S3",
+      "evidence_status": "CONFIRMED",
+      "description": "Single-site longitudinal case does not establish cross-site generalization. This is retained as an explicit scope limitation."
+    },
+    {
+      "id": "I3",
+      "status": "RESOLVED",
+      "severity": "S2",
+      "evidence_status": "CONFIRMED",
+      "description": "Legacy batch records do not independently freeze model/reasoning-effort metadata; the current manuscript labels the configuration as owner-confirmed metadata."
+    }
+  ],
+  "release": {
+    "status": "WORKING",
+    "candidate_artifact_ids": [
+      "paper-md",
+      "paper-tex",
+      "website",
+      "website-html",
+      "metrics",
+      "claims"
+    ],
+    "required_checks": [
+      "argument_structure",
+      "evidence_scope",
+      "scholarly_writing",
+      "delivery_integrity",
+      "functional_completeness"
+    ],
+    "completed_checks": [
+      "argument_structure",
+      "evidence_scope",
+      "scholarly_writing",
+      "delivery_integrity",
+      "functional_completeness"
+    ],
+    "checked_hashes": {
+      "paper-md": "3b5cde456033e837a22621c0fff5880c9692e2227410fd7d6a1d35cb7e1498ce",
+      "paper-tex": "4e3bf3f3230796ba45a6177710c2ff86a0ac9bdfe7e9dd5630e25a628155f006",
+      "website": "41496d41323bd009ba0ac326dea26f7dd2e2edac38efec4afd3ff091cc376fcc",
+      "website-html": "e45ee7d1109d89bcc3b9d6a2fa9295125dd9727f2607e8eba06d4982a005b7fc",
+      "metrics": "4d03cc0108280f52cd454fe7b78ac62413ad2e46d15a959d9a95651591408789",
+      "claims": "c52f607bf24e482b4baf9cdff5e5bd57010546cc6dea93b9f9e8f9320822e3c8"
+    },
+    "visual_check": "PARTIAL"
+  }
+}
