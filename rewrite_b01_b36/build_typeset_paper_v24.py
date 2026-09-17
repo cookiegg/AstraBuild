@@ -54,8 +54,8 @@ if ntable not in (0, 1):
 
 figure_specs = {
     1: ('figure_v24/hybrid_pdf/fig01_overview_v24.pdf', 0.340, 'fig:overview'),
-    2: ('figures/fig02_longitudinal_map_b01_b36.png', 0.255, 'fig:timeline'),
-    3: ('figures/fig03_operator_portfolio_b01_b36.png', 0.245, 'fig:operators'),
+    2: ('figures/fig02_longitudinal_map_b01_b36.png', 0.340, 'fig:timeline'),
+    3: ('figures/fig03_operator_portfolio_b01_b36.png', 0.285, 'fig:operators'),
     4: ('figure_v24/hybrid_pdf/fig04_transitions_v24.pdf', 0.440, 'fig:transitions'),
     5: ('figure_v24/hybrid_pdf/fig05_persistence_v24.pdf', 0.420, 'fig:persistence'),
 }

@@ -36,7 +36,7 @@ plt.rcParams.update({
 
 
 def crop_img(path, ratio=None):
-    im = Image.open(path).convert('RGB')
+    im = path.convert('RGB') if isinstance(path, Image.Image) else Image.open(path).convert('RGB')
     if ratio:
         w, h = im.size
         sr = w / h
@@ -49,6 +49,26 @@ def crop_img(path, ratio=None):
             top = max(0, (h - nh) // 2)
             im = im.crop((0, top, w, top + nh))
     return im
+
+
+def relight_dark(im, bg_target=(241, 243, 248), bg_tol=42, gamma=0.62):
+    """Re-light dark viewport renders for a light figure page: invert
+    low-saturation wireframe, else replace dark bg + gamma-lift (hue kept)."""
+    import numpy as np
+    a = np.asarray(im.convert('RGB'), dtype=float) / 255.0
+    corners = np.concatenate([a[:40, :40].reshape(-1, 3), a[:40, -40:].reshape(-1, 3),
+                              a[-40:, :40].reshape(-1, 3), a[-40:, -40:].reshape(-1, 3)])
+    bg = np.median(corners, axis=0)
+    if bg.mean() > 0.55:
+        return im.convert('RGB')
+    dist = np.abs(a - bg).sum(axis=2)
+    content = a[dist >= bg_tol / 255.0 * 3]
+    sat = float(np.abs(content.max(axis=1) - content.min(axis=1)).mean()) if content.size else 0.0
+    if sat < 0.03:
+        return Image.fromarray(((1.0 - a) * 255).astype('uint8'))
+    out = np.power(a, gamma)
+    out[dist < bg_tol / 255.0 * 3] = np.array(bg_target) / 255.0
+    return Image.fromarray((out * 255).astype('uint8'))
 
 
 def hist(rel):
@@ -183,14 +203,14 @@ def build_fig1():
 
 
 def build_fig2():
-    fig = plt.figure(figsize=(15.3, 7.8))
-    ax = fig.add_axes([.055, .08, .91, .84]); ax.axis('off')
+    fig = plt.figure(figsize=(15.3, 7.0))
+    ax = fig.add_axes([.045, .06, .92, .86]); ax.axis('off')
     ax.set_xlim(0.3, 36.7); ax.set_ylim(0, 10)
-    ax.text(.35, 9.78, 'B01–B36: one sequential reconstruction record',
-            fontsize=18, fontweight='bold', va='top')
-    ax.text(.35, 9.26,
+    ax.text(.35, 9.85, 'B01–B36: one sequential reconstruction record',
+            fontsize=20, fontweight='bold', va='top')
+    ax.text(.35, 9.15,
             'Four descriptive target bands orient the chronology; eight anchor batches locate the decisions analyzed in the main text. The bands are not a common difficulty scale.',
-            fontsize=9.5, color=MUTED, va='top')
+            fontsize=11.5, color=MUTED, va='top')
 
     bands = [
         (1, 6, 'Local fitted structures', SOFT_BLUE, BLUE),
@@ -198,63 +218,62 @@ def build_fig2():
         (20, 30, 'Connected systems', SOFT_ORANGE, ORANGE),
         (31, 36, 'Site closure', SOFT_TEAL, TEAL),
     ]
-    # Timeline band at y=4.1
-    y0, bh = 4.05, .82
-    for a,b,label,fc,ec in bands:
-        ax.add_patch(FancyBboxPatch((a-.45,y0), (b-a+1)-.1, bh,
+    # Band thumbnails span their band exactly; each carries the band title.
+    thumbs = [
+        hist('installation_B01/B01_front_overlay.jpg'),
+        hist('installation_B08/42_B08_Transformer_Pair_r2.png'),
+        hist('installation_B23/r3/480_B23_T1_Neutral_Oblique_Overlay.png'),
+        hist('installation_B36/r3_previews/757_B36_Station_Clean.png'),
+    ]
+    AX_L, AX_W = .045, .92
+    X0, XW = 0.3, 36.4
+
+    def fx(data_x):
+        return AX_L + AX_W * (data_x - X0) / XW
+
+    TH_Y, TH_H = .50, .27
+    for (a, b, label, fc, ec), p in zip(bands, thumbs):
+        left = fx(a - .45)
+        width = fx(b + .45) - left
+        rect = [left + .006, TH_Y, width - .012, TH_H]
+        ia = fig.add_axes(rect)
+        ia.imshow(crop_img(relight_dark(Image.open(p)), rect[2] / rect[3] * (15.3 / 7.0))); ia.set_xticks([]); ia.set_yticks([])
+        for s in ia.spines.values():
+            s.set_color(ec); s.set_linewidth(1.4)
+        ia.set_title(f'B{a:02d}–B{b:02d} · {label}', fontsize=13, fontweight='bold',
+                     loc='center', pad=5, color=ec)
+
+    # Slim timeline strip with all 36 ticks.
+    y0, bh = 3.5, .8
+    for a, b, label, fc, ec in bands:
+        ax.add_patch(FancyBboxPatch((a - .45, y0), (b - a + 1) - .1, bh,
                                     boxstyle='round,pad=.015,rounding_size=.08',
                                     fc=fc, ec=ec, lw=1.0))
-        ax.text((a+b)/2, y0+.57, f'B{a:02d}–B{b:02d}', ha='center', va='center',
-                fontsize=9.0, fontweight='bold', color=ec)
-        ax.text((a+b)/2, y0+.24, label, ha='center', va='center',
-                fontsize=8.2, color=INK)
+    for bn in range(1, 37):
+        ax.plot([bn, bn], [y0 - .26, y0 - .02], color='#8E98A5', lw=.8)
+        if bn in (1, 6, 7, 19, 20, 30, 31, 36):
+            ax.text(bn, y0 - .42, f'B{bn:02d}', ha='center', va='top', fontsize=9.5, color=MUTED)
 
-    # 36 ticks
-    for b in range(1,37):
-        ax.plot([b,b],[3.76,4.01], color='#8E98A5', lw=.65)
-        if b in [1,6,7,19,20,30,31,36]:
-            ax.text(b,3.57,f'B{b:02d}',ha='center',va='top',fontsize=7.1,color=MUTED)
-
-    # Representative thumbnails by band
-    thumbs = [
-        (3.5, hist('installation_B01/B01_front_overlay.jpg'), 'Local fit'),
-        (13, hist('installation_B08/42_B08_Transformer_Pair_r2.png'), 'Reusable equipment'),
-        (25, hist('installation_B23/r3/480_B23_T1_Neutral_Oblique_Overlay.png'), 'Connected representation'),
-        (33.5, hist('installation_B36/r3_previews/757_B36_Station_Clean.png'), 'Accumulated site state'),
-    ]
-    for x,p,label in thumbs:
-        # convert data x to figure-ish axes coordinates by inset in data transform
-        xfrac = (x-0.3)/(36.4)
-        rect = [.055 + .91*xfrac - .068, .605, .136, .185]
-        ia = fig.add_axes(rect)
-        ia.imshow(crop_img(p, rect[2]/rect[3])); ia.set_xticks([]); ia.set_yticks([])
-        for s in ia.spines.values(): s.set_color(GRID); s.set_linewidth(.9)
-        ia.set_title(label, fontsize=8.7, fontweight='bold', loc='left', pad=3)
-
-    # Anchor callouts; alternate above/below timeline to avoid crowding.
+    # Anchor callouts in two staggered rows below the timeline.
     anchors = [
-        (1.5, 5.35, 'B01/B02', 'define / revise\ncomparison domain', BLUE),
-        (8, 2.55, 'B08', 'shared transformer\nMASTER', PURPLE),
-        (15, 5.35, 'B15', 'revise reusable vs\nsite boundary', PURPLE),
-        (20, 2.55, 'B20', 'ports + route\nplanning', ORANGE),
-        (23, 5.35, 'B23', 'straight → curved\nrepresentation', ORANGE),
-        (25.5, 2.55, 'B25/B26', 'coverage becomes a\ntask-selection signal', ORANGE),
-        (29, 5.35, 'B29', 'endpoint constraints\nacross subsystems', ORANGE),
-        (36, 2.55, 'B36', 'preservation +\ninterference closure', TEAL),
+        (1.5, 2.15, 'B01/B02', 'define / revise\ncomparison domain', BLUE),
+        (15, 2.15, 'B15', 'revise reusable vs\nsite boundary', PURPLE),
+        (23, 2.15, 'B23', 'straight → curved\nrepresentation', ORANGE),
+        (28.6, 2.15, 'B29', 'endpoint constraints\nacross subsystems', ORANGE),
+        (8, 0.95, 'B08', 'shared transformer\nMASTER', PURPLE),
+        (19.6, 0.95, 'B20', 'ports + route\nplanning', ORANGE),
+        (25.6, 0.95, 'B25/B26', 'coverage becomes a\ntask-selection signal', ORANGE),
+        (34.8, 0.95, 'B36', 'preservation +\ninterference closure', TEAL),
     ]
-    for x,yy,batch,label,color in anchors:
-        target_y = y0+bh if yy>4 else y0
-        ax.plot([x,x],[target_y, yy-.15 if yy>4 else yy+.62], color=color, lw=1.0)
-        ax.scatter([x],[y0+bh/2], s=34, color=color, edgecolor='white', linewidth=.7, zorder=4)
-        ax.text(x, yy, batch, ha='center', va='bottom', fontsize=8.8, fontweight='bold', color=color)
-        ax.text(x, yy-.08, label, ha='center', va='top', fontsize=7.7, color=INK, linespacing=1.18)
+    for x, yy, batch, label, color in anchors:
+        ax.plot([x, x], [yy + .66, y0], color=color, lw=1.1)
+        ax.scatter([x], [y0 + bh / 2], s=52, color=color, edgecolor='white', linewidth=.9, zorder=4)
+        ax.text(x, yy, batch, ha='center', va='bottom', fontsize=11.5, fontweight='bold', color=color)
+        ax.text(x, yy - .1, label, ha='center', va='top', fontsize=9.8, color=INK, linespacing=1.18)
 
-    ax.text(.4, .55,
+    ax.text(.4, .05,
             'Orientation only: later tasks inherit accepted earlier state, so the chronology records a growing engineering world rather than 36 repeated trials of one fixed task.',
-            fontsize=8.3, color=MUTED, va='bottom')
-    ax.text(.4, .15,
-            'Figure 2. Longitudinal study map. The eight anchors identify the evidence used to explain changes in comparison domains, reuse boundaries, connected representations, coverage-driven closure, and inherited-state integration.',
-            fontsize=7.8, color=MUTED, va='bottom')
+            fontsize=10, color=MUTED, va='bottom')
     save(fig, 'fig02_longitudinal_map_b01_b36')
 
 

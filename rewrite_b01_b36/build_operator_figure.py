@@ -69,14 +69,26 @@ def write_csv(batches: list[dict], matrix: np.ndarray) -> None:
 def draw(batches: list[dict], matrix: np.ndarray) -> None:
     FIG_DIR.mkdir(parents=True, exist_ok=True)
     fig, ax = plt.subplots(figsize=(15.2, 5.6))
-    cmap = ListedColormap(["#f2f2f2", "#222222"])
-    ax.imshow(matrix, aspect="auto", interpolation="nearest", cmap=cmap, vmin=0, vmax=1)
-
+    # Empty cells carry the band tint; filled cells stay crisp ink. Build the
+    # RGB array directly so tints never wash over the ink cells.
+    def hex2rgb(h):
+        return tuple(int(h[i:i+2], 16) / 255.0 for i in (1, 3, 5))
+    BAND_TINTS = ["#EAF1FA", "#F0EDF7", "#FAF1E5", "#EAF6F3"]
+    INK_CELL = hex2rgb("#253347")
+    rgb = np.zeros((len(ROWS), 36, 3))
+    for col in range(36):
+        tint = next(hex2rgb(t) for (a, b, _), t in zip(BANDS, BAND_TINTS) if a - 1 <= col <= b - 1)
+        rgb[:, col, :] = tint
+    rgb[matrix == 1] = INK_CELL
+    ax.imshow(rgb, aspect="auto", interpolation="nearest")
     ax.set_yticks(range(len(ROWS)))
-    ax.set_yticklabels([r[0] for r in ROWS], fontsize=9.5)
+    ax.set_yticklabels([r[0] for r in ROWS], fontsize=10.5)
     ax.set_xticks(range(36))
-    ax.set_xticklabels([d["batch"] for d in batches], rotation=90, fontsize=7.4)
-    ax.set_xlabel("Sequential reconstruction batch", fontsize=10)
+    ax.set_xticklabels([d["batch"] for d in batches], rotation=90, fontsize=8.5)
+    ax.set_xlabel("Sequential reconstruction batch", fontsize=10.5)
+    for i, (label, _) in enumerate(ROWS):
+        ax.text(36.0, i, f"{int(matrix[i].sum())}/36", ha="left", va="center",
+                fontsize=9.5, color="#5F6B7A", clip_on=False)
 
     # Thin cell boundaries improve readability without turning the figure into a table.
     ax.set_xticks(np.arange(-0.5, 36, 1), minor=True)
@@ -91,24 +103,14 @@ def draw(batches: list[dict], matrix: np.ndarray) -> None:
         if start > 1:
             ax.axvline(x0 - 0.5, linewidth=1.15, color="black")
         xc = (x0 + x1) / 2
-        ax.text(xc, -1.00, label, ha="center", va="bottom", fontsize=9.2, fontweight="bold", clip_on=False)
+        ax.text(xc, -1.00, label, ha="center", va="bottom", fontsize=10.5, fontweight="bold", clip_on=False)
 
     ax.set_title(
         "B01-B36 operator portfolio reconstructed from preserved workflow artifacts",
-        fontsize=12.5,
+        fontsize=13.5,
         pad=34,
     )
-    fig.text(
-        0.5,
-        0.012,
-        "Black cells indicate a named preserved stage or original interactive review artifact. "
-        "Build and validate form the common backbone (36/36) and are omitted from the matrix. "
-        "The record is descriptive, not standardized action telemetry.",
-        ha="center",
-        va="bottom",
-        fontsize=8.5,
-    )
-    fig.subplots_adjust(left=0.13, right=0.99, top=0.80, bottom=0.24)
+    fig.subplots_adjust(left=0.12, right=0.94, top=0.84, bottom=0.20)
     fig.savefig(FIG_DIR / "fig03_operator_portfolio_b01_b36.svg", bbox_inches="tight")
     fig.savefig(FIG_DIR / "fig03_operator_portfolio_b01_b36.pdf", bbox_inches="tight")
     fig.savefig(FIG_DIR / "fig03_operator_portfolio_b01_b36.png", dpi=220, bbox_inches="tight")
