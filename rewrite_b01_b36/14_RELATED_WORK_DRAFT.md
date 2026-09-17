@@ -1,0 +1,19 @@
+# 4 Related work
+
+## 4.1 Structured reverse engineering from 3D observations
+
+AstraBuild shares with CAD reverse-engineering research the goal of converting sampled geometry into an editable, structured representation. Point2CAD reconstructs structured CAD surfaces and topology from point clouds through a hybrid analytic-neural pipeline [@liu2024point2cad]. CAD-Recode instead predicts executable Python code that reconstructs a parametric CAD sequence from point-cloud input [@rukhovich2024cadrecode]. These methods make structure, editability, and executable representations part of the reconstruction target rather than treating a sampled surface as the final output.
+
+The setting considered here differs in scale and task structure. B01–B36 spans equipment assemblies, finite site connections, flexible conductors, and civil structures inside one inherited station scene. The desired representation changes across those tasks, and later geometry is constrained by components and endpoints produced earlier. AstraBuild therefore studies a persistent sequence of heterogeneous reverse-engineering operations rather than a fixed object-level mapping from a point cloud to one CAD representation.
+
+## 4.2 Language models for programmatic 3D construction
+
+3D-GPT and SceneCraft provide direct precedents for using language models to express 3D construction through executable programs. 3D-GPT decomposes procedural modeling into cooperating language-model roles that produce Blender operations [@sun2023threegpt]. SceneCraft constructs a scene graph, translates spatial relations into numerical constraints and Blender code, renders the resulting scene, and iteratively refines it through visual feedback [@hu2024scenecraft]. Both demonstrate that language models can operate over procedural 3D abstractions rather than outputting only text descriptions.
+
+AstraBuild uses a similar executable interface for a different inference direction. Its target is a registered physical site whose geometry, component reuse, and connections are constrained by photogrammetric reference data, field images, engineering records, and previously accepted state. Program execution is followed by task-specific geometric validation, and the accepted result becomes part of the next reconstruction problem. The central question is consequently how a general-purpose model organizes changing reverse-engineering operations under physical and inherited constraints, rather than how well a language description can be synthesized into a plausible scene.
+
+## 4.3 Long-horizon tool-using agents
+
+Long-horizon agents provide a second conceptual precedent. Voyager combines executable code, environment feedback, iterative program improvement, and a persistent skill library in an open-ended embodied environment [@wang2023voyager]. Code as Policies similarly treats language-model outputs as executable programs that compose API-level actions [@liang2023code]. GPT-Policy studies a vision-language model acting through a constrained controller while conditioning on examples, demonstrations, feedback, and persistent run context [@cheng2026gptpolicy]. These systems motivate an experimental view in which a model is evaluated through its interaction with explicit tools and state rather than by an isolated text response.
+
+AstraBuild applies that view to reverse engineering of a physical industrial site. Its action space consists of reconstruction programs and engineering operators; its feedback includes registered geometry, rendered comparisons, task-specific validators, and inherited scene state. Existing work therefore supplies three complementary precedents: structured reverse engineering, executable 3D generation, and long-horizon tool use. B01–B36 records their interaction within one persistent industrial reconstruction process.

@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.1",
+  "project": {
+    "id": "astrabuild-b01-b36-rewrite",
+    "title": "AstraBuild: B01-B36 clean-sheet rewrite",
+    "archetype": "longitudinal methods-and-systems field study",
+    "study_designs": [
+      "AI/LLM-based study",
+      "computational engineering case study",
+      "longitudinal systems study"
+    ],
+    "lifecycle_stage": "typeset_advisor_draft",
+    "review_maturity": "typeset_full_draft",
+    "target_venue": "",
+    "active_release": "b01-b36-rewrite-working"
+  },
+  "artifacts": [
+    {
+      "id": "outline-v2",
+      "path": "04_OUTLINE_V2_MATURE.md",
+      "role": "extended_outline",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "claim-map",
+      "path": "03_CLAIM_MAP_V1.md",
+      "role": "claim_evidence_registry",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "results-7-2-evidence",
+      "path": "05_RESULTS_7_2_EVIDENCE_MAP.md",
+      "role": "results_evidence_map",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "results-7-2-draft",
+      "path": "06_RESULTS_7_2_DRAFT.md",
+      "role": "main_manuscript_section",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "results-7-3-draft",
+      "path": "08_RESULTS_7_3_DRAFT.md",
+      "role": "main_manuscript_section",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "results-7-1-draft",
+      "path": "09_RESULTS_7_1_DRAFT.md",
+      "role": "main_manuscript_section",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "results-section",
+      "path": "10_RESULTS_SECTION_DRAFT.md",
+      "role": "main_manuscript_results_candidate",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "full-manuscript-v1",
+      "path": "18_FULL_MANUSCRIPT_V1.md",
+      "role": "main_manuscript",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "typeset-source",
+      "path": "paper_layout.tex",
+      "role": "latex_manuscript",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "typeset-pdf",
+      "path": "paper_layout.pdf",
+      "role": "typeset_delivery",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "typeset-builder",
+      "path": "build_typeset_paper.py",
+      "role": "typeset_generation",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "full-manuscript-zh-v1",
+      "path": "19_FULL_MANUSCRIPT_ZH_V1.md",
+      "role": "translated_main_manuscript",
+      "status": "ACTIVE",
+      "required_for_release": false
+    },
+    {
+      "id": "typeset-source-zh",
+      "path": "paper_layout_zh.tex",
+      "role": "translated_latex_manuscript",
+      "status": "ACTIVE",
+      "required_for_release": false
+    },
+    {
+      "id": "typeset-pdf-zh",
+      "path": "paper_layout_zh.pdf",
+      "role": "translated_typeset_delivery",
+      "status": "ACTIVE",
+      "required_for_release": false
+    },
+    {
+      "id": "typeset-builder-zh",
+      "path": "build_typeset_paper_zh.py",
+      "role": "translated_typeset_generation",
+      "status": "ACTIVE",
+      "required_for_release": false
+    },
+    {
+      "id": "rewrite-references",
+      "path": "references.bib",
+      "role": "bibliography",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "intro-figure",
+      "path": "figures/fig01_problem_method_answer_b01_b36.svg",
+      "role": "orientation_figure",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "study-map-figure",
+      "path": "figures/fig02_longitudinal_map_b01_b36.svg",
+      "role": "orientation_figure",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "intro-figure-script",
+      "path": "build_intro_figures.py",
+      "role": "figure_generation",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "operator-figure",
+      "path": "figures/fig03_operator_portfolio_b01_b36.svg",
+      "role": "analytical_figure",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "transition-figure",
+      "path": "figures/fig04_structural_transitions_b01_b36.svg",
+      "role": "analytical_figure",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "persistence-figure",
+      "path": "figures/fig05_persistent_state_dependency_b01_b36.svg",
+      "role": "analytical_figure",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "argument-figure-script",
+      "path": "build_argument_figures.py",
+      "role": "figure_generation",
+      "status": "ACTIVE",
+      "required_for_release": true
+    },
+    {
+      "id": "operator-matrix",
+      "path": "data/operator_matrix_b01_b36.csv",
+      "role": "figure_source_data",
+      "status": "ACTIVE",
+      "required_for_release": true
+    }
+  ],
+  "authority_sources": [
+    {
+      "id": "b01-b36-history",
+      "kind": "verified_primary_evidence",
+      "path_or_reference": "../../../photo-first-pilot/CONTINUE_FROM_B01.md through CONTINUE_FROM_B36.md and output/installation_B01 through installation_B36",
+      "scope": [
+        "methods",
+        "results",
+        "numbers",
+        "batch history",
+        "validation"
+      ],
+      "status": "VERIFIED",
+      "last_verified": "2026-09-17"
+    },
+    {
+      "id": "process-catalog",
+      "kind": "derived_descriptive_evidence",
+      "path_or_reference": "../release/process_catalog.json restricted to B01-B36",
+      "scope": [
+        "operator prevalence",
+        "review availability",
+        "task-family orientation"
+      ],
+      "status": "VERIFIED",
+      "last_verified": "2026-09-17"
+    },
+    {
+      "id": "owner-model-config",
+      "kind": "author_confirmed_metadata",
+      "path_or_reference": "owner confirmation in project conversation",
+      "scope": [
+        "model identifier",
+        "Codex interface"
+      ],
+      "status": "VERIFIED",
+      "last_verified": "2026-09-17"
+    }
+  ],
+  "contract": {
+    "gap": "Registered 3D reconstruction alone does not provide the reusable components, finite connections, editable hierarchy, task-specific validation, and inherited state required for long-horizon engineering reconstruction of a heterogeneous industrial site.",
+    "task": "Analyze B01-B36 as one sequential reconstruction record to determine how a general-purpose reasoning model, executable geometry tools, and persistent external engineering state are combined as reconstruction dependencies accumulate.",
+    "outcomes": [
+      "division of labor between model-side problem formulation and deterministic geometry computation",
+      "descriptive broadening of the operator and decision portfolio as dependencies accumulate",
+      "cross-batch composition through persistent external state and propagation risk from shared abstractions"
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "text": "How does a persistent general-purpose reasoning workflow change as industrial 3D reconstruction progresses from local fitting to reusable equipment, connected representations, and state-constrained site closure?",
+        "lock": "SEMANTIC"
+      }
+    ],
+    "contribution": "A B01-B36 longitudinal field study showing that industrial 3D reconstruction is better described as persistent orchestration of explicit, task-specific geometry operations than as repeated direct 3D generation; the documented operator portfolio broadens with reconstruction dependency, and persistent external state enables composition while making abstraction errors consequential.",
+    "nonclaims": [
+      "not evidence that GPT-6 Astra learns over B01-B36",
+      "not a causal estimate of task complexity on reasoning behavior",
+      "not a global benchmark success rate",
+      "not survey-grade or independently surveyed station accuracy",
+      "not evidence of superiority over another model or specialized reconstruction system",
+      "not evidence that persistent state improves accuracy relative to a stateless baseline",
+      "not a fully autonomous workflow",
+      "not a cross-site generalization claim",
+      "D37 and later work are outside the main empirical boundary"
+    ]
+  },
+  "semantic_locks": [
+    {
+      "id": "empirical-boundary",
+      "kind": "SEMANTIC",
+      "canonical": "main empirical record is B01-B36 only; D37 and later work do not support the main narrative"
+    },
+    {
+      "id": "claim-priority",
+      "kind": "SEMANTIC",
+      "canonical": "C2 operator/decision broadening is the main empirical claim; C3 persistent state is the systems claim; C1 model/tool division is foundational attribution"
+    },
+    {
+      "id": "model-tool-attribution",
+      "kind": "SEMANTIC",
+      "canonical": "observable model/harness contribution is evidence selection, representation/decomposition, program authoring/revision, and interpretation of external feedback; numerical fitting and validation are executed by deterministic tools"
+    },
+    {
+      "id": "operator-evolution-boundary",
+      "kind": "SEMANTIC",
+      "canonical": "B01-B36 shows a descriptive broadening of task-specific operators; it does not establish model learning, a universal complexity law, or a causal complexity-to-reasoning relationship"
+    },
+    {
+      "id": "persistence-boundary",
+      "kind": "SEMANTIC",
+      "canonical": "persistent external engineering state is the documented mechanism for cross-batch reuse/composition and a propagation surface for shared abstraction errors; no stateless ablation exists"
+    },
+    {
+      "id": "metric-boundary",
+      "kind": "SEMANTIC",
+      "canonical": "coarse-reference residuals are task-local comparisons to registered photogrammetric geometry and are not independent survey accuracy; connected systems additionally require endpoint/contact/continuity checks"
+    },
+    {
+      "id": "human-role",
+      "kind": "SEMANTIC",
+      "canonical": "some decisions depend on human authorization or review, including B08 equivalence and late omission review; the workflow is agent-driven and human-steerable"
+    }
+  ],
+  "terminology": [
+    {
+      "concept": "study type",
+      "preferred": "longitudinal single-site field study / sequential reconstruction record",
+      "prohibited": [
+        "IID benchmark",
+        "controlled benchmark",
+        "learning curve"
+      ]
+    },
+    {
+      "concept": "input geometry",
+      "preferred": "registered photogrammetric reference / registered coarse geometry",
+      "prohibited": [
+        "ground truth mesh",
+        "survey ground truth"
+      ]
+    },
+    {
+      "concept": "main empirical result",
+      "preferred": "operator/decision portfolio broadens as reconstruction dependencies accumulate",
+      "prohibited": [
+        "Astra learns more sophisticated skills",
+        "task complexity causes higher-level reasoning"
+      ]
+    },
+    {
+      "concept": "long-horizon mechanism",
+      "preferred": "persistent external engineering state",
+      "prohibited": [
+        "infinite memory",
+        "perfect memory"
+      ]
+    },
+    {
+      "concept": "accuracy language",
+      "preferred": "task-local residual / endpoint consistency / coverage diagnostic / state-preservation check",
+      "prohibited": [
+        "station-wide centimeter accuracy",
+        "survey-grade accuracy"
+      ]
+    }
+  ],
+  "style_profile": {
+    "language_variant": "US academic English",
+    "protected_terms": [
+      "GPT-6 Astra",
+      "AstraBuild",
+      "B01-B36",
+      "MASTER",
+      "site-specific",
+      "task-specific",
+      "photogrammetric"
+    ],
+    "discouraged_phrases": [
+      "the strongest evidence",
+      "the most important",
+      "not merely",
+      "not just",
+      "the central question is not",
+      "in other words",
+      "this clearly demonstrates",
+      "this proves that",
+      "remarkably",
+      "interestingly"
+    ],
+    "preferred_open_compounds": [],
+    "allowed_repetitions": [
+      "persistent state",
+      "deterministic tools",
+      "registered reference",
+      "endpoint"
+    ],
+    "sentence_opening_words": 4,
+    "phrase_words": 5,
+    "phrase_min_occurrences": 3
+  },
+  "facts": [],
+  "alignment": [
+    {
+      "question_id": "Q1",
+      "method": "Persistent evidence-program-validation workflow with explicit deterministic geometry tools and inherited Blender/Python state.",
+      "evidence": "B01-B36 preserved continuation notes, plans, diagnostics, validation JSON, process artifacts, and selected operator-prevalence summaries.",
+      "result": "Local fitting remains present while reusable-scope, connectivity/path, coverage/review, and interference/state-preservation operations appear as reconstruction dependencies accumulate; later batches explicitly consume earlier masters and endpoints.",
+      "interpretation": "The general model is best described as an orchestration/problem-formulation layer around explicit geometry operators; persistent external state enables compositional reconstruction and propagates shared abstraction errors.",
+      "limitation": "Single historical site sequence; no matched planner/model, stateless ablation, complete independent survey reference, or controlled complexity manipulation.",
+      "contribution": "Evidence-grounded longitudinal account of how an agentic industrial 3D reconstruction workflow broadens its operator portfolio and composes through persistent state.",
+      "status": "IN_PROGRESS"
+    }
+  ],
+  "dimensions": [],
+  "decisions": [],
+  "issues": [],
+  "release": {
+    "status": "WORKING",
+    "candidate_artifact_ids": [
+      "full-manuscript-v1",
+      "typeset-pdf",
+      "full-manuscript-zh-v1",
+      "typeset-pdf-zh"
+    ],
+    "required_checks": [
+      "argument_structure",
+      "evidence_scope",
+      "scholarly_writing",
+      "delivery_integrity",
+      "functional_completeness"
+    ],
+    "completed_checks": [
+      "argument_structure",
+      "evidence_scope",
+      "scholarly_writing",
+      "delivery_integrity",
+      "functional_completeness"
+    ],
+    "checked_hashes": {
+      "results-section": "4029a3d3849e465068bdaea5373a0453a9a8175437ca283e4ad30fe0f750ca23",
+      "full-manuscript-v1": "866b7ebbc1a02f5c7dea6328c31a10ef45f616a151f93b2642c1d83227ac71f1",
+      "typeset-source": "16548c94dd3153703e9c5178555c2bfcd8e506f5b3e1f2afc03ffe9b09a5b980",
+      "typeset-pdf": "b0d103dc8958773b19dba26a2aa1b806a512a83b94bae5c579dee2c589487efd",
+      "typeset-builder": "2c465790c128e60f11e3d73f5932c7063ab2148d5cd9f47d36d1940c197ce371",
+      "full-manuscript-zh-v1": "1bba8c505e66b4b72c0622cab50d6d567e5793d42b2dece7ff0266ed922e8ebb",
+      "typeset-source-zh": "4af6d4f267e5852ee3d524004d8fb30ea98f7bd53fd90f3a2bfb1c3a5e062888",
+      "typeset-pdf-zh": "6e1dd1a8ff165a61aad66cba32d760293f6574ca3c89bec719735c8ab951a9f3",
+      "typeset-builder-zh": "cfa7e08ab6e9d5404f7a4b45fcbbc3eeb0d6e341b3f67c4fcc3490cc98344ab9",
+      "intro-figure-png": "29eb08fb5a94e43034f8534e3792bb0bac1d8aad1c2630717e41e0dccdc2dc9c",
+      "study-map-figure-png": "0e89c16cce46aa91d29eca103377e93a3ade045b9ed15d89043f1d367712f93a",
+      "operator-figure-png": "8693249d45705f2a719454ed42cef9d0024f23a07d8d35bd9c5b722a6f44bfba",
+      "transition-figure-png": "3e96370d584446eb304c22bc78abf0201ecdfa637f893a796cd00e045bd75138",
+      "persistence-figure-png": "30003703c9a252800ec1cce3d0460d365a2358d75d9d2996d2fd3f8b406cea16"
+    },
+    "visual_check": "English paper_layout.pdf was rendered and inspected page-by-page: main text including Conclusion fits in pages 1-9 and page 10 contains References only. Chinese paper_layout_zh.pdf was rendered with Poppler at 170 dpi and inspected page-by-page: all CJK glyphs render correctly, Figures 1-5 remain legible, and the complete translated manuscript plus references fits in 7 A4 two-column pages. The release remains WORKING because these are advisor-discussion drafts, not submission-ready venue builds."
+  }
+}
