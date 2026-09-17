@@ -237,7 +237,10 @@ def build_fig2():
         width = fx(b + .45) - left
         rect = [left + .006, TH_Y, width - .012, TH_H]
         ia = fig.add_axes(rect)
-        ia.imshow(crop_img(relight_dark(Image.open(p)), rect[2] / rect[3] * (15.3 / 7.0))); ia.set_xticks([]); ia.set_yticks([])
+        im = Image.open(p)
+        if a >= 31:  # only the dark station-wide render benefits from relight
+            im = relight_dark(im)
+        ia.imshow(crop_img(im, rect[2] / rect[3] * (15.3 / 7.0))); ia.set_xticks([]); ia.set_yticks([])
         for s in ia.spines.values():
             s.set_color(ec); s.set_linewidth(1.4)
         ia.set_title(f'B{a:02d}–B{b:02d} · {label}', fontsize=13, fontweight='bold',
