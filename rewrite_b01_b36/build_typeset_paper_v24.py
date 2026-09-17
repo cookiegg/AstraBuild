@@ -56,7 +56,7 @@ figure_specs = {
     1: ('figure_v24/hybrid_pdf/fig01_overview_v24.pdf', 0.340, 'fig:overview'),
     2: ('figures/fig02_longitudinal_map_b01_b36.png', 0.340, 'fig:timeline'),
     3: ('figures/fig03_operator_portfolio_b01_b36.png', 0.285, 'fig:operators'),
-    4: ('figure_v24/hybrid_pdf/fig04_transitions_v24.pdf', 0.440, 'fig:transitions'),
+    4: ('figure_v24/hybrid_pdf/fig04_transitions_v24.pdf', 0.560, 'fig:transitions'),
     5: ('figure_v24/hybrid_pdf/fig05_persistence_v24.pdf', 0.420, 'fig:persistence'),
 }
 # Convert markdown figure + following prose caption into one full-width LaTeX float.
@@ -69,7 +69,7 @@ for num, (path, maxh, label) in figure_specs.items():
     # Let pandoc escape the caption text separately by inserting only plain markdown caption into raw TeX later.
     # Escape a minimal safe subset needed by current captions.
     cap_tex = (cap.replace('&', r'\&').replace('%', r'\%').replace('_', r'\_'))
-    page_break = '\\clearpage\n' if num == 5 else ''
+    page_break = ''
     fig_tex = page_break + rf'''\begin{{figure*}}[!t]
 \centering
 \includegraphics[width=\textwidth,height={maxh}\textheight,keepaspectratio]{{{path}}}
@@ -107,6 +107,8 @@ preamble = r'''\documentclass[10pt,a4paper]{article}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{dblfloatfix}
+\renewcommand{\dbltopfraction}{0.92}
+\renewcommand{\dblfloatpagefraction}{0.80}
 \usepackage{balance}
 \usepackage{url}
 
