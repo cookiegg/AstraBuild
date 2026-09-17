@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="AstraBuild is a longitudinal evaluation of GPT-6 Astra as a 3D engineering agent, focusing on task capability, hypothesis revision, and failure modes in component-level substation reconstruction.">
+  <meta name="description" content="AstraBuild studies how a general-purpose reasoning model coordinates persistent industrial 3D reconstruction, across the 36-batch B01–B36 record from one operating 220 kV substation.">
   <meta name="theme-color" content="#ffffff">
-  <title>AstraBuild · A Longitudinal Evaluation of GPT-6 Astra as a 3D Engineering Agent</title>
+  <title>AstraBuild · From Local Fits to Persistent Industrial 3D Reconstruction</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,15 +14,13 @@
     <div class="nav-inner">
       <a class="brand" href="#top">AstraBuild</a>
       <div class="nav-links">
-        <a href="#summary"><span class="lang-en">Abstract</span><span class="lang-zh">摘要</span></a>
-        <a href="#model-harness"><span class="lang-en">Study</span><span class="lang-zh">研究设置</span></a>
-        <a href="#tasks"><span class="lang-en">Tasks</span><span class="lang-zh">任务</span></a>
-        <a href="#worked-example"><span class="lang-en">Case</span><span class="lang-zh">案例</span></a>
-        <a href="#cases"><span class="lang-en">Cases</span><span class="lang-zh">行为案例</span></a>
-        <a href="#behavioral-findings"><span class="lang-en">Findings</span><span class="lang-zh">研究发现</span></a>
-        <a href="#integration"><span class="lang-en">Composition</span><span class="lang-zh">整站组合</span></a>
+        <a href="#overview"><span class="lang-en">Overview</span><span class="lang-zh">总览</span></a>
+        <a href="#method"><span class="lang-en">Method</span><span class="lang-zh">方法</span></a>
+        <a href="#study-design"><span class="lang-en">Study design</span><span class="lang-zh">研究设计</span></a>
+        <a href="#results"><span class="lang-en">Results</span><span class="lang-zh">结果</span></a>
+        <a href="#console"><span class="lang-en">Console</span><span class="lang-zh">评估台</span></a>
+        <a href="#videos"><span class="lang-en">Videos</span><span class="lang-zh">视频</span></a>
         <a href="#discussion"><span class="lang-en">Discussion</span><span class="lang-zh">讨论</span></a>
-        <a href="#reviews"><span class="lang-en">Evidence</span><span class="lang-zh">交互证据</span></a>
       </div>
       <button id="lang-toggle" class="lang-toggle" type="button">中文</button>
     </div>
@@ -32,31 +30,37 @@
     <header class="hero paper-hero">
       <div class="hero-inner hero-paper-grid">
         <div class="hero-copy">
-          <div class="eyebrow"><span class="lang-en">Longitudinal evaluation · GPT-6 Astra · component-level 3D engineering · 2026</span><span class="lang-zh">纵向评估 · GPT-6 Astra · 部件级三维工程 · 2026</span></div>
+          <div class="eyebrow"><span class="lang-en">Longitudinal field record · 36 batches B01–B36 · 2026</span><span class="lang-zh">纵向现场记录 · 36 批次 B01–B36 · 2026</span></div>
           <h1>
-            <span class="lang-en">AstraBuild: A Longitudinal Evaluation of GPT-6 Astra as a 3D Engineering Agent</span>
-            <span class="lang-zh">AstraBuild：GPT-6 Astra 作为三维工程智能体的纵向评估</span>
+            <span class="lang-en">AstraBuild: From Local Fits to Persistent Industrial 3D Reconstruction with a General-Purpose Reasoning Model</span>
+            <span class="lang-zh">AstraBuild：通用推理模型驱动的工业三维重建——从局部拟合到持续工程状态</span>
           </h1>
-          <p class="subtitle hero-subtitle lang-en">Task capability, hypothesis revision, and failure modes in component-level substation reconstruction.</p>
-          <p class="subtitle hero-subtitle lang-zh">研究变电站部件级重建中的任务能力、工程假设修订与失败模式。</p>
-          <p class="research-question lang-en">When physical evidence contradicts its current model, can a general-purpose reasoning model revise the engineering hypothesis itself, and which decisions still require deterministic or human review?</p>
-          <p class="research-question lang-zh">当物理证据否定当前模型时，通用推理模型能否修订工程假设本身？哪些决策仍必须依赖确定性检查或人工审查？</p>
+          <p class="research-question lang-en">How does a persistent general-purpose reasoning workflow change as industrial 3D reconstruction progresses from local fitting to reusable equipment, connected representations, and state-constrained site closure?</p>
+          <p class="research-question lang-zh">当工业三维重建从局部拟合推进到可复用设备、连接表示和受状态约束的整站收尾时，一个持续的通用推理工作流会如何变化？</p>
+          <p class="subtitle hero-subtitle lang-en">We study GPT-6 Astra/Codex over B01–B36, a 36-batch reconstruction of one operating 220 kV substation from registered photogrammetric geometry, field imagery, engineering records, and inherited Blender state. Local fitting remains useful throughout, while the operator portfolio broadens as dependencies accumulate; numerical estimation and acceptance stay in deterministic geometry code; and persistent external state enables cross-batch composition while propagating erroneous shared abstractions until they are revised. The study does not establish model superiority, independent survey accuracy, or cross-site generalization.</p>
+          <p class="subtitle hero-subtitle lang-zh">我们研究 GPT-6 Astra/Codex 在 B01–B36 上的表现：这是一座运行中 220 kV 变电站的 36 批次重建记录，输入包括注册摄影测量几何、现场影像、工程记录和继承的 Blender 状态。记录显示：局部拟合始终有效，而算子组合随依赖累积不断扩展；数值估计与验收始终由确定性几何代码完成；持续外部状态使跨批次组合成为可能，同时也会传播错误的共享抽象，直到其被修订。本研究不构成模型优越性、独立测绘精度或跨站泛化的证据。</p>
+
+          <div class="headline-results hero-headline">
+            <div><strong>36</strong><span class="lang-en">sequential reconstruction batches, B01–B36</span><span class="lang-zh">顺序重建批次 B01–B36</span></div>
+            <div><strong>4</strong><span class="lang-en">descriptive bands: local fits → repeated equipment → connected systems → site closure</span><span class="lang-zh">描述性分段：局部拟合 → 重复设备 → 连接系统 → 整站收尾</span></div>
+            <div><strong>8</strong><span class="lang-en">anchor batches: B01/B02 · B08 · B15 · B20 · B23 · B25/26 · B29 · B36</span><span class="lang-zh">锚点批次：B01/B02 · B08 · B15 · B20 · B23 · B25/26 · B29 · B36</span></div>
+            <div><strong>3</strong><span class="lang-en">contributions: formulation · field record · systems analysis</span><span class="lang-zh">贡献：问题表述 · 现场记录 · 系统分析</span></div>
+          </div>
 
           <div class="paper-meta">
             <span><b><span class="lang-en">Study site</span><span class="lang-zh">研究站点</span></b> 220 kV Xialin Substation</span>
-            <span><b><span class="lang-en">Model under test</span><span class="lang-zh">被测对象</span></b> Codex + GPT-6 Astra · Extra High reasoning*</span>
-            <span><b><span class="lang-en">Method (the harness)</span><span class="lang-zh">方法（harness）</span></b> <span class="lang-en">evidence compiler · programmatic action space · deterministic validators · filesystem memory</span><span class="lang-zh">证据编译器 · 程序化动作空间 · 确定性验证器 · 文件系统记忆</span></span>
+            <span><b><span class="lang-en">Model</span><span class="lang-zh">模型</span></b> Codex + GPT-6 Astra*</span>
             <span><b><span class="lang-en">Authors / affiliation</span><span class="lang-zh">作者 / 单位</span></b> <span class="muted"><span class="lang-en">to be finalized after advisor discussion</span><span class="lang-zh">待与老师讨论后确定</span></span></span>
           </div>
 
           <div class="hero-actions">
-            <a class="btn primary" href="../paper/paper_teacher_discussion.md"><span class="lang-en">Paper draft</span><span class="lang-zh">论文草稿</span></a>
-            <a class="btn" href="#tasks"><span class="lang-en">Evaluation tasks</span><span class="lang-zh">评估任务</span></a>
-            <a class="btn" href="#cases"><span class="lang-en">Behavioral cases</span><span class="lang-zh">行为案例</span></a>
-            <a class="btn" href="#reviews"><span class="lang-en">Original evidence</span><span class="lang-zh">原始证据</span></a>
+            <a class="btn primary" href="../rewrite_b01_b36/paper_layout_v24.pdf"><span class="lang-en">Paper (PDF)</span><span class="lang-zh">论文 PDF</span></a>
+            <a class="btn" href="#console"><span class="lang-en">Evaluation console</span><span class="lang-zh">评估台</span></a>
+            <a class="btn" href="#videos"><span class="lang-en">Videos</span><span class="lang-zh">视频</span></a>
+            <a class="btn" href="../release/metrics.json"><span class="lang-en">Evidence data</span><span class="lang-zh">证据数据</span></a>
           </div>
-          <p class="hero-note lang-en">* Model/reasoning configuration is <b>owner-confirmed experimental metadata</b>; the inspected historical batch logs do not freeze model identifier or reasoning effort. Geometry baseline: <b>D38.2</b>; D40 is a presentation-only layer; research endpoint: <b>D41</b>.</p>
-          <p class="hero-note lang-zh">* 模型与推理强度属于<b>项目负责人确认的实验元数据</b>；所检查的历史批次日志未独立冻结模型标识或推理强度。几何基线：<b>D38.2</b>；D40 仅为展示层；研究终点：<b>D41</b>。</p>
+          <p class="hero-note lang-en">* Model configuration is owner-confirmed experimental metadata; the historical B01–B36 artifacts preserve programs, plans, diagnostics, and validation outputs, but not the model's private reasoning trace.</p>
+          <p class="hero-note lang-zh">* 模型配置为项目负责人确认的实验元数据；B01–B36 历史产物保存了程序、计划、诊断与验证输出，但不保存模型的内部推理过程。</p>
         </div>
 
         <div class="hero-media" aria-label="Progressive station assembly visualization">
@@ -64,12 +68,12 @@
             <video autoplay muted loop playsinline preload="metadata" poster="../media/d40_overview.png">
               <source src="../media/hero_loop.mp4" type="video/mp4">
             </video>
-            <div class="hero-video-label"><span class="dot"></span><span class="lang-en">station-scale outcome; the evaluation below analyzes how the model reached and revised it</span><span class="lang-zh">整站级结果；下文评估模型如何形成并修订这一结果</span></div>
+            <div class="hero-video-label"><span class="dot"></span><span class="lang-en">task outputs composing into one station model</span><span class="lang-zh">任务结果逐步组合成整站模型</span></div>
           </div>
           <div class="hero-mini-grid">
             <figure><img src="../media/field_gis.jpg" alt="Field photograph of substation equipment"><figcaption><span class="lang-en">field evidence</span><span class="lang-zh">现场证据</span></figcaption></figure>
             <figure><img src="../media/cases/gis220.png" alt="Reconstructed 220 kV GIS"><figcaption><span class="lang-en">component model</span><span class="lang-zh">部件模型</span></figcaption></figure>
-            <figure><img src="../media/d41_t1_front.png" alt="D41 transformer semantic accessory render"><figcaption><span class="lang-en">inspection semantics</span><span class="lang-zh">巡检语义</span></figcaption></figure>
+            <figure><img src="../media/cases/conductors.png" alt="Connected bus and conductor systems"><figcaption><span class="lang-en">connected systems</span><span class="lang-zh">连接系统</span></figcaption></figure>
           </div>
         </div>
       </div>
@@ -78,337 +82,169 @@
     <div class="report-layout">
       <aside class="toc" aria-label="Contents">
         <div class="toc-title"><span class="lang-en">Paper structure</span><span class="lang-zh">论文结构</span></div>
-        <a href="#summary">Abstract</a>
-        <a href="#model-harness">1 · Study question & setting</a>
-        <a href="#tasks">2 · Evaluation tasks & protocol</a>
-        <a href="#worked-example">3 · Representative task: B32</a>
-        <a href="#cases">4 · Behavioral case studies</a>
-        <a href="#d38">4.2 · D38 correction chain</a>
-        <a href="#behavioral-findings">5 · Cross-case findings</a>
-        <a href="#integration">6 · Long-horizon composition</a>
-        <a href="#semantics">6.2 · Semantic endpoint</a>
-        <a href="#discussion">7 · Discussion</a>
-        <a href="#scope">7.2 · Limitations</a>
-        <a href="#reviews">Appendix A · Original reviews</a>
-        <a href="#dossiers">Appendix B · Process dossiers</a>
+        <a href="#overview">1 · Overview</a>
+        <a href="#method">2 · Method</a>
+        <a href="#method-trace">2.3 · B23 worked trace</a>
+        <a href="#study-design">3 · Study design</a>
+        <a href="#results">4 · Results</a>
+        <a href="#results-transitions">4.2 · Three transitions</a>
+        <a href="#results-persistence">4.3 · Persistent state</a>
+        <a href="#console">5 · Evaluation console</a>
+        <a href="#evidence-appendix">5.2 · Evidence appendix</a>
+        <a href="#videos">6 · Videos</a>
+        <a href="#discussion">7 · Discussion &amp; limitations</a>
         <a href="#references">References</a>
         <a href="#sources">Resources</a>
+        <a href="#citation">Citation</a>
       </aside>
 
       <div class="report-main">
-        <section id="summary" class="section summary-section">
-          <div class="section-head no-index"><div><div class="paper-section-label">Abstract</div><h2><span class="lang-en">Abstract</span><span class="lang-zh">摘要</span></h2></div></div>
-
-          <div class="paper-prose abstract-text">
-            <p class="lang-en">Can a general-purpose reasoning model do more than generate plausible 3D assets and instead act as an engineering reasoner that <b>tests and revises modeling hypotheses when physical evidence contradicts them</b>? We study this question in a longitudinal reconstruction of one operating 220 kV substation. GPT-6 Astra, accessed through Codex, operates inside a fixed Blender/Python harness that supplies registered photogrammetric geometry, field images, engineering records, prior reconstruction state, deterministic tools, and task-specific validators. The preserved record contains <b>38 sequential core batches across 12 task families</b>; later batches inherit earlier geometry, reusable assets, validators, and failures, so the study is not an IID benchmark.</p>
-            <p class="lang-zh">通用推理模型能否不止生成看似合理的三维资产，而是作为工程推理者，在物理证据否定当前方案时<b>检验并修订建模假设</b>？本文通过一座运行中 220 kV 变电站的纵向重建记录研究这一问题。GPT-6 Astra 通过 Codex 工作于固定的 Blender/Python harness 中，输入包括注册摄影测量几何、现场图像、工程记录、前序重建状态、确定性工具和任务专用验证器。冻结记录包含<b>跨 12 类任务的 38 个顺序核心批次</b>；后续批次继承前序几何、可复用资产、验证器和错误，因此这不是 IID benchmark。</p>
-            <p class="lang-en">The record reveals a useful separation. When a task can be formulated as an explicit measurement problem, Astra can select a local reference and delegate numerical fitting to deterministic operators. The harder revisions occur at the hypothesis level. Among the seven documented adaptation/failure episodes selected for cross-case analysis, five concern the evaluation protocol, reusable-asset boundary, representation class, or task-selection rule. B15 revises an overgeneralized shared asset; B23 replaces a straight lead after measured profiles expose approximately 0.5 m of curvature; B25/B26 changes task selection from inventory completion to unexplained geometry; and D38 converts 2D review markup into 3D correction but then requires a second review to repair an orientation-semantics error. These cases show both the value and the limit of model reasoning: externalized evidence can trigger higher-level engineering revisions, while first-pass fine detail and coordinate semantics remain error-prone.</p>
-            <p class="lang-zh">记录显示出一个重要分工：当任务可以明确转化为测量问题时，Astra 可以选择局部参考并把数值拟合交给确定性算子；更困难的修订发生在假设层。本文选取的 7 个有完整记录的适应/失败事件中，有 5 个涉及评估协议、可复用资产边界、表示类别或任务选择规则。B15 修订过度泛化的共享资产；B23 在测量剖面揭示约 0.5 m 弯曲后放弃直线引线；B25/B26 将任务选择从台账完成度改为未解释几何；D38 将二维审查标记转成三维纠错，但随后还需第二轮审查修正朝向语义错误。这些案例同时揭示能力与边界：外化证据可以触发更高层工程假设修订，而首次细节解释和坐标语义仍容易出错。</p>
-            <p class="lang-en">Accepted task outputs accumulate into a <b>37,153-object</b> station state, which we use as a long-horizon stress test of reuse, provenance, and composition rather than as an accuracy benchmark. The evidence therefore supports a narrow characterization: Astra can participate in a persistent, evidence-grounded 3D engineering process and revise high-level modeling decisions when contradictions are made explicit, but deterministic validation and human review remain material to acceptance. The present record is limited to one site, has no independent survey reference, and contains no matched reruns with another model.</p>
-            <p class="lang-zh">通过审查的任务输出最终累积为包含 <b>37,153 个对象</b>的整站状态；本文将其视为复用、provenance 与长期组合的压力测试，而不是精度 benchmark。因此现有证据支持的是较窄的结论：Astra 能参与持续、证据约束的三维工程过程，并在矛盾被显式暴露时修订高层建模决策，但确定性验证与人工审查仍是验收过程的实质组成。当前记录仅来自一个站点，没有独立测绘参考，也没有与第二模型的 matched rerun。</p>
-          </div>
-        </section>
-
-        <section id="model-harness" class="section alt">
-          <div class="section-head no-index"><div><div class="paper-section-label">1 · Study Question and Evaluation Setting</div><h2><span class="lang-en">A persistent engineering environment for observing model decisions</span><span class="lang-zh">用于观察模型决策的持续工程环境</span></h2><p class="lang-en">The focal model is GPT-6 Astra. The Blender/Python harness defines what evidence the model can inspect, what programmatic actions it can take, and how outputs are checked and retained.</p><p class="lang-zh">研究对象是 GPT-6 Astra；Blender/Python harness 定义它可以查看哪些证据、采取哪些程序化动作，以及结果如何被检查与保留。</p></div></div>
-
-          <div class="method-provenance-note"><b><span class="lang-en">Provenance and inference boundary.</span><span class="lang-zh">Provenance 与推断边界。</span></b> <span class="lang-en">The historical reconstruction used Codex + GPT-6 Astra with Extra High reasoning effort as owner-confirmed experimental metadata; legacy batch files do not freeze this configuration. They also do not preserve private chain-of-thought. The observable record consists of selected evidence, authored or revised programs, deterministic outputs, validation results, review artifacts, and subsequent revisions.</span><span class="lang-zh">历史重建使用 Codex + GPT-6 Astra（Extra High 推理强度），该配置为项目负责人确认的实验元数据，旧批次文件并未冻结它；记录也不包含模型内部思维链。可观测记录包括被选择的证据、编写或修订的程序、确定性输出、验证结果、审查产物以及后续修订。</span></div>
-
-          <div class="paper-prose">
-            <p class="lang-en">For batch <i>t</i>, Astra receives a bounded context assembled from registered photogrammetric geometry, field images, engineering or semantic records, spatial priors, and the persistent state left by earlier batches. Its observable action is programmatic: it writes or revises Blender/Python code, selects numerical operators, requests renders or diagnostics, and interprets the resulting evidence. Numerical fitting, rendering, collision/contact checks, hash preservation, and task-native validation execute outside the language model.</p>
-            <p class="lang-zh">对批次 <i>t</i>，Astra 接收由注册摄影测量几何、现场图像、工程或语义记录、空间先验以及早期批次留下的持续状态组成的有界上下文。其可观测动作是程序化的：编写或修改 Blender/Python 代码、选择数值算子、请求渲染或诊断，并解释返回证据。数值拟合、渲染、碰撞/接触检查、哈希保持和任务原生验证均在语言模型之外执行。</p>
-            <p class="lang-en">This separation is essential to the research question. A small residual produced by SciPy is not evidence that Astra performed numerical optimization internally; it is evidence that Astra formulated and invoked a particular measurement procedure. Conversely, a plausible Blender program is not accepted because it was authored by the model. It enters persistent state only after the corresponding review and validator checks.</p>
-            <p class="lang-zh">这一分工对科学问题至关重要。SciPy 产生的小残差并不说明 Astra 在内部完成了数值优化，而说明它提出并调用了某种测量程序；同样，一个看起来合理的 Blender 程序也不会因为由模型编写就被接受，只有经过相应 review 与 validator 检查后才进入持续状态。</p>
-          </div>
-
-          <div class="method-strip">
-            <div><b><span class="lang-en">Evidence</span><span class="lang-zh">证据</span></b><span><span class="lang-en">registered geometry · images · records · inherited state</span><span class="lang-zh">注册几何 · 图像 · 记录 · 继承状态</span></span></div>
-            <div><b><span class="lang-en">Model decision</span><span class="lang-zh">模型决策</span></b><span><span class="lang-en">select evidence · choose representation · write/revise programs</span><span class="lang-zh">选择证据 · 选择表示 · 编写/修订程序</span></span></div>
-            <div><b><span class="lang-en">External execution</span><span class="lang-zh">外部执行</span></b><span><span class="lang-en">NumPy/SciPy · Blender · deterministic validators</span><span class="lang-zh">NumPy/SciPy · Blender · 确定性验证器</span></span></div>
-            <div><b><span class="lang-en">Persistent record</span><span class="lang-zh">持续记录</span></b><span><span class="lang-en">plans · diagnostics · reviews · manifests · failed revisions</span><span class="lang-zh">plan · 诊断 · review · manifest · 失败修订</span></span></div>
-          </div>
-
-          <div class="formalism-block" aria-label="AstraBuild formal task definition">
-            <div class="formalism-row"><b>Persistent state</b><code>S<sub>t</sub> = (M<sub>t</sub>, A<sub>t</sub>, H<sub>t</sub>, X<sub>t</sub>)</code><span><span class="lang-en">editable scene · reusable assets · engineering history · semantic mappings</span><span class="lang-zh">可编辑场景 · 可复用资产 · 工程历史 · 语义映射</span></span></div>
-            <div class="formalism-row"><b>Evidence context</b><code>C<sub>t</sub> = C(G, I, R, U, H<sub>t</sub>)</code><span><span class="lang-en">registered geometry · images · records · spatial priors · history</span><span class="lang-zh">注册几何 · 图像 · 记录 · 空间先验 · 历史</span></span></div>
-            <div class="formalism-row"><b>Model decision</b><code>a<sub>t</sub> ~ π<sub>Astra</sub>(· | S<sub>t</sub>, C<sub>t</sub>, f<sub>t−1</sub>)</code><span><span class="lang-en">programmatic engineering action or revision</span><span class="lang-zh">程序化工程动作或修订</span></span></div>
-            <div class="formalism-row"><b>Execution + validation</b><code>(S̃<sub>t+1</sub>, e<sub>t</sub>) = E(a<sub>t</sub>, S<sub>t</sub>), &nbsp; v<sub>t</sub> = V(S̃<sub>t+1</sub>)</code><span><span class="lang-en">external tools materialize the action; validation determines retain / revise / quarantine</span><span class="lang-zh">外部工具执行动作；验证决定保留 / 修订 / 隔离</span></span></div>
-          </div>
+        <section id="overview" class="section">
+          <div class="section-head no-index"><div><div class="paper-section-label">1 · Overview</div><h2><span class="lang-en">Problem, method, and answer at a glance</span><span class="lang-zh">问题、方法与结论一览</span></h2><p class="lang-en">An editable engineering model is a different systems problem from recovering geometry: component reuse, connection constraints, representation choices, and prior state all change as reconstruction proceeds.</p><p class="lang-zh">可编辑工程模型与“从观测恢复几何”是不同的系统问题：部件复用、连接约束、表示选择与既有状态都会随重建推进而变化。</p></div></div>
 
           <figure class="research-figure wide visual-abstract">
-            <img src="../figures/fig01_agentic_loop.svg" alt="AstraBuild evaluation setting: evidence, model decisions, deterministic execution, validation, and persistent state">
-            <figcaption><span class="lang-en"><b>Figure 1.</b> Evaluation setting. Heterogeneous evidence and prior state condition the model; Astra proposes programmatic engineering actions; external tools execute them; review and task-specific validation determine which artifacts persist.</span><span class="lang-zh"><b>图 1.</b> 评估设置。异构证据与前序状态构成模型上下文；Astra 提出程序化工程动作；外部工具负责执行；review 与任务专用验证决定哪些产物进入持续状态。</span></figcaption>
+            <img src="../rewrite_b01_b36/figure_v24/hybrid_svg/fig01_overview_v24.svg" alt="AstraBuild overview: evidence, model-authored operation, deterministic validation, persistent state">
+            <figcaption><span class="lang-en"><b>Figure 1.</b> AstraBuild as a persistent evidence–program–validation workflow. Registered physical evidence and inherited engineering state condition a model-authored or model-revised operation; deterministic tools execute geometry construction and task-specific checks; accepted output becomes part of the next reconstruction context. The lower progression previews the longitudinal result: the common loop persists while additional representation and integration decisions appear as dependencies accumulate.</span><span class="lang-zh"><b>图 1.</b> AstraBuild 是一个持续的“证据—程序—验证”工作流。注册物理证据与继承的工程状态约束模型编写或修订的操作；确定性工具执行几何构建与任务专用检查；被接受的输出成为下一个重建问题的上下文。下方演进预览了纵向结论：公共闭环保持不变，而随着依赖累积，额外的表示与集成决策不断出现。</span></figcaption>
           </figure>
 
+          <div class="subsection-head compact paper-subsection"><h3><span class="lang-en">1.1 Contributions</span><span class="lang-zh">1.1 主要贡献</span></h3></div>
+          <ol class="contribution-list lang-en">
+            <li><b>Persistent reconstruction formulation.</b> Component-level industrial reconstruction is formulated as a sequence of model-authored or model-revised executable operations over registered evidence and inherited engineering state, with deterministic tools responsible for geometric computation and validation.</li>
+            <li><b>Longitudinal B01–B36 field record.</b> 36 sequential reconstruction batches are organized into a compact study of local fitting, reusable equipment, connected systems, and site closure, retaining the original task-specific evidence and revision history.</li>
+            <li><b>Cross-sequence systems analysis.</b> The documented operator portfolio broadens as reconstruction dependencies accumulate; persistent external state provides both the mechanism for cross-batch composition and a propagation surface for erroneous shared abstractions.</li>
+          </ol>
+          <ol class="contribution-list lang-zh">
+            <li><b>持续重建表述。</b> 将部件级工业重建表述为一系列由模型编写或修订的可执行操作，作用于注册证据与继承工程状态之上，几何计算与验证由确定性工具负责。</li>
+            <li><b>B01–B36 纵向现场记录。</b> 将 36 个顺序重建批次组织为对局部拟合、可复用设备、连接系统与整站收尾的紧凑研究，保留原始任务证据与修订历史。</li>
+            <li><b>跨序列系统分析。</b> 记录到的算子组合随重建依赖累积而扩展；持续外部状态既是跨批次组合的机制，也是错误共享抽象的传播面。</li>
+          </ol>
+        </section>
+
+        <section id="method" class="section alt">
+          <div class="section-head no-index"><div><div class="paper-section-label">2 · Method</div><h2><span class="lang-en">A persistent programmatic reconstruction process</span><span class="lang-zh">持续的程序化重建过程</span></h2><p class="lang-en">The workflow combines a general-purpose reasoning model, executable Blender/Python procedures, registered physical evidence, task-specific validation, and an inherited engineering state. The analysis concerns observable model-in-harness actions and saved artifacts.</p><p class="lang-zh">该工作流结合了通用推理模型、可执行 Blender/Python 程序、注册物理证据、任务专用验证与继承的工程状态。分析对象是可观测的“模型在 harness 中”的行为与保存的产物。</p></div></div>
+
+          <div class="subsection-head compact"><h3><span class="lang-en">2.1 Division of labor between model and deterministic tools</span><span class="lang-zh">2.1 模型与确定性工具的分工</span></h3></div>
           <div class="paper-prose">
-            <p class="lang-en"><b>Study design.</b> One focal model, one site, one longitudinal historical run. There are no matched reruns with a second model, so comparisons to other systems are conceptual rather than empirical. Batches are dependent rather than IID. Behavioral counts are mined from preserved files and are reported as descriptive properties of this record, with manual case annotations identified as such.</p>
-            <p class="lang-zh"><b>研究设计。</b>单一研究模型、单站点、单条纵向历史记录。不存在与第二模型的 matched rerun，因此与其他系统的比较属于概念层而非实证层。批次彼此依赖而非 IID；行为计数来自冻结文件，只作为本记录的描述性属性报告，人工案例标注会明确注明。</p>
+            <p class="lang-en">Observable model-side actions include selecting the relevant evidence and spatial domain, choosing a geometric representation, decomposing a target into reusable and site-specific parts, authoring or revising Blender/Python procedures, selecting measurement or routing operators, and interpreting validation or review outputs when deciding what to revise. Numerical computation — fitting, transforms, spline computation, surface distances, endpoint/contact/continuity checks, collision checks, state-preservation tests — is performed by explicit deterministic procedures. Validators reopen saved files and recompute scoped checks rather than relying on the builder's in-memory state.</p>
+            <p class="lang-zh">可观测的模型侧动作包括：选择相关证据与空间域、选择几何表示、将目标分解为可复用与站点特有部分、编写或修订 Blender/Python 程序、选择测量或路由算子，以及在决定修订内容时解释验证或审查输出。数值计算——拟合、坐标变换、样条计算、表面距离、端点/接触/连续性检查、碰撞检查、状态保持测试——由显式的确定性程序完成。验证器重新打开保存的文件并重算限定范围的检查，而不依赖构建者的内存状态。</p>
+            <p class="lang-en"><b>Attribution boundary.</b> Centimeter-scale residuals reported in individual tasks arise from explicit geometry procedures; they are not measures of intrinsic numerical precision in the language model.</p>
+            <p class="lang-zh"><b>归因边界。</b>各任务报告的厘米级残差来自显式几何程序的输出，而非语言模型内在数值精度的度量。</p>
           </div>
-        </section>
 
-        <section id="tasks" class="section alt task-gallery-section">
-          <div class="section-head no-index"><div><div class="paper-section-label">2 · Evaluation Tasks and Protocol</div><h2><span class="lang-en">Twelve reconstruction task families as behavioral probes</span><span class="lang-zh">以 12 类重建任务作为行为探针</span></h2><p class="lang-en">The task suite spans 38 dependent core batches in one operating substation. It probes how the same model/harness handles different engineering decisions; it is not an IID benchmark and has no global success-rate denominator.</p><p class="lang-zh">任务集覆盖一座运行变电站中的 38 个相互依赖核心批次，用于观察同一模型/harness 如何处理不同工程决策；它不是 IID benchmark，也不存在统一成功率分母。</p></div></div>
+          <div class="subsection-head compact"><h3><span class="lang-en">2.2 The persistent reconstruction loop</span><span class="lang-zh">2.2 持续重建闭环</span></h3></div>
+          <div class="formalism-block" aria-label="Persistent reconstruction loop">
+            <div class="formalism-row"><b><span class="lang-en">Loop</span><span class="lang-zh">闭环</span></b><code>(E<sub>t</sub>, S<sub>t−1</sub>) → O<sub>t</sub> → G<sub>t</sub> → V<sub>t</sub> → S<sub>t</sub></code><span><span class="lang-en">evidence + inherited state → executable operation → saved geometry → task-specific validation → new state</span><span class="lang-zh">证据 + 继承状态 → 可执行操作 → 保存的几何 → 任务专用验证 → 新状态</span></span></div>
+            <div class="formalism-row"><b><span class="lang-en">Validation</span><span class="lang-zh">验证</span></b><code><span class="lang-en">retain · expose mismatch · motivate revision</span><span class="lang-zh">保留 · 暴露偏差 · 触发修订</span></code><span><span class="lang-en">the criterion depends on the represented geometry: surface comparison, endpoint/contact, coverage, preservation, interference</span><span class="lang-zh">判据取决于被表示的几何：表面对照、端点/接触、覆盖度、状态保持、干涉</span></span></div>
+            <div class="formalism-row"><b><span class="lang-en">State</span><span class="lang-zh">状态</span></b><code>S<sub>t</sub></code><span><span class="lang-en">addressable by later batches through named collections, transforms, ports, and endpoints; no single residual is used as a universal station-wide accuracy measure</span><span class="lang-zh">后续批次可通过命名 collection、变换、端口与端点寻址；不以任何单一残差作为整站统一精度度量</span></span></div>
+          </div>
 
+          <div class="subsection-head compact" id="method-trace"><h3><span class="lang-en">2.3 Worked trace: changing the representation in B23</span><span class="lang-zh">2.3 实例轨迹：B23 中的表示变更</span></h3></div>
           <div class="paper-prose">
-            <p class="lang-en">The sequence also records a change in reconstruction scope. B01–B19 concentrate on individual devices and reusable equipment families. B20–B30 add explicit bus and conductor connections and use coverage analysis to identify unresolved geometry. B31–D38 close civil and auxiliary structures and incorporate reviewer-identified omissions. D40 preserves geometry while changing presentation materials, and D41 adds transformer inspection semantics.</p>
-            <p class="lang-zh">任务序列还记录了重建范围的变化。B01–B19 主要处理单体设备和可复用设备族；B20–B30 加入显式母线与导线连接，并使用覆盖分析定位未解决几何；B31–D38 完成土建与辅助设施，并处理审查者指出的遗漏；D40 在保持几何不变的情况下修改展示材质；D41 增加主变巡检语义。</p>
+            <p class="lang-en">The inherited preflight treated a transformer neutral connection primarily as a straight two-end problem. Inspection of the registered reference showed a lateral bow of roughly 0.5 m through the middle of the trajectory — the straight representation omitted observed source geometry. The operation was reformulated as a constrained curved path: source geometry was spatially binned, eight control points extracted, and deterministic code fit a cubic B-spline with fixed endpoints and a smoothness penalty. The saved path terminated at the existing B08 transformer terminal interface.</p>
+            <p class="lang-zh">继承的 preflight 将主变中性点连接主要当作直线两端问题处理。对注册参考的检查显示轨迹中段存在约 0.5 m 的横向弯曲——直线表示遗漏了观测到的源几何。操作因此被重新表述为受约束曲线路径：源几何经空间分箱，提取 8 个控制点，由确定性代码拟合固定端点、带平滑惩罚的三次 B 样条。保存的路径终止于既有 B08 主变端子接口。</p>
+            <p class="lang-en">The method-level point is the ordering of decisions: the workflow first changes the geometric hypothesis from a straight segment to a curved path; numerical fitting then estimates parameters within that representation; validation tests the saved result and can trigger another local revision. Residual reduction inside the wrong representation would not recover the missing bow. This pattern recurs with different operators in B15 (reusable scope), B20 and B36 (route/interference).</p>
+            <p class="lang-zh">方法层面的要点在于决策顺序：工作流先把几何假设从直线段改为曲线路径，数值拟合随后在该表示内估计参数，验证再检验保存的结果并可能触发下一轮局部修订。在错误的表示内部降低残差无法找回缺失的弯曲。同一模式以不同算子重现于 B15（复用边界）、B20 与 B36（路由/干涉）。</p>
           </div>
-
-          <div class="task-gallery">
-            <article class="task-card"><img src="../media/cases/arrester.png" alt="Surge arrester reconstruction"><div class="task-body"><span class="task-batch">B01–B05 · B18</span><h3><span class="lang-en">Surge arresters</span><span class="lang-zh">避雷器</span></h3><p><span class="lang-en">local fitting · pose · holdout validation</span><span class="lang-zh">局部拟合 · 位姿 · 留出验证</span></p><strong>B01: 4.8 / 7.3 / 5.1 cm → fail</strong></div></article>
-            <article class="task-card"><img src="../media/cases/wall_gate.png" alt="Wall and gate reconstruction"><div class="task-body"><span class="task-batch">B06</span><h3><span class="lang-en">Walls + gate</span><span class="lang-zh">围墙与大门</span></h3><p><span class="lang-en">large civil geometry</span><span class="lang-zh">大型土建几何</span></p><strong>7.87 m → 0.015 m*</strong></div></article>
-            <article class="task-card"><img src="../media/cases/transformer.png" alt="Transformer reconstruction"><div class="task-body"><span class="task-batch">B07–B08</span><h3><span class="lang-en">Main transformers</span><span class="lang-zh">主变</span></h3><p><span class="lang-en">complex assembly · shared MASTER</span><span class="lang-zh">复杂总成 · 共享 MASTER</span></p><strong>MASTER → T1 / T2</strong></div></article>
-            <article class="task-card"><img src="../media/cases/capacitor.png" alt="Capacitor bank reconstruction"><div class="task-body"><span class="task-batch">B09–B10</span><h3><span class="lang-en">Capacitor banks</span><span class="lang-zh">电容器组</span></h3><p><span class="lang-en">repeated local assemblies</span><span class="lang-zh">重复局部总成</span></p><strong>18 lanes · 0.6–2.4 cm*</strong></div></article>
-            <article class="task-card"><img src="../media/cases/gis110.png" alt="110 kV GIS reconstruction"><div class="task-body"><span class="task-batch">B11–B16</span><h3>110 kV GIS</h3><p><span class="lang-en">families · variants · reuse</span><span class="lang-zh">设备族 · 变体 · 复用</span></p><strong>B13: 7 GIS sets · ≈2,400 meshes</strong></div></article>
-            <article class="task-card"><img src="../media/cases/gis220.png" alt="220 kV GIS reconstruction"><div class="task-body"><span class="task-batch">B17–B19</span><h3>220 kV GIS</h3><p><span class="lang-en">complex topology · reuse across related families</span><span class="lang-zh">复杂拓扑 · 跨设备族复用</span></p><strong>B17: 50 / 75 pass · 25 retained</strong></div></article>
-            <article class="task-card"><img src="../media/cases/conductors.png" alt="Bus and conductor reconstruction"><div class="task-body"><span class="task-batch">B20–B30</span><h3><span class="lang-en">Bus + conductors</span><span class="lang-zh">母线与导线系统</span></h3><p><span class="lang-en">connectivity · flexible paths</span><span class="lang-zh">连接关系 · 柔性路径</span></p><strong>≈88.8 m busbar · endpoint ≈1e-6 m</strong></div></article>
-            <article class="task-card"><img src="../media/cases/civil.png" alt="Building and ground reconstruction"><div class="task-body"><span class="task-batch">B31–B34</span><h3><span class="lang-en">Building + ground</span><span class="lang-zh">建筑与地坪</span></h3><p><span class="lang-en">large structured civil model</span><span class="lang-zh">大型结构化土建模型</span></p><strong>946 components · ≈10,182 m²</strong></div></article>
-            <article class="task-card"><img src="../media/cases/auxiliary.png" alt="Auxiliary facility reconstruction"><div class="task-body"><span class="task-batch">B35–D37</span><h3><span class="lang-en">Auxiliary facilities</span><span class="lang-zh">辅助与小设施</span></h3><p><span class="lang-en">CCTV · fence · floodlights · manholes</span><span class="lang-zh">CCTV · 围栏 · 投光灯 · 井盖</span></p><strong>B35: closure after multiple revisions</strong></div></article>
-            <article class="task-card"><img src="../media/cases/human_correction.png" alt="Correction initiated by human review in D38"><div class="task-body"><span class="task-batch">B36 · D38</span><h3><span class="lang-en">Correction from human review</span><span class="lang-zh">人工引导纠错</span></h3><p><span class="lang-en">review → coordinates → rebuild</span><span class="lang-zh">审查 → 坐标 → 补建</span></p><strong>D38 registration NCC 0.94 / 0.92</strong></div></article>
-            <article class="task-card"><img src="../media/cases/presentation.png" alt="D40 material presentation layer"><div class="task-body"><span class="task-batch">D40</span><h3><span class="lang-en">Presentation invariance</span><span class="lang-zh">展示层不变性</span></h3><p><span class="lang-en">appearance changes · geometry invariant</span><span class="lang-zh">外观变化 · 几何保持不变</span></p><strong>37,153 objects unchanged</strong></div></article>
-            <article class="task-card"><img src="../media/cases/semantics.png" alt="D41 transformer inspection semantics"><div class="task-body"><span class="task-batch">D41</span><h3><span class="lang-en">Inspection semantics</span><span class="lang-zh">巡检语义</span></h3><p><span class="lang-en">augmentation with addressable inspection parts</span><span class="lang-zh">可寻址部件语义增强</span></p><strong>79 meshes · 17 classes × T1/T2</strong></div></article>
-          </div>
-          <p class="metric-footnote lang-en">* All residual values measure internal agreement with the correlated photogrammetric reference domains used during reconstruction; they are not independent survey accuracy.</p>
-          <p class="metric-footnote lang-zh">* 所有残差数值均为与重建过程中使用的（相关）摄影测量参考域的内部一致性——不是独立测绘精度。</p>
-
-          <div class="subsection-head compact"><h3><span class="lang-en">2.1 Task definitions and native readouts</span><span class="lang-zh">2.1 任务定义与任务原生读数</span></h3></div>
-          <div class="matrix-wrap">
-            <table class="task-evidence-table">
-              <thead><tr><th><span class="lang-en">Task</span><span class="lang-zh">任务</span></th><th><span class="lang-en">Primary evidence</span><span class="lang-zh">主要证据</span></th><th><span class="lang-en">Representation / challenge</span><span class="lang-zh">表示 / 难点</span></th><th><span class="lang-en">Native evidence</span><span class="lang-zh">任务原生证据</span></th><th><span class="lang-en">What changed</span><span class="lang-zh">后续变化</span></th></tr></thead>
-              <tbody>
-                <tr><td>Arrester</td><td>photo + local coarse</td><td>local pose / shaft</td><td>B01 RMS 4.8/7.3/5.1 cm → failed screen (retained)</td><td>B02 separates fitting and holdout domains</td></tr>
-                <tr><td>Transformer</td><td>photos + coarse + user equivalence</td><td>complex assembly / reuse</td><td>bank median ≈0.01 m; T2-front P95 0.62 m tail retained</td><td>B08 promotes one assembly to shared MASTER</td></tr>
-                <tr><td>Capacitor bank</td><td>photos + local coarse</td><td>repeated assembly</td><td>18 lane medians 0.6–2.4 cm</td><td>repetition becomes explicit structure</td></tr>
-                <tr><td>110 kV GIS</td><td>photos + local coarse</td><td>family / variants</td><td>B13: 7 sets, ≈2,400 expanded meshes</td><td>reuse expands across the equipment family</td></tr>
-                <tr><td>220 kV GIS</td><td>photos + coarse + prior masters</td><td>topology / finite geometry local to each installation</td><td>B17: 50/75 checks pass, 25 retained non-pass</td><td>B15/B17-era revisions refine MASTER/site boundary</td></tr>
-                <tr><td>Bus + conductors</td><td>coarse + installed equipment</td><td>connectivity / flexible paths</td><td>≈88.8 m busbar; endpoint continuity ≈1e-6 m</td><td>scene becomes a connected system</td></tr>
-                <tr><td>Coverage completion</td><td>coarse occupancy in selected elevated regions</td><td>unknown omissions</td><td>&gt;1 m gap 78.8% → 14.6% (audited regions)</td><td>task selection changes from inventory to coverage</td></tr>
-                <tr><td>Civil</td><td>coarse + review views</td><td>building / ground / perimeter</td><td>946-component building; ≈10,182 m² ground; wall-domain RMS 1.8–3.2 cm</td><td>station envelope closes</td></tr>
-                <tr><td>B36 omission recovery</td><td>human overhead review + history</td><td>missing bus rack / routing</td><td>multiple revisions; final segment moved 0.16 m</td><td>human feedback becomes reconstruction trigger</td></tr>
-                <tr><td>D38 correction</td><td>2D markup + review image mapping</td><td>false objects + missing GIS/fire infrastructure</td><td>NCC 0.94/0.92; D38.1 → D38.2 orientation correction</td><td>quarantine + rebuild + semantic coordinate fix</td></tr>
-                <tr><td>D40</td><td>D38.2 geometry + new materials</td><td>presentation layer change</td><td>37,153 objects / 29,986,649 vertices invariant</td><td>appearance decoupled from geometry claim</td></tr>
-                <tr><td>D41</td><td>12MZ semantic source + B08 transformer</td><td>inspection accessory augmentation</td><td>79/79 meshes · 17/17 selected classes × T1/T2</td><td>geometry becomes addressable for inspection</td></tr>
-              </tbody>
-            </table>
-          </div>
-
-          <div class="subsection-head compact"><h3><span class="lang-en">2.2 Task-level quantitative context</span><span class="lang-zh">2.2 任务级定量背景</span></h3></div>
-          <div class="metric-callout">
-            <strong data-metric="surface_records">1,550</strong>
-            <div><b><span class="lang-en">surface comparison records</span><span class="lang-zh">表面对照记录</span></b><p><span class="lang-en">Median / p90 / p95 = 3.6 / 8.4 / 11.6 cm against the same photogrammetric mesh used as reconstruction evidence. These values measure <b>internal agreement, not independent survey accuracy</b>. The 5 cm screening ledger retains 149 passing / 101 non-passing items (a screening ledger, not a success rate). The coverage audit of selected high regions moved the &gt;1 m unexplained-sample fraction from 78.8% to 14.6% (audited regions, not whole-station completeness).</span><span class="lang-zh">相对于同时作为重建证据的同一摄影测量网格，median / p90 / p95 = 3.6 / 8.4 / 11.6 cm——<b>内部一致性，不是独立测绘精度</b>。5 cm 筛查台账保留 149 项通过 / 101 项未通过（筛查台账，不是成功率）。对选定高区的覆盖审计将 &gt;1 m 未解释采样比例从 78.8% 降至 14.6%（审计区域，非整站完备性）。</span></p></div>
-          </div>
-          <figure class="research-figure wide evidence-figure">
-            <img src="../figures/fig03_quantitative_evidence.svg" alt="Quantitative evidence: residuals, retained screening items, coverage gaps">
-            <figcaption><span class="lang-en"><b>Figure 2.</b> Residuals, retained screening items, and coverage-gap measurements answer different questions and are reported separately.</span><span class="lang-zh"><b>图 2.</b> 残差、被保留的筛查项与覆盖缺口测量回答的是不同问题，因此分别报告。</span></figcaption>
-          </figure>
         </section>
 
-        <section id="worked-example" class="section">
-          <div class="section-head no-index"><div><div class="paper-section-label">3 · Representative Task</div><h2><span class="lang-en">B32 separates metric fitting from engineering interpretation</span><span class="lang-zh">B32：区分度量拟合与工程结构解释</span></h2><p class="lang-en">B32 is a worked episode because its coarse envelope can be fitted deterministically while the door structure remains wrong until additional evidence and review revise the model.</p><p class="lang-zh">B32 作为代表性案例，是因为其粗略包络可以通过确定性拟合得到，但门结构仍会出错，直到额外证据与审查促使模型修订。</p></div></div>
-
-          <figure class="research-figure wide workflow-figure b32-worked-figure">
-            <img src="../figures/fig12_b32_worked_example.svg" alt="B32 worked example with explicit inputs, agent decisions, deterministic tools and outputs">
-            <figcaption><span class="lang-en"><b>Figure 3.</b> One concrete task. B32 turns field imagery and inherited registered civil geometry into an editable cabin model through an explicit evidence → hypothesis → program → review → validation trace. The figure separates the agent's decisions from deterministic computation and rendering.</span><span class="lang-zh"><b>图 3.</b> 一个具体任务。B32 将现场图像与继承的注册土建几何，通过“证据 → 假设 → 程序 → 审查 → 验证”的明确轨迹转化为可编辑设备舱模型，并区分智能体决策与确定性计算/渲染。</span></figcaption>
-          </figure>
-
-          <div class="method-trace-table" role="table" aria-label="B32 input action output trace">
-            <div class="trace-head"><span><span class="lang-en">Stage / why</span><span class="lang-zh">阶段 / 为什么</span></span><span><span class="lang-en">Input</span><span class="lang-zh">输入</span></span><span>Astra / Codex</span><span><span class="lang-en">Deterministic execution</span><span class="lang-zh">确定性执行</span></span><span><span class="lang-en">Output</span><span class="lang-zh">输出</span></span></div>
-            <div class="trace-row"><span><b>1 · Freeze</b><small><span class="lang-en">B31 left the cabins unresolved; earlier work must not be overwritten.</span><span class="lang-zh">B31 留下未解决的设备舱；早期成果不得被覆盖。</span></small></span><span>B31 .blend + manifest + protected hashes</span><span><span class="lang-en">selects B32 scope while preserving prior state</span><span class="lang-zh">选择 B32 范围并要求历史不被覆盖</span></span><span><code>prepare_B32.py</code> hashes and freezes inherited artifacts</span><span><code>inputs_B32.json</code></span></div>
-            <div class="trace-row"><span><b>2 · Measure envelope</b><small><span class="lang-en">Screenshot appearance is insufficient for metric pose/size.</span><span class="lang-zh">截图观感不足以给出可复核的尺寸与位姿。</span></small></span><span><code>B31_vertical_samples.npz</code> + station frame</span><span><span class="lang-en">chooses separate rectangular fits for C110/C220 and a fit/comparison split</span><span class="lang-zh">选择 C110/C220 分别拟合矩形，并划分拟合/回查域</span></span><span>SciPy soft-L1 least squares + Matplotlib</span><span>width / length / yaw / root transform + façade diagnostics + <code>B32_container_measurements.json</code></span></div>
-            <div class="trace-row"><span><b>3 · Diagnose & revise</b><small><span class="lang-en">Fitted walls do not determine door count, side, or position.</span><span class="lang-zh">墙面拟合不能决定门的数量、朝向与位置。</span></small></span><span>low height coarse slices + field photos (e.g. DSC3140)</span><span><span class="lang-en">interprets stair/door evidence and revises R1 → R2 → R3</span><span class="lang-zh">结合台阶/照片证据修订 R1 → R2 → R3</span></span><span><code>inspect_B32_steps.py</code> creates plan/height diagnostics</span><span><code>B32_source_steps_diagnostic.png</code>; final C110 east door (Y≈−3.90) and two C220 west doors (≈−5.50, +5.32)</span></div>
-            <div class="trace-row"><span><b>4 · Build</b><small><span class="lang-en">Accepted measurements must become editable reusable structure.</span><span class="lang-zh">通过审查的测量必须转成可编辑工程结构。</span></small></span><span>measurements + revised door parameters + inherited B31 scene</span><span><span class="lang-en">writes/revises the Blender construction program and reuse boundary</span><span class="lang-zh">编写/修改 Blender 构建程序与复用边界</span></span><span>Blender creates shared END/HVAC and DOOR masters, separate C110/C220 cabin masters, and SITE roots</span><span>station <code>.blend</code> + reusable component <code>.blend</code> + 27 renders</span></div>
-            <div class="trace-row"><span><b>5 · Review</b><small><span class="lang-en">One attractive render cannot reveal correspondence errors.</span><span class="lang-zh">单张好看的渲染无法暴露对应关系错误。</span></small></span><span>8 fixed cameras × model/reference geometry</span><span><span class="lang-en">interprets Clean/Overlay/Reference mismatch as revision evidence</span><span class="lang-zh">把同机位差异作为下一轮修订证据</span></span><span>Blender renders Clean / Overlay / Reference; <code>review_B32.py</code> packages the comparison UI</span><span><code>B32_review.html</code>: 8 views, 25 embedded images, slider + 3 display modes</span></div>
-            <div class="trace-row"><span><b>6 · Validate & freeze</b><small><span class="lang-en">Only checked artifacts should enter the next state.</span><span class="lang-zh">只有经过检查的产物才进入下一状态。</span></small></span><span>saved B32 model + inherited B31 state + odd comparison triangles</span><span><span class="lang-en">reacts to failed checks through revision, not silent acceptance</span><span class="lang-zh">若检查失败则继续修订，而不是静默接受</span></span><span><code>validate_B32_r3.py</code> recomputes preservation (34,191 inherited objects, 2,953 protected files), façade, door/stair, camera and asset round-trip checks</span><span><code>B32_validation_r3.json</code> + manifest + continuation note</span></div>
-          </div>
-
-          <div class="workflow-note"><b><span class="lang-en">What the trace shows.</span><span class="lang-zh">该轨迹说明什么。</span></b> <span class="lang-en">The detail-level structure was the hard part, and it was resolved by review-driven revision, not by the first fit: R1 placed one door per cabin with C110 on the wrong side; R3 fixes one C110 east-side door and two C220 west-side doors. The continuation record notes that a C220 middle depression previously read as a door was rejected after photographs and two stair-platform signatures contradicted it. The original <a href="?review=B32#reviews">B32 review page</a> remains available in Appendix A.</span><span class="lang-zh">难的是细节层结构，而它由审查驱动的修订解决，而非首次拟合：R1 每舱一门且 C110 门朝向错误；R3 修正为 C110 东侧一门、C220 西侧两门。续作记录记载：C220 中部一处曾被读作门的凹陷，在照片与两处台阶平台特征否定后被拒绝。原始 <a href="?review=B32#reviews">B32 review 页面</a>保留在附录 A。</span></div>
-
-        </section>
-
-        <section id="cases" class="section episodes-section">
-          <div class="section-head no-index"><div><div class="paper-section-label">4 · Behavioral Case Studies</div><h2><span class="lang-en">How Astra revises modeling decisions</span><span class="lang-zh">Astra 如何修订建模决策</span></h2><p class="lang-en">The cases are presented before the findings so that each cross-case claim can be traced to an observable episode. Seven failure/adaptation events are manually annotated by decision layer; B32 is shown in addition as a representative fine-detail interpretation case.</p><p class="lang-zh">案例先于研究发现呈现，使每条跨案例结论都能追溯到可观测事件。7 个失败/适应事件按决策层进行人工标注；此外加入 B32，作为细节结构解释的代表性案例。</p></div></div>
-
-          <div class="matrix-wrap">
-            <table class="task-evidence-table failure-layer-table">
-              <thead><tr><th><span class="lang-en">Failure layer</span><span class="lang-zh">失败层次</span></th><th><span class="lang-en">Episodes</span><span class="lang-zh">事件</span></th><th><span class="lang-en">Observable evidence</span><span class="lang-zh">可观测证据</span></th><th><span class="lang-en">Response</span><span class="lang-zh">响应</span></th></tr></thead>
-              <tbody>
-                <tr><td><span class="lang-en">protocol</span><span class="lang-zh">协议层</span></td><td>B01</td><td><span class="lang-en">held-out cylindrical-domain RMS ≈0.048/0.073/0.051 m violates the 5 cm screen; comparison domain mixed target shaft with accessory geometry</span><span class="lang-zh">留出圆柱域 RMS ≈0.048/0.073/0.051 m 违反 5 cm 筛查；比较域混入了目标柱体与附件几何</span></td><td><span class="lang-en">B02 separates fitting and holdout regions; revised metric declared not directly comparable to B01</span><span class="lang-zh">B02 分离拟合域与留出域；修订后指标明确声明与 B01 不可直接比较</span></td></tr>
-                <tr><td><span class="lang-en">abstraction</span><span class="lang-zh">抽象层</span></td><td>B15</td><td><span class="lang-en">neighbor-contaminated measurements; shared bus-spool master overlapped installations with different physical extents</span><span class="lang-zh">测量被邻近设备污染；共享母线 master 与物理长度不同的安装位发生重叠</span></td><td><span class="lang-en">measurement method revised; finite site-specific geometry removed from the shared master; obsolete supports archived, not overwritten</span><span class="lang-zh">修订测量方法；有限站点几何移出共享 master；废弃支撑归档而非覆盖</span></td></tr>
-                <tr><td><span class="lang-en">representation</span><span class="lang-zh">表示层</span></td><td>B23 · D38.1</td><td><span class="lang-en">straight-lead hypothesis contradicted by a measured ≈0.5 m mid-span bow; a registration yaw mistaken for equipment orientation</span><span class="lang-zh">直线引线假设被实测约 0.5 m 跨中弯曲否定；配准偏航角被误当作设备朝向</span></td><td><span class="lang-en">curved path fitted through r1/r2/r3; D38.2 corrects the orientation semantics, intermediate error preserved</span><span class="lang-zh">经 r1/r2/r3 拟合曲线路径；D38.2 修正朝向语义，中间错误被保留</span></td></tr>
-                <tr><td><span class="lang-en">task-selection</span><span class="lang-zh">任务选择层</span></td><td>B25/B26</td><td><span class="lang-en">structures can be absent from the model while their inventory entry appears resolved</span><span class="lang-zh">结构可能在台账看似已解决的情况下仍缺失于模型</span></td><td><span class="lang-en">coverage audit becomes a task-selection signal; &gt;1 m unexplained fraction 78.8% → 14.6% in audited regions</span><span class="lang-zh">覆盖审计成为任务选择信号；受审计区域 &gt;1 m 未解释比例 78.8% → 14.6%</span></td></tr>
-                <tr><td><span class="lang-en">human-triggered</span><span class="lang-zh">人工触发</span></td><td>B36 · D38</td><td><span class="lang-en">reviewer reports missing low bus racks; marked review images (NCC ≈0.94/0.92) identify three false cabinet groups</span><span class="lang-zh">审查者报告低层母线架缺失；标记审查图（NCC ≈0.94/0.92）定位三组错误柜体</span></td><td><span class="lang-en">history search + multi-revision rebuild; false objects quarantined (not deleted), missing GIS/fire structures rebuilt</span><span class="lang-zh">历史追溯 + 多轮修订补建；错误对象隔离（而非删除），缺失 GIS/消防设施补建</span></td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p class="metric-footnote"><span class="lang-en">Among the seven annotated events, five are assigned to protocol, abstraction, representation, or task-selection layers and two are omissions surfaced by human review. These labels are descriptive manual annotations of selected documented episodes, not estimated failure frequencies.</span><span class="lang-zh">7 个已标注事件中，5 个被归于协议、抽象、表示或任务选择层，2 个是人工审查暴露的遗漏。这些标签只是对选定建档事件的描述性人工标注，不是失败频率估计。</span></p>
+        <section id="study-design" class="section">
+          <div class="section-head no-index"><div><div class="paper-section-label">3 · Study design</div><h2><span class="lang-en">A sequential reconstruction record, in four descriptive bands</span><span class="lang-zh">顺序重建记录与四个描述性分段</span></h2><p class="lang-en">Later batches inherit accepted geometry, reusable assets, transforms, and validation state from earlier batches. Because geometry type, dependency structure, and validation differ across the sequence, the 36 batches are not collapsed into a single success-rate denominator.</p><p class="lang-zh">后续批次继承早期批次已接受的几何、可复用资产、变换与验证状态。由于几何类型、依赖结构与验证方式沿序列变化，36 个批次不归并为单一成功率分母。</p></div></div>
 
           <figure class="research-figure wide evidence-figure">
-            <img src="../figures/fig05_failure_recovery.svg" alt="Failure and recovery cases altering later protocol, abstractions, and reconstruction logic">
-            <figcaption><span class="lang-en"><b>Figure 4.</b> Representative failures alter later protocol, abstractions, reconstruction logic, or feedback interpretation rather than being silently discarded.</span><span class="lang-zh"><b>图 4.</b> 代表性失败会改变后续协议、抽象、重建逻辑或反馈解释，而不是被静默丢弃。</span></figcaption>
+            <img src="../rewrite_b01_b36/figures/fig02_longitudinal_map_b01_b36.png" alt="B01–B36 longitudinal study map with four descriptive bands and eight anchor batches">
+            <figcaption><span class="lang-en"><b>Figure 2.</b> Longitudinal study map. The four descriptive bands orient the changing reconstruction targets without defining a common difficulty scale. Eight anchor batches locate the evidence used in the main text.</span><span class="lang-zh"><b>图 2.</b> 纵向研究地图。四个描述性分段用于标示重建目标的变化，并不定义统一的难度标尺。八个锚点批次标出正文所使用的证据位置。</span></figcaption>
           </figure>
 
-          <div class="episode-grid">
-            <article class="episode-card metric-episode"><div class="episode-media metric-visual"><span class="fail-mark">FAIL</span><strong>4.8</strong><strong>7.3</strong><strong>5.1</strong><small>cm held-out RMS</small></div><div class="episode-copy"><span class="case-id">B01 → B02</span><h3><span class="lang-en">The evaluation domain is itself a hypothesis</span><span class="lang-zh">评估域本身就是一个假设</span></h3><p class="lang-en"><b>Trigger:</b> held-out RMS 4.8/7.3/5.1 cm fails the 5 cm screen after software checks passed. <b>Diagnosis:</b> the comparison domain mixes the target shaft with protruding accessories. <b>Revision:</b> B02 separates fitting and holdout regions; the failed batch is retained.</p><p class="lang-zh"><b>触发：</b>软件检查通过后，留出域 RMS 4.8/7.3/5.1 cm 未通过 5 cm 筛查。<b>诊断：</b>比较域混入了目标柱体与凸出附件。<b>修订：</b>B02 分离拟合域与留出域；失败批次被保留。</p><div class="episode-lesson">the protocol was wrong; the failed batch remains in history</div></div></article>
-
-            <article class="episode-card"><div class="episode-media"><img src="../media/cases/b08_reuse.png" alt="B08 transformer shared assembly overlay"></div><div class="episode-copy"><span class="case-id green">B08</span><h3><span class="lang-en">Reuse begins with an explicit equivalence authorization</span><span class="lang-zh">复用始于一次明确的同构授权</span></h3><p class="lang-en"><b>Trigger:</b> user authorizes treating the two transformer assemblies as equivalent. <b>Revision:</b> a shared MASTER with T1/T2 site instances; later structural edits propagate consistently. <b>Lesson:</b> reuse is a hypothesis about equivalence. It is adopted deliberately, while the T2-front P95 ≈0.62 m tail remains as counter-evidence.</p><p class="lang-zh"><b>触发：</b>用户明确授权将两台主变视为同构。<b>修订：</b>建立共享 MASTER 与 T1/T2 站点实例，后续结构编辑一致传播。<b>教训：</b>复用是关于同构的假设——经审慎采纳，并保留其反证（T2 正面 P95 ≈0.62 m 尾部）。</p><div class="episode-lesson">human-authorized adaptation; equivalence counter-evidence retained</div></div></article>
-
-            <article class="episode-card"><div class="episode-media image-pair"><img src="../media/cases/b15_before.png" alt="B15 earlier overlay"><img src="../media/cases/b15_after.png" alt="B15 revised overlay"><span class="pair-label left">earlier</span><span class="pair-label right">revised</span></div><div class="episode-copy"><span class="case-id purple">B15</span><h3><span class="lang-en">The reusable abstraction is falsified</span><span class="lang-zh">可复用抽象被证伪</span></h3><p class="lang-en"><b>Trigger:</b> neighbor-contaminated measurements; shared bus geometry overlapping adjacent equipment. <b>Diagnosis:</b> finite site-specific geometry inside a shared master. <b>Revision:</b> measurement method and MASTER/site boundary revised together; obsolete supports archived, not overwritten.</p><p class="lang-zh"><b>触发：</b>测量被邻近设备污染；共享母线几何与相邻设备重叠。<b>诊断：</b>共享 master 中包含了有限的站点特有几何。<b>修订：</b>测量方法与 MASTER/site 边界同时修订；废弃支撑归档而非覆盖。</p><div class="episode-lesson">a reusable library is a geometric hypothesis; field evidence falsified this one</div></div></article>
-
-            <article class="episode-card"><div class="episode-media image-pair"><img src="../media/historical/output/installation_B23/B23_measurement_profiles.png" alt="B23 measured lead profiles"><img src="../media/historical/output/installation_B23/component_and_lead_preflight.png" alt="B23 component and lead preflight"><span class="pair-label left">profile</span><span class="pair-label right">preflight</span></div><div class="episode-copy"><span class="case-id purple">B23</span><h3><span class="lang-en">Measured curvature changes the representation class</span><span class="lang-zh">测得弯曲使表示类别发生改变</span></h3><p class="lang-en"><b>Trigger:</b> an inherited straight-lead assumption conflicts with roughly 0.5 m of mid-span bow in the registered reference. <b>Diagnosis:</b> the representation itself is too simple. <b>Revision:</b> profiles are binned into control points, a curved path is fitted with fixed endpoints, and r1/r2/r3 add missing soft-lead and contact geometry.</p><p class="lang-zh"><b>触发：</b>继承的直线引线假设与注册参考中约 0.5 m 的跨中弯曲冲突。<b>诊断：</b>问题在表示本身过于简单。<b>修订：</b>剖面被分箱为控制点并拟合固定端点曲线，r1/r2/r3 继续补充缺失的软引线与接触几何。</p><div class="episode-lesson">the evidence changes what kind of geometry is built, not only its parameters</div></div></article>
-
-            <article class="episode-card"><div class="episode-media image-pair"><img src="../media/cases/b25_before.png" alt="B25 station before coverage completion"><img src="../media/cases/b26_after.png" alt="B26 station after coverage-driven completion"><span class="pair-label left">before</span><span class="pair-label right">after</span></div><div class="episode-copy"><span class="case-id amber">B25 / B26</span><h3><span class="lang-en">Task selection shifts from inventory to unexplained geometry</span><span class="lang-zh">任务选择从台账转向未解释几何</span></h3><p class="lang-en"><b>Trigger:</b> inventory lists cannot surface unknown omissions. <b>Diagnosis:</b> the reference mesh contains occupancy the model does not explain. <b>Revision:</b> the coverage audit becomes a task-selection signal. The registered reference thereby acts as a sensor for unexplained occupancy.</p><p class="lang-zh"><b>触发：</b>台账无法暴露无人记录的遗漏。<b>诊断：</b>参考网格中存在模型未解释的占据。<b>修订：</b>覆盖审计成为任务选择信号——参考几何变成了传感器（发现 F4）。</p><div class="episode-lesson">audited regions &gt;1 m gap: 78.8% → 14.6% (not whole-station completeness)</div></div></article>
-
-            <article class="episode-card"><div class="episode-media image-pair"><img src="../media/cases/b36_clean.png" alt="B36 reconstructed bus rack"><img src="../media/cases/b36_overlay.png" alt="B36 bus rack overlay"><span class="pair-label left">clean</span><span class="pair-label right">overlay</span></div><div class="episode-copy"><span class="case-id blue">B36</span><h3><span class="lang-en">A sparse omission report becomes a multi-revision rebuild</span><span class="lang-zh">一条稀疏遗漏报告演变为多轮修订补建</span></h3><p class="lang-en"><b>Trigger:</b> a top-view reviewer reports missing low bus racks, providing a compact spatial error signal. <b>Diagnosis:</b> a read-only history search traces the omission to an earlier scope decision. <b>Revision:</b> three revisions address a non-finite path section, section orientation, and a 0.16 m shift to avoid a fire pipe.</p><p class="lang-zh"><b>触发：</b>俯视审查者报告低层母线架缺失——四个字的空间信号。<b>诊断：</b>只读历史追溯将遗漏归因于早期一次范围决策。<b>修订：</b>三轮修订——修复非有限路径段、修正截面朝向、外移 0.16 m 避让消防管。</p><div class="episode-lesson">human supplies the signal; the agent supplies the archaeology, geometry, verification</div></div></article>
-
-            <article class="episode-card flagship-link"><div class="episode-media"><img src="../media/cases/d38_overlay.png" alt="D38 GIS-row correction overlay"></div><div class="episode-copy"><span class="case-id">D38</span><h3><span class="lang-en">2D markup becomes traceable 3D correction, followed by review of the correction</span><span class="lang-zh">二维标记变成可追溯的三维纠错——纠错本身也可被纠正</span></h3><p class="lang-en"><b>Trigger:</b> marked review images. <b>Diagnosis:</b> registration NCC ≈0.94/0.92 → coordinate inversion → three false cabinet groups identified. <b>Revision:</b> quarantine (not delete) + rebuild GIS/fire structures; D38.1's orientation error is then caught by overlay review and corrected in D38.2. Both errors remain in history.</p><p class="lang-zh"><b>触发：</b>带标记的审查图。<b>诊断：</b>配准 NCC ≈0.94/0.92 → 坐标反算 → 定位三组错误柜体。<b>修订：</b>隔离（而非删除）+ 补建 GIS/消防结构；随后 D38.1 的朝向错误被叠加审查发现并由 D38.2 修正。两个错误都留在历史中。</p><a href="#d38" class="episode-link"><span class="lang-en">Detailed D38 record ↓</span><span class="lang-zh">D38 详细记录 ↓</span></a></div></article>
+          <div class="task-gallery band-gallery">
+            <article class="task-card"><img src="../media/cases/arrester.png" alt="Local fitted structures"><div class="task-body"><span class="task-batch">B01–B06</span><h3><span class="lang-en">Local fitted structures</span><span class="lang-zh">局部拟合结构</span></h3><p><span class="lang-en">pose/scale fitting of arresters, wall and gate; comparison-domain definition</span><span class="lang-zh">避雷器、围墙与大门的位姿/尺度拟合；比较域定义</span></p><strong>B01/B02: domain redefined, 4.84/7.32/5.10 cm screen retained as failed</strong></div></article>
+            <article class="task-card"><img src="../media/cases/transformer.png" alt="Repeated equipment"><div class="task-body"><span class="task-batch">B07–B19</span><h3><span class="lang-en">Repeated equipment</span><span class="lang-zh">重复设备</span></h3><p><span class="lang-en">reusable vs. site-specific boundary; transformers, capacitor banks, GIS families</span><span class="lang-zh">可复用与站点特有的边界；主变、电容器组、GIS 设备族</span></p><strong>B08 shared MASTER · B15 reuse boundary revised</strong></div></article>
+            <article class="task-card"><img src="../media/cases/conductors.png" alt="Connected systems"><div class="task-body"><span class="task-batch">B20–B30</span><h3><span class="lang-en">Connected systems</span><span class="lang-zh">连接系统</span></h3><p><span class="lang-en">ports, routes, continuity, flexible path representations</span><span class="lang-zh">端口、路由、连续性、柔性路径表示</span></p><strong>B20 port inventory · B23 curved path · B29 endpoints</strong></div></article>
+            <article class="task-card"><img src="../media/cases/civil.png" alt="Site closure"><div class="task-body"><span class="task-batch">B31–B36</span><h3><span class="lang-en">Site closure</span><span class="lang-zh">整站收尾</span></h3><p><span class="lang-en">coverage-driven omission discovery, preservation, interference constraints</span><span class="lang-zh">覆盖驱动的遗漏发现、状态保持、干涉约束</span></p><strong>B25/26 coverage · B36 composition under interference</strong></div></article>
           </div>
-        </section>
+          <p class="metric-footnote"><span class="lang-en">The bands summarize target structure; they are not discovered task regimes or a common difficulty scale. The main results are organized by the claims supported by representative cases rather than by the bands themselves.</span><span class="lang-zh">这些分段概括目标结构，并非被发现的任务 regime 或统一难度标尺。正文结果按代表性案例所支持的结论组织，而非按分段组织。</span></p>
 
-        <section id="d38" class="section d38-section">
-          <div class="section-head no-index"><div><div class="paper-section-label">4.2 · Behavioral Case Studies</div><h2><span class="lang-en">The D38 correction chain</span><span class="lang-zh">D38 纠错链条</span></h2><p class="lang-en">This correction sequence begins from annotated review images rather than direct mesh editing. D38.1 is subsequently reviewed and corrected in D38.2.</p><p class="lang-zh">记录中最完整的人—智能体事件：由带标记审查图触发、而非人工直接编辑网格的纠错过程——且其自身也被纠正过一次（D38.1 → D38.2）。</p></div></div>
-
-          <div class="d38-story">
-            <article><div class="step-number">01</div><img src="../media/cases/d38_markup.png" alt="Human-marked top view used by D38"><h3><span class="lang-en">Human markup</span><span class="lang-zh">人工标注</span></h3><p><span class="lang-en">Marked review images indicate false cabinets, missing GIS, and fire infrastructure.</span><span class="lang-zh">审查图标出错误柜体、缺失 GIS 与消防设施。</span></p></article>
-            <article><div class="step-number">02</div><img src="../media/cases/d38_cabinets.png" alt="D38 cabinet-site overlay"><h3><span class="lang-en">Register + diagnose</span><span class="lang-zh">配准与诊断</span></h3><p><span class="lang-en">Template registration reaches NCC 0.94/0.92; marked pixels are inverted into model-world regions and false generated groups are identified.</span><span class="lang-zh">模板配准 NCC 达 0.94/0.92；标注像素被反算到模型世界坐标，并定位错误生成对象。</span></p></article>
-            <article><div class="step-number">03</div><img src="../media/cases/d38_station.png" alt="D38 corrected station top view"><h3><span class="lang-en">Quarantine + rebuild + review</span><span class="lang-zh">隔离、补建与复核</span></h3><p><span class="lang-en">Nine false cabinet components move to quarantine; GIS/fire structures are rebuilt; D38.1’s orientation interpretation is corrected in D38.2.</span><span class="lang-zh">9 个错误柜体部件被移入隔离集合；GIS/消防设施被补建；D38.1 的朝向解释在 D38.2 中再次纠正。</span></p></article>
-          </div>
-          <figure class="research-figure wide evidence-figure d38-figure">
-            <img src="../figures/fig06_d38_human_feedback.svg" alt="D38 human feedback evidence chain">
-            <figcaption><span class="lang-en"><b>Figure 5.</b> Sparse 2D markup is transformed into a traceable sequence of registration, coordinate inference, diagnosis, quarantine/rebuild, and review. The original error, the intermediate correction error, and the final fix all remain auditable.</span><span class="lang-zh"><b>图 5.</b> 稀疏二维标记被转化为可追溯的配准、坐标推理、诊断、隔离/补建与复核序列。原始错误、中间纠错错误与最终修正均保持可审计。</span></figcaption>
-          </figure>
-        </section>
-
-        <section id="behavioral-findings" class="section">
-          <div class="section-head no-index"><div><div class="paper-section-label">5 · Cross-Case Findings</div><h2><span class="lang-en">What Astra does well, and where the workflow still fails</span><span class="lang-zh">Astra 擅长什么，工作流又在哪些地方持续失败</span></h2><p class="lang-en">These findings are synthesized after the cases. They characterize the preserved record and selected diagnostic episodes; they do not estimate population-wide failure frequencies.</p><p class="lang-zh">以下发现由前述案例归纳而来，用于刻画冻结记录与选定诊断事件，不代表总体失败频率估计。</p></div></div>
-
-          <figure class="research-figure wide">
-            <img src="../figures/fig14_behavioral_analysis.svg" alt="Behavioral analysis: revision tags, failure attribution, adaptation initiators, and operator prevalence">
-            <figcaption><span class="lang-en"><b>Figure 6.</b> Descriptive context for the cross-case analysis. Visible revision tags are a lower bound; failure-layer and adaptation labels are manual annotations of seven documented episodes; operator counts describe recorded workflow stages rather than success rates.</span><span class="lang-zh"><b>图 6.</b> 跨案例分析的描述性背景。可见修订标签只是下界；失败层与适应类别来自对 7 个建档事件的人工标注；算子计数描述的是有记录的工作阶段，而非成功率。</span></figcaption>
-          </figure>
-
-          <div class="discussion-sections cross-case-findings">
-            <article id="f1">
-              <h3><span class="lang-en">5.1 Explicit measurement operators separate engineering reasoning from numerical estimation</span><span class="lang-zh">5.1 显式测量算子将工程推理与数值估计分离</span></h3>
-              <p class="lang-en">Wall, capacitor, building, and B32 cabin tasks obtain centimeter-scale internal agreement when the workflow first compiles a registered local comparison domain and then delegates fitting to deterministic code. The numerical fit is therefore not an Astra capability by itself. The model contribution visible in the record is choosing what geometric quantity to estimate, what evidence belongs to the domain, how the domain is split, and which operator is invoked.</p>
-              <p class="lang-zh">围墙、电容器、建筑以及 B32 设备舱在先编译注册局部比较域、再交由确定性代码拟合时，可以达到厘米级内部一致性。因此数值拟合本身并不是 Astra 的独立能力；记录中可归于模型的作用是决定估计什么几何量、哪些证据属于比较域、如何划分域以及调用何种算子。</p>
-            </article>
-            <article id="f2">
-              <h3><span class="lang-en">5.2 The difficult revisions occur above parameter tuning</span><span class="lang-zh">5.2 困难修订发生在参数调节之上</span></h3>
-              <p class="lang-en">Among the seven annotated adaptation/failure episodes, five are assigned to protocol, abstraction, representation, or task-selection layers. B01 changes the comparison domain; B15 changes the MASTER/site boundary; B23 changes the representation class; B25/B26 changes how the next task is chosen; D38.1 corrects a coordinate-semantics interpretation. The common feature is that changing a dimension would not have repaired the underlying assumption. This five-of-seven count applies only to the selected documented episodes.</p>
-              <p class="lang-zh">在 7 个已标注适应/失败事件中，5 个被归于协议、抽象、表示或任务选择层：B01 改变比较域，B15 改变 MASTER/site 边界，B23 改变表示类别，B25/B26 改变下一任务的选择方式，D38.1 修正坐标语义解释。共同点是单纯修改尺寸无法修复底层假设。这里的 5/7 只适用于这组被选中且有完整记录的事件。</p>
-            </article>
-            <article id="f3">
-              <h3><span class="lang-en">5.3 First-pass fine detail and coordinate semantics remain error-prone</span><span class="lang-zh">5.3 首次细节解释与坐标语义仍容易出错</span></h3>
-              <p class="lang-en">B32 reaches a defensible cabin envelope while still placing doors incorrectly. B23 inherits a geometrically inadequate straight connection. D38.1 turns a successful image registration into the wrong equipment orientation. In each case the output is plausible enough to survive initial construction but is contradicted by an externalized review artifact. This makes profiles, fixed-camera overlays, and task-specific diagnostics part of the measurement process rather than presentation material.</p>
-              <p class="lang-zh">B32 在设备舱包络合理的同时仍会把门放错；B23 继承了几何上不足的直线连接；D38.1 将成功的图像配准错误解释成设备朝向。三者都说明结果可以在首次构建时看似合理，却被外化审查证据否定。因此剖面、固定机位叠图和任务专用诊断属于测量过程本身，而非展示材料。</p>
-            </article>
-            <article id="f4">
-              <h3><span class="lang-en">5.4 Human input is sparse but materially changes the trajectory</span><span class="lang-zh">5.4 人工输入稀疏，但会实质改变轨迹</span></h3>
-              <p class="lang-en">B08 requires explicit authorization before the two transformer assemblies are treated as equivalent; B36 begins from an omission report; D38 begins from marked review images. The human does not edit mesh vertices, but these interventions change what may be shared, what subsystem is reconstructed, or which region is corrected. The demonstrated system is therefore agent-driven and human-steerable rather than autonomous.</p>
-              <p class="lang-zh">B08 在两台主变被视为同构前需要明确授权；B36 从遗漏报告开始；D38 从带标记审查图开始。人并不直接编辑网格顶点，但这些干预会改变哪些结构允许共享、哪个子系统需要补建、哪些区域需要纠错。因此现有系统是智能体驱动、人工可引导，而非完全自主。</p>
-            </article>
-            <article id="f5">
-              <h3><span class="lang-en">5.5 Persistent state enables composition and also propagates abstraction errors</span><span class="lang-zh">5.5 持续状态既支持组合，也会传播抽象错误</span></h3>
-              <p class="lang-en">Inherited geometry, reusable masters, protected history, and prior validators allow later batches to build on earlier work. The same persistence makes a wrong abstraction consequential: B15 propagates finite geometry through a shared master until the reuse boundary is revised. Long-horizon state is therefore both an enabling mechanism and a risk surface. Provenance, quarantine, and geometry-preserving version boundaries are required to keep later work interpretable.</p>
-              <p class="lang-zh">继承几何、可复用 master、受保护历史与前序验证器让后续批次能够建立在早期成果之上；同样的持续性也会放大错误抽象：B15 通过共享 master 传播了有限几何，直到复用边界被修订。因此长时程状态既是能力来源，也是风险面，需要 provenance、quarantine 和几何保持的版本边界来保证后续结果可解释。</p>
-            </article>
-          </div>
-        </section>
-
-        <section id="integration" class="section alt integration-section">
-          <div class="section-head no-index"><div><div class="paper-section-label">6 · Long-Horizon Composition Stress Test</div><h2><span class="lang-en">Can accepted decisions survive composition?</span><span class="lang-zh">通过验收的决策能否在长期组合中保持成立？</span></h2><p class="lang-en">The full station is used here as a stress test of persistent state: reuse boundaries, transforms, connections, provenance, and rejected variants must remain interpretable as later tasks modify the same project.</p><p class="lang-zh">这里把整站模型作为持续状态的压力测试：当后续任务持续修改同一工程时，复用边界、变换、连接、provenance 与被拒绝变体仍应保持可解释。</p></div></div>
-
+          <div class="subsection-head compact"><h3><span class="lang-en">3.1 Evidence used in the analysis</span><span class="lang-zh">3.1 分析所用证据</span></h3></div>
           <div class="paper-prose">
-            <p class="lang-en">At the D38.2 geometry baseline, accepted outputs from the preceding task sequence coexist in one editable Blender state. The D38.2/D40-equivalent project contains <b>37,153 objects, 3,916 mesh datablocks, 755 scenes, and 858 collections</b>. These are scale descriptors, not counts of independently verified physical components. Their role in the argument is to show that earlier assets are not discarded when the experiment moves to a new task.</p>
-            <p class="lang-zh">在 D38.2 几何基线上，前序任务中通过验收的结果共存于同一个可编辑 Blender 状态。D38.2/D40 等价工程包含 <b>37,153 个对象、3,916 个 mesh datablock、755 个 scene 和 858 个 collection</b>。这些只是规模描述，并不是独立验证物理部件的数量；它们在论证中的作用是说明实验进入新任务后，早期资产并不会被丢弃。</p>
-            <p class="lang-en">The more informative checks concern state discipline. Reusable masters must remain shared only where equivalence is justified; finite site-specific geometry must stay local; connection endpoints must still meet equipment created in earlier batches; and failed or superseded variants remain in history. D40 then changes only presentation materials while preserving geometry, transforms, object count, and vertex count. D41 adds semantics after that boundary rather than rewriting the reconstruction record.</p>
-            <p class="lang-zh">更有信息量的是状态纪律检查：可复用 master 只能在同构有依据时保持共享；有限站点几何必须保持局部；连接端点仍需与早期批次中的设备相接；失败或被替代变体继续留在历史中。随后 D40 只改变展示材质，同时保持几何、变换、对象数和顶点数不变；D41 则在该边界之后追加语义，而不是重写重建记录。</p>
-          </div>
-
-          <figure class="research-figure wide">
-            <img src="../figures/fig09_task_suite_composition.svg" alt="Task outputs accumulating into a persistent station engineering state">
-            <figcaption><span class="lang-en"><b>Figure 7.</b> Long-horizon composition stress test. Heterogeneous task outputs enter one persistent engineering state; reuse, provenance, and state consistency become constraints on later tasks.</span><span class="lang-zh"><b>图 7.</b> 长时程组合压力测试。异构任务结果进入同一持续工程状态，复用、provenance 与状态一致性成为后续任务必须满足的约束。</span></figcaption>
-          </figure>
-
-          <div class="station-video-wrap">
-            <video controls preload="metadata" poster="../media/d40_overview.png"><source src="../media/coarse_vs_d40.mp4" type="video/mp4"></video>
-            <div class="station-video-copy"><strong data-metric="scene_objects">37,153</strong><span><span class="lang-en">same-view coarse-reference / composed-station comparison</span><span class="lang-zh">同视角粗模参考 / 组合整站对照</span></span></div>
+            <p class="lang-en">Fixed-camera clean/overlay/reference renders support visual comparison without changing the viewpoint between model and registered source. Local surface checks quantify scoped geometric agreement where a finite comparison domain can be defined. Connected-system validators add endpoint, contact, and continuity checks that are not reducible to surface distance. B25/B26 introduce selected-region coverage diagnostics for finding large unexplained structures, and late batches record preservation of inherited objects, transforms, collections, and protected files. These evidence types answer different questions and are reported with their local scope rather than combined into one station-wide accuracy metric.</p>
+            <p class="lang-zh">固定机位的 clean/overlay/reference 渲染支持在模型与注册源之间不换视角的可视对照。局部表面检查在可定义有限比较域处量化几何一致性。连接系统验证器增加了不可归约为表面距离的端点、接触与连续性检查。B25/B26 引入选定区域覆盖诊断以发现大型未解释结构；后期批次记录继承对象、变换、collection 与受保护文件的保持情况。这些证据类型回答不同问题，均按其局部口径报告，而不合并为单一整站精度指标。</p>
+            <p class="lang-en">The operator analysis is reconstructed from preserved stage/script artifacts and review records: in the B01–B36 catalog, <code>build</code> and <code>validate</code> appear in all 36 batches, while other named stages vary by target. Absence of a named stage does not imply absence of reasoning, and stage prevalence is not a performance measure. The main text gives eight anchor batches the narrative weight: B01/B02, B08, B15, B20, B23, B25/26, B29, and B36; the complete batch history lives in the evidence browser below.</p>
+            <p class="lang-zh">算子分析重建自保存的阶段/脚本产物与审查记录：在 B01–B36 目录中，<code>build</code> 与 <code>validate</code> 出现于全部 36 个批次，其余命名阶段随目标而变化。缺少某个命名阶段不意味着缺少推理，阶段频次也不是性能度量。正文的叙事权重给了八个锚点批次：B01/B02、B08、B15、B20、B23、B25/26、B29 与 B36；完整批次历史见下方证据浏览器。</p>
           </div>
         </section>
 
-        <section id="semantics" class="section semantics-section">
-          <div class="section-head no-index"><div><div class="paper-section-label">6.2 · Composition Endpoint</div><h2><span class="lang-en">D41 adds inspection-addressable parts without rewriting geometry history</span><span class="lang-zh">D41 在不重写几何历史的前提下增加巡检可寻址部件</span></h2></div></div>
+        <section id="results" class="section alt">
+          <div class="section-head no-index"><div><div class="paper-section-label">4 · Results</div><h2><span class="lang-en">A broadening operator portfolio over one persistent state</span><span class="lang-zh">同一持续状态上不断扩展的算子组合</span></h2><p class="lang-en">Two properties of the record: how the operator portfolio changes as reconstructed elements acquire dependencies, and whether local solutions are composed through persistent external engineering state.</p><p class="lang-zh">记录的两个性质：算子组合如何随被重建元素的依赖累积而变化；局部解是否通过持续外部工程状态完成组合。</p></div></div>
+
+          <div class="subsection-head compact"><h3><span class="lang-en">4.1 The reconstruction loop broadens beyond local fitting</span><span class="lang-zh">4.1 重建闭环扩展超出局部拟合</span></h3></div>
           <div class="paper-prose">
-            <p class="lang-en">D41 is an additive endpoint rather than a second reconstruction study. After the main geometry stabilizes, it adds 79 accessory meshes spanning 17 selected inspection-relevant transformer part classes and instantiates the shared accessory collection on both T1 and T2. The validation record reports 79/79 selected meshes and 17/17 selected classes on both instances. This demonstrates one downstream use of the component hierarchy; it does not establish complete station-wide semantics.</p>
-            <p class="lang-zh">D41 是追加式终点，而不是第二项独立重建研究。主站几何稳定后，它增加 79 个附件网格，覆盖 17 类选定的主变巡检相关部件，并把共享附件 collection 实例化到 T1 和 T2。验证记录报告 79/79 个选定网格以及两台实例上的 17/17 个选定类别。这说明部件层级可以被下游巡检语义使用，但并不代表整站语义已经完备。</p>
+            <p class="lang-en">Every batch from B01 through B06 records an explicit fitting stage and none records a separate measure, plan, refine, or audit stage. Between B07 and B19, measurement appears in 8 of 13 records, planning in 7, refinement in 9, and audit in 10; all 13 preserve interactive review pages. Between B20 and B30, inspection and planning each appear in 8 of 11 batches and audit in 10, alongside route, feature, and coverage artifacts absent from the early sequence — while six of the eleven still contain an explicit fit stage. In B31–B36, all six records contain measurement, five contain inspection, four contain planning, five a dedicated review stage, and B36 adds an explicit collision/interference operation.</p>
+            <p class="lang-zh">B01–B06 每个批次都记录了显式拟合阶段，且均无独立的 measure、plan、refine 或 audit 阶段。B07–B19 间，13 条记录中 8 条含测量、7 条含规划、9 条含细化、10 条含审计，且 13 条全部保存交互审查页面。B20–B30 间，11 个批次中检查与规划各出现 8 次、审计 10 次，并出现早期序列没有的路由、特征与覆盖产物——其中 6 条仍含显式拟合阶段。B31–B36 中，6 条记录全部含测量，5 条含检查，4 条含规划，5 条含专门审查阶段，B36 新增显式碰撞/干涉操作。</p>
+            <p class="lang-en">This pattern is descriptive rather than statistical: local fitting remains present throughout, but it becomes embedded within a larger set of relational operations. The record cannot be reduced to repeated execution of a single fitting primitive.</p>
+            <p class="lang-zh">这一模式是描述性而非统计性的：局部拟合始终存在，但被嵌入更大的关系操作集合之中。该记录无法被归约为单一拟合原语的重复执行。</p>
           </div>
           <figure class="research-figure wide evidence-figure">
-            <img src="../figures/fig07_d41_inspection_semantics.svg" alt="D41 inspection-semantic augmentation">
-            <figcaption><span class="lang-en"><b>Figure 8.</b> Additive semantic endpoint. The selected transformer accessory layer is attached after the geometry baseline and remains explicitly separated from earlier reconstruction claims.</span><span class="lang-zh"><b>图 8.</b> 追加式语义终点。选定主变附件层在几何基线之后接入，并与早期重建结论保持明确分离。</span></figcaption>
+            <img src="../rewrite_b01_b36/figures/fig03_operator_portfolio_b01_b36.png" alt="Operator portfolio across B01–B36">
+            <figcaption><span class="lang-en"><b>Figure 3.</b> Descriptive operator portfolio reconstructed from preserved stage scripts and original review artifacts. Build and validation form the common backbone and are omitted from the matrix; unmarked cells are not interpreted as failures.</span><span class="lang-zh"><b>图 3.</b> 由保存的阶段脚本与原始审查产物重建的描述性算子组合。build 与 validate 构成公共骨架，未列入矩阵；未标记的格子不被解读为失败。</span></figcaption>
+          </figure>
+
+          <div class="subsection-head" id="results-transitions"><h3><span class="lang-en">4.2 Three transitions explain why the loop broadens</span><span class="lang-zh">4.2 解释闭环扩展的三个转变</span></h3><p><span class="lang-en">The transition is not a replacement of fitting by a different process; additional decision layers appear around the local geometry as dependencies accumulate.</span><span class="lang-zh">这一转变并非用另一种过程取代拟合，而是随依赖累积，在局部几何周围出现新的决策层。</span></p></div>
+          <div class="discussion-sections">
+            <article>
+              <h3><span class="lang-en">4.2.1 From fitting geometry to defining reusable scope</span><span class="lang-zh">4.2.1 从拟合几何到定义复用范围</span></h3>
+              <p class="lang-en">B01 retained a failed 5 cm internal screen (RMS 4.84/7.32/5.10 cm) caused by a comparison domain that included protruding accessories; B02 redefined the fitting and validation regions rather than optimizing the same objective harder — the measurement problem itself was the engineering decision. B08 encoded which geometry is assumed invariant across installations through one shared <code>B08_TRANSFORMER_MASTER</code> and two rigid site roots, after explicit user confirmation. B15 shows why the boundary matters: a shared finite bus-spool extent overlapped installations with different physical separations, and the revision moved finite sections and supports into site-specific scope. Repeated equipment makes the reuse boundary itself a reconstruction variable.</p>
+              <p class="lang-zh">B01 保留了未通过的 5 cm 内部筛查（RMS 4.84/7.32/5.10 cm），其原因是比较域包含了凸出附件；B02 通过重新定义拟合与验证区域解决，而非更用力地优化同一目标——测量问题本身就是工程决策。B08 在明确用户确认后，用一个共享 <code>B08_TRANSFORMER_MASTER</code> 与两个刚体站点根，编码了哪些几何被假设为跨安装位不变。B15 说明了该边界为何重要：共享的有限母线节长度与物理间距不同的安装位发生重叠，修订将有限管节与支撑移入站点特有范围。重复设备使复用边界本身成为重建变量。</p>
+            </article>
+            <article>
+              <h3><span class="lang-en">4.2.2 From object geometry to connected representations</span><span class="lang-zh">4.2.2 从对象几何到连接表示</span></h3>
+              <p class="lang-en">B20 constructs a port inventory from the actual ends of previously modeled equipment and plans 21 neighboring intervals, separating geometric connectivity from electrical identity. B23 replaces a straight-lead hypothesis with a fitted curved path after the registered source shows a ≈0.5 m mid-span bow — the representation change preceded the spline coefficients. B29 ties strain strings, jumpers, and crossyard conductors to previously modeled clamps and lead endpoints, with validation checking endpoint relations independently from coarse-surface agreement. Topological and endpoint consistency is a different engineering criterion from local surface fit.</p>
+              <p class="lang-zh">B20 从已建模设备的实际端点构建端口清单，并规划 21 个相邻间隔，将几何连接关系与电气身份分离。B23 在注册源显示约 0.5 m 跨中弯曲后，用拟合曲线路替换直线引线假设——表示变更先于样条系数。B29 将耐张串、跳线与跨区导线连接到已建模线夹与引线端点，验证独立于粗模表面一致性单独检查端点关系。拓扑与端点一致性是不同于局部表面拟合的工程判据。</p>
+            </article>
+            <article>
+              <h3><span class="lang-en">4.2.3 From scheduled additions to gap-driven, state-constrained closure</span><span class="lang-zh">4.2.3 从计划性增补到缺口驱动、受状态约束的收尾</span></h3>
+              <p class="lang-en">B25 compared registered high-region geometry against the current scene and found unexplained structures; selected-region medians moved from 1.75 m to 0.10 m (GIS110) and 8.12 m to 0.15 m (GIS220). B26 applied the same logic to the transformer/firewall region (3.15 m → 0.06 m; &gt;1 m sample fraction 78.8% → 14.6%) — diagnostics over selected regions, not whole-site completeness. B31 fit the main building while preserving more than seven thousand existing transforms; B35 explicitly limits the product to the visible outdoor model. B36 adds bus-rack assemblies constrained simultaneously by source evidence, inherited endpoints, and occupied space, including a final 0.16 m displacement to avoid a fire riser.</p>
+              <p class="lang-zh">B25 将注册高区几何与当前场景对比，发现未解释结构；选定区域中位数从 1.75 m 降至 0.10 m（GIS110）、从 8.12 m 降至 0.15 m（GIS220）。B26 将同一逻辑用于主变/防火墙区域（3.15 m → 0.06 m；&gt;1 m 采样比例 78.8% → 14.6%）——这些是选定区域的诊断量，不是整站完备性。B31 在保持七千余个既有变换的情况下拟合主控楼；B35 明确将产物限定为可见室外模型。B36 新增的母线架同时受源证据、继承端点与已占用空间约束，包括最后为避让消防立管而做的 0.16 m 局部位移。</p>
+            </article>
+          </div>
+          <figure class="research-figure wide evidence-figure">
+            <img src="../rewrite_b01_b36/figure_v24/hybrid_svg/fig04_transitions_v24.svg" alt="Three structural transitions in the reconstruction sequence">
+            <figcaption><span class="lang-en"><b>Figure 4.</b> Three transitions grounded in preserved historical artifacts: repetition introduces a reusable/site-specific boundary; connected systems introduce explicit ports, routes, and representation choices; later closure uses unexplained geometry and inherited occupancy to select and constrain new work. Descriptive examples, not a universal complexity taxonomy.</span><span class="lang-zh"><b>图 4.</b> 基于保存历史产物的三个转变：重复引入可复用/站点特有边界；连接系统引入显式端口、路由与表示选择；后期收尾利用未解释几何与继承占用选择并约束新工作。这是描述性示例，而非普适复杂度分类。</span></figcaption>
+          </figure>
+
+          <div class="subsection-head" id="results-persistence"><h3><span class="lang-en">4.3 Persistent external state composes local solutions — and propagates abstraction errors</span><span class="lang-zh">4.3 持续外部状态组合局部解——也传播抽象错误</span></h3></div>
+          <div class="paper-prose">
+            <p class="lang-en">Later batches explicitly consume geometry, transforms, terminals, and reusable components produced earlier, while validators check that inherited state remains unchanged. B23 terminates its new neutral lead on an existing B08 terminal port; B29 attaches new conductors to previously modeled clamps and suspension ends; B36 closes six new busbar routes onto preserved transformer stubs and wall bushings while recording 36,615 previous objects, 7,114 prior station transforms, and 2,798 protected files as unchanged (final file: 36,812 objects, 7,116 station objects — a preservation-burden measure, not a count of independently verified physical assets).</p>
+            <p class="lang-zh">后期批次显式消费早期产出的几何、变换、端子与可复用部件，验证器同时检查继承状态未被改变。B23 将新中性点引线接到既有 B08 端子端口；B29 将新导线挂到已建模线夹与悬挂端；B36 让六条新母线路由接到保留的主变端头与穿墙套管上，并记录 36,615 个既有对象、7,114 个既有站变换与 2,798 个受保护文件保持不变（最终文件：36,812 个对象、7,116 个站点对象——这是状态保持负担的度量，不是独立核验的物理资产计数）。</p>
+            <p class="lang-en">The same mechanism creates a failure mode: B15's finite shared spool propagated inappropriate geometry across installations until the MASTER/site boundary was revised. This evidence supports a narrower claim than "memory improves reconstruction": no stateless control run exists. What B01–B36 documents is the mechanism that makes long-horizon reconstruction possible in this workflow — and the way upstream abstraction choices become part of the downstream problem.</p>
+            <p class="lang-zh">同一机制也制造失败模式：B15 的共享有限母线节将不当几何传播到多个安装位，直到 MASTER/site 边界被修订。该证据支持的结论比“记忆改善重建”更窄：不存在无状态对照运行。B01–B36 记录的是使长时程重建在该工作流中成为可能的机制——以及上游抽象选择如何成为下游问题的一部分。</p>
+          </div>
+          <figure class="research-figure wide evidence-figure">
+            <img src="../rewrite_b01_b36/figure_v24/hybrid_svg/fig05_persistence_v24.svg" alt="Cross-batch dependency chain through persistent external engineering state">
+            <figcaption><span class="lang-en"><b>Figure 5.</b> Explicit cross-batch dependency chain from the B08 transformer state through B23 and B29 connections to B36 closure. The B15 branch shows the corresponding risk: a shared representation can propagate an inappropriate finite extent until the reuse boundary is revised.</span><span class="lang-zh"><b>图 5.</b> 从 B08 主变状态经 B23、B29 连接到 B36 收尾的显式跨批次依赖链。B15 分支展示对应风险：共享表示会把不当的有限范围传播出去，直到复用边界被修订。</span></figcaption>
           </figure>
         </section>
 
-        <section id="discussion" class="section alt findings-section">
-          <div class="section-head no-index"><div><div class="paper-section-label">7 · Discussion</div><h2><span class="lang-en">Engineering reasoning is useful when its assumptions are externalized</span><span class="lang-zh">当工程假设被外化时，推理才具有可用性</span></h2></div></div>
-          <div class="paper-prose">
-            <p class="lang-en">The longitudinal record supports a narrower claim than autonomous reconstruction. Astra repeatedly participates in decisions that determine <i>what</i> is measured, <i>which</i> representation is built, <i>what</i> may be reused, and <i>which</i> unresolved region becomes the next task. Several cases then show the same model making plausible but incorrect decisions at those levels. The practical value of the system therefore comes from coupling model reasoning to measurements, review artifacts, deterministic checks, and a persistent history that makes later contradiction possible.</p>
-            <p class="lang-zh">纵向记录支持的是比“自主重建”更窄的结论。Astra 会反复参与决定测量什么、采用何种表示、哪些结构可以复用、哪个未解决区域成为下一任务；而若干案例又表明，同一个模型会在这些层面作出看似合理但错误的判断。因此系统的实际价值来自把模型推理与测量、审查产物、确定性检查和持续历史耦合，使后续证据能够真正否定先前假设。</p>
-            <p class="lang-en">This is also why the comparison with the reference robot-policy reports is methodological rather than statistical. Their task suites probe one policy and their behavioral episodes explain aggregate outcomes; here, reconstruction tasks probe one persistent model/harness and the episodes explain changes in engineering decisions. The difference matters: these batches are dependent, later tasks inherit earlier state, and validators are heterogeneous because the geometry under test is heterogeneous.</p>
-            <p class="lang-zh">这也是本文与参考机器人策略报告之间的类比主要属于方法论而非统计层面的原因：它们用任务集探测同一策略，再用行为 episode 解释总体表现；这里则用重建任务探测同一持续模型/harness，并用案例解释工程决策如何变化。二者差异同样重要：这些批次彼此依赖，后续任务继承早期状态，而且验证器因几何任务不同而天然异构。</p>
-          </div>
-        </section>
-
-        <section id="scope" class="section scope-section">
-          <div class="section-head no-index"><div><div class="paper-section-label">7.2 · Threats to Validity</div><h2><span class="lang-en">Limitations and unresolved comparisons</span><span class="lang-zh">局限性与尚未解决的比较</span></h2><p class="lang-en">The current evidence characterizes one model-in-harness record; it does not rank alternatives or establish cross-site accuracy.</p><p class="lang-zh">当前证据刻画的是一个 model-in-harness 纵向记录，并不用于排名替代方案，也不能建立跨站点精度结论。</p></div></div>
-          <div class="paper-prose limitations-prose">
-            <p class="lang-en"><b>Single-site external validity.</b> All task families come from one substation; diversity within one site does not establish transfer.</p>
-            <p class="lang-zh"><b>单站点外部效度。</b>所有任务族来自同一座变电站；站内多样性不能证明可迁移性。</p>
-            <p class="lang-en"><b>No independent survey reference.</b> Headline centimeter-scale residuals compare against the same mesh that guided reconstruction. They are not independent survey accuracy.</p>
-            <p class="lang-zh"><b>无独立测绘参考。</b>头条的厘米级残差对照的是同时参与重建的同一网格，不是独立测绘精度。</p>
-            <p class="lang-en"><b>Heterogeneous task-native validators.</b> Appropriate for an engineering case study; it prevents reduction to one stationary benchmark success rate.</p>
-            <p class="lang-zh"><b>验证器任务异构。</b>这适合工程案例研究，但也意味着无法归约为单一平稳的 benchmark 成功率。</p>
-            <p class="lang-en"><b>Human steering is material.</b> Equivalence authorization, omission review, image markup, and semantic audit all influenced the trajectory.</p>
-            <p class="lang-zh"><b>人工引导是实质性的。</b>同构授权、遗漏审查、图像标记与语义审计都影响了轨迹。</p>
-            <p class="lang-en"><b>Owner-confirmed model provenance.</b> Historical logs do not freeze model identifier or reasoning effort. Future studies should log model/version, reasoning setting, tool versions, evidence manifest, token usage, wall-clock, human interventions, and output hashes per run.</p>
-            <p class="lang-zh"><b>模型 provenance 为负责人确认。</b>历史日志未冻结模型标识与推理强度。未来研究应按运行冻结模型/版本、推理设置、工具版本、证据清单、token 用量、墙钟时间、人工干预与输出哈希。</p>
-            <p class="lang-en"><b>Behavioral mining is filename-level.</b> Revision counts are lower bounds; failure-mode and adaptation labels are manual annotations of documented episodes, reported with their sources, not derived measurements.</p>
-            <p class="lang-zh"><b>行为挖掘是文件名级的。</b>修订计数是下界；失败模式与适应分类是对建档事件的人工标注，随来源报告，而非派生测量。</p>
-            <p class="lang-en"><b>No matched model comparison.</b> The historical record contains no controlled rerun with a second foundation model, specialized 3D system, or professional CAD baseline. Any claim of relative model superiority would therefore exceed the evidence.</p>
-            <p class="lang-zh"><b>无 matched model comparison。</b>历史记录中没有第二个基础模型、专用三维系统或专业 CAD 基线的受控重跑，因此任何模型优越性结论都会超出现有证据。</p>
-          </div>
-        </section>
-
-        <section id="reviews" class="section alt review-gallery-section">
-          <div class="section-head no-index"><div><div class="paper-section-label">Appendix A · Interactive Evidence</div><h2><span class="lang-en">Original reconstruction reviews</span><span class="lang-zh">原始重建审查页面</span></h2><p class="lang-en">The 32 formal historical review pages are retained as an interactive evidence appendix. They expose the actual selectors, split sliders, views, and caveats used during the corresponding batches without interrupting the main argument.</p><p class="lang-zh">32 个正式历史 review 页面作为交互证据附录保留，原样提供各批次实际使用的选择器、滑动对照、视图和限制说明，而不再打断正文论证。</p></div></div>
-
-          <div class="paper-prose">
-            <p class="lang-en">Each review page embeds the Blender renders produced by its historical batch together with the controls used for inspection. B07 includes the earlier and revised transformer candidates; B08 switches between T1 and T2; B09 and B10 provide per-bank selectors and Clean/Compare/Overlay/Reference modes. GIS, conductor, civil, and correction batches use task-specific directions and diagnostic views.</p>
-            <p class="lang-zh">每个 review 页面都内嵌对应历史批次生成的 Blender 渲染以及当时用于审查的控件。B07 包含早期与修订后的主变候选模型，B08 可在 T1 与 T2 之间切换，B09 和 B10 提供逐电容器组选择及 Clean/Compare/Overlay/Reference 模式；GIS、导线、土建和纠错批次则使用各自的方向与专项诊断视图。</p>
-          </div>
-
-          <div class="review-principles">
-            <div><strong>32</strong><span class="lang-en">historical review pages</span><span class="lang-zh">历史 review 页面</span></div>
-            <div><strong>Same camera</strong><span class="lang-en">model and registered coarse geometry</span><span class="lang-zh">模型与注册粗模保持同机位</span></div>
-            <div><strong>Interactive</strong><span class="lang-en">selectors · modes · split sliders</span><span class="lang-zh">视图选择 · 显示模式 · 滑动对照</span></div>
-            <div><strong>Original</strong><span class="lang-en">generated during each batch, not recreated for this report</span><span class="lang-zh">批次执行时生成，并非为本报告重新制作</span></div>
-          </div>
+        <section id="console" class="section">
+          <div class="section-head no-index"><div><div class="paper-section-label">5 · Evaluation console</div><h2><span class="lang-en">Evaluation console: model vs. registered reference</span><span class="lang-zh">评估台：建模结果 vs. 注册参考</span></h2><p class="lang-en">One representative fixed-camera view per review batch, in three switchable modes — model, overlay, and the registered coarse reference under the same camera. Repeated installations of one equipment family (e.g. the six capacitor banks) are shown once. The original Chinese batch review pages remain linked for provenance but are no longer embedded.</p><p class="lang-zh">每个审查批次选取一个代表性固定机位视图，提供三种可切换模式——同机位下的建模、建模对比与注册粗模。同一设备族的重复安装位（如六组电容器）只展示一组。原始中文批次审查页面保留链接供溯源，不再内嵌。</p></div></div>
 
           <div class="review-browser">
-            <div class="review-gallery-toolbar">
-              <label><span class="lang-en">Family</span><span class="lang-zh">设备族</span><select id="review-family-select" aria-label="Filter historical reviews by family"></select></label>
-              <label><span class="lang-en">Batch / device review</span><span class="lang-zh">批次 / 设备审查</span><select id="review-batch-select" aria-label="Select historical reconstruction review"></select></label>
-              <div class="review-gallery-nav"><button id="review-prev" class="btn" type="button">← <span class="lang-en">Prev</span><span class="lang-zh">上一项</span></button><button id="review-next" class="btn" type="button"><span class="lang-en">Next</span><span class="lang-zh">下一项</span> →</button></div>
-              <a id="review-open" class="btn" target="_blank" rel="noopener"><span class="lang-en">Open original ↗</span><span class="lang-zh">独立打开原始页面 ↗</span></a>
+            <div class="view-toolbar">
+              <label><span class="lang-en">Batch (grouped by band)</span><span class="lang-zh">批次（按分段分组）</span><select id="view-batch-select" aria-label="Select review batch"></select></label>
+              <div class="view-modes" role="group" aria-label="View mode">
+                <button type="button" id="view-mode-clean" data-mode="clean"><span class="lang-en">Model</span><span class="lang-zh">建模</span></button>
+                <button type="button" id="view-mode-overlay" data-mode="overlay"><span class="lang-en">Overlay</span><span class="lang-zh">建模对比</span></button>
+                <button type="button" id="view-mode-reference" data-mode="reference"><span class="lang-en">Coarse reference</span><span class="lang-zh">粗模</span></button>
+              </div>
+              <div class="review-gallery-nav"><button id="view-prev" class="btn" type="button">← <span class="lang-en">Prev</span><span class="lang-zh">上一项</span></button><button id="view-next" class="btn" type="button"><span class="lang-en">Next</span><span class="lang-zh">下一项</span> →</button></div>
             </div>
-            <div id="review-batch-strip" class="review-batch-strip" aria-label="Historical review batches"></div>
-            <div id="review-gallery-meta" class="review-gallery-meta"></div>
-            <iframe id="review-gallery-frame" class="review-gallery-frame" title="Historical reconstruction review" sandbox="allow-scripts allow-same-origin"></iframe>
+            <div class="view-stage"><img id="view-image" alt="Selected batch review view"></div>
+            <div class="view-caption-row">
+              <div id="view-caption" class="view-caption"></div>
+              <a id="view-original" class="view-original-link" target="_blank" rel="noopener"><span class="lang-en">Original batch record (Chinese) ↗</span><span class="lang-zh">原始批次记录（中文）↗</span></a>
+            </div>
           </div>
-          <p class="metric-footnote"><span class="lang-en">The folder-level scan finds 33 review pages; the 33rd belongs to C37, whose failed-camera variant was superseded by D37 and which is therefore outside the formal catalog of 32. Deep link example: <code>?review=B32</code>.</span><span class="lang-zh">目录级扫描共发现 33 个 review 页面；第 33 个属于 C37，其失败相机变体已被 D37 取代，因此不在 32 个正式目录内。深链示例：<code>?review=B32</code>。</span></p>
-        </section>
+          <p class="metric-footnote"><span class="lang-en">Covers the 32 batches with preserved review artifacts: B07–B36 plus the two extended-record batches D37/D38, which fall outside the B01–B36 manuscript scope. Deep link example: <code>?review=B32</code>.</span><span class="lang-zh">覆盖 32 个保存了审查产物的批次：B07–B36，外加 B01–B36 论文范围之外的两个扩展记录批次 D37/D38。深链示例：<code>?review=B32</code>。</span></p>
 
-        <section id="dossiers" class="section alt dossier-section">
-          <div class="section-head no-index"><div><div class="paper-section-label">Appendix B · Process Evidence</div><h2><span class="lang-en">Forty batch dossiers</span><span class="lang-zh">40 份批次过程档案</span></h2><p class="lang-en">Each dossier links one formal batch to result views, intermediate diagnostics, method stages, and frozen plan/validation/history records. This appendix is the provenance trail behind the case studies and cross-case findings.</p><p class="lang-zh">每份 dossier 将一个正式批次与结果视图、中间诊断、方法阶段以及冻结的 plan/validation/history 记录对应起来。本附录构成行为案例与跨案例发现的 provenance 证据链。</p></div></div>
+          <div class="subsection-head" id="evidence-appendix"><h3><span class="lang-en">5.2 Evidence appendix: batch dossiers</span><span class="lang-zh">5.2 证据附录：批次档案</span></h3><p><span class="lang-en">Each dossier links a formal batch to its result views, intermediate diagnostics, method stages, and frozen plan, validation, manifest, or continuation records where available.</span><span class="lang-zh">每份档案将一个正式批次与其结果视图、中间诊断、方法阶段，以及可用的 plan、validation、manifest 或 continuation 冻结记录对应起来。</span></p></div>
           <div class="dossier-toolbar">
             <label for="dossier-select"><span class="lang-en">Batch dossier</span><span class="lang-zh">批次档案</span></label>
             <select id="dossier-select" aria-label="Select reconstruction batch"></select>
@@ -421,41 +257,79 @@
           <noscript><p>This dossier browser requires JavaScript. The indexed data remain available in <code>release/process_catalog.json</code>.</p></noscript>
         </section>
 
+        <section id="videos" class="section alt gallery-section">
+          <div class="section-head no-index"><div><div class="paper-section-label">6 · Videos</div><h2><span class="lang-en">Station-level visual record</span><span class="lang-zh">整站级视觉记录</span></h2><p class="lang-en">Two annotation-free videos: a pure visual comparison against the coarse reference under the same camera, and a plain assembly-sequence demonstration. They carry no text overlays and no quantitative claims.</p><p class="lang-zh">两段无标注视频：与粗模参考在同机位下的纯画面对照，以及纯画面装配顺序演示。不含文字叠加，也不承载定量结论。</p></div></div>
+          <div class="video-gallery">
+            <figure><video controls preload="metadata" poster="../media/d40_overview.png"><source src="../media/coarse_vs_d40.mp4" type="video/mp4"></video><figcaption><b><span class="lang-en">Coarse reference → reconstructed model</span><span class="lang-zh">粗模参考 → 重建模型</span></b><span><span class="lang-en">annotation-free same-camera visual comparison</span><span class="lang-zh">无标注同机位纯画面对照</span></span></figcaption></figure>
+            <figure><video controls preload="metadata" poster="../media/d40_overview.png"><source src="../media/assembly_metal.mp4" type="video/mp4"></video><figcaption><b><span class="lang-en">Progressive station assembly</span><span class="lang-zh">整站逐步装配</span></b><span><span class="lang-en">annotation-free assembly-sequence demonstration</span><span class="lang-zh">无标注装配顺序演示</span></span></figcaption></figure>
+          </div>
+        </section>
+
+        <section id="discussion" class="section">
+          <div class="section-head no-index"><div><div class="paper-section-label">7 · Discussion</div><h2><span class="lang-en">Discussion and limitations</span><span class="lang-zh">讨论与局限</span></h2><p class="lang-en">What the general-purpose model contributes, why explicit tools and validation are part of the method, and what this study does not establish.</p><p class="lang-zh">通用模型的贡献、显式工具与验证为何属于方法本身，以及本研究不能确立的结论。</p></div></div>
+          <div class="discussion-sections">
+            <article>
+              <h3><span class="lang-en">What the general-purpose model contributes</span><span class="lang-zh">通用模型的贡献所在</span></h3>
+              <p class="lang-en">The model is most useful where the engineering problem itself must be specified or revised: selecting a comparison domain, deciding which geometry can be reused, choosing a path representation, identifying ports and routes, or selecting the next region from unexplained scene evidence. Numerical fitting and acceptance remain in explicit geometry code and validators — a low residual is evidence that a chosen procedure produced a consistent result, not that the language model performed high-precision numerical optimization. The model's observable role broadens rather than moving from "low-level" to "high-level" reasoning: measurement remains present in late batches, while the number of relationships represented around it grows.</p>
+              <p class="lang-zh">模型最有用之处在工程问题本身需要被定义或修订的地方：选择比较域、决定哪些几何可复用、选择路径表示、识别端口与路由、或根据未解释的场景证据选择下一区域。数值拟合与验收保留在显式几何代码与验证器中——低残差证明的是所选程序产生了一致结果，而非语言模型完成了高精度数值优化。模型可观测的角色是扩展而非从“低层”升到“高层”：后期批次中测量依然存在，只是围绕它表示的关系数量在增长。</p>
+            </article>
+            <article>
+              <h3><span class="lang-en">Why explicit tools and validation are part of the method</span><span class="lang-zh">显式工具与验证为何属于方法</span></h3>
+              <p class="lang-en">Model decisions are externalized into executable artifacts: B01/B02 preserves a failed comparison and the revised domain; B15 preserves the shared-spool representation that produced overlaps; B23 retains successive revisions after the first representation failed. A finite surface residual cannot establish endpoint continuity; an endpoint check can pass while the surrounding source still contains unexplained branches. Task-specific validators encode different acceptance conditions rather than approximating one hidden global score.</p>
+              <p class="lang-zh">模型决策被外化为可执行产物：B01/B02 保留了未通过的对照与修订后的域；B15 保留了导致重叠的共享母线节表示；B23 保留了首次表示失败后的连续修订。有限表面残差不能证明端点连续性；端点检查通过时，周边源区域仍可能存在未解释的分支。任务专用验证器编码的是不同的验收条件，而非逼近某个隐藏的统一分数。</p>
+            </article>
+            <article>
+              <h3><span class="lang-en">Persistent state changes capability and risk</span><span class="lang-zh">持续状态同时改变能力与风险</span></h3>
+              <p class="lang-en">Persistent external state gives later batches an engineered world rather than a blank scene — B23 terminates on a B08 terminal, B29 connects to earlier interfaces, B36 closes onto preserved stubs. The same mechanism makes representation errors nonlocal: B15's shared finite spool propagated across installations until the reuse boundary was revised. Persistent state is part of the reconstruction problem, not only storage.</p>
+              <p class="lang-zh">持续外部状态给后期批次的是一个已工程化的世界而非空白场景——B23 接到 B08 端子，B29 连接早期接口，B36 闭合到保留的端头上。同一机制使表示错误非局部化：B15 的共享有限母线节传播到多个安装位，直到复用边界被修订。持续状态是重建问题的一部分，而不仅是存储。</p>
+            </article>
+            <article>
+              <h3><span class="lang-en">Limitations and threats to validity</span><span class="lang-zh">局限性与有效性威胁</span></h3>
+              <p class="lang-en">One substation, one owner-confirmed GPT-6 Astra/Codex configuration, and no matched alternative planner or model — the study cannot establish model superiority or which behaviors would transfer. The sequence is historical and state-dependent, not experimentally controlled by a common difficulty variable; the operator analysis is reconstructed from preserved artifacts, not standardized action telemetry. Most numerical comparisons use the same registered photogrammetric reconstruction that also informs modeling — consistency with that reference, not independent survey accuracy; even/odd face partitions remain spatially correlated; the visible outdoor model does not establish hidden or underground completeness. Human input affects the trajectory (B08 equivalence authorization; review-surfaced omissions): the system is agent-driven and human-steerable, not fully autonomous. The artifacts do not preserve private model reasoning, and the record does not establish learning across batches.</p>
+              <p class="lang-zh">单变电站、单一负责人确认的 GPT-6 Astra/Codex 配置、无对照规划器或模型——本研究无法确立模型优越性，也无法确定哪些行为可迁移。序列是历史性且状态依赖的，并非由统一难度变量控制的实验；算子分析重建自保存产物，而非标准化动作遥测。多数数值对照使用同一套同时参与建模决策的注册摄影测量重建——是与该参考的一致性，而非独立测绘精度；奇偶面片划分仍存在空间相关；可见室外模型不能证明隐藏或地下部分的完备性。人工输入影响轨迹（B08 同构授权、审查发现的遗漏）：系统是智能体驱动、人工可引导的，而非完全自主。历史产物不保存模型的私有推理，记录也不能确立跨批次学习。</p>
+            </article>
+            <article>
+              <h3><span class="lang-en">Controlled follow-up experiments</span><span class="lang-zh">受控后续实验</span></h3>
+              <p class="lang-en">Keep the harness fixed and vary few factors: matched alternative models on representative tasks from the three transitions; independent survey measurements on a subset of devices and connections; replication on a second site; explicit logging of model calls, human interventions, runtime, and tool invocations.</p>
+              <p class="lang-zh">固定 harness、仅改变少量因素：在三个转变的代表性任务上运行对照模型；对部分设备与连接做独立测绘；在第二个站点复现；显式记录模型调用、人工干预、运行时长与工具调用。</p>
+            </article>
+          </div>
+        </section>
+
         <section id="references" class="section alt references-section">
-          <div class="section-head no-index"><div><div class="paper-section-label">References</div><h2><span class="lang-en">Selected references</span><span class="lang-zh">主要参考文献</span></h2><p class="lang-en">The entries below correspond to the literature cited in the website text. The manuscript contains the complete bibliography.</p><p class="lang-zh">以下条目对应网页正文中的文献引用；完整 bibliography 见论文稿。</p></div></div>
+          <div class="section-head no-index"><div><div class="paper-section-label">References</div><h2><span class="lang-en">Selected references</span><span class="lang-zh">主要参考文献</span></h2><p class="lang-en">The entries below correspond to the literature cited in the manuscript. The paper PDF contains the complete bibliography.</p><p class="lang-zh">以下条目对应论文引用的文献；完整 bibliography 见论文 PDF。</p></div></div>
           <ol class="references-list">
             <li>Schönberger, J. L., &amp; Frahm, J.-M. (2016). <i>Structure-from-Motion Revisited.</i> CVPR.</li>
-            <li>Mildenhall, B., Srinivasan, P. P., Tancik, M., Barron, J. T., Ramamoorthi, R., &amp; Ng, R. (2020). <i>NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis.</i> ECCV.</li>
-            <li>Kerbl, B., Kopanas, G., Leimkühler, T., &amp; Drettakis, G. (2023). <i>3D Gaussian Splatting for Real-Time Radiance Field Rendering.</i> ACM Transactions on Graphics, 42(4).</li>
+            <li>Liu, Y. et al. (2024). <i>Point2CAD: Reverse Engineering CAD Models from 3D Point Clouds.</i> CVPR.</li>
+            <li>Rukhovich, D. et al. (2024). <i>CAD-Recode: Reverse Engineering CAD Code from Point Clouds.</i></li>
             <li>Sun, C., Han, J., Deng, W., Wang, X., Qin, Z., &amp; Gould, S. (2023). <i>3D-GPT: Procedural 3D Modeling with Large Language Models.</i> arXiv:2310.12945.</li>
             <li>Hu, Z., Iscen, A., Jain, A., Kipf, T., Yue, Y., Ross, D. A., Schmid, C., &amp; Fathi, A. (2024). <i>SceneCraft: An LLM Agent for Synthesizing 3D Scenes as Blender Code.</i> ICML.</li>
+            <li>Wang, G. et al. (2023). <i>Voyager: An Open-Ended Embodied Agent with Large Language Models.</i></li>
+            <li>Liang, J. et al. (2023). <i>Code as Policies: Language Model Programs for Embodied Control.</i> ICRA.</li>
             <li>Cheng, D. et al. (2026). <i>In-Context Robot Learning with VLM Agents.</i> Technical report and project website.</li>
-            <li>Su, J., Zheng, Y., Yan, M., Yi, L., Zhang, Z., &amp; Wang, H. (2026). <i>GPT 6 Astra as an Embodied Policy.</i> Technical report.</li>
           </ol>
         </section>
 
         <section id="sources" class="section alt resources-section">
-          <div class="section-head no-index"><div><div class="paper-section-label">Resources</div><h2><span class="lang-en">Paper, evidence, and reproducibility</span><span class="lang-zh">论文、证据与可复现性</span></h2><p class="lang-en">The publication layer is stored separately from the preserved historical experiment outputs. Behavioral statistics are mined by <code>scripts/analyze_process_behavior.py</code> into <code>release/behavior_analysis.json</code>.</p><p class="lang-zh">发布层与只读历史实验产物隔离。行为统计由 <code>scripts/analyze_process_behavior.py</code> 挖掘并写入 <code>release/behavior_analysis.json</code>。</p></div></div>
+          <div class="section-head no-index"><div><div class="paper-section-label">Resources</div><h2><span class="lang-en">Paper, evidence, and reproducibility</span><span class="lang-zh">论文、证据与可复现性</span></h2><p class="lang-en">The publication layer is stored separately from the preserved historical experiment outputs.</p><p class="lang-zh">发布层与只读历史实验产物隔离。</p></div></div>
           <div class="resource-links">
-            <a href="../paper/paper_teacher_discussion.md"><b>Paper draft</b><span>current manuscript</span></a>
-            <a href="../paper/teacher_discussion_notes_zh.md"><b>Advisor notes</b><span>中文讨论提纲</span></a>
+            <a href="../rewrite_b01_b36/paper_layout_v24.pdf"><b>Paper PDF</b><span>B01–B36 manuscript (v24)</span></a>
+            <a href="../rewrite_b01_b36/22_FULL_MANUSCRIPT_FIGURE_V24.md"><b>Manuscript source</b><span>markdown draft</span></a>
             <a href="../release/metrics.json"><b>Metrics</b><span>numbers + scope + sources</span></a>
-            <a href="../release/behavior_analysis.json"><b>Behavior analysis</b><span>revision / failure / adaptation statistics</span></a>
             <a href="../release/claim_matrix.md"><b>Claim matrix</b><span>what each measurement may support</span></a>
             <a href="../release/experiment_manifest.json"><b>Experiment manifest</b><span>version boundary + provenance</span></a>
-            <a href="../release/process_catalog.json"><b>Process catalog</b><span>40 dossiers + stage prevalence</span></a>
-            <a href="../figures/"><b>Figures</b><span>SVG / PDF / PNG</span></a>
+            <a href="../release/process_catalog.json"><b>Process catalog</b><span>dossiers + stage prevalence</span></a>
           </div>
         </section>
 
         <section id="citation" class="section citation-section">
           <div class="section-head no-index"><div><div class="paper-section-label">Citation</div><h2>Citation</h2><p><span class="lang-en">Working citation until authorship and venue are finalized.</span><span class="lang-zh">作者与投稿方向确定前的工作引用。</span></p></div></div>
           <pre><code>@misc{astrabuild2026,
-  title  = {AstraBuild: A Longitudinal Evaluation of GPT-6 Astra as a 3D
-            Engineering Agent},
+  title  = {AstraBuild: From Local Fits to Persistent Industrial 3D
+            Reconstruction with a General-Purpose Reasoning Model},
   author = {Project Team},
   year   = {2026},
-  note   = {Task capability, hypothesis revision, and failure modes in component-level substation reconstruction}
+  note   = {Longitudinal B01--B36 field record manuscript and project website}
 }</code></pre>
           <p id="metrics-status" class="status">metrics.json</p>
         </section>
@@ -464,7 +338,7 @@
   </main>
 
   <footer>
-    <div><b><span class="lang-en">AstraBuild longitudinal evaluation report</span><span class="lang-zh">AstraBuild 纵向评估报告</span></b> · 2026-09-17</div>
+    <div><b>AstraBuild research report</b> · 2026-09-18</div>
     <div><span class="lang-en">Historical reconstruction outputs are preserved without modification. The publication layer is stored under <code>presentation/astra-build/</code>.</span><span class="lang-zh">历史重建产物保持只读；本发布层位于 <code>presentation/astra-build/</code>。</span></div>
   </footer>
   <script src="app.js"></script>

@@ -132,36 +132,29 @@ def main() -> int:
     must("不是独立测绘精度" in zh, "Chinese report must retain accuracy disclaimer")
     must("owner-confirmed" in paper, "paper must retain model-provenance qualifier")
 
-    # v0.9 narrative contract: question -> tasks -> cases -> cross-case findings -> composition -> discussion.
-    must("tests and revises modeling hypotheses" in html, "Abstract must state the scientific hypothesis-revision question")
-    must("how does it form, test, and revise engineering hypotheses" in paper, "paper must state the central scientific question")
-    must("Cross-Case Findings" in paper and "Long-Horizon Composition Stress Test" in paper, "paper must contain the v0.9 findings and composition framing")
-    must("fig09_task_suite_composition" in paper and "fig06_d38_human_feedback" in paper, "paper must reference composition and behavioral figures")
-    must("fig01_agentic_loop" in html, "site must include the study/evaluation Figure 1")
-    must("fig12_b32_worked_example" in html and "B32 separates metric fitting" in html, "site must include the representative B32 task")
-    must('id="cases"' in html and "How Astra revises modeling decisions" in html, "site must include behavioral cases before findings")
-    must('id="behavioral-findings"' in html and "What Astra does well" in html, "site must include the cross-case findings section")
-    must("fig14_behavioral_analysis" in html, "site must include the behavioral-analysis figure")
-    for finding_id in ["f1", "f2", "f3", "f4", "f5"]:
-        must(f'id="{finding_id}"' in html, f"site missing finding anchor: {finding_id}")
-    must('id="integration"' in html and "Long-Horizon Composition Stress Test" in html, "site must include the composition stress test")
-    must("coarse_vs_d40.mp4" in html and "assembly_metal.mp4" not in html, "main report must use one non-duplicated station comparison video")
-    must('id="reviews"' in html and "Appendix A · Interactive Evidence" in html, "original reviews must be presented as appendix evidence")
-    must('id="dossiers"' in html and "Appendix B · Process Evidence" in html, "process dossiers must be presented as appendix evidence")
-    must("review-gallery-frame" in html and "review-batch-select" in html, "site must include interactive original-review controls")
-    must(html.count('class="task-card"') == 12, "site must expose twelve visual task cards")
-    must("task-evidence-table" in html, "site must include the task-native evidence matrix")
-    must("D38 correction chain" in html, "site must include the D38 correction case")
-    must("Engineering reasoning is useful when its assumptions are externalized" in html, "site must include the v0.9 Discussion")
-    must(html.count('class="paper-prose') >= 8 and 'abstract-text' in html, "site must embed substantial manuscript prose across major sections")
+    # v1.0 site contract: the website now tracks the B01-B36 manuscript
+    # (rewrite_b01_b36/, paper_layout_v24.pdf), not the v0.9 main draft.
+    must("From Local Fits to Persistent Industrial 3D Reconstruction" in html, "site hero must carry the B01-B36 manuscript title")
+    must("paper_layout_v24.pdf" in html, "site must link the typeset B01-B36 paper")
+    must("B01–B36" in html, "site must use the B01-B36 record framing")
+    for fig_ref in ["fig01_overview_v24", "fig02_longitudinal_map_b01_b36", "fig03_operator_portfolio_b01_b36", "fig04_transitions_v24", "fig05_persistence_v24"]:
+        must(fig_ref in html, f"site must include manuscript figure: {fig_ref}")
+    must(html.count('class="task-card"') == 4, "site must expose four descriptive band cards")
+    must('id="method-trace"' in html and "B23" in html, "site must include the B23 worked trace")
+    must('id="console"' in html, "site must include the unified evaluation console")
+    for elm in ["view-batch-select", "view-mode-clean", "view-mode-overlay", "view-mode-reference", "view-image", "view-prev", "view-next", "view-original"]:
+        must(f'id="{elm}"' in html, f"unified review viewer missing control: {elm}")
+    must("Coarse reference" in html, "review viewer must label the coarse-reference mode in English")
+    must("Original batch record" in html, "review viewer must link the original Chinese batch records as provenance")
+    must("coarse_vs_d40.mp4" in html and "assembly_metal.mp4" in html, "site must include both no-caption videos")
+    must('id="evidence-appendix"' in html and "dossier-select" in html, "site must keep the process-dossier evidence appendix")
     must("formalism-block" in html, "site must include formal method definitions")
     must('id="references"' in html and "Selected references" in html, "site must include an explicit References section")
-    must("fig03_quantitative_evidence" in tex and "fig07_d41_inspection_semantics" in tex and "fig14_behavioral_analysis" in tex, "LaTeX must include quantitative, semantic, and behavioral figures")
-    for marker in ["1 · Study Question and Evaluation Setting", "2 · Evaluation Tasks and Protocol", "3 · Representative Task", "4 · Behavioral Case Studies", "5 · Cross-Case Findings", "6 · Long-Horizon Composition Stress Test", "7 · Discussion", "7.2 · Threats to Validity", "Appendix A · Interactive Evidence", "Appendix B · Process Evidence"]:
-        must(marker in html, f"site missing v0.9 structure marker: {marker}")
-    paper_order = ["summary", "model-harness", "tasks", "worked-example", "cases", "d38", "behavioral-findings", "integration", "semantics", "discussion", "scope", "reviews", "dossiers", "references", "sources", "citation"]
+    for marker in ["1 · Overview", "2 · Method", "3 · Study design", "4 · Results", "5 · Evaluation console", "6 · Videos", "7 · Discussion"]:
+        must(marker in html, f"site missing paper-structure marker: {marker}")
+    paper_order = ["overview", "method", "method-trace", "study-design", "results", "results-transitions", "results-persistence", "console", "evidence-appendix", "videos", "discussion", "references", "sources", "citation"]
     positions = [html.index(f'id=\"{anchor}\"') for anchor in paper_order]
-    must(positions == sorted(positions), "site sections must follow the v0.9 narrative order")
+    must(positions == sorted(positions), "site sections must follow the B01-B36 manuscript narrative order")
 
     audit = (PAPER / "reviewer_audit_v0.9.md").read_text(encoding="utf-8")
     must("Proposed central question" in audit and "Task breadth should define the probes" in audit, "v0.9 reviewer audit must document the narrative rationale")
@@ -172,11 +165,10 @@ def main() -> int:
     must(dist["1"] + dist["2"] + dist["3+"] == behavior["batch_population"]["primary_installation_folders"], "revision distribution must sum to the scanned folder population")
     must(sum(behavior["failure_mode_layer_counts"].values()) == len(behavior["failure_mode_annotations"]), "failure-mode counts must match the annotation table")
     must(sum(behavior["adaptation_mode_counts"].values()) == len(behavior["adaptation_annotations"]), "adaptation-mode counts must match the annotation table")
-    must("selected documented episodes" in html or "selected diagnostic episodes" in html, "behavioral layer counts must be explicitly scoped to selected episodes")
 
     parser = SiteParser()
     parser.feed(html)
-    anchors = ["summary", "model-harness", "tasks", "worked-example", "cases", "d38", "behavioral-findings", "integration", "semantics", "discussion", "scope", "reviews", "dossiers", "references", "sources", "citation"]
+    anchors = paper_order + ["top", "videos"]
     for anchor in anchors:
         must(anchor in parser.ids, f"missing site anchor: {anchor}")
 

@@ -198,82 +198,93 @@
     button.textContent = zh ? '已加载原始审查页' : 'Original review loaded';
   });
 
+  // Unified three-mode viewer: one representative fixed-camera view per batch.
+  // Selection priority: first non-station triplet with clean+overlay+reference;
+  // else first triplet with clean+overlay; else first triplet with any image;
+  // else first loose view (model mode only).
+  const VIEW_BANDS = [
+    { id: 'repeated', test: (b) => /^B(0[7-9]|1[0-9])$/.test(b), label: 'Band · Repeated equipment 重复设备 · B07–B19' },
+    { id: 'connected', test: (b) => /^B(2[0-9]|30)$/.test(b), label: 'Band · Connected systems 连接系统 · B20–B30' },
+    { id: 'closure', test: (b) => /^B3[1-6]$/.test(b), label: 'Band · Site closure 整站收尾 · B31–B36' },
+    { id: 'extended', test: () => true, label: 'Extended record (outside B01–B36) 扩展记录（超出 B01–B36 范围）' },
+  ];
+
+  function pickRepresentativeView(d) {
+    const triplets = d.view_triplets || [];
+    const full = triplets.find((t) => !t.is_station && t.clean && t.overlay && t.reference);
+    if (full) return full;
+    const pair = triplets.find((t) => t.clean && t.overlay);
+    if (pair) return pair;
+    const any = triplets.find((t) => t.clean || t.overlay || t.reference);
+    if (any) return any;
+    const loose = (d.loose_views || [])[0];
+    return loose ? { label: loose.name, clean: loose.path, overlay: null, reference: null } : null;
+  }
+
   function setupReviewGallery(dossiers) {
-    const familySelect = document.getElementById('review-family-select');
-    const batchSelect = document.getElementById('review-batch-select');
-    const strip = document.getElementById('review-batch-strip');
-    const meta = document.getElementById('review-gallery-meta');
-    const frame = document.getElementById('review-gallery-frame');
-    const open = document.getElementById('review-open');
-    const prev = document.getElementById('review-prev');
-    const next = document.getElementById('review-next');
-    if (!familySelect || !batchSelect || !strip || !meta || !frame || !open) return;
+    const batchSelect = document.getElementById('view-batch-select');
+    const image = document.getElementById('view-image');
+    const caption = document.getElementById('view-caption');
+    const original = document.getElementById('view-original');
+    const prev = document.getElementById('view-prev');
+    const next = document.getElementById('view-next');
+    const modeButtons = ['clean', 'overlay', 'reference']
+      .map((mode) => document.getElementById(`view-mode-${mode}`)).filter(Boolean);
+    if (!batchSelect || !image || !caption || !original || !modeButtons.length) return;
 
-    const reviews = dossiers.filter((d) => d.review_page);
-    const families = [...new Set(reviews.map((d) => d.family))];
-    familySelect.innerHTML = `<option value="all">All 32 review batches</option>${families.map((family) => `<option value="${escapeHtml(family)}">${escapeHtml(family)}</option>`).join('')}`;
+    const reviews = dossiers
+      .filter((d) => d.review_page)
+      .map((d) => ({ dossier: d, view: pickRepresentativeView(d) }))
+      .filter((entry) => entry.view);
+    if (!reviews.length) return;
+
+    batchSelect.innerHTML = VIEW_BANDS.map((band) => {
+      const options = reviews
+        .filter((entry) => band.test(entry.dossier.batch))
+        .map((entry) => `<option value="${escapeHtml(entry.dossier.batch)}">${escapeHtml(entry.dossier.batch)} · ${escapeHtml(entry.dossier.review_title || entry.dossier.family)}</option>`)
+        .join('');
+      return options ? `<optgroup label="${escapeHtml(band.label)}">${options}</optgroup>` : '';
+    }).join('');
+
     const requested = new URLSearchParams(window.location.search).get('review');
-    let currentBatch = reviews.some((d) => d.batch === requested) ? requested : (reviews.some((d) => d.batch === 'B08') ? 'B08' : reviews[0]?.batch);
+    let currentBatch = reviews.some((entry) => entry.dossier.batch === requested) ? requested : 'B32';
+    if (!reviews.some((entry) => entry.dossier.batch === currentBatch)) currentBatch = reviews[0].dossier.batch;
+    let currentMode = 'overlay';
 
-    function filtered() {
-      return familySelect.value === 'all' ? reviews : reviews.filter((d) => d.family === familySelect.value);
+    function renderView(batch) {
+      const entry = reviews.find((item) => item.dossier.batch === batch);
+      if (!entry) return;
+      currentBatch = entry.dossier.batch;
+      batchSelect.value = currentBatch;
+      const available = (mode) => Boolean(entry.view[mode]);
+      if (!available(currentMode)) currentMode = available('overlay') ? 'overlay' : (available('clean') ? 'clean' : 'reference');
+      modeButtons.forEach((button) => {
+        const mode = button.dataset.mode;
+        button.disabled = !available(mode);
+        button.classList.toggle('active', mode === currentMode);
+      });
+      image.src = entry.view[currentMode];
+      image.alt = `${entry.dossier.batch} ${entry.view.label} ${currentMode}`;
+      caption.innerHTML = `<strong>${escapeHtml(entry.dossier.batch)}</strong> · ${escapeHtml(entry.dossier.review_title || entry.dossier.family)} · ${escapeHtml(entry.view.label)}`;
+      original.href = entry.dossier.review_page;
     }
 
-    function syncBatchOptions(rows) {
-      batchSelect.innerHTML = rows.map((d) => `<option value="${escapeHtml(d.batch)}">${escapeHtml(d.batch)} · ${escapeHtml(d.review_title || d.family)}</option>`).join('');
-      if (!rows.some((d) => d.batch === currentBatch)) currentBatch = rows[0]?.batch;
-      if (currentBatch) batchSelect.value = currentBatch;
-    }
-
-    function renderStrip(rows) {
-      strip.innerHTML = rows.map((d) => {
-        const triplet = (d.view_triplets || []).find((t) => !t.is_station && (t.overlay || t.clean)) || (d.view_triplets || [])[0];
-        const loose = (d.loose_views || [])[0];
-        const thumb = (triplet && (triplet.overlay || triplet.clean || triplet.reference)) || (loose && loose.path) || '';
-        return `<button type="button" data-review-batch="${escapeHtml(d.batch)}" class="${d.batch === currentBatch ? 'active' : ''}">${thumb ? `<img loading="lazy" src="${escapeHtml(thumb)}" alt="${escapeHtml(d.batch)} historical review thumbnail">` : ''}<span class="review-batch-copy"><b>${escapeHtml(d.batch)}</b><span>${escapeHtml(d.review_title || d.family)}</span></span></button>`;
-      }).join('');
-      const active = strip.querySelector('.active');
-      if (active) active.scrollIntoView({ behavior: 'auto', block: 'nearest', inline: 'center' });
-    }
-
-    function renderReview(batch, updateFilter = false) {
-      const d = reviews.find((item) => item.batch === batch);
-      if (!d) return;
-      currentBatch = d.batch;
-      if (updateFilter && familySelect.value !== 'all' && familySelect.value !== d.family) familySelect.value = 'all';
-      const rows = filtered();
-      syncBatchOptions(rows);
-      renderStrip(rows);
-      frame.src = d.review_page;
-      frame.title = `${d.batch} original reconstruction review`;
-      open.href = d.review_page;
-      const slider = d.review_has_slider ? 'slider' : 'mode/view controls';
-      const embedded = Number.isFinite(d.review_embedded_images) ? `${d.review_embedded_images} embedded images` : `${d.image_count} batch images`;
-      meta.innerHTML = `<div><strong>${escapeHtml(d.batch)} · ${escapeHtml(d.review_title || d.family)}</strong><span>${escapeHtml(d.family)}</span></div><div><b>${embedded}</b><span>${d.view_triplets.length} indexed Clean/Overlay/Reference groups · ${slider}</span></div><div class="review-meta-note"><span class="lang-en">Original batch HTML and embedded Blender renders</span><span class="lang-zh">原始批次 HTML 与内嵌 Blender 渲染</span></div>`;
-    }
-
-    familySelect.addEventListener('change', () => {
-      const rows = filtered();
-      if (!rows.length) return;
-      currentBatch = rows[0].batch;
-      syncBatchOptions(rows); renderReview(currentBatch);
-    });
-    batchSelect.addEventListener('change', () => renderReview(batchSelect.value));
-    strip.addEventListener('click', (event) => {
-      const button = event.target.closest && event.target.closest('[data-review-batch]');
-      if (button) renderReview(button.dataset.reviewBatch);
+    batchSelect.addEventListener('change', () => renderView(batchSelect.value));
+    modeButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        if (button.disabled) return;
+        currentMode = button.dataset.mode;
+        renderView(currentBatch);
+      });
     });
     function step(delta) {
-      const rows = filtered();
-      if (!rows.length) return;
-      const index = Math.max(0, rows.findIndex((d) => d.batch === currentBatch));
-      renderReview(rows[(index + delta + rows.length) % rows.length].batch);
+      const index = Math.max(0, reviews.findIndex((entry) => entry.dossier.batch === currentBatch));
+      renderView(reviews[(index + delta + reviews.length) % reviews.length].dossier.batch);
     }
     if (prev) prev.addEventListener('click', () => step(-1));
     if (next) next.addEventListener('click', () => step(1));
 
-    syncBatchOptions(filtered());
-    if (currentBatch) renderReview(currentBatch, true);
+    renderView(currentBatch);
   }
 
   async function loadProcessCatalog() {

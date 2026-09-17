@@ -1,6 +1,6 @@
 {
   "base": "website/",
-  "local_preview_note": "The media/ entries are symlinks inside astra-build so python -m http.server started from astra-build can serve the historical videos/images without copying them.",
+  "local_preview_note": "Most media/ entries are symlinks inside astra-build so python -m http.server started from astra-build can serve the historical videos/images without copying them. coarse_vs_d40.mp4 and assembly_metal.mp4 are real files: no-caption renders from video1c_compare_noflicker and video4b_assembly_noflicker frames.",
   "media": [
     {
       "id": "coarse_vs_d40_video",
