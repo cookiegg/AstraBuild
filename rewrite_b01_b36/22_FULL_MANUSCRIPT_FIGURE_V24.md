@@ -221,7 +221,7 @@ Later batches do not start from a blank scene; they consume geometry, transforms
 
 **Table 2.** Persistent-state ledger: what later batches consume, how it is checked, and what a wrong upstream state would propagate.
 
-| Consumer | Inherited asset consumed | Validation check | Propagation surface if the asset were wrong |
+| Batch | Inherited asset consumed | Validation check | Propagation surface if the asset were wrong |
 |---|---|---|---|
 | B23 | B08 transformer terminal interface | Endpoint/termination checks on the saved path | Every later neutral-lead connection would land on a wrong terminal |
 | B29 | Previously modeled clamps and suspension/lead endpoints | Endpoint relations checked independently of coarse-surface agreement | Displaced clamps would detach strings and jumpers across intervals |

@@ -82,7 +82,7 @@ ledger_tex = r'''\begin{table*}[t]
 \renewcommand{\arraystretch}{1.12}
 \begin{tabularx}{\textwidth}{@{}p{0.055\textwidth}p{0.215\textwidth}XX@{}}
 \toprule
-\textbf{Consumer} & \textbf{Inherited asset consumed} & \textbf{Validation check} & \textbf{Propagation surface if the asset were wrong} \\
+\textbf{Batch} & \textbf{Inherited asset consumed} & \textbf{Validation check} & \textbf{Propagation surface if the asset were wrong} \\
 \midrule
 B23 & B08 transformer terminal interface & Endpoint/termination checks on the saved path & Every later neutral-lead connection would land on a wrong terminal \\
 B29 & Previously modeled clamps and suspension/lead endpoints & Endpoint relations checked independently of coarse-surface agreement & Displaced clamps would detach strings and jumpers across intervals \\
@@ -94,7 +94,7 @@ B36 & 36,615 previous objects, 7,114 prior station transforms, 2,798 protected f
 '''
 findings_tables = [
     (re.compile(r'\*\*Table 1\.\*\*[^\n]*\n\n\| Episode \|[^\n]*\n\|---\|---\|---\|---\|\n(?:\|.*\|\n)+', re.M), failures_tex, 'failures'),
-    (re.compile(r'\*\*Table 2\.\*\*[^\n]*\n\n\| Consumer \|[^\n]*\n\|---\|---\|---\|---\|\n(?:\|.*\|\n)+', re.M), ledger_tex, 'ledger'),
+    (re.compile(r'\*\*Table 2\.\*\*[^\n]*\n\n\| Batch \|[^\n]*\n\|---\|---\|---\|---\|\n(?:\|.*\|\n)+', re.M), ledger_tex, 'ledger'),
 ]
 for pat, tex, name in findings_tables:
     body_md, n = pat.subn(lambda _: tex, body_md, count=1)
