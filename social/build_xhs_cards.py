@@ -338,5 +338,211 @@ def main():
     card07_end()
 
 
+
+
+# ---------------------------------------------------------------------------
+# Paper figures reorganized as vertical cards (fig01–fig06, Chinese)
+# ---------------------------------------------------------------------------
+
+HIST = REPO / "media" / "historical" / "output"
+SANS_ZH = "Noto Sans CJK SC"
+SERIF_ZH = "Noto Serif CJK SC"
+
+
+def fig_page_no(n, total=6):
+    return text(f"图 {n} / {total}", W - 60, H - 44, 140, 22, "700", MUTED, "end")[0]
+
+
+def kicker(s, color=TEAL):
+    return text(s, 84, 160, 700, 26, "700", color, spacing="0.12em")[0]
+
+
+def big_title(s, y=250, size=60):
+    return text(s, 84, y, 920, size, "900", INK, line_height=1.28)[0]
+
+
+def card_shell(kick, title_s, color=TEAL):
+    svg = card(None)
+    svg.append(brand())
+    svg.append(kicker(kick, color))
+    svg.append(big_title(title_s))
+    return svg
+
+
+def fig01_vertical():
+    svg = card_shell("图 1 · 方法", "从注册物理证据\n到持续工程模型")
+    svg.append(image(FIELD, 84, 430, 444, 280, 20))
+    svg.append(image(REPO / "media/cases/gis110.png", 552, 430, 444, 280, 20, light=True))
+    svg.append(text("现场图像与注册粗模", 306, 752, 400, 25, "700", MUTED, "middle")[0])
+    svg.append(text("度量布局与占用表面", 774, 752, 400, 25, "700", MUTED, "middle")[0])
+    loop_step(svg, 810, 1, "GPT-6 Astra / Codex", "选证据 · 选表示 · 分解任务 · 编写或修订程序", BLUE, SOFT_BLUE)
+    loop_step(svg, 980, 2, "确定性工具", "拟合 / 变换 / 样条 / 端点 / 覆盖 / 碰撞 / 状态保持", PURPLE, SOFT_PURPLE)
+    svg.append(image(STATION, 84, 1150, 912, 190, 20))
+    labels = [("局部拟合", BLUE, SOFT_BLUE), ("可复用范围", PURPLE, SOFT_PURPLE), ("连接关系表示", ORANGE, SOFT_ORANGE), ("状态约束集成", TEAL, SOFT_TEAL)]
+    x = 84
+    for i, (s2, c, sf) in enumerate(labels):
+        csvg, cw = chip(s2, x, 1362, c, sf, 24)
+        svg.append(csvg)
+        x += cw + 14
+        if i < 3:
+            svg.append(text("→", x - 6, 1397, 30, 26, "800", MUTED, "middle")[0])
+            x += 18
+    svg.append(fig_page_no(1))
+    save("fig01_zh_card", svg)
+
+
+BAND_ROWS = [
+    ("installation_B01/B01_front_overlay.jpg", "B01–B06 · 局部拟合结构", "位姿/尺度拟合；比较域定义", "锚点 B01/B02：定义（并修订）比较域", BLUE, SOFT_BLUE),
+    ("installation_B08/42_B08_Transformer_Pair_r2.png", "B07–B19 · 重复设备", "可复用与站点特有的边界", "锚点 B08 共享 MASTER · B15 修订复用边界", PURPLE, SOFT_PURPLE),
+    ("installation_B23/r3/480_B23_T1_Neutral_Oblique_Overlay.png", "B20–B30 · 连接系统", "端口、路由、连续性、柔性路径", "锚点 B20 端口 · B23 直线→曲线 · B29 端点", ORANGE, SOFT_ORANGE),
+    ("installation_B36/r3_previews/757_B36_Station_Clean.png", "B31–B36 · 整站收尾", "覆盖驱动的遗漏发现、保持、干涉", "锚点 B25/26 覆盖度 · B36 状态保持 + 干涉", TEAL, SOFT_TEAL),
+]
+
+
+def fig02_vertical():
+    svg = card_shell("图 2 · 研究设计", "B01–B36\n一条连续的重建记录")
+    y = 460
+    for rel, name, desc, anchor, c, sf in BAND_ROWS:
+        svg.append(rect(84, y, 912, 200, "white", c, 2, 20))
+        svg.append(image(HIST / rel, 100, y + 16, 240, 168, 14, light=True))
+        svg.append(text(name, 372, y + 56, 600, 31, "800", INK)[0])
+        svg.append(text(desc, 372, y + 104, 600, 25, "400", BODY)[0])
+        svg.append(text(anchor, 372, y + 150, 600, 24, "700", c)[0])
+        y += 224
+    svg.append(text("四个描述性区段用于定位时间轴，不构成统一难度尺度", 540, y + 30, 860, 25, "400", MUTED, "middle")[0])
+    svg.append(fig_page_no(2))
+    save("fig02_zh_card", svg)
+
+
+def fig03_vertical():
+    src = Image.open(REPO / "rewrite_b01_b36/figures/fig03_operator_portfolio_b01_b36_zh.png").convert("RGB")
+    sw, sh = src.size
+    lx = int(sw * 0.139)          # row-label strip width
+    y0, y1 = int(sh * 0.105), int(sh * 0.825)
+    mid = lx + (sw - lx) // 2
+    labels = src.crop((0, y0, lx, y1))
+    left = src.crop((lx, y0, mid, y1))
+    right = src.crop((mid, y0, sw, y1))
+    for name, half in [("left", left), ("right", right)]:
+        combo = Image.new("RGB", (lx + half.width, half.height), "white")
+        combo.paste(labels, (0, 0))
+        combo.paste(half, (lx, 0))
+        combo.save(OUT / f"_fig03_{name}.png")
+    svg = card(None)
+    svg.append(brand())
+    svg.append(kicker("图 3 · 结果", PURPLE))
+    svg.append(big_title("算子组合随依赖累积扩展", y=250, size=56))
+    iw = 880
+    x0 = (W - iw) // 2
+    ratio = left.height / (lx + left.width)
+    h1 = int(iw * ratio)
+    svg.append(text("B01–B19", x0, 380, 300, 26, "800", INK)[0])
+    svg.append(image(OUT / "_fig03_left.png", x0, 402, iw, h1, 14))
+    y2 = 402 + h1 + 54
+    svg.append(text("B20–B36", x0, y2, 300, 26, "800", INK)[0])
+    svg.append(image(OUT / "_fig03_right.png", x0, y2 + 22, iw, h1, 14))
+    y3 = y2 + 22 + h1 + 46
+    svg.append(text("深色 = 该批次存在对应阶段工件；build/validate 为共有主干未显示。\n拟合全程存在，关系操作围绕它扩展。", 540, y3, 900, 23, "400", MUTED, "middle", line_height=1.45)[0])
+    svg.append(fig_page_no(3))
+    save("fig03_zh_card", svg)
+
+
+TRANSITIONS = [
+    ("转变 A · 局部拟合 → 可复用范围", BLUE, SOFT_BLUE, [
+        ("installation_B01/B01_front_overlay.jpg", "B01 · 局部拟合"),
+        ("installation_B08/42_B08_Transformer_Pair_r2.png", "B08 · 共享 MASTER"),
+        ("installation_B15/B15_profiles.png", "B15 · 修订复用边界")],
+     "重复设备让“复用边界”本身成为重建变量"),
+    ("转变 B · 对象几何 → 连接关系表示", ORANGE, SOFT_ORANGE, [
+        ("installation_B20/4100_route_diagnostic.png", "B20 · 端口与路径"),
+        ("installation_B23/B23_measurement_profiles.png", "B23 · 直线→曲线"),
+        ("installation_B29/B29_crossline_fits.png", "B29 · 端点约束")],
+     "拓扑与端点一致性是不同于表面拟合的工程判据"),
+    ("转变 C · 预定添加 → 缺口/状态驱动闭合", TEAL, SOFT_TEAL, [
+        ("installation_B25/B25_source_height_map.png", "B25 · 未解释几何"),
+        ("installation_B26/543_B26_Structure_Overlay.png", "B26 · 重建缺口"),
+        ("installation_B36/B36_busbar_plan_overlay.png", "B36 · 状态约束插入")],
+     "后期工作由未解释几何与继承占用驱动"),
+]
+
+
+def fig04_vertical():
+    svg = card_shell("图 4 · 结果", "闭环为什么扩展\n三个结构性转变", ORANGE)
+    y = 470
+    for title_s, c, sf, cells, takeaway in TRANSITIONS:
+        svg.append(rect(84, y, 912, 280, sf, c, 2, 20))
+        svg.append(text(title_s, 116, y + 44, 860, 27, "800", INK)[0])
+        x = 116
+        for rel, lab in cells:
+            svg.append(image(HIST / rel, x, y + 68, 264, 140, 12, light=True))
+            svg.append(text(lab, x + 132, y + 232, 264, 22, "700", BODY, "middle")[0])
+            x += 288
+        svg.append(text(takeaway, 540, y + 268, 860, 22, "700", c, "middle")[0])
+        y += 300
+    svg.append(text("新增依赖改变的是工程决策，而不仅是拟合参数", 540, y + 20, 860, 25, "400", MUTED, "middle")[0])
+    svg.append(fig_page_no(4))
+    save("fig04_zh_card", svg)
+
+
+CHAIN = [
+    ("media/cases/b08_reuse.png", "B08 · 共享主变 MASTER", "一套可复用部件结构；T1/T2 为刚性站点实例", BLUE, SOFT_BLUE),
+    ("installation_B23/r3/480_B23_T1_Neutral_Oblique_Overlay.png", "B23 · 连接使用已有端子", "新中性点引线几何相对于 B08 接口定义", PURPLE, SOFT_PURPLE),
+    ("installation_B29/600_B29_G220_OUT_Detail_Overlay.png", "B29 · 导线复用线夹端点", "跳线 / 跨场导线连接此前已建子系统", ORANGE, SOFT_ORANGE),
+    ("installation_B36/r2_previews/748_B36_T1_Rack_Overlay.png", "B36 · 闭合到保存 stub", "新路径闭合到继承接口，无需重建已有设备", TEAL, SOFT_TEAL),
+]
+
+
+def fig05_vertical():
+    svg = card_shell("图 5 · 结果", "持续状态\n把局部解组合成系统", TEAL)
+    y = 450
+    for i, (rel, name, desc, c, sf) in enumerate(CHAIN):
+        p2 = (REPO / "media/historical/output" / rel) if rel.startswith("installation") else (REPO / rel)
+        svg.append(rect(84, y, 912, 140, "white", c, 2, 18))
+        svg.append(image(p2, 100, y + 12, 210, 116, 12, light=True))
+        svg.append(text(name, 340, y + 58, 630, 28, "800", INK)[0])
+        svg.append(text(desc, 340, y + 102, 630, 24, "400", BODY)[0])
+        if i < 3:
+            svg.append(f'<path d="M540,{y+144} V{y+166}" stroke="{MUTED}" stroke-width="4" stroke-linecap="round"/>')
+        y += 170
+    y += 8
+    svg.append(rect(84, y, 444, 240, SOFT_RED, RED, 2, 18))
+    svg.append(image(HIST / "installation_B15/r3/227_B15R2_756_Side_Overlay.png", 100, y + 14, 412, 108, 12))
+    svg.append(text("B15 · 继承抽象传播错误", 116, y + 156, 400, 24, "800", RED)[0])
+    svg.append(text("多个安装位继承了相同有限母线节范围，彼此重叠——同一通道，反向即风险", 116, y + 196, 380, 21, "400", BODY, line_height=1.35)[0])
+    svg.append(rect(552, y, 444, 240, SOFT_TEAL, TEAL, 2, 18))
+    svg.append(text("B36 · 状态保持负担", 584, y + 48, 400, 24, "800", TEAL)[0])
+    svg.append(text("36,615 个既有对象保持不变\n7,114 个既有站变换保持不变\n2,798 个受保护文件\n最终文件 36,812 个对象", 584, y + 92, 400, 22, "400", BODY, line_height=1.42)[0])
+    svg.append(fig_page_no(5))
+    save("fig05_zh_card", svg)
+
+
+def fig06_vertical():
+    svg = card_shell("图 6 · 发现一", "瓶颈从拟合\n上移到问题定义", ORANGE)
+    y = 450
+    ladder(svg, y, "① 几何拟合", "始终成立", "fit + validate 贯穿每批；无拟合失败记录", TEAL, SOFT_TEAL)
+    ladder(svg, y + 178, "② 问题定义", "就地修订", "比较域 · 复用边界 · 表示 · 任务选择", ORANGE, SOFT_ORANGE)
+    ladder(svg, y + 356, "③ 跨批次抽象", "传播风险", "B15 共享母线节把错误带进多个安装位", RED, SOFT_RED)
+    svg.append(text("多轮修订批次占比（按分段）", 84, 1070, 700, 30, "800", INK)[0])
+    bands = [("B01–06 局部拟合", 4, 6, BLUE, SOFT_BLUE), ("B07–19 重复设备", 13, 13, PURPLE, SOFT_PURPLE),
+             ("B20–30 连接系统", 5, 11, ORANGE, SOFT_ORANGE), ("B31–36 整站收尾", 5, 6, TEAL, SOFT_TEAL)]
+    y = 1120
+    for label, n, d, c, sf in bands:
+        rate(svg, y, label, n, d, c, sf)
+        y += 68
+    svg.append(text("可见 _rN 标签 · 基于文件名的下界，按分布解读", 540, y + 16, 860, 22, "400", MUTED, "middle")[0])
+    svg.append(fig_page_no(6))
+    save("fig06_zh_card", svg)
+
+
+def build_figure_cards():
+    fig01_vertical()
+    fig02_vertical()
+    fig03_vertical()
+    fig04_vertical()
+    fig05_vertical()
+    fig06_vertical()
+
+
 if __name__ == "__main__":
     main()
+    build_figure_cards()
