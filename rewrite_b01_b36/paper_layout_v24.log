@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2026.2.18)  18 SEP 2026 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2026.2.18)  18 SEP 2026 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -570,13 +570,13 @@ LaTeX Info: Redefining \nameref on input line 49.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 8
-8.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
+0.
 
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (1.70667pt too wide) in paragraph at lines 119--131
+Overfull \hbox (1.70667pt too wide) in paragraph at lines 121--133
 \T1/lmr/m/n/10 (-20) ing 220 kV sub-sta-tion. The anal-y-sis uses the pre-serve
 d B01--
  []
@@ -590,40 +590,40 @@ d B01--
 File: figure_v24/hybrid_pdf/fig01_overview_v24.pdf Graphic file (type pdf)
 <use figure_v24/hybrid_pdf/fig01_overview_v24.pdf>
 Package pdftex.def Info: figure_v24/hybrid_pdf/fig01_overview_v24.pdf  used on 
-input line 176.
+input line 178.
 (pdftex.def)             Requested size: 441.11653pt x 257.31798pt.
  [2]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
-22.
+24.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-22.
+24.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-322.
+324.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-322.
+324.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 322.
+(Font)              <10> on input line 324.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 322.
+(Font)              <7> on input line 324.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 322.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 322
+(Font)              <5> on input line 324.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 324
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -632,7 +632,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 322
+LaTeX Font Info:    Trying to load font information for U+msb on input line 324
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -642,7 +642,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [3 <./figure_v24/hybrid_pdf/fig01_overview_v24.pdf>]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
-19.
+21.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -654,7 +654,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 File: figures/fig02_longitudinal_map_b01_b36.png Graphic file (type png)
 <use figures/fig02_longitudinal_map_b01_b36.png>
 Package pdftex.def Info: figures/fig02_longitudinal_map_b01_b36.png  used on in
-put line 441.
+put line 443.
 (pdftex.def)             Requested size: 512.14838pt x 216.57463pt.
 
 [4]
@@ -663,10 +663,10 @@ put line 441.
 File: figures/fig03_operator_portfolio_b01_b36.png Graphic file (type png)
 <use figures/fig03_operator_portfolio_b01_b36.png>
 Package pdftex.def Info: figures/fig03_operator_portfolio_b01_b36.png  used on 
-input line 505.
+input line 507.
 (pdftex.def)             Requested size: 512.15585pt x 171.40506pt.
  [5 <./figures/fig02_longitudinal_map_b01_b36.png>]
-Underfull \hbox (badness 1303) in paragraph at lines 624--624
+Underfull \hbox (badness 1303) in paragraph at lines 626--626
 |[]\T1/lmr/m/it/10 (+20) From sched-uled ad-di-tions to gap-driven, state-
  []
 
@@ -676,79 +676,80 @@ pt>
 File: figure_v24/hybrid_pdf/fig04_transitions_v24.pdf Graphic file (type pdf)
 <use figure_v24/hybrid_pdf/fig04_transitions_v24.pdf>
 Package pdftex.def Info: figure_v24/hybrid_pdf/fig04_transitions_v24.pdf  used 
-on input line 692.
+on input line 694.
 (pdftex.def)             Requested size: 512.15422pt x 391.15074pt.
 <figure_v24/hybrid_pdf/fig05_persistence_v24.pdf, id=255, 1096.095pt x 858.2062
 5pt>
 File: figure_v24/hybrid_pdf/fig05_persistence_v24.pdf Graphic file (type pdf)
 <use figure_v24/hybrid_pdf/fig05_persistence_v24.pdf>
 Package pdftex.def Info: figure_v24/hybrid_pdf/fig05_persistence_v24.pdf  used 
-on input line 771.
+on input line 773.
 (pdftex.def)             Requested size: 405.98366pt x 317.87181pt.
  [7]
-<figure_v24/hybrid_pdf/fig06_findings_v24.pdf, id=263, 1204.5pt x 526.96875pt>
+<figure_v24/hybrid_pdf/fig06_findings_v24.pdf, id=262, 1204.5pt x 526.96875pt>
 File: figure_v24/hybrid_pdf/fig06_findings_v24.pdf Graphic file (type pdf)
 <use figure_v24/hybrid_pdf/fig06_findings_v24.pdf>
 Package pdftex.def Info: figure_v24/hybrid_pdf/fig06_findings_v24.pdf  used on 
-input line 822.
+input line 824.
 (pdftex.def)             Requested size: 512.17223pt x 224.07535pt.
 
-Overfull \hbox (8.3243pt too wide) in paragraph at lines 857--857
+Overfull \hbox (8.3243pt too wide) in paragraph at lines 859--859
 []|\T1/lmr/bx/n/9 Episode| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 857--857
+Underfull \hbox (badness 10000) in paragraph at lines 859--859
 []|\T1/lmr/m/n/9 (+20) Held-out cylindrical-domain RMS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 857--857
+Underfull \hbox (badness 10000) in paragraph at lines 859--859
 []|\T1/lmr/m/n/9 (+20) Reusable-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 857--857
+Underfull \hbox (badness 10000) in paragraph at lines 859--859
 \T1/lmr/m/n/9 (+20) abstraction
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 857--857
+Underfull \hbox (badness 10000) in paragraph at lines 859--859
 []|\T1/lmr/m/n/9 (+20) Representation
  []
 
 
-Overfull \hbox (7.33897pt too wide) in paragraph at lines 857--857
+Overfull \hbox (7.33897pt too wide) in paragraph at lines 859--859
 []|\T1/lmr/m/n/9 (-20) B25/B26| 
  []
 
-[8 <./figure_v24/hybrid_pdf/fig04_transitions_v24.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 898--898
-[]|\T1/lmr/bx/n/9 Inherited as-set con-
- []
+[8 <./figure_v24/hybrid_pdf/fig04_transitions_v24.pdf>] [9 <./figure_v24/hybrid
+_pdf/fig05_persistence_v24.pdf> <./figure_v24/hybrid_pdf/fig06_findings_v24.pdf
 
-
-Underfull \hbox (badness 1189) in paragraph at lines 898--898
-\T1/lmr/m/n/9 (+20) and sus-pen-sion/lead end-
- []
-
-
-Underfull \hbox (badness 7667) in paragraph at lines 898--898
-[]|\T1/lmr/m/n/9 (+20) 36,615 pre-vi-ous ob-jects,
- []
-
-
-Underfull \hbox (badness 2050) in paragraph at lines 898--898
-[]|\T1/lmr/m/n/9 (+20) Preservation checks plus ex-plicit col-li-
- []
-
-[9 <./figure_v24/hybrid_pdf/fig05_persistence_v24.pdf> <./figure_v24/hybrid_pdf
-/fig06_findings_v24.pdf
 
 pdfTeX warning: pdflatex (file ./figure_v24/hybrid_pdf/fig06_findings_v24.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (1.2744pt too wide) in paragraph at lines 953--965
+Underfull \hbox (badness 10000) in paragraph at lines 900--900
+[]|\T1/lmr/bx/n/9 Inherited as-set con-
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 900--900
+\T1/lmr/m/n/9 (+20) and sus-pen-sion/lead end-
+ []
+
+
+Underfull \hbox (badness 7667) in paragraph at lines 900--900
+[]|\T1/lmr/m/n/9 (+20) 36,615 pre-vi-ous ob-jects,
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 900--900
+[]|\T1/lmr/m/n/9 (+20) Preservation checks plus ex-plicit col-li-
+ []
+
+
+Overfull \hbox (1.2744pt too wide) in paragraph at lines 955--967
 \T1/lmr/m/n/10 (-20) ``low-level'' to ``high-level'' rea-son-ing. Mea-sure-ment
  re-mains
  []
@@ -764,21 +765,21 @@ Underfull \hbox (badness 5359) in paragraph at lines 9--13
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1090.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1092.
  [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1090.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1092.
  (./paper_layout_v24.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1090.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1090.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1092.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1092.
 
 Package rerunfilecheck Info: File `paper_layout_v24.out' has not changed.
 (rerunfilecheck)             Checksum: 522212C711491526361603EBE196A0B4;2896.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1090.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1092.
  ) 
 Here is how much of TeX's memory you used:
  11720 strings out of 481239
  182180 string characters out of 5920377
- 500122 words of memory out of 5000000
+ 501124 words of memory out of 5000000
  26500 multiletter control sequences out of 15000+600000
  593870 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -797,7 +798,7 @@ ri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmtt9.pfb>
-Output written on paper_layout_v24.pdf (12 pages, 11196358 bytes).
+Output written on paper_layout_v24.pdf (12 pages, 11196298 bytes).
 PDF statistics:
  504 PDF objects out of 1000 (max. 8388607)
  410 compressed objects within 5 object streams

@@ -198,6 +198,8 @@ front = rf'''\begin{{document}}
 \begin{{center}}
 {{\LARGE\bfseries {safe_title}\par}}
 \vspace{{0.45em}}
+{{\normalsize Walter Wang, hb.luo, pf.li, j.di, y.cao, y.kang\par}}
+\vspace{{0.3em}}
 {{\small Advisor-discussion draft · B01--B36 figure-v2.4 version\par}}
 \end{{center}}
 \vspace{{0.35em}}
