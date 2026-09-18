@@ -124,7 +124,7 @@ The results address two properties of the B01–B36 reconstruction record. We fi
 
 ## 5.1 The reconstruction loop broadens beyond local fitting
 
-Across B01 through B36, the same broad reconstruction loop recurs: extract or inspect registered evidence, formulate an executable geometry operation, build the result, and validate the saved state. What changes is the set of operators required around that backbone. The earliest records are dominated by direct fitting, whereas later work retains local measurement while adding planning, refinement, review, connectivity, coverage, and interference handling. This pattern is descriptive rather than statistical: it is reconstructed from preserved scripts, plans, diagnostics, and review artifacts, and the absence of a named stage does not imply the absence of reasoning or a failed task.
+Across B01 through B36, the same broad reconstruction loop recurs: extract or inspect registered evidence, formulate an executable geometry operation, build the result, and validate the saved state. What changes is the set of operators required around that backbone. The earliest records are dominated by direct fitting, whereas later work retains local measurement while adding planning, refinement, review, connectivity, coverage, and interference handling. The portfolio below is reconstructed from preserved scripts, plans, diagnostics, and review artifacts; the absence of a named stage in the catalog does not imply the absence of reasoning or a failed task.
 
 The contrast is clearest at the beginning of the sequence. Every batch from B01 through B06 records an explicit fitting stage, while none records a separate `measure`, `plan`, `refine`, or `audit` stage in the preserved catalog. These tasks are largely expressible as local geometric problems: select the relevant source region, estimate a rigid pose or simple geometric primitive, and compare the result with the registered reference. B01/B02 shows that even this apparently simple setting requires a correct comparison domain, but the computational structure remains compact once the domain is defined.
 
@@ -168,7 +168,7 @@ Taken together, the three transitions show a widening decision and operator port
 
 ![Figure 4. Three structural transitions in the reconstruction sequence.](figure_v24/preview_png/fig04_transitions_v24.png)
 
-*Figure 4. Three transitions grounded in preserved historical artifacts. Repetition introduces a reusable/site-specific boundary; connected systems introduce explicit ports, routes, and representation choices; later closure uses unexplained geometry and inherited occupancy to select and constrain new work. The panels are descriptive examples from B01–B36 rather than a universal complexity taxonomy.*
+*Figure 4. Three transitions grounded in preserved historical artifacts. Repetition introduces a reusable/site-specific boundary; connected systems introduce explicit ports, routes, and representation choices; later closure uses unexplained geometry and inherited occupancy to select and constrain new work.*
 
 ## 5.3 Persistent external state composes local solutions and propagates abstraction errors
 
