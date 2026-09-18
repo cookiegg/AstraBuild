@@ -133,8 +133,10 @@ def save(name, svg):
     svg.append("</svg>")
     out_svg = OUT / f"{name}.svg"
     out_svg.write_text("".join(svg), encoding="utf-8")
-    cairosvg.svg2png(url=str(out_svg), write_to=str(OUT / f"{name}.png"), output_width=W, output_height=H)
-    print(OUT / f"{name}.png")
+    png_dir = OUT / "png"
+    png_dir.mkdir(exist_ok=True)
+    cairosvg.svg2png(url=str(out_svg), write_to=str(png_dir / f"{name}.png"), output_width=W, output_height=H)
+    print(png_dir / f"{name}.png")
 
 
 STATION = REPO / "media/cases/station_side.png"
