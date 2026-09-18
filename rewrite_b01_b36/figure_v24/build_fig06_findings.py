@@ -42,13 +42,56 @@ LAYERS = [
      "B15 shared spool carried a wrong extent into later installations"),
 ]
 
+EN = {
+    "title": "The bottleneck migrates from fitting to problem definition",
+    "subtitle": "no documented fitting failure in 36 batches · revision concentrates where new abstractions are defined",
+    "left": "Decision layers",
+    "right": "Batches with ≥2 revisions, by band",
+    "foot": "visible _rN tags · filename-based lower bound, read as a distribution",
+    "bands": BANDS,
+    "layers": LAYERS,
+    "sans": SANS,
+    "serif": SERIF,
+    "stem": "fig06_findings_v24",
+}
 
-def ladder_card(svg, x, y, w, h, title_s, status, color, soft, desc):
+ZH_BANDS = [
+    ("B01–B06", "局部拟合", 4, 6, BLUE, SOFT_BLUE),
+    ("B07–B19", "重复设备", 13, 13, PURPLE, SOFT_PURPLE),
+    ("B20–B30", "连接系统", 5, 11, ORANGE, SOFT_ORANGE),
+    ("B31–B36", "整站收尾", 5, 6, TEAL, SOFT_TEAL),
+]
+
+ZH_LAYERS = [
+    ("1 · 几何拟合", "始终成立 · 36/36", TEAL, SOFT_TEAL,
+     "fit + validate 贯穿每批；无拟合失败记录"),
+    ("2 · 问题定义", "就地修订 · 5 例", ORANGE, SOFT_ORANGE,
+     "比较域 · 复用边界 · 表示 · 任务选择"),
+    ("3 · 跨批次抽象", "传播风险", RED, SOFT_RED,
+     "B15 共享母线节把错误范围带入后续安装位"),
+]
+
+ZH = {
+    "title": "瓶颈从拟合上移到问题定义",
+    "subtitle": "36 批次无一例拟合失败记录 · 修订集中在新抽象被定义之处",
+    "left": "决策层",
+    "right": "多轮修订批次占比（按分段）",
+    "foot": "可见 _rN 标签 · 基于文件名的下界，按分布解读",
+    "bands": ZH_BANDS,
+    "layers": ZH_LAYERS,
+    "sans": "Noto Sans CJK SC",
+    "serif": "Noto Serif CJK SC",
+    "stem": "fig06_findings_v24_zh",
+}
+
+
+def ladder_card(svg, x, y, w, h, title_s, status, color, soft, desc, font=SANS):
     svg.append(rect(x, y, w, h, soft, color, 1.8, 16))
-    svg.append(text(title_s, x + 26, y + 38, w - 220, 21, "700", fill=TITLE, anchor="start", family=SANS))
+    svg.append(text(title_s, x + 26, y + 38, w - 220, 21, "700", fill=TITLE, anchor="start", family=font))
     pw = 300
-    pill(svg, x + w - pw - 20, y + 18, pw, 34, status, fill="white", stroke=color, size=13)
-    svg.append(text(desc, x + 26, y + 68, w - 52, 14.5, fill=BODY, anchor="start", family=SANS))
+    svg.append(rect(x + w - pw - 20, y + 18, pw, 34, "white", color, 1.25, 17))
+    svg.append(text(status, x + w - pw / 2 - 20, y + 40, pw - 16, 13, "700", fill=BODY, family=font, line_height=1.04))
+    svg.append(text(desc, x + 26, y + 68, w - 52, 14.5, fill=BODY, anchor="start", family=font))
 
 
 def down_arrow(svg, cx, y1, y2, color=ARROW, dash=False):
@@ -57,9 +100,9 @@ def down_arrow(svg, cx, y1, y2, color=ARROW, dash=False):
     svg.append(f'<line x1="{cx}" y1="{y1}" x2="{cx}" y2="{y2}" stroke="{color}" stroke-width="3" stroke-linecap="round"{dash_attr} marker-end="url(#{marker})"/>')
 
 
-def rate_bar(svg, x, y, w, band, label, num, den, color, soft):
+def rate_bar(svg, x, y, w, band, label, num, den, color, soft, font=SANS):
     rate = num / den
-    svg.append(text(f"{band} · {label}", x, y, w, 16, "700", fill=TITLE, anchor="start", family=SANS))
+    svg.append(text(f"{band} · {label}", x, y, w, 16, "700", fill=TITLE, anchor="start", family=font))
     svg.append(text(f"{num}/{den}", x + w, y, 120, 15, "700", fill=MUTED, anchor="end", family=SANS))
     bar_y = y + 12
     svg.append(rect(x, bar_y, w, 30, "#f2f5fa", GRID, 1.2, 15))
@@ -72,23 +115,24 @@ def rate_bar(svg, x, y, w, band, label, num, den, color, soft):
         svg.append(text(pct, x + bw + 14, bar_y + 21, 60, 16, "800", fill=color, anchor="start", family=SANS))
 
 
-def build_fig6():
+def build_fig6(T=EN):
+    font, serif = T["sans"], T["serif"]
     svg: list[str] = []
     svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">')
     svg.append(defs())
     svg.append('<defs><marker id="arrowRed" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">'
                f'<path d="M0,0 L8,4 L0,8 z" fill="{RED}"/></marker></defs>')
     svg.append(rect(0, 0, W, H, BG, "none", 0, 0))
-    header(svg, "The bottleneck migrates from fitting to problem definition",
-           "no documented fitting failure in 36 batches · revision concentrates where new abstractions are defined")
+    svg.append(text(T["title"], W / 2, 46, W - 100, 30, "700", fill=TITLE, family=serif))
+    svg.append(text(T["subtitle"], W / 2, 82, W - 140, 17, fill=MUTED, family=font))
 
     # Left: decision-layer ladder
     lx, ly, lw, lh = 40, 116, 880, 500
-    panel(svg, lx, ly, lw, lh, "Decision layers", "#f4f7fb", GRID)
+    panel(svg, lx, ly, lw, lh, T["left"], "#f4f7fb", GRID)
     card_h, gap = 112, 30
     cy = ly + 62
-    for i, (title_s, status, color, soft, desc) in enumerate(LAYERS):
-        ladder_card(svg, lx + 32, cy, lw - 64, card_h, title_s, status, color, soft, desc)
+    for i, (title_s, status, color, soft, desc) in enumerate(T["layers"]):
+        ladder_card(svg, lx + 32, cy, lw - 64, card_h, title_s, status, color, soft, desc, font=font)
         if i < 2:
             down_arrow(svg, lx + lw / 2, cy + card_h + 2, cy + card_h + gap - 4,
                        color=(RED if i == 1 else ARROW), dash=(i == 1))
@@ -96,22 +140,24 @@ def build_fig6():
 
     # Right: per-band multi-revision rates
     rx, ry, rw, rh = 960, 116, 600, 500
-    panel(svg, rx, ry, rw, rh, "Batches with ≥2 revisions, by band", "#f4f7fb", GRID)
+    panel(svg, rx, ry, rw, rh, T["right"], "#f4f7fb", GRID)
     by = ry + 92
     bar_w = rw - 64
-    for band, label, num, den, color, soft in BANDS:
-        rate_bar(svg, rx + 32, by, bar_w, band, label, num, den, color, soft)
+    for band, label, num, den, color, soft in T["bands"]:
+        rate_bar(svg, rx + 32, by, bar_w, band, label, num, den, color, soft, font=font)
         by += 88
-    svg.append(text("visible _rN tags · filename-based lower bound, read as a distribution",
-                    rx + rw / 2, ry + rh - 24, rw - 48, 13, fill=MUTED, family=SANS))
+    svg.append(text(T["foot"], rx + rw / 2, ry + rh - 24, rw - 48, 13, fill=MUTED, family=font))
 
     svg.append("</svg>")
-    out = SVG_DIR / "fig06_findings_v24.svg"
+    stem = T["stem"]
+    out = SVG_DIR / f"{stem}.svg"
     out.write_text("".join(svg), encoding="utf-8")
-    cairosvg.svg2pdf(url=str(out), write_to=str(PDF_DIR / "fig06_findings_v24.pdf"))
-    cairosvg.svg2png(url=str(out), write_to=str(PNG_DIR / "fig06_findings_v24.png"), output_width=W)
+    cairosvg.svg2pdf(url=str(out), write_to=str(PDF_DIR / f"{stem}.pdf"))
+    cairosvg.svg2png(url=str(out), write_to=str(PNG_DIR / f"{stem}.png"), output_width=W)
     print(out.relative_to(REPO))
 
 
 if __name__ == "__main__":
-    build_fig6()
+    build_fig6(EN)
+    if len(sys.argv) > 1 and sys.argv[1] == "zh":
+        build_fig6(ZH)
