@@ -796,7 +796,7 @@ def figure12_b32_worked_example():
         canvas.text(x+.012,strip_y+.078,txt,transform=canvas.transAxes,fontsize=7.0,color=DARK,va="top",linespacing=1.4)
 
     canvas.text(.035,.315,"Review feedback changes the hypothesis",fontsize=10.0,fontweight="bold",color=ORANGE)
-    revisions=[(.035,"R1","door interpretation wrong"),(.355,"R2","C110 side corrected"),(.675,"R3","two C220 doors after stair/photo evidence")]
+    revisions=[(.035,"R1","door interpretation wrong"),(.355,"R2","Cabin-A side corrected"),(.675,"R3","two Cabin-B doors after stair/photo evidence")]
     for i,(x,tag,txt) in enumerate(revisions):
         canvas.add_patch(FancyBboxPatch((x,.205),.25,.075,boxstyle="round,pad=.008,rounding_size=.01",
                                         transform=canvas.transAxes,fc="#FFFDF9",ec=ORANGE if i<2 else TEAL,lw=1.1))

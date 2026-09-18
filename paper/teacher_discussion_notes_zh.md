@@ -67,9 +67,9 @@ B32 是现在最适合给老师解释“**Astra 到底在做什么**”的 worke
 - **输入**：冻结的 B31 整站工程/manifest/hash、`B31_vertical_samples.npz`、注册土建参考、现场照片（例如 DSC3140）；
 - **Astra/Codex 的可观察作用**：选择任务证据和表示、编写/修改 measurement 与 Blender 程序、根据 diagnostic/review/validator 结果修改下一版；
 - **确定性程序**：SciPy 做矩形拟合，Matplotlib 画 façade/step diagnostics，Blender 真正创建 MASTER/SITE、渲染固定机位，validator 重新计算几何/历史保持；
-- **输出**：`B32_container_measurements.json`、`C110/C220_facade_diagnostic.png`、`B32_source_steps_diagnostic.png`、station/component `.blend`、8×Clean/Overlay/Reference、`B32_review.html`、validation、manifest、continuation。
+- **输出**：`B32_container_measurements.json`、`Cabin-A/Cabin-B_facade_diagnostic.png`、`B32_source_steps_diagnostic.png`、station/component `.blend`、8×Clean/Overlay/Reference、`B32_review.html`、validation、manifest、continuation。
 
-最值得展示的是 R1→R2→R3：R1 两舱各一扇门且 C110 侧别错误；R2 把 C110 改到东侧；R3 根据低高度粗模台阶和照片，把 C110 定为东侧 Y≈−3.90，并把 C220 改成西侧两扇门 Y≈−5.50/+5.32。这里可以直接说明：**中间证据改变了建模表示，而不是只产生了一张“过程图”。**
+最值得展示的是 R1→R2→R3：R1 两舱各一扇门且 Cabin-A 侧别错误；R2 把 Cabin-A 改到东侧；R3 根据低高度粗模台阶和照片，把 Cabin-A 定为东侧 Y≈−3.90，并把 Cabin-B 改成西侧两扇门 Y≈−5.50/+5.32。这里可以直接说明：**中间证据改变了建模表示，而不是只产生了一张“过程图”。**
 
 `B32_review.html` 本身就是实验方法的一部分：8 个方向、模型/叠图/仅粗模三种状态和滑块比较，25 张内嵌图片。网站应该直接嵌入这个历史 review，而不是只截取其中一张图。
 

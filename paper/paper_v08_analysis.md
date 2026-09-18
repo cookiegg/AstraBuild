@@ -87,13 +87,13 @@ A provenance boundary matters here: the historical batches **do not preserve the
 | Phase | Why this phase exists | Observable agent role | Deterministic execution and output |
 |---|---|---|---|
 | Freeze inherited state | B31 left the cabins unresolved; earlier work must not be overwritten | select B32 scope and preserve prior state | `prepare_B32.py` checks hashes/stats, writes `inputs_B32.json` |
-| Measure cabin envelope | screenshot appearance is insufficient for metric pose/size | choose separate rectangular fits for C110/C220 and a fit/comparison split | SciPy soft-L1 least squares; facade diagnostics; `B32_container_measurements.json` |
+| Measure cabin envelope | screenshot appearance is insufficient for metric pose/size | choose separate rectangular fits for Cabin-A/Cabin-B and a fit/comparison split | SciPy soft-L1 least squares; facade diagnostics; `B32_container_measurements.json` |
 | Diagnose visible details | fitted walls do not determine door count, side, or position | interpret stair/door evidence; revise the representation | `inspect_B32_steps.py`; review evidence drives R1→R2→R3 door corrections |
-| Build componentized geometry | accepted measurements must become editable reusable structure | write/revise the construction program; decide reuse boundaries | `build_B32_r3.py`: shared end-wall/HVAC and door masters, C110/C220 masters, site instances, 27 renders |
+| Build componentized geometry | accepted measurements must become editable reusable structure | write/revise the construction program; decide reuse boundaries | `build_B32_r3.py`: shared end-wall/HVAC and door masters, Cabin-A/Cabin-B masters, site instances, 27 renders |
 | Same-camera review | one attractive render cannot reveal correspondence errors | interpret Clean/Overlay/Reference mismatch as revision evidence | 8 views × 3 modes; `B32_review.html` with mode switching and split slider |
 | Validate and freeze | only checked artifacts should enter the next state | react to failed checks through revision, not silent acceptance | `validate_B32_r3.py`: inherited-state preservation (34,191 objects, 2,953 protected files), facade residuals, door/stair constraints, camera framing, asset round-trip |
 
-The review chain materially changed the model's representation. R1 placed one door per cabin and put the C110 door on the wrong side; R2 moved C110 to the east side but kept one C220 west-side door; R3 uses one C110 east-side door (local Y≈−3.90) and two C220 west-side doors (≈−5.50 and +5.32). The continuation record notes that a C220 middle depression previously read as a door was rejected after photographs and two stair-platform signatures contradicted it. **The detail-level structure was the hard part, and it was resolved by review-driven revision, not by the first fit.** Section 4 returns to this pattern at suite level.
+The review chain materially changed the model's representation. R1 placed one door per cabin and put the Cabin-A door on the wrong side; R2 moved Cabin-A to the east side but kept one Cabin-B west-side door; R3 uses one Cabin-A east-side door (local Y≈−3.90) and two Cabin-B west-side doors (≈−5.50 and +5.32). The continuation record notes that a Cabin-B middle depression previously read as a door was rejected after photographs and two stair-platform signatures contradicted it. **The detail-level structure was the hard part, and it was resolved by review-driven revision, not by the first fit.** Section 4 returns to this pattern at suite level.
 
 ## 2.2 The review protocol is part of the measurement instrument
 
@@ -119,7 +119,7 @@ A filename-level audit of the 40-dossier process catalog gives the operator dist
 
 | Task family | Batches | Representative target/output | Capability exercised | Representative recorded evidence |
 |---|---|---|---|---|
-| Surge-arrester fitting | B01–B05, B18 | SA110/SA220 bodies and installation | local fitting, pose/scale, held-out checking | B01 preserved failure; B02 naked-shaft RMS 1.8–3.4 cm under revised domain* |
+| Surge-arrester fitting | B01–B05, B18 | SA-A/SA-B bodies and installation | local fitting, pose/scale, held-out checking | B01 preserved failure; B02 naked-shaft RMS 1.8–3.4 cm under revised domain* |
 | Wall and gate | B06 | station wall + gate | large civil geometry from coarse reference | east-wall median reference distance 7.87 m→0.015 m |
 | Transformer reconstruction | B07–B08 | two main transformers | complex assembly, reusable abstraction | shared T1/T2 assembly; bank median ~0.01 m; T2 front P95 0.62 m tail retained |
 | Capacitor-bank reconstruction | B09–B10 | six VC-C capacitor groups | repeated structures, local assemblies | 18 lane medians 0.6–2.4 cm; first broad outdoor coverage audit |

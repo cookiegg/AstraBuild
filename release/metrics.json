@@ -103,9 +103,11 @@
     "delta_percentage_points": -64.2,
     "GIS-B_median_m_before": 8.12,
     "GIS-B_median_m_after": 0.15,
+    "GIS-A_median_m_before": 1.75,
+    "GIS-A_median_m_after": 0.10,
     "transformer_median_m_before": 3.15,
     "transformer_median_m_after": 0.06,
-    "source": "presentation/report/技术报告.md, B25/B26 summary"
+    "source": "presentation/report/技术报告.md, B25/B26 summary; GIS-A/GIS-B before values from B25_zone_coverage.json (GIS110/GIS220 zones, above_7m)"
   },
   "engineering_scale": {
     "scenes": 755,

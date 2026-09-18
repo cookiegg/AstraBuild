@@ -114,7 +114,7 @@ A crucial provenance boundary is that these files **do not preserve GPT-6 Astra'
 
 ## 3.4 Representative task trace: B32 secondary-equipment cabins
 
-B32 illustrates the separation between metric fitting and engineering interpretation. Inherited vertical samples and the station frame are processed by a model-authored measurement program; deterministic rectangular fits produce cabin width, length, yaw, root transforms, and facade diagnostics. Those measurements are sufficient for the cabin envelopes but not for the door structure. R1 places one door per cabin and puts the C110 door on the wrong side. Fixed-camera review, low-height registered slices, field photographs, and stair-platform signatures contradict that interpretation. R2 moves the C110 door; R3 retains one C110 east-side door and two C220 west-side doors and rejects a middle C220 depression previously interpreted as a door.
+B32 illustrates the separation between metric fitting and engineering interpretation. Inherited vertical samples and the station frame are processed by a model-authored measurement program; deterministic rectangular fits produce cabin width, length, yaw, root transforms, and facade diagnostics. Those measurements are sufficient for the cabin envelopes but not for the door structure. R1 places one door per cabin and puts the Cabin-A door on the wrong side. Fixed-camera review, low-height registered slices, field photographs, and stair-platform signatures contradict that interpretation. R2 moves the Cabin-A door; R3 retains one Cabin-A east-side door and two Cabin-B west-side doors and rejects a middle Cabin-B depression previously interpreted as a door.
 
 ![Figure 2: B32 observable agent–tool trace.](../figures/fig12_b32_worked_example.png)
 
@@ -134,7 +134,7 @@ We reinterpret the B/D history as a suite of heterogeneous reconstruction tasks 
 
 | Task family | Historical batches | Representative target/output | Capability exercised | Representative recorded evidence |
 |---|---|---|---|---|
-| Surge-arrester fitting | B01–B05, B18 | SA110/SA220 bodies and installation | local fitting, pose/scale, held-out checking | B01 preserved failure; B02 naked-shaft RMS 1.8–3.4 cm under revised domain |
+| Surge-arrester fitting | B01–B05, B18 | SA-A/SA-B bodies and installation | local fitting, pose/scale, held-out checking | B01 preserved failure; B02 naked-shaft RMS 1.8–3.4 cm under revised domain |
 | Wall and gate | B06 | station wall + gate | large civil geometry from coarse reference | east-wall median reference distance 7.87 m→0.015 m |
 | Transformer reconstruction | B07–B08 | two main transformers | complex assembly and reusable abstraction | shared T1/T2 assembly; bank median ~0.01 m; T2 front P95 0.62 m tail retained |
 | Capacitor-bank reconstruction | B09–B10 | six VC-C capacitor groups | repeated structures and local assemblies | 18 lane medians 0.6–2.4 cm; first broad outdoor coverage audit |

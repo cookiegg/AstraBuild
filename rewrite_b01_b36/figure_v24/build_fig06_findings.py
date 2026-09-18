@@ -43,7 +43,7 @@ LAYERS = [
 ]
 
 EN = {
-    "title": "The bottleneck migrates from fitting to problem definition",
+    "title": "Documented failures concentrate at the problem-definition layer",
     "subtitle": "no documented fitting failure in 36 batches · revision concentrates where new abstractions are defined",
     "left": "Decision layers",
     "right": "Batches with ≥2 revisions, by band",
@@ -72,7 +72,7 @@ ZH_LAYERS = [
 ]
 
 ZH = {
-    "title": "瓶颈从拟合上移到问题定义",
+    "title": "有记录的失败集中在问题定义层",
     "subtitle": "36 批次无一例拟合失败记录 · 修订集中在新抽象被定义之处",
     "left": "决策层",
     "right": "多轮修订批次占比（按分段）",

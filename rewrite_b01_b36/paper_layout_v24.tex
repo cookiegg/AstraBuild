@@ -131,11 +131,12 @@ task-specific validation, and later batches inherit geometry and
 interfaces produced earlier. We ask: \textbf{how does a persistent
 general-purpose reasoning workflow change as industrial 3D
 reconstruction progresses from local fitting to reusable equipment,
-connected representations, and state-constrained site closure?}
+connected representations, and state-constrained site closure, and what
+role does the persistent engineering state itself play in that change?}
 
-The B01--B36 record supports three answers. First, geometric computation
-and acceptance remain explicit outside the language model. The
-observable model/harness contribution lies in selecting evidence and
+The B01--B36 record supports three answers (Figure 1). First, geometric
+computation and acceptance remain explicit outside the language model.
+The observable model/harness contribution lies in selecting evidence and
 comparison domains, choosing representations and decompositions, and
 authoring or revising the programs that invoke deterministic geometry
 operators. Second, the operator and decision portfolio broadens as
@@ -258,6 +259,33 @@ structured reverse engineering, executable 3D generation, and
 long-horizon tool use. B01--B36 records their interaction within one
 persistent industrial reconstruction process.
 
+\hypertarget{engineering-model-reconstruction-practice-and-agent-memory}{%
+\subsection{Engineering-model reconstruction practice and agent
+memory}\label{engineering-model-reconstruction-practice-and-agent-memory}}
+
+Two further bodies of practice border this study. Converting sampled
+geometry into structured, editable facility models is an established
+engineering problem: the scan-to-BIM literature reviews pipelines that
+reconstruct building information models with named components,
+connections, and provenance from laser-scanned point clouds
+\citep{tang2010scanbim}, and industrial digital-twin practice assumes
+persistent, editable models that accumulate state over a facility's
+lifetime. AstraBuild shares the target representation with this
+literature but differs in who authors the operations: the reconstruction
+operations here are formulated and revised by a general-purpose
+reasoning model rather than by fixed conversion pipelines or human
+modelers. Separately, persistent external memory is an established
+architectural element in agent systems, from Voyager's skill library to
+retrieval-based episodic memory in generative agents
+\citep{park2023generative} and operating-system-style memory hierarchies
+for language models \citep{packer2023memgpt}. What those works do not
+provide is a longitudinal field record of how such state is used, and
+how it fails, when the stored content is validator-checked engineering
+geometry rather than text. Relative to both literatures, AstraBuild's
+contribution is the preserved record itself: thirty-six batches of
+validator-checked state, retained failure episodes, and a complete
+conversation log of one long-horizon run.
+
 \hypertarget{method}{%
 \section{Method}\label{method}}
 
@@ -272,12 +300,14 @@ cannot be analyzed from the reasoning trace itself; what can be analyzed
 is everything visible around it. Beyond the preserved programs, plans,
 diagnostics, and validation outputs, the complete Codex conversation log
 of the run survives: 299 assistant decision messages and 1,326
-timestamped tool calls across the 22.5-hour session in which B03--B36
-were produced. B01--B03 predate the preserved log, and the session's own
-opening situation analysis serves as the bridging record for that
-earlier state. Our process analysis is therefore built from observable
-model-in-harness actions --- what the model said it would do, and what
-it actually executed --- rather than from private reasoning.
+timestamped tool calls across the 22.5-hour session that begins partway
+through B03 and runs to the end of B36. B01 and B02 predate the
+preserved log, and the session's own opening situation analysis serves
+as the bridging record for that earlier state and for the portion of B03
+already completed when logging began. Our process analysis is therefore
+built from observable model-in-harness actions --- what the model said
+it would do, and what it actually executed --- rather than from private
+reasoning.
 
 \hypertarget{evidence-and-persistent-target-state}{%
 \subsection{Evidence and persistent target
@@ -393,17 +423,16 @@ route/interference revisions in B20 and B36.
 record}\label{sequential-reconstruction-record}}
 
 We analyze B01--B36 as one sequential reconstruction record from an
-operating operating substation. Later batches inherit accepted geometry,
-reusable assets, transforms, and validation state from earlier batches.
-The targets also change over the sequence: the early work focuses on
-local equipment and civil fitting, later work introduces repeated
-equipment families and explicit connections, and the final batches
-operate on residual civil and auxiliary structures within a large
-accumulated scene. Because geometry type, dependency structure, and
-task-specific validation differ across the sequence, we do not collapse
-all 36 batches into a single success-rate denominator. The analysis
-instead asks how the reconstruction operation changes as additional
-dependencies appear.
+operating substation. Later batches inherit accepted geometry, reusable
+assets, transforms, and validation state from earlier batches. The
+targets also change over the sequence: the early work focuses on local
+equipment and civil fitting, later work introduces repeated equipment
+families and explicit connections, and the final batches operate on
+residual civil and auxiliary structures within a large accumulated
+scene. Because geometry type, dependency structure, and task-specific
+validation differ across the sequence, we do not collapse all 36 batches
+into a single success-rate denominator. The analysis instead asks how
+the reconstruction operation changes as additional dependencies appear.
 
 For orientation, Figure 2 groups the chronology into four descriptive
 bands: local fitted structures (B01--B06), repeated equipment
@@ -455,7 +484,7 @@ the supplement or website evidence browser.
 \begin{figure*}[!t]
 \centering
 \includegraphics[width=\textwidth,height=0.34\textheight,keepaspectratio]{figures/fig02_longitudinal_map_b01_b36.png}
-\caption{Longitudinal study map. The four descriptive bands orient the changing reconstruction targets without defining a common difficulty scale. Eight anchor batches locate the evidence used in the main text for comparison domains, reuse boundaries, ports and routes, representation changes, closure guided by coverage, endpoint composition, and late integration under interference constraints.}
+\caption{Longitudinal study map. The four descriptive bands orient the changing reconstruction targets without defining a common difficulty scale. Eight anchor batches (counting the B01/B02 and B25/B26 pairs as single anchors) locate the evidence used in the main text for comparison domains, reuse boundaries, ports and routes, representation changes, coverage-guided closure, endpoint composition, and late integration under interference constraints.}
 \label{fig:timeline}
 \end{figure*}
 
@@ -539,8 +568,8 @@ site-specific structure; connected systems require ports, routes,
 continuity, and representation choices; and late-stage work requires the
 system to identify residual gaps and insert new geometry into an already
 populated scene. We examine these three transitions using preserved
-batch artifacts rather than treating the chronology itself as a measure
-of task difficulty.
+batch artifacts (Figure 4) rather than treating the chronology itself as
+a measure of task difficulty.
 
 \hypertarget{from-fitting-geometry-to-defining-reusable-scope}{%
 \subsubsection{From fitting geometry to defining reusable
@@ -659,17 +688,18 @@ for deciding what should be reconstructed next.
 The subsequent civil and auxiliary batches retain explicit measurement,
 but they operate in a different context. B31 fit the main building
 within a scene that already contained tens of thousands of objects and
-preserved more than seven thousand existing station transforms. Missing
-or incomplete roof surfaces were supplemented from field imagery and
-relative structural evidence rather than treated as directly measured
-geometry. B32 similarly combined fitted cabin envelopes with reusable
-end-wall/HVAC and door components, while revising a door interpretation
-after photographs and source-step evidence contradicted the inherited
-hypothesis. By B35, the preserved record explicitly limits the product
-to the visible outdoor model and excludes hidden, underground, and
-uncertain structures. Fixed-camera review therefore becomes an important
-complement to local numerical fitting where the registered source is
-incomplete or ambiguous.
+preserved more than 7,000 existing station transforms (the same quantity
+as the 7,114 inherited transforms counted at B36, at an earlier
+snapshot). Missing or incomplete roof surfaces were supplemented from
+field imagery and relative structural evidence rather than treated as
+directly measured geometry. B32 similarly combined fitted cabin
+envelopes with reusable end-wall/HVAC and door components, while
+revising a door interpretation after photographs and source-step
+evidence contradicted the inherited hypothesis. By B35, the preserved
+record explicitly limits the product to the visible outdoor model and
+excludes hidden, underground, and uncertain structures. Fixed-camera
+review therefore becomes an important complement to local numerical
+fitting where the registered source is incomplete or ambiguous.
 
 B36 provides the clearest late-stage example because the new geometry is
 constrained simultaneously by source evidence, inherited endpoints, and
@@ -719,9 +749,9 @@ The later batches in B01--B36 are not independent reconstructions that
 happen to coexist in one Blender file. They explicitly consume geometry,
 transforms, terminals, and reusable components produced by earlier
 batches, while validation scripts check that inherited state remains
-unchanged. The long horizon of AstraBuild is therefore implemented
-through a persistent external engineering state: previously accepted
-geometry becomes part of the working problem for subsequent
+unchanged (Figure 5). The long horizon of AstraBuild is therefore
+implemented through a persistent external engineering state: previously
+accepted geometry becomes part of the working problem for subsequent
 reconstruction. This mechanism supports composition across batches, but
 it also makes errors in shared representations consequential because
 those assumptions are inherited by later work.
@@ -762,14 +792,19 @@ B36 provides the clearest endpoint of this dependency chain. The batch
 adds transformer-to-building bus-rack assemblies while keeping the B08
 transformer assemblies unchanged. Six new main busbar routes terminate
 on existing transformer stubs and new wall bushings, and the validator
-checks those connections in the saved model. At the same time, it
-records 36,615 previous objects, 7,114 prior station transforms, and
-2,798 protected files as unchanged; the final file contains 36,812
-objects and 7,116 station objects. These values describe preservation
-burden and state scale, not counts of independently verified physical
-assets. The important observation is that the new update must remain
-compatible with specific interfaces created many batches earlier while
-leaving the accumulated engineered world intact.
+checks those connections in the saved model. At the same time, its
+preservation checks verify that 36,615 pre-existing objects, 7,114
+inherited station transforms, and 2,798 protected files remain
+unchanged; after the update, the saved file holds 36,812 objects in
+total, of which 7,116 are registered station objects. (The
+protected-file figure is a per-file snapshot at B36; the provenance
+chain separately reports 2,859+ protected-file hashes accumulated from
+the B35 era onward, a hash-level count over a longer window.) These
+values describe preservation burden and state scale, not counts of
+independently verified physical assets. The important observation is
+that the new update must remain compatible with specific interfaces
+created many batches earlier while leaving the accumulated engineered
+world intact.
 
 Persistence also creates a failure mode. In B15, an early reusable
 representation included finite bus-spool geometry with a common extent
@@ -792,25 +827,29 @@ compositional leverage and an error-propagation surface.
 This evidence supports a narrower claim than ``memory improves
 reconstruction.'' No stateless control run exists, and the record does
 not quantify an accuracy or efficiency gain attributable to persistence.
-What B01--B36 does document is the mechanism by which long-horizon
-reconstruction is made possible in this workflow: later tasks operate on
-an explicit external engineering world containing prior assets,
-transforms, ports, and connections, and validators protect that world
-while new geometry is added. The same mechanism makes upstream
-abstraction choices part of the downstream problem. In this sense,
-persistence changes the object of reconstruction from a sequence of
-isolated assets into a cumulative engineered system.
+What B01--B36 does document is the mechanism this workflow actually uses
+for long-horizon reconstruction: every observed instance of cross-batch
+composition traveled through persistent external state, with later tasks
+operating on an explicit engineering world containing prior assets,
+transforms, ports, and connections, and validators protecting that world
+while new geometry is added. Whether a stateless variant of the same
+harness could complete such a sequence, and at what cost, is a
+counterfactual this record cannot answer (§7.5). The same mechanism
+makes upstream abstraction choices part of the downstream problem. In
+this sense, persistence changes the object of reconstruction from a
+sequence of isolated assets into a cumulative engineered system.
 
 \hypertarget{findings}{%
 \section{Findings}\label{findings}}
 
-Two findings structure this record. The first reads the 36-batch
-sequence as a migration of the bottleneck: geometric fitting is solved
-early and stays solved, while every documented failure sits one level
-up, in how the reconstruction problem itself was defined. The second
-reframes persistent state: it is neither memory nor storage but a shared
-engineering surface, and the same mechanism that composes local
-solutions across batches also propagates erroneous abstractions.
+Two findings structure this record. The first concerns where failures
+surface: numerical estimation and acceptance are handled by
+deterministic geometry code throughout, and every preserved failure
+episode sits one level up, in how the reconstruction problem itself was
+defined. The second reframes persistent state: it is neither memory nor
+storage but a shared engineering surface, and the same mechanism that
+composes local solutions across batches also propagates erroneous
+abstractions.
 
 \textbf{Scope.} Both findings are drawn from one substation, one
 owner-confirmed GPT-6 Astra/Codex configuration, and the preserved
@@ -818,40 +857,54 @@ B01--B36 artifacts. They characterize this workflow in this record; they
 do not claim that the same behavior would appear with another model,
 another site, or a stateless variant of the same harness.
 
-\hypertarget{finding-1-fitting-stays-solved-the-bottleneck-migrates-to-problem-definition}{%
-\subsection{Finding 1: Fitting stays solved; the bottleneck migrates to
-problem
-definition}\label{finding-1-fitting-stays-solved-the-bottleneck-migrates-to-problem-definition}}
+\hypertarget{finding-1-preserved-failures-sit-at-the-problem-definition-layer-not-in-fitting}{%
+\subsection{Finding 1: Preserved failures sit at the problem-definition
+layer, not in
+fitting}\label{finding-1-preserved-failures-sit-at-the-problem-definition-layer-not-in-fitting}}
 
-Across all 36 batches, no documented failure is a failure of numerical
-fitting. The five preserved failure episodes (Table 1) all sit at the
-definition level: four in a named definition layer --- evaluation
-protocol, reusable-abstraction boundary, representation class, task
-selection --- and the fifth, an omission surfaced by human review,
-traces to an earlier scoping decision that had placed the missing
-structure outside the reconstruction target. What changes along the
-sequence is not whether the workflow can fit geometry, but what kind of
-decision turns out to be wrong.
+Across all 36 batches, every preserved failure episode sits at the
+definition level rather than inside numerical fitting (Table 1). Four of
+the five occupy a named definition layer --- evaluation protocol,
+reusable-abstraction boundary, representation class, task selection ---
+and the fifth, an omission surfaced by human review, traces to an
+earlier scoping decision that had placed the missing structure outside
+the reconstruction target. Two boundaries of this observation matter.
+First, the pattern is partly structural: numerical estimation and
+acceptance live in deterministic geometry code (§3.2), so a fitting
+failure attributable to the model is largely outside what can be
+observed, and the conversation log shows that small numerical failures
+do occur inside code iteration, where failed executions are retried and
+corrected without leaving a batch-level episode (§6.3). Second, the
+episode set is survival-filtered: only failures large enough to force a
+cross-revision change leave a preserved dossier. The finding is
+therefore that documented failures concentrate at the definition layer,
+not that fitting never fails. The workflow's own 5 cm screen ledger
+bounds the claim from the other side: at freeze time it records 149
+passing and 101 not-passing local checks, and non-passing items are kept
+visible in a rolling queue rather than silently closed. What changes
+along the sequence is what kind of definition-level decision turns out
+to be wrong.
 
 \begin{figure*}[!t]
 \centering
 \includegraphics[width=\textwidth,height=0.33\textheight,keepaspectratio]{figure_v24/hybrid_pdf/fig06_findings_v24.pdf}
-\caption{Finding 1 evidence. Left: the three decision layers — geometric fitting remains strong in all 36 batches; documented failures are revised at the problem-definition layer; cross-batch abstraction remains the propagation risk. Right: share of batches with two or more visible revision tags per descriptive band (filename-based lower bound, read as a distribution).}
+\caption{Finding 1 evidence. Left: the three decision layers — no preserved fitting failure exists in the 36 batches; documented failures are revised at the problem-definition layer; cross-batch abstraction remains the propagation risk. Right: share of batches with two or more visible revision tags per descriptive band (filename-based lower bound, read as a distribution).}
 \label{fig:findings}
 \end{figure*}
 
-The revision record quantifies the migration. Counting visible revision
-tags in the preserved batch folders, the fraction of batches with two or
-more attempts is 4 of 6 in the local-fitting band (B01--B06), 13 of 13
-in the repeated-equipment band (B07--B19), 5 of 11 in the
-connected-systems band (B20--B30), and 5 of 6 in the site-closure band
-(B31--B36). These tags are a filename-based lower bound rather than
-action telemetry --- B01, for example, carries no tag because its
-failure was preserved and the protocol change landed in B02 --- so we
-read them as a distribution, not as per-batch counts. The distribution
-is not monotone: revision is densest exactly where new abstractions are
-introduced --- the band in which reusable masters and site-specific
-boundaries are first defined.
+The revision record quantifies the concentration (Figure 6). Counting
+visible revision tags in the preserved batch folders, the fraction of
+batches carrying two or more such tags is 4 of 6 in the local-fitting
+band (B01--B06), 13 of 13 in the repeated-equipment band (B07--B19), 5
+of 11 in the connected-systems band (B21--B25 of B20--B30), and 5 of 6
+in the site-closure band (all but B34 of B31--B36). These tags are a
+filename-based lower bound on actual attempts rather than action
+telemetry --- B01, for example, carries no tag because its failure was
+preserved and the protocol change landed in B02 --- so we read them as a
+distribution, not as per-batch counts. The distribution is not monotone:
+revision tags are densest exactly where new abstractions are introduced
+--- the band in which reusable masters and site-specific boundaries are
+first defined.
 
 \begin{table*}[t]
 \centering
@@ -873,24 +926,27 @@ B36 & Omission surfaced by review & Low bus racks missing; omission traced to an
 \end{tabularx}
 \end{table*}
 
-This pattern is structural rather than incidental. Because numerical
-estimation and acceptance live in deterministic geometry code (§3.2),
-the model's observable decisions are confined to selecting evidence,
-choosing representations, defining comparison domains and reuse
-boundaries, and sequencing work --- and those are exactly the layers at
-which the preserved failures occur. The bottleneck migrates to problem
-definition because problem definition is the only layer the model
-actually decides.
+This concentration is expected in part, for the structural reason given
+above: the model's observable decisions are confined to selecting
+evidence, choosing representations, defining comparison domains and
+reuse boundaries, and sequencing work, and those are exactly the layers
+at which the preserved failures occur. What the record adds beyond that
+structural expectation is empirical. Failures did occur at all four
+named definition layers, validators alone did not prevent them from
+surviving into the preserved record, and the definition layer is where
+corrections were actually worked out. The definition layer is where the
+bottleneck becomes visible in this record because it is the only layer
+at which model decisions are observable.
 
 The conversation log preserves two of these attributions in the model's
 own words. In B15, the whole-station check surfaced the overlap directly
 --- ``752 versus 502 and 754 versus 501 have small spacings, so the
-provisionally-sized bus segments overlap'' (assistant message, 17:55Z)
---- and the fix was stated as a boundary change, not a parameter change:
-``the six spare assemblies share the main components; the connecting
-pipes are generated per actual site spacing'' (18:14Z). In B23, the
-straight-lead hypothesis was abandoned after ``the earlier narrow-scope
-check missed the mid-span'' (§3.4).
+provisionally-sized bus segments overlap'' (assistant message,
+2026-09-12 17:55Z) --- and the fix was stated as a boundary change, not
+a parameter change: ``the six spare assemblies share the main
+components; the connecting pipes are generated per actual site spacing''
+(2026-09-12 18:14Z). In B23, the straight-lead hypothesis was abandoned
+after ``the earlier narrow-scope check missed the mid-span'' (§3.4).
 
 \hypertarget{finding-2-persistent-state-is-a-shared-engineering-surface}{%
 \subsection{Finding 2: Persistent state is a shared engineering
@@ -931,30 +987,34 @@ reverse}\label{propagation-the-same-channel-in-reverse}}
 The composition channel is also the propagation channel. B15's shared
 finite bus spool carried an inappropriate extent into every installation
 built from the master, and the error remained nonlocal until the
-reusable/site-specific boundary itself was revised. No stateless control
-run exists, so the record supports a narrower claim than ``memory
-improves reconstruction'': persistent external state is what makes a
-36-batch engineering sequence possible in this workflow at all, and
-upstream abstraction choices become part of every downstream problem.
+reusable/site-specific boundary itself was revised. As argued in §5.3,
+no stateless control run exists, so the claim here is narrower than
+``memory improves reconstruction'': persistent external state is the
+channel through which every documented cross-batch composition in this
+record traveled, and upstream abstraction choices become part of every
+downstream problem.
 
 \hypertarget{who-notices-self-diagnosed-versus-human-triggered-adaptation}{%
 \subsubsection{Who notices: self-diagnosed versus human-triggered
 adaptation}\label{who-notices-self-diagnosed-versus-human-triggered-adaptation}}
 
-The six documented adaptation episodes in B01--B36 split by who first
-notices the mismatch. In four --- B01\(\rightarrow\)B02, B15, B23,
-B25/B26 --- the mismatch surfaces in validator or measurement evidence
-and the revision is self-diagnosed: B23's measurement profiles
-invalidated the straight-lead hypothesis, and the
-r1\(\rightarrow\)r2\(\rightarrow\)r3 chain shows the correction
-proceeding without external direction. In two, a person is in the loop:
-B08's shared transformer master was created only after explicit user
-authorization of cross-installation equivalence, and B36's omission was
-spotted by a human reviewer scanning a top view, after which the
-workflow traced the cause to a documented earlier decision before
-rebuilding. The record is therefore agent-driven and human-steerable:
-validators and sparse human review catch different failure classes, and
-neither alone covers the record.
+The six documented adaptation episodes in B01--B36 --- the five failure
+episodes of Table 1 plus the B08 reuse authorization, which is an
+adaptation with no preceding failure --- split by who first initiates
+the change. In four --- B01\(\rightarrow\)B02, B15, B23, B25/B26 --- the
+mismatch surfaces in validator or measurement evidence and the revision
+is self-diagnosed: B23's measurement profiles invalidated the
+straight-lead hypothesis, and the r1\(\rightarrow\)r2\(\rightarrow\)r3
+chain shows the correction proceeding without external direction. In
+two, a person is in the loop: B08's shared transformer master was
+created only after explicit user authorization of cross-installation
+equivalence, and B36's omission was spotted by a human reviewer scanning
+a top view, after which the workflow traced the cause to a documented
+earlier decision before rebuilding. (B36 appears in both counts: it is a
+failure episode in Table 1 and a human-triggered adaptation here.) The
+record is therefore agent-driven and human-steerable: validators and
+sparse human review catch different failure classes, and neither alone
+covers the record.
 
 \hypertarget{the-process-record-22.5-hours-behind-the-36-batches}{%
 \subsection{The process record: 22.5 hours behind the 36
@@ -963,55 +1023,70 @@ batches}\label{the-process-record-22.5-hours-behind-the-36-batches}}
 The preserved conversation log turns the findings above from
 artifact-based inference into observed behavior (Figure 7). Over the
 22.5-hour session the human sent twelve substantive messages, and only
-three changed the trajectory: a wall-geometry review at 08:52, the B08
-reuse authorization at 11:00, and the B36 omission report at 05:35 the
-next morning. Between 11:45 and 05:35 the workflow ran unattended for
-17.8 hours --- nineteen goal-mode auto-continuations, zero human input
---- covering B09 through B35. The wall episode also shows what steering
-looks like in practice: the user proposed that the apparent wall
-misalignment was a projection artifact; the model verified against world
-coordinates, reported a real 3.7--4.2\(^\circ\) deviation, and corrected
-the wall in B06. Human input steers, but it is not rubber-stamped.
+three changed the trajectory: a wall-geometry review at 08:52Z on 12
+September, the B08 reuse authorization at 11:00Z, and the B36 omission
+report at 05:35Z on 13 September. Between 11:45Z and 05:35Z the workflow
+ran unattended for 17.8 hours --- nineteen goal-mode auto-continuations
+(the harness's scheduled self-prompts), zero human input --- covering
+B09 through B35. The wall episode also shows what steering looks like in
+practice: the user proposed that the apparent wall misalignment was a
+projection artifact; the model verified against world coordinates,
+reported a real 3.7--4.2\(^\circ\) deviation, and corrected the wall in
+B06. Human input steers, but it is not rubber-stamped.
 
 \begin{figure*}[!t]
 \centering
 \includegraphics[width=\textwidth,height=0.36\textheight,keepaspectratio]{figure_v24/hybrid_pdf/fig07_session_anatomy_v24.pdf}
-\caption{Session anatomy of the preserved 22.5-hour conversation run. Top: batch timeline (first mention in the log), the 17.8-hour unattended span, and the 24 context compactions. Middle: reasoning-output tokens per batch (a billing-reported proxy for reasoning effort), peaking at abstraction events rather than at the largest geometry. Bottom: the twelve substantive human messages; the three highlighted changed the trajectory.}
+\caption{Session anatomy of the preserved 22.5-hour conversation run. Top: batch timeline (first mention in the log), the 17.8-hour unattended span, and the 24 context compactions. Middle: reasoning-output tokens per batch (a billing-reported proxy for reasoning effort, attributed to batches by the most recently mentioned installation folder); absolute peaks coincide with abstraction events but scale with batch workload, so the panel is read descriptively. Bottom: the twelve substantive human messages; the three highlighted changed the trajectory.}
 \label{fig:session}
 \end{figure*}
 
 Two mechanisms behind Finding 2 become directly observable. First,
-external state functions as memory: all 24 context compactions are
-followed within the next fifteen tool calls by two to four
-context-reconstructing reads of earlier manifests, validation files, or
-review pages --- the model rebuilds its working context from the
-engineering state every time the context window is truncated. Second,
-state flows through two channels: a file-level handoff chain in which
-nearly every batch starts from the previous batch's saved blend
-(B05\(\leftarrow\)B04, B09\(\leftarrow\)B08, B13\(\leftarrow\)B12,
-B20\(\leftarrow\)B19, B25\(\leftarrow\)B24, B30\(\leftarrow\)B29,
-B34\(\leftarrow\)B33), while long-range references such as B23's
+external state functions as the context-reconstruction source --- a
+narrower, operational sense of memory than the engineering surface of
+§6.2: all 24 context compactions are followed within the next fifteen
+tool calls by between two and eleven context-reconstructing reads of
+earlier manifests, validation files, or review pages, and the count
+climbs over the session as the accumulated state grows. The model
+rebuilds its working context from the engineering state every time the
+context window is truncated. Second, state flows through two channels: a
+file-level handoff chain in which tool inputs reference the immediately
+preceding batch's saved files in 20 of the 33 logged batch-to-batch
+transitions (B05\(\leftarrow\)B04, B13\(\leftarrow\)B12,
+B20\(\leftarrow\)B19, B25\(\leftarrow\)B24, B30\(\leftarrow\)B29, and
+B34\(\leftarrow\)B33 among them; such references can serve reuse,
+validation, or review), while long-range references such as B23's
 termination on a B08 port travel inside the blend's internal namespace
 and never appear as file reads.
 
 Reasoning effort, measurable only as billing-reported reasoning-output
-tokens, concentrates at the same decision points the findings identify:
-absolute peaks at B12 (30.8k, first GIS family), B25 (27.3k, coverage
-audit), B07 (21.9k, first equipment family), and B15 (20.7k, boundary
-revision), and the highest reasoning share of output at B35 (0.49), B33
-(0.44), B08 (0.36), and B36 (0.36). The evidence diet shifts in
-parallel: new field-photo references are dense early (a 372-file catalog
-scan in B02; 32--44 photos per batch in B04--B08), decline to about ten
-per batch, and reach zero after B25, while render-viewing stays steady
-at 8--19 image messages per batch --- late batches run on the registered
-coarse model, inherited state, and their own rendered comparisons.
-Execution quality matures alongside: the exec failure rate falls from
-14.6\%/14.3\% in B05/B06 to below 4\% in most late batches, with a
-secondary peak at B18--B19 (8.5--9.3\%) where the GIS family is
-assembled. Finally, the model's self-reported numbers are checkable and
-check out: all three spot-checked completion reports --- B22's 28/23,
-B23's 32/30, and B19's 37/60 with 23 pending --- match the frozen
-validator files exactly.
+tokens and attributed to batches by the most recently mentioned
+installation folder, is descriptively consistent with the decision
+points the findings identify: absolute peaks occur at B12 (30.8k, the
+first GIS batch), B25 (27.3k, coverage audit), B07 (21.9k, first
+equipment family), and B15 (20.7k, boundary revision). Absolute peaks
+scale with batch workload --- B12 is also the session's largest-output
+batch --- so we report this co-occurrence descriptively rather than as
+measured alignment; the volume-adjusted share of reasoning tokens among
+output tokens peaks elsewhere, at B35 (0.49), B33 (0.44), B08 (0.36),
+and B36 (0.36). The evidence diet shifts in parallel: new field-photo
+references, counted by filename heuristics, are dense early (a 372-file
+catalog scan in B02; 32--44 photos per batch in B04--B08), decline to
+about ten per batch, and reach zero after B25, while render-viewing
+stays steady at 8--19 image messages per batch --- late batches run on
+the registered coarse model, inherited state, and their own rendered
+comparisons. The density of failed executions falls in parallel, from
+14.6\% and 14.3\% of exec calls in B05 and B06 to below 4\% in most late
+batches, with a secondary peak at B18--B19 (8.5--9.3\%) where the
+multi-batch GIS assembly completes; failed exec calls include
+exploratory commands, so this is a density signal, not a quality score.
+Finally, the model's self-reported numbers are checkable: in three spot
+checks selected where the completion reports state exact counts (3 of
+the 34 logged batches), the completion reports --- 23 of 28 local checks
+passed in B22, 30 of 32 in B23, and 37 of 60 with 23 pending in B19 ---
+match the frozen validator files exactly, with the B19 comparison
+confirming the 23 pending items directly and the passing count following
+by arithmetic.
 
 \hypertarget{discussion}{%
 \section{Discussion}\label{discussion}}
@@ -1095,6 +1170,18 @@ compositional leverage, but it also requires provenance, scoped
 validation, and the ability to revise inherited abstractions without
 destroying accepted history.
 
+Each of these lessons carries its own transfer condition. The
+reuse-boundary problem appears only where installations repeat; a site
+of unique one-off structures would not exhibit it. Abstraction
+propagation requires shared masters; purely per-instance modeling avoids
+that risk at the price of duplicated effort. The concentration of
+visible failures at the definition layer presupposes an architecture
+that externalizes numerical acceptance; in a harness where the model
+emits raw coordinates directly, the failure profile would look
+different. Sparse human steering, likewise, presumes a reviewer who can
+read the artifact. We expect these conditions, rather than anything
+specific to this station, to decide where the B01--B36 patterns recur.
+
 \hypertarget{limitations-and-threats-to-validity}{%
 \subsection{Limitations and threats to
 validity}\label{limitations-and-threats-to-validity}}
@@ -1124,9 +1211,11 @@ user authorization that the two transformer component configurations are
 equivalent, and review can surface omissions or ambiguous structure. The
 system is therefore agent-driven and human-steerable rather than fully
 autonomous. Finally, the model's chain of thought is encrypted by the
-provider and unreadable, and the preserved conversation log covers the
-run only from B03 onward. Claims about the model are restricted to
-observable messages, tool calls, and saved artifacts.
+provider and unreadable, and the preserved conversation log begins
+partway through B03, so B01 and B02 are covered only by their preserved
+artifacts and the session's opening situation analysis. Claims about the
+model are restricted to observable messages, tool calls, and saved
+artifacts.
 
 \hypertarget{controlled-follow-up-experiments}{%
 \subsection{Controlled follow-up
@@ -1166,6 +1255,23 @@ reconstruction rather than a comparative model benchmark. Matched
 alternative-model runs, independent survey measurements on selected
 structures, and replication at a second site are needed to test
 generality and comparative performance.
+
+\hypertarget{data-and-code-availability}{%
+\section{Data and code availability}\label{data-and-code-availability}}
+
+The frozen analysis aggregates (\texttt{metrics.json},
+\texttt{process\_catalog.json}, \texttt{claim\_matrix.md}, and the four
+\texttt{conversation\_*} analysis files), the figure sources, and the
+analysis scripts are available in the public repository at
+https://github.com/cookiegg/AstraBuild. Per-batch dossiers, review
+pages, and rendered comparisons are browsable through the project
+website's evidence browser. The raw conversation log contains
+site-identifying operational details and is not published in raw form;
+the de-identified per-batch aggregates used in §6.3 are included in the
+repository, and a de-identified log is available from the authors on
+reasonable request. The substation is anonymized throughout the public
+release, and voltage-coded equipment identifiers are remapped to neutral
+labels (Cabin-A/Cabin-B, SA-A/SA-B, GIS-A/GIS-B).
 \balance
 \small
 \bibliographystyle{unsrtnat}

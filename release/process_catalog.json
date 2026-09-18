@@ -5194,49 +5194,49 @@
           "is_station": true
         },
         {
-          "label": "B32_C220_Top",
+          "label": "B32_Cabin-B_Top",
           "clean": "../media/historical/output/installation_B32/679_B32_C220_Top_Clean.png",
           "overlay": "../media/historical/output/installation_B32/680_B32_C220_Top_Overlay.png",
           "reference": "../media/historical/output/installation_B32/681_B32_C220_Top_Reference.png",
           "is_station": false
         },
         {
-          "label": "B32_C220_Side",
+          "label": "B32_Cabin-B_Side",
           "clean": "../media/historical/output/installation_B32/673_B32_C220_Side_Clean.png",
           "overlay": "../media/historical/output/installation_B32/674_B32_C220_Side_Overlay.png",
           "reference": "../media/historical/output/installation_B32/675_B32_C220_Side_Reference.png",
           "is_station": false
         },
         {
-          "label": "B32_C220_Oblique",
+          "label": "B32_Cabin-B_Oblique",
           "clean": "../media/historical/output/installation_B32/670_B32_C220_Oblique_Clean.png",
           "overlay": "../media/historical/output/installation_B32/671_B32_C220_Oblique_Overlay.png",
           "reference": "../media/historical/output/installation_B32/672_B32_C220_Oblique_Reference.png",
           "is_station": false
         },
         {
-          "label": "B32_C220_End",
+          "label": "B32_Cabin-B_End",
           "clean": "../media/historical/output/installation_B32/676_B32_C220_End_Clean.png",
           "overlay": "../media/historical/output/installation_B32/677_B32_C220_End_Overlay.png",
           "reference": "../media/historical/output/installation_B32/678_B32_C220_End_Reference.png",
           "is_station": false
         },
         {
-          "label": "B32_C110_Top",
+          "label": "B32_Cabin-A_Top",
           "clean": "../media/historical/output/installation_B32/667_B32_C110_Top_Clean.png",
           "overlay": "../media/historical/output/installation_B32/668_B32_C110_Top_Overlay.png",
           "reference": "../media/historical/output/installation_B32/669_B32_C110_Top_Reference.png",
           "is_station": false
         },
         {
-          "label": "B32_C110_Side",
+          "label": "B32_Cabin-A_Side",
           "clean": "../media/historical/output/installation_B32/661_B32_C110_Side_Clean.png",
           "overlay": "../media/historical/output/installation_B32/662_B32_C110_Side_Overlay.png",
           "reference": "../media/historical/output/installation_B32/663_B32_C110_Side_Reference.png",
           "is_station": false
         },
         {
-          "label": "B32_C110_Oblique",
+          "label": "B32_Cabin-A_Oblique",
           "clean": "../media/historical/output/installation_B32/658_B32_C110_Oblique_Clean.png",
           "overlay": "../media/historical/output/installation_B32/659_B32_C110_Oblique_Overlay.png",
           "reference": "../media/historical/output/installation_B32/660_B32_C110_Oblique_Reference.png",

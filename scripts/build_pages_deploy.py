@@ -41,29 +41,33 @@ HISTORICAL_RE = re.compile(r"[^\"'\s]*media/historical/[^\"'\s)]+")
 PNG_DATA_RE = re.compile(r"data:image/png;base64,([A-Za-z0-9+/=\s]+?)(?=[\"'\)\]])")
 DATA_URI_RE = re.compile(r"data:image/[A-Za-z0-9.+-]+;base64,[A-Za-z0-9+/=\s]+")
 
-PUBLIC_TOKEN_MAP = {
-    "C110": "Cabin-A",
-    "C220": "Cabin-B",
-    "SA110": "SA-A",
-    "SA220": "SA-B",
-    "GIS110": "GIS-A",
-    "GIS220": "GIS-B",
-}
+PATTERNS_FILE = os.path.join(ROOT, "scripts", "sanitize_patterns.local.json")
+
+
+def _load_patterns():
+    # Site-identifying patterns live in a gitignored local file so the public
+    # repo never contains the real identifiers. Refuse to build without them:
+    # a deploy without sanitization would leak the protected identifiers.
+    if not os.path.exists(PATTERNS_FILE):
+        raise SystemExit(
+            f"missing {PATTERNS_FILE}: sanitization patterns are required to "
+            "build the public deploy tree"
+        )
+    with open(PATTERNS_FILE, encoding="utf-8") as fh:
+        spec = json.load(fh)
+    rules = [(re.compile(r["pattern"]), r["replacement"]) for r in spec["regex_rules"]]
+    token_map = dict(spec["token_map"])
+    return rules, token_map
+
+
+REGEX_RULES, PUBLIC_TOKEN_MAP = _load_patterns()
+
 PUBLIC_TEXT_EXTS = {".json", ".md", ".txt", ".csv", ".html"}
 
 
 def _sanitize_plain_text(text):
-    text = re.sub(
-        r"(?i)220\s*kV\s+Xialin\s+Substation(?:,\s*Xuancheng)?",
-        "an anonymized operating substation",
-        text,
-    )
-    text = re.sub(r"(?i)Xialin\s+Substation", "an anonymized substation", text)
-    text = re.sub(r"(?i)Xialin", "site", text)
-    text = re.sub(r"(?i)Xuancheng", "anonymized-location", text)
-    text = re.sub(r"(?i)(?<!\d)35\s*kV(?!\d)|35\s*千伏", "VC-C", text)
-    text = re.sub(r"(?i)(?<!\d)110\s*kV(?!\d)|110\s*千伏", "VC-A", text)
-    text = re.sub(r"(?i)(?<!\d)220\s*kV(?!\d)|220\s*千伏", "VC-B", text)
+    for pattern, replacement in REGEX_RULES:
+        text = pattern.sub(replacement, text)
     for old_token, public_token in PUBLIC_TOKEN_MAP.items():
         text = re.sub(rf"(?i){re.escape(old_token)}(?!\d)", public_token, text)
     return text
