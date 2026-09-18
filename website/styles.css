@@ -118,6 +118,12 @@ h1 {
   line-height: 1.035;
   letter-spacing: -.047em;
 }
+h1 .title-tail { font-size: .4em; font-weight: 650; letter-spacing: -.018em; color: #35445c; line-height: 1.25; }
+.author-block { margin-top: 26px; }
+.author-names { color: var(--ink); font-size: 16.5px; font-weight: 700; letter-spacing: -.01em; }
+.author-note { margin-top: 6px; color: var(--muted); font-size: 12px; }
+.abstract-block { max-width: 860px; padding: 46px 0 6px; }
+.abstract-block p { margin: 0 0 12px; color: #42536a; font-size: 16.5px; line-height: 1.68; }
 .hero-subtitle { max-width: 760px; margin: 24px 0 0; color: #42536a; font-size: 20px; line-height: 1.55; }
 .research-question { max-width: 760px; margin: 22px 0 0; color: #657184; font-family: Georgia,"Times New Roman",serif; font-size: 15.5px; line-height: 1.65; }
 .paper-meta { display: grid; gap: 4px; margin-top: 23px; color: #536174; font-size: 11.5px; }
