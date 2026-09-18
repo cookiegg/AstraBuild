@@ -1,6 +1,7 @@
 ---
 title: "AstraBuild: From Local Fits to Persistent Industrial 3D Reconstruction with a General-Purpose Reasoning Model"
 author: "Walter Wang; P. Li; J. Di; H. Luo*"
+affiliation: "University of Science and Technology of China"
 corresponding_author: "H. Luo"
 bibliography: references.bib
 ---
