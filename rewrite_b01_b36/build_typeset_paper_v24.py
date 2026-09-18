@@ -52,12 +52,62 @@ body_md, ntable = table_re.subn(lambda _: table_tex, body_md, count=1)
 if ntable not in (0, 1):
     raise SystemExit(f'Unexpected number of study tables replaced: {ntable}')
 
+# Replace the two Findings markdown tables (caption line + table) with raw LaTeX table* floats.
+failures_tex = r'''\begin{table*}[t]
+\centering
+\caption{Documented failure episodes in B01--B36, attributed by layer. Sources: preserved batch dossiers and validation chains.}
+\label{tab:failures}
+\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\textwidth}{@{}p{0.055\textwidth}p{0.145\textwidth}XX@{}}
+\toprule
+\textbf{Episode} & \textbf{Failure layer} & \textbf{Observable evidence} & \textbf{Response} \\
+\midrule
+B01 & Evaluation protocol & Held-out cylindrical-domain RMS 4.84/7.32/5.10 cm violates the 5 cm screen; comparison domain mixed the target shaft with accessory geometry & B02 separates fitting and holdout regions; the revised metric is declared not directly comparable to B01 \\
+B15 & Reusable-abstraction boundary & Local measurement contaminated by neighboring equipment; shared bus-spool master overlapped installations with different physical extents & Measurement method revised; finite site-specific geometry moved out of the shared master; obsolete supports archived, not overwritten \\
+B23 & Representation class & Straight-lead hypothesis contradicted by a $\approx$0.5 m mid-span bow in the registered source & Reformulated as a constrained curved path; fixed-endpoint B-spline fitted by deterministic code; r1--r3 revision chain preserved \\
+B25/B26 & Task selection & Structures absent from the model while their inventory entry appeared resolved & Coverage audit over selected high regions becomes a task-selection signal; $>$1 m unexplained-sample fraction 78.8\% $\rightarrow$ 14.6\% (B26) \\
+B36 & Omission surfaced by review & Low bus racks missing; omission traced to an earlier decision that treated the structure as outside the transformer assembly & Audit-only history search, then a multi-revision rebuild including a 0.16 m displacement to avoid a fire riser \\
+\bottomrule
+\end{tabularx}
+\end{table*}
+'''
+ledger_tex = r'''\begin{table*}[t]
+\centering
+\caption{Persistent-state ledger: what later batches consume, how it is checked, and what a wrong upstream state would propagate.}
+\label{tab:ledger}
+\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\textwidth}{@{}p{0.055\textwidth}p{0.215\textwidth}XX@{}}
+\toprule
+\textbf{Consumer} & \textbf{Inherited asset consumed} & \textbf{Validation check} & \textbf{Propagation surface if the asset were wrong} \\
+\midrule
+B23 & B08 transformer terminal interface & Endpoint/termination checks on the saved path & Every later neutral-lead connection would land on a wrong terminal \\
+B29 & Previously modeled clamps and suspension/lead endpoints & Endpoint relations checked independently of coarse-surface agreement & Displaced clamps would detach strings and jumpers across intervals \\
+B31 & More than 7,000 existing station transforms & State-preservation tests over inherited transforms & Transform drift would silently move already-accepted equipment \\
+B36 & 36,615 previous objects, 7,114 prior station transforms, 2,798 protected files & Preservation checks plus explicit collision/interference checks & Inherited stubs or bushings that no longer match the site would misroute new busbars closing onto them \\
+\bottomrule
+\end{tabularx}
+\end{table*}
+'''
+findings_tables = [
+    (re.compile(r'\*\*Table 1\.\*\*[^\n]*\n\n\| Episode \|[^\n]*\n\|---\|---\|---\|---\|\n(?:\|.*\|\n)+', re.M), failures_tex, 'failures'),
+    (re.compile(r'\*\*Table 2\.\*\*[^\n]*\n\n\| Consumer \|[^\n]*\n\|---\|---\|---\|---\|\n(?:\|.*\|\n)+', re.M), ledger_tex, 'ledger'),
+]
+for pat, tex, name in findings_tables:
+    body_md, n = pat.subn(lambda _: tex, body_md, count=1)
+    if n != 1:
+        raise SystemExit(f'Findings table {name} replaced {n} times (expected 1)')
+
 figure_specs = {
     1: ('figure_v24/hybrid_pdf/fig01_overview_v24.pdf', 0.340, 'fig:overview'),
     2: ('figures/fig02_longitudinal_map_b01_b36.png', 0.340, 'fig:timeline'),
     3: ('figures/fig03_operator_portfolio_b01_b36.png', 0.285, 'fig:operators'),
     4: ('figure_v24/hybrid_pdf/fig04_transitions_v24.pdf', 0.560, 'fig:transitions'),
     5: ('figure_v24/hybrid_pdf/fig05_persistence_v24.pdf', 0.420, 'fig:persistence'),
+    6: ('figure_v24/hybrid_pdf/fig06_findings_v24.pdf', 0.330, 'fig:findings'),
 }
 # Convert markdown figure + following prose caption into one full-width LaTeX float.
 for num, (path, maxh, label) in figure_specs.items():
@@ -81,7 +131,7 @@ for num, (path, maxh, label) in figure_specs.items():
 # Render abstract to LaTeX as a fragment.
 def pandoc_fragment(md_text: str) -> str:
     p = subprocess.run(
-        ['pandoc', '-f', 'markdown+raw_tex+tex_math_single_backslash', '-t', 'latex', '--natbib', '--bibliography=references.bib'],
+        ['pandoc', '-f', 'markdown+raw_tex+tex_math_single_backslash-latex_macros', '-t', 'latex', '--natbib', '--bibliography=references.bib'],
         input=md_text, text=True, cwd=ROOT, capture_output=True, check=True)
     return p.stdout.strip()
 

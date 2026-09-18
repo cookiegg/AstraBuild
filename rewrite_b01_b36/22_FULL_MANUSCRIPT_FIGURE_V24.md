@@ -185,27 +185,80 @@ This evidence supports a narrower claim than “memory improves reconstruction.�
 
 ---
 
-# 6 Discussion
+# 6 Findings
 
-## 6.1 What the general-purpose model contributes
+Two findings structure this record. The first reads the 36-batch sequence as a migration of the bottleneck: geometric fitting is solved early and stays solved, while every documented failure sits one level up, in how the reconstruction problem itself was defined. The second reframes persistent state: it is neither memory nor storage but a shared engineering surface, and the same mechanism that composes local solutions across batches also propagates erroneous abstractions.
+
+**Scope.** Both findings are drawn from one substation, one owner-confirmed GPT-6 Astra/Codex configuration, and the preserved B01–B36 artifacts. They characterize this workflow in this record; they do not claim that the same behavior would appear with another model, another site, or a stateless variant of the same harness.
+
+## 6.1 Finding 1: Fitting stays solved; the bottleneck migrates to problem definition
+
+Across all 36 batches, no documented failure is a failure of numerical fitting. The five preserved failure episodes (Table 1) all sit at the definition level: four in a named definition layer — evaluation protocol, reusable-abstraction boundary, representation class, task selection — and the fifth, an omission surfaced by human review, traces to an earlier scoping decision that had placed the missing structure outside the reconstruction target. What changes along the sequence is not whether the workflow can fit geometry, but what kind of decision turns out to be wrong.
+
+![Figure 6. The bottleneck migrates from fitting to problem definition.](figure_v24/preview_png/fig06_findings_v24.png)
+
+*Figure 6. Finding 1 evidence. Left: the three decision layers — geometric fitting remains strong in all 36 batches; documented failures are revised at the problem-definition layer; cross-batch abstraction remains the propagation risk. Right: share of batches with two or more visible revision tags per descriptive band (filename-based lower bound, read as a distribution).*
+
+The revision record quantifies the migration. Counting visible revision tags in the preserved batch folders, the fraction of batches with two or more attempts is 4 of 6 in the local-fitting band (B01–B06), 13 of 13 in the repeated-equipment band (B07–B19), 5 of 11 in the connected-systems band (B20–B30), and 5 of 6 in the site-closure band (B31–B36). These tags are a filename-based lower bound rather than action telemetry — B01, for example, carries no tag because its failure was preserved and the protocol change landed in B02 — so we read them as a distribution, not as per-batch counts. The distribution is not monotone: revision is densest exactly where new abstractions are introduced — the band in which reusable masters and site-specific boundaries are first defined.
+
+**Table 1.** Documented failure episodes in B01–B36, attributed by layer. Sources: preserved batch dossiers and validation chains.
+
+| Episode | Failure layer | Observable evidence | Response |
+|---|---|---|---|
+| B01 | Evaluation protocol | Held-out cylindrical-domain RMS 4.84/7.32/5.10 cm violates the 5 cm screen; comparison domain mixed the target shaft with accessory geometry | B02 separates fitting and holdout regions; the revised metric is declared not directly comparable to B01 |
+| B15 | Reusable-abstraction boundary | Local measurement contaminated by neighboring equipment; shared bus-spool master overlapped installations with different physical extents | Measurement method revised; finite site-specific geometry moved out of the shared master; obsolete supports archived, not overwritten |
+| B23 | Representation class | Straight-lead hypothesis contradicted by a $\approx$0.5 m mid-span bow in the registered source | Reformulated as a constrained curved path; fixed-endpoint B-spline fitted by deterministic code; r1–r3 revision chain preserved |
+| B25/B26 | Task selection | Structures absent from the model while their inventory entry appeared resolved | Coverage audit over selected high regions becomes a task-selection signal; >1 m unexplained-sample fraction 78.8% $\rightarrow$ 14.6% (B26) |
+| B36 | Omission surfaced by review | Low bus racks missing; omission traced to an earlier decision that treated the structure as outside the transformer assembly | Audit-only history search, then a multi-revision rebuild including a 0.16 m displacement to avoid a fire riser |
+
+This pattern is structural rather than incidental. Because numerical estimation and acceptance live in deterministic geometry code (§3.2), the model's observable decisions are confined to selecting evidence, choosing representations, defining comparison domains and reuse boundaries, and sequencing work — and those are exactly the layers at which the preserved failures occur. The bottleneck migrates to problem definition because problem definition is the only layer the model actually decides.
+
+## 6.2 Finding 2: Persistent state is a shared engineering surface
+
+### 6.2.1 Composition: later batches consume an engineered world
+
+Later batches do not start from a blank scene; they consume geometry, transforms, terminals, and reusable components produced and accepted earlier, while validators check that the inherited state is unchanged. Table 2 lists the documented consumption events.
+
+**Table 2.** Persistent-state ledger: what later batches consume, how it is checked, and what a wrong upstream state would propagate.
+
+| Consumer | Inherited asset consumed | Validation check | Propagation surface if the asset were wrong |
+|---|---|---|---|
+| B23 | B08 transformer terminal interface | Endpoint/termination checks on the saved path | Every later neutral-lead connection would land on a wrong terminal |
+| B29 | Previously modeled clamps and suspension/lead endpoints | Endpoint relations checked independently of coarse-surface agreement | Displaced clamps would detach strings and jumpers across intervals |
+| B31 | More than 7,000 existing station transforms | State-preservation tests over inherited transforms | Transform drift would silently move already-accepted equipment |
+| B36 | 36,615 previous objects, 7,114 prior station transforms, 2,798 protected files | Preservation checks plus explicit collision/interference checks | Inherited stubs or bushings that no longer match the site would misroute new busbars closing onto them |
+
+### 6.2.2 Propagation: the same channel in reverse
+
+The composition channel is also the propagation channel. B15's shared finite bus spool carried an inappropriate extent into every installation built from the master, and the error remained nonlocal until the reusable/site-specific boundary itself was revised. No stateless control run exists, so the record supports a narrower claim than “memory improves reconstruction”: persistent external state is what makes a 36-batch engineering sequence possible in this workflow at all, and upstream abstraction choices become part of every downstream problem.
+
+### 6.2.3 Who notices: self-diagnosed versus human-triggered adaptation
+
+The six documented adaptation episodes in B01–B36 split by who first notices the mismatch. In four — B01$\rightarrow$B02, B15, B23, B25/B26 — the mismatch surfaces in validator or measurement evidence and the revision is self-diagnosed: B23's measurement profiles invalidated the straight-lead hypothesis, and the r1$\rightarrow$r2$\rightarrow$r3 chain shows the correction proceeding without external direction. In two, a person is in the loop: B08's shared transformer master was created only after explicit user authorization of cross-installation equivalence, and B36's omission was spotted by a human reviewer scanning a top view, after which the workflow traced the cause to a documented earlier decision before rebuilding. The record is therefore agent-driven and human-steerable: validators and sparse human review catch different failure classes, and neither alone covers the record.
+
+---
+
+# 7 Discussion
+
+## 7.1 What the general-purpose model contributes
 
 The B01–B36 record suggests a specific role for general-purpose reasoning in industrial 3D reconstruction. The model is most useful where the engineering problem itself must be specified or revised: selecting a comparison domain, deciding which geometry can be reused across installations, choosing a path representation, identifying relevant ports and routes, or selecting the next reconstruction region from unexplained scene evidence. Numerical fitting and acceptance remain outside the model in explicit geometry code and validators. This separation is important for interpreting the results. A low residual or a small endpoint gap is evidence that a chosen procedure produced a consistent geometric result; it is not evidence that the language model directly performed high-precision numerical optimization.
 
 The longitudinal record also indicates that the model's observable role broadens rather than simply moving from “low-level” to “high-level” reasoning. Measurement remains present in the later civil and integration batches. What changes is the number of relationships that must be represented around that measurement. Repeated equipment introduces invariance and installation scope, connected systems introduce relational constraints among existing components, and site closure adds scene-level omission and compatibility checks. The value of a general-purpose model in this setting is therefore its ability to formulate and revise heterogeneous operations through a common programmatic interface, not the replacement of specialized geometric methods with one monolithic learned solver.
 
-## 6.2 Why explicit tools and validation are part of the method
+## 7.2 Why explicit tools and validation are part of the method
 
 The results depend on the fact that model decisions are externalized into executable artifacts. B01/B02 preserves a failed comparison and the revised measurement domain instead of hiding the original screen failure. B15 preserves the shared-spool representation that produced overlaps and records the change to site-specific finite geometry. B23 retains successive geometry revisions after the initial representation failed to explain the observed trajectory. The preserved revisions make disagreement between a current hypothesis and physical evidence inspectable.
 
 Inspectability is especially important because the same photogrammetric reference can support different kinds of checks. A finite surface residual can be useful for a fitted wall or cylinder, but it does not establish endpoint continuity for a conductor, completeness of a route, or preservation of earlier scene state. Conversely, an endpoint check can pass while the surrounding source region still contains unexplained branches or attachments. Task-specific validators therefore encode different acceptance conditions rather than approximating one hidden global score. The resulting system is closer to an engineering workflow in which a reasoning layer proposes explicit operations and specialized procedures determine whether the corresponding geometric conditions are satisfied.
 
-## 6.3 Persistent state changes capability and risk
+## 7.3 Persistent state changes capability and risk
 
 Persistent external state gives later batches access to an engineered world rather than a blank scene. B23 can terminate a new lead on a B08 terminal, B29 can connect new conductors to earlier suspension and transformer interfaces, and B36 can close new busbars onto preserved transformer stubs. These dependencies make station-scale composition possible within the documented workflow because the output of one batch becomes the input structure of another.
 
 The same mechanism makes representation errors nonlocal. B15 shows that a finite site-dependent spool placed inside a shared abstraction can propagate inappropriate geometry across multiple installations. Correcting the error requires revising the reuse boundary, not only moving one object. Persistent state should therefore be treated as part of the reconstruction problem rather than only as storage. It provides compositional leverage, but it also requires provenance, scoped validation, and the ability to revise inherited abstractions without destroying accepted history.
 
-## 6.4 Limitations and threats to validity
+## 7.4 Limitations and threats to validity
 
 The present evidence is a longitudinal field record from one substation and one owner-confirmed GPT-6 Astra/Codex configuration. It does not provide a matched alternative planner or model operating the same tool harness, so the study cannot establish model superiority or isolate which behaviors would transfer to another language model. The task sequence is historical and state-dependent rather than experimentally controlled by a common difficulty variable. The operator analysis is reconstructed from preserved scripts and file artifacts; it describes the recorded workflow but is not standardized action telemetry.
 
@@ -213,12 +266,12 @@ The geometric evidence has corresponding limits. Most numerical comparisons use 
 
 Human input also affects the trajectory. B08 reuse is based on explicit user authorization that the two transformer component configurations are equivalent, and review can surface omissions or ambiguous structure. The system is therefore agent-driven and human-steerable rather than fully autonomous. Finally, the historical artifacts preserve programs, plans, diagnostics, and revision outcomes, but they do not preserve private model reasoning. Claims about the model are restricted to observable decisions and saved artifacts.
 
-## 6.5 Controlled follow-up experiments
+## 7.5 Controlled follow-up experiments
 
 A stronger comparative study would keep the engineering harness fixed and vary only a small number of factors. The most informative next experiment would run matched alternative models on representative tasks from the three transitions identified here: local domain formulation, reusable-scope revision, connected path representation, and late state-constrained insertion. A second extension would obtain independent survey measurements for a limited subset of devices and connections, allowing task-local geometric accuracy to be evaluated against an external reference. Replication on a second site would test whether the operator patterns observed here are specific to this substation. Finally, explicit logging of model calls, human interventions, runtime, and tool invocations would permit a more precise analysis of cost, autonomy, and decision provenance than can be reconstructed from historical artifacts alone.
 
 ---
 
-# 7 Conclusion
+# 8 Conclusion
 
 B01–B36 documents a persistent programmatic approach to component-level industrial reconstruction in which a general-purpose reasoning model formulates and revises explicit geometry operations while deterministic tools perform numerical estimation and validation. The main longitudinal result is a broadening operator portfolio as reconstruction dependencies accumulate: local comparison and fitting remain present, while later tasks add decisions about reusable scope, relational geometry, residual-work selection, and compatibility with an already engineered scene. Persistent external engineering state allows accepted components and interfaces to be reused across later tasks, but B15 shows that an erroneous shared abstraction can propagate through the same mechanism. These observations establish a systems account of one long-horizon field reconstruction rather than a comparative model benchmark. Matched alternative-model runs, independent survey measurements on selected structures, and replication at a second site are needed to test generality and comparative performance.

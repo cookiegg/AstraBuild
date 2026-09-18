@@ -785,6 +785,151 @@ abstraction choices part of the downstream problem. In this sense,
 persistence changes the object of reconstruction from a sequence of
 isolated assets into a cumulative engineered system.
 
+\hypertarget{findings}{%
+\section{Findings}\label{findings}}
+
+Two findings structure this record. The first reads the 36-batch
+sequence as a migration of the bottleneck: geometric fitting is solved
+early and stays solved, while every documented failure sits one level
+up, in how the reconstruction problem itself was defined. The second
+reframes persistent state: it is neither memory nor storage but a shared
+engineering surface, and the same mechanism that composes local
+solutions across batches also propagates erroneous abstractions.
+
+\textbf{Scope.} Both findings are drawn from one substation, one
+owner-confirmed GPT-6 Astra/Codex configuration, and the preserved
+B01--B36 artifacts. They characterize this workflow in this record; they
+do not claim that the same behavior would appear with another model,
+another site, or a stateless variant of the same harness.
+
+\hypertarget{finding-1-fitting-stays-solved-the-bottleneck-migrates-to-problem-definition}{%
+\subsection{Finding 1: Fitting stays solved; the bottleneck migrates to
+problem
+definition}\label{finding-1-fitting-stays-solved-the-bottleneck-migrates-to-problem-definition}}
+
+Across all 36 batches, no documented failure is a failure of numerical
+fitting. The five preserved failure episodes (Table 1) all sit at the
+definition level: four in a named definition layer --- evaluation
+protocol, reusable-abstraction boundary, representation class, task
+selection --- and the fifth, an omission surfaced by human review,
+traces to an earlier scoping decision that had placed the missing
+structure outside the reconstruction target. What changes along the
+sequence is not whether the workflow can fit geometry, but what kind of
+decision turns out to be wrong.
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=\textwidth,height=0.33\textheight,keepaspectratio]{figure_v24/hybrid_pdf/fig06_findings_v24.pdf}
+\caption{Finding 1 evidence. Left: the three decision layers — geometric fitting remains strong in all 36 batches; documented failures are revised at the problem-definition layer; cross-batch abstraction remains the propagation risk. Right: share of batches with two or more visible revision tags per descriptive band (filename-based lower bound, read as a distribution).}
+\label{fig:findings}
+\end{figure*}
+
+The revision record quantifies the migration. Counting visible revision
+tags in the preserved batch folders, the fraction of batches with two or
+more attempts is 4 of 6 in the local-fitting band (B01--B06), 13 of 13
+in the repeated-equipment band (B07--B19), 5 of 11 in the
+connected-systems band (B20--B30), and 5 of 6 in the site-closure band
+(B31--B36). These tags are a filename-based lower bound rather than
+action telemetry --- B01, for example, carries no tag because its
+failure was preserved and the protocol change landed in B02 --- so we
+read them as a distribution, not as per-batch counts. The distribution
+is not monotone: revision is densest exactly where new abstractions are
+introduced --- the band in which reusable masters and site-specific
+boundaries are first defined.
+
+\begin{table*}[t]
+\centering
+\caption{Documented failure episodes in B01--B36, attributed by layer. Sources: preserved batch dossiers and validation chains.}
+\label{tab:failures}
+\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\textwidth}{@{}p{0.055\textwidth}p{0.145\textwidth}XX@{}}
+\toprule
+\textbf{Episode} & \textbf{Failure layer} & \textbf{Observable evidence} & \textbf{Response} \\
+\midrule
+B01 & Evaluation protocol & Held-out cylindrical-domain RMS 4.84/7.32/5.10 cm violates the 5 cm screen; comparison domain mixed the target shaft with accessory geometry & B02 separates fitting and holdout regions; the revised metric is declared not directly comparable to B01 \\
+B15 & Reusable-abstraction boundary & Local measurement contaminated by neighboring equipment; shared bus-spool master overlapped installations with different physical extents & Measurement method revised; finite site-specific geometry moved out of the shared master; obsolete supports archived, not overwritten \\
+B23 & Representation class & Straight-lead hypothesis contradicted by a $\approx$0.5 m mid-span bow in the registered source & Reformulated as a constrained curved path; fixed-endpoint B-spline fitted by deterministic code; r1--r3 revision chain preserved \\
+B25/B26 & Task selection & Structures absent from the model while their inventory entry appeared resolved & Coverage audit over selected high regions becomes a task-selection signal; $>$1 m unexplained-sample fraction 78.8\% $\rightarrow$ 14.6\% (B26) \\
+B36 & Omission surfaced by review & Low bus racks missing; omission traced to an earlier decision that treated the structure as outside the transformer assembly & Audit-only history search, then a multi-revision rebuild including a 0.16 m displacement to avoid a fire riser \\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+This pattern is structural rather than incidental. Because numerical
+estimation and acceptance live in deterministic geometry code (§3.2),
+the model's observable decisions are confined to selecting evidence,
+choosing representations, defining comparison domains and reuse
+boundaries, and sequencing work --- and those are exactly the layers at
+which the preserved failures occur. The bottleneck migrates to problem
+definition because problem definition is the only layer the model
+actually decides.
+
+\hypertarget{finding-2-persistent-state-is-a-shared-engineering-surface}{%
+\subsection{Finding 2: Persistent state is a shared engineering
+surface}\label{finding-2-persistent-state-is-a-shared-engineering-surface}}
+
+\hypertarget{composition-later-batches-consume-an-engineered-world}{%
+\subsubsection{Composition: later batches consume an engineered
+world}\label{composition-later-batches-consume-an-engineered-world}}
+
+Later batches do not start from a blank scene; they consume geometry,
+transforms, terminals, and reusable components produced and accepted
+earlier, while validators check that the inherited state is unchanged.
+Table 2 lists the documented consumption events.
+
+\begin{table*}[t]
+\centering
+\caption{Persistent-state ledger: what later batches consume, how it is checked, and what a wrong upstream state would propagate.}
+\label{tab:ledger}
+\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\textwidth}{@{}p{0.055\textwidth}p{0.215\textwidth}XX@{}}
+\toprule
+\textbf{Consumer} & \textbf{Inherited asset consumed} & \textbf{Validation check} & \textbf{Propagation surface if the asset were wrong} \\
+\midrule
+B23 & B08 transformer terminal interface & Endpoint/termination checks on the saved path & Every later neutral-lead connection would land on a wrong terminal \\
+B29 & Previously modeled clamps and suspension/lead endpoints & Endpoint relations checked independently of coarse-surface agreement & Displaced clamps would detach strings and jumpers across intervals \\
+B31 & More than 7,000 existing station transforms & State-preservation tests over inherited transforms & Transform drift would silently move already-accepted equipment \\
+B36 & 36,615 previous objects, 7,114 prior station transforms, 2,798 protected files & Preservation checks plus explicit collision/interference checks & Inherited stubs or bushings that no longer match the site would misroute new busbars closing onto them \\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+\hypertarget{propagation-the-same-channel-in-reverse}{%
+\subsubsection{Propagation: the same channel in
+reverse}\label{propagation-the-same-channel-in-reverse}}
+
+The composition channel is also the propagation channel. B15's shared
+finite bus spool carried an inappropriate extent into every installation
+built from the master, and the error remained nonlocal until the
+reusable/site-specific boundary itself was revised. No stateless control
+run exists, so the record supports a narrower claim than ``memory
+improves reconstruction'': persistent external state is what makes a
+36-batch engineering sequence possible in this workflow at all, and
+upstream abstraction choices become part of every downstream problem.
+
+\hypertarget{who-notices-self-diagnosed-versus-human-triggered-adaptation}{%
+\subsubsection{Who notices: self-diagnosed versus human-triggered
+adaptation}\label{who-notices-self-diagnosed-versus-human-triggered-adaptation}}
+
+The six documented adaptation episodes in B01--B36 split by who first
+notices the mismatch. In four --- B01\(\rightarrow\)B02, B15, B23,
+B25/B26 --- the mismatch surfaces in validator or measurement evidence
+and the revision is self-diagnosed: B23's measurement profiles
+invalidated the straight-lead hypothesis, and the
+r1\(\rightarrow\)r2\(\rightarrow\)r3 chain shows the correction
+proceeding without external direction. In two, a person is in the loop:
+B08's shared transformer master was created only after explicit user
+authorization of cross-installation equivalence, and B36's omission was
+spotted by a human reviewer scanning a top view, after which the
+workflow traced the cause to a documented earlier decision before
+rebuilding. The record is therefore agent-driven and human-steerable:
+validators and sparse human review catch different failure classes, and
+neither alone covers the record.
+
 \hypertarget{discussion}{%
 \section{Discussion}\label{discussion}}
 

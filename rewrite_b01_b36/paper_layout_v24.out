@@ -18,10 +18,16 @@
 \BOOKMARK [3][-]{subsubsection.5.2.2}{From object geometry to connected representations}{subsection.5.2}% 18
 \BOOKMARK [3][-]{subsubsection.5.2.3}{From scheduled additions to gap-driven, state-constrained closure}{subsection.5.2}% 19
 \BOOKMARK [2][-]{subsection.5.3}{Persistent external state composes local solutions and propagates abstraction errors}{section.5}% 20
-\BOOKMARK [1][-]{section.6}{Discussion}{}% 21
-\BOOKMARK [2][-]{subsection.6.1}{What the general-purpose model contributes}{section.6}% 22
-\BOOKMARK [2][-]{subsection.6.2}{Why explicit tools and validation are part of the method}{section.6}% 23
-\BOOKMARK [2][-]{subsection.6.3}{Persistent state changes capability and risk}{section.6}% 24
-\BOOKMARK [2][-]{subsection.6.4}{Limitations and threats to validity}{section.6}% 25
-\BOOKMARK [2][-]{subsection.6.5}{Controlled follow-up experiments}{section.6}% 26
-\BOOKMARK [1][-]{section.7}{Conclusion}{}% 27
+\BOOKMARK [1][-]{section.6}{Findings}{}% 21
+\BOOKMARK [2][-]{subsection.6.1}{Finding 1: Fitting stays solved; the bottleneck migrates to problem definition}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.2}{Finding 2: Persistent state is a shared engineering surface}{section.6}% 23
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Composition: later batches consume an engineered world}{subsection.6.2}% 24
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Propagation: the same channel in reverse}{subsection.6.2}% 25
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Who notices: self-diagnosed versus human-triggered adaptation}{subsection.6.2}% 26
+\BOOKMARK [1][-]{section.7}{Discussion}{}% 27
+\BOOKMARK [2][-]{subsection.7.1}{What the general-purpose model contributes}{section.7}% 28
+\BOOKMARK [2][-]{subsection.7.2}{Why explicit tools and validation are part of the method}{section.7}% 29
+\BOOKMARK [2][-]{subsection.7.3}{Persistent state changes capability and risk}{section.7}% 30
+\BOOKMARK [2][-]{subsection.7.4}{Limitations and threats to validity}{section.7}% 31
+\BOOKMARK [2][-]{subsection.7.5}{Controlled follow-up experiments}{section.7}% 32
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 33
