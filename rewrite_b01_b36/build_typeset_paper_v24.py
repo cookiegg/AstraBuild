@@ -108,6 +108,7 @@ figure_specs = {
     4: ('figure_v24/hybrid_pdf/fig04_transitions_v24.pdf', 0.560, 'fig:transitions'),
     5: ('figure_v24/hybrid_pdf/fig05_persistence_v24.pdf', 0.420, 'fig:persistence'),
     6: ('figure_v24/hybrid_pdf/fig06_findings_v24.pdf', 0.330, 'fig:findings'),
+    7: ('figure_v24/hybrid_pdf/fig07_session_anatomy_v24.pdf', 0.360, 'fig:session'),
 }
 # Convert markdown figure + following prose caption into one full-width LaTeX float.
 for num, (path, maxh, label) in figure_specs.items():

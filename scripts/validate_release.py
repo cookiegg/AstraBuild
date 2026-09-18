@@ -137,7 +137,7 @@ def main() -> int:
     must("From Local Fits to Persistent Industrial 3D Reconstruction" in html, "site hero must carry the B01-B36 manuscript title")
     must("paper_layout_v24.pdf" in html, "site must link the typeset B01-B36 paper")
     must("B01–B36" in html, "site must use the B01-B36 record framing")
-    for fig_ref in ["fig01_overview_v24", "fig02_longitudinal_map_b01_b36", "fig03_operator_portfolio_b01_b36", "fig04_transitions_v24", "fig05_persistence_v24", "fig06_findings_v24"]:
+    for fig_ref in ["fig01_overview_v24", "fig02_longitudinal_map_b01_b36", "fig03_operator_portfolio_b01_b36", "fig04_transitions_v24", "fig05_persistence_v24", "fig06_findings_v24", "fig07_session_anatomy_v24"]:
         must(fig_ref in html, f"site must include manuscript figure: {fig_ref}")
     must(html.count('class="task-card"') == 4, "site must expose four descriptive band cards")
     must('id="method-trace"' in html and "B23" in html, "site must include the B23 worked trace")
@@ -153,7 +153,8 @@ def main() -> int:
     for marker in ["1 · Overview", "2 · Method", "3 · Study design", "4 · Results", "5 · Findings", "6 · Evaluation console", "7 · Videos", "8 · Discussion"]:
         must(marker in html, f"site missing paper-structure marker: {marker}")
     must(html.count('class="findings-table') == 4, "findings section must include bilingual failure and ledger tables")
-    paper_order = ["overview", "method", "method-trace", "study-design", "results", "results-transitions", "results-persistence", "findings", "console", "evidence-appendix", "videos", "discussion", "references", "sources", "citation"]
+    must("process-facts" in html and "fig07_session_anatomy_v24_zh" in html, "site must include the 5.3 process record with bilingual session anatomy")
+    paper_order = ["overview", "method", "method-trace", "study-design", "results", "results-transitions", "results-persistence", "findings", "process-record", "console", "evidence-appendix", "videos", "discussion", "references", "sources", "citation"]
     positions = [html.index(f'id=\"{anchor}\"') for anchor in paper_order]
     must(positions == sorted(positions), "site sections must follow the B01-B36 manuscript narrative order")
 
