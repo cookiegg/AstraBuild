@@ -122,6 +122,7 @@ h1 .title-tail { font-size: .4em; font-weight: 650; letter-spacing: -.018em; col
 .author-block { margin-top: 26px; }
 .author-names { color: var(--ink); font-size: 16.5px; font-weight: 700; letter-spacing: -.01em; }
 .author-note { margin-top: 6px; color: var(--muted); font-size: 12px; }
+.author-affiliation { margin-top: 4px; color: var(--muted); font-size: 13.5px; }
 .abstract-block { max-width: 860px; padding: 46px 0 6px; }
 .abstract-block p { margin: 0 0 12px; color: #42536a; font-size: 16.5px; line-height: 1.68; }
 .hero-subtitle { max-width: 760px; margin: 24px 0 0; color: #42536a; font-size: 20px; line-height: 1.55; }
