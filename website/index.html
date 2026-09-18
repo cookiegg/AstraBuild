@@ -84,10 +84,11 @@
         <a href="#results">4 · Results</a>
         <a href="#results-transitions">4.2 · Three transitions</a>
         <a href="#results-persistence">4.3 · Persistent state</a>
-        <a href="#console">5 · Evaluation console</a>
-        <a href="#evidence-appendix">5.2 · Evidence appendix</a>
-        <a href="#videos">6 · Videos</a>
-        <a href="#discussion">7 · Discussion &amp; limitations</a>
+        <a href="#findings">5 · Findings</a>
+        <a href="#console">6 · Evaluation console</a>
+        <a href="#evidence-appendix">6.2 · Evidence appendix</a>
+        <a href="#videos">7 · Videos</a>
+        <a href="#discussion">8 · Discussion &amp; limitations</a>
         <a href="#references">References</a>
         <a href="#sources">Resources</a>
         <a href="#citation">Citation</a>
@@ -223,8 +224,87 @@
           </figure>
         </section>
 
+        <section id="findings" class="section">
+          <div class="section-head no-index"><div><div class="paper-section-label">5 · Findings</div><h2><span class="lang-en">Two findings from the 36-batch record</span><span class="lang-zh">36 批次记录的两个发现</span></h2><p class="lang-en">Two findings structure this record. The first reads the 36-batch sequence as a migration of the bottleneck: geometric fitting is solved early and stays solved, while every documented failure sits one level up, in how the reconstruction problem itself was defined. The second reframes persistent state: it is neither memory nor storage but a shared engineering surface, and the same mechanism that composes local solutions across batches also propagates erroneous abstractions.</p><p class="lang-zh">两个发现构成本报告的主线。第一个把 36 批次序列读作瓶颈的迁移：几何拟合很早就被解决且始终保持，而有记录的失败全部发生在更高一层——重建问题本身如何被定义。第二个重构对持续状态的理解：它既不是记忆也不是存储，而是一面共享工程表面——把局部解跨批次组合起来的机制，同样也在传播错误的抽象。</p></div></div>
+
+          <div class="scope-callout">
+            <p class="lang-en"><b>Scope.</b> Both findings are drawn from one substation, one owner-confirmed GPT-6 Astra/Codex configuration, and the preserved B01–B36 artifacts. They characterize this workflow in this record; they do not claim that the same behavior would appear with another model, another site, or a stateless variant of the same harness.</p>
+            <p class="lang-zh"><b>范围。</b>两个发现都来自单一座变电站、单一负责人确认的 GPT-6 Astra/Codex 配置以及 B01–B36 保存产物。它们刻画的是这个工作流在这份记录中的行为，不主张同样的行为会出现在其他模型、其他站点，或同一 harness 的无状态变体上。</p>
+          </div>
+
+          <div class="subsection-head compact"><h3><span class="lang-en">5.1 Finding 1: Fitting stays solved; the bottleneck migrates to problem definition</span><span class="lang-zh">5.1 发现一：拟合始终成立，瓶颈上移到问题定义</span></h3></div>
+          <div class="paper-prose">
+            <p class="lang-en">Across all 36 batches, no documented failure is a failure of numerical fitting. The five preserved failure episodes all sit at the definition level: four in a named definition layer — evaluation protocol, reusable-abstraction boundary, representation class, task selection — and the fifth, an omission surfaced by human review, traces to an earlier scoping decision. The revision record quantifies the migration: the share of batches with two or more visible revision tags is 4 of 6 in the local-fitting band, 13 of 13 in repeated equipment, 5 of 11 in connected systems, and 5 of 6 in site closure — densest exactly where new abstractions are first defined. Because numerical estimation and acceptance live in deterministic geometry code, the model's observable decisions are confined to the definition layer; the bottleneck migrates there because that is the only layer the model actually decides.</p>
+            <p class="lang-zh">在全部 36 个批次中，没有一例有记录的失败是数值拟合的失败。五个保留的失败事件全部位于定义层：四个分属协议、复用边界、表示类与任务选择，第五个由人工审查发现的遗漏同样溯源到早期的一次范围划定决策。修订记录量化了这次迁移：可见修订标签不少于 2 个的批次比例，在局部拟合带为 4/6，重复设备带 13/13，连接系统带 5/11，整站收尾带 5/6——修订最密集的地方正是新抽象首次被定义的地方。由于数值估计与验收由确定性几何代码完成，模型可观测的决策被限制在定义层；瓶颈上移到那里，是因为那是模型真正做决策的唯一一层。</p>
+          </div>
+          <figure class="research-figure wide evidence-figure">
+            <img src="../rewrite_b01_b36/figure_v24/hybrid_svg/fig06_findings_v24.svg" alt="Decision-layer ladder and per-band multi-revision rates">
+            <figcaption><span class="lang-en"><b>Figure 6.</b> Finding 1 evidence. Left: the three decision layers — geometric fitting remains strong in all 36 batches; documented failures are revised at the problem-definition layer; cross-batch abstraction remains the propagation risk. Right: share of batches with two or more visible revision tags per descriptive band (filename-based lower bound, read as a distribution).</span><span class="lang-zh"><b>图 6.</b> 发现一的证据。左：三个决策层——几何拟合在全部 36 个批次中始终成立；有记录的失败都在问题定义层被就地修订；跨批次抽象仍是传播风险。右：各描述分段中可见修订标签不少于 2 个的批次比例（基于文件名的下界，按分布解读）。</span></figcaption>
+          </figure>
+          <table class="findings-table lang-en">
+            <caption><b>Table 1.</b> Documented failure episodes in B01–B36, attributed by layer.</caption>
+            <thead><tr><th>Episode</th><th>Failure layer</th><th>Observable evidence</th><th>Response</th></tr></thead>
+            <tbody>
+              <tr><td>B01</td><td>Evaluation protocol</td><td>Held-out RMS 4.84/7.32/5.10 cm violates the 5 cm screen; comparison domain mixed the target shaft with accessory geometry</td><td>B02 separates fitting and holdout regions; revised metric declared not comparable to B01</td></tr>
+              <tr><td>B15</td><td>Reusable-abstraction boundary</td><td>Measurement contaminated by neighboring equipment; shared bus-spool master overlapped installations of different extents</td><td>Measurement method revised; finite site-specific geometry moved out of the shared master</td></tr>
+              <tr><td>B23</td><td>Representation class</td><td>Straight-lead hypothesis contradicted by a ≈0.5 m mid-span bow in the registered source</td><td>Reformulated as a constrained curved path; fixed-endpoint B-spline fitted by deterministic code; r1–r3 preserved</td></tr>
+              <tr><td>B25/B26</td><td>Task selection</td><td>Structures absent from the model while their inventory entry appeared resolved</td><td>Coverage audit becomes a task-selection signal; &gt;1 m unexplained fraction 78.8% → 14.6% (B26)</td></tr>
+              <tr><td>B36</td><td>Omission surfaced by review</td><td>Low bus racks missing; traced to an earlier decision treating the structure as outside the transformer assembly</td><td>Audit-only history search, then a multi-revision rebuild including a 0.16 m displacement to avoid a fire riser</td></tr>
+            </tbody>
+          </table>
+          <table class="findings-table lang-zh">
+            <caption><b>表 1.</b> B01–B36 中有记录的失败事件，按层归因。</caption>
+            <thead><tr><th>批次</th><th>失败层</th><th>可观测证据</th><th>响应</th></tr></thead>
+            <tbody>
+              <tr><td>B01</td><td>评估协议</td><td>保留筛查 RMS 4.84/7.32/5.10 cm 超过 5 cm 阈值；比较域混入了凸出附件</td><td>B02 重新定义拟合与验证区域；修订后指标声明与 B01 不可直接比较</td></tr>
+              <tr><td>B15</td><td>复用抽象边界</td><td>局部测量受相邻设备污染；共享母线节主模型与物理间距不同的安装位重叠</td><td>修订测量方法；有限站点几何移出共享主模型</td></tr>
+              <tr><td>B23</td><td>表示类</td><td>直线引线假设被注册源中约 0.5 m 的跨中弯曲证伪</td><td>重新表述为受约束曲线路径；确定性代码拟合固定端点 B 样条；保留 r1–r3</td></tr>
+              <tr><td>B25/B26</td><td>任务选择</td><td>结构在模型中缺失，而其清单条目看似已解决</td><td>覆盖审计成为任务选择信号；&gt;1 m 未解释采样比例 78.8% → 14.6%（B26）</td></tr>
+              <tr><td>B36</td><td>审查发现的遗漏</td><td>低位母线架缺失；溯源到早期将该结构划出主变装配体的决策</td><td>仅审计式历史检索，随后多轮修订重建，包括为避让消防立管做的 0.16 m 位移</td></tr>
+            </tbody>
+          </table>
+
+          <div class="subsection-head"><h3><span class="lang-en">5.2 Finding 2: Persistent state is a shared engineering surface</span><span class="lang-zh">5.2 发现二：持续状态是一面共享工程表面</span></h3><p><span class="lang-en">Later batches do not start from a blank scene; they consume geometry, transforms, terminals, and reusable components produced and accepted earlier, while validators check that the inherited state is unchanged.</span><span class="lang-zh">后期批次不是从空白场景开始：它们消费早期产出并被接受的几何、变换、端子与可复用部件，验证器同时检查继承状态未被改变。</span></p></div>
+          <table class="findings-table lang-en">
+            <caption><b>Table 2.</b> Persistent-state ledger: what later batches consume, how it is checked, and what a wrong upstream state would propagate.</caption>
+            <thead><tr><th>Batch</th><th>Inherited asset consumed</th><th>Validation check</th><th>If the asset were wrong</th></tr></thead>
+            <tbody>
+              <tr><td>B23</td><td>B08 transformer terminal interface</td><td>Endpoint/termination checks on the saved path</td><td>Every later neutral-lead connection would land on a wrong terminal</td></tr>
+              <tr><td>B29</td><td>Previously modeled clamps and suspension/lead endpoints</td><td>Endpoint relations checked independently of coarse-surface agreement</td><td>Displaced clamps would detach strings and jumpers across intervals</td></tr>
+              <tr><td>B31</td><td>More than 7,000 existing station transforms</td><td>State-preservation tests over inherited transforms</td><td>Transform drift would silently move already-accepted equipment</td></tr>
+              <tr><td>B36</td><td>36,615 previous objects, 7,114 prior station transforms, 2,798 protected files</td><td>Preservation checks plus explicit collision/interference checks</td><td>Stale stubs or bushings would misroute new busbars closing onto them</td></tr>
+            </tbody>
+          </table>
+          <table class="findings-table lang-zh">
+            <caption><b>表 2.</b> 持续状态账本：后期批次消费什么、如何被检查、上游状态出错会传播什么。</caption>
+            <thead><tr><th>批次</th><th>消费的继承资产</th><th>验证检查</th><th>若资产出错</th></tr></thead>
+            <tbody>
+              <tr><td>B23</td><td>B08 主变端子接口</td><td>对保存路径做端点/终止检查</td><td>后续所有中性点引线都会接到错误的端子上</td></tr>
+              <tr><td>B29</td><td>已建模线夹与悬挂/引线端点</td><td>独立于粗模表面一致性检查端点关系</td><td>线夹移位会使多个间隔的耐张串与跳线脱开</td></tr>
+              <tr><td>B31</td><td>七千余个既有站变换</td><td>对继承变换做状态保持测试</td><td>变换漂移会无声地移动已被接受的设备</td></tr>
+              <tr><td>B36</td><td>36,615 个既有对象、7,114 个既有站变换、2,798 个受保护文件</td><td>保持检查 + 显式碰撞/干涉检查</td><td>过时的端头或套管会使闭合其上的新母线走错路由</td></tr>
+            </tbody>
+          </table>
+          <div class="paper-prose">
+            <p class="lang-en">The composition channel is also the propagation channel: B15's shared finite bus spool carried an inappropriate extent into every installation built from the master, and the error remained nonlocal until the reuse boundary itself was revised. No stateless control run exists, so the record supports a narrower claim than "memory improves reconstruction": persistent external state is what makes a 36-batch engineering sequence possible in this workflow at all.</p>
+            <p class="lang-zh">组合通道同时也是传播通道：B15 的共享有限母线节把不当的范围带进了用同一主模型建出的每个安装位，错误一直非局部存在，直到复用边界本身被修订。不存在无状态对照运行，因此记录支持的结论比“记忆改善重建”更窄：持续外部状态是让 36 批次工程序列在这个工作流中成为可能的前提。</p>
+          </div>
+          <div class="discussion-sections">
+            <article>
+              <h3><span class="lang-en">Self-diagnosed adaptation × 4</span><span class="lang-zh">自我诊断的适应 × 4</span></h3>
+              <p class="lang-en">B01→B02, B15, B23, B25/B26: the mismatch surfaces in validator or measurement evidence and the revision proceeds without external direction — B23's measurement profiles invalidated the straight-lead hypothesis, and the r1→r2→r3 chain shows the correction.</p>
+              <p class="lang-zh">B01→B02、B15、B23、B25/B26：偏差由验证器或测量证据暴露，修订在无外部指示下完成——B23 的测量剖面证伪了直线引线假设，r1→r2→r3 链条保留了修正过程。</p>
+            </article>
+            <article>
+              <h3><span class="lang-en">Human in the loop × 2</span><span class="lang-zh">人在环 × 2</span></h3>
+              <p class="lang-en">B08's shared transformer master was created only after explicit user authorization of cross-installation equivalence; B36's omission was spotted by a human reviewer scanning a top view, then traced to a documented earlier decision before rebuilding. Validators and sparse human review catch different failure classes; neither alone covers the record.</p>
+              <p class="lang-zh">B08 的共享主变模型在明确用户授权跨安装位同构后才创建；B36 的遗漏由审查人员从顶视图发现，随后溯源到一项有记录的早期决策再重建。验证器与稀疏人工审查各自捕捉不同的失败类，单独任何一个都无法覆盖全部记录。</p>
+            </article>
+          </div>
+        </section>
+
         <section id="console" class="section">
-          <div class="section-head no-index"><div><div class="paper-section-label">5 · Evaluation console</div><h2><span class="lang-en">Evaluation console: model vs. registered reference</span><span class="lang-zh">评估台：建模结果 vs. 注册参考</span></h2><p class="lang-en">One representative fixed-camera view per review batch, in three switchable modes — model, overlay, and the registered coarse reference under the same camera. Repeated installations of one equipment family (e.g. the six capacitor banks) are shown once. The original Chinese batch review pages remain linked for provenance but are no longer embedded.</p><p class="lang-zh">每个审查批次选取一个代表性固定机位视图，提供三种可切换模式——同机位下的建模、建模对比与注册粗模。同一设备族的重复安装位（如六组电容器）只展示一组。原始中文批次审查页面保留链接供溯源，不再内嵌。</p></div></div>
+          <div class="section-head no-index"><div><div class="paper-section-label">6 · Evaluation console</div><h2><span class="lang-en">Evaluation console: model vs. registered reference</span><span class="lang-zh">评估台：建模结果 vs. 注册参考</span></h2><p class="lang-en">One representative fixed-camera view per review batch, in three switchable modes — model, overlay, and the registered coarse reference under the same camera. Repeated installations of one equipment family (e.g. the six capacitor banks) are shown once. The original Chinese batch review pages remain linked for provenance but are no longer embedded.</p><p class="lang-zh">每个审查批次选取一个代表性固定机位视图，提供三种可切换模式——同机位下的建模、建模对比与注册粗模。同一设备族的重复安装位（如六组电容器）只展示一组。原始中文批次审查页面保留链接供溯源，不再内嵌。</p></div></div>
 
           <div class="review-browser">
             <div class="view-toolbar">
@@ -244,7 +324,7 @@
           </div>
           <p class="metric-footnote"><span class="lang-en">Covers the 32 batches with preserved review artifacts: B07–B36 plus the two extended-record batches D37/D38, which fall outside the B01–B36 manuscript scope. Deep link example: <code>?review=B32</code>.</span><span class="lang-zh">覆盖 32 个保存了审查产物的批次：B07–B36，外加 B01–B36 论文范围之外的两个扩展记录批次 D37/D38。深链示例：<code>?review=B32</code>。</span></p>
 
-          <div class="subsection-head" id="evidence-appendix"><h3><span class="lang-en">5.2 Evidence appendix: batch dossiers</span><span class="lang-zh">5.2 证据附录：批次档案</span></h3><p><span class="lang-en">Each dossier links a formal batch to its result views, intermediate diagnostics, method stages, and frozen plan, validation, manifest, or continuation records where available.</span><span class="lang-zh">每份档案将一个正式批次与其结果视图、中间诊断、方法阶段，以及可用的 plan、validation、manifest 或 continuation 冻结记录对应起来。</span></p></div>
+          <div class="subsection-head" id="evidence-appendix"><h3><span class="lang-en">6.2 Evidence appendix: batch dossiers</span><span class="lang-zh">6.2 证据附录：批次档案</span></h3><p><span class="lang-en">Each dossier links a formal batch to its result views, intermediate diagnostics, method stages, and frozen plan, validation, manifest, or continuation records where available.</span><span class="lang-zh">每份档案将一个正式批次与其结果视图、中间诊断、方法阶段，以及可用的 plan、validation、manifest 或 continuation 冻结记录对应起来。</span></p></div>
           <div class="dossier-toolbar">
             <label for="dossier-select"><span class="lang-en">Batch dossier</span><span class="lang-zh">批次档案</span></label>
             <select id="dossier-select" aria-label="Select reconstruction batch"></select>
@@ -258,7 +338,7 @@
         </section>
 
         <section id="videos" class="section alt gallery-section">
-          <div class="section-head no-index"><div><div class="paper-section-label">6 · Videos</div><h2><span class="lang-en">Station-level visual record</span><span class="lang-zh">整站级视觉记录</span></h2><p class="lang-en">Two annotation-free videos: a pure visual comparison against the coarse reference under the same camera, and a plain assembly-sequence demonstration. They carry no text overlays and no quantitative claims.</p><p class="lang-zh">两段无标注视频：与粗模参考在同机位下的纯画面对照，以及纯画面装配顺序演示。不含文字叠加，也不承载定量结论。</p></div></div>
+          <div class="section-head no-index"><div><div class="paper-section-label">7 · Videos</div><h2><span class="lang-en">Station-level visual record</span><span class="lang-zh">整站级视觉记录</span></h2><p class="lang-en">Two annotation-free videos: a pure visual comparison against the coarse reference under the same camera, and a plain assembly-sequence demonstration. They carry no text overlays and no quantitative claims.</p><p class="lang-zh">两段无标注视频：与粗模参考在同机位下的纯画面对照，以及纯画面装配顺序演示。不含文字叠加，也不承载定量结论。</p></div></div>
           <div class="video-gallery">
             <figure><video controls preload="metadata" poster="../media/d40_overview.png"><source src="../media/coarse_vs_d40.mp4" type="video/mp4"></video><figcaption><b><span class="lang-en">Coarse reference → reconstructed model</span><span class="lang-zh">粗模参考 → 重建模型</span></b><span><span class="lang-en">annotation-free same-camera visual comparison</span><span class="lang-zh">无标注同机位纯画面对照</span></span></figcaption></figure>
             <figure><video controls preload="metadata" poster="../media/d40_overview.png"><source src="../media/assembly_metal.mp4" type="video/mp4"></video><figcaption><b><span class="lang-en">Progressive station assembly</span><span class="lang-zh">整站逐步装配</span></b><span><span class="lang-en">annotation-free assembly-sequence demonstration</span><span class="lang-zh">无标注装配顺序演示</span></span></figcaption></figure>
@@ -266,7 +346,7 @@
         </section>
 
         <section id="discussion" class="section">
-          <div class="section-head no-index"><div><div class="paper-section-label">7 · Discussion</div><h2><span class="lang-en">Discussion and limitations</span><span class="lang-zh">讨论与局限</span></h2><p class="lang-en">What the general-purpose model contributes, why explicit tools and validation are part of the method, and what this study does not establish.</p><p class="lang-zh">通用模型的贡献、显式工具与验证为何属于方法本身，以及本研究不能确立的结论。</p></div></div>
+          <div class="section-head no-index"><div><div class="paper-section-label">8 · Discussion</div><h2><span class="lang-en">Discussion and limitations</span><span class="lang-zh">讨论与局限</span></h2><p class="lang-en">What the general-purpose model contributes, why explicit tools and validation are part of the method, and what this study does not establish.</p><p class="lang-zh">通用模型的贡献、显式工具与验证为何属于方法本身，以及本研究不能确立的结论。</p></div></div>
           <div class="discussion-sections">
             <article>
               <h3><span class="lang-en">What the general-purpose model contributes</span><span class="lang-zh">通用模型的贡献所在</span></h3>

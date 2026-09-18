@@ -30,6 +30,7 @@ REWRITE_SUBSET = [
     "figure_v24/hybrid_svg/fig01_overview_v24.svg",
     "figure_v24/hybrid_svg/fig04_transitions_v24.svg",
     "figure_v24/hybrid_svg/fig05_persistence_v24.svg",
+    "figure_v24/hybrid_svg/fig06_findings_v24.svg",
     "figures/fig02_longitudinal_map_b01_b36.png",
     "figures/fig03_operator_portfolio_b01_b36.png",
 ]

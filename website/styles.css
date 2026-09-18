@@ -304,6 +304,16 @@ h3 { line-height: 1.28; }
 .task-evidence-table td { padding: 11px 12px; border-bottom: 1px solid #edf0f3; vertical-align: top; color: #46556a; }
 .task-evidence-table td:first-child { color: var(--ink); font-weight: 800; white-space: nowrap; }
 .task-evidence-table tbody tr:hover { background: #fafcff; }
+.scope-callout { max-width: 960px; margin-top: 22px; padding: 14px 18px; border-left: 3px solid #c9d3e2; background: #f6f8fb; border-radius: 0 8px 8px 0; }
+.scope-callout p { margin: 0; color: #4d5c74; font-size: 12.5px; line-height: 1.6; }
+.scope-callout p + p { margin-top: 6px; }
+.findings-table { width: 100%; margin-top: 18px; border-collapse: collapse; font-size: 11px; line-height: 1.5; }
+.findings-table caption { margin-bottom: 8px; color: #566478; font-size: 11px; text-align: left; }
+.findings-table caption b { color: var(--ink); }
+.findings-table th { padding: 9px 12px; border-bottom: 1px solid var(--line-strong); background: #fafbfc; color: #566478; text-align: left; font-size: 9.5px; text-transform: uppercase; letter-spacing: .04em; }
+.findings-table td { padding: 9px 12px; border-bottom: 1px solid #edf0f3; vertical-align: top; color: #46556a; }
+.findings-table td:first-child { color: var(--ink); font-weight: 800; white-space: nowrap; }
+.findings-table tbody tr:hover { background: #fafcff; }
 .metric-callout { display: grid; grid-template-columns: 150px 1fr; gap: 25px; align-items: center; max-width: 960px; margin-top: 31px; padding-top: 25px; border-top: 1px solid var(--line); }
 .metric-callout > strong { color: var(--blue-dark); font-size: 48px; line-height: 1; letter-spacing: -.05em; }
 .metric-callout b { color: var(--ink); font-size: 13px; }
