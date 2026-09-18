@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "scope": "saved-file preservation, source reuse and explicitly partial installation; full GIS/cabinet geometry NOT accepted",
+  "baseline_components_unchanged": 15096,
+  "retained_in_working_scenes": 14906,
+  "old_749_core_components_preserved": 121,
+  "new_cabinet_components": 13,
+  "previous_arrester_instances_preserved": 9,
+  "candidate_equipment_records": 10,
+  "full_P03_core_installed": false,
+  "cabinet_front_width_height_screen": true,
+  "cabinet_depth_screen": false,
+  "matrix_errors": {
+    "01_B04_FULL_CORE_DIAGNOSTIC_UNPASSED": 1.6593388210139892e-06,
+    "02_B04_CORE_COARSE_DIAGNOSTIC": 1.6593388210139892e-06,
+    "03_B04_CABINET_FRONT_REVIEW": 1.6593388210139892e-06,
+    "15_Photo_First_B04_Station_Clean": 1.6593388210139892e-06,
+    "16_Photo_First_B04_Coarse_Overlay": 1.6593388210139892e-06
+  },
+  "coarse_tiles_preserved": 23,
+  "protected_hashes_checked": 223,
+  "uniform_scale_negative_test": "detected_and_restored",
+  "official_promotions": 0,
+  "files_saved_during_validation": false
+}

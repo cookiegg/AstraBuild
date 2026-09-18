@@ -1,0 +1,633 @@
+{
+  "release": "AstraBuild behavior analysis v0.8",
+  "generated_by": "scripts/analyze_process_behavior.py",
+  "source": {
+    "historical_output_dir": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output",
+    "access": "read-only scan through media/historical symlink",
+    "operator_prevalence": "release/process_catalog.json stage_prevalence (40-dossier scope)"
+  },
+  "scope_notes": [
+    "attempt_tags_visible counts distinct _rN file tags / rN directory levels per batch folder; it is a lower bound on revision behavior because not every revision was frozen under an r-tagged name (e.g. D38.1 -> D38.2 is a release-level revision invisible to this scan).",
+    "B01 shows no revision tag because the failed batch was preserved and the protocol change landed in B02; single-attempt tags do not imply single-attempt reasoning.",
+    "operator prevalence uses the 40-dossier process catalog and differs in scope from the 36-batch filename audit reported in the v0.7 manuscript (build/validate 36/36 etc.).",
+    "failure-mode and adaptation labels are manual annotations of the documented case studies, embedded in this script with sources; the script aggregates them but does not derive them.",
+    "the folder scan finds 33 review html pages vs 32 formal review pages in process_catalog.json; the extra page belongs to C37, whose failed-camera variant was superseded by D37 and which is therefore not in the formal catalog.",
+    "artifact counts cover installation_* folders only; project-wide totals reported in the technical report (e.g. 150 manifests) additionally count release-level records outside these folders."
+  ],
+  "batch_population": {
+    "primary_installation_folders": 42,
+    "preserved_failed_or_modified_variants": [
+      "C37_failed_camera",
+      "D37_modified_1930"
+    ]
+  },
+  "revision_distribution": {
+    "batches_by_visible_attempt_tags": {
+      "1": 15,
+      "2": 18,
+      "3+": 9
+    },
+    "multi_revision_batches": [
+      "B02",
+      "B03",
+      "B05",
+      "B06",
+      "B07",
+      "B08",
+      "B09",
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18",
+      "B19",
+      "B21",
+      "B22",
+      "B23",
+      "B24",
+      "B25",
+      "B31",
+      "B32",
+      "B33",
+      "B35",
+      "B36"
+    ],
+    "three_or_more": [
+      "B14",
+      "B15",
+      "B17",
+      "B19",
+      "B23",
+      "B25",
+      "B32",
+      "B35",
+      "B36"
+    ],
+    "per_batch": {
+      "B01": {
+        "attempt_tags_visible": 1,
+        "revision_evidence_files": [],
+        "validation_json_count": 1,
+        "manifest_count": 1,
+        "review_page_count": 0
+      },
+      "B02": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "B02_station_preview_r2_manifest.json",
+          "B02_station_r2_clean.jpg",
+          "B02_station_r2_overlay.jpg",
+          "placement_B02_r2.json",
+          "xialin_photo_first_B02_station_preview_r2.blend"
+        ],
+        "validation_json_count": 3,
+        "manifest_count": 3,
+        "review_page_count": 0
+      },
+      "B03": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [],
+        "validation_json_count": 2,
+        "manifest_count": 3,
+        "review_page_count": 0
+      },
+      "B04": {
+        "attempt_tags_visible": 1,
+        "revision_evidence_files": [],
+        "validation_json_count": 1,
+        "manifest_count": 1,
+        "review_page_count": 0
+      },
+      "B05": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "B05_746_clean_r2.jpg",
+          "B05_746_overlay_r2.jpg",
+          "B05_750_overlay_r2.jpg",
+          "B05_station_manifest_r2.json",
+          "xialin_photo_first_B05_station_preview_r2.blend"
+        ],
+        "validation_json_count": 1,
+        "manifest_count": 2,
+        "review_page_count": 0
+      },
+      "B06": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "21_Photo_First_B06_Station_Clean_r2.png",
+          "24_B06_Station_Perspective_r2.png",
+          "25_B06_Wall_Top_Clean_r2.png",
+          "B06_manifest_r2.json",
+          "B06_validation_r2.json"
+        ],
+        "validation_json_count": 2,
+        "manifest_count": 2,
+        "review_page_count": 0
+      },
+      "B07": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "27_B07_Station_Clean_r2.png",
+          "28_B07_Station_Overlay_r2.png",
+          "32_B07_T1_Top_Overlay_r2.png",
+          "33_B07_T1_Before_Overlay_r2.png",
+          "B07_validation_r2.json"
+        ],
+        "validation_json_count": 1,
+        "manifest_count": 2,
+        "review_page_count": 1
+      },
+      "B08": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "34_B08_Station_Clean_r2.png",
+          "36_B08_T1_Front_Clean_r2.png",
+          "42_B08_Transformer_Pair_r2.png",
+          "45_B08_T1_Rear_Reference_r2.png",
+          "B08_render_done_r2.json"
+        ],
+        "validation_json_count": 1,
+        "manifest_count": 2,
+        "review_page_count": 1
+      },
+      "B09": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "B09_plan_r2.json"
+        ],
+        "validation_json_count": 1,
+        "manifest_count": 1,
+        "review_page_count": 1
+      },
+      "B10": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "B10_plan_r2.json"
+        ],
+        "validation_json_count": 1,
+        "manifest_count": 1,
+        "review_page_count": 1
+      },
+      "B11": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "B11_manifest_r2.json",
+          "B11_renders_r2.json",
+          "B11_validation_r2.json",
+          "placement_B11_r2.json",
+          "xialin_B11_110kV_arresters_r2.blend"
+        ],
+        "validation_json_count": 2,
+        "manifest_count": 2,
+        "review_page_count": 1
+      },
+      "B12": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "B12_cylinder_datums_r2.json",
+          "B12_manifest_r2.json",
+          "B12_renders_r2.json",
+          "xialin_B12_749_GIS_r2.blend"
+        ],
+        "validation_json_count": 1,
+        "manifest_count": 2,
+        "review_page_count": 1
+      },
+      "B13": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "B13_manifest_r2.json",
+          "B13_r2_validation.json",
+          "B13_reusable_line_components_r2.blend",
+          "xialin_B13_GIS_line_bays_r2.blend"
+        ],
+        "validation_json_count": 3,
+        "manifest_count": 2,
+        "review_page_count": 1
+      },
+      "B14": {
+        "attempt_tags_visible": 3,
+        "revision_evidence_files": [
+          "B14_manifest_r2.json",
+          "B14_manifest_r3.json",
+          "B14_r3_preservation.json",
+          "B14_renders_r2.json",
+          "xialin_B14_transformer_outgoing_GIS_r3.blend"
+        ],
+        "validation_json_count": 2,
+        "manifest_count": 3,
+        "review_page_count": 1
+      },
+      "B15": {
+        "attempt_tags_visible": 3,
+        "revision_evidence_files": [
+          "B15_manifest_r2.json",
+          "B15_manifest_r3.json",
+          "B15_r3_history_validation.json",
+          "B15_support_measurements_r3.json",
+          "B15_validation_r3.json"
+        ],
+        "validation_json_count": 4,
+        "manifest_count": 3,
+        "review_page_count": 1
+      },
+      "B16": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "B16_manifest_r2.json",
+          "B16_placement_datums_r2.json",
+          "B16_renders_r2.json",
+          "xialin_B16_coupler_bus_VT_r2.blend"
+        ],
+        "validation_json_count": 2,
+        "manifest_count": 2,
+        "review_page_count": 1
+      },
+      "B17": {
+        "attempt_tags_visible": 3,
+        "revision_evidence_files": [
+          "B17_datums_r2.json",
+          "B17_history_validation_r3.json",
+          "B17_manifest_r2.json",
+          "B17_manifest_r3.json",
+          "B17_renders_r3.json"
+        ],
+        "validation_json_count": 2,
+        "manifest_count": 3,
+        "review_page_count": 1
+      },
+      "B18": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "B18_history_validation_r2.json",
+          "B18_installation_plan_r2.json",
+          "B18_manifest_r2.json",
+          "B18_renders_r2.json",
+          "B18_validation_r2.json"
+        ],
+        "validation_json_count": 2,
+        "manifest_count": 2,
+        "review_page_count": 1
+      },
+      "B19": {
+        "attempt_tags_visible": 3,
+        "revision_evidence_files": [
+          "B19_history_validation_r2.json",
+          "B19_renders_r2.json",
+          "B19_renders_r3.json",
+          "B19_validation_r2.json",
+          "B19_validation_r3.json"
+        ],
+        "validation_json_count": 6,
+        "manifest_count": 3,
+        "review_page_count": 1
+      },
+      "B20": {
+        "attempt_tags_visible": 1,
+        "revision_evidence_files": [],
+        "validation_json_count": 2,
+        "manifest_count": 1,
+        "review_page_count": 1
+      },
+      "B21": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "xialin_B21_4100_T_connections_and_endcaps_r2.blend",
+          "xialin_B21_validate_r2.log"
+        ],
+        "validation_json_count": 1,
+        "manifest_count": 2,
+        "review_page_count": 1
+      },
+      "B22": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "B22_neutral_components_r2.blend",
+          "xialin_B22_shared_neutral_assemblies_r2.blend",
+          "xialin_B22_validate_r2.log"
+        ],
+        "validation_json_count": 2,
+        "manifest_count": 2,
+        "review_page_count": 1
+      },
+      "B23": {
+        "attempt_tags_visible": 3,
+        "revision_evidence_files": [
+          "B23_manifest_r2.json",
+          "B23_renders_r2.json",
+          "B23_validation_r2.json",
+          "xialin_B23_validate_r2.log",
+          "xialin_B23_validate_r3.log"
+        ],
+        "validation_json_count": 3,
+        "manifest_count": 3,
+        "review_page_count": 1
+      },
+      "B24": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "build_B24_r2.log",
+          "validate_B24_r2.log"
+        ],
+        "validation_json_count": 2,
+        "manifest_count": 2,
+        "review_page_count": 1
+      },
+      "B25": {
+        "attempt_tags_visible": 3,
+        "revision_evidence_files": [
+          "B25_gantry_axes_r2.json",
+          "B25_truss_fit_r3.png"
+        ],
+        "validation_json_count": 1,
+        "manifest_count": 1,
+        "review_page_count": 1
+      },
+      "B26": {
+        "attempt_tags_visible": 1,
+        "revision_evidence_files": [],
+        "validation_json_count": 2,
+        "manifest_count": 1,
+        "review_page_count": 1
+      },
+      "B27": {
+        "attempt_tags_visible": 1,
+        "revision_evidence_files": [],
+        "validation_json_count": 1,
+        "manifest_count": 1,
+        "review_page_count": 1
+      },
+      "B28": {
+        "attempt_tags_visible": 1,
+        "revision_evidence_files": [],
+        "validation_json_count": 2,
+        "manifest_count": 1,
+        "review_page_count": 1
+      },
+      "B29": {
+        "attempt_tags_visible": 1,
+        "revision_evidence_files": [],
+        "validation_json_count": 2,
+        "manifest_count": 1,
+        "review_page_count": 1
+      },
+      "B30": {
+        "attempt_tags_visible": 1,
+        "revision_evidence_files": [],
+        "validation_json_count": 1,
+        "manifest_count": 1,
+        "review_page_count": 1
+      },
+      "B31": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "B31_main_building_components_r2.blend",
+          "B31_manifest_r2.json",
+          "B31_renders_r2.json",
+          "build_B31_r2.log",
+          "xialin_B31_main_building_r2.blend"
+        ],
+        "validation_json_count": 2,
+        "manifest_count": 2,
+        "review_page_count": 1
+      },
+      "B32": {
+        "attempt_tags_visible": 3,
+        "revision_evidence_files": [
+          "B32_manifest_r2.json",
+          "B32_manifest_r3.json",
+          "B32_renders_r2.json",
+          "B32_renders_r3.json",
+          "xialin_B32_secondary_equipment_cabins_r2.blend"
+        ],
+        "validation_json_count": 2,
+        "manifest_count": 3,
+        "review_page_count": 1
+      },
+      "B33": {
+        "attempt_tags_visible": 2,
+        "revision_evidence_files": [
+          "B33_manifest_r2.json",
+          "B33_renders_r2.json",
+          "B33_validation_r2.json",
+          "build_B33_r2.log",
+          "validate_B33_r2.log"
+        ],
+        "validation_json_count": 1,
+        "manifest_count": 2,
+        "review_page_count": 1
+      },
+      "B34": {
+        "attempt_tags_visible": 1,
+        "revision_evidence_files": [],
+        "validation_json_count": 1,
+        "manifest_count": 1,
+        "review_page_count": 1
+      },
+      "B35": {
+        "attempt_tags_visible": 3,
+        "revision_evidence_files": [
+          "B35_GUI_readback_r2.json",
+          "B35_site_plan_r2.json",
+          "validate_B35_r2.log",
+          "validate_B35_r3.log",
+          "xialin_B35_auxiliary_equipment_r2.blend"
+        ],
+        "validation_json_count": 2,
+        "manifest_count": 3,
+        "review_page_count": 1
+      },
+      "B36": {
+        "attempt_tags_visible": 3,
+        "revision_evidence_files": [
+          "B36_bus_rack_components_r2.blend",
+          "B36_manifest_r2.json",
+          "B36_manifest_r3.json",
+          "build_B36_r2.log",
+          "validate_B36_r2.log"
+        ],
+        "validation_json_count": 2,
+        "manifest_count": 4,
+        "review_page_count": 1
+      },
+      "C37": {
+        "attempt_tags_visible": 1,
+        "revision_evidence_files": [],
+        "validation_json_count": 1,
+        "manifest_count": 1,
+        "review_page_count": 1
+      },
+      "D37": {
+        "attempt_tags_visible": 1,
+        "revision_evidence_files": [],
+        "validation_json_count": 0,
+        "manifest_count": 1,
+        "review_page_count": 1
+      },
+      "D38": {
+        "attempt_tags_visible": 1,
+        "revision_evidence_files": [],
+        "validation_json_count": 1,
+        "manifest_count": 1,
+        "review_page_count": 1
+      },
+      "D40": {
+        "attempt_tags_visible": 1,
+        "revision_evidence_files": [],
+        "validation_json_count": 1,
+        "manifest_count": 1,
+        "review_page_count": 0
+      },
+      "D41": {
+        "attempt_tags_visible": 1,
+        "revision_evidence_files": [],
+        "validation_json_count": 1,
+        "manifest_count": 0,
+        "review_page_count": 0
+      },
+      "R01": {
+        "attempt_tags_visible": 1,
+        "revision_evidence_files": [],
+        "validation_json_count": 1,
+        "manifest_count": 1,
+        "review_page_count": 0
+      }
+    }
+  },
+  "artifact_counts": {
+    "validation_json_files": 72,
+    "manifest_files": 76,
+    "review_html_pages": 33
+  },
+  "operator_prevalence_40_dossiers": {
+    "prepare": 29,
+    "extract": 27,
+    "fit": 13,
+    "build": 40,
+    "render": 11,
+    "validate": 40,
+    "release": 35,
+    "inspect": 16,
+    "review": 10,
+    "plan": 19,
+    "deliver": 5,
+    "refine": 16,
+    "audit": 20,
+    "measure": 17,
+    "connect": 1,
+    "features": 2,
+    "discover": 1,
+    "collision": 1
+  },
+  "failure_mode_annotations": [
+    {
+      "episode": "B01",
+      "failure_mode": "evaluation-domain hypothesis error",
+      "layer": "protocol",
+      "observable_evidence": "held-out cylindrical-domain RMS ~0.048/0.073/0.051 m violates the 5 cm screen; batch retained as failed; comparison domain mixed target shaft with accessory geometry",
+      "response": "B02 separates fitting and holdout regions; revised metric explicitly declared not directly comparable to B01",
+      "source": "paper section 6.1; installation_B01 dossier"
+    },
+    {
+      "episode": "B15",
+      "failure_mode": "measurement contamination + reusable-abstraction boundary error",
+      "layer": "abstraction",
+      "observable_evidence": "local measurement procedure contaminated by neighboring equipment; shared bus-spool master overlapped installations with different physical extents",
+      "response": "measurement method revised; finite site-specific bus geometry removed from the shared master; obsolete supports archived, not overwritten",
+      "source": "paper section 6.3; installation_B15 dossier"
+    },
+    {
+      "episode": "B23",
+      "failure_mode": "representation-class error",
+      "layer": "representation",
+      "observable_evidence": "inherited preflight treated a connection as a straight segment; registered coarse geometry shows a mid-span bow of roughly half a meter",
+      "response": "geometry binned, control points extracted, smooth curved path fitted with fixed endpoints; r1 worsened one validation domain, r2 added the soft lead, r3 added lower bridge contact",
+      "source": "paper section 6.4; installation_B23 validation_initial/validation/validation_r2 chain"
+    },
+    {
+      "episode": "B25/B26",
+      "failure_mode": "unknown-omission risk under inventory-driven task selection",
+      "layer": "task-selection",
+      "observable_evidence": "structures can be absent from the model while their inventory entry appears resolved",
+      "response": "coverage audit over selected high regions becomes a task-selection signal; >1 m unexplained-sample fraction 78.8% -> 14.6%",
+      "source": "paper sections 5.4 and 6.5; installation_B25/B26 dossiers"
+    },
+    {
+      "episode": "B36",
+      "failure_mode": "omission surfaced by sparse human review",
+      "layer": "human-triggered",
+      "observable_evidence": "top-view reviewer reports missing low bus racks; omission traced to an earlier decision treating the structure as outside the transformer assembly",
+      "response": "audit-only history search, then multi-revision rebuild (non-finite path section fixed, section orientation fixed, one segment moved 0.16 m to avoid a fire pipe)",
+      "source": "paper section 6.6; installation_B36 dossier"
+    },
+    {
+      "episode": "D38",
+      "failure_mode": "false-object generation + missing structure, surfaced by 2D markup",
+      "layer": "human-triggered",
+      "observable_evidence": "marked review images registered to original views at NCC ~0.94/0.92; three false cabinet groups identified",
+      "response": "false objects quarantined (not deleted); three GIS gaps and fire-room/sand-box structures rebuilt",
+      "source": "paper section 6.7; installation_D38 dossier"
+    },
+    {
+      "episode": "D38.1",
+      "failure_mode": "coordinate-semantics error introduced during correction",
+      "layer": "representation",
+      "observable_evidence": "a registration yaw was mistaken for equipment orientation; overlay review exposed the error",
+      "response": "D38.2 corrects the orientation semantics; the intermediate error is preserved in history",
+      "source": "paper section 6.7; version boundary appendix"
+    }
+  ],
+  "failure_mode_layer_counts": {
+    "protocol": 1,
+    "abstraction": 1,
+    "representation": 2,
+    "task-selection": 1,
+    "human-triggered": 2
+  },
+  "adaptation_annotations": [
+    {
+      "episode": "B01->B02",
+      "mode": "explicit self-diagnosed",
+      "note": "failure diagnosed to the protocol level; the evaluation domain itself was revised while the failed batch was preserved"
+    },
+    {
+      "episode": "B08",
+      "mode": "human-authorized",
+      "note": "reusable T1/T2 master created only after explicit user equivalence authorization"
+    },
+    {
+      "episode": "B15",
+      "mode": "explicit self-diagnosed",
+      "note": "measurement method and MASTER/site boundary revised together after overlap evidence"
+    },
+    {
+      "episode": "B23",
+      "mode": "explicit self-diagnosed",
+      "note": "measurement profiles invalidated the straight-lead hypothesis; representation class changed across preserved r1/r2/r3"
+    },
+    {
+      "episode": "B25/B26",
+      "mode": "explicit self-diagnosed",
+      "note": "task selection shifted from inventory completion to unexplained-geometry coverage"
+    },
+    {
+      "episode": "B36",
+      "mode": "human-triggered",
+      "note": "sparse omission report triggered history search plus a multi-revision rebuild"
+    },
+    {
+      "episode": "D38",
+      "mode": "human-triggered",
+      "note": "2D markup registered (NCC 0.94/0.92) and converted to traceable 3D corrections; a correction error (D38.1) was itself caught and fixed (D38.2)"
+    }
+  ],
+  "adaptation_mode_counts": {
+    "explicit self-diagnosed": 4,
+    "human-authorized": 1,
+    "human-triggered": 2
+  }
+}

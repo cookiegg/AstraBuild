@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "scope": "saved-model immutability, uniform-scale installation and software QA only",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B01/P02_B01_749_installation_review.blend",
+  "source_blend_sha256": "2d06f288a3da6ca2170025814438fadcaa7009200b500ddd2a1a355fde0edb0e",
+  "source_asset_sha256": "1df8ba4ec1fcaca62d985bddfe3f4dcaac493af7879effda4981feef53dc385b",
+  "frozen_source_components_verified": 67,
+  "candidate_equipment_instances": 3,
+  "included_module_types": [
+    "BODY",
+    "PEDESTAL"
+  ],
+  "candidate_visible_components_per_scene": 165,
+  "source_shared_meshes": 4,
+  "uniform_scale_m_per_H": 1.1461626865312622,
+  "all_asset_local_matrices_and_geometry_unchanged": true,
+  "material_slots_and_modifiers_preserved": true,
+  "nonuniform_scale_negative_test": "rejected_and_restored",
+  "scene_checks": {
+    "02_B01_WORLD_CLEAN": {
+      "evaluated_candidate_components": 165,
+      "max_matrix_error": 9.585300517755968e-07,
+      "source_geometry_shared": true,
+      "accessory_and_lead_absent": true
+    },
+    "03_B01_TARGET_COARSE_OVERLAY": {
+      "evaluated_candidate_components": 165,
+      "max_matrix_error": 9.585300517755968e-07,
+      "source_geometry_shared": true,
+      "accessory_and_lead_absent": true
+    },
+    "04_B01_749_COARSE_CONTEXT": {
+      "evaluated_candidate_components": 165,
+      "max_matrix_error": 9.585300517755968e-07,
+      "source_geometry_shared": true,
+      "accessory_and_lead_absent": true
+    }
+  },
+  "reference_checks": [
+    {
+      "physical_id": "B01_749_A",
+      "reference_fit_heldout_rms_m": 0.0484411930605635,
+      "frozen_model_to_broad_support_selection_rms_m": 0.05016780459695699,
+      "top_fitting_height_residual_m": 0.027404509035158675,
+      "support_top_plate_residual_m": -0.026685692444289977,
+      "foot_datum_residual_m": -2.249109815055661e-09,
+      "individual_screen_passed": true
+    },
+    {
+      "physical_id": "B01_749_B",
+      "reference_fit_heldout_rms_m": 0.07317427855200662,
+      "frozen_model_to_broad_support_selection_rms_m": 0.07595000032968602,
+      "top_fitting_height_residual_m": 0.09101981231634948,
+      "support_top_plate_residual_m": -0.033017852729547936,
+      "foot_datum_residual_m": -4.222960592326075e-10,
+      "individual_screen_passed": false
+    },
+    {
+      "physical_id": "B01_749_C",
+      "reference_fit_heldout_rms_m": 0.05098133581712256,
+      "frozen_model_to_broad_support_selection_rms_m": 0.05366496380694986,
+      "top_fitting_height_residual_m": 0.03900612239833734,
+      "support_top_plate_residual_m": -0.038997537761949363,
+      "foot_datum_residual_m": -4.53540086042814e-09,
+      "individual_screen_passed": false
+    }
+  ],
+  "alignment_screen_passed": false,
+  "formal_promotion": false,
+  "source_reference_faces_unchanged": 12684,
+  "frame_checks": {
+    "B01_oblique_clean": {
+      "min": [
+        0.14073728024959564,
+        0.09270089119672775
+      ],
+      "max": [
+        0.8652231693267822,
+        0.9464284181594849
+      ]
+    },
+    "B01_oblique_overlay": {
+      "min": [
+        0.10707765072584152,
+        0.053571268916130066
+      ],
+      "max": [
+        0.8929231762886047,
+        0.9464284181594849
+      ]
+    },
+    "B01_front_clean": {
+      "min": [
+        0.1440606415271759,
+        0.10635065287351608
+      ],
+      "max": [
+        0.8600852489471436,
+        0.9464285373687744
+      ]
+    },
+    "B01_front_overlay": {
+      "min": [
+        0.10501941293478012,
+        0.05357138067483902
+      ],
+      "max": [
+        0.8949804306030273,
+        0.9464285373687744
+      ]
+    },
+    "B01_top_clean": {
+      "min": [
+        0.30272558331489563,
+        0.08545561879873276
+      ],
+      "max": [
+        0.6891086101531982,
+        0.9125967025756836
+      ]
+    },
+    "B01_top_overlay": {
+      "min": [
+        0.2878571152687073,
+        0.05357154831290245
+      ],
+      "max": [
+        0.7121428847312927,
+        0.946428656578064
+      ]
+    }
+  },
+  "protected_hashes_verified": 152,
+  "formal_v50_unchanged": true,
+  "original_P01_R01_failure_not_changed": true,
+  "source_blend_saved_during_validation": false,
+  "limitations": [
+    "P02 proportions, sheds and absolute dimensions remain estimates",
+    "reference mixed support/attachment surfaces can exceed axis-screen residuals",
+    "A/B/C identity is inherited candidate association, not newly verified nameplate labels",
+    "accessory location and cable path unresolved; excluded from trial but not declared scope_excluded",
+    "terminal azimuth and photo camera calibration unresolved"
+  ]
+}

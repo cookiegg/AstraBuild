@@ -1,0 +1,9 @@
+{
+  "interactive_cases": 6,
+  "embedded_images": 20,
+  "render_count": 22,
+  "javascript_syntax_passed": true,
+  "control_smoke_passed": true,
+  "checks": "all 6 directions x 3 modes x 3 slider endpoints/midpoint; source images and clipping",
+  "html_sha256": "3bedc1c85f501f817a8f3514220c59544b30b6557c390c1305cd536be59c3939"
+}

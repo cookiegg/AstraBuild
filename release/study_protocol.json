@@ -1,0 +1,63 @@
+{
+  "release": "AstraBuild research draft v0.2",
+  "study_type": "longitudinal single-site case study",
+  "site": "220 kV Xialin Substation, Xuancheng",
+  "research_questions": [
+    {
+      "id": "RQ1",
+      "title": "Structured reconstruction",
+      "question": "Can a general-purpose reasoning agent transform coarse photogrammetric geometry, images, and records into an editable component-level scene with reusable equipment families?",
+      "evidence": ["scene scale", "MASTER/SITE hierarchy", "object-to-mesh reuse ratio", "batch history"]
+    },
+    {
+      "id": "RQ2",
+      "title": "Verifier-bounded reliability",
+      "question": "Can deterministic validation expose invalid geometry and force explicit protocol or abstraction revisions rather than silent acceptance?",
+      "evidence": ["B01→B02", "B15 revisions", "validation taxonomy", "failed-draft preservation"]
+    },
+    {
+      "id": "RQ3",
+      "title": "Coverage-driven completion",
+      "question": "Can residual and occupancy audits identify omissions that inventory-driven completion misses?",
+      "evidence": ["B25/B26 >1 m coverage fraction", "GIS220 high-region median", "transformer high-region median"]
+    },
+    {
+      "id": "RQ4",
+      "title": "Human-steerable correction",
+      "question": "Can sparse human spatial feedback be converted into traceable 3D corrections without requiring vertex-level manual modeling?",
+      "evidence": ["B36 omission review", "D38 markup registration", "quarantine rather than deletion"]
+    },
+    {
+      "id": "RQ5",
+      "title": "Inspection semantics",
+      "question": "Can stabilized/reused geometry be augmented with inspection-addressable parts while preserving the earlier geometry history?",
+      "evidence": ["part-annotation v3", "D40 invariance", "D41 accessory layer", "inspection-point categorization"]
+    }
+  ],
+  "evidence_sources": [
+    {"name": "Registered photogrammetric coarse mesh", "scale": "23 tiles, approximately 112 m × 134 m", "role": "layout, occupied-region discovery, local reference surfaces", "limit": "not independent truth for residuals computed against the same mesh"},
+    {"name": "UAV and ground photographs", "scale": "775 identity-photo candidates in the early queue; additional audit imagery exists", "role": "visible component form, count, order, materials and qualitative alignment", "limit": "not definitive nameplate identity; calibration incomplete in several stages"},
+    {"name": "Equipment and semantic records", "scale": "153 registered devices / 106 official names / 1,842 12MZ rows", "role": "inventory, codes, semantic expectations and inspection concepts", "limit": "inventory presence does not prove geometry completion"},
+    {"name": "UE4 manual device boxes", "scale": "82 boxes", "role": "position prior and cross-check", "limit": "not a metric ground-truth survey"},
+    {"name": "Human review and persistent history", "scale": "batch notes, failed drafts, review markup and continuation records", "role": "equivalence authorization, omission discovery, error correction and external memory", "limit": "human intervention is part of the method"}
+  ],
+  "core_metrics": [
+    {"name": "Reference-surface residual ledger", "definition": "nearest/reference-surface distances summarized across retained batch validation records", "interpretation": "internal agreement with the same photogrammetric reference", "not": "independent survey accuracy"},
+    {"name": "5 cm screen", "definition": "retained screening items below/above the selected 5 cm criterion", "interpretation": "validation-screen ledger", "not": "task success rate or overall accuracy"},
+    {"name": "Coverage gap fraction", "definition": "fraction of selected high-region coarse samples more than 1 m from the reconstructed scene", "interpretation": "omission/accounting signal", "not": "absolute reconstruction error"},
+    {"name": "Reuse ratio", "definition": "scene objects divided by mesh datablocks", "interpretation": "descriptive scene-structure reuse indicator", "not": "storage compression or labor speedup"},
+    {"name": "Inspection-point categorization", "definition": "official transformer inspection points categorized into model-part, external-component, and non-visual classes", "interpretation": "semantic coverage/accounting", "not": "complete station-wide part geometry"}
+  ],
+  "version_boundary": {
+    "D38.2": "core geometry baseline after markup-driven correction",
+    "D40": "material-only layer with geometry/transform invariance validation",
+    "D41": "inspection-semantic transformer accessory augmentation; research endpoint"
+  },
+  "key_cases": [
+    {"id": "B01→B02", "trigger": "held-out arrester residual screen failed", "diagnosis": "comparison domain mixed shaft with protruding accessories", "change": "separate fitting and holdout domains", "lesson": "verifier design is part of the research object"},
+    {"id": "B15", "trigger": "neighbor contamination and overextended shared bus spool", "diagnosis": "measurement and abstraction boundary were wrong", "change": "revise measurement; move site-specific segments out of shared master", "lesson": "shared-master boundaries are geometric hypotheses"},
+    {"id": "B36", "trigger": "human top-view review found omitted low bus racks", "diagnosis": "earlier batch logic explicitly excluded a needed independent device", "change": "audit-only trace then multi-revision reconstruction", "lesson": "small human feedback can redirect substantial agentic work"},
+    {"id": "D38", "trigger": "user markup identified false cabinets, GIS gaps and a missing fire room", "diagnosis": "proxy placement and orientation semantics were wrong", "change": "register markup, quarantine false objects, rebuild gaps, correct yaw semantics", "lesson": "traceable correction is preferable to silent deletion"},
+    {"id": "Semantic v3", "trigger": "isolated renders and photographs exposed naming-based mapping mistakes", "diagnosis": "string/box matching confused bus tubes, GIS components, arresters and switches", "change": "structured device-family rules and explicit missing-geometry labels", "lesson": "semantic attachment needs the same validation discipline as geometry"}
+  ]
+}

@@ -1,0 +1,585 @@
+{
+  "status": "saved_history_preserved_tee_connections_and_caps_built_partial_surface_alignment",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/r2/xialin_B21_4100_T_connections_and_endcaps_r2.blend",
+  "sha256": "84645dfac3bc92f8c8e69db25a5bb178de74bf86bd5efdd4553de864f9996d8a",
+  "previous_objects_unchanged": 28041,
+  "previous_scenes_unchanged": 422,
+  "previous_collections_unchanged": 570,
+  "previous_materials_unchanged": 318,
+  "previous_station_world_transforms_unchanged": 3394,
+  "history_method": "raw parent/local structure and mesh/material hashes for all prior data, plus evaluated station transforms",
+  "protected_previous_files_unchanged": 1935,
+  "legacy_meshes_remaining": 1837,
+  "formal_baseline_meshes": 15096,
+  "source_asset_roundtrip_identical": true,
+  "connections": 2,
+  "total_new_route_length_m": 11.626334801498922,
+  "port_seams": [
+    {
+      "key": "4B77_4100_NEAR",
+      "port": "4B77",
+      "max_body_surface_gap_m": 4.2649612623790745e-06
+    },
+    {
+      "key": "4100_FAR_4801",
+      "port": "4801",
+      "max_body_surface_gap_m": 0.0006992127746343613
+    },
+    {
+      "key": "4100_near_transverse",
+      "port": "4100",
+      "max_body_surface_gap_m": 0.0006863017333671451
+    },
+    {
+      "key": "4100_far_transverse",
+      "port": "4100",
+      "max_body_surface_gap_m": 0.0006913849501870573
+    },
+    {
+      "key": "4D75_end_0",
+      "port": "4D75",
+      "max_body_surface_gap_m": 4.271620127838105e-06
+    },
+    {
+      "key": "4D75_end_1",
+      "port": "4D75",
+      "max_body_surface_gap_m": 6.111147740739398e-06
+    }
+  ],
+  "tee_containment": [
+    {
+      "key": "4B77_4100_NEAR",
+      "sampled_ring_vertices": 48,
+      "minimum_containment_margin_m": 0.013478019251700224,
+      "all_end_vertices_inside_main_shell": true,
+      "scope": "exterior shell intersection only; no boolean-union or electrical connectivity certification"
+    },
+    {
+      "key": "4100_FAR_4801",
+      "sampled_ring_vertices": 48,
+      "minimum_containment_margin_m": 0.0018855105558293617,
+      "all_end_vertices_inside_main_shell": true,
+      "scope": "exterior shell intersection only; no boolean-union or electrical connectivity certification"
+    }
+  ],
+  "end_cap_checks": [
+    {
+      "key": "4100_near_longitudinal",
+      "sample_count": 29,
+      "rms_m": 0.032124315983112245,
+      "p95_m": 0.031300101429224014,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "axis": 1,
+        "span": [
+          -8.08,
+          -7.6
+        ],
+        "cross_seed": [
+          -0.3,
+          1.95
+        ],
+        "radius": 0.36,
+        "abs_normal_min": 0.85
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation",
+      "actual_saved_front_plane_error_m": 7.802663226641471e-07,
+      "plane_only_rms_m": 0.03569467124351085
+    },
+    {
+      "key": "4100_far_longitudinal",
+      "sample_count": 45,
+      "rms_m": 0.029435681914667663,
+      "p95_m": 0.09326443672180175,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "axis": 1,
+        "span": [
+          -6.9,
+          -6.45
+        ],
+        "cross_seed": [
+          -0.3,
+          1.95
+        ],
+        "radius": 0.36,
+        "abs_normal_min": 0.85
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation",
+      "actual_saved_front_plane_error_m": 1.8683316227452451e-06,
+      "plane_only_rms_m": 0.03564014008614115
+    },
+    {
+      "key": "4100_near_transverse",
+      "sample_count": 31,
+      "rms_m": 0.005101695097722031,
+      "p95_m": 0.010661864653229713,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "axis": 0,
+        "span": [
+          -3.08,
+          -2.89
+        ],
+        "cross_seed": [
+          -8.394,
+          1.95
+        ],
+        "radius": 0.34,
+        "abs_normal_min": 0.85
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation",
+      "actual_saved_front_plane_error_m": 4.468926149137076e-07,
+      "plane_only_rms_m": 0.0027553826558555632
+    },
+    {
+      "key": "4100_far_transverse",
+      "sample_count": 26,
+      "rms_m": 0.0031997825749566456,
+      "p95_m": 0.004323270288296044,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "axis": 0,
+        "span": [
+          -3.08,
+          -2.89
+        ],
+        "cross_seed": [
+          -6.076,
+          1.95
+        ],
+        "radius": 0.34,
+        "abs_normal_min": 0.85
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation",
+      "actual_saved_front_plane_error_m": 7.059351374572032e-07,
+      "plane_only_rms_m": 0.0025687303281290356
+    },
+    {
+      "key": "4D75_end_0",
+      "sample_count": 24,
+      "rms_m": 0.00996423735635549,
+      "p95_m": 0.010193134378641843,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "axis": 1,
+        "span": [
+          -52.51,
+          -52.23
+        ],
+        "cross_seed": [
+          -0.55,
+          1.87
+        ],
+        "radius": 0.37,
+        "abs_normal_min": 0.85
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation",
+      "actual_saved_front_plane_error_m": 1.667426026585872e-06,
+      "plane_only_rms_m": 0.010906145820485715
+    },
+    {
+      "key": "4D75_end_1",
+      "sample_count": 25,
+      "rms_m": 0.005155473262963397,
+      "p95_m": 0.009905314818024629,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "axis": 1,
+        "span": [
+          -52.51,
+          -52.23
+        ],
+        "cross_seed": [
+          1.79,
+          1.87
+        ],
+        "radius": 0.37,
+        "abs_normal_min": 0.85
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation",
+      "actual_saved_front_plane_error_m": 3.0310624339335845e-06,
+      "plane_only_rms_m": 0.007384881237422533
+    }
+  ],
+  "frame_contacts": [
+    {
+      "key": "B21::4B77_4100_NEAR.support.0.foundation",
+      "sample_count": 23,
+      "rms_m": 0.01140535808578386,
+      "p95_m": 0.023661635071039192,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "center_xy": [
+          -0.3378919880170703,
+          -12.605944402188372
+        ],
+        "half_width": 0.28,
+        "z_range": [
+          -0.10999999999999979,
+          -0.0599999999999998
+        ]
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation",
+      "route": "4B77_4100_NEAR",
+      "max_contact_gap_m": 4.439233114439389e-08
+    },
+    {
+      "key": "B21::4B77_4100_NEAR.support.1.foundation",
+      "sample_count": 22,
+      "rms_m": 0.010798766258014968,
+      "p95_m": 0.01875611823052168,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "center_xy": [
+          -0.3345258748386925,
+          -10.655944402188345
+        ],
+        "half_width": 0.28,
+        "z_range": [
+          -0.10999999999999979,
+          -0.0599999999999998
+        ]
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation",
+      "route": "4B77_4100_NEAR",
+      "max_contact_gap_m": 3.725290298461914e-08
+    },
+    {
+      "key": "B21::4100_FAR_4801.support.0.foundation",
+      "sample_count": 18,
+      "rms_m": 0.006674148101675254,
+      "p95_m": 0.011313647031784058,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "center_xy": [
+          -0.2967597900522529,
+          -4.0508753622928015
+        ],
+        "half_width": 0.28,
+        "z_range": [
+          -0.09999999999999978,
+          -0.04999999999999979
+        ]
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation",
+      "route": "4100_FAR_4801",
+      "max_contact_gap_m": 5.0613591984216555e-08
+    },
+    {
+      "key": "B21::4100_FAR_4801.support.1.foundation",
+      "sample_count": 19,
+      "rms_m": 0.008000796890515405,
+      "p95_m": 0.014193199202418322,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "center_xy": [
+          -0.2768672052884143,
+          -2.150875362292808
+        ],
+        "half_width": 0.28,
+        "z_range": [
+          -0.08999999999999977,
+          -0.03999999999999978
+        ]
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation",
+      "route": "4100_FAR_4801",
+      "max_contact_gap_m": 3.725290298461914e-08
+    }
+  ],
+  "surface_checks": [
+    {
+      "key": "4B77_4100_NEAR",
+      "sample_count": 774,
+      "rms_m": 0.04220032422924887,
+      "p95_m": 0.10366375893354411,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "y": [
+          -13.75094440218839,
+          -7.9909235892241925
+        ],
+        "cross_radius": 0.5,
+        "max_abs_normal_y": 0.4,
+        "min_area": 2.5e-05,
+        "tee_branch_included": true
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation"
+    },
+    {
+      "key": "4100_FAR_4801",
+      "sample_count": 1645,
+      "rms_m": 0.07610470378085023,
+      "p95_m": 0.15063962042331697,
+      "five_cm_screen_passed": false,
+      "scope": {
+        "y": [
+          -6.495875362292792,
+          -1.1500005346444193
+        ],
+        "cross_radius": 0.5,
+        "max_abs_normal_y": 0.4,
+        "min_area": 2.5e-05,
+        "tee_branch_included": true
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation"
+    }
+  ],
+  "inspection_checks": [
+    {
+      "key": "B21::4B77_4100_NEAR.inspection.0",
+      "sample_count": 34,
+      "rms_m": 0.013700922355862904,
+      "p95_m": 0.0277542815543711,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "y": -12.355944402188369,
+        "half_y": 0.27,
+        "half_z": 0.245,
+        "outward_x": [
+          0.365,
+          0.58
+        ],
+        "abs_normal_x_min": 0.65
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation"
+    },
+    {
+      "key": "B21::4B77_4100_NEAR.inspection.1",
+      "sample_count": 17,
+      "rms_m": 0.02292708967424507,
+      "p95_m": 0.043952290713787055,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "y": -11.405944402188355,
+        "half_y": 0.27,
+        "half_z": 0.245,
+        "outward_x": [
+          0.365,
+          0.58
+        ],
+        "abs_normal_x_min": 0.65
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation"
+    },
+    {
+      "key": "B21::4B77_4100_NEAR.inspection.2",
+      "sample_count": 22,
+      "rms_m": 0.0309556579745613,
+      "p95_m": 0.0636284977197647,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "y": -9.805944402188333,
+        "half_y": 0.27,
+        "half_z": 0.245,
+        "outward_x": [
+          0.365,
+          0.58
+        ],
+        "abs_normal_x_min": 0.65
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation"
+    },
+    {
+      "key": "B21::4100_FAR_4801.inspection.0",
+      "sample_count": 26,
+      "rms_m": 0.018657371638777696,
+      "p95_m": 0.04559948481619358,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "y": -4.4508753622928,
+        "half_y": 0.27,
+        "half_z": 0.245,
+        "outward_x": [
+          0.365,
+          0.58
+        ],
+        "abs_normal_x_min": 0.65
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation"
+    },
+    {
+      "key": "B21::4100_FAR_4801.inspection.1",
+      "sample_count": 91,
+      "rms_m": 0.048437061704287146,
+      "p95_m": 0.08827651664614677,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "y": -3.550875362292803,
+        "half_y": 0.27,
+        "half_z": 0.245,
+        "outward_x": [
+          0.365,
+          0.58
+        ],
+        "abs_normal_x_min": 0.65
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation"
+    },
+    {
+      "key": "B21::4100_FAR_4801.inspection.2",
+      "sample_count": 97,
+      "rms_m": 0.05259223016664458,
+      "p95_m": 0.11617830246686935,
+      "five_cm_screen_passed": false,
+      "scope": {
+        "y": -2.2508753622928075,
+        "half_y": 0.27,
+        "half_z": 0.245,
+        "outward_x": [
+          0.365,
+          0.58
+        ],
+        "abs_normal_x_min": 0.65
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation"
+    },
+    {
+      "key": "B21::4100_FAR_4801.inspection.3",
+      "sample_count": 32,
+      "rms_m": 0.040441685478886116,
+      "p95_m": 0.07740193717181683,
+      "five_cm_screen_passed": true,
+      "scope": {
+        "y": -1.6508753622928096,
+        "half_y": 0.27,
+        "half_z": 0.245,
+        "outward_x": [
+          0.365,
+          0.58
+        ],
+        "abs_normal_x_min": 0.65
+      },
+      "residual_trimming": false,
+      "geometry_fit_even_triangles": true,
+      "comparison_odd_triangles": true,
+      "independence_limit": "disjoint triangle indices within one spatially correlated reconstructed mesh, not independent photographs or survey validation"
+    }
+  ],
+  "measured_cap_face_gap_m": 1.2350482269314007,
+  "actual_gap_including_bolts_m": 1.2093350296138503,
+  "local_screens_passed": 17,
+  "local_screens_unpassed": 2,
+  "camera_framing": {
+    "440_B21_SECTION_Oblique_Clean": {
+      "expanded_meshes": 1408,
+      "min": [
+        0.07573778927326202,
+        0.29185035824775696
+      ],
+      "max": [
+        0.949999988079071,
+        0.7340658903121948
+      ]
+    },
+    "443_B21_SECTION_Top_Clean": {
+      "expanded_meshes": 1408,
+      "min": [
+        0.353799432516098,
+        0.06999997049570084
+      ],
+      "max": [
+        0.6836640238761902,
+        0.9226447343826294
+      ]
+    },
+    "449_B21_ROW_END_Oblique_Clean": {
+      "expanded_meshes": 455,
+      "min": [
+        0.40409913659095764,
+        0.2257833331823349
+      ],
+      "max": [
+        0.889290452003479,
+        0.9291877746582031
+      ]
+    },
+    "452_B21_ROW_END_Top_Clean": {
+      "expanded_meshes": 455,
+      "min": [
+        0.26103559136390686,
+        0.06569604575634003
+      ],
+      "max": [
+        0.905318021774292,
+        0.7193936109542847
+      ]
+    },
+    "446_B21_T_Junction_Cut_Clean": {
+      "expanded_meshes": 1,
+      "min": [
+        0.18102028965950012,
+        0.20803625881671906
+      ],
+      "max": [
+        0.7928983569145203,
+        0.7690742015838623
+      ]
+    }
+  },
+  "formal_promotions": 0,
+  "outdoor_goal_complete": false,
+  "pending": [
+    "B20 all16 finite surface envelopes still above5cm; prior body/support residuals unchanged.",
+    "T junctions are overlapping exterior shells, not boolean-unioned manifold engineering vessels.",
+    "4 inspection support foundation footprints and fasteners approximate; upper4100 legacy body not newly refit.",
+    "Neutral point equipment and other outdoor mappings remain; whole outdoor completion unproven."
+  ],
+  "saved_by_validator": false,
+  "screen_scope": "5cm is an internal comparison screen, not a user survey tolerance; inherited B20 16 failures remain"
+}

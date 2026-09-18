@@ -1,0 +1,2018 @@
+{
+  "status": "three outdoor gantry corridors measured and modeled; visible hanging equipment remains",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B25/xialin_B25_outdoor_gantries.blend",
+  "sha256": "e3db4336f7d46f7cbd646450ff4c69bb671ae0f19e263d96fbe4963d0464db6d",
+  "previous_objects_unchanged": 28693,
+  "previous_scenes_unchanged": 500,
+  "previous_collections_unchanged": 635,
+  "previous_materials_unchanged": 333,
+  "previous_station_world_transforms_unchanged": 2783,
+  "protected_previous_files_unchanged": 2477,
+  "protection_evidence": {
+    "inherited_unchanged_stats": 2392,
+    "new_release_full_hash_checks": 79,
+    "B25_source_full_hash_checks": 6
+  },
+  "legacy_meshes_remaining": 1145,
+  "formal_baseline_meshes": 15096,
+  "source_asset_roundtrip_identical": true,
+  "shared_masters": [
+    "B25_TUBULAR_FLANGE_MASTER",
+    "B25_TOP_SEAT_FITTING_MASTER"
+  ],
+  "support_count": 19,
+  "span_count": 15,
+  "max_primitive_transform_rounding_m": 0.00024327601387834683,
+  "primitive_rounding_scope": "float32 object Euler decomposition versus intended matrix, evaluated on all primitive vertices; maximum below1mm",
+  "shaft_checks": [
+    {
+      "name": "B25::G110_OUT_00.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 6.495987430236237e-06
+    },
+    {
+      "name": "B25::G110_OUT_00.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 6.537527754104178e-06
+    },
+    {
+      "name": "B25::G110_OUT_00.mast",
+      "max_endpoint_radius_error_m": 6.48984783189239e-06
+    },
+    {
+      "name": "B25::G110_OUT_01.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 5.9522000153659e-06
+    },
+    {
+      "name": "B25::G110_OUT_01.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 5.866447848433058e-06
+    },
+    {
+      "name": "B25::G110_OUT_01.mast",
+      "max_endpoint_radius_error_m": 5.887883022988289e-06
+    },
+    {
+      "name": "B25::G110_OUT_02.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 5.454272447004341e-06
+    },
+    {
+      "name": "B25::G110_OUT_02.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 5.360679880297177e-06
+    },
+    {
+      "name": "B25::G110_OUT_02.mast",
+      "max_endpoint_radius_error_m": 5.390411521446373e-06
+    },
+    {
+      "name": "B25::G110_OUT_03.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 5.118395150640819e-06
+    },
+    {
+      "name": "B25::G110_OUT_03.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 5.0157525830024165e-06
+    },
+    {
+      "name": "B25::G110_OUT_03.mast",
+      "max_endpoint_radius_error_m": 5.0312524604168075e-06
+    },
+    {
+      "name": "B25::G110_OUT_04.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 4.954754865454195e-06
+    },
+    {
+      "name": "B25::G110_OUT_04.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 4.851940204407294e-06
+    },
+    {
+      "name": "B25::G110_OUT_04.mast",
+      "max_endpoint_radius_error_m": 4.86496130464396e-06
+    },
+    {
+      "name": "B25::G110_OUT_05.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 4.9976649655028855e-06
+    },
+    {
+      "name": "B25::G110_OUT_05.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 4.895193591764847e-06
+    },
+    {
+      "name": "B25::G110_OUT_05.mast",
+      "max_endpoint_radius_error_m": 4.907723765229021e-06
+    },
+    {
+      "name": "B25::G110_OUT_06.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 5.23367469387488e-06
+    },
+    {
+      "name": "B25::G110_OUT_06.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 5.134839229882579e-06
+    },
+    {
+      "name": "B25::G110_OUT_06.mast",
+      "max_endpoint_radius_error_m": 5.147437987088038e-06
+    },
+    {
+      "name": "B25::G110_OUT_07.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 5.636768967248055e-06
+    },
+    {
+      "name": "B25::G110_OUT_07.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 5.54982541557174e-06
+    },
+    {
+      "name": "B25::G110_OUT_07.mast",
+      "max_endpoint_radius_error_m": 5.551039220828769e-06
+    },
+    {
+      "name": "B25::G110_IN_00.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 4.922763730712189e-06
+    },
+    {
+      "name": "B25::G110_IN_00.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 4.829151286775611e-06
+    },
+    {
+      "name": "B25::G110_IN_01.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 4.650163939824791e-06
+    },
+    {
+      "name": "B25::G110_IN_01.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 4.562252487863352e-06
+    },
+    {
+      "name": "B25::G110_IN_01.mast",
+      "max_endpoint_radius_error_m": 4.56805605521064e-06
+    },
+    {
+      "name": "B25::G110_IN_02.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 4.2670418069331595e-06
+    },
+    {
+      "name": "B25::G110_IN_02.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 4.15481860950183e-06
+    },
+    {
+      "name": "B25::G110_IN_03.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 4.148817710734972e-06
+    },
+    {
+      "name": "B25::G110_IN_03.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 4.05073150844329e-06
+    },
+    {
+      "name": "B25::G110_IN_04.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 4.0993807546236055e-06
+    },
+    {
+      "name": "B25::G110_IN_04.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 3.98223356683756e-06
+    },
+    {
+      "name": "B25::G110_IN_05.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 4.1085069732159175e-06
+    },
+    {
+      "name": "B25::G110_IN_05.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 4.008660986818967e-06
+    },
+    {
+      "name": "B25::G110_IN_05.mast",
+      "max_endpoint_radius_error_m": 4.011710682536291e-06
+    },
+    {
+      "name": "B25::G220_OUT_00.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 3.840987078193235e-06
+    },
+    {
+      "name": "B25::G220_OUT_00.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 3.856047660224067e-06
+    },
+    {
+      "name": "B25::G220_OUT_00.mast",
+      "max_endpoint_radius_error_m": 3.8261302082291885e-06
+    },
+    {
+      "name": "B25::G220_OUT_01.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 2.268813074294324e-06
+    },
+    {
+      "name": "B25::G220_OUT_01.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 2.295863967436336e-06
+    },
+    {
+      "name": "B25::G220_OUT_01.mast",
+      "max_endpoint_radius_error_m": 2.2791765359173128e-06
+    },
+    {
+      "name": "B25::G220_OUT_02.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 7.970731702366889e-07
+    },
+    {
+      "name": "B25::G220_OUT_02.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 8.834257441715607e-07
+    },
+    {
+      "name": "B25::G220_OUT_02.mast",
+      "max_endpoint_radius_error_m": 8.509444335275424e-07
+    },
+    {
+      "name": "B25::G220_OUT_03.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 1.1063510957947402e-06
+    },
+    {
+      "name": "B25::G220_OUT_03.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 1.1841414759229068e-06
+    },
+    {
+      "name": "B25::G220_OUT_03.mast",
+      "max_endpoint_radius_error_m": 1.1700160151914487e-06
+    },
+    {
+      "name": "B25::G220_OUT_04.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 2.634536680243534e-06
+    },
+    {
+      "name": "B25::G220_OUT_04.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 2.674853643514497e-06
+    },
+    {
+      "name": "B25::G220_OUT_04.mast",
+      "max_endpoint_radius_error_m": 2.6276100693286183e-06
+    }
+  ],
+  "construction_contacts": [
+    {
+      "shaft": "B25::G110_OUT_00.leg.-1.shaft",
+      "plate": "B25::G110_OUT_00.leg.-1.base_plate",
+      "base_axis_gap_m": 3.5346133242519784e-09
+    },
+    {
+      "shaft": "B25::G110_OUT_00.leg.+1.shaft",
+      "plate": "B25::G110_OUT_00.leg.+1.base_plate",
+      "base_axis_gap_m": 3.799479009192197e-09
+    },
+    {
+      "shaft": "B25::G110_OUT_01.leg.-1.shaft",
+      "plate": "B25::G110_OUT_01.leg.-1.base_plate",
+      "base_axis_gap_m": 6.878758951334163e-09
+    },
+    {
+      "shaft": "B25::G110_OUT_01.leg.+1.shaft",
+      "plate": "B25::G110_OUT_01.leg.+1.base_plate",
+      "base_axis_gap_m": 8.240123694491785e-09
+    },
+    {
+      "shaft": "B25::G110_OUT_02.leg.-1.shaft",
+      "plate": "B25::G110_OUT_02.leg.-1.base_plate",
+      "base_axis_gap_m": 5.3921127562972515e-09
+    },
+    {
+      "shaft": "B25::G110_OUT_02.leg.+1.shaft",
+      "plate": "B25::G110_OUT_02.leg.+1.base_plate",
+      "base_axis_gap_m": 1.8518320210603179e-09
+    },
+    {
+      "shaft": "B25::G110_OUT_03.leg.-1.shaft",
+      "plate": "B25::G110_OUT_03.leg.-1.base_plate",
+      "base_axis_gap_m": 1.6593526552810545e-09
+    },
+    {
+      "shaft": "B25::G110_OUT_03.leg.+1.shaft",
+      "plate": "B25::G110_OUT_03.leg.+1.base_plate",
+      "base_axis_gap_m": 3.264607473241199e-09
+    },
+    {
+      "shaft": "B25::G110_OUT_04.leg.-1.shaft",
+      "plate": "B25::G110_OUT_04.leg.-1.base_plate",
+      "base_axis_gap_m": 4.166072153921618e-09
+    },
+    {
+      "shaft": "B25::G110_OUT_04.leg.+1.shaft",
+      "plate": "B25::G110_OUT_04.leg.+1.base_plate",
+      "base_axis_gap_m": 5.388989254839771e-10
+    },
+    {
+      "shaft": "B25::G110_OUT_05.leg.-1.shaft",
+      "plate": "B25::G110_OUT_05.leg.-1.base_plate",
+      "base_axis_gap_m": 4.873357606349771e-09
+    },
+    {
+      "shaft": "B25::G110_OUT_05.leg.+1.shaft",
+      "plate": "B25::G110_OUT_05.leg.+1.base_plate",
+      "base_axis_gap_m": 1.5583607404501265e-08
+    },
+    {
+      "shaft": "B25::G110_OUT_06.leg.-1.shaft",
+      "plate": "B25::G110_OUT_06.leg.-1.base_plate",
+      "base_axis_gap_m": 7.1204508955702295e-09
+    },
+    {
+      "shaft": "B25::G110_OUT_06.leg.+1.shaft",
+      "plate": "B25::G110_OUT_06.leg.+1.base_plate",
+      "base_axis_gap_m": 1.5013959020482304e-08
+    },
+    {
+      "shaft": "B25::G110_OUT_07.leg.-1.shaft",
+      "plate": "B25::G110_OUT_07.leg.-1.base_plate",
+      "base_axis_gap_m": 1.3554339872712262e-09
+    },
+    {
+      "shaft": "B25::G110_OUT_07.leg.+1.shaft",
+      "plate": "B25::G110_OUT_07.leg.+1.base_plate",
+      "base_axis_gap_m": 2.3840682206177632e-09
+    },
+    {
+      "shaft": "B25::G110_IN_00.leg.-1.shaft",
+      "plate": "B25::G110_IN_00.leg.-1.base_plate",
+      "base_axis_gap_m": 6.744019231952336e-09
+    },
+    {
+      "shaft": "B25::G110_IN_00.leg.+1.shaft",
+      "plate": "B25::G110_IN_00.leg.+1.base_plate",
+      "base_axis_gap_m": 7.618212172211258e-10
+    },
+    {
+      "shaft": "B25::G110_IN_01.leg.-1.shaft",
+      "plate": "B25::G110_IN_01.leg.-1.base_plate",
+      "base_axis_gap_m": 5.8580944539698976e-09
+    },
+    {
+      "shaft": "B25::G110_IN_01.leg.+1.shaft",
+      "plate": "B25::G110_IN_01.leg.+1.base_plate",
+      "base_axis_gap_m": 2.9119425759560613e-09
+    },
+    {
+      "shaft": "B25::G110_IN_02.leg.-1.shaft",
+      "plate": "B25::G110_IN_02.leg.-1.base_plate",
+      "base_axis_gap_m": 4.796713803933983e-09
+    },
+    {
+      "shaft": "B25::G110_IN_02.leg.+1.shaft",
+      "plate": "B25::G110_IN_02.leg.+1.base_plate",
+      "base_axis_gap_m": 6.315344913687682e-10
+    },
+    {
+      "shaft": "B25::G110_IN_03.leg.-1.shaft",
+      "plate": "B25::G110_IN_03.leg.-1.base_plate",
+      "base_axis_gap_m": 6.567498544995942e-09
+    },
+    {
+      "shaft": "B25::G110_IN_03.leg.+1.shaft",
+      "plate": "B25::G110_IN_03.leg.+1.base_plate",
+      "base_axis_gap_m": 2.484546346437355e-09
+    },
+    {
+      "shaft": "B25::G110_IN_04.leg.-1.shaft",
+      "plate": "B25::G110_IN_04.leg.-1.base_plate",
+      "base_axis_gap_m": 4.337797676612354e-09
+    },
+    {
+      "shaft": "B25::G110_IN_04.leg.+1.shaft",
+      "plate": "B25::G110_IN_04.leg.+1.base_plate",
+      "base_axis_gap_m": 4.809215581325077e-09
+    },
+    {
+      "shaft": "B25::G110_IN_05.leg.-1.shaft",
+      "plate": "B25::G110_IN_05.leg.-1.base_plate",
+      "base_axis_gap_m": 7.62069324311554e-09
+    },
+    {
+      "shaft": "B25::G110_IN_05.leg.+1.shaft",
+      "plate": "B25::G110_IN_05.leg.+1.base_plate",
+      "base_axis_gap_m": 5.04652375443726e-09
+    },
+    {
+      "shaft": "B25::G220_OUT_00.leg.-1.shaft",
+      "plate": "B25::G220_OUT_00.leg.-1.base_plate",
+      "base_axis_gap_m": 1.0877847678170127e-08
+    },
+    {
+      "shaft": "B25::G220_OUT_00.leg.+1.shaft",
+      "plate": "B25::G220_OUT_00.leg.+1.base_plate",
+      "base_axis_gap_m": 1.0877847678170127e-08
+    },
+    {
+      "shaft": "B25::G220_OUT_01.leg.-1.shaft",
+      "plate": "B25::G220_OUT_01.leg.-1.base_plate",
+      "base_axis_gap_m": 1.0877847678170127e-08
+    },
+    {
+      "shaft": "B25::G220_OUT_01.leg.+1.shaft",
+      "plate": "B25::G220_OUT_01.leg.+1.base_plate",
+      "base_axis_gap_m": 1.0877847678170127e-08
+    },
+    {
+      "shaft": "B25::G220_OUT_02.leg.-1.shaft",
+      "plate": "B25::G220_OUT_02.leg.-1.base_plate",
+      "base_axis_gap_m": 1.139465521937666e-09
+    },
+    {
+      "shaft": "B25::G220_OUT_02.leg.+1.shaft",
+      "plate": "B25::G220_OUT_02.leg.+1.base_plate",
+      "base_axis_gap_m": 1.0877847678170127e-08
+    },
+    {
+      "shaft": "B25::G220_OUT_03.leg.-1.shaft",
+      "plate": "B25::G220_OUT_03.leg.-1.base_plate",
+      "base_axis_gap_m": 1.0877847678170127e-08
+    },
+    {
+      "shaft": "B25::G220_OUT_03.leg.+1.shaft",
+      "plate": "B25::G220_OUT_03.leg.+1.base_plate",
+      "base_axis_gap_m": 1.0877847678170127e-08
+    },
+    {
+      "shaft": "B25::G220_OUT_04.leg.-1.shaft",
+      "plate": "B25::G220_OUT_04.leg.-1.base_plate",
+      "base_axis_gap_m": 1.2722746245419359e-08
+    },
+    {
+      "shaft": "B25::G220_OUT_04.leg.+1.shaft",
+      "plate": "B25::G220_OUT_04.leg.+1.base_plate",
+      "base_axis_gap_m": 1.0877847678170127e-08
+    }
+  ],
+  "surface_checks": [
+    {
+      "key": "G110_OUT",
+      "support": "G110_OUT_00",
+      "side": -1,
+      "sample_count": 2128,
+      "before": {
+        "rms_m": 0.14411511637493304,
+        "median_m": 0.05913699232041836,
+        "p95_m": 0.3249120309948921,
+        "within_25cm_fraction": 0.9069548872180451
+      },
+      "current": {
+        "rms_m": 0.10640642591831373,
+        "median_m": 0.03567521646618843,
+        "p95_m": 0.2532605692744253,
+        "within_25cm_fraction": 0.9478383458646616
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          8.539603785761296
+        ],
+        "expected_center_y": -64.09,
+        "abs_y": 0.65,
+        "predicted_x_base": -74.7388132794122,
+        "predicted_slope": 0.13283231784209573,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_OUT",
+      "support": "G110_OUT_00",
+      "side": 1,
+      "sample_count": 4972,
+      "before": {
+        "rms_m": 0.1432704655894216,
+        "median_m": 0.09324715286493301,
+        "p95_m": 0.2988601356744766,
+        "within_25cm_fraction": 0.9223652453740949
+      },
+      "current": {
+        "rms_m": 0.09987496685535069,
+        "median_m": 0.0650174729526043,
+        "p95_m": 0.18249402493238448,
+        "within_25cm_fraction": 0.9808930008045053
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          8.539603785761296
+        ],
+        "expected_center_y": -64.09,
+        "abs_y": 0.65,
+        "predicted_x_base": -71.93881327941219,
+        "predicted_slope": -0.13283231784209573,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_OUT",
+      "support": "G110_OUT_01",
+      "side": -1,
+      "sample_count": 4181,
+      "before": {
+        "rms_m": 0.2505049675419336,
+        "median_m": 0.21032491326332092,
+        "p95_m": 0.4333047568798065,
+        "within_25cm_fraction": 0.613250418560153
+      },
+      "current": {
+        "rms_m": 0.1027699388974757,
+        "median_m": 0.04758116230368614,
+        "p95_m": 0.2338787019252777,
+        "within_25cm_fraction": 0.9665151877541258
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          8.555885805638095
+        ],
+        "expected_center_y": -49.13,
+        "abs_y": 0.65,
+        "predicted_x_base": -74.6612775587944,
+        "predicted_slope": 0.13262742945288722,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_OUT",
+      "support": "G110_OUT_01",
+      "side": 1,
+      "sample_count": 5716,
+      "before": {
+        "rms_m": 0.20139565457397904,
+        "median_m": 0.16584397852420807,
+        "p95_m": 0.33853984624147415,
+        "within_25cm_fraction": 0.6971658502449265
+      },
+      "current": {
+        "rms_m": 0.09323417450328837,
+        "median_m": 0.07282843440771103,
+        "p95_m": 0.17357774451375008,
+        "within_25cm_fraction": 0.9994751574527642
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          8.555885805638095
+        ],
+        "expected_center_y": -49.13,
+        "abs_y": 0.65,
+        "predicted_x_base": -71.86127755879438,
+        "predicted_slope": -0.13262742945288722,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_OUT",
+      "support": "G110_OUT_02",
+      "side": -1,
+      "sample_count": 5027,
+      "before": {
+        "rms_m": 0.13644103142640673,
+        "median_m": 0.09195102006196976,
+        "p95_m": 0.26806747913360596,
+        "within_25cm_fraction": 0.9202307539287846
+      },
+      "current": {
+        "rms_m": 0.1144582033868836,
+        "median_m": 0.0521666556596756,
+        "p95_m": 0.252994230389595,
+        "within_25cm_fraction": 0.9478814402227969
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          8.572189592921148
+        ],
+        "expected_center_y": -34.15,
+        "abs_y": 0.65,
+        "predicted_x_base": -74.58363818079609,
+        "predicted_slope": 0.13242289950394023,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_OUT",
+      "support": "G110_OUT_02",
+      "side": 1,
+      "sample_count": 8226,
+      "before": {
+        "rms_m": 0.09872099559739997,
+        "median_m": 0.043909499421715736,
+        "p95_m": 0.21540627256035805,
+        "within_25cm_fraction": 0.975200583515682
+      },
+      "current": {
+        "rms_m": 0.09600112764591165,
+        "median_m": 0.06790590658783913,
+        "p95_m": 0.17237114533782005,
+        "within_25cm_fraction": 0.9924629224410406
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          8.572189592921148
+        ],
+        "expected_center_y": -34.15,
+        "abs_y": 0.65,
+        "predicted_x_base": -71.78363818079607,
+        "predicted_slope": -0.13242289950394023,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_OUT",
+      "support": "G110_OUT_03",
+      "side": -1,
+      "sample_count": 5243,
+      "before": {
+        "rms_m": 12.065430627022645,
+        "median_m": 12.037177085876465,
+        "p95_m": 12.428863620758056,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.089885437850984,
+        "median_m": 0.044228002429008484,
+        "p95_m": 0.19889110177755334,
+        "within_25cm_fraction": 0.9856952126645051
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          8.58835189206356
+        ],
+        "expected_center_y": -19.3,
+        "abs_y": 0.65,
+        "predicted_x_base": -74.50667257577108,
+        "predicted_slope": 0.13222076620341283,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_OUT",
+      "support": "G110_OUT_03",
+      "side": 1,
+      "sample_count": 7440,
+      "before": {
+        "rms_m": 10.575090451564822,
+        "median_m": 10.658254146575928,
+        "p95_m": 11.549732542037964,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.09922204968946949,
+        "median_m": 0.07795414701104164,
+        "p95_m": 0.18072329983115185,
+        "within_25cm_fraction": 0.9975806451612903
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          8.58835189206356
+        ],
+        "expected_center_y": -19.3,
+        "abs_y": 0.65,
+        "predicted_x_base": -71.70667257577107,
+        "predicted_slope": -0.13222076620341283,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_OUT",
+      "support": "G110_OUT_04",
+      "side": -1,
+      "sample_count": 1739,
+      "before": {
+        "rms_m": 0.33057055915915495,
+        "median_m": 0.28907784819602966,
+        "p95_m": 0.5337906241416931,
+        "within_25cm_fraction": 0.39447958596894767
+      },
+      "current": {
+        "rms_m": 0.04596781104163714,
+        "median_m": 0.028975682333111763,
+        "p95_m": 0.07252639457583426,
+        "within_25cm_fraction": 1.0
+      },
+      "five_cm_screen_passed": true,
+      "domain": {
+        "z": [
+          0.8,
+          8.604938655627894
+        ],
+        "expected_center_y": -4.06,
+        "abs_y": 0.65,
+        "predicted_x_base": -74.4276856518262,
+        "predicted_slope": 0.1320139649517953,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_OUT",
+      "support": "G110_OUT_04",
+      "side": 1,
+      "sample_count": 6043,
+      "before": {
+        "rms_m": 0.29053536894263476,
+        "median_m": 0.28626835346221924,
+        "p95_m": 0.43977004289627075,
+        "within_25cm_fraction": 0.42942247228197916
+      },
+      "current": {
+        "rms_m": 0.09535300634421051,
+        "median_m": 0.07361061125993729,
+        "p95_m": 0.1702765807509422,
+        "within_25cm_fraction": 0.9945391361906338
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          8.604938655627894
+        ],
+        "expected_center_y": -4.06,
+        "abs_y": 0.65,
+        "predicted_x_base": -71.62768565182618,
+        "predicted_slope": -0.1320139649517953,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_OUT",
+      "support": "G110_OUT_05",
+      "side": -1,
+      "sample_count": 1769,
+      "before": {
+        "rms_m": 0.26636434169300155,
+        "median_m": 0.23392346501350403,
+        "p95_m": 0.42668232321739197,
+        "within_25cm_fraction": 0.5438100621820238
+      },
+      "current": {
+        "rms_m": 0.05973687218167795,
+        "median_m": 0.034314174205064774,
+        "p95_m": 0.12963945865631102,
+        "within_25cm_fraction": 0.9960429621254946
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          8.621188024395316
+        ],
+        "expected_center_y": 10.87,
+        "abs_y": 0.65,
+        "predicted_x_base": -74.35030541727916,
+        "predicted_slope": 0.13181199662263812,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_OUT",
+      "support": "G110_OUT_05",
+      "side": 1,
+      "sample_count": 7568,
+      "before": {
+        "rms_m": 0.21929811259032161,
+        "median_m": 0.18909648805856705,
+        "p95_m": 0.3674008071422576,
+        "within_25cm_fraction": 0.6691331923890064
+      },
+      "current": {
+        "rms_m": 0.09580123139960595,
+        "median_m": 0.07042968273162842,
+        "p95_m": 0.16816466972231864,
+        "within_25cm_fraction": 0.9920718816067653
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          8.621188024395316
+        ],
+        "expected_center_y": 10.87,
+        "abs_y": 0.65,
+        "predicted_x_base": -71.55030541727915,
+        "predicted_slope": -0.13181199662263812,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_OUT",
+      "support": "G110_OUT_06",
+      "side": -1,
+      "sample_count": 2938,
+      "before": {
+        "rms_m": 0.11875982278152424,
+        "median_m": 0.07609802484512329,
+        "p95_m": 0.2348735503852368,
+        "within_25cm_fraction": 0.9577944179714091
+      },
+      "current": {
+        "rms_m": 0.08993271228997446,
+        "median_m": 0.03709688037633896,
+        "p95_m": 0.21431984603405002,
+        "within_25cm_fraction": 0.9703880190605855
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          8.637480927975243
+        ],
+        "expected_center_y": 25.84,
+        "abs_y": 0.65,
+        "predicted_x_base": -74.27271786797111,
+        "predicted_slope": 0.1316101067046969,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_OUT",
+      "support": "G110_OUT_06",
+      "side": 1,
+      "sample_count": 6094,
+      "before": {
+        "rms_m": 0.11199807653654664,
+        "median_m": 0.07612132653594017,
+        "p95_m": 0.2198995321989059,
+        "within_25cm_fraction": 0.975057433541188
+      },
+      "current": {
+        "rms_m": 0.09773898993556183,
+        "median_m": 0.07096528261899948,
+        "p95_m": 0.17867108881473537,
+        "within_25cm_fraction": 0.9922874958976042
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          8.637480927975243
+        ],
+        "expected_center_y": 25.84,
+        "abs_y": 0.65,
+        "predicted_x_base": -71.4727178679711,
+        "predicted_slope": -0.1316101067046969,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_OUT",
+      "support": "G110_OUT_07",
+      "side": -1,
+      "sample_count": 2007,
+      "before": {
+        "rms_m": 0.15416118160623368,
+        "median_m": 0.1083337664604187,
+        "p95_m": 0.27021374702453604,
+        "within_25cm_fraction": 0.9287493771798705
+      },
+      "current": {
+        "rms_m": 0.09314785573436997,
+        "median_m": 0.03609127551317215,
+        "p95_m": 0.23344544321298538,
+        "within_25cm_fraction": 0.963129048330842
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          8.653621459711403
+        ],
+        "expected_center_y": 40.67,
+        "abs_y": 0.65,
+        "predicted_x_base": -74.1958559203266,
+        "predicted_slope": 0.13141071374596452,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_OUT",
+      "support": "G110_OUT_07",
+      "side": 1,
+      "sample_count": 4241,
+      "before": {
+        "rms_m": 0.15282978870804773,
+        "median_m": 0.08137750625610352,
+        "p95_m": 0.3068520426750183,
+        "within_25cm_fraction": 0.8877623202074982
+      },
+      "current": {
+        "rms_m": 0.09904475608193815,
+        "median_m": 0.06506963819265366,
+        "p95_m": 0.18914444744586945,
+        "within_25cm_fraction": 0.9863239801933507
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          8.653621459711403
+        ],
+        "expected_center_y": 40.67,
+        "abs_y": 0.65,
+        "predicted_x_base": -71.39585592032658,
+        "predicted_slope": -0.13141071374596452,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_IN",
+      "support": "G110_IN_00",
+      "side": -1,
+      "sample_count": 2553,
+      "before": {
+        "rms_m": 0.20262353954986728,
+        "median_m": 0.16741465032100677,
+        "p95_m": 0.34450197815895084,
+        "within_25cm_fraction": 0.7074030552291422
+      },
+      "current": {
+        "rms_m": 0.050549769852153446,
+        "median_m": 0.016335243359208107,
+        "p95_m": 0.13416051268577575,
+        "within_25cm_fraction": 1.0
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          10.494415314669315
+        ],
+        "expected_center_y": -40.55,
+        "abs_y": 0.65,
+        "predicted_x_base": -61.69358970157438,
+        "predicted_slope": 0.12005363694281039,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_IN",
+      "support": "G110_IN_00",
+      "side": 1,
+      "sample_count": 7148,
+      "before": {
+        "rms_m": 0.4161522884849856,
+        "median_m": 0.41787901520729065,
+        "p95_m": 0.6171173423528671,
+        "within_25cm_fraction": 0.28413542249580304
+      },
+      "current": {
+        "rms_m": 0.1034995047635788,
+        "median_m": 0.08083511143922806,
+        "p95_m": 0.19324377551674843,
+        "within_25cm_fraction": 0.9995803021824287
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          10.494415314669315
+        ],
+        "expected_center_y": -40.55,
+        "abs_y": 0.65,
+        "predicted_x_base": -58.69358970157438,
+        "predicted_slope": -0.12005363694281039,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_IN",
+      "support": "G110_IN_01",
+      "side": -1,
+      "sample_count": 2881,
+      "before": {
+        "rms_m": 0.14737056462667258,
+        "median_m": 0.07202228158712387,
+        "p95_m": 0.36057227849960327,
+        "within_25cm_fraction": 0.9035057271780632
+      },
+      "current": {
+        "rms_m": 0.13244809439738228,
+        "median_m": 0.027459926903247833,
+        "p95_m": 0.3802744448184967,
+        "within_25cm_fraction": 0.9135716765012148
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          10.502732725268858
+        ],
+        "expected_center_y": -32.73,
+        "abs_y": 0.65,
+        "predicted_x_base": -61.65221024518179,
+        "predicted_slope": 0.11997377157142612,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_IN",
+      "support": "G110_IN_01",
+      "side": 1,
+      "sample_count": 2995,
+      "before": {
+        "rms_m": 0.16132551539178452,
+        "median_m": 0.07981055974960327,
+        "p95_m": 0.3598556220531459,
+        "within_25cm_fraction": 0.8848080133555927
+      },
+      "current": {
+        "rms_m": 0.12893942920665366,
+        "median_m": 0.02263031154870987,
+        "p95_m": 0.37810268998146057,
+        "within_25cm_fraction": 0.9161936560934891
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          10.502732725268858
+        ],
+        "expected_center_y": -32.73,
+        "abs_y": 0.65,
+        "predicted_x_base": -58.65221024518179,
+        "predicted_slope": -0.11997377157142612,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_IN",
+      "support": "G110_IN_02",
+      "side": -1,
+      "sample_count": 2551,
+      "before": {
+        "rms_m": 0.18481914874627145,
+        "median_m": 0.15235237777233124,
+        "p95_m": 0.31369876861572266,
+        "within_25cm_fraction": 0.7793022344178754
+      },
+      "current": {
+        "rms_m": 0.04717297243276663,
+        "median_m": 0.014823407866060734,
+        "p95_m": 0.12144510075449944,
+        "within_25cm_fraction": 0.999607996863975
+      },
+      "five_cm_screen_passed": true,
+      "domain": {
+        "z": [
+          0.8,
+          10.518878287020911
+        ],
+        "expected_center_y": -17.55,
+        "abs_y": 0.65,
+        "predicted_x_base": -61.571885418066756,
+        "predicted_slope": 0.11981904173915821,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_IN",
+      "support": "G110_IN_02",
+      "side": 1,
+      "sample_count": 9344,
+      "before": {
+        "rms_m": 0.4259885349662597,
+        "median_m": 0.4545948952436447,
+        "p95_m": 0.599513778090477,
+        "within_25cm_fraction": 0.2444349315068493
+      },
+      "current": {
+        "rms_m": 0.10659619454420503,
+        "median_m": 0.08088066056370735,
+        "p95_m": 0.2004486493766308,
+        "within_25cm_fraction": 0.9965753424657534
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          10.518878287020911
+        ],
+        "expected_center_y": -17.55,
+        "abs_y": 0.65,
+        "predicted_x_base": -58.571885418066756,
+        "predicted_slope": -0.11981904173915821,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_IN",
+      "support": "G110_IN_03",
+      "side": -1,
+      "sample_count": 2130,
+      "before": {
+        "rms_m": 0.10447129668764711,
+        "median_m": 0.07379255071282387,
+        "p95_m": 0.24700307473540284,
+        "within_25cm_fraction": 0.9507042253521126
+      },
+      "current": {
+        "rms_m": 0.04252016281326042,
+        "median_m": 0.015665922313928604,
+        "p95_m": 0.1058973915874958,
+        "within_25cm_fraction": 1.0
+      },
+      "five_cm_screen_passed": true,
+      "domain": {
+        "z": [
+          0.8,
+          10.527216969770324
+        ],
+        "expected_center_y": -9.71,
+        "abs_y": 0.65,
+        "predicted_x_base": -61.530400131862415,
+        "predicted_slope": 0.11973928476050824,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_IN",
+      "support": "G110_IN_03",
+      "side": 1,
+      "sample_count": 2025,
+      "before": {
+        "rms_m": 0.10626967821446498,
+        "median_m": 0.06322799623012543,
+        "p95_m": 0.2173545420169829,
+        "within_25cm_fraction": 0.9634567901234568
+      },
+      "current": {
+        "rms_m": 0.03791431433819596,
+        "median_m": 0.01428297534584999,
+        "p95_m": 0.0860017657279968,
+        "within_25cm_fraction": 1.0
+      },
+      "five_cm_screen_passed": true,
+      "domain": {
+        "z": [
+          0.8,
+          10.527216969770324
+        ],
+        "expected_center_y": -9.71,
+        "abs_y": 0.65,
+        "predicted_x_base": -58.530400131862415,
+        "predicted_slope": -0.11973928476050824,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_IN",
+      "support": "G110_IN_04",
+      "side": -1,
+      "sample_count": 1845,
+      "before": {
+        "rms_m": 0.14176184313539483,
+        "median_m": 0.10501521080732346,
+        "p95_m": 0.2603661596775055,
+        "within_25cm_fraction": 0.9300813008130081
+      },
+      "current": {
+        "rms_m": 0.04865892813716492,
+        "median_m": 0.014749928377568722,
+        "p95_m": 0.120317904651165,
+        "within_25cm_fraction": 1.0
+      },
+      "five_cm_screen_passed": true,
+      "domain": {
+        "z": [
+          0.8,
+          10.534715402599835
+        ],
+        "expected_center_y": -2.66,
+        "abs_y": 0.65,
+        "predicted_x_base": -61.493095123222034,
+        "predicted_slope": 0.11966765513390785,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_IN",
+      "support": "G110_IN_04",
+      "side": 1,
+      "sample_count": 7250,
+      "before": {
+        "rms_m": 0.3944563272237148,
+        "median_m": 0.4194571524858475,
+        "p95_m": 0.5527862012386322,
+        "within_25cm_fraction": 0.29282758620689653
+      },
+      "current": {
+        "rms_m": 0.10462493292019637,
+        "median_m": 0.07716229557991028,
+        "p95_m": 0.20144762471318245,
+        "within_25cm_fraction": 0.996551724137931
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          10.534715402599835
+        ],
+        "expected_center_y": -2.66,
+        "abs_y": 0.65,
+        "predicted_x_base": -58.493095123222034,
+        "predicted_slope": -0.11966765513390785,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_IN",
+      "support": "G110_IN_05",
+      "side": -1,
+      "sample_count": 2361,
+      "before": {
+        "rms_m": 0.1439407200714113,
+        "median_m": 0.07899066805839539,
+        "p95_m": 0.3383268415927887,
+        "within_25cm_fraction": 0.8864887759423973
+      },
+      "current": {
+        "rms_m": 0.11581668625853558,
+        "median_m": 0.026153668761253357,
+        "p95_m": 0.3132311701774597,
+        "within_25cm_fraction": 0.9351969504447268
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          10.543139173948731
+        ],
+        "expected_center_y": 5.26,
+        "abs_y": 0.65,
+        "predicted_x_base": -61.45118651777071,
+        "predicted_slope": 0.11958728825359768,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G110_IN",
+      "support": "G110_IN_05",
+      "side": 1,
+      "sample_count": 2144,
+      "before": {
+        "rms_m": 0.14236040181990514,
+        "median_m": 0.08282550424337387,
+        "p95_m": 0.33859529644250846,
+        "within_25cm_fraction": 0.8992537313432836
+      },
+      "current": {
+        "rms_m": 0.12019329275733322,
+        "median_m": 0.020837781950831413,
+        "p95_m": 0.3439675733447073,
+        "within_25cm_fraction": 0.929570895522388
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          10.543139173948731
+        ],
+        "expected_center_y": 5.26,
+        "abs_y": 0.65,
+        "predicted_x_base": -58.45118651777071,
+        "predicted_slope": -0.11958728825359768,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G220_OUT",
+      "support": "G220_OUT_00",
+      "side": -1,
+      "sample_count": 7574,
+      "before": {
+        "rms_m": 67.35805404164986,
+        "median_m": 67.2165756225586,
+        "p95_m": 68.73189163208008,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.1050008016632115,
+        "median_m": 0.0726708173751831,
+        "p95_m": 0.19777440205216407,
+        "within_25cm_fraction": 0.9819118035384209
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          12.245094428250955
+        ],
+        "expected_center_y": -57.0,
+        "abs_y": 0.65,
+        "predicted_x_base": 5.751123320333699,
+        "predicted_slope": 0.13688922946925144,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G220_OUT",
+      "support": "G220_OUT_00",
+      "side": 1,
+      "sample_count": 3882,
+      "before": {
+        "rms_m": 69.46943497534659,
+        "median_m": 69.46629333496094,
+        "p95_m": 69.85232925415039,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.12218815862043268,
+        "median_m": 0.033205024898052216,
+        "p95_m": 0.3118774354457855,
+        "within_25cm_fraction": 0.9034003091190108
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          12.245094428250955
+        ],
+        "expected_center_y": -57.0,
+        "abs_y": 0.65,
+        "predicted_x_base": 9.6511233203337,
+        "predicted_slope": -0.13688922946925144,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G220_OUT",
+      "support": "G220_OUT_01",
+      "side": -1,
+      "sample_count": 2767,
+      "before": {
+        "rms_m": 65.43464099244784,
+        "median_m": 65.22220611572266,
+        "p95_m": 66.83020095825195,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.057898063926352175,
+        "median_m": 0.0161590613424778,
+        "p95_m": 0.0869218654930591,
+        "within_25cm_fraction": 0.9808456812432237
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          12.280650674706605
+        ],
+        "expected_center_y": -33.0,
+        "abs_y": 0.65,
+        "predicted_x_base": 5.873669832879934,
+        "predicted_slope": 0.13654839995867785,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G220_OUT",
+      "support": "G220_OUT_01",
+      "side": 1,
+      "sample_count": 6251,
+      "before": {
+        "rms_m": 67.31691655596224,
+        "median_m": 67.3140869140625,
+        "p95_m": 67.74102783203125,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.08908169228396358,
+        "median_m": 0.03503873571753502,
+        "p95_m": 0.21204589307308197,
+        "within_25cm_fraction": 0.9744040953447448
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          12.280650674706605
+        ],
+        "expected_center_y": -33.0,
+        "abs_y": 0.65,
+        "predicted_x_base": 9.773669832879934,
+        "predicted_slope": -0.13654839995867785,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G220_OUT",
+      "support": "G220_OUT_02",
+      "side": -1,
+      "sample_count": 8400,
+      "before": {
+        "rms_m": 65.31223423099867,
+        "median_m": 65.2969970703125,
+        "p95_m": 66.47954292297364,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.09572747042108422,
+        "median_m": 0.07057471573352814,
+        "p95_m": 0.17420046404004097,
+        "within_25cm_fraction": 0.9990476190476191
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          12.316206921162253
+        ],
+        "expected_center_y": -9.0,
+        "abs_y": 0.65,
+        "predicted_x_base": 5.996216345426169,
+        "predicted_slope": 0.1362092634409681,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G220_OUT",
+      "support": "G220_OUT_02",
+      "side": 1,
+      "sample_count": 4493,
+      "before": {
+        "rms_m": 67.41524598663302,
+        "median_m": 67.40873718261719,
+        "p95_m": 67.78835601806641,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.09657818845495238,
+        "median_m": 0.03352076932787895,
+        "p95_m": 0.24290579259395584,
+        "within_25cm_fraction": 0.955931448920543
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          12.316206921162253
+        ],
+        "expected_center_y": -9.0,
+        "abs_y": 0.65,
+        "predicted_x_base": 9.896216345426168,
+        "predicted_slope": -0.1362092634409681,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G220_OUT",
+      "support": "G220_OUT_03",
+      "side": -1,
+      "sample_count": 8652,
+      "before": {
+        "rms_m": 65.81013240044959,
+        "median_m": 65.6613883972168,
+        "p95_m": 67.09500389099121,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.09104130809658253,
+        "median_m": 0.06174643151462078,
+        "p95_m": 0.1707881219685077,
+        "within_25cm_fraction": 0.9966481738326398
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          12.351615016591005
+        ],
+        "expected_center_y": 14.9,
+        "abs_y": 0.65,
+        "predicted_x_base": 6.11825224750346,
+        "predicted_slope": 0.13587320993112809,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G220_OUT",
+      "support": "G220_OUT_03",
+      "side": 1,
+      "sample_count": 1990,
+      "before": {
+        "rms_m": 67.90379630118174,
+        "median_m": 67.90549087524414,
+        "p95_m": 68.19327964782715,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.0373159880680353,
+        "median_m": 0.018551918677985668,
+        "p95_m": 0.0745141427963972,
+        "within_25cm_fraction": 1.0
+      },
+      "five_cm_screen_passed": true,
+      "domain": {
+        "z": [
+          0.8,
+          12.351615016591005
+        ],
+        "expected_center_y": 14.9,
+        "abs_y": 0.65,
+        "predicted_x_base": 10.01825224750346,
+        "predicted_slope": -0.13587320993112809,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G220_OUT",
+      "support": "G220_OUT_04",
+      "side": -1,
+      "sample_count": 6263,
+      "before": {
+        "rms_m": 73.29949444031044,
+        "median_m": 73.24862670898438,
+        "p95_m": 74.4972152709961,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.09460283226746326,
+        "median_m": 0.06376362591981888,
+        "p95_m": 0.18239684253931035,
+        "within_25cm_fraction": 0.9932939485869392
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          12.386726809965959
+        ],
+        "expected_center_y": 38.6,
+        "abs_y": 0.65,
+        "predicted_x_base": 6.239266928642867,
+        "predicted_slope": 0.13554160204454552,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "G220_OUT",
+      "support": "G220_OUT_04",
+      "side": 1,
+      "sample_count": 1611,
+      "before": {
+        "rms_m": 74.98793421388281,
+        "median_m": 74.96937561035156,
+        "p95_m": 75.26636123657227,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.06541819489795297,
+        "median_m": 0.02205536887049675,
+        "p95_m": 0.1507347673177719,
+        "within_25cm_fraction": 0.9857231533209186
+      },
+      "five_cm_screen_passed": false,
+      "domain": {
+        "z": [
+          0.8,
+          12.386726809965959
+        ],
+        "expected_center_y": 38.6,
+        "abs_y": 0.65,
+        "predicted_x_base": 10.139266928642867,
+        "predicted_slope": -0.13554160204454552,
+        "abs_x_from_pred": 0.52
+      },
+      "residual_trimming": false
+    }
+  ],
+  "beam_checks": [
+    {
+      "key": "G110_OUT",
+      "span": "G110_OUT_SPAN_00_01",
+      "sample_count": 4564,
+      "before": {
+        "rms_m": 4.326467318149156,
+        "median_m": 3.8022137880325317,
+        "p95_m": 6.9210896492004395,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.17179935480734693,
+        "median_m": 0.06993589550256729,
+        "p95_m": 0.3856888398528096,
+        "within_25cm_fraction": 0.8689745836985101
+      },
+      "sample_method": "original odd triangles, first point per fixed 7.5cm voxel in whole beam prism; no residual trimming"
+    },
+    {
+      "key": "G110_OUT",
+      "span": "G110_OUT_SPAN_01_02",
+      "sample_count": 5078,
+      "before": {
+        "rms_m": 4.388354105664469,
+        "median_m": 3.898183584213257,
+        "p95_m": 6.94270966053009,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.15018241298632354,
+        "median_m": 0.06817419454455376,
+        "p95_m": 0.32139602601528167,
+        "within_25cm_fraction": 0.8918865695155573
+      },
+      "sample_method": "original odd triangles, first point per fixed 7.5cm voxel in whole beam prism; no residual trimming"
+    },
+    {
+      "key": "G110_OUT",
+      "span": "G110_OUT_SPAN_02_03",
+      "sample_count": 4930,
+      "before": {
+        "rms_m": 8.354610315313606,
+        "median_m": 7.66817307472229,
+        "p95_m": 12.557801389694214,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.16471498688498729,
+        "median_m": 0.06753813475370407,
+        "p95_m": 0.36089961677789695,
+        "within_25cm_fraction": 0.8716024340770792
+      },
+      "sample_method": "original odd triangles, first point per fixed 7.5cm voxel in whole beam prism; no residual trimming"
+    },
+    {
+      "key": "G110_OUT",
+      "span": "G110_OUT_SPAN_03_04",
+      "sample_count": 4621,
+      "before": {
+        "rms_m": 8.393896729926267,
+        "median_m": 7.899632453918457,
+        "p95_m": 12.182185173034668,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.12995557988748163,
+        "median_m": 0.07073088735342026,
+        "p95_m": 0.2855605185031891,
+        "within_25cm_fraction": 0.916901103657217
+      },
+      "sample_method": "original odd triangles, first point per fixed 7.5cm voxel in whole beam prism; no residual trimming"
+    },
+    {
+      "key": "G110_OUT",
+      "span": "G110_OUT_SPAN_04_05",
+      "sample_count": 5259,
+      "before": {
+        "rms_m": 4.531467024459595,
+        "median_m": 4.243244171142578,
+        "p95_m": 6.999783992767334,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.1298744007146733,
+        "median_m": 0.07657665759325027,
+        "p95_m": 0.27832208275794973,
+        "within_25cm_fraction": 0.9191861570640806
+      },
+      "sample_method": "original odd triangles, first point per fixed 7.5cm voxel in whole beam prism; no residual trimming"
+    },
+    {
+      "key": "G110_OUT",
+      "span": "G110_OUT_SPAN_05_06",
+      "sample_count": 4699,
+      "before": {
+        "rms_m": 4.296915544359816,
+        "median_m": 3.779623508453369,
+        "p95_m": 6.930390882492065,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.12877470144232556,
+        "median_m": 0.0702030211687088,
+        "p95_m": 0.2779844313859937,
+        "within_25cm_fraction": 0.9176420515003192
+      },
+      "sample_method": "original odd triangles, first point per fixed 7.5cm voxel in whole beam prism; no residual trimming"
+    },
+    {
+      "key": "G110_OUT",
+      "span": "G110_OUT_SPAN_06_07",
+      "sample_count": 5011,
+      "before": {
+        "rms_m": 4.282404153881379,
+        "median_m": 3.786325216293335,
+        "p95_m": 6.9104766845703125,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.14766109824730048,
+        "median_m": 0.07765910774469376,
+        "p95_m": 0.3081091344356537,
+        "within_25cm_fraction": 0.8818599082019557
+      },
+      "sample_method": "original odd triangles, first point per fixed 7.5cm voxel in whole beam prism; no residual trimming"
+    },
+    {
+      "key": "G110_IN",
+      "span": "G110_IN_SPAN_00_01",
+      "sample_count": 2924,
+      "before": {
+        "rms_m": 2.232578336130107,
+        "median_m": 1.9396162629127502,
+        "p95_m": 3.468307304382324,
+        "within_25cm_fraction": 0.004103967168262654
+      },
+      "current": {
+        "rms_m": 0.11864599505569436,
+        "median_m": 0.061698053032159805,
+        "p95_m": 0.25639386773109435,
+        "within_25cm_fraction": 0.9445964432284542
+      },
+      "sample_method": "original odd triangles, first point per fixed 7.5cm voxel in whole beam prism; no residual trimming"
+    },
+    {
+      "key": "G110_IN",
+      "span": "G110_IN_SPAN_02_03",
+      "sample_count": 2831,
+      "before": {
+        "rms_m": 2.2377329275500704,
+        "median_m": 1.8631919622421265,
+        "p95_m": 3.5095995664596558,
+        "within_25cm_fraction": 0.00035323207347227127
+      },
+      "current": {
+        "rms_m": 0.1580795961636576,
+        "median_m": 0.06760752946138382,
+        "p95_m": 0.3454204648733139,
+        "within_25cm_fraction": 0.8742493818438715
+      },
+      "sample_method": "original odd triangles, first point per fixed 7.5cm voxel in whole beam prism; no residual trimming"
+    },
+    {
+      "key": "G110_IN",
+      "span": "G110_IN_SPAN_03_04",
+      "sample_count": 2377,
+      "before": {
+        "rms_m": 1.9996606791888645,
+        "median_m": 1.7439041137695312,
+        "p95_m": 3.097270631790161,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.11864153048141896,
+        "median_m": 0.0570477619767189,
+        "p95_m": 0.2774256825447081,
+        "within_25cm_fraction": 0.9276398822044594
+      },
+      "sample_method": "original odd triangles, first point per fixed 7.5cm voxel in whole beam prism; no residual trimming"
+    },
+    {
+      "key": "G110_IN",
+      "span": "G110_IN_SPAN_04_05",
+      "sample_count": 2361,
+      "before": {
+        "rms_m": 2.2947449217736184,
+        "median_m": 1.9526832103729248,
+        "p95_m": 3.557950019836426,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.15001332900137135,
+        "median_m": 0.05832238495349884,
+        "p95_m": 0.3211613893508911,
+        "within_25cm_fraction": 0.8856416772554002
+      },
+      "sample_method": "original odd triangles, first point per fixed 7.5cm voxel in whole beam prism; no residual trimming"
+    },
+    {
+      "key": "G220_OUT",
+      "span": "G220_OUT_SPAN_00_01",
+      "sample_count": 15636,
+      "before": {
+        "rms_m": 67.95030677749523,
+        "median_m": 67.87776184082031,
+        "p95_m": 69.23982048034668,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.17812179324623664,
+        "median_m": 0.09994843974709511,
+        "p95_m": 0.38355808705091476,
+        "within_25cm_fraction": 0.8235482220516757
+      },
+      "sample_method": "original odd triangles, first point per fixed 7.5cm voxel in whole beam prism; no residual trimming"
+    },
+    {
+      "key": "G220_OUT",
+      "span": "G220_OUT_SPAN_01_02",
+      "sample_count": 15673,
+      "before": {
+        "rms_m": 67.52270175313079,
+        "median_m": 67.5093765258789,
+        "p95_m": 68.35304718017578,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.17592655374025787,
+        "median_m": 0.0977652445435524,
+        "p95_m": 0.38026227951049807,
+        "within_25cm_fraction": 0.8279206278313023
+      },
+      "sample_method": "original odd triangles, first point per fixed 7.5cm voxel in whole beam prism; no residual trimming"
+    },
+    {
+      "key": "G220_OUT",
+      "span": "G220_OUT_SPAN_02_03",
+      "sample_count": 15595,
+      "before": {
+        "rms_m": 67.48571223510687,
+        "median_m": 67.4941635131836,
+        "p95_m": 68.22509002685547,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.17491570899182765,
+        "median_m": 0.09629615396261215,
+        "p95_m": 0.377694496512413,
+        "within_25cm_fraction": 0.829368387303623
+      },
+      "sample_method": "original odd triangles, first point per fixed 7.5cm voxel in whole beam prism; no residual trimming"
+    },
+    {
+      "key": "G220_OUT",
+      "span": "G220_OUT_SPAN_03_04",
+      "sample_count": 15194,
+      "before": {
+        "rms_m": 71.04048584202424,
+        "median_m": 70.7686538696289,
+        "p95_m": 74.48071060180663,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.17741196241426738,
+        "median_m": 0.10014608502388,
+        "p95_m": 0.378850221633911,
+        "within_25cm_fraction": 0.822429906542056
+      },
+      "sample_method": "original odd triangles, first point per fixed 7.5cm voxel in whole beam prism; no residual trimming"
+    }
+  ],
+  "high_zone_comparison": [
+    {
+      "zone": "GIS110",
+      "height_range": "z > 7m",
+      "sample_count": 87234,
+      "before": {
+        "rms_m": 3.4737884998321533,
+        "median_m": 1.7515838146209717,
+        "p95_m": 6.7275214195251465,
+        "within_25cm_fraction": 0.2407547515876837
+      },
+      "current": {
+        "rms_m": 0.8849583610616366,
+        "median_m": 0.1018519215285778,
+        "p95_m": 2.0106999874114986,
+        "within_25cm_fraction": 0.7286379164087398
+      },
+      "beyond_1m_before": 0.6164683494967559,
+      "beyond_1m_current": 0.14124080060526858,
+      "scope": "fixed pre-build occupied 10cm source voxels; includes civil and overhead strings, not physical device completion rate"
+    },
+    {
+      "zone": "GIS220",
+      "height_range": "z > 7m",
+      "sample_count": 86451,
+      "before": {
+        "rms_m": 9.070266723632812,
+        "median_m": 8.11860179901123,
+        "p95_m": 12.818693161010742,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 1.658692810192527,
+        "median_m": 0.14800146222114563,
+        "p95_m": 3.794888496398926,
+        "within_25cm_fraction": 0.6361985402135314
+      },
+      "beyond_1m_before": 0.9990167840742155,
+      "beyond_1m_current": 0.23085909937421198,
+      "scope": "fixed pre-build occupied 10cm source voxels; includes civil and overhead strings, not physical device completion rate"
+    }
+  ],
+  "local_screens_passed": 6,
+  "local_screens_unpassed": 32,
+  "camera_framing": {
+    "518_B25_Gantry_Overview": {
+      "meshes": 3089,
+      "min": [
+        0.08647153526544571,
+        0.1289062798023224
+      ],
+      "max": [
+        0.949999988079071,
+        0.908439576625824
+      ]
+    },
+    "519_B25_G110_OUT_Row_Clean": {
+      "meshes": 1300,
+      "min": [
+        0.06060915067791939,
+        0.3681139647960663
+      ],
+      "max": [
+        0.9386154413223267,
+        0.6771667003631592
+      ]
+    },
+    "522_B25_G110_OUT_Span_Clean": {
+      "meshes": 256,
+      "min": [
+        0.26666316390037537,
+        0.09256754070520401
+      ],
+      "max": [
+        0.7240756154060364,
+        0.8899338245391846
+      ]
+    },
+    "525_B25_G110_IN_Row_Clean": {
+      "meshes": 681,
+      "min": [
+        0.30268946290016174,
+        0.38451847434043884
+      ],
+      "max": [
+        0.6969438791275024,
+        0.6733890175819397
+      ]
+    },
+    "528_B25_G110_IN_Span_Clean": {
+      "meshes": 244,
+      "min": [
+        0.4069461524486542,
+        0.27560994029045105
+      ],
+      "max": [
+        0.5888805985450745,
+        0.949999988079071
+      ]
+    },
+    "531_B25_G220_OUT_Row_Clean": {
+      "meshes": 1108,
+      "min": [
+        0.09688736498355865,
+        0.3695569336414337
+      ],
+      "max": [
+        0.902128279209137,
+        0.7190385460853577
+      ]
+    },
+    "534_B25_G220_OUT_Span_Clean": {
+      "meshes": 363,
+      "min": [
+        0.27757686376571655,
+        0.20715385675430298
+      ],
+      "max": [
+        0.7142074704170227,
+        0.9499999284744263
+      ]
+    }
+  },
+  "pending": [
+    "Overhead suspension/strain strings and long external leads remain to connect to this structure.",
+    "Central transformer gantry is visibly absent and remains next.",
+    "Some mast tops meet the extraction height limit; their complete tip geometry/function is not asserted.",
+    "Small ladders, drainage details and individual flange dimensions remain simplified; previous non-structure local residuals retained."
+  ],
+  "formal_promotions": 0,
+  "outdoor_goal_complete": false,
+  "saved_by_validator": false,
+  "screen_scope": "38 fixed leg domains; saved finite surfaces; odd comparison/even fit from one correlated reconstruction; 5cm is an internal screen, not survey acceptance"
+}

@@ -1,0 +1,169 @@
+{
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D38/xialin_D38_fire_gis_fixes.blend",
+  "sha256": "ca84352903281ba8ff431ab22f32efe76efa5098061fc45fcb447d73717e7db4",
+  "previous_objects_unchanged": 36855,
+  "previous_scenes_unchanged": 750,
+  "previous_collections_unchanged": 850,
+  "previous_materials_unchanged": 407,
+  "previous_station_transforms_unchanged": 7141,
+  "quarantined_objects": [
+    "T23052218322040428::cabinet.1.body",
+    "T23052218322040428::cabinet.1.panel",
+    "T23052218322040428::cabinet.1.sign",
+    "T23052218322040428::cabinet.2.body",
+    "T23052218322040428::cabinet.2.panel",
+    "T23052218322040428::cabinet.2.sign",
+    "T23052218322040428::cabinet.3.body",
+    "T23052218322040428::cabinet.3.panel",
+    "T23052218322040428::cabinet.3.sign"
+  ],
+  "cabinets_removed_verified": true,
+  "summary": {
+    "quarantined_cabinets": 3,
+    "quarantined_objects": 9,
+    "fire_room": 1,
+    "fire_sand_boxes": 2,
+    "gis_bays": 3,
+    "geometry_objects": 3,
+    "linked_bay_objects": 275,
+    "placement_instances": 6
+  },
+  "finite_new_geometry": true,
+  "bay_mesh_datablocks_shared": true,
+  "ground_contacts": [
+    {
+      "name": "D38::FIRE_ROOM",
+      "ground_gap_m": 1.6689300537109375e-06,
+      "ground_source": "mesh_raycast"
+    },
+    {
+      "name": "D38::D38_FIRE_SAND_BOX_S",
+      "ground_gap_m": 1.430511474609375e-06,
+      "ground_source": "mesh_raycast"
+    },
+    {
+      "name": "D38::D38_FIRE_SAND_BOX_N",
+      "ground_gap_m": -5.841255187988281e-06,
+      "ground_source": "mesh_raycast"
+    },
+    {
+      "name": "D38::D38_GIS220_BAY_G1",
+      "ground_gap_m": 3.5762786865234375e-06,
+      "ground_source": "mesh_raycast"
+    },
+    {
+      "name": "D38::D38_GIS220_BAY_G2",
+      "ground_gap_m": 3.814697265625e-06,
+      "ground_source": "mesh_raycast"
+    },
+    {
+      "name": "D38::D38_GIS220_BAY_G3",
+      "ground_gap_m": 2.1457672119140625e-06,
+      "ground_source": "mesh_raycast"
+    }
+  ],
+  "bay_clearance": [
+    {
+      "name": "D38::D38_GIS220_BAY_G1",
+      "xy": [
+        -22.42,
+        -57.84
+      ]
+    },
+    {
+      "name": "D38::D38_GIS220_BAY_G2",
+      "xy": [
+        -27.55,
+        -47.26
+      ]
+    },
+    {
+      "name": "D38::D38_GIS220_BAY_G3",
+      "xy": [
+        -40.94,
+        -17.2
+      ]
+    }
+  ],
+  "camera_framing": {
+    "766_D38_Fire_Room_Clean": {
+      "min": [
+        0.46981707215309143,
+        0.3038303852081299
+      ],
+      "max": [
+        0.5460453033447266,
+        0.538820743560791
+      ]
+    },
+    "767_D38_Fire_Room_Overlay": {
+      "min": [
+        0.46981707215309143,
+        0.3038303852081299
+      ],
+      "max": [
+        0.5460453033447266,
+        0.538820743560791
+      ]
+    },
+    "768_D38_GIS_Row_Overlay": {
+      "min": [
+        0.35382354259490967,
+        0.06235296279191971
+      ],
+      "max": [
+        0.6261764764785767,
+        0.9588235020637512
+      ]
+    },
+    "769_D38_Station_Top_Clean": {
+      "min": [
+        0.24518640339374542,
+        0.08300787210464478
+      ],
+      "max": [
+        0.7575865983963013,
+        0.9194552898406982
+      ]
+    },
+    "770_D38_Cabinet_Sites_Overlay": {
+      "min": [
+        0.37986841797828674,
+        0.038552697747945786
+      ],
+      "max": [
+        0.6168420910835266,
+        0.9503946900367737
+      ]
+    }
+  },
+  "render_checks": [
+    {
+      "scene": "766_D38_Fire_Room_Clean",
+      "pixel_std": 0.32603
+    },
+    {
+      "scene": "767_D38_Fire_Room_Overlay",
+      "pixel_std": 0.20036
+    },
+    {
+      "scene": "768_D38_GIS_Row_Overlay",
+      "pixel_std": 0.27429
+    },
+    {
+      "scene": "769_D38_Station_Top_Clean",
+      "pixel_std": 0.31604
+    },
+    {
+      "scene": "770_D38_Cabinet_Sites_Overlay",
+      "pixel_std": 0.25292
+    }
+  ],
+  "asset_roundtrip_identical": true,
+  "limitations": [
+    "GIS 间隔的电气型号、编号、相别均不可考；仅按粗模外形放置候选几何，不作功能命名。",
+    "消防砂箱的黄色为消防砂箱惯例推定，无影像颜色证据；消防室红色来自用户对粗模纹理的确认。",
+    "粗模位置与模型位置经 B02 刚体注册矩阵换算，局部误差可达分米级；不宣称独立测绘精度。",
+    "cabinet.4 保留依据是粗模结构存在；其真实身份（是否为消防柜）未单独确认。"
+  ]
+}

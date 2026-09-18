@@ -1,0 +1,1204 @@
+{
+  "stage": "D37",
+  "revision": "D37.1",
+  "supersedes": "C37",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D37/xialin_D37_small_facilities.blend",
+  "sha256": "6b6a20a0604762a082cc09ef6fa822d5e8403ae93eef0ae9a34073d63f27459e",
+  "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D37/D37_small_facility_components.blend",
+  "asset_sha256": "3dcac3db13b34900f9f07c9f4266921f74a21fa2f0a614def3f6d776c1ef6ab2",
+  "baseline_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B36/xialin_B36_transformer_bus_racks_r3.blend",
+  "baseline_sha256_before": "b6bbc3caeffdf72ca52df2dd5e01234269fe652827131e64f1f8a1da7ef502e8",
+  "baseline_sha256_after": "b6bbc3caeffdf72ca52df2dd5e01234269fe652827131e64f1f8a1da7ef502e8",
+  "baseline_counts": {
+    "objects": 36812,
+    "scenes": 743,
+    "collections": 842,
+    "station_objects": 7116
+  },
+  "counts_after_build": {
+    "objects": 36864,
+    "scenes": 750,
+    "collections": 850,
+    "station_objects_in_d37_review": 7141
+  },
+  "station_scene": "762_D37_Station_Top_Clean",
+  "new_scenes": [
+    "759_D37_GIS_Floodlights_Clean",
+    "760_D37_GIS_Floodlights_Overlay",
+    "761_D37_Small_Facilities_Reference",
+    "762_D37_Station_Top_Clean",
+    "763_D37_Station_Top_Overlay",
+    "764_D37_Building_Trench_Clean",
+    "765_D37_Markers_Manholes_Overlay"
+  ],
+  "created_objects": [
+    {
+      "name": "D37::floodlight.base",
+      "collection": "D37_GIS_FLOODLIGHT_MASTER",
+      "kind": "box",
+      "material": "D37_concrete",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D37::floodlight.base_sleeve",
+      "collection": "D37_GIS_FLOODLIGHT_MASTER",
+      "kind": "cylinder",
+      "material": "D37_steel",
+      "vertices": 64,
+      "faces": 34
+    },
+    {
+      "name": "D37::floodlight.mast",
+      "collection": "D37_GIS_FLOODLIGHT_MASTER",
+      "kind": "cylinder",
+      "material": "D37_galvanized",
+      "vertices": 64,
+      "faces": 34
+    },
+    {
+      "name": "D37::floodlight.arm",
+      "collection": "D37_GIS_FLOODLIGHT_MASTER",
+      "kind": "box",
+      "material": "D37_galvanized",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D37::floodlight.head",
+      "collection": "D37_GIS_FLOODLIGHT_MASTER",
+      "kind": "box",
+      "material": "D37_steel",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D37::floodlight.face",
+      "collection": "D37_GIS_FLOODLIGHT_MASTER",
+      "kind": "box",
+      "material": "D37_lamp_face",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D37::manhole.collar",
+      "collection": "D37_MANHOLE_COVER_MASTER",
+      "kind": "ring",
+      "material": "D37_concrete",
+      "vertices": 160,
+      "faces": 160
+    },
+    {
+      "name": "D37::manhole.cover",
+      "collection": "D37_MANHOLE_COVER_MASTER",
+      "kind": "cylinder",
+      "material": "D37_cover_dark",
+      "vertices": 64,
+      "faces": 34
+    },
+    {
+      "name": "D37::manhole.bar_x",
+      "collection": "D37_MANHOLE_COVER_MASTER",
+      "kind": "box",
+      "material": "D37_steel",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D37::manhole.bar_y",
+      "collection": "D37_MANHOLE_COVER_MASTER",
+      "kind": "box",
+      "material": "D37_steel",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D37::trench.concrete_frame",
+      "collection": "D37_TRENCH_COVER_MASTER",
+      "kind": "box",
+      "material": "D37_concrete",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D37::trench.inset",
+      "collection": "D37_TRENCH_COVER_MASTER",
+      "kind": "box",
+      "material": "D37_cover_dark",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D37::trench.side_rail.-0.405",
+      "collection": "D37_TRENCH_COVER_MASTER",
+      "kind": "box",
+      "material": "D37_steel",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D37::trench.side_rail.0.405",
+      "collection": "D37_TRENCH_COVER_MASTER",
+      "kind": "box",
+      "material": "D37_steel",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D37::trench.crossbar.-0.86",
+      "collection": "D37_TRENCH_COVER_MASTER",
+      "kind": "box",
+      "material": "D37_steel",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D37::trench.crossbar.0.0",
+      "collection": "D37_TRENCH_COVER_MASTER",
+      "kind": "box",
+      "material": "D37_steel",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D37::trench.crossbar.0.86",
+      "collection": "D37_TRENCH_COVER_MASTER",
+      "kind": "box",
+      "material": "D37_steel",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D37::marker.base",
+      "collection": "D37_WHITE_MARKER_POST_MASTER",
+      "kind": "box",
+      "material": "D37_concrete",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D37::marker.post",
+      "collection": "D37_WHITE_MARKER_POST_MASTER",
+      "kind": "box",
+      "material": "D37_white",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D37::marker.red_band",
+      "collection": "D37_WHITE_MARKER_POST_MASTER",
+      "kind": "box",
+      "material": "D37_marker_red",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D37::marker.cap",
+      "collection": "D37_WHITE_MARKER_POST_MASTER",
+      "kind": "box",
+      "material": "D37_white",
+      "vertices": 8,
+      "faces": 6
+    }
+  ],
+  "placement_instances": [
+    {
+      "name": "D37::D37_GIS_FLOODLIGHT_01",
+      "facility_id": "D37_GIS_FLOODLIGHT_01",
+      "collection": "D37_GIS_FLOODLIGHT_MASTER",
+      "xy": [
+        -50.4,
+        -52.0
+      ],
+      "ground_z_world": -0.0967254638671875,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          -2.397031784057617
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          19.35175132751465
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0967254638671875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_GIS_FLOODLIGHT_02",
+      "facility_id": "D37_GIS_FLOODLIGHT_02",
+      "collection": "D37_GIS_FLOODLIGHT_MASTER",
+      "xy": [
+        -50.4,
+        -8.0
+      ],
+      "ground_z_world": -0.04155364992630297,
+      "ground_source": "grid_fallback",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          16.822240829467773
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          -20.22879409790039
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.04155365005135536
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_GIS_FLOODLIGHT_03",
+      "facility_id": "D37_GIS_FLOODLIGHT_03",
+      "collection": "D37_GIS_FLOODLIGHT_MASTER",
+      "xy": [
+        6.0,
+        -43.0
+      ],
+      "ground_z_world": -0.02021026611328125,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 180.0,
+      "matrix_world": [
+        [
+          0.899557888507843,
+          -0.436801552772522,
+          0.0,
+          -49.20087814331055
+        ],
+        [
+          0.436801552772522,
+          0.899557888507843,
+          0.0,
+          -13.379880905151367
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.02021026611328125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_GIS_FLOODLIGHT_04",
+      "facility_id": "D37_GIS_FLOODLIGHT_04",
+      "collection": "D37_GIS_FLOODLIGHT_MASTER",
+      "xy": [
+        6.0,
+        2.0
+      ],
+      "ground_z_world": -0.13482666015625,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 180.0,
+      "matrix_world": [
+        [
+          0.899557888507843,
+          -0.436801552772522,
+          0.0,
+          -29.5448055267334
+        ],
+        [
+          0.436801552772522,
+          0.899557888507843,
+          0.0,
+          -53.8599853515625
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.13482666015625
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_MANHOLE_01",
+      "facility_id": "D37_MANHOLE_01",
+      "collection": "D37_MANHOLE_COVER_MASTER",
+      "xy": [
+        -53.0,
+        -47.0
+      ],
+      "ground_z_world": -0.19703292846679688,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          2.125825881958008
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          15.989645004272461
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.19703292846679688
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_MANHOLE_02",
+      "facility_id": "D37_MANHOLE_02",
+      "collection": "D37_MANHOLE_COVER_MASTER",
+      "xy": [
+        -53.0,
+        -23.0
+      ],
+      "ground_z_world": 0.03180864530353214,
+      "ground_source": "grid_fallback",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          12.609064102172852
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          -5.599740982055664
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.03180864453315735
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_MANHOLE_03",
+      "facility_id": "D37_MANHOLE_03",
+      "collection": "D37_MANHOLE_COVER_MASTER",
+      "xy": [
+        -53.0,
+        1.0
+      ],
+      "ground_z_world": 0.0432271903857256,
+      "ground_source": "grid_fallback",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          23.092304229736328
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          -27.189128875732422
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.043227192014455795
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_MANHOLE_04",
+      "facility_id": "D37_MANHOLE_04",
+      "collection": "D37_MANHOLE_COVER_MASTER",
+      "xy": [
+        -29.0,
+        5.5
+      ],
+      "ground_z_world": -0.295654296875,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          3.4685254096984863
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          -41.72037887573242
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.295654296875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_MANHOLE_05",
+      "facility_id": "D37_MANHOLE_05",
+      "collection": "D37_MANHOLE_COVER_MASTER",
+      "xy": [
+        -20.0,
+        5.5
+      ],
+      "ground_z_world": -0.27832794189453125,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          -4.6274943351745605
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          -45.65159606933594
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.27832794189453125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_MANHOLE_06",
+      "facility_id": "D37_MANHOLE_06",
+      "collection": "D37_MANHOLE_COVER_MASTER",
+      "xy": [
+        -29.0,
+        -50.5
+      ],
+      "ground_z_world": -0.16735076904296875,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          -20.992366790771484
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          8.654857635498047
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.16735076904296875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_MANHOLE_07",
+      "facility_id": "D37_MANHOLE_07",
+      "collection": "D37_MANHOLE_COVER_MASTER",
+      "xy": [
+        -20.0,
+        -50.5
+      ],
+      "ground_z_world": -0.1601104736328125,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          -29.08838653564453
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          4.723642349243164
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.1601104736328125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_MANHOLE_08",
+      "facility_id": "D37_MANHOLE_08",
+      "collection": "D37_MANHOLE_COVER_MASTER",
+      "xy": [
+        -11.5,
+        -62.0
+      ],
+      "ground_z_world": -0.051280975341796875,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          -41.75784683227539
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          11.355746269226074
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.051280975341796875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_TRENCH_COVER_01",
+      "facility_id": "D37_TRENCH_COVER_01",
+      "collection": "D37_TRENCH_COVER_MASTER",
+      "xy": [
+        -33.9,
+        -40.0
+      ],
+      "ground_z_world": -0.12328720092773438,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          -11.998113632202148
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          1.3498315811157227
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.12328720092773438
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_TRENCH_COVER_02",
+      "facility_id": "D37_TRENCH_COVER_02",
+      "collection": "D37_TRENCH_COVER_MASTER",
+      "xy": [
+        -33.9,
+        -34.0
+      ],
+      "ground_z_world": -0.17319869995117188,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          -9.377304077148438
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          -4.047516822814941
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.17319869995117188
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_TRENCH_COVER_03",
+      "facility_id": "D37_TRENCH_COVER_03",
+      "collection": "D37_TRENCH_COVER_MASTER",
+      "xy": [
+        -33.9,
+        -28.0
+      ],
+      "ground_z_world": -0.19142532348632812,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          -6.756494522094727
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          -9.444865226745605
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.19142532348632812
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_TRENCH_COVER_04",
+      "facility_id": "D37_TRENCH_COVER_04",
+      "collection": "D37_TRENCH_COVER_MASTER",
+      "xy": [
+        -33.9,
+        -22.0
+      ],
+      "ground_z_world": -0.19573593139648438,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          -4.135684967041016
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          -14.842211723327637
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.19573593139648438
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_TRENCH_COVER_05",
+      "facility_id": "D37_TRENCH_COVER_05",
+      "collection": "D37_TRENCH_COVER_MASTER",
+      "xy": [
+        -33.9,
+        -16.0
+      ],
+      "ground_z_world": -0.23574447631835938,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          -1.5148749351501465
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          -20.239559173583984
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.23574447631835938
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_TRENCH_COVER_06",
+      "facility_id": "D37_TRENCH_COVER_06",
+      "collection": "D37_TRENCH_COVER_MASTER",
+      "xy": [
+        -33.9,
+        -10.0
+      ],
+      "ground_z_world": -0.25859832763671875,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          1.1059350967407227
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          -25.636905670166016
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.25859832763671875
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_WHITE_MARKER_01",
+      "facility_id": "D37_WHITE_MARKER_01",
+      "collection": "D37_WHITE_MARKER_POST_MASTER",
+      "xy": [
+        -49.8,
+        -69.0
+      ],
+      "ground_z_world": -0.12221145629882812,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          -10.362396240234375
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          34.38214874267578
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.12221145629882812
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_WHITE_MARKER_02",
+      "facility_id": "D37_WHITE_MARKER_02",
+      "collection": "D37_WHITE_MARKER_POST_MASTER",
+      "xy": [
+        -49.8,
+        -35.0
+      ],
+      "ground_z_world": -0.2718162536621094,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          4.488859176635742
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          3.7971858978271484
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.2718162536621094
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_WHITE_MARKER_03",
+      "facility_id": "D37_WHITE_MARKER_03",
+      "collection": "D37_WHITE_MARKER_POST_MASTER",
+      "xy": [
+        -49.8,
+        -3.0
+      ],
+      "ground_z_world": -0.007050136521089617,
+      "ground_source": "grid_fallback",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          18.466510772705078
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          -24.988664627075195
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.0070501365698874
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_WHITE_MARKER_04",
+      "facility_id": "D37_WHITE_MARKER_04",
+      "collection": "D37_WHITE_MARKER_POST_MASTER",
+      "xy": [
+        7.0,
+        -49.0
+      ],
+      "ground_z_world": -0.00666046142578125,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          -52.72124481201172
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          -8.419336318969727
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.00666046142578125
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_WHITE_MARKER_05",
+      "facility_id": "D37_WHITE_MARKER_05",
+      "collection": "D37_WHITE_MARKER_POST_MASTER",
+      "xy": [
+        7.0,
+        -10.0
+      ],
+      "ground_z_world": -0.11531448364257812,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          -35.68598175048828
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          -43.50209045410156
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.11531448364257812
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D37::D37_WHITE_MARKER_06",
+      "facility_id": "D37_WHITE_MARKER_06",
+      "collection": "D37_WHITE_MARKER_POST_MASTER",
+      "xy": [
+        7.0,
+        28.0
+      ],
+      "ground_z_world": -0.21259630197314605,
+      "ground_source": "grid_fallback",
+      "yaw_deg": 0.0,
+      "matrix_world": [
+        [
+          -0.8995578289031982,
+          0.43680164217948914,
+          0.0,
+          -19.087520599365234
+        ],
+        [
+          -0.43680164217948914,
+          -0.8995578289031982,
+          0.0,
+          -77.68528747558594
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.21259629726409912
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "camera_objects": [
+    "759_D37_GIS_Floodlights_Clean_CAM",
+    "760_D37_GIS_Floodlights_Overlay_CAM",
+    "761_D37_Small_Facilities_Reference_CAM",
+    "762_D37_Station_Top_Clean_CAM",
+    "763_D37_Station_Top_Overlay_CAM",
+    "764_D37_Building_Trench_Clean_CAM",
+    "765_D37_Markers_Manholes_Overlay_CAM"
+  ],
+  "master_collections": [
+    "D37_GIS_FLOODLIGHT_MASTER",
+    "D37_MANHOLE_COVER_MASTER",
+    "D37_TRENCH_COVER_MASTER",
+    "D37_WHITE_MARKER_POST_MASTER"
+  ],
+  "site_collection": "D37_SMALL_FACILITIES_SITE",
+  "asset_collection": "D37_SMALL_FACILITIES_ASSETS",
+  "summary": {
+    "gis_floodlights": 4,
+    "manholes": 8,
+    "trench_covers": 6,
+    "white_marker_posts": 6,
+    "geometry_objects": 21,
+    "placement_instances": 24,
+    "ground_mesh_raycast": 19,
+    "ground_grid_fallback": 5
+  },
+  "plan_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/D37/plan_D37.json",
+  "plan_sha256": "1f3132187a0cda7f2617b10e75f28873f8d910513888c5a8d2567940cacf5cb1",
+  "renders": [
+    {
+      "scene": "759_D37_GIS_Floodlights_Clean",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D37/759_D37_GIS_Floodlights_Clean.png",
+      "seconds": 1.22,
+      "pixel_std": 0.32571,
+      "sha256": "6c1fde676a03ebe0d9ea45e35e41e1caa21c9bfa03a106e1aea242458a98a876"
+    },
+    {
+      "scene": "760_D37_GIS_Floodlights_Overlay",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D37/760_D37_GIS_Floodlights_Overlay.png",
+      "seconds": 1.45,
+      "pixel_std": 0.31464,
+      "sha256": "6a3249b68b6ddefda14652a24c5a4254435a2d37896bd94165710b08247c957a"
+    },
+    {
+      "scene": "761_D37_Small_Facilities_Reference",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D37/761_D37_Small_Facilities_Reference.png",
+      "seconds": 0.66,
+      "pixel_std": 0.31464,
+      "sha256": "64b9f9dde82e8152e667c57db8461a9515089fb7c41f7ed56bf95306c20d7022"
+    },
+    {
+      "scene": "762_D37_Station_Top_Clean",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D37/762_D37_Station_Top_Clean.png",
+      "seconds": 4.16,
+      "pixel_std": 0.30791,
+      "sha256": "a8ba84b005b681b75e72a1a0592236a278033466759a8bac3406fb5e0999f214"
+    },
+    {
+      "scene": "763_D37_Station_Top_Overlay",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D37/763_D37_Station_Top_Overlay.png",
+      "seconds": 4.3,
+      "pixel_std": 0.31676,
+      "sha256": "e8ae8cfead92a59167cfdf3e5573ff7d08adc4d80c92d1641651370edb24df8d"
+    },
+    {
+      "scene": "764_D37_Building_Trench_Clean",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D37/764_D37_Building_Trench_Clean.png",
+      "seconds": 0.35,
+      "pixel_std": 0.3257,
+      "sha256": "f973b24d77a10094515dd0e5bce2067ce1d44f2b1aeb2a47d9c151b807eebf10"
+    },
+    {
+      "scene": "765_D37_Markers_Manholes_Overlay",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D37/765_D37_Markers_Manholes_Overlay.png",
+      "seconds": 0.62,
+      "pixel_std": 0.30848,
+      "sha256": "369fb781900068ef239f047d62a23e921df4c3bcf24bcc210d473ce820d9bd05"
+    }
+  ],
+  "limitations": [
+    "照片和粗模没有给出每个小设施的独立测量坐标；本批次位置属于候选建模位置。",
+    "投光灯的灯头朝向、井盖的用途、沟盖下方空间和白色桩的编号均未从现有资料可靠确认。",
+    "不把 B35 尚未确认的 pole candidate 8 重新解释为投光灯；该候选仍保持排除。",
+    "不创建地下电缆、不可见管沟内部或未被影像支持的功能标签。"
+  ]
+}

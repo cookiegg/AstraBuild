@@ -1,0 +1,3043 @@
+{
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/xialin_B30_GIS_downleads_arrester_branches.blend",
+  "sha256": "9e1787a3eeb01e28f34eb2fa82dc5b741fef98ef5a86a085566513d5f68e4aad",
+  "previous_objects_unchanged": 32818,
+  "previous_scenes_unchanged": 589,
+  "previous_collections_unchanged": 729,
+  "previous_materials_unchanged": 342,
+  "previous_station_objects_unchanged": 6729,
+  "protected_previous_files_unchanged": 2791,
+  "source_asset_roundtrip_identical": true,
+  "contacts": [
+    {
+      "name": "B30::G110_OUT_NEG_00_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 8.440551861414346e-06,
+      "saved_equipment_terminal_gap_m": 6.617988684294829e-06,
+      "existing_overhead_join_gap_m": 1.0662402618082845e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_01_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 8.004441530875517e-06,
+      "saved_equipment_terminal_gap_m": 6.378608201216247e-06,
+      "existing_overhead_join_gap_m": 7.177349107511169e-07
+    },
+    {
+      "name": "B30::G110_OUT_NEG_02_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 7.362010796049278e-06,
+      "saved_equipment_terminal_gap_m": 6.292089451634036e-06,
+      "existing_overhead_join_gap_m": 5.339524687108613e-07
+    },
+    {
+      "name": "B30::G110_OUT_NEG_03_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 7.367858162641337e-06,
+      "saved_equipment_terminal_gap_m": 6.149546574209033e-06,
+      "existing_overhead_join_gap_m": 9.610959619454845e-07
+    },
+    {
+      "name": "B30::G110_OUT_NEG_04_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 7.305930554554146e-06,
+      "saved_equipment_terminal_gap_m": 5.617177391069354e-06,
+      "existing_overhead_join_gap_m": 1.430821782335497e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_05_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 7.1015819055120736e-06,
+      "saved_equipment_terminal_gap_m": 5.535363192551951e-06,
+      "existing_overhead_join_gap_m": 1.5888218580782548e-14
+    },
+    {
+      "name": "B30::G110_OUT_NEG_06_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 7.071459002228875e-06,
+      "saved_equipment_terminal_gap_m": 5.910735299571867e-06,
+      "existing_overhead_join_gap_m": 1.9221919080272125e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_07_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 7.012839650875914e-06,
+      "saved_equipment_terminal_gap_m": 5.723248604570454e-06,
+      "existing_overhead_join_gap_m": 1.5090689857779364e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_08_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 7.6672564101984e-06,
+      "saved_equipment_terminal_gap_m": 5.497145960650905e-06,
+      "existing_overhead_join_gap_m": 4.777675446887102e-07
+    },
+    {
+      "name": "B30::G110_OUT_NEG_09_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 7.092748473559556e-06,
+      "saved_equipment_terminal_gap_m": 5.123367888908634e-06,
+      "existing_overhead_join_gap_m": 6.906169248143799e-07
+    },
+    {
+      "name": "B30::G110_OUT_NEG_10_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 6.7641746852117345e-06,
+      "saved_equipment_terminal_gap_m": 5.17806813194343e-06,
+      "existing_overhead_join_gap_m": 1.0666566361547723e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_11_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 7.157696613069418e-06,
+      "saved_equipment_terminal_gap_m": 5.304139535814566e-06,
+      "existing_overhead_join_gap_m": 1.50789138956498e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_12_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 6.904340708459627e-06,
+      "saved_equipment_terminal_gap_m": 5.403246240050483e-06,
+      "existing_overhead_join_gap_m": 6.743495158827541e-07
+    },
+    {
+      "name": "B30::G110_OUT_NEG_13_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 6.3831404134855895e-06,
+      "saved_equipment_terminal_gap_m": 4.8118028939309956e-06,
+      "existing_overhead_join_gap_m": 2.4575622895316276e-07
+    },
+    {
+      "name": "B30::G110_OUT_NEG_14_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 6.362332186602449e-06,
+      "saved_equipment_terminal_gap_m": 5.496004232263165e-06,
+      "existing_overhead_join_gap_m": 2.402739975369295e-07
+    },
+    {
+      "name": "B30::G110_OUT_NEG_15_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 6.729277569812534e-06,
+      "saved_equipment_terminal_gap_m": 5.306055708236727e-06,
+      "existing_overhead_join_gap_m": 2.4575622550652424e-07
+    },
+    {
+      "name": "B30::G110_OUT_NEG_16_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 6.583457445386144e-06,
+      "saved_equipment_terminal_gap_m": 3.955480387816075e-06,
+      "existing_overhead_join_gap_m": 3.625608753408556e-07
+    },
+    {
+      "name": "B30::G110_OUT_NEG_17_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 6.422227827163826e-06,
+      "saved_equipment_terminal_gap_m": 4.809125622650262e-06,
+      "existing_overhead_join_gap_m": 1.4210854715202004e-14
+    },
+    {
+      "name": "B30::G110_OUT_NEG_18_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 6.6368364308652034e-06,
+      "saved_equipment_terminal_gap_m": 4.3251249931669305e-06,
+      "existing_overhead_join_gap_m": 4.915124510130485e-07
+    },
+    {
+      "name": "B30::G110_OUT_NEG_19_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 7.150980397397498e-06,
+      "saved_equipment_terminal_gap_m": 5.218583566495163e-06,
+      "existing_overhead_join_gap_m": 6.743495259313459e-07
+    },
+    {
+      "name": "B30::G110_OUT_NEG_20_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 6.54883058885151e-06,
+      "saved_equipment_terminal_gap_m": 4.8230094792127954e-06,
+      "existing_overhead_join_gap_m": 2.396818168431586e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_21_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 6.496540306423667e-06,
+      "saved_equipment_terminal_gap_m": 6.332925082221028e-06,
+      "existing_overhead_join_gap_m": 8.601468045365197e-07
+    },
+    {
+      "name": "B30::G110_OUT_NEG_22_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 7.130399220231539e-06,
+      "saved_equipment_terminal_gap_m": 4.996866473971285e-06,
+      "existing_overhead_join_gap_m": 1.5888218580782548e-14
+    },
+    {
+      "name": "B30::G110_OUT_NEG_23_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 6.731741517680571e-06,
+      "saved_equipment_terminal_gap_m": 5.608861928833697e-06,
+      "existing_overhead_join_gap_m": 9.536742595628311e-07
+    },
+    {
+      "name": "B30::G110_IN_POS_00_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.905919503692544e-06,
+      "saved_equipment_terminal_gap_m": 4.061491821109403e-06,
+      "existing_overhead_join_gap_m": 2.73142783662298e-07
+    },
+    {
+      "name": "B30::G110_IN_POS_00_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.762390983488667e-06,
+      "saved_equipment_terminal_gap_m": 4.520042123244476e-06,
+      "existing_overhead_join_gap_m": 1.3328002954839265e-07
+    },
+    {
+      "name": "B30::G110_IN_POS_01_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.765569918588075e-06,
+      "saved_equipment_terminal_gap_m": 4.019983964553728e-06,
+      "existing_overhead_join_gap_m": 7.32410687763558e-15
+    },
+    {
+      "name": "B30::G110_IN_POS_01_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.812321622479395e-06,
+      "saved_equipment_terminal_gap_m": 4.019983979201344e-06,
+      "existing_overhead_join_gap_m": 1.192092895507821e-07
+    },
+    {
+      "name": "B30::G110_IN_POS_02_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.769906879534299e-06,
+      "saved_equipment_terminal_gap_m": 3.9160054460945474e-06,
+      "existing_overhead_join_gap_m": 1.7881392189167456e-07
+    },
+    {
+      "name": "B30::G110_IN_POS_02_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.848879113779452e-06,
+      "saved_equipment_terminal_gap_m": 4.1615227287733e-06,
+      "existing_overhead_join_gap_m": 1.1920927889264021e-07
+    },
+    {
+      "name": "B30::G110_IN_POS_03_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.908969149330131e-06,
+      "saved_equipment_terminal_gap_m": 4.226628203067907e-06,
+      "existing_overhead_join_gap_m": 3.7252901874667167e-09
+    },
+    {
+      "name": "B30::G110_IN_POS_03_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.782582520541627e-06,
+      "saved_equipment_terminal_gap_m": 3.988125594500414e-06,
+      "existing_overhead_join_gap_m": 1.1920928955078146e-07
+    },
+    {
+      "name": "B30::G110_IN_POS_04_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.6774734711003214e-06,
+      "saved_equipment_terminal_gap_m": 3.8780479339718256e-06,
+      "existing_overhead_join_gap_m": 6.36577879011872e-08
+    },
+    {
+      "name": "B30::G110_IN_POS_04_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.681756935274987e-06,
+      "saved_equipment_terminal_gap_m": 3.8780479339718256e-06,
+      "existing_overhead_join_gap_m": 1.4210854715202004e-14
+    },
+    {
+      "name": "B30::G110_IN_POS_05_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.646467976698462e-06,
+      "saved_equipment_terminal_gap_m": 3.702208356400928e-06,
+      "existing_overhead_join_gap_m": 4.807789510982892e-07
+    },
+    {
+      "name": "B30::G110_IN_POS_05_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.809056732009315e-06,
+      "saved_equipment_terminal_gap_m": 3.939210177234258e-06,
+      "existing_overhead_join_gap_m": 6.143906122346649e-08
+    },
+    {
+      "name": "B30::G220_OUT_POS_00_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.457268815545984e-06,
+      "saved_equipment_terminal_gap_m": 3.873425704737162e-06,
+      "existing_overhead_join_gap_m": 2.4575623929307834e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_00_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.712893333959283e-06,
+      "saved_equipment_terminal_gap_m": 3.873425704737162e-06,
+      "existing_overhead_join_gap_m": 1.192092895507821e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_01_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.243904318151117e-06,
+      "saved_equipment_terminal_gap_m": 3.501756943286058e-06,
+      "existing_overhead_join_gap_m": 7.177349175369629e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_01_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.2109963664958494e-06,
+      "saved_equipment_terminal_gap_m": 3.265579085665242e-06,
+      "existing_overhead_join_gap_m": 5.230286012181897e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_02_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.059167140921386e-06,
+      "saved_equipment_terminal_gap_m": 2.748028727769831e-06,
+      "existing_overhead_join_gap_m": 4.951133357625034e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_02_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 3.993642288480157e-06,
+      "saved_equipment_terminal_gap_m": 2.752306912030105e-06,
+      "existing_overhead_join_gap_m": 7.158763071792514e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_03_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 3.722756801086813e-06,
+      "saved_equipment_terminal_gap_m": 3.06410178873277e-06,
+      "existing_overhead_join_gap_m": 5.960464477539063e-08
+    },
+    {
+      "name": "B30::G220_OUT_POS_03_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 3.688414693605249e-06,
+      "saved_equipment_terminal_gap_m": 2.5932985159999046e-06,
+      "existing_overhead_join_gap_m": 4.842303950435384e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_04_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 3.6858459933040715e-06,
+      "saved_equipment_terminal_gap_m": 3.442313987488883e-06,
+      "existing_overhead_join_gap_m": 8.429369450964017e-08
+    },
+    {
+      "name": "B30::G220_OUT_POS_04_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 3.334081150144824e-06,
+      "saved_equipment_terminal_gap_m": 2.7320906014675505e-06,
+      "existing_overhead_join_gap_m": 8.429369450964047e-08
+    },
+    {
+      "name": "B30::G220_OUT_POS_05_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 3.4672467843857184e-06,
+      "saved_equipment_terminal_gap_m": 1.8695866009185807e-06,
+      "existing_overhead_join_gap_m": 1.1920928066899705e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_05_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 3.5512695099405865e-06,
+      "saved_equipment_terminal_gap_m": 2.581889790135323e-06,
+      "existing_overhead_join_gap_m": 1.3328003113721372e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_06_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 2.4802129543104704e-06,
+      "saved_equipment_terminal_gap_m": 2.4709388905639564e-06,
+      "existing_overhead_join_gap_m": 1.3328002795957007e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_06_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 2.530766123773961e-06,
+      "saved_equipment_terminal_gap_m": 2.242680945261844e-06,
+      "existing_overhead_join_gap_m": 2.5288107306163737e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_07_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 2.193683353900187e-06,
+      "saved_equipment_terminal_gap_m": 1.6336687230623743e-06,
+      "existing_overhead_join_gap_m": 3.209808215320174e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_07_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 2.28304771885504e-06,
+      "saved_equipment_terminal_gap_m": 1.748561721075621e-06,
+      "existing_overhead_join_gap_m": 4.915124630762832e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_08_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 2.1819957403299873e-06,
+      "saved_equipment_terminal_gap_m": 1.7370997803195702e-06,
+      "existing_overhead_join_gap_m": 3.7697284345911156e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_08_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 2.0695010522877962e-06,
+      "saved_equipment_terminal_gap_m": 1.982777409965998e-06,
+      "existing_overhead_join_gap_m": 3.6256088176554314e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_09_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 1.8619534286702194e-06,
+      "saved_equipment_terminal_gap_m": 1.539788753348887e-06,
+      "existing_overhead_join_gap_m": 1.1920928955078125e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_09_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 1.701096106380501e-06,
+      "saved_equipment_terminal_gap_m": 1.5485251487211215e-06,
+      "existing_overhead_join_gap_m": 2.5288107682985926e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_10_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 1.3291089297103883e-06,
+      "saved_equipment_terminal_gap_m": 1.1208476692465672e-06,
+      "existing_overhead_join_gap_m": 5.960463944632011e-08
+    },
+    {
+      "name": "B30::G220_OUT_POS_10_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 1.372746899599082e-06,
+      "saved_equipment_terminal_gap_m": 1.08531589648125e-06,
+      "existing_overhead_join_gap_m": 1.3328003113721375e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_11_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 1.186431938385815e-06,
+      "saved_equipment_terminal_gap_m": 9.251835846814526e-07,
+      "existing_overhead_join_gap_m": 3.475517981160841e-07
+    },
+    {
+      "name": "B30::G220_OUT_POS_11_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 1.1867545263379653e-06,
+      "saved_equipment_terminal_gap_m": 9.252291852450914e-07,
+      "existing_overhead_join_gap_m": 3.8165592897965934e-07
+    },
+    {
+      "name": "B30::CROSS_220_00_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 2.02917114369963e-06,
+      "saved_equipment_terminal_gap_m": 1.5973999536807825e-06,
+      "existing_overhead_join_gap_m": 1.6173803475093098e-07
+    },
+    {
+      "name": "B30::CROSS_220_00_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 1.8673731446571914e-06,
+      "saved_equipment_terminal_gap_m": 1.8318078011212333e-06,
+      "existing_overhead_join_gap_m": 2.610421550219004e-07
+    },
+    {
+      "name": "B30::CROSS_220_01_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 1.8765529831640641e-06,
+      "saved_equipment_terminal_gap_m": 1.4244879346073315e-06,
+      "existing_overhead_join_gap_m": 1.2333432711398732e-07
+    },
+    {
+      "name": "B30::CROSS_220_01_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 1.6539698913218536e-06,
+      "saved_equipment_terminal_gap_m": 1.3090857393970767e-06,
+      "existing_overhead_join_gap_m": 4.179811641135811e-07
+    },
+    {
+      "name": "B30::CROSS_220_02_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 1.2246592652669634e-06,
+      "saved_equipment_terminal_gap_m": 9.871385142626124e-07,
+      "existing_overhead_join_gap_m": 6.938358512382737e-08
+    },
+    {
+      "name": "B30::CROSS_220_02_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 1.2647306704148492e-06,
+      "saved_equipment_terminal_gap_m": 1.006953224331247e-06,
+      "existing_overhead_join_gap_m": 1.9791687002630952e-07
+    },
+    {
+      "name": "B30::CROSS_220_03_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 5.457776157763992e-07,
+      "saved_equipment_terminal_gap_m": 3.386638592440523e-07,
+      "existing_overhead_join_gap_m": 3.5596668658412776e-08
+    },
+    {
+      "name": "B30::CROSS_220_03_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 5.41109272960523e-07,
+      "saved_equipment_terminal_gap_m": 3.7997893006044875e-07,
+      "existing_overhead_join_gap_m": 3.4480715838643134e-08
+    },
+    {
+      "name": "B30::CROSS_220_04_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 4.997850282064928e-07,
+      "saved_equipment_terminal_gap_m": 3.4281617859562886e-07,
+      "existing_overhead_join_gap_m": 4.23562850875961e-08
+    },
+    {
+      "name": "B30::CROSS_220_04_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 5.00867573291903e-07,
+      "saved_equipment_terminal_gap_m": 3.428210801360278e-07,
+      "existing_overhead_join_gap_m": 7.633844247642387e-08
+    },
+    {
+      "name": "B30::CROSS_220_05_GIS_LEAD.wire.0",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 6.099717247315313e-07,
+      "saved_equipment_terminal_gap_m": 4.2321966213928794e-07,
+      "existing_overhead_join_gap_m": 1.5157803544129874e-07
+    },
+    {
+      "name": "B30::CROSS_220_05_GIS_LEAD.wire.1",
+      "kind": "GIS_downlead",
+      "path_roundtrip_error_m": 5.628740428757951e-07,
+      "saved_equipment_terminal_gap_m": 4.108009757113755e-07,
+      "existing_overhead_join_gap_m": 6.319892900302163e-08
+    },
+    {
+      "name": "B30::G110_OUT_NEG_00_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 7.791872587825921e-06,
+      "saved_equipment_terminal_gap_m": 6.668833479739473e-06,
+      "downlead_tap_gap_m": 6.337348936497419e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_01_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 7.599183492251821e-06,
+      "saved_equipment_terminal_gap_m": 7.071160925397713e-06,
+      "downlead_tap_gap_m": 6.300832488455052e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_02_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 7.733602097378889e-06,
+      "saved_equipment_terminal_gap_m": 6.1946854581181845e-06,
+      "downlead_tap_gap_m": 6.140115190684442e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_03_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 7.600359974737448e-06,
+      "saved_equipment_terminal_gap_m": 6.257466059232438e-06,
+      "downlead_tap_gap_m": 6.027853815092276e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_04_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 7.171421236670687e-06,
+      "saved_equipment_terminal_gap_m": 4.8716594422261836e-06,
+      "downlead_tap_gap_m": 6.101679348662114e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_05_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 8.233703706488455e-06,
+      "saved_equipment_terminal_gap_m": 6.016997252893182e-06,
+      "downlead_tap_gap_m": 6.064651795502305e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_06_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 7.595586714340662e-06,
+      "saved_equipment_terminal_gap_m": 4.711489468372981e-06,
+      "downlead_tap_gap_m": 6.108862524040251e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_07_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 7.3817698360735805e-06,
+      "saved_equipment_terminal_gap_m": 6.291211918835918e-06,
+      "downlead_tap_gap_m": 4.801361873208948e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_08_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 6.89784265495397e-06,
+      "saved_equipment_terminal_gap_m": 5.577355096197124e-06,
+      "downlead_tap_gap_m": 5.346334355222455e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_09_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 7.068651344005531e-06,
+      "saved_equipment_terminal_gap_m": 5.749385692792482e-06,
+      "downlead_tap_gap_m": 5.652065201555687e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_10_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 7.475258721704459e-06,
+      "saved_equipment_terminal_gap_m": 5.036492197550161e-06,
+      "downlead_tap_gap_m": 5.317967232323464e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_11_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 6.804399721674096e-06,
+      "saved_equipment_terminal_gap_m": 5.698613186316484e-06,
+      "downlead_tap_gap_m": 5.103835335164734e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_12_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 6.386155602099086e-06,
+      "saved_equipment_terminal_gap_m": 5.575179535088153e-06,
+      "downlead_tap_gap_m": 5.2482458347060986e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_13_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 6.7202471129787816e-06,
+      "saved_equipment_terminal_gap_m": 5.539094997514565e-06,
+      "downlead_tap_gap_m": 5.071891432648487e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_14_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 6.489406979811396e-06,
+      "saved_equipment_terminal_gap_m": 5.0722451030062496e-06,
+      "downlead_tap_gap_m": 5.05419570412618e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_15_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 6.796347744783704e-06,
+      "saved_equipment_terminal_gap_m": 5.588101279363179e-06,
+      "downlead_tap_gap_m": 3.878258807109888e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_16_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 6.939958056700143e-06,
+      "saved_equipment_terminal_gap_m": 5.751440473410837e-06,
+      "downlead_tap_gap_m": 4.16710885426612e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_17_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 6.310159720516505e-06,
+      "saved_equipment_terminal_gap_m": 4.586525484042102e-06,
+      "downlead_tap_gap_m": 4.394596757065149e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_18_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 6.413850601804133e-06,
+      "saved_equipment_terminal_gap_m": 4.612559718680387e-06,
+      "downlead_tap_gap_m": 4.937829998129746e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_19_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 6.428369251188362e-06,
+      "saved_equipment_terminal_gap_m": 5.102612883162761e-06,
+      "downlead_tap_gap_m": 4.632145868922019e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_20_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 6.556536857096896e-06,
+      "saved_equipment_terminal_gap_m": 5.179075944592536e-06,
+      "downlead_tap_gap_m": 4.908058888392986e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_21_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 6.632515646503018e-06,
+      "saved_equipment_terminal_gap_m": 5.672983455187818e-06,
+      "downlead_tap_gap_m": 5.5995307500989846e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_22_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 6.6588692760616045e-06,
+      "saved_equipment_terminal_gap_m": 4.8248200381848395e-06,
+      "downlead_tap_gap_m": 5.8600843247846095e-06
+    },
+    {
+      "name": "B30::G110_OUT_NEG_23_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 6.746859758213817e-06,
+      "saved_equipment_terminal_gap_m": 5.872235709974702e-06,
+      "downlead_tap_gap_m": 5.4005981438583325e-06
+    },
+    {
+      "name": "B30::G110_IN_POS_00_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 4.93903534132845e-06,
+      "saved_equipment_terminal_gap_m": 4.5702283041978636e-06,
+      "downlead_tap_gap_m": 4.3482988706521636e-06
+    },
+    {
+      "name": "B30::G110_IN_POS_01_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 5.167106377756995e-06,
+      "saved_equipment_terminal_gap_m": 3.932822019471448e-06,
+      "downlead_tap_gap_m": 4.090092141371273e-06
+    },
+    {
+      "name": "B30::G110_IN_POS_02_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 5.064603866692233e-06,
+      "saved_equipment_terminal_gap_m": 3.884235489882485e-06,
+      "downlead_tap_gap_m": 4.069002533343299e-06
+    },
+    {
+      "name": "B30::G110_IN_POS_03_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 4.734994122942489e-06,
+      "saved_equipment_terminal_gap_m": 4.602522441686501e-06,
+      "downlead_tap_gap_m": 4.248614565688335e-06
+    },
+    {
+      "name": "B30::G110_IN_POS_04_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 4.593276538096209e-06,
+      "saved_equipment_terminal_gap_m": 3.7029812702747178e-06,
+      "downlead_tap_gap_m": 4.449837689488881e-06
+    },
+    {
+      "name": "B30::G110_IN_POS_05_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 4.743353160988259e-06,
+      "saved_equipment_terminal_gap_m": 4.041050276459006e-06,
+      "downlead_tap_gap_m": 4.2076361993008795e-06
+    },
+    {
+      "name": "B30::G220_OUT_POS_00_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 4.68055593502488e-06,
+      "saved_equipment_terminal_gap_m": 3.52236687069759e-06,
+      "downlead_tap_gap_m": 3.659104697887693e-06
+    },
+    {
+      "name": "B30::G220_OUT_POS_01_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 4.259289925608942e-06,
+      "saved_equipment_terminal_gap_m": 3.0545879202370512e-06,
+      "downlead_tap_gap_m": 3.450242176251919e-06
+    },
+    {
+      "name": "B30::G220_OUT_POS_02_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 3.9554709417285364e-06,
+      "saved_equipment_terminal_gap_m": 3.3587484526162043e-06,
+      "downlead_tap_gap_m": 3.1933028585912527e-06
+    },
+    {
+      "name": "B30::G220_OUT_POS_03_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 3.815070112913761e-06,
+      "saved_equipment_terminal_gap_m": 3.205260075635177e-06,
+      "downlead_tap_gap_m": 2.6459487440126536e-06
+    },
+    {
+      "name": "B30::G220_OUT_POS_04_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 3.52460608372989e-06,
+      "saved_equipment_terminal_gap_m": 1.967306692855276e-06,
+      "downlead_tap_gap_m": 2.8192645488884037e-06
+    },
+    {
+      "name": "B30::G220_OUT_POS_05_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 3.3744865015297777e-06,
+      "saved_equipment_terminal_gap_m": 1.6370790053303714e-06,
+      "downlead_tap_gap_m": 2.6765610224544135e-06
+    },
+    {
+      "name": "B30::G220_OUT_POS_06_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 2.6020250314736804e-06,
+      "saved_equipment_terminal_gap_m": 1.98501765422478e-06,
+      "downlead_tap_gap_m": 2.3234827279671723e-06
+    },
+    {
+      "name": "B30::G220_OUT_POS_07_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 2.545273015406643e-06,
+      "saved_equipment_terminal_gap_m": 2.0640205097698325e-06,
+      "downlead_tap_gap_m": 1.8345053857224718e-06
+    },
+    {
+      "name": "B30::G220_OUT_POS_08_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 2.130627715549659e-06,
+      "saved_equipment_terminal_gap_m": 1.927432319506931e-06,
+      "downlead_tap_gap_m": 1.6726792042522615e-06
+    },
+    {
+      "name": "B30::G220_OUT_POS_09_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 1.7252740165538554e-06,
+      "saved_equipment_terminal_gap_m": 1.5530264101980548e-06,
+      "downlead_tap_gap_m": 1.4001007103613828e-06
+    },
+    {
+      "name": "B30::G220_OUT_POS_10_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 1.4528133682097614e-06,
+      "saved_equipment_terminal_gap_m": 1.04861861793105e-06,
+      "downlead_tap_gap_m": 1.1961288568138821e-06
+    },
+    {
+      "name": "B30::G220_OUT_POS_11_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 1.2458847223137758e-06,
+      "saved_equipment_terminal_gap_m": 9.602867310164106e-07,
+      "downlead_tap_gap_m": 9.245100603559505e-07
+    },
+    {
+      "name": "B30::CROSS_220_00_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 2.105147197744834e-06,
+      "saved_equipment_terminal_gap_m": 1.7859130356732954e-06,
+      "downlead_tap_gap_m": 1.5278112025030715e-06
+    },
+    {
+      "name": "B30::CROSS_220_01_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 1.6796663187991108e-06,
+      "saved_equipment_terminal_gap_m": 1.315836391986563e-06,
+      "downlead_tap_gap_m": 1.3206968200145927e-06
+    },
+    {
+      "name": "B30::CROSS_220_02_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 1.1595293266377342e-06,
+      "saved_equipment_terminal_gap_m": 9.996616838437051e-07,
+      "downlead_tap_gap_m": 9.693087183087673e-07
+    },
+    {
+      "name": "B30::CROSS_220_03_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 6.264534624782794e-07,
+      "saved_equipment_terminal_gap_m": 5.885442387411675e-07,
+      "downlead_tap_gap_m": 4.3218766653280004e-07
+    },
+    {
+      "name": "B30::CROSS_220_04_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 5.568003795558761e-07,
+      "saved_equipment_terminal_gap_m": 5.071248428892998e-07,
+      "downlead_tap_gap_m": 3.6673273283878646e-07
+    },
+    {
+      "name": "B30::CROSS_220_05_GIS_LEAD_SA_BRANCH.wire",
+      "kind": "arrester_branch",
+      "path_roundtrip_error_m": 6.341644067722564e-07,
+      "saved_equipment_terminal_gap_m": 5.409152459485522e-07,
+      "downlead_tap_gap_m": 4.6375952779011355e-07
+    }
+  ],
+  "max_transform_rounding_m": 6.4726917585149146e-06,
+  "surface_checks": [
+    {
+      "id": "G110_OUT_NEG_00_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 222,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.19006220339459953,
+        "median_m": 0.04044557735323906,
+        "p95_m": 0.49568928629159914,
+        "max_m": 0.6072737574577332
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_01_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 214,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.2862234538761054,
+        "median_m": 0.08315258845686913,
+        "p95_m": 0.6549716204404831,
+        "max_m": 0.6959446668624878
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_02_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 253,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.15339008689862996,
+        "median_m": 0.021014532074332237,
+        "p95_m": 0.4244998097419739,
+        "max_m": 0.652410089969635
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_03_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 339,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.12261178316960449,
+        "median_m": 0.016534218564629555,
+        "p95_m": 0.3035492628812785,
+        "max_m": 0.6765722036361694
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_04_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 502,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.17715328889876236,
+        "median_m": 0.021013676188886166,
+        "p95_m": 0.5089698523283004,
+        "max_m": 0.8355935215950012
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_05_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 510,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.09951445798611169,
+        "median_m": 0.013946675229817629,
+        "p95_m": 0.24201822355389566,
+        "max_m": 0.6782251000404358
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_06_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 613,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.08825183917326956,
+        "median_m": 0.01692856289446354,
+        "p95_m": 0.10646766424179077,
+        "max_m": 0.6735087037086487
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_07_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 625,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.1866282606674445,
+        "median_m": 0.03614743798971176,
+        "p95_m": 0.5719189643859853,
+        "max_m": 0.8116503357887268
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_08_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 473,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.13872559279677896,
+        "median_m": 0.022570056840777397,
+        "p95_m": 0.38777824044227555,
+        "max_m": 0.6293699145317078
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_09_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 449,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.13716392777166161,
+        "median_m": 0.016154728829860687,
+        "p95_m": 0.4054441213607788,
+        "max_m": 0.649882435798645
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_10_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 519,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.19064915115658376,
+        "median_m": 0.019777651876211166,
+        "p95_m": 0.5692654252052306,
+        "max_m": 0.812639057636261
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_11_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 491,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.10160594339626756,
+        "median_m": 0.016065867617726326,
+        "p95_m": 0.21123573184013367,
+        "max_m": 0.6597439646720886
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_12_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 454,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.1375648317885338,
+        "median_m": 0.02039375901222229,
+        "p95_m": 0.3243207573890684,
+        "max_m": 0.7144474387168884
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_13_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 538,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.21918109034559216,
+        "median_m": 0.060287004336714745,
+        "p95_m": 0.6124770075082772,
+        "max_m": 0.911510705947876
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_14_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 638,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.13338479130238842,
+        "median_m": 0.021421311423182487,
+        "p95_m": 0.3135361120104787,
+        "max_m": 0.7552585005760193
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_15_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 581,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.14541319401196132,
+        "median_m": 0.018607133999466896,
+        "p95_m": 0.40091472864151,
+        "max_m": 0.7378374934196472
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_16_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 651,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.21779117461904107,
+        "median_m": 0.06423896551132202,
+        "p95_m": 0.5756767392158508,
+        "max_m": 0.9351579546928406
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_17_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 678,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.12939607311451282,
+        "median_m": 0.020382829941809177,
+        "p95_m": 0.30702180713415145,
+        "max_m": 0.7273422479629517
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_18_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 321,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.09080623316586704,
+        "median_m": 0.015693657100200653,
+        "p95_m": 0.1436322182416916,
+        "max_m": 0.6368851065635681
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_19_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 396,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.21358464294338894,
+        "median_m": 0.033627111464738846,
+        "p95_m": 0.5972232520580292,
+        "max_m": 0.802527129650116
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_20_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 471,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.09618456686369539,
+        "median_m": 0.019854499027132988,
+        "p95_m": 0.14899775385856628,
+        "max_m": 0.6476171016693115
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_21_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 282,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.11615824723369132,
+        "median_m": 0.020864500664174557,
+        "p95_m": 0.2261951997876163,
+        "max_m": 0.6749501824378967
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_22_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 183,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.23467224219629218,
+        "median_m": 0.026720736175775528,
+        "p95_m": 0.7000932574272156,
+        "max_m": 0.8272332549095154
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_23_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 184,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.1039285731661172,
+        "median_m": 0.020615671761333942,
+        "p95_m": 0.17061053812503804,
+        "max_m": 0.6210578083992004
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_00_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1638,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.0932539020618927,
+        "median_m": 0.0340512041002512,
+        "p95_m": 0.13386196717619891,
+        "max_m": 0.69949871301651
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_01_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1657,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.10539350042420238,
+        "median_m": 0.03448401764035225,
+        "p95_m": 0.10522895753383635,
+        "max_m": 0.7854685187339783
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_02_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1541,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.10938987014433846,
+        "median_m": 0.02446148730814457,
+        "p95_m": 0.11287976801395416,
+        "max_m": 0.7054703235626221
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_03_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1148,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.11231587037185582,
+        "median_m": 0.033085430040955544,
+        "p95_m": 0.14371091723442075,
+        "max_m": 0.6958500146865845
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_04_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1144,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.119962723468476,
+        "median_m": 0.03216996230185032,
+        "p95_m": 0.11881437376141504,
+        "max_m": 0.7760778665542603
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_05_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1417,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.0789975640732132,
+        "median_m": 0.03267165645956993,
+        "p95_m": 0.10916234552860266,
+        "max_m": 0.707922637462616
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_00_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 927,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.06725734028448288,
+        "median_m": 0.03124913200736046,
+        "p95_m": 0.11218542903661724,
+        "max_m": 0.5073692798614502
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_01_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1011,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.06325688674740018,
+        "median_m": 0.026877155527472496,
+        "p95_m": 0.088713388890028,
+        "max_m": 0.557044506072998
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_02_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1382,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.07024711080281648,
+        "median_m": 0.030526251532137394,
+        "p95_m": 0.126811271160841,
+        "max_m": 0.5311919450759888
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_03_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1289,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.07478164825243593,
+        "median_m": 0.0262251328676939,
+        "p95_m": 0.09951493293046948,
+        "max_m": 0.5297308564186096
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_04_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1231,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.07410394125702088,
+        "median_m": 0.02511926181614399,
+        "p95_m": 0.09286172315478325,
+        "max_m": 0.5722693204879761
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_05_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1330,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.07272124664046598,
+        "median_m": 0.035507041960954666,
+        "p95_m": 0.09664665795862667,
+        "max_m": 0.5551640391349792
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_06_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1122,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.07869744636252217,
+        "median_m": 0.030417172238230705,
+        "p95_m": 0.09923343211412448,
+        "max_m": 0.49633413553237915
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_07_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1007,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.06126864293479521,
+        "median_m": 0.028670279309153557,
+        "p95_m": 0.09105546921491618,
+        "max_m": 0.533239483833313
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_08_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1045,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.07295754450716589,
+        "median_m": 0.032417308539152145,
+        "p95_m": 0.10494045764207834,
+        "max_m": 0.5432141423225403
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_09_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 896,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.06080161481572324,
+        "median_m": 0.03410314954817295,
+        "p95_m": 0.09628118388354778,
+        "max_m": 0.4099542796611786
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_10_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1165,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.05891230477983019,
+        "median_m": 0.026380158960819244,
+        "p95_m": 0.07974076271057125,
+        "max_m": 0.48519182205200195
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_11_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1135,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.06155667499353693,
+        "median_m": 0.028658989816904068,
+        "p95_m": 0.08669830113649354,
+        "max_m": 0.5215084552764893
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_00_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1143,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.1317548612209966,
+        "median_m": 0.02741178311407566,
+        "p95_m": 0.16824592649936596,
+        "max_m": 0.8696492314338684
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_01_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1026,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.11069407126067306,
+        "median_m": 0.027852848172187805,
+        "p95_m": 0.12378441728651524,
+        "max_m": 0.807666003704071
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_02_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1020,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.1628521544904573,
+        "median_m": 0.037326499819755554,
+        "p95_m": 0.29526853710412926,
+        "max_m": 0.9303435683250427
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_03_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 976,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.1521512715108872,
+        "median_m": 0.024989026598632336,
+        "p95_m": 0.3000108003616333,
+        "max_m": 0.8623965382575989
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_04_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 1045,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.1369245875498055,
+        "median_m": 0.05121859908103943,
+        "p95_m": 0.21115360260009763,
+        "max_m": 0.783048152923584
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_05_GIS_LEAD",
+      "kind": "GIS_downlead",
+      "sample_count": 948,
+      "domain": {
+        "t": [
+          0.03,
+          0.97
+        ],
+        "abs_x_from_endpoint_line": 1.15,
+        "abs_y_from_endpoint_line": 0.65
+      },
+      "current": {
+        "rms_m": 0.15333843271075667,
+        "median_m": 0.03075799997895956,
+        "p95_m": 0.33204737007617924,
+        "max_m": 0.9023974537849426
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_00_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 135,
+      "domain": {
+        "x": [
+          -74.48021708737083,
+          -73.03564517493827
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.4847576376154175,
+          5.494285427596679
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.03898352225257242,
+        "median_m": 0.019012730568647385,
+        "p95_m": 0.08991671502590179,
+        "max_m": 0.12407433241605759
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_01_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 116,
+      "domain": {
+        "x": [
+          -74.45550521277181,
+          -73.35947926964161
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.487637495632385,
+          5.5223445558639375
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.031995965838673576,
+        "median_m": 0.018828577362000942,
+        "p95_m": 0.06555570848286152,
+        "max_m": 0.08672666549682617
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_02_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 155,
+      "domain": {
+        "x": [
+          -74.44478352313764,
+          -72.93846906609365
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.496178841228699,
+          5.5516129652992765
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.03472616957444403,
+        "median_m": 0.01955985650420189,
+        "p95_m": 0.07186444625258441,
+        "max_m": 0.1228158175945282
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_03_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 120,
+      "domain": {
+        "x": [
+          -74.4376305233462,
+          -72.92523478402705
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.5001597162439575,
+          5.566809968305753
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.0412299854628443,
+        "median_m": 0.018228953704237938,
+        "p95_m": 0.09182346053421497,
+        "max_m": 0.1118544191122055
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_04_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 157,
+      "domain": {
+        "x": [
+          -74.42292011890498,
+          -73.19861784032244
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.501868223781799,
+          5.569324742168204
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.04863963511212535,
+        "median_m": 0.026159187778830528,
+        "p95_m": 0.0953842148184776,
+        "max_m": 0.11753667145967484
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_05_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 182,
+      "domain": {
+        "x": [
+          -74.41773819906612,
+          -72.89892386214356
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.5007138010217895,
+          5.5624868411301795
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.04362578178951182,
+        "median_m": 0.027183935046195984,
+        "p95_m": 0.09282297343015668,
+        "max_m": 0.12148994207382202
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_06_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 146,
+      "domain": {
+        "x": [
+          -74.39061736628437,
+          -72.87780956729219
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.511541580791687,
+          5.5773330287061125
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.03587080346219036,
+        "median_m": 0.01762648206204176,
+        "p95_m": 0.07661775127053261,
+        "max_m": 0.12092796713113785
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_07_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 200,
+      "domain": {
+        "x": [
+          -74.39360726098235,
+          -73.16790985749961
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.516309713955139,
+          5.599544178780693
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.04080660847338061,
+        "median_m": 0.025187197141349316,
+        "p95_m": 0.08201368041336536,
+        "max_m": 0.11486541479825974
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_08_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 183,
+      "domain": {
+        "x": [
+          -74.3724651720412,
+          -72.87713795382359
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.516747688884949,
+          5.594953965367767
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.032412443035363295,
+        "median_m": 0.016367878764867783,
+        "p95_m": 0.06454061120748521,
+        "max_m": 0.1158146932721138
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_09_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 195,
+      "domain": {
+        "x": [
+          -74.35570939943538,
+          -72.8446705999003
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.520638918514465,
+          5.5995246223725035
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.04066693346968973,
+        "median_m": 0.018756618723273277,
+        "p95_m": 0.08551006615161888,
+        "max_m": 0.12869107723236084
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_10_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 174,
+      "domain": {
+        "x": [
+          -74.3530700942047,
+          -73.15134583076036
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.526158547039246,
+          5.5999980468135275
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.041655382241761144,
+        "median_m": 0.02716935984790325,
+        "p95_m": 0.08736646026372909,
+        "max_m": 0.1185474842786789
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_11_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 157,
+      "domain": {
+        "x": [
+          -74.34924657409763,
+          -72.82682755977513
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.5226933714105835,
+          5.587146866187505
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.04398472368643851,
+        "median_m": 0.020388413220643997,
+        "p95_m": 0.09413821250200272,
+        "max_m": 0.12178650498390198
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_12_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 177,
+      "domain": {
+        "x": [
+          -74.32175625384883,
+          -72.75481391879876
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.529919600124573,
+          5.580370186160386
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.042812421039591764,
+        "median_m": 0.026441942900419235,
+        "p95_m": 0.08677684664726254,
+        "max_m": 0.11793378740549088
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_13_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 178,
+      "domain": {
+        "x": [
+          -74.32442632490739,
+          -73.08232919480831
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.53295085393927,
+          5.725806133700063
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.03800802119888373,
+        "median_m": 0.023152931593358517,
+        "p95_m": 0.08365037627518178,
+        "max_m": 0.12046699225902557
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_14_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 187,
+      "domain": {
+        "x": [
+          -74.30220534805977,
+          -72.75425577161275
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.543115830059265,
+          5.643473601669922
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.03867168600908234,
+        "median_m": 0.025260329246520996,
+        "p95_m": 0.07686104401946067,
+        "max_m": 0.11354248970746994
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_15_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 198,
+      "domain": {
+        "x": [
+          -74.27368069527527,
+          -72.70816735843206
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.540582394237732,
+          5.620653358666783
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.03471454416892194,
+        "median_m": 0.019805816002190113,
+        "p95_m": 0.0709960464388131,
+        "max_m": 0.11446887999773026
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_16_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 197,
+      "domain": {
+        "x": [
+          -74.27031264262152,
+          -73.022120268064
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.545058464641785,
+          5.729629268838513
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.04010369028542427,
+        "median_m": 0.02660680189728737,
+        "p95_m": 0.08447254896163939,
+        "max_m": 0.10521164536476135
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_17_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 223,
+      "domain": {
+        "x": [
+          -74.26947980753118,
+          -72.69253360575087
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.555942749614929,
+          5.621527695446713
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.03705305470268148,
+        "median_m": 0.024713855236768723,
+        "p95_m": 0.0761549890041351,
+        "max_m": 0.10423188656568527
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_18_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 117,
+      "domain": {
+        "x": [
+          -73.97575469032432,
+          -72.45147054163245
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.616585707302307,
+          5.669320744423471
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.036791928395409484,
+        "median_m": 0.02100660838186741,
+        "p95_m": 0.07752539664506912,
+        "max_m": 0.10427172482013702
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_19_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 145,
+      "domain": {
+        "x": [
+          -73.9701594240316,
+          -72.74092327482015
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.619805550213074,
+          5.736936846640503
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.041693943457899604,
+        "median_m": 0.024395480751991272,
+        "p95_m": 0.09033015221357342,
+        "max_m": 0.11077546328306198
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_20_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 112,
+      "domain": {
+        "x": [
+          -73.9574560051786,
+          -72.45104747267584
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.629430269832825,
+          5.70937491836181
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.0396189915835764,
+        "median_m": 0.01940650213509798,
+        "p95_m": 0.0811440449208021,
+        "max_m": 0.11166740953922272
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_21_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 91,
+      "domain": {
+        "x": [
+          -73.9240931960349,
+          -72.41472923693026
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.637980436916565,
+          5.694778721988157
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.0415006145622767,
+        "median_m": 0.021314779296517372,
+        "p95_m": 0.09571939334273338,
+        "max_m": 0.1225469559431076
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_22_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 81,
+      "domain": {
+        "x": [
+          -73.92320878984243,
+          -72.6762316196518
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.635484432811951,
+          5.735897255212325
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.04030605422229814,
+        "median_m": 0.025416851043701172,
+        "p95_m": 0.07586442679166794,
+        "max_m": 0.10069449245929718
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_23_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 61,
+      "domain": {
+        "x": [
+          -73.91546019214371,
+          -72.41815870730736
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.634517168636536,
+          5.704078918960986
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.03472525017802572,
+        "median_m": 0.02413647249341011,
+        "p95_m": 0.062303584069013596,
+        "max_m": 0.09907049685716629
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_00_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 295,
+      "domain": {
+        "x": [
+          -60.6862879153533,
+          -59.49910351743256
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.504696106548523,
+          5.962103237558086
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.05967877282415968,
+        "median_m": 0.04263487830758095,
+        "p95_m": 0.11659810692071915,
+        "max_m": 0.1614445596933365
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_01_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 172,
+      "domain": {
+        "x": [
+          -60.23741630459745,
+          -59.48689194775242
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.506068682308411,
+          5.952158831189886
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.08306385492310668,
+        "median_m": 0.05333232320845127,
+        "p95_m": 0.11528492830693718,
+        "max_m": 0.7059999108314514
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_02_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 239,
+      "domain": {
+        "x": [
+          -60.64536869337313,
+          -59.46863077449897
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.517611479397034,
+          5.912356451984807
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.0530916338385779,
+        "median_m": 0.03193032369017601,
+        "p95_m": 0.11715558692812919,
+        "max_m": 0.1389956921339035
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_03_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 262,
+      "domain": {
+        "x": [
+          -60.57845130280643,
+          -59.428590122317345
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.51465628110907,
+          5.927791129744764
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.05594809615984945,
+        "median_m": 0.0333891361951828,
+        "p95_m": 0.11470478326082229,
+        "max_m": 0.17620661854743958
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_04_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 163,
+      "domain": {
+        "x": [
+          -60.13451185150411,
+          -59.42315017919763
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.51501176321051,
+          6.036859646681296
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.058156044791326904,
+        "median_m": 0.047831933945417404,
+        "p95_m": 0.1082100607454777,
+        "max_m": 0.12388007342815399
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_05_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 174,
+      "domain": {
+        "x": [
+          -60.549967161310654,
+          -59.410824271610046
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          4.515820717449402,
+          5.943108471695858
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.05972420482351292,
+        "median_m": 0.03700272925198078,
+        "p95_m": 0.11853321082890032,
+        "max_m": 0.16480949521064758
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_00_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 203,
+      "domain": {
+        "x": [
+          7.468487245214889,
+          9.28988082442793
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.220560436546802,
+          7.80244259026745
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.05654074889382972,
+        "median_m": 0.03252983093261719,
+        "p95_m": 0.12328938618302342,
+        "max_m": 0.14915265142917633
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_01_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 205,
+      "domain": {
+        "x": [
+          7.455693138173824,
+          9.293152325086643
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.239827757179737,
+          7.796023653762934
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.056071741993937725,
+        "median_m": 0.035712264478206635,
+        "p95_m": 0.11590434163808819,
+        "max_m": 0.14277037978172302
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_02_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 272,
+      "domain": {
+        "x": [
+          7.460520422904312,
+          9.31762075869804
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.239944105446338,
+          7.810650473456299
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.04761894968375422,
+        "median_m": 0.0237236637622118,
+        "p95_m": 0.10534677132964135,
+        "max_m": 0.15117231011390686
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_03_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 318,
+      "domain": {
+        "x": [
+          7.4981065004485,
+          9.347706750099531
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.248579149544239,
+          7.825601718823545
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.05489346354575439,
+        "median_m": 0.027557555586099625,
+        "p95_m": 0.12273050248622894,
+        "max_m": 0.15730643272399902
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_04_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 284,
+      "domain": {
+        "x": [
+          7.498250397845239,
+          9.354936891369553
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.2568537047505375,
+          7.877347210165202
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.059436993629400546,
+        "median_m": 0.03022934030741453,
+        "p95_m": 0.12359119951725002,
+        "max_m": 0.176470547914505
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_05_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 268,
+      "domain": {
+        "x": [
+          7.508358124312812,
+          9.384361789420998
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.282786970436573,
+          7.896895783595799
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.056284058940478124,
+        "median_m": 0.029780561104416847,
+        "p95_m": 0.12294879034161567,
+        "max_m": 0.17438891530036926
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_06_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 266,
+      "domain": {
+        "x": [
+          7.585037354262508,
+          9.401554454161404
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.266079073250293,
+          7.850757477805039
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.043446239404436156,
+        "median_m": 0.023723275400698185,
+        "p95_m": 0.10016069374978542,
+        "max_m": 0.13854262232780457
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_07_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 259,
+      "domain": {
+        "x": [
+          7.590449584505931,
+          9.428902134707206
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.280089741051197,
+          7.9112955089903965
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.0534829443322919,
+        "median_m": 0.025548329576849937,
+        "p95_m": 0.11191421151161193,
+        "max_m": 0.19706860184669495
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_08_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 279,
+      "domain": {
+        "x": [
+          7.573812607862472,
+          9.444285060046232
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.283879881203174,
+          7.878600183771192
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.06158096423198376,
+        "median_m": 0.030474025756120682,
+        "p95_m": 0.12967562824487677,
+        "max_m": 0.15735357999801636
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_09_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 235,
+      "domain": {
+        "x": [
+          7.670431207881521,
+          9.47452805751974
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.296671991646289,
+          7.886762492804857
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.053501368885179666,
+        "median_m": 0.037550441920757294,
+        "p95_m": 0.1119949534535408,
+        "max_m": 0.15196466445922852
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_10_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 249,
+      "domain": {
+        "x": [
+          7.666276085365567,
+          9.489868360818539
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.295973663628101,
+          7.885347980776401
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.059755798801311606,
+        "median_m": 0.03226008638739586,
+        "p95_m": 0.12795307934284209,
+        "max_m": 0.15075670182704926
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_11_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 267,
+      "domain": {
+        "x": [
+          7.677991200879974,
+          9.507147828204216
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.300469045937061,
+          7.896130132599241
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.057459984455208134,
+        "median_m": 0.030851392075419426,
+        "p95_m": 0.11360097229480744,
+        "max_m": 0.1777207851409912
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_00_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 343,
+      "domain": {
+        "x": [
+          -7.771927667096731,
+          -5.637951996119088
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.393682604134082,
+          8.230742285327551
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.04169500934624283,
+        "median_m": 0.02735888957977295,
+        "p95_m": 0.0784713670611381,
+        "max_m": 0.14593656361103058
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_01_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 282,
+      "domain": {
+        "x": [
+          -7.764451286467461,
+          -5.656174577571337
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.402243500053882,
+          8.252445260328782
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.04149769787228708,
+        "median_m": 0.02612493932247162,
+        "p95_m": 0.08463077768683432,
+        "max_m": 0.14102497696876526
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_02_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 329,
+      "domain": {
+        "x": [
+          -7.739881564136359,
+          -5.477623775308901
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.410000210106372,
+          8.158992870226092
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.04213152104821275,
+        "median_m": 0.030380934476852417,
+        "p95_m": 0.08266727179288855,
+        "max_m": 0.14249113202095032
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_03_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 337,
+      "domain": {
+        "x": [
+          -7.678920690433335,
+          -5.54005119840677
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.431363706886768,
+          8.251143804173019
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.037877671685334,
+        "median_m": 0.02870517410337925,
+        "p95_m": 0.0761928379535675,
+        "max_m": 0.11332815140485764
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_04_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 279,
+      "domain": {
+        "x": [
+          -7.649193642060785,
+          -5.652919376117163
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.4255198290944096,
+          8.272737151223577
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.03971742951783413,
+        "median_m": 0.026907261461019516,
+        "p95_m": 0.08139066025614737,
+        "max_m": 0.11253265291452408
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_05_GIS_LEAD_SA_BRANCH",
+      "kind": "arrester_branch",
+      "sample_count": 298,
+      "domain": {
+        "x": [
+          -7.6207199050506045,
+          -5.448879675926932
+        ],
+        "abs_y_from_endpoint_line": 0.34,
+        "z": [
+          6.431939964592456,
+          8.181558675086883
+        ],
+        "lower_vertical_downlead_excluded": true
+      },
+      "current": {
+        "rms_m": 0.04287677124877136,
+        "median_m": 0.03249763511121273,
+        "p95_m": 0.08041846528649327,
+        "max_m": 0.10837360471487045
+      },
+      "residual_trimming": false
+    }
+  ],
+  "camera_framing": {
+    "607_B30_G110_OUT_Clean": {
+      "meshes": 8578,
+      "min": [
+        0.10773700475692749,
+        0.06928973644971848
+      ],
+      "max": [
+        0.8902696371078491,
+        0.8467795848846436
+      ]
+    },
+    "610_B30_G110_IN_Clean": {
+      "meshes": 1949,
+      "min": [
+        0.12648336589336395,
+        0.1407497227191925
+      ],
+      "max": [
+        0.6687051057815552,
+        0.949999988079071
+      ]
+    },
+    "613_B30_G220_OUT_Clean": {
+      "meshes": 6831,
+      "min": [
+        0.17973008751869202,
+        0.10267610102891922
+      ],
+      "max": [
+        0.8158161640167236,
+        0.8881819248199463
+      ]
+    },
+    "616_B30_G220_IN_Clean": {
+      "meshes": 2487,
+      "min": [
+        0.04999999329447746,
+        0.12850245833396912
+      ],
+      "max": [
+        0.8727244138717651,
+        0.8650968670845032
+      ]
+    },
+    "619_B30_G110_OUT_Detail_Clean": {
+      "meshes": 1652,
+      "min": [
+        0.1736660748720169,
+        0.05000003054738045
+      ],
+      "max": [
+        0.7296137809753418,
+        0.8934550285339355
+      ]
+    },
+    "622_B30_G220_OUT_Detail_Clean": {
+      "meshes": 3161,
+      "min": [
+        0.22945591807365417,
+        0.0843629539012909
+      ],
+      "max": [
+        0.7768843173980713,
+        0.8988347053527832
+      ]
+    }
+  },
+  "pending": [
+    "Small clamp geometry and wire diameters are photograph-derived approximations.",
+    "Broad outdoor coverage requires final actual scene/photo review; registry aliases and hidden interiors remain outside exterior proof."
+  ],
+  "outdoor_goal_complete": false,
+  "comparison_scope": "Fixed original odd triangle domains in B29 corridors; fit even triangles from correlated reconstruction. Per-group surface domains include nearby branch ends and fittings; no residual trimming or independent survey claim.",
+  "goal_assessment_scope": "outdoor_goal_complete=False records the technical-validation stage before visual coverage review; final physical assessment is B30_outdoor_coverage.json"
+}

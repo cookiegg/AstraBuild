@@ -1,0 +1,366 @@
+{
+  "status": "software_preservation_and_readback_passed_with_mounting_pending",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/xialin_B11_110kV_arresters_r2.blend",
+  "sha256": "0a18323d9ded48d5ec5e4e05b386111f8ba76403e7f237db6d25007e85badd05",
+  "formal_promotions": 0,
+  "previous_objects_unchanged": 23852,
+  "previous_scenes_unchanged": 68,
+  "previous_collections_unchanged": 284,
+  "previous_materials_unchanged": 287,
+  "protected_files_unchanged": 588,
+  "P02_source_objects_unchanged": 62,
+  "formal_baseline_meshes_preserved": 15096,
+  "retained_legacy_meshes_in_new_station": 6343,
+  "legacy_meshes_omitted_only_in_new_scenes": 300,
+  "all_110kV_arrester_candidates": 30,
+  "new_devices": 15,
+  "updated_previous_candidates": 3,
+  "new_uniform_module_instances": 39,
+  "new_foundations": 18,
+  "shared_transformers_preserved": true,
+  "new_mounting_screens_passed": 11,
+  "new_mounting_screens_unpassed": 7,
+  "measurements": [
+    {
+      "device_id": "12MZ0000000150066",
+      "physical_id": "B11_746_A",
+      "shaft_holdout_rms_m": 0.041185473140373685,
+      "foot_holdout_rms_m": 0.03261847987777611,
+      "mounting_screen_passed": false,
+      "unpassed_checks": [
+        "foot_holdout"
+      ]
+    },
+    {
+      "device_id": "12MZ0000000150067",
+      "physical_id": "B11_746_B",
+      "shaft_holdout_rms_m": 0.03824384365053625,
+      "foot_holdout_rms_m": 0.042685776697740076,
+      "mounting_screen_passed": false,
+      "unpassed_checks": [
+        "foot_holdout"
+      ]
+    },
+    {
+      "device_id": "12MZ0000000150103",
+      "physical_id": "B11_748_B",
+      "shaft_holdout_rms_m": 0.0517634657064657,
+      "foot_holdout_rms_m": 0.032870939250603456,
+      "mounting_screen_passed": false,
+      "unpassed_checks": [
+        "shaft_holdout",
+        "foot_holdout"
+      ]
+    },
+    {
+      "device_id": "12MZ0000000150690",
+      "physical_id": "B11_751_A",
+      "shaft_holdout_rms_m": 0.04032782388273665,
+      "foot_holdout_rms_m": 0.015786417388324127,
+      "mounting_screen_passed": true,
+      "unpassed_checks": []
+    },
+    {
+      "device_id": "12MZ0000000150691",
+      "physical_id": "B11_751_B",
+      "shaft_holdout_rms_m": 0.04130230046034358,
+      "foot_holdout_rms_m": 0.022190719130582577,
+      "mounting_screen_passed": true,
+      "unpassed_checks": []
+    },
+    {
+      "device_id": "12MZ0000000150692",
+      "physical_id": "B11_751_C",
+      "shaft_holdout_rms_m": 0.03668698621269701,
+      "foot_holdout_rms_m": 0.03175788086298277,
+      "mounting_screen_passed": false,
+      "unpassed_checks": [
+        "foot_holdout"
+      ]
+    },
+    {
+      "device_id": "12MZ0000000151263",
+      "physical_id": "B11_758_A",
+      "shaft_holdout_rms_m": 0.03417688322483952,
+      "foot_holdout_rms_m": 0.03764307167620453,
+      "mounting_screen_passed": false,
+      "unpassed_checks": [
+        "foot_holdout"
+      ]
+    },
+    {
+      "device_id": "12MZ0000000151264",
+      "physical_id": "B11_758_B",
+      "shaft_holdout_rms_m": 0.03710312113937886,
+      "foot_holdout_rms_m": 0.013844533965995854,
+      "mounting_screen_passed": true,
+      "unpassed_checks": []
+    },
+    {
+      "device_id": "12MZ0000000151265",
+      "physical_id": "B11_758_C",
+      "shaft_holdout_rms_m": 0.0400248245147756,
+      "foot_holdout_rms_m": 0.023515308686515704,
+      "mounting_screen_passed": true,
+      "unpassed_checks": []
+    },
+    {
+      "device_id": "12MZ0000000151288",
+      "physical_id": "B11_759_A",
+      "shaft_holdout_rms_m": 0.030660833195019388,
+      "foot_holdout_rms_m": 0.028511726003379548,
+      "mounting_screen_passed": true,
+      "unpassed_checks": []
+    },
+    {
+      "device_id": "12MZ0000000151289",
+      "physical_id": "B11_759_B",
+      "shaft_holdout_rms_m": 0.03408193313096032,
+      "foot_holdout_rms_m": 0.01025267873579383,
+      "mounting_screen_passed": true,
+      "unpassed_checks": []
+    },
+    {
+      "device_id": "12MZ0000000151290",
+      "physical_id": "B11_759_C",
+      "shaft_holdout_rms_m": 0.02494534794265248,
+      "foot_holdout_rms_m": 0.012946282317173444,
+      "mounting_screen_passed": true,
+      "unpassed_checks": []
+    },
+    {
+      "device_id": "12MZ0000000151538",
+      "physical_id": "B11_T1_501_A",
+      "shaft_holdout_rms_m": 0.04199149534316192,
+      "foot_holdout_rms_m": 0.031628938605412195,
+      "mounting_screen_passed": false,
+      "unpassed_checks": [
+        "foot_holdout"
+      ]
+    },
+    {
+      "device_id": "12MZ0000000151539",
+      "physical_id": "B11_T1_501_B",
+      "shaft_holdout_rms_m": 0.026402058890232623,
+      "foot_holdout_rms_m": 0.02168900369223942,
+      "mounting_screen_passed": true,
+      "unpassed_checks": []
+    },
+    {
+      "device_id": "12MZ0000000151540",
+      "physical_id": "B11_T1_501_C",
+      "shaft_holdout_rms_m": 0.02562681405752273,
+      "foot_holdout_rms_m": 0.012050315300519534,
+      "mounting_screen_passed": true,
+      "unpassed_checks": []
+    },
+    {
+      "device_id": "12MZ0000000151534",
+      "physical_id": "B11_T2_MV_A",
+      "shaft_holdout_rms_m": 0.03260385954324046,
+      "foot_holdout_rms_m": 0.030943865796612992,
+      "mounting_screen_passed": false,
+      "unpassed_checks": [
+        "foot_holdout"
+      ]
+    },
+    {
+      "device_id": "12MZ0000000151535",
+      "physical_id": "B11_T2_MV_B",
+      "shaft_holdout_rms_m": 0.03952396620580465,
+      "foot_holdout_rms_m": 0.015060382012184887,
+      "mounting_screen_passed": true,
+      "unpassed_checks": []
+    },
+    {
+      "device_id": "12MZ0000000151536",
+      "physical_id": "B11_T2_MV_C",
+      "shaft_holdout_rms_m": 0.03086057480238325,
+      "foot_holdout_rms_m": 0.01857730569871286,
+      "mounting_screen_passed": true,
+      "unpassed_checks": []
+    }
+  ],
+  "contacts": [
+    {
+      "physical_id": "B11_746_A",
+      "foundation_to_steel_gap_m": 0.0,
+      "pedestal_to_body_gap_m": 2.9802322387695312e-08
+    },
+    {
+      "physical_id": "B11_746_B",
+      "foundation_to_steel_gap_m": 0.0,
+      "pedestal_to_body_gap_m": 2.086162567138672e-07
+    },
+    {
+      "physical_id": "B11_748_B",
+      "foundation_to_steel_gap_m": 1.862645149230957e-09,
+      "pedestal_to_body_gap_m": 2.9802322387695312e-08
+    },
+    {
+      "physical_id": "B11_751_A",
+      "foundation_to_steel_gap_m": 9.313225746154785e-09,
+      "pedestal_to_body_gap_m": 2.086162567138672e-07
+    },
+    {
+      "physical_id": "B11_751_B",
+      "foundation_to_steel_gap_m": 9.313225746154785e-09,
+      "pedestal_to_body_gap_m": 2.086162567138672e-07
+    },
+    {
+      "physical_id": "B11_751_C",
+      "foundation_to_steel_gap_m": 1.862645149230957e-09,
+      "pedestal_to_body_gap_m": 2.9802322387695312e-08
+    },
+    {
+      "physical_id": "B11_758_A",
+      "foundation_to_steel_gap_m": 7.450580596923828e-09,
+      "pedestal_to_body_gap_m": 2.9802322387695312e-08
+    },
+    {
+      "physical_id": "B11_758_B",
+      "foundation_to_steel_gap_m": 7.450580596923828e-09,
+      "pedestal_to_body_gap_m": 2.086162567138672e-07
+    },
+    {
+      "physical_id": "B11_758_C",
+      "foundation_to_steel_gap_m": 7.450580596923828e-09,
+      "pedestal_to_body_gap_m": 2.9802322387695312e-08
+    },
+    {
+      "physical_id": "B11_759_A",
+      "foundation_to_steel_gap_m": 7.450580596923828e-09,
+      "pedestal_to_body_gap_m": 2.086162567138672e-07
+    },
+    {
+      "physical_id": "B11_759_B",
+      "foundation_to_steel_gap_m": 7.450580596923828e-09,
+      "pedestal_to_body_gap_m": 2.086162567138672e-07
+    },
+    {
+      "physical_id": "B11_759_C",
+      "foundation_to_steel_gap_m": 7.450580596923828e-09,
+      "pedestal_to_body_gap_m": 2.086162567138672e-07
+    },
+    {
+      "physical_id": "B11_T1_501_A",
+      "foundation_to_steel_gap_m": 1.862645149230957e-09,
+      "pedestal_to_body_gap_m": 2.086162567138672e-07
+    },
+    {
+      "physical_id": "B11_T1_501_B",
+      "foundation_to_steel_gap_m": 1.862645149230957e-09,
+      "pedestal_to_body_gap_m": 2.086162567138672e-07
+    },
+    {
+      "physical_id": "B11_T1_501_C",
+      "foundation_to_steel_gap_m": 1.862645149230957e-09,
+      "pedestal_to_body_gap_m": 2.9802322387695312e-08
+    },
+    {
+      "physical_id": "B11_T2_MV_A",
+      "foundation_to_steel_gap_m": 1.862645149230957e-09,
+      "pedestal_to_body_gap_m": 2.086162567138672e-07
+    },
+    {
+      "physical_id": "B11_T2_MV_B",
+      "foundation_to_steel_gap_m": 1.862645149230957e-09,
+      "pedestal_to_body_gap_m": 2.9802322387695312e-08
+    },
+    {
+      "physical_id": "B11_T2_MV_C",
+      "foundation_to_steel_gap_m": 1.862645149230957e-09,
+      "pedestal_to_body_gap_m": 2.9802322387695312e-08
+    }
+  ],
+  "expanded_meshes_per_new_group": {
+    "746": 119,
+    "748": 56,
+    "751": 168,
+    "758": 168,
+    "759": 168,
+    "T1_501": 168,
+    "T2_MV": 182
+  },
+  "camera_framing": {
+    "746": {
+      "min": [
+        0.3668662905693054,
+        0.1049775555729866
+      ],
+      "max": [
+        0.6403219699859619,
+        0.7470862865447998
+      ]
+    },
+    "748": {
+      "min": [
+        0.4433427155017853,
+        0.08123037964105606
+      ],
+      "max": [
+        0.5590147376060486,
+        0.7515275478363037
+      ]
+    },
+    "751": {
+      "min": [
+        0.3024451732635498,
+        0.12560726702213287
+      ],
+      "max": [
+        0.6989368796348572,
+        0.7388907074928284
+      ]
+    },
+    "758": {
+      "min": [
+        0.2986079156398773,
+        0.12333225458860397
+      ],
+      "max": [
+        0.6964462995529175,
+        0.7399954795837402
+      ]
+    },
+    "759": {
+      "min": [
+        0.3024357557296753,
+        0.13293369114398956
+      ],
+      "max": [
+        0.6989496946334839,
+        0.7435724139213562
+      ]
+    },
+    "T1_501": {
+      "min": [
+        0.2749177813529968,
+        0.0680125281214714
+      ],
+      "max": [
+        0.7233890891075134,
+        0.7619844675064087
+      ]
+    },
+    "T2_MV": {
+      "min": [
+        0.2755098342895508,
+        0.0682329311966896
+      ],
+      "max": [
+        0.7245391607284546,
+        0.7636899948120117
+      ]
+    }
+  },
+  "photo_order_checks": 28,
+  "T1_AC_candidate_reversal_photo_count": 10,
+  "acceptance_scope": "saved geometry, frozen sources, historical preservation, main module placement, actual saved shaft/foot holdout residuals, mesh contacts and camera framing; incomplete wire/accessory scope",
+  "pending": [
+    "Seven R2 mounting screens retain failure: outer foot reconstruction scatter, plus 748-B shaft envelope RMS .0518m; axis poses improved but not declared full pass",
+    "T2 medium-voltage side individual phase order pending; structural mapping remains provisional",
+    "Other small housings and all local exterior wire routes remain incomplete; exact skirt count/terminal orientation unverified"
+  ],
+  "blend_saved_by_validator": false
+}

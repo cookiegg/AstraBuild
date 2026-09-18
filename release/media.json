@@ -1,0 +1,151 @@
+{
+  "base": "website/",
+  "local_preview_note": "Most media/ entries are symlinks inside astra-build so python -m http.server started from astra-build can serve the historical videos/images without copying them. coarse_vs_d40.mp4 and assembly_metal.mp4 are real files: no-caption renders from video1c_compare_noflicker and video4b_assembly_noflicker frames.",
+  "media": [
+    {
+      "id": "coarse_vs_d40_video",
+      "type": "video",
+      "title_en": "Coarse photogrammetric mesh vs. reconstructed D40 presentation layer",
+      "title_zh": "摄影测量粗模 vs. D40 重建展示层",
+      "path_from_website": "../media/coarse_vs_d40.mp4",
+      "source_role": "qualitative same-camera presentation comparison",
+      "claim_limit": "visual comparison; not an independent metric"
+    },
+    {
+      "id": "assembly_video",
+      "type": "video",
+      "title_en": "Progressive component assembly visualization",
+      "title_zh": "部件逐步装配可视化",
+      "path_from_website": "../media/assembly_metal.mp4",
+      "source_role": "presentation of component hierarchy and explanatory assembly order",
+      "claim_limit": "rendered explanatory visualization, not a real construction sequence"
+    },
+    {
+      "id": "d40_look",
+      "type": "image",
+      "title_en": "D40 material-layer overview",
+      "title_zh": "D40 材质层总览",
+      "path_from_website": "../media/d40_overview.png",
+      "source_role": "material presentation layer"
+    },
+    {
+      "id": "d41_t1_front",
+      "type": "image",
+      "title_en": "D41 T1 inspection-accessory front review",
+      "title_zh": "D41 T1 巡检附件正面核查",
+      "path_from_website": "../media/d41_t1_front.png",
+      "source_role": "D41 semantic/inspection layer validation render"
+    },
+    {
+      "id": "d41_t1_rear",
+      "type": "image",
+      "title_en": "D41 T1 rear fan/accessory review",
+      "title_zh": "D41 T1 后部风扇/附件核查",
+      "path_from_website": "../media/d41_t1_rear_fans.png",
+      "source_role": "D41 semantic/inspection layer validation render"
+    },
+    {
+      "id": "d41_closeup",
+      "type": "image",
+      "title_en": "D41 transformer bushing/accessory close-up",
+      "title_zh": "D41 主变套管/附件特写",
+      "path_from_website": "../media/d41_t1_bushing_closeup.png",
+      "source_role": "D41 semantic/inspection layer validation render"
+    },
+    {
+      "id": "hero_loop",
+      "type": "video",
+      "title_en": "Short station-assembly hero loop",
+      "title_zh": "整站装配首页短循环",
+      "path_from_website": "../media/hero_loop.mp4",
+      "source_role": "12-second excerpt derived from the existing progressive assembly visualization for the paper hero",
+      "claim_limit": "qualitative explanatory visualization; not an autonomous physical construction sequence"
+    },
+    {
+      "id": "field_gis",
+      "type": "image",
+      "title_en": "Representative field photograph used as visual evidence",
+      "title_zh": "代表性现场照片证据",
+      "path_from_website": "../media/field_gis.jpg",
+      "source_role": "real field evidence thumbnail used by the website hero"
+    },
+    {
+      "id": "fig10_visual_abstract",
+      "type": "figure",
+      "path_from_website": "../figures/fig10_visual_abstract.svg",
+      "source_role": "visual abstract assembled from real field evidence and historical reconstruction renders"
+    },
+    {
+      "id": "fig11_canonical_workflow",
+      "type": "figure",
+      "path_from_website": "../figures/fig11_canonical_workflow.svg",
+      "source_role": "canonical reconstruction core with task-specific process operators"
+    },
+    {
+      "id": "fig12_b32_worked_example",
+      "type": "figure",
+      "path_from_website": "../figures/fig12_b32_worked_example.svg",
+      "source_role": "B32 worked example with explicit inputs, observable agent decisions, deterministic execution, revisions, review and validation"
+    },
+    {
+      "id": "fig13_review_protocol",
+      "type": "figure",
+      "path_from_website": "../figures/fig13_review_protocol.svg",
+      "source_role": "representative same-camera Clean/Overlay/Reference triplets extracted from original batch review artifacts"
+    },
+    {
+      "id": "process_catalog",
+      "type": "data",
+      "path_from_website": "../release/process_catalog.json",
+      "source_role": "machine-generated index of historical batch result and process artifacts"
+    },
+    {
+      "id": "fig01_agentic_loop",
+      "type": "figure",
+      "path_from_website": "../figures/fig01_agentic_loop.svg",
+      "source_role": "paper method figure"
+    },
+    {
+      "id": "fig02_longitudinal",
+      "type": "figure",
+      "path_from_website": "../figures/fig02_longitudinal_study.svg",
+      "source_role": "longitudinal study design"
+    },
+    {
+      "id": "fig03_quantitative",
+      "type": "figure",
+      "path_from_website": "../figures/fig03_quantitative_evidence.svg",
+      "source_role": "quantitative result summary"
+    },
+    {
+      "id": "fig04_semantics",
+      "type": "figure",
+      "path_from_website": "../figures/fig04_structure_and_semantics.svg",
+      "source_role": "structure and semantic accounting"
+    },
+    {
+      "id": "fig05_failures",
+      "type": "figure",
+      "path_from_website": "../figures/fig05_failure_recovery.svg",
+      "source_role": "failure/recovery mechanism summary"
+    },
+    {
+      "id": "fig06_d38",
+      "type": "figure",
+      "path_from_website": "../figures/fig06_d38_human_feedback.svg",
+      "source_role": "human-markup correction case"
+    },
+    {
+      "id": "fig07_d41",
+      "type": "figure",
+      "path_from_website": "../figures/fig07_d41_inspection_semantics.svg",
+      "source_role": "inspection-semantic augmentation case"
+    },
+    {
+      "id": "fig08_validator",
+      "type": "figure",
+      "path_from_website": "../figures/fig08_validation_stack.svg",
+      "source_role": "layered verifier method figure"
+    }
+  ]
+}

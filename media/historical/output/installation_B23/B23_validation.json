@@ -1,0 +1,1324 @@
+{
+  "status": "curved_neutral_leads_added_shared_mechanism_refined_alignment_partial",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/r3/xialin_B23_neutral_leads_and_mechanisms_r3.blend",
+  "sha256": "a62bbc7fb238e742ee33b1c66ac7d5db12b21ca6f05ccc8b25b3a00e7a815236",
+  "previous_objects_unchanged": 28246,
+  "previous_scenes_unchanged": 461,
+  "previous_collections_unchanged": 598,
+  "previous_materials_unchanged": 323,
+  "previous_station_world_transforms_unchanged": 3301,
+  "protected_previous_files_unchanged": 2192,
+  "protection_evidence": {
+    "inherited_checkpoint": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/B22_previous_files_checkpoint.json",
+    "inherited_unchanged_stats": 2072,
+    "new_full_hash_checks": 120,
+    "scope": "prior2072 complete-hash proof retained and all size/mtime_ns unchanged; new B22 release119 files plus release record fully hashed"
+  },
+  "legacy_meshes_remaining": 1682,
+  "formal_baseline_meshes": 15096,
+  "source_asset_roundtrip_identical": true,
+  "shared_masters": [
+    "B23_NEUTRAL_CLUSTER_MASTER",
+    "B23_UPPER_BLADE_MASTER"
+  ],
+  "surface_checks": [
+    {
+      "key": "T1",
+      "name": "column",
+      "heldout_count": 334,
+      "rms_m": 0.05280202390350073,
+      "p95_m": 0.12499649189412593,
+      "five_cm_screen_passed": false,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "center_xy": [
+          -5.92,
+          -4.23
+        ],
+        "radius": 0.28,
+        "z": [
+          1.45,
+          2.8
+        ],
+        "max_abs_normal_z": 0.45,
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "brown",
+      "heldout_count": 252,
+      "rms_m": 0.009031311405451875,
+      "p95_m": 0.016128583531826734,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "center_xy": [
+          -5.92,
+          -4.54
+        ],
+        "radius": 0.24,
+        "z": [
+          4.3,
+          5.45
+        ],
+        "max_abs_normal_z": 0.45,
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "black",
+      "heldout_count": 179,
+      "rms_m": 0.009143430746572426,
+      "p95_m": 0.017418044432997704,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "center_xy": [
+          -5.91,
+          -3.84
+        ],
+        "radius": 0.25,
+        "z": [
+          4.65,
+          5.65
+        ],
+        "max_abs_normal_z": 0.45,
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "beam_top",
+      "heldout_count": 154,
+      "rms_m": 0.024579909265838768,
+      "p95_m": 0.039738620072603224,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 2,
+        "span": [
+          3.965,
+          4.085
+        ],
+        "bounds": [
+          [
+            -6.2,
+            -5.7,
+            0
+          ],
+          [
+            -5.6,
+            -3.5,
+            9
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "base_top",
+      "heldout_count": 39,
+      "rms_m": 0.011243899042471328,
+      "p95_m": 0.020577094703912734,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 2,
+        "span": [
+          0.015,
+          0.13
+        ],
+        "bounds": [
+          [
+            -6.2,
+            -4.52,
+            0
+          ],
+          [
+            -5.61,
+            -3.95,
+            9
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "cab_xlo",
+      "heldout_count": 21,
+      "rms_m": 0.006914467574007807,
+      "p95_m": 0.011978475376963615,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 0,
+        "span": [
+          -6.27,
+          -6.08
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "cab_xhi",
+      "heldout_count": 27,
+      "rms_m": 0.0055996878392524894,
+      "p95_m": 0.01064678123220801,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 0,
+        "span": [
+          -5.69,
+          -5.51
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "cab_ylo",
+      "heldout_count": 56,
+      "rms_m": 0.051064893753586,
+      "p95_m": 0.10632430389523506,
+      "five_cm_screen_passed": false,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 1,
+        "span": [
+          -4.04,
+          -3.91
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "cab_yhi",
+      "heldout_count": 23,
+      "rms_m": 0.009806156455317266,
+      "p95_m": 0.015760275628417728,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 1,
+        "span": [
+          -3.58,
+          -3.36
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "cab_zlo",
+      "heldout_count": 20,
+      "rms_m": 0.022923829494512365,
+      "p95_m": 0.04001576602458955,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 2,
+        "span": [
+          0.32,
+          0.49
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "cab_zhi",
+      "heldout_count": 32,
+      "rms_m": 0.03455875720816503,
+      "p95_m": 0.07819646149873732,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 2,
+        "span": [
+          1.0,
+          1.18
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "red_head",
+      "heldout_count": 229,
+      "rms_m": 0.022313777852709802,
+      "p95_m": 0.040043570846319196,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "bounds": [
+          [
+            -6.2,
+            -5.6,
+            4.8
+          ],
+          [
+            -5.55,
+            -5.12,
+            5.3
+          ]
+        ],
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "inclined",
+      "heldout_count": 373,
+      "rms_m": 0.03608549650606108,
+      "p95_m": 0.07908648699522015,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "bounds": [
+          [
+            -6.2,
+            -3.55,
+            4.15
+          ],
+          [
+            -5.55,
+            -2.65,
+            4.91
+          ]
+        ],
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "upper_blade",
+      "heldout_count": 63,
+      "rms_m": 0.03861776256264661,
+      "p95_m": 0.05894843116402626,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "z": [
+          5.2,
+          5.51
+        ],
+        "radius": [
+          0.3,
+          1.25
+        ],
+        "xy": [
+          [
+            -7.4,
+            -4.25
+          ],
+          [
+            -5.4,
+            -2.6
+          ]
+        ],
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "column",
+      "heldout_count": 284,
+      "rms_m": 0.04385307395116797,
+      "p95_m": 0.10861279927194113,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "center_xy": [
+          -5.92,
+          -4.23
+        ],
+        "radius": 0.28,
+        "z": [
+          1.45,
+          2.8
+        ],
+        "max_abs_normal_z": 0.45,
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "brown",
+      "heldout_count": 267,
+      "rms_m": 0.01101127587515442,
+      "p95_m": 0.019055804423987854,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "center_xy": [
+          -5.92,
+          -4.54
+        ],
+        "radius": 0.24,
+        "z": [
+          4.3,
+          5.45
+        ],
+        "max_abs_normal_z": 0.45,
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "black",
+      "heldout_count": 184,
+      "rms_m": 0.00929133747337335,
+      "p95_m": 0.017072416096925735,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "center_xy": [
+          -5.91,
+          -3.84
+        ],
+        "radius": 0.25,
+        "z": [
+          4.65,
+          5.65
+        ],
+        "max_abs_normal_z": 0.45,
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "beam_top",
+      "heldout_count": 89,
+      "rms_m": 0.020370746345486374,
+      "p95_m": 0.051789426803588855,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 2,
+        "span": [
+          3.965,
+          4.085
+        ],
+        "bounds": [
+          [
+            -6.2,
+            -5.7,
+            0
+          ],
+          [
+            -5.6,
+            -3.5,
+            9
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "base_top",
+      "heldout_count": 49,
+      "rms_m": 0.011207070301749191,
+      "p95_m": 0.020087940990924834,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 2,
+        "span": [
+          0.015,
+          0.13
+        ],
+        "bounds": [
+          [
+            -6.2,
+            -4.52,
+            0
+          ],
+          [
+            -5.61,
+            -3.95,
+            9
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "cab_xlo",
+      "heldout_count": 28,
+      "rms_m": 0.03094684882633597,
+      "p95_m": 0.07511217314749953,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 0,
+        "span": [
+          -6.27,
+          -6.08
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "cab_xhi",
+      "heldout_count": 21,
+      "rms_m": 0.009028801171480371,
+      "p95_m": 0.0163999292999506,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 0,
+        "span": [
+          -5.69,
+          -5.51
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "cab_ylo",
+      "heldout_count": 57,
+      "rms_m": 0.04040009941981433,
+      "p95_m": 0.08726452291011805,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 1,
+        "span": [
+          -4.04,
+          -3.91
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "cab_yhi",
+      "heldout_count": 27,
+      "rms_m": 0.011865692121917217,
+      "p95_m": 0.02175014223903417,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 1,
+        "span": [
+          -3.58,
+          -3.36
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "cab_zlo",
+      "heldout_count": 16,
+      "rms_m": 0.019567805251344696,
+      "p95_m": 0.032982237637043,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 2,
+        "span": [
+          0.32,
+          0.49
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "cab_zhi",
+      "heldout_count": 5,
+      "rms_m": 0.04535137001447477,
+      "p95_m": 0.06948714852333068,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 2,
+        "span": [
+          1.0,
+          1.18
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "red_head",
+      "heldout_count": 218,
+      "rms_m": 0.02317157081204381,
+      "p95_m": 0.05219575744122266,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "bounds": [
+          [
+            -6.2,
+            -5.6,
+            4.8
+          ],
+          [
+            -5.55,
+            -5.12,
+            5.3
+          ]
+        ],
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "inclined",
+      "heldout_count": 397,
+      "rms_m": 0.043134945136675415,
+      "p95_m": 0.08648126572370529,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "bounds": [
+          [
+            -6.2,
+            -3.55,
+            4.15
+          ],
+          [
+            -5.55,
+            -2.65,
+            4.91
+          ]
+        ],
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "upper_blade",
+      "heldout_count": 19,
+      "rms_m": 0.014946899021768012,
+      "p95_m": 0.028912560455501064,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "z": [
+          5.2,
+          5.51
+        ],
+        "radius": [
+          0.3,
+          1.25
+        ],
+        "xy": [
+          [
+            -7.4,
+            -4.25
+          ],
+          [
+            -5.4,
+            -2.6
+          ]
+        ],
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    }
+  ],
+  "lead_checks": [
+    {
+      "key": "T1",
+      "name": "T1_NEUTRAL_TO_TRANSFORMER",
+      "heldout_count": 139,
+      "rms_m": 0.024154944237459997,
+      "p95_m": 0.04204582720994949,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "bounds": [
+          [
+            -6.05,
+            -3.68,
+            5.68
+          ],
+          [
+            -4.17,
+            -2.15,
+            6.48
+          ]
+        ],
+        "takeoff_exclusion": "X<=-5.80 requires Z>5.96",
+        "min_area": null
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "T2_NEUTRAL_TO_TRANSFORMER",
+      "heldout_count": 133,
+      "rms_m": 0.024866015880922174,
+      "p95_m": 0.04521527737379074,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "bounds": [
+          [
+            -6.05,
+            -3.68,
+            5.68
+          ],
+          [
+            -4.17,
+            -2.15,
+            6.48
+          ]
+        ],
+        "takeoff_exclusion": "X<=-5.80 requires Z>5.96",
+        "min_area": null
+      },
+      "residual_trimming": false
+    }
+  ],
+  "crosslink_checks": [
+    {
+      "key": "T1",
+      "name": "T1_BROWN_BLACK_LINK",
+      "heldout_count": 18,
+      "rms_m": 0.03756160936975081,
+      "p95_m": 0.05632051546126604,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "abs_x": 0.18,
+        "y": [
+          -0.21160473240908448,
+          0.2767208521828183
+        ],
+        "z": [
+          5.86,
+          6.15
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "T2_BROWN_BLACK_LINK",
+      "heldout_count": 23,
+      "rms_m": 0.04785016278004477,
+      "p95_m": 0.08521911799907685,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "abs_x": 0.18,
+        "y": [
+          -0.21160473240908448,
+          0.2767208521828183
+        ],
+        "z": [
+          5.86,
+          6.15
+        ]
+      },
+      "residual_trimming": false
+    }
+  ],
+  "local_screens_passed": 30,
+  "local_screens_unpassed": 2,
+  "main_and_crosslink_length_m": 7.181091133150422,
+  "flexible_braid_length_m": 5.318745086502627,
+  "total_conductor_length_m": 12.499836219653048,
+  "braid_geometry_checks": [
+    {
+      "key": "T1",
+      "object": "B23::inclined.T1.braid.0",
+      "centerline_error_m": 3.0901652059143935e-07,
+      "radius_error_m": 2.873544824285104e-07,
+      "length_m": 1.0755275540446203,
+      "scope": "two photographed flexible braids; exterior arc follows even-face outboard Y1.18..1.47,Z4.47..4.9; takeoff and attachment inferred at visible metal ferrules; thickness approximate"
+    },
+    {
+      "key": "T1",
+      "object": "B23::inclined.T1.braid.1",
+      "centerline_error_m": 3.198323146865081e-07,
+      "radius_error_m": 2.8798971956310593e-07,
+      "length_m": 1.084836699265102,
+      "scope": "two photographed flexible braids; exterior arc follows even-face outboard Y1.18..1.47,Z4.47..4.9; takeoff and attachment inferred at visible metal ferrules; thickness approximate"
+    },
+    {
+      "key": "T2",
+      "object": "B23::inclined.T2.braid.0",
+      "centerline_error_m": 1.6730270328615527e-07,
+      "radius_error_m": 2.886339750228506e-07,
+      "length_m": 1.6309375089991318,
+      "scope": "two photographed flexible braids; exterior arc follows even-face outboard Y1.18..1.47,Z4.47..4.9; takeoff and attachment inferred at visible metal ferrules; thickness approximate"
+    },
+    {
+      "key": "T2",
+      "object": "B23::inclined.T2.braid.1",
+      "centerline_error_m": 1.5179676933354593e-07,
+      "radius_error_m": 2.899461945737522e-07,
+      "length_m": 1.5274433241937726,
+      "scope": "two photographed flexible braids; exterior arc follows even-face outboard Y1.18..1.47,Z4.47..4.9; takeoff and attachment inferred at visible metal ferrules; thickness approximate"
+    }
+  ],
+  "centerline_endpoint_checks": [
+    {
+      "object": "B23::T1.neutral_to_transformer",
+      "max_centerline_error_m": 2.395191869750425e-07,
+      "radius_error_m": 3.518392481353938e-07,
+      "actual_start": [
+        -9.164321374396462,
+        -35.82552797204393,
+        6.073600381612778
+      ],
+      "actual_end": [
+        -6.983319919261495,
+        -36.845668861776026,
+        5.909793853759766
+      ]
+    },
+    {
+      "object": "B23::T1.brown_black_link",
+      "max_centerline_error_m": 1.6939347873457778e-07,
+      "radius_error_m": 3.4286694466055534e-07,
+      "actual_start": [
+        -9.786996579619379,
+        -36.11899977331575,
+        5.968600474298
+      ],
+      "actual_end": [
+        -9.16432115677176,
+        -35.82552797657229,
+        5.968600414693356
+      ]
+    },
+    {
+      "object": "B23::T2.neutral_to_transformer",
+      "max_centerline_error_m": 2.589415650587522e-07,
+      "radius_error_m": 3.3186107720704905e-07,
+      "actual_start": [
+        -15.662397289927931,
+        -22.30088438970548,
+        6.0450000166893005
+      ],
+      "actual_end": [
+        -13.449299890996187,
+        -23.33310516783557,
+        5.897809028625488
+      ]
+    },
+    {
+      "object": "B23::T2.brown_black_link",
+      "max_centerline_error_m": 1.3699260948094396e-07,
+      "radius_error_m": 3.2414514909012704e-07,
+      "actual_start": [
+        -16.28040376937911,
+        -22.604064466030014,
+        5.940000027418137
+      ],
+      "actual_end": [
+        -15.662397072070492,
+        -22.30088430878766,
+        5.940000057220459
+      ]
+    }
+  ],
+  "construction_contacts": [
+    {
+      "key": "T1",
+      "a": "B22::foundation",
+      "b": "B22::column.baseplate",
+      "gap_m": 3.725290298461914e-09
+    },
+    {
+      "key": "T1",
+      "a": "B22::column.baseplate",
+      "b": "B22::column",
+      "gap_m": 3.725290298461914e-09
+    },
+    {
+      "key": "T1",
+      "a": "B22::column",
+      "b": "B22::beam.bottom_flange",
+      "gap_m": 2.5704503059387207e-07
+    },
+    {
+      "key": "T1",
+      "a": "B22::beam.top_flange",
+      "b": "B22::brown.base",
+      "gap_m": 6.332993507385254e-08
+    },
+    {
+      "key": "T1",
+      "a": "B22::beam.top_flange",
+      "b": "B22::black.base",
+      "gap_m": 6.332993507385254e-08
+    },
+    {
+      "key": "T1",
+      "a": "B22::brown.base",
+      "b": "B22::brown.ceramic",
+      "gap_m": 0.0
+    },
+    {
+      "key": "T1",
+      "a": "B22::black.base",
+      "b": "B22::black.ceramic",
+      "gap_m": 0.0
+    },
+    {
+      "key": "T1",
+      "a": "B22::T1.cabinet.stand.0",
+      "b": "B22::T1.cabinet.footing",
+      "gap_m": 1.862645149230957e-09
+    },
+    {
+      "key": "T1",
+      "a": "B22::T1.cabinet.stand.1",
+      "b": "B22::T1.cabinet.footing",
+      "gap_m": 1.862645149230957e-09
+    },
+    {
+      "key": "T1",
+      "a": "B22::redhead.seat",
+      "b": "B22::redframe.side.2.0",
+      "gap_m": 9.499490261077881e-08
+    },
+    {
+      "key": "T1",
+      "a": "inclined cradle",
+      "b": "outboard foot",
+      "side": -1,
+      "gap_m": 8.381903171539307e-08,
+      "scope": "cradle base ring center at pad top"
+    },
+    {
+      "key": "T1",
+      "a": "inclined cradle",
+      "b": "outboard foot",
+      "side": 1,
+      "gap_m": 8.381903082721465e-08,
+      "scope": "cradle base ring center at pad top"
+    },
+    {
+      "key": "T1",
+      "a": "B23::inclined.lower_bridge",
+      "b": "B22::black.mount_plate",
+      "gap_m": 2.0302832126617432e-07
+    },
+    {
+      "key": "T1",
+      "a": "inclined.lower_fork.-1",
+      "b": "B23::inclined.lower_bridge",
+      "gap_m": 0,
+      "scope": "actual base-ring center contained within attached lower housing"
+    },
+    {
+      "key": "T1",
+      "a": "inclined.lower_fork.+1",
+      "b": "B23::inclined.lower_bridge",
+      "gap_m": 0,
+      "scope": "actual base-ring center contained within attached lower housing"
+    },
+    {
+      "key": "T2",
+      "a": "B22::foundation",
+      "b": "B22::column.baseplate",
+      "gap_m": 3.725290298461914e-09
+    },
+    {
+      "key": "T2",
+      "a": "B22::column.baseplate",
+      "b": "B22::column",
+      "gap_m": 3.725290298461914e-09
+    },
+    {
+      "key": "T2",
+      "a": "B22::column",
+      "b": "B22::beam.bottom_flange",
+      "gap_m": 2.5704503059387207e-07
+    },
+    {
+      "key": "T2",
+      "a": "B22::beam.top_flange",
+      "b": "B22::brown.base",
+      "gap_m": 6.332993507385254e-08
+    },
+    {
+      "key": "T2",
+      "a": "B22::beam.top_flange",
+      "b": "B22::black.base",
+      "gap_m": 6.332993507385254e-08
+    },
+    {
+      "key": "T2",
+      "a": "B22::brown.base",
+      "b": "B22::brown.ceramic",
+      "gap_m": 0.0
+    },
+    {
+      "key": "T2",
+      "a": "B22::black.base",
+      "b": "B22::black.ceramic",
+      "gap_m": 0.0
+    },
+    {
+      "key": "T2",
+      "a": "B22::T2.cabinet.stand.0",
+      "b": "B22::T2.cabinet.footing",
+      "gap_m": 2.066371962428093e-09
+    },
+    {
+      "key": "T2",
+      "a": "B22::T2.cabinet.stand.1",
+      "b": "B22::T2.cabinet.footing",
+      "gap_m": 2.066371962428093e-09
+    },
+    {
+      "key": "T2",
+      "a": "B22::redhead.seat",
+      "b": "B22::redframe.side.2.0",
+      "gap_m": 9.499490261077881e-08
+    },
+    {
+      "key": "T2",
+      "a": "inclined cradle",
+      "b": "outboard foot",
+      "side": -1,
+      "gap_m": 8.381903171539307e-08,
+      "scope": "cradle base ring center at pad top"
+    },
+    {
+      "key": "T2",
+      "a": "inclined cradle",
+      "b": "outboard foot",
+      "side": 1,
+      "gap_m": 8.381903082721465e-08,
+      "scope": "cradle base ring center at pad top"
+    },
+    {
+      "key": "T2",
+      "a": "B23::inclined.lower_bridge",
+      "b": "B22::black.mount_plate",
+      "gap_m": 2.0302832126617432e-07
+    },
+    {
+      "key": "T2",
+      "a": "inclined.lower_fork.-1",
+      "b": "B23::inclined.lower_bridge",
+      "gap_m": 0,
+      "scope": "actual base-ring center contained within attached lower housing"
+    },
+    {
+      "key": "T2",
+      "a": "inclined.lower_fork.+1",
+      "b": "B23::inclined.lower_bridge",
+      "gap_m": 0,
+      "scope": "actual base-ring center contained within attached lower housing"
+    }
+  ],
+  "mechanism_improvement": [
+    {
+      "key": "T1",
+      "name": "inclined",
+      "prior_rms_m": 0.08104041790476482,
+      "new_rms_m": 0.03608549650606108,
+      "passed": true
+    },
+    {
+      "key": "T1",
+      "name": "upper_blade",
+      "prior_rms_m": 0.10104022360196906,
+      "new_rms_m": 0.03861776256264661,
+      "passed": true
+    },
+    {
+      "key": "T2",
+      "name": "inclined",
+      "prior_rms_m": 0.08381239109166962,
+      "new_rms_m": 0.043134945136675415,
+      "passed": true
+    },
+    {
+      "key": "T2",
+      "name": "upper_blade",
+      "prior_rms_m": 0.017066661252225446,
+      "new_rms_m": 0.014946899021768012,
+      "passed": true
+    }
+  ],
+  "camera_framing": {
+    "479_B23_T1_Neutral_Oblique_Clean": {
+      "expanded_meshes": 109,
+      "min": [
+        0.37252840399742126,
+        0.09320500493049622
+      ],
+      "max": [
+        0.6069011688232422,
+        0.949999988079071
+      ]
+    },
+    "482_B23_T1_Upper_Side_Clean": {
+      "expanded_meshes": 123,
+      "min": [
+        0.12447863072156906,
+        0.23576705157756805
+      ],
+      "max": [
+        0.8030509352684021,
+        0.7263422012329102
+      ]
+    },
+    "485_B23_T1_Upper_Top_Clean": {
+      "expanded_meshes": 123,
+      "min": [
+        0.15301044285297394,
+        0.30276328325271606
+      ],
+      "max": [
+        0.9205806255340576,
+        0.8275996446609497
+      ]
+    },
+    "497_B23_T1_Transformer_Context": {
+      "expanded_meshes": 1727,
+      "min": [
+        0.2506670355796814,
+        0.2410808950662613
+      ],
+      "max": [
+        0.7484286427497864,
+        0.949999988079071
+      ]
+    },
+    "488_B23_T2_Neutral_Oblique_Clean": {
+      "expanded_meshes": 108,
+      "min": [
+        0.37025880813598633,
+        0.08827393501996994
+      ],
+      "max": [
+        0.6087175011634827,
+        0.9500000476837158
+      ]
+    },
+    "491_B23_T2_Upper_Side_Clean": {
+      "expanded_meshes": 122,
+      "min": [
+        0.12447819113731384,
+        0.22943687438964844
+      ],
+      "max": [
+        0.8064294457435608,
+        0.719977617263794
+      ]
+    },
+    "494_B23_T2_Upper_Top_Clean": {
+      "expanded_meshes": 122,
+      "min": [
+        0.1496976763010025,
+        0.30024150013923645
+      ],
+      "max": [
+        0.9205754995346069,
+        0.8343130946159363
+      ]
+    },
+    "498_B23_T2_Transformer_Context": {
+      "expanded_meshes": 1726,
+      "min": [
+        0.25124844908714294,
+        0.2412337064743042
+      ],
+      "max": [
+        0.7478487491607666,
+        0.949999988079071
+      ]
+    },
+    "499_B23_Neutral_Master_Edit": {
+      "expanded_meshes": 87,
+      "min": [
+        0.3683682382106781,
+        0.049999989569187164
+      ],
+      "max": [
+        0.6141297817230225,
+        0.9463781118392944
+      ]
+    }
+  },
+  "formal_promotions": 0,
+  "outdoor_goal_complete": false,
+  "pending": [
+    "Bare column and cabinet local failures inherited from B22; inclined/upper blade comparisons re-evaluated on identical fixed domains.",
+    "Exact neutral device registry mapping and remaining red-head external conductors unresolved.",
+    "Source reconstruction and photo-derived small hardware do not establish manufacturer dimensions or survey accuracy.",
+    "Station-service transformers305/306 and earlier B11-B21 remaining local alignment failures remain next."
+  ],
+  "saved_by_validator": false,
+  "screen_scope": "fixed previous28 domains retained;4 new conductor domains declared prebuild; even fit/odd comparison in one correlated reconstruction; 5cm internal screen, not user survey tolerance"
+}

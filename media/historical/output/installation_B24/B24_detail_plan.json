@@ -1,0 +1,165 @@
+{
+  "source_window_diagnostics": [
+    {
+      "key": "305",
+      "features": [
+        {
+          "bounds": [
+            -2.65,
+            -1.95
+          ],
+          "count": 127,
+          "x_quantiles": [
+            -2.5568032374828977,
+            -2.1321610153105697,
+            -1.9937722680196537
+          ],
+          "z_quantiles": [
+            1.6894089226069506,
+            1.8352653867112771,
+            1.9323751354088015
+          ]
+        },
+        {
+          "bounds": [
+            -1.78,
+            -1.02
+          ],
+          "count": 126,
+          "x_quantiles": [
+            -1.465256881444351,
+            -1.2331873919975203,
+            -1.0908365331722178
+          ],
+          "z_quantiles": [
+            1.672718704537783,
+            1.7913168614647474,
+            1.9122825316801026
+          ]
+        },
+        {
+          "bounds": [
+            -0.9,
+            0.15
+          ],
+          "count": 89,
+          "x_quantiles": [
+            -0.8849180892091949,
+            -0.18268830046630785,
+            0.07196788646104858
+          ],
+          "z_quantiles": [
+            1.709550958715469,
+            1.8061160338473807,
+            1.8872089302706931
+          ]
+        },
+        {
+          "bounds": [
+            1.1,
+            1.75
+          ],
+          "count": 37,
+          "x_quantiles": [
+            1.2650480644190956,
+            1.4476408620780608,
+            1.6249991871838885
+          ],
+          "z_quantiles": [
+            1.7201658115078318,
+            1.778057858247727,
+            1.8461802734412536
+          ]
+        }
+      ]
+    },
+    {
+      "key": "306",
+      "features": [
+        {
+          "bounds": [
+            -2.65,
+            -1.95
+          ],
+          "count": 99,
+          "x_quantiles": [
+            -2.549824008666929,
+            -2.3120997293689207,
+            -2.023340804234337
+          ],
+          "z_quantiles": [
+            1.68864602275395,
+            1.7700301612256806,
+            1.9002728241728593
+          ]
+        },
+        {
+          "bounds": [
+            -1.78,
+            -1.02
+          ],
+          "count": 91,
+          "x_quantiles": [
+            -1.6275351591885658,
+            -1.3585220807498442,
+            -1.1375911258935274
+          ],
+          "z_quantiles": [
+            1.6987292000975356,
+            1.7950879055020146,
+            1.8890268700841841
+          ]
+        },
+        {
+          "bounds": [
+            -0.9,
+            0.15
+          ],
+          "count": 162,
+          "x_quantiles": [
+            -0.7622164888748244,
+            -0.3961228362028594,
+            -0.03639872863976188
+          ],
+          "z_quantiles": [
+            1.694498089636785,
+            1.7809621564064073,
+            1.8782908817815924
+          ]
+        },
+        {
+          "bounds": [
+            1.1,
+            1.75
+          ],
+          "count": 74,
+          "x_quantiles": [
+            1.1658080361861571,
+            1.4551668065713197,
+            1.6793810666786686
+          ],
+          "z_quantiles": [
+            1.6998656015338054,
+            1.8082178401094677,
+            1.9081924298712971
+          ]
+        }
+      ]
+    }
+  ],
+  "side_door_centers_m": [
+    -2.27,
+    -1.4,
+    -0.34,
+    1.39
+  ],
+  "side_door_widths_m": [
+    0.854,
+    0.854,
+    1.12,
+    0.96
+  ],
+  "shared_window_height_center_m": 1.8,
+  "evidence": "Paired physical window openings present in both registered enclosures; even source triangles in fixed feature bands used for placement diagnostic. First two door leaves form pair; third and fourth are separate photo-observed panels.",
+  "r1_problem": "Initial guessed longitudinal door layout placed 3rd and 4th windows too far toward rear. Revised shared door centers follow corresponding window openings in both units."
+}

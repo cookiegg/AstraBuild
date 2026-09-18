@@ -1,0 +1,482 @@
+{
+  "status": "revision_plan_not_executed",
+  "pairs": [
+    {
+      "a": "752",
+      "b": "502",
+      "level": 0,
+      "start_a": [
+        28.225809774974895,
+        -7.378116129646091,
+        0.7856412027031183
+      ],
+      "start_b": [
+        28.220711541033083,
+        -7.3294612502644245,
+        0.7858151011168957
+      ],
+      "midpoint": [
+        28.223260658003987,
+        -7.353788689955257,
+        0.785728151910007
+      ],
+      "projected_port_gap_m": -0.04606116122476977,
+      "action": "omit_added_spools_on_both_sides",
+      "close_pair_inherited_through_pipe_overlap_m": 0.04606116122476977
+    },
+    {
+      "a": "752",
+      "b": "502",
+      "level": 1,
+      "start_a": [
+        28.222173947442965,
+        -7.379857434670067,
+        1.829222271218896
+      ],
+      "start_b": [
+        28.217072165704394,
+        -7.331195127862353,
+        1.8293961696326733
+      ],
+      "midpoint": [
+        28.21962305657368,
+        -7.35552628126621,
+        1.8293092204257846
+      ],
+      "projected_port_gap_m": -0.04606939245331395,
+      "action": "omit_added_spools_on_both_sides",
+      "close_pair_inherited_through_pipe_overlap_m": 0.04606939245331395
+    },
+    {
+      "a": "502",
+      "b": "753",
+      "level": 0,
+      "start_a": [
+        29.011150014222437,
+        -8.988577051823802,
+        0.7858151011168957
+      ],
+      "start_b": [
+        30.68386126080457,
+        -12.52457022556719,
+        0.7982046939432621
+      ],
+      "midpoint": [
+        29.847505637513503,
+        -10.756573638695496,
+        0.7920098975300789
+      ],
+      "projected_port_gap_m": 3.9116015524227374,
+      "action": "two_finite_spools_meet_at_common_midpoint",
+      "close_pair_inherited_through_pipe_overlap_m": 0.0
+    },
+    {
+      "a": "502",
+      "b": "753",
+      "level": 1,
+      "start_a": [
+        29.00751063889375,
+        -8.99031092942173,
+        1.8293961696326733
+      ],
+      "start_b": [
+        30.680224221759516,
+        -12.526308998956447,
+        1.8417857624590397
+      ],
+      "midpoint": [
+        29.843867430326632,
+        -10.758309964189088,
+        1.8355909660458565
+      ],
+      "projected_port_gap_m": 3.911606977066923,
+      "action": "two_finite_spools_meet_at_common_midpoint",
+      "close_pair_inherited_through_pipe_overlap_m": 0.0
+    },
+    {
+      "a": "753",
+      "b": "754",
+      "level": 0,
+      "start_a": [
+        31.47653162381591,
+        -14.18262096436001,
+        0.7982046939432621
+      ],
+      "start_b": [
+        33.91941073907373,
+        -19.27966385548358,
+        0.8061765655875206
+      ],
+      "midpoint": [
+        32.69797118144482,
+        -16.731142409921794,
+        0.8021906297653913
+      ],
+      "projected_port_gap_m": 5.652208904440027,
+      "action": "two_finite_spools_meet_at_common_midpoint",
+      "close_pair_inherited_through_pipe_overlap_m": 0.0
+    },
+    {
+      "a": "753",
+      "b": "754",
+      "level": 1,
+      "start_a": [
+        31.472894584770856,
+        -14.184359737749267,
+        1.8417857624590397
+      ],
+      "start_b": [
+        33.91577674250768,
+        -19.28140897790323,
+        1.8497576341032982
+      ],
+      "midpoint": [
+        32.694335663639265,
+        -16.732884357826247,
+        1.845771698281169
+      ],
+      "projected_port_gap_m": 5.652215944809216,
+      "action": "two_finite_spools_meet_at_common_midpoint",
+      "close_pair_inherited_through_pipe_overlap_m": 0.0
+    },
+    {
+      "a": "754",
+      "b": "501",
+      "level": 0,
+      "start_a": [
+        34.714975493485774,
+        -20.93632759183136,
+        0.8061765655875206
+      ],
+      "start_b": [
+        34.695040957280575,
+        -20.855103731424418,
+        0.8103625699877739
+      ],
+      "midpoint": [
+        34.705008225383175,
+        -20.89571566162789,
+        0.8082695677876472
+      ],
+      "projected_port_gap_m": -0.08184260206725827,
+      "action": "omit_added_spools_on_both_sides",
+      "close_pair_inherited_through_pipe_overlap_m": 0.08184260206725827
+    },
+    {
+      "a": "754",
+      "b": "501",
+      "level": 1,
+      "start_a": [
+        34.71134149691972,
+        -20.93807271425101,
+        1.8497576341032982
+      ],
+      "start_b": [
+        34.69140014505215,
+        -20.856834589730763,
+        1.8539436385035515
+      ],
+      "midpoint": [
+        34.701370820985936,
+        -20.897453651990887,
+        1.8518506363034248
+      ],
+      "projected_port_gap_m": -0.08185841082657398,
+      "action": "omit_added_spools_on_both_sides",
+      "close_pair_inherited_through_pipe_overlap_m": 0.08185841082657398
+    },
+    {
+      "a": "501",
+      "b": "755",
+      "level": 0,
+      "start_a": [
+        35.484102998001156,
+        -22.514874585471393,
+        0.8103625699877739
+      ],
+      "start_b": [
+        37.18096506468625,
+        -26.09214677310514,
+        0.8178516700863838
+      ],
+      "midpoint": [
+        36.3325340313437,
+        -24.303510679288266,
+        0.8141071200370789
+      ],
+      "projected_port_gap_m": 3.9592683565157007,
+      "action": "two_finite_spools_meet_at_common_midpoint",
+      "close_pair_inherited_through_pipe_overlap_m": 0.0
+    },
+    {
+      "a": "501",
+      "b": "755",
+      "level": 1,
+      "start_a": [
+        35.48046218577273,
+        -22.51660544377774,
+        1.8539436385035515
+      ],
+      "start_b": [
+        37.17733070000475,
+        -26.09389112865765,
+        1.8614327386021614
+      ],
+      "midpoint": [
+        36.32889644288874,
+        -24.305248286217694,
+        1.8576881885528564
+      ],
+      "projected_port_gap_m": 3.959283314631724,
+      "action": "two_finite_spools_meet_at_common_midpoint",
+      "close_pair_inherited_through_pipe_overlap_m": 0.0
+    },
+    {
+      "a": "755",
+      "b": "756",
+      "level": 0,
+      "start_a": [
+        37.976180220258,
+        -27.748978325575752,
+        0.8178516700863838
+      ],
+      "start_b": [
+        40.38019029680777,
+        -32.7876712851081,
+        0.8310463428497314
+      ],
+      "midpoint": [
+        39.178185258532885,
+        -30.268324805341926,
+        0.8244490064680576
+      ],
+      "projected_port_gap_m": 5.582780211920376,
+      "action": "two_finite_spools_meet_at_common_midpoint",
+      "close_pair_inherited_through_pipe_overlap_m": 0.0
+    },
+    {
+      "a": "755",
+      "b": "756",
+      "level": 1,
+      "start_a": [
+        37.972545855576506,
+        -27.750722681128263,
+        1.8614327386021614
+      ],
+      "start_b": [
+        40.37655211136662,
+        -32.78940765781754,
+        1.874627411365509
+      ],
+      "midpoint": [
+        39.17454898347157,
+        -30.2700651694729,
+        1.8680300749838352
+      ],
+      "projected_port_gap_m": 5.582771361848183,
+      "action": "two_finite_spools_meet_at_common_midpoint",
+      "close_pair_inherited_through_pipe_overlap_m": 0.0
+    },
+    {
+      "a": "756",
+      "b": "757",
+      "level": 0,
+      "start_a": [
+        41.17176623963688,
+        -34.446244641864574,
+        0.8310463428497314
+      ],
+      "start_b": [
+        43.62705626265754,
+        -39.57888050401521,
+        0.8455767333507538
+      ],
+      "midpoint": [
+        42.399411251147214,
+        -37.01256257293989,
+        0.8383115381002426
+      ],
+      "projected_port_gap_m": 5.6896651947372,
+      "action": "two_finite_spools_meet_at_common_midpoint",
+      "close_pair_inherited_through_pipe_overlap_m": 0.0
+    },
+    {
+      "a": "756",
+      "b": "757",
+      "level": 1,
+      "start_a": [
+        41.16812805419573,
+        -34.44798101457402,
+        1.874627411365509
+      ],
+      "start_b": [
+        43.623420227279745,
+        -39.58062137472543,
+        1.8891578018665314
+      ],
+      "midpoint": [
+        42.39577414073774,
+        -37.014301194649725,
+        1.8818926066160202
+      ],
+      "projected_port_gap_m": 5.689670180182983,
+      "action": "two_finite_spools_meet_at_common_midpoint",
+      "close_pair_inherited_through_pipe_overlap_m": 0.0
+    },
+    {
+      "a": "757",
+      "b": "758",
+      "level": 0,
+      "start_a": [
+        44.42068275083778,
+        -41.23647369193062,
+        0.8455767333507538
+      ],
+      "start_b": [
+        46.87108569167515,
+        -46.37293057606256,
+        0.8570289835333824
+      ],
+      "midpoint": [
+        45.645884221256466,
+        -43.804702133996585,
+        0.8513028584420681
+      ],
+      "projected_port_gap_m": 5.690992015095772,
+      "action": "two_finite_spools_meet_at_common_midpoint",
+      "close_pair_inherited_through_pipe_overlap_m": 0.0
+    },
+    {
+      "a": "757",
+      "b": "758",
+      "level": 1,
+      "start_a": [
+        44.41704671545998,
+        -41.23821456264084,
+        1.8891578018665314
+      ],
+      "start_b": [
+        46.86746208331752,
+        -46.37469716787878,
+        1.90061005204916
+      ],
+      "midpoint": [
+        45.64225439938875,
+        -43.80645586525981,
+        1.8948839269578457
+      ],
+      "projected_port_gap_m": 5.6910205808574235,
+      "action": "two_finite_spools_meet_at_common_midpoint",
+      "close_pair_inherited_through_pipe_overlap_m": 0.0
+    }
+  ],
+  "connected_pair_count": 8,
+  "level_interfaces": 16,
+  "large_existing_spool_overlap_to_remove": true,
+  "small_close_pair_interface_overlap_retained_for_measured_trim": [
+    {
+      "a": "752",
+      "b": "502",
+      "level": 0,
+      "start_a": [
+        28.225809774974895,
+        -7.378116129646091,
+        0.7856412027031183
+      ],
+      "start_b": [
+        28.220711541033083,
+        -7.3294612502644245,
+        0.7858151011168957
+      ],
+      "midpoint": [
+        28.223260658003987,
+        -7.353788689955257,
+        0.785728151910007
+      ],
+      "projected_port_gap_m": -0.04606116122476977,
+      "action": "omit_added_spools_on_both_sides",
+      "close_pair_inherited_through_pipe_overlap_m": 0.04606116122476977
+    },
+    {
+      "a": "752",
+      "b": "502",
+      "level": 1,
+      "start_a": [
+        28.222173947442965,
+        -7.379857434670067,
+        1.829222271218896
+      ],
+      "start_b": [
+        28.217072165704394,
+        -7.331195127862353,
+        1.8293961696326733
+      ],
+      "midpoint": [
+        28.21962305657368,
+        -7.35552628126621,
+        1.8293092204257846
+      ],
+      "projected_port_gap_m": -0.04606939245331395,
+      "action": "omit_added_spools_on_both_sides",
+      "close_pair_inherited_through_pipe_overlap_m": 0.04606939245331395
+    },
+    {
+      "a": "754",
+      "b": "501",
+      "level": 0,
+      "start_a": [
+        34.714975493485774,
+        -20.93632759183136,
+        0.8061765655875206
+      ],
+      "start_b": [
+        34.695040957280575,
+        -20.855103731424418,
+        0.8103625699877739
+      ],
+      "midpoint": [
+        34.705008225383175,
+        -20.89571566162789,
+        0.8082695677876472
+      ],
+      "projected_port_gap_m": -0.08184260206725827,
+      "action": "omit_added_spools_on_both_sides",
+      "close_pair_inherited_through_pipe_overlap_m": 0.08184260206725827
+    },
+    {
+      "a": "754",
+      "b": "501",
+      "level": 1,
+      "start_a": [
+        34.71134149691972,
+        -20.93807271425101,
+        1.8497576341032982
+      ],
+      "start_b": [
+        34.69140014505215,
+        -20.856834589730763,
+        1.8539436385035515
+      ],
+      "midpoint": [
+        34.701370820985936,
+        -20.897453651990887,
+        1.8518506363034248
+      ],
+      "projected_port_gap_m": -0.08185841082657398,
+      "action": "omit_added_spools_on_both_sides",
+      "close_pair_inherited_through_pipe_overlap_m": 0.08185841082657398
+    }
+  ],
+  "implementation": [
+    "Create bare shared spare equipment collection by excluding B15::bus_spool.* and B15::spool* from current prototype, retaining95 expanded manufactured/support meshes",
+    "Create six site variants that reuse bare shared equipment and add finite route pipes/supports; original B14 and earlier root collections must remain unchanged",
+    "For B14 501/502 and B13 758, link unchanged core/cabinet roots in new site wrapper collections and replace only affected old site spool/flange objects in B15 station scenes",
+    "752 negative boundary remains open for unmodeled coupler500; do not connect straight through its approximate registry location",
+    "Remove extra spools at752\u2013502 and754\u2013501 close interfaces, then inspect actual through-pipe ends; projected overlap4\u20138cm is a separate finite endpoint trim task",
+    "Rebuild six diagnostic proxies, save R2 separately, rerender station and changed six module views, validate saved source preservation and finite endpoints before updating CURRENT"
+  ],
+  "current_authoritative_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r3/xialin_B14_transformer_outgoing_GIS_r3.blend",
+  "B15_r1_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B15/xialin_B15_spare_double_deck_GIS.blend",
+  "B15_r1_not_ready_for_current_pointer": true,
+  "goal_complete": false
+}

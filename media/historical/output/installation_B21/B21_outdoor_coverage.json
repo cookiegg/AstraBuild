@@ -1,0 +1,4717 @@
+{
+  "objective": "请持续进行变电站建模任务，直到室外设备大都实现建模与对齐。",
+  "goal_status": "active",
+  "completion_proven": false,
+  "previous_goal_turn_classification": "progress:2 measured T main stems,6 shared end closures,7 inspection covers,4 supports;3 open stubs reconciled",
+  "station_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/r2/xialin_B21_4100_T_connections_and_endcaps_r2.blend",
+  "station_sha256": "84645dfac3bc92f8c8e69db25a5bb178de74bf86bd5efdd4553de864f9996d8a",
+  "scene": "438_B21_Station_Clean",
+  "official_records": 153,
+  "statuses": {
+    "transformer_major_exterior_alignment_reviewed": 2,
+    "previously_classified_indoor": 23,
+    "bank_major_exterior_alignment_reviewed": 6,
+    "legacy_geometry_pose_review_pending": 13,
+    "unresolved_outdoor_or_mixed": 26,
+    "gis_major_exterior_candidate_alignment_partial": 30,
+    "legacy_major_fit_record_needs_current_visual_review": 3,
+    "distributed_bus_connectivity_candidate_partial": 2,
+    "arrester_body_mount_reviewed": 40,
+    "arrester220_candidate_alignment_partial": 1,
+    "arrester_candidate_mount_unpassed": 7
+  },
+  "families": {
+    "主变压器": {
+      "transformer_major_exterior_alignment_reviewed": 2
+    },
+    "二次屏柜": {
+      "previously_classified_indoor": 1
+    },
+    "土建设施": {
+      "legacy_geometry_pose_review_pending": 1
+    },
+    "开关柜": {
+      "previously_classified_indoor": 22
+    },
+    "接地装置": {
+      "unresolved_outdoor_or_mixed": 1
+    },
+    "消弧装置": {
+      "legacy_geometry_pose_review_pending": 2
+    },
+    "消防系统": {
+      "legacy_geometry_pose_review_pending": 1
+    },
+    "独立避雷针": {
+      "unresolved_outdoor_or_mixed": 1
+    },
+    "电力电容器": {
+      "bank_major_exterior_alignment_reviewed": 6
+    },
+    "电力电缆": {
+      "unresolved_outdoor_or_mixed": 1
+    },
+    "电流互感器": {
+      "legacy_geometry_pose_review_pending": 1,
+      "unresolved_outdoor_or_mixed": 3
+    },
+    "站用交流电源系统": {
+      "unresolved_outdoor_or_mixed": 1
+    },
+    "站用直流电源系统": {
+      "unresolved_outdoor_or_mixed": 1
+    },
+    "端子箱及检修电源箱": {
+      "legacy_geometry_pose_review_pending": 1
+    },
+    "组合电器": {
+      "gis_major_exterior_candidate_alignment_partial": 30,
+      "legacy_major_fit_record_needs_current_visual_review": 3,
+      "legacy_geometry_pose_review_pending": 1,
+      "distributed_bus_connectivity_candidate_partial": 2,
+      "unresolved_outdoor_or_mixed": 6
+    },
+    "设备构架": {
+      "legacy_geometry_pose_review_pending": 1
+    },
+    "辅助设施": {
+      "unresolved_outdoor_or_mixed": 1
+    },
+    "避雷器": {
+      "arrester_body_mount_reviewed": 40,
+      "arrester220_candidate_alignment_partial": 1,
+      "unresolved_outdoor_or_mixed": 8,
+      "arrester_candidate_mount_unpassed": 7,
+      "legacy_geometry_pose_review_pending": 2
+    },
+    "隔离开关": {
+      "unresolved_outdoor_or_mixed": 3,
+      "legacy_geometry_pose_review_pending": 3
+    }
+  },
+  "records": [
+    {
+      "device_id": "12MZ0000000150023",
+      "name": "#1主变ABC相",
+      "family": "主变压器",
+      "inventory_model": "SSZ-180000/220",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "transformer_major_exterior_alignment_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B08::T1.SHARED_ASSEMBLY"
+      ],
+      "legacy_variant": "TR_SSZ_180000_220",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station",
+        "B08_validation_r2.json and B10 historical preservation",
+        "shared T1/T2 configuration explicitly user-confirmed"
+      ],
+      "limitations": [
+        "large local residual tails and remote lead endpoints remain pending"
+      ],
+      "photo_candidate_count": 24,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000149769",
+      "name": "#2主变ABC相",
+      "family": "主变压器",
+      "inventory_model": "SSZ-180000/220",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "transformer_major_exterior_alignment_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B08::T2.SHARED_ASSEMBLY"
+      ],
+      "legacy_variant": "TR_SSZ_180000_220",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station",
+        "B08_validation_r2.json and B10 historical preservation",
+        "shared T1/T2 configuration explicitly user-confirmed"
+      ],
+      "limitations": [
+        "large local residual tails and remote lead endpoints remain pending"
+      ],
+      "photo_candidate_count": 15,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000221374",
+      "name": "备用拾肆373",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000223277",
+      "name": "#1电容器031",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000221426",
+      "name": "夏山377",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000224103",
+      "name": "#4电容器034",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000225541",
+      "name": "35kVI段压变",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000261260",
+      "name": "#1主变301",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000223250",
+      "name": "35kV分段开关300",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000221431",
+      "name": "备用拾伍375",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000221427",
+      "name": "备用拾陆378",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000221389",
+      "name": "备用拾柒379",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000221428",
+      "name": "平夏376",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000224814",
+      "name": "35kVII段压变",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000224106",
+      "name": "#5电容器035",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000224109",
+      "name": "#6电容器036",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000225583",
+      "name": "#2接地变兼站用变306",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000223363",
+      "name": "#3电容器033",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000221432",
+      "name": "中德I374",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000223361",
+      "name": "#2电容器032",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000220615",
+      "name": "备用拾捌380",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000262057",
+      "name": "35kV分段3001",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000225543",
+      "name": "#1接地变兼站用变305",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000261261",
+      "name": "#2主变302",
+      "family": "开关柜",
+      "inventory_model": "KYN61-40.5",
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000242509",
+      "name": "35kV#6电力电容器036ABC相",
+      "family": "电力电容器",
+      "inventory_model": "TBB35-10000/417-ACW",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "bank_major_exterior_alignment_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B10::036.SITE_ROOT"
+      ],
+      "legacy_variant": "CAP_TBB35_3PH_BANK",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station",
+        "B10 original photos and individual coarse crops",
+        "B10_validation.json: independent cylinder holdouts, saved class and attachment checks"
+      ],
+      "limitations": [
+        "fine counts, hidden topology and dimensional/terminal detail remain approximate"
+      ],
+      "photo_candidate_count": 5,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000242511",
+      "name": "35kV#5电力电容器035ABC相",
+      "family": "电力电容器",
+      "inventory_model": "TBB35-10000/417-ACW",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "bank_major_exterior_alignment_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B10::035.SITE_ROOT"
+      ],
+      "legacy_variant": "CAP_TBB35_3PH_BANK",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station",
+        "B10 original photos and individual coarse crops",
+        "B10_validation.json: independent cylinder holdouts, saved class and attachment checks"
+      ],
+      "limitations": [
+        "fine counts, hidden topology and dimensional/terminal detail remain approximate"
+      ],
+      "photo_candidate_count": 10,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000242517",
+      "name": "35kV#2电力电容器032ABC相",
+      "family": "电力电容器",
+      "inventory_model": "TBB35-10000/417-ACW",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "bank_major_exterior_alignment_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B10::032.SITE_ROOT"
+      ],
+      "legacy_variant": "CAP_TBB35_3PH_BANK",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station",
+        "B10 original photos and individual coarse crops",
+        "B10_validation.json: independent cylinder holdouts, saved class and attachment checks"
+      ],
+      "limitations": [
+        "fine counts, hidden topology and dimensional/terminal detail remain approximate"
+      ],
+      "photo_candidate_count": 16,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000242513",
+      "name": "35kV#4电力电容器034ABC相",
+      "family": "电力电容器",
+      "inventory_model": "TBB35-10000/417-ACW",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "bank_major_exterior_alignment_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B10::034.SITE_ROOT"
+      ],
+      "legacy_variant": "CAP_TBB35_3PH_BANK",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station",
+        "B10 original photos and individual coarse crops",
+        "B10_validation.json: independent cylinder holdouts, saved class and attachment checks"
+      ],
+      "limitations": [
+        "fine counts, hidden topology and dimensional/terminal detail remain approximate"
+      ],
+      "photo_candidate_count": 14,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000242519",
+      "name": "35kV#1电力电容器031ABC相",
+      "family": "电力电容器",
+      "inventory_model": "TBB35-10000/417-ACW",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "bank_major_exterior_alignment_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B10::031.SITE_ROOT"
+      ],
+      "legacy_variant": "CAP_TBB35_3PH_BANK",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station",
+        "B10 original photos and individual coarse crops",
+        "B10_validation.json: independent cylinder holdouts, saved class and attachment checks"
+      ],
+      "limitations": [
+        "fine counts, hidden topology and dimensional/terminal detail remain approximate"
+      ],
+      "photo_candidate_count": 18,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000242515",
+      "name": "35kV#3电力电容器033ABC相",
+      "family": "电力电容器",
+      "inventory_model": "TBB35-10000/417-ACW",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "bank_major_exterior_alignment_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B10::033.SITE_ROOT"
+      ],
+      "legacy_variant": "CAP_TBB35_3PH_BANK",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station",
+        "B10 original photos and individual coarse crops",
+        "B10_validation.json: independent cylinder holdouts, saved class and attachment checks"
+      ],
+      "limitations": [
+        "fine counts, hidden topology and dimensional/terminal detail remain approximate"
+      ],
+      "photo_candidate_count": 21,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000151492",
+      "name": "#2接地变兼站用变306",
+      "family": "消弧装置",
+      "inventory_model": "XHDCZ-1100/35",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "legacy_geometry_pose_review_pending",
+      "legacy_direct_mesh_count": 28,
+      "candidate_roots": [],
+      "legacy_variant": "ARC_XHDCZ_1100_35_EXTERNAL_JOINTFIT_V4",
+      "legacy_geometry_status": "outdoor_visible_external_only_jointfit_v4_hidden_internal_points_scope_excluded",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B10 station direct meshes, protected from v50"
+      ],
+      "limitations": [],
+      "photo_candidate_count": 4,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000151446",
+      "name": "#1接地变兼站用变305",
+      "family": "消弧装置",
+      "inventory_model": "XHDCZ-1100/35",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "legacy_geometry_pose_review_pending",
+      "legacy_direct_mesh_count": 28,
+      "candidate_roots": [],
+      "legacy_variant": "ARC_XHDCZ_1100_35_EXTERNAL_JOINTFIT_V4",
+      "legacy_geometry_status": "outdoor_visible_external_only_jointfit_v4_hidden_internal_points_scope_excluded",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B10 station direct meshes, protected from v50"
+      ],
+      "limitations": [],
+      "photo_candidate_count": 6,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000259337",
+      "name": "#2主变高压侧中性点流变O相",
+      "family": "电流互感器",
+      "inventory_model": "LZW-10",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "legacy_geometry_pose_review_pending",
+      "legacy_direct_mesh_count": 22,
+      "candidate_roots": [],
+      "legacy_variant": "CT_LZW10_PARTIAL_V3",
+      "legacy_geometry_status": "photo_evidence_grounded_partial_external_v3_six_external_points_evidence_pending",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B10 station direct meshes, protected from v50"
+      ],
+      "limitations": [],
+      "photo_candidate_count": 2,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000259396",
+      "name": "#2主变中压侧中性点流变O相",
+      "family": "电流互感器",
+      "inventory_model": "LVZB-10",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000259390",
+      "name": "#1主变高压侧中性点流变O相",
+      "family": "电流互感器",
+      "inventory_model": "LZW-10",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000259393",
+      "name": "#1主变中压侧中性点流变O相",
+      "family": "电流互感器",
+      "inventory_model": "LVZB-10",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000219303",
+      "name": "河夏4D75",
+      "family": "组合电器",
+      "inventory_model": "MFPT-250-50L",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B17::4D75.CORE",
+        "B17::4D75.CABINET"
+      ],
+      "legacy_variant": "GIS220_OUTGOING",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B17 shared336-mesh compact core;421 expanded site meshes",
+        "three separately placed shared air-terminal heads and independently located cabinet",
+        "9/15 local finite-surface5cm screens passed; original failures retained",
+        "B21 verified saved T connections and closures: 4D75 outer two visible bus end closures"
+      ],
+      "limitations": [
+        "Exact gas chamber envelopes and compact mechanisms remain approximate; retain all unpassed reference checks.",
+        "Sixteen exposed bus boundaries require neighboring220kV variants and actual route integration.",
+        "Cabinet fronts and individual phase labels need closer photo confirmation;4B77 alias retained as provisional.",
+        "Small leads and terminals plus remaining220kV variants and arresters unfinished; inherited B11-B16 failures remain."
+      ],
+      "photo_candidate_count": 8,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "photo and coarse row context; cabinet/phase labels need closer confirmation",
+      "local_patch_screens_passed": 9,
+      "local_patch_screens_unpassed": 6,
+      "current_working_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/r2/xialin_B21_4100_T_connections_and_endcaps_r2.blend",
+      "B21_update": {
+        "scope": "4D75 outer two visible bus end closures",
+        "endcaps": 2
+      }
+    },
+    {
+      "device_id": "12MZ0000000219417",
+      "name": "110kV II母压变",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B16::VT_II.CORE",
+        "B16::VT_II.CABINET"
+      ],
+      "legacy_variant": "GIS110_VT",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B16 VT_II major exterior;105 core meshes and128 site meshes",
+        "6/7 actual finite component reference checks below5cm, failed patches retained",
+        "labeled110kV cabinet photos and isolated coarse topology reviewed; conflicting220kV body labels excluded"
+      ],
+      "limitations": [
+        "500 vertical and VT barrel reference patches include coarse distortions/supports; retain independent failed diagnostics and review actual saved finite surfaces.",
+        "Small pipes, terminals and exact rear-end cap taper remain approximate; no manufacturer dimensions or whole-device acceptance.",
+        "Earlier B11/B12/B13/B14/B15 unpassed patches and750/751 identity remain; other outdoor families and outer bus boundaries unfinished."
+      ],
+      "photo_candidate_count": 3,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "110kV cabinet labels plus row topology; conflicting220kV body labels excluded",
+      "local_patch_screens_passed": 6,
+      "local_patch_screens_unpassed": 1
+    },
+    {
+      "device_id": "12MZ0000000219245",
+      "name": "分段4100",
+      "family": "组合电器",
+      "inventory_model": "MFPT-250-50L",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "legacy_major_fit_record_needs_current_visual_review",
+      "legacy_direct_mesh_count": 249,
+      "candidate_roots": [],
+      "legacy_variant": "GIS220_4100_EXTERIOR_V9",
+      "legacy_geometry_status": "bounded_4100_visible_exterior_two_case_depths_and_minor_details_approximate",
+      "legacy_alignment_status": "major_4100_exterior_and_both_cabinet_envelopes_refitted_instruments_pending",
+      "evidence": [
+        "saved B10 station direct meshes, protected from v50",
+        "major_4100_exterior_and_both_cabinet_envelopes_refitted_instruments_pending",
+        "B21 verified saved T connections and closures: 4100 two capped T junctions; upper legacy body retained"
+      ],
+      "limitations": [],
+      "photo_candidate_count": 4,
+      "formal_installation_or_full_acceptance_claim": false,
+      "current_working_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/r2/xialin_B21_4100_T_connections_and_endcaps_r2.blend",
+      "B21_update": {
+        "scope": "4100 two capped T junctions; upper legacy body retained",
+        "endcaps": 4,
+        "stems": 2
+      }
+    },
+    {
+      "device_id": "12MZ0000000219424",
+      "name": "110kV II母",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "legacy_geometry_pose_review_pending",
+      "legacy_direct_mesh_count": 6,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B10 station direct meshes, protected from v50"
+      ],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000219242",
+      "name": "备用壹4B77",
+      "family": "组合电器",
+      "inventory_model": "MFPT-250-50L",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B17::4B77.CORE",
+        "B17::4B77.CABINET"
+      ],
+      "legacy_variant": "GIS220_OUTGOING",
+      "legacy_geometry_status": "photo_confirmed_MFPT_outgoing_role_family_v2_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B17 shared336-mesh compact core;421 expanded site meshes",
+        "three separately placed shared air-terminal heads and independently located cabinet",
+        "10/15 local finite-surface5cm screens passed; original failures retained"
+      ],
+      "limitations": [
+        "Exact gas chamber envelopes and compact mechanisms remain approximate; retain all unpassed reference checks.",
+        "Sixteen exposed bus boundaries require neighboring220kV variants and actual route integration.",
+        "Cabinet fronts and individual phase labels need closer photo confirmation;4B77 alias retained as provisional.",
+        "Small leads and terminals plus remaining220kV variants and arresters unfinished; inherited B11-B16 failures remain."
+      ],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "photo and coarse row context; cabinet/phase labels need closer confirmation;4B77 versus legacy alias夏燕4NQ1 remains provisional",
+      "local_patch_screens_passed": 10,
+      "local_patch_screens_unpassed": 5
+    },
+    {
+      "device_id": "12MZ0000000207103",
+      "name": "备用玖753",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B15R2::753.CORE"
+      ],
+      "legacy_variant": "GIS110_SPARE_DUAL_DECK",
+      "legacy_geometry_status": "photo_reviewed_dual_deck_compact_spare_module_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B15 shared spare equipment112 expanded meshes, site total131; independent rigid pose",
+        "3/4 original pipe/cap checks;1/3 new finite bridge checks pass5cm; failed patches retained",
+        "actual labeled photographs plus saved model/overlay/reference renders reviewed; twin-leg supports placed from coarse reference"
+      ],
+      "limitations": [
+        "Six lower front-cap patches remain above5cm; component association includes front portal and must be reviewed separately.",
+        "Rear bridge finite surface checks are partial; retain every failed patch. Support dimensions are reference-derived, not manufacturerCAD.",
+        "752 negative lower/upper bus boundaries await coupler500; three older B13 boundary pairs remain. I/II busVT and other outdoor families remain.",
+        "B11 seven mounting failures, B12 749 rear vessel, B13 ten shell/bus failures and750/751 identity, B14 two front-vessel failures remain unresolved."
+      ],
+      "photo_candidate_count": 2,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "labeled spare-bay photographs",
+      "local_patch_screens_passed": 3,
+      "local_patch_screens_unpassed": 1,
+      "bridge_screens_passed": 1,
+      "bridge_screens_unpassed": 2
+    },
+    {
+      "device_id": "12MZ0000000219305",
+      "name": "梅林II758",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B15R2::758.CORE",
+        "B13::758.CABINET"
+      ],
+      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B13 line core275 + corrected cabinet16 +9 site parts =300 expanded meshes; independently fitted per-bay rigid pose",
+        "10/11 local surface screens below5cm; bushings and cabinet screens passed; failed patches retained explicitly",
+        "actual clean/overlay/reference renders; common line geometry checked against labeled row photos",
+        "B15 preserves earlier body/cabinet placement; replaces working bus interfaces/spools and reference-observed support frames. Earlier local failures remain."
+      ],
+      "limitations": [
+        "501/502 transformer outgoing GIS use a forward overhead long housing; distinct variant required next",
+        "All cylinders/supports remain photograph/reference-based dimensions, not survey/manufacturer CAD",
+        "750/751 identity remains inferred from row positions; individual labels unavailable",
+        "Some body/bus holdout patches include reconstruction deviations/nearby hardware; failed screens remain explicit",
+        "Remote bushing leads, small exterior service pipes and exact terminal/skirt counts incomplete",
+        "Open bus work boundaries must be integrated with remaining spare/VT/coupler variants",
+        "Cabinet rear housing function and exact hardware unverified; common major envelope reconstructed"
+      ],
+      "photo_candidate_count": 13,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "labeled row photographs",
+      "local_patch_screens_passed": 10,
+      "local_patch_screens_unpassed": 1
+    },
+    {
+      "device_id": "12MZ0000000419148",
+      "name": "220kVIA母",
+      "family": "组合电器",
+      "inventory_model": "MFPT-250-50L",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "distributed_bus_connectivity_candidate_partial",
+      "legacy_direct_mesh_count": 12,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B20 measured visible longitudinal route spans, linked actual body end planes",
+        "8 new/reconciled intervals; original overlapping long shell replaced in candidate scene only",
+        "B21 verified saved T connections and closures: lane0 distributed physical main stems adjoining4100"
+      ],
+      "limitations": [
+        "4100 lane0 transverse turns: unmodeled connecting routes; no false straight bridge created.",
+        "4D75 outer two boundaries remain as prior open stubs, end closure requires reference review.",
+        "55 cap associations and35 support envelopes are coarse candidates; exact flange and frame details remain approximate.",
+        "New long bodies interpolate existing independent bay ports; local body alignment failures from B11–B19 remain.",
+        "Existing4801–4800 corridor and two old4B80–4B81 bellows retained, no new whole-device acceptance."
+      ],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false,
+      "physical_scope": "distributed corridor aggregate; not counted as a new equipment unit",
+      "current_working_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/r2/xialin_B21_4100_T_connections_and_endcaps_r2.blend",
+      "B21_update": {
+        "scope": "lane0 distributed physical main stems adjoining4100",
+        "stems": 2
+      }
+    },
+    {
+      "device_id": "12MZ0000000219413",
+      "name": "#1主变4801",
+      "family": "组合电器",
+      "inventory_model": "MFPT-250-50L",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "legacy_major_fit_record_needs_current_visual_review",
+      "legacy_direct_mesh_count": 353,
+      "candidate_roots": [],
+      "legacy_variant": "GIS220_4801_EXTERIOR_REFIT_V7",
+      "legacy_geometry_status": "4801_measured_major_exterior_envelopes_plus_photo_relative_detail_not_full_CAD",
+      "legacy_alignment_status": "4801_v46_major_exterior_plus_v47_individual_control_cabinet_envelope_not_complete_CAD",
+      "evidence": [
+        "saved B10 station direct meshes, protected from v50",
+        "4801_v46_major_exterior_plus_v47_individual_control_cabinet_envelope_not_complete_CAD"
+      ],
+      "limitations": [],
+      "photo_candidate_count": 17,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000207101",
+      "name": "备用捌752",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B15R2::752.CORE"
+      ],
+      "legacy_variant": "GIS110_SPARE_DUAL_DECK",
+      "legacy_geometry_status": "photo_reviewed_dual_deck_compact_spare_module_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B15 shared spare equipment112 expanded meshes, site total123; independent rigid pose",
+        "3/4 original pipe/cap checks;3/3 new finite bridge checks pass5cm; failed patches retained",
+        "actual labeled photographs plus saved model/overlay/reference renders reviewed; twin-leg supports placed from coarse reference",
+        "B16 preserves body/cabinet placement and earlier failures; replaces affected route segments to insert actual VT/coupler bays."
+      ],
+      "limitations": [
+        "Six lower front-cap patches remain above5cm; component association includes front portal and must be reviewed separately.",
+        "Rear bridge finite surface checks are partial; retain every failed patch. Support dimensions are reference-derived, not manufacturerCAD.",
+        "752 negative lower/upper bus boundaries await coupler500; three older B13 boundary pairs remain. I/II busVT and other outdoor families remain.",
+        "B11 seven mounting failures, B12 749 rear vessel, B13 ten shell/bus failures and750/751 identity, B14 two front-vessel failures remain unresolved."
+      ],
+      "photo_candidate_count": 2,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "labeled spare-bay photographs",
+      "local_patch_screens_passed": 3,
+      "local_patch_screens_unpassed": 1,
+      "bridge_screens_passed": 3,
+      "bridge_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000219237",
+      "name": "备用拾贰756",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B15R2::756.CORE"
+      ],
+      "legacy_variant": "GIS110_SPARE_DUAL_DECK",
+      "legacy_geometry_status": "photo_reviewed_dual_deck_compact_spare_module_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B15 shared spare equipment112 expanded meshes, site total140; independent rigid pose",
+        "3/4 original pipe/cap checks;2/3 new finite bridge checks pass5cm; failed patches retained",
+        "actual labeled photographs plus saved model/overlay/reference renders reviewed; twin-leg supports placed from coarse reference"
+      ],
+      "limitations": [
+        "Six lower front-cap patches remain above5cm; component association includes front portal and must be reviewed separately.",
+        "Rear bridge finite surface checks are partial; retain every failed patch. Support dimensions are reference-derived, not manufacturerCAD.",
+        "752 negative lower/upper bus boundaries await coupler500; three older B13 boundary pairs remain. I/II busVT and other outdoor families remain.",
+        "B11 seven mounting failures, B12 749 rear vessel, B13 ten shell/bus failures and750/751 identity, B14 two front-vessel failures remain unresolved."
+      ],
+      "photo_candidate_count": 15,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "labeled spare-bay photographs",
+      "local_patch_screens_passed": 3,
+      "local_patch_screens_unpassed": 1,
+      "bridge_screens_passed": 2,
+      "bridge_screens_unpassed": 1
+    },
+    {
+      "device_id": "12MZ0000000419290",
+      "name": "220kVII母",
+      "family": "组合电器",
+      "inventory_model": "MFPT-250-50L",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "distributed_bus_connectivity_candidate_partial",
+      "legacy_direct_mesh_count": 3,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B20 measured visible longitudinal route spans, linked actual body end planes",
+        "8 new/reconciled intervals; original overlapping long shell replaced in candidate scene only"
+      ],
+      "limitations": [
+        "4100 lane0 transverse turns: unmodeled connecting routes; no false straight bridge created.",
+        "4D75 outer two boundaries remain as prior open stubs, end closure requires reference review.",
+        "55 cap associations and35 support envelopes are coarse candidates; exact flange and frame details remain approximate.",
+        "New long bodies interpolate existing independent bay ports; local body alignment failures from B11–B19 remain.",
+        "Existing4801–4800 corridor and two old4B80–4B81 bellows retained, no new whole-device acceptance."
+      ],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false,
+      "physical_scope": "distributed corridor aggregate; not counted as a new equipment unit",
+      "current_working_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/xialin_B20_220kV_bus_row.blend"
+    },
+    {
+      "device_id": "12MZ0000000219304",
+      "name": "河夏4D76",
+      "family": "组合电器",
+      "inventory_model": "MFPT-250-50L",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B17::4D76.CORE",
+        "B17::4D76.CABINET"
+      ],
+      "legacy_variant": "GIS220_OUTGOING",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B17 shared336-mesh compact core;421 expanded site meshes",
+        "three separately placed shared air-terminal heads and independently located cabinet",
+        "11/15 local finite-surface5cm screens passed; original failures retained"
+      ],
+      "limitations": [
+        "Exact gas chamber envelopes and compact mechanisms remain approximate; retain all unpassed reference checks.",
+        "Sixteen exposed bus boundaries require neighboring220kV variants and actual route integration.",
+        "Cabinet fronts and individual phase labels need closer photo confirmation;4B77 alias retained as provisional.",
+        "Small leads and terminals plus remaining220kV variants and arresters unfinished; inherited B11-B16 failures remain."
+      ],
+      "photo_candidate_count": 11,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "photo and coarse row context; cabinet/phase labels need closer confirmation",
+      "local_patch_screens_passed": 11,
+      "local_patch_screens_unpassed": 4
+    },
+    {
+      "device_id": "12MZ0000000219415",
+      "name": "#2主变4802",
+      "family": "组合电器",
+      "inventory_model": "MFPT-250-50L",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B17::4802.CORE",
+        "B17::4802.CABINET"
+      ],
+      "legacy_variant": "GIS220_OUTGOING",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B17 shared336-mesh compact core;423 expanded site meshes",
+        "three separately placed shared air-terminal heads and independently located cabinet",
+        "10/15 local finite-surface5cm screens passed; original failures retained"
+      ],
+      "limitations": [
+        "Exact gas chamber envelopes and compact mechanisms remain approximate; retain all unpassed reference checks.",
+        "Sixteen exposed bus boundaries require neighboring220kV variants and actual route integration.",
+        "Cabinet fronts and individual phase labels need closer photo confirmation;4B77 alias retained as provisional.",
+        "Small leads and terminals plus remaining220kV variants and arresters unfinished; inherited B11-B16 failures remain."
+      ],
+      "photo_candidate_count": 14,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "photo and coarse row context; cabinet/phase labels need closer confirmation",
+      "local_patch_screens_passed": 10,
+      "local_patch_screens_unpassed": 5
+    },
+    {
+      "device_id": "12MZ0000000219238",
+      "name": "备用拾叁757",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B15R2::757.CORE"
+      ],
+      "legacy_variant": "GIS110_SPARE_DUAL_DECK",
+      "legacy_geometry_status": "photo_reviewed_dual_deck_compact_spare_module_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B15 shared spare equipment112 expanded meshes, site total140; independent rigid pose",
+        "3/4 original pipe/cap checks;1/3 new finite bridge checks pass5cm; failed patches retained",
+        "actual labeled photographs plus saved model/overlay/reference renders reviewed; twin-leg supports placed from coarse reference"
+      ],
+      "limitations": [
+        "Six lower front-cap patches remain above5cm; component association includes front portal and must be reviewed separately.",
+        "Rear bridge finite surface checks are partial; retain every failed patch. Support dimensions are reference-derived, not manufacturerCAD.",
+        "752 negative lower/upper bus boundaries await coupler500; three older B13 boundary pairs remain. I/II busVT and other outdoor families remain.",
+        "B11 seven mounting failures, B12 749 rear vessel, B13 ten shell/bus failures and750/751 identity, B14 two front-vessel failures remain unresolved."
+      ],
+      "photo_candidate_count": 9,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "labeled spare-bay photographs",
+      "local_patch_screens_passed": 3,
+      "local_patch_screens_unpassed": 1,
+      "bridge_screens_passed": 1,
+      "bridge_screens_unpassed": 2
+    },
+    {
+      "device_id": "12MZ0000000219422",
+      "name": "220kV II母压变",
+      "family": "组合电器",
+      "inventory_model": "SDA524-252",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B19::VT_II.CORE"
+      ],
+      "legacy_variant": "GIS220_SDA_VT",
+      "legacy_geometry_status": "photo_reviewed_SDA524_252_compact_VT_role_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B19 VT shared body with independent placement and site support",
+        "10/12 finite surface patches pass5cm screen",
+        "actual front/top overlays reviewed; R2 central mechanism supports added and top camera axes made consistent; R3 ties connect central supports to base rails, with 20 contact pairs checked"
+      ],
+      "limitations": [
+        "Six body models and independent supports are exterior approximations; all finite-surface failures retained.",
+        "Remaining long220kV mother-bus spools and4100 section bends need connected-row integration; ports are explicit.",
+        "4B80/4B81 separate control cabinets not verified; old guessed cabinets omitted in candidate station only.",
+        "IA/II cabinet associations based on photo-relative arrangement; phase names and exact electrical topology unasserted.",
+        "4801/4800/4100 original refined geometry retained for review, not counted as newly completed devices.",
+        "Inherited B11-B18 unpassed patches, external high voltage leads and other outdoor families remain."
+      ],
+      "photo_candidate_count": 5,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "registry association candidate; phase identities unasserted",
+      "local_patch_screens_passed": 10,
+      "local_patch_screens_unpassed": 2
+    },
+    {
+      "device_id": "12MZ0000000219236",
+      "name": "备用拾754",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B15R2::754.CORE"
+      ],
+      "legacy_variant": "GIS110_SPARE_DUAL_DECK",
+      "legacy_geometry_status": "photo_reviewed_dual_deck_compact_spare_module_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B15 shared spare equipment112 expanded meshes, site total123; independent rigid pose",
+        "3/4 original pipe/cap checks;1/3 new finite bridge checks pass5cm; failed patches retained",
+        "actual labeled photographs plus saved model/overlay/reference renders reviewed; twin-leg supports placed from coarse reference"
+      ],
+      "limitations": [
+        "Six lower front-cap patches remain above5cm; component association includes front portal and must be reviewed separately.",
+        "Rear bridge finite surface checks are partial; retain every failed patch. Support dimensions are reference-derived, not manufacturerCAD.",
+        "752 negative lower/upper bus boundaries await coupler500; three older B13 boundary pairs remain. I/II busVT and other outdoor families remain.",
+        "B11 seven mounting failures, B12 749 rear vessel, B13 ten shell/bus failures and750/751 identity, B14 two front-vessel failures remain unresolved."
+      ],
+      "photo_candidate_count": 2,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "labeled spare-bay photographs",
+      "local_patch_screens_passed": 3,
+      "local_patch_screens_unpassed": 1,
+      "bridge_screens_passed": 1,
+      "bridge_screens_unpassed": 2
+    },
+    {
+      "device_id": "12MZ0000000219411",
+      "name": "平兴II748",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B13::748.CORE",
+        "B13::748.CABINET"
+      ],
+      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B13 line core275 + corrected cabinet16 +9 site parts =300 expanded meshes; independently fitted per-bay rigid pose",
+        "10/11 local surface screens below5cm; bushings and cabinet screens passed; failed patches retained explicitly",
+        "actual clean/overlay/reference renders; common line geometry checked against labeled row photos"
+      ],
+      "limitations": [
+        "501/502 transformer outgoing GIS use a forward overhead long housing; distinct variant required next",
+        "All cylinders/supports remain photograph/reference-based dimensions, not survey/manufacturer CAD",
+        "750/751 identity remains inferred from row positions; individual labels unavailable",
+        "Some body/bus holdout patches include reconstruction deviations/nearby hardware; failed screens remain explicit",
+        "Remote bushing leads, small exterior service pipes and exact terminal/skirt counts incomplete",
+        "Open bus work boundaries must be integrated with remaining spare/VT/coupler variants",
+        "Cabinet rear housing function and exact hardware unverified; common major envelope reconstructed"
+      ],
+      "photo_candidate_count": 14,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "labeled row photographs",
+      "local_patch_screens_passed": 10,
+      "local_patch_screens_unpassed": 1
+    },
+    {
+      "device_id": "12MZ0000000219419",
+      "name": "220KV IA母压变",
+      "family": "组合电器",
+      "inventory_model": "MFPT-250-50L",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B19::VT_IA.CORE"
+      ],
+      "legacy_variant": "GIS220_VT",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B19 VT shared body with independent placement and site support",
+        "9/12 finite surface patches pass5cm screen",
+        "actual front/top overlays reviewed; R2 central mechanism supports added and top camera axes made consistent; R3 ties connect central supports to base rails, with 20 contact pairs checked"
+      ],
+      "limitations": [
+        "Six body models and independent supports are exterior approximations; all finite-surface failures retained.",
+        "Remaining long220kV mother-bus spools and4100 section bends need connected-row integration; ports are explicit.",
+        "4B80/4B81 separate control cabinets not verified; old guessed cabinets omitted in candidate station only.",
+        "IA/II cabinet associations based on photo-relative arrangement; phase names and exact electrical topology unasserted.",
+        "4801/4800/4100 original refined geometry retained for review, not counted as newly completed devices.",
+        "Inherited B11-B18 unpassed patches, external high voltage leads and other outdoor families remain."
+      ],
+      "photo_candidate_count": 11,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "registry association candidate; phase identities unasserted",
+      "local_patch_screens_passed": 9,
+      "local_patch_screens_unpassed": 3
+    },
+    {
+      "device_id": "12MZ0000000219241",
+      "name": "备用伍4B81",
+      "family": "组合电器",
+      "inventory_model": "SDA524-252",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B19::4B81.CORE"
+      ],
+      "legacy_variant": "GIS220_SDA_OUTGOING",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B19 SPARE shared body with independent placement and site support",
+        "3/6 finite surface patches pass5cm screen",
+        "actual front/top overlays reviewed; R2 central mechanism supports added and top camera axes made consistent; R3 ties connect central supports to base rails, with 20 contact pairs checked"
+      ],
+      "limitations": [
+        "Six body models and independent supports are exterior approximations; all finite-surface failures retained.",
+        "Remaining long220kV mother-bus spools and4100 section bends need connected-row integration; ports are explicit.",
+        "4B80/4B81 separate control cabinets not verified; old guessed cabinets omitted in candidate station only.",
+        "IA/II cabinet associations based on photo-relative arrangement; phase names and exact electrical topology unasserted.",
+        "4801/4800/4100 original refined geometry retained for review, not counted as newly completed devices.",
+        "Inherited B11-B18 unpassed patches, external high voltage leads and other outdoor families remain."
+      ],
+      "photo_candidate_count": 1,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "registry association candidate; phase identities unasserted",
+      "local_patch_screens_passed": 3,
+      "local_patch_screens_unpassed": 3
+    },
+    {
+      "device_id": "12MZ0000000207104",
+      "name": "备用陆750",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B13::750.CORE",
+        "B13::750.CABINET"
+      ],
+      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B13 line core275 + corrected cabinet16 +9 site parts =300 expanded meshes; independently fitted per-bay rigid pose",
+        "10/11 local surface screens below5cm; bushings and cabinet screens passed; failed patches retained explicitly",
+        "actual clean/overlay/reference renders; common line geometry checked against labeled row photos",
+        "B16 preserves body/cabinet placement and earlier failures; replaces affected route segments to insert actual VT/coupler bays."
+      ],
+      "limitations": [
+        "501/502 transformer outgoing GIS use a forward overhead long housing; distinct variant required next",
+        "All cylinders/supports remain photograph/reference-based dimensions, not survey/manufacturer CAD",
+        "750/751 identity remains inferred from row positions; individual labels unavailable",
+        "Some body/bus holdout patches include reconstruction deviations/nearby hardware; failed screens remain explicit",
+        "Remote bushing leads, small exterior service pipes and exact terminal/skirt counts incomplete",
+        "Open bus work boundaries must be integrated with remaining spare/VT/coupler variants",
+        "Cabinet rear housing function and exact hardware unverified; common major envelope reconstructed"
+      ],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical row position inferred; individual GIS label pending",
+      "local_patch_screens_passed": 10,
+      "local_patch_screens_unpassed": 1
+    },
+    {
+      "device_id": "12MZ0000000260953",
+      "name": "#3主变503",
+      "family": "组合电器",
+      "inventory_model": "MFPT-250-50L",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000219240",
+      "name": "备用肆4B80",
+      "family": "组合电器",
+      "inventory_model": "SDA524-252",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B19::4B80.CORE"
+      ],
+      "legacy_variant": "GIS220_SDA_OUTGOING",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B19 SPARE shared body with independent placement and site support",
+        "2/6 finite surface patches pass5cm screen",
+        "actual front/top overlays reviewed; R2 central mechanism supports added and top camera axes made consistent; R3 ties connect central supports to base rails, with 20 contact pairs checked"
+      ],
+      "limitations": [
+        "Six body models and independent supports are exterior approximations; all finite-surface failures retained.",
+        "Remaining long220kV mother-bus spools and4100 section bends need connected-row integration; ports are explicit.",
+        "4B80/4B81 separate control cabinets not verified; old guessed cabinets omitted in candidate station only.",
+        "IA/II cabinet associations based on photo-relative arrangement; phase names and exact electrical topology unasserted.",
+        "4801/4800/4100 original refined geometry retained for review, not counted as newly completed devices.",
+        "Inherited B11-B18 unpassed patches, external high voltage leads and other outdoor families remain."
+      ],
+      "photo_candidate_count": 3,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "registry association candidate; phase identities unasserted",
+      "local_patch_screens_passed": 2,
+      "local_patch_screens_unpassed": 4
+    },
+    {
+      "device_id": "12MZ0000000219239",
+      "name": "备用拾壹755",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B15R2::755.CORE"
+      ],
+      "legacy_variant": "GIS110_SPARE_DUAL_DECK",
+      "legacy_geometry_status": "photo_reviewed_dual_deck_compact_spare_module_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B15 shared spare equipment112 expanded meshes, site total131; independent rigid pose",
+        "3/4 original pipe/cap checks;1/3 new finite bridge checks pass5cm; failed patches retained",
+        "actual labeled photographs plus saved model/overlay/reference renders reviewed; twin-leg supports placed from coarse reference"
+      ],
+      "limitations": [
+        "Six lower front-cap patches remain above5cm; component association includes front portal and must be reviewed separately.",
+        "Rear bridge finite surface checks are partial; retain every failed patch. Support dimensions are reference-derived, not manufacturerCAD.",
+        "752 negative lower/upper bus boundaries await coupler500; three older B13 boundary pairs remain. I/II busVT and other outdoor families remain.",
+        "B11 seven mounting failures, B12 749 rear vessel, B13 ten shell/bus failures and750/751 identity, B14 two front-vessel failures remain unresolved."
+      ],
+      "photo_candidate_count": 2,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "labeled spare-bay photographs",
+      "local_patch_screens_passed": 3,
+      "local_patch_screens_unpassed": 1,
+      "bridge_screens_passed": 1,
+      "bridge_screens_unpassed": 2
+    },
+    {
+      "device_id": "12MZ0000000219425",
+      "name": "110kVI母",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000219244",
+      "name": "东坡II759",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B13::759.CORE",
+        "B13::759.CABINET"
+      ],
+      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B13 line core275 + corrected cabinet16 +9 site parts =300 expanded meshes; independently fitted per-bay rigid pose",
+        "10/11 local surface screens below5cm; bushings and cabinet screens passed; failed patches retained explicitly",
+        "actual clean/overlay/reference renders; common line geometry checked against labeled row photos"
+      ],
+      "limitations": [
+        "501/502 transformer outgoing GIS use a forward overhead long housing; distinct variant required next",
+        "All cylinders/supports remain photograph/reference-based dimensions, not survey/manufacturer CAD",
+        "750/751 identity remains inferred from row positions; individual labels unavailable",
+        "Some body/bus holdout patches include reconstruction deviations/nearby hardware; failed screens remain explicit",
+        "Remote bushing leads, small exterior service pipes and exact terminal/skirt counts incomplete",
+        "Open bus work boundaries must be integrated with remaining spare/VT/coupler variants",
+        "Cabinet rear housing function and exact hardware unverified; common major envelope reconstructed"
+      ],
+      "photo_candidate_count": 10,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "labeled row photographs",
+      "local_patch_screens_passed": 10,
+      "local_patch_screens_unpassed": 1
+    },
+    {
+      "device_id": "12MZ0000000260954",
+      "name": "#3主变4803",
+      "family": "组合电器",
+      "inventory_model": "MFPT-250-50L",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000196705",
+      "name": "兴盛I749组合设备",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B13::749.CORE",
+        "B13::749.CABINET"
+      ],
+      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B13 line core275 + corrected cabinet16 +9 site parts =300 expanded meshes; independently fitted per-bay rigid pose",
+        "10/11 local surface screens below5cm; bushings and cabinet screens passed; failed patches retained explicitly",
+        "actual clean/overlay/reference renders; common line geometry checked against labeled row photos"
+      ],
+      "limitations": [
+        "501/502 transformer outgoing GIS use a forward overhead long housing; distinct variant required next",
+        "All cylinders/supports remain photograph/reference-based dimensions, not survey/manufacturer CAD",
+        "750/751 identity remains inferred from row positions; individual labels unavailable",
+        "Some body/bus holdout patches include reconstruction deviations/nearby hardware; failed screens remain explicit",
+        "Remote bushing leads, small exterior service pipes and exact terminal/skirt counts incomplete",
+        "Open bus work boundaries must be integrated with remaining spare/VT/coupler variants",
+        "Cabinet rear housing function and exact hardware unverified; common major envelope reconstructed"
+      ],
+      "photo_candidate_count": 13,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "labeled row photographs",
+      "local_patch_screens_passed": 10,
+      "local_patch_screens_unpassed": 1
+    },
+    {
+      "device_id": "12MZ0000000219410",
+      "name": "母联500",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B16::500.CORE",
+        "B16::500.CABINET"
+      ],
+      "legacy_variant": "GIS110_COUPLER",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B16 500 major exterior;146 core meshes and169 site meshes",
+        "5/9 actual finite component reference checks below5cm, failed patches retained",
+        "labeled110kV cabinet photos and isolated coarse topology reviewed; conflicting220kV body labels excluded"
+      ],
+      "limitations": [
+        "500 vertical and VT barrel reference patches include coarse distortions/supports; retain independent failed diagnostics and review actual saved finite surfaces.",
+        "Small pipes, terminals and exact rear-end cap taper remain approximate; no manufacturer dimensions or whole-device acceptance.",
+        "Earlier B11/B12/B13/B14/B15 unpassed patches and750/751 identity remain; other outdoor families and outer bus boundaries unfinished."
+      ],
+      "photo_candidate_count": 7,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "110kV cabinet labels plus row topology; conflicting220kV body labels excluded",
+      "local_patch_screens_passed": 5,
+      "local_patch_screens_unpassed": 4
+    },
+    {
+      "device_id": "12MZ0000000219306",
+      "name": "母联4600",
+      "family": "组合电器",
+      "inventory_model": "MFPT-250-50L",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B19::4600.CORE"
+      ],
+      "legacy_variant": "GIS220_COUPLER",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B19 COUPLER shared body with independent placement and site support",
+        "4/12 finite surface patches pass5cm screen",
+        "actual front/top overlays reviewed; R2 central mechanism supports added and top camera axes made consistent; R3 ties connect central supports to base rails, with 20 contact pairs checked"
+      ],
+      "limitations": [
+        "Six body models and independent supports are exterior approximations; all finite-surface failures retained.",
+        "Remaining long220kV mother-bus spools and4100 section bends need connected-row integration; ports are explicit.",
+        "4B80/4B81 separate control cabinets not verified; old guessed cabinets omitted in candidate station only.",
+        "IA/II cabinet associations based on photo-relative arrangement; phase names and exact electrical topology unasserted.",
+        "4801/4800/4100 original refined geometry retained for review, not counted as newly completed devices.",
+        "Inherited B11-B18 unpassed patches, external high voltage leads and other outdoor families remain."
+      ],
+      "photo_candidate_count": 10,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "registry association candidate; phase identities unasserted",
+      "local_patch_screens_passed": 4,
+      "local_patch_screens_unpassed": 8
+    },
+    {
+      "device_id": "12MZ0000000219414",
+      "name": "#1主变501",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B15R2::501.CORE",
+        "B14::501.CABINET"
+      ],
+      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B14 transformer outgoing core270 + shared cabinet16 +9 site parts =295 expanded meshes; independently fitted per-bay rigid pose",
+        "11/12 local surface screens below5cm; bushings and cabinet screens passed; failed patches retained explicitly",
+        "actual clean/overlay/reference renders; common line geometry checked against labeled row photos",
+        "B15 preserves earlier body/cabinet placement; replaces working bus interfaces/spools and reference-observed support frames. Earlier local failures remain."
+      ],
+      "limitations": [
+        "external leads and small service pipes/terminal hardware incomplete",
+        "two front vessel patches remain above5cm; inherited earlier batch pending items remain",
+        "common support dimensions/flange details are photo-derived hypotheses, not manufacturer CAD",
+        "8 new bus boundaries require integration with remaining neighboring GIS variants",
+        "whole station outdoor completion remains unproven"
+      ],
+      "photo_candidate_count": 20,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "labeled transformer outgoing photographs",
+      "local_patch_screens_passed": 11,
+      "local_patch_screens_unpassed": 1
+    },
+    {
+      "device_id": "12MZ0000000419149",
+      "name": "220kVIB母",
+      "family": "组合电器",
+      "inventory_model": "MFPT-250-50L",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000219418",
+      "name": "110kV I母压变",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B16::VT_I.CORE",
+        "B16::VT_I.CABINET"
+      ],
+      "legacy_variant": "GIS110_VT",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B16 VT_I major exterior;105 core meshes and128 site meshes",
+        "6/7 actual finite component reference checks below5cm, failed patches retained",
+        "labeled110kV cabinet photos and isolated coarse topology reviewed; conflicting220kV body labels excluded"
+      ],
+      "limitations": [
+        "500 vertical and VT barrel reference patches include coarse distortions/supports; retain independent failed diagnostics and review actual saved finite surfaces.",
+        "Small pipes, terminals and exact rear-end cap taper remain approximate; no manufacturer dimensions or whole-device acceptance.",
+        "Earlier B11/B12/B13/B14/B15 unpassed patches and750/751 identity remain; other outdoor families and outer bus boundaries unfinished."
+      ],
+      "photo_candidate_count": 6,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "110kV cabinet labels plus row topology; conflicting220kV body labels excluded",
+      "local_patch_screens_passed": 6,
+      "local_patch_screens_unpassed": 1
+    },
+    {
+      "device_id": "12MZ0000000207102",
+      "name": "备用贰4B78",
+      "family": "组合电器",
+      "inventory_model": "ESA27T380",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000219423",
+      "name": "220kV IB母压变",
+      "family": "组合电器",
+      "inventory_model": "SDA524-252",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B19::VT_IB.CORE"
+      ],
+      "legacy_variant": "GIS220_SDA_VT",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B19 VT shared body with independent placement and site support",
+        "9/12 finite surface patches pass5cm screen",
+        "actual front/top overlays reviewed; R2 central mechanism supports added and top camera axes made consistent; R3 ties connect central supports to base rails, with 20 contact pairs checked"
+      ],
+      "limitations": [
+        "Six body models and independent supports are exterior approximations; all finite-surface failures retained.",
+        "Remaining long220kV mother-bus spools and4100 section bends need connected-row integration; ports are explicit.",
+        "4B80/4B81 separate control cabinets not verified; old guessed cabinets omitted in candidate station only.",
+        "IA/II cabinet associations based on photo-relative arrangement; phase names and exact electrical topology unasserted.",
+        "4801/4800/4100 original refined geometry retained for review, not counted as newly completed devices.",
+        "Inherited B11-B18 unpassed patches, external high voltage leads and other outdoor families remain."
+      ],
+      "photo_candidate_count": 4,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "registry association candidate; phase identities unasserted",
+      "local_patch_screens_passed": 9,
+      "local_patch_screens_unpassed": 3
+    },
+    {
+      "device_id": "12MZ0000000219416",
+      "name": "#2主变502",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B15R2::502.CORE",
+        "B14::502.CABINET"
+      ],
+      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B14 transformer outgoing core270 + shared cabinet16 +9 site parts =295 expanded meshes; independently fitted per-bay rigid pose",
+        "11/12 local surface screens below5cm; bushings and cabinet screens passed; failed patches retained explicitly",
+        "actual clean/overlay/reference renders; common line geometry checked against labeled row photos",
+        "B15 preserves earlier body/cabinet placement; replaces working bus interfaces/spools and reference-observed support frames. Earlier local failures remain."
+      ],
+      "limitations": [
+        "external leads and small service pipes/terminal hardware incomplete",
+        "two front vessel patches remain above5cm; inherited earlier batch pending items remain",
+        "common support dimensions/flange details are photo-derived hypotheses, not manufacturer CAD",
+        "8 new bus boundaries require integration with remaining neighboring GIS variants",
+        "whole station outdoor completion remains unproven"
+      ],
+      "photo_candidate_count": 16,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "labeled transformer outgoing photographs",
+      "local_patch_screens_passed": 11,
+      "local_patch_screens_unpassed": 1
+    },
+    {
+      "device_id": "12MZ0000000219307",
+      "name": "母联4800",
+      "family": "组合电器",
+      "inventory_model": "MFPT-250-50L",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "legacy_major_fit_record_needs_current_visual_review",
+      "legacy_direct_mesh_count": 386,
+      "candidate_roots": [],
+      "legacy_variant": "GIS220_4800_EXTERIOR_REFIT_V8",
+      "legacy_geometry_status": "4800_photo_coarse_specific_exterior_not_generalized_to_other_bays",
+      "legacy_alignment_status": "4800_independent_exterior_axes_cases_and_control_cabinet_fit_minor_details_approximate",
+      "evidence": [
+        "saved B10 station direct meshes, protected from v50",
+        "4800_independent_exterior_axes_cases_and_control_cabinet_fit_minor_details_approximate"
+      ],
+      "limitations": [],
+      "photo_candidate_count": 20,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000196735",
+      "name": "夏吴2899组合电器",
+      "family": "组合电器",
+      "inventory_model": "MFPT-250-50L",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B17::2899.CORE",
+        "B17::2899.CABINET"
+      ],
+      "legacy_variant": "GIS220_OUTGOING",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B17 shared336-mesh compact core;421 expanded site meshes",
+        "three separately placed shared air-terminal heads and independently located cabinet",
+        "10/15 local finite-surface5cm screens passed; original failures retained"
+      ],
+      "limitations": [
+        "Exact gas chamber envelopes and compact mechanisms remain approximate; retain all unpassed reference checks.",
+        "Sixteen exposed bus boundaries require neighboring220kV variants and actual route integration.",
+        "Cabinet fronts and individual phase labels need closer photo confirmation;4B77 alias retained as provisional.",
+        "Small leads and terminals plus remaining220kV variants and arresters unfinished; inherited B11-B16 failures remain."
+      ],
+      "photo_candidate_count": 10,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "photo and coarse row context; cabinet/phase labels need closer confirmation",
+      "local_patch_screens_passed": 10,
+      "local_patch_screens_unpassed": 5
+    },
+    {
+      "device_id": "12MZ0000000219235",
+      "name": "备用叁4B79",
+      "family": "组合电器",
+      "inventory_model": "SDA524-252",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000219234",
+      "name": "备用柒751",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B13::751.CORE",
+        "B13::751.CABINET"
+      ],
+      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B13 line core275 + corrected cabinet16 +9 site parts =300 expanded meshes; independently fitted per-bay rigid pose",
+        "7/11 local surface screens below5cm; bushings and cabinet screens passed; failed patches retained explicitly",
+        "actual clean/overlay/reference renders; common line geometry checked against labeled row photos",
+        "B16 preserves body/cabinet placement and earlier failures; replaces affected route segments to insert actual VT/coupler bays."
+      ],
+      "limitations": [
+        "501/502 transformer outgoing GIS use a forward overhead long housing; distinct variant required next",
+        "All cylinders/supports remain photograph/reference-based dimensions, not survey/manufacturer CAD",
+        "750/751 identity remains inferred from row positions; individual labels unavailable",
+        "Some body/bus holdout patches include reconstruction deviations/nearby hardware; failed screens remain explicit",
+        "Remote bushing leads, small exterior service pipes and exact terminal/skirt counts incomplete",
+        "Open bus work boundaries must be integrated with remaining spare/VT/coupler variants",
+        "Cabinet rear housing function and exact hardware unverified; common major envelope reconstructed"
+      ],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical row position inferred; individual GIS label pending",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 4
+    },
+    {
+      "device_id": "12MZ0000000219243",
+      "name": "东坡I747",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B13::747.CORE",
+        "B13::747.CABINET"
+      ],
+      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B13 line core275 + corrected cabinet16 +9 site parts =300 expanded meshes; independently fitted per-bay rigid pose",
+        "11/11 local surface screens below5cm; bushings and cabinet screens passed; failed patches retained explicitly",
+        "actual clean/overlay/reference renders; common line geometry checked against labeled row photos"
+      ],
+      "limitations": [
+        "501/502 transformer outgoing GIS use a forward overhead long housing; distinct variant required next",
+        "All cylinders/supports remain photograph/reference-based dimensions, not survey/manufacturer CAD",
+        "750/751 identity remains inferred from row positions; individual labels unavailable",
+        "Some body/bus holdout patches include reconstruction deviations/nearby hardware; failed screens remain explicit",
+        "Remote bushing leads, small exterior service pipes and exact terminal/skirt counts incomplete",
+        "Open bus work boundaries must be integrated with remaining spare/VT/coupler variants",
+        "Cabinet rear housing function and exact hardware unverified; common major envelope reconstructed"
+      ],
+      "photo_candidate_count": 13,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "labeled row photographs",
+      "local_patch_screens_passed": 11,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000219412",
+      "name": "夏津746",
+      "family": "组合电器",
+      "inventory_model": "ZF23-126(L)",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "gis_major_exterior_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B13::746.CORE",
+        "B13::746.CABINET"
+      ],
+      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B13 line core275 + corrected cabinet16 +9 site parts =300 expanded meshes; independently fitted per-bay rigid pose",
+        "10/11 local surface screens below5cm; bushings and cabinet screens passed; failed patches retained explicitly",
+        "actual clean/overlay/reference renders; common line geometry checked against labeled row photos"
+      ],
+      "limitations": [
+        "501/502 transformer outgoing GIS use a forward overhead long housing; distinct variant required next",
+        "All cylinders/supports remain photograph/reference-based dimensions, not survey/manufacturer CAD",
+        "750/751 identity remains inferred from row positions; individual labels unavailable",
+        "Some body/bus holdout patches include reconstruction deviations/nearby hardware; failed screens remain explicit",
+        "Remote bushing leads, small exterior service pipes and exact terminal/skirt counts incomplete",
+        "Open bus work boundaries must be integrated with remaining spare/VT/coupler variants",
+        "Cabinet rear housing function and exact hardware unverified; common major envelope reconstructed"
+      ],
+      "photo_candidate_count": 11,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "labeled row photographs",
+      "local_patch_screens_passed": 10,
+      "local_patch_screens_unpassed": 1
+    },
+    {
+      "device_id": "12MZ0000000149700",
+      "name": "夏吴2899避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::2899_A.BODY"
+      ],
+      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 5,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000151289",
+      "name": "东坡II759避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_759_B_BODY",
+        "B11_759_B_PEDESTAL",
+        "B11_759_B_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "exact_canonical_name_to_official_device_code"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: "
+      ],
+      "photo_candidate_count": 6,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000150033",
+      "name": "#1主变高压侧避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester220_candidate_alignment_partial",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::T1_HV_C.BODY"
+      ],
+      "legacy_variant": "SA220_TALL",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "6/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 12,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch",
+      "local_patch_screens_passed": 6,
+      "local_patch_screens_unpassed": 1
+    },
+    {
+      "device_id": "12MZ0000000149782",
+      "name": "#2主变高压侧避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::T2_HV_B.BODY"
+      ],
+      "legacy_variant": "SA220_TALL",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 14,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000150691",
+      "name": "备用柒751避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_751_B_BODY",
+        "B11_751_B_PEDESTAL",
+        "B11_751_B_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "exact_canonical_name_to_official_device_code"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: "
+      ],
+      "photo_candidate_count": 3,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000259392",
+      "name": "#1主变中压侧中性点避雷器O相",
+      "family": "避雷器",
+      "inventory_model": "Y1.5W-72/186W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000149675",
+      "name": "河夏4D75避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::4D75_A.BODY"
+      ],
+      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 2,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000149648",
+      "name": "河夏4D76避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::4D76_C.BODY"
+      ],
+      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 3,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000150031",
+      "name": "#1主变高压侧避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::T1_HV_A.BODY"
+      ],
+      "legacy_variant": "SA220_TALL",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 15,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000150629",
+      "name": "备用陆750避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B05_750_C_BODY",
+        "B05_750_C_PEDESTAL"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station"
+      ],
+      "limitations": [
+        "terminal leads / accessories may be incomplete; body mount screen only"
+      ],
+      "photo_candidate_count": 2,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000150129",
+      "name": "兴盛I749避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B02_749_C_BODY",
+        "B02_749_C_PEDESTAL",
+        "B02_749_C_ACCESSORY"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station"
+      ],
+      "limitations": [
+        "terminal leads / accessories may be incomplete; body mount screen only"
+      ],
+      "photo_candidate_count": 9,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000149781",
+      "name": "#2主变高压侧避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::T2_HV_A.BODY"
+      ],
+      "legacy_variant": "SA220_TALL",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 16,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000150628",
+      "name": "备用陆750避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B05_750_B_BODY",
+        "B05_750_B_PEDESTAL"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station"
+      ],
+      "limitations": [
+        "terminal leads / accessories may be incomplete; body mount screen only"
+      ],
+      "photo_candidate_count": 1,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000150068",
+      "name": "夏津746避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B05_746_C_BODY",
+        "B05_746_C_PEDESTAL"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station"
+      ],
+      "limitations": [
+        "terminal leads / accessories may be incomplete; body mount screen only"
+      ],
+      "photo_candidate_count": 7,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000150077",
+      "name": "东坡I747避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B03_747_A_BODY",
+        "B03_747_A_PEDESTAL",
+        "B03_747_A_ACCESSORY"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station"
+      ],
+      "limitations": [
+        "terminal leads / accessories may be incomplete; body mount screen only"
+      ],
+      "photo_candidate_count": 11,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000150103",
+      "name": "平兴II748避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_candidate_mount_unpassed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_748_B_BODY",
+        "B11_748_B_PEDESTAL",
+        "B11_748_B_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "exact_canonical_name_to_official_device_code"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: shaft_holdout, foot_holdout"
+      ],
+      "photo_candidate_count": 10,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000259338",
+      "name": "#2主变高压侧中性点避雷器O相",
+      "family": "避雷器",
+      "inventory_model": "YH1.5W-144/320",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "legacy_geometry_pose_review_pending",
+      "legacy_direct_mesh_count": 16,
+      "candidate_roots": [],
+      "legacy_variant": "SA144_NEUTRAL_SINGLE",
+      "legacy_geometry_status": "photo_guided_neutral_family_external_shape_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B10 station direct meshes, protected from v50"
+      ],
+      "limitations": [],
+      "photo_candidate_count": 2,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000151536",
+      "name": "#2主变中压侧避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_T2_MV_C_BODY",
+        "B11_T2_MV_C_PEDESTAL",
+        "B11_T2_MV_C_ACCESSORY",
+        "B11_T2_MV_C_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "official_model_matched_SA110_SINGLE_master_photo_family_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "official_device_identity_inferred_from_501_502_structural_symmetry_high_confidence; individual phase order remains unverified after paired 501 legacy reversal discovery"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: "
+      ],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000151532",
+      "name": "#2主变低压侧避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "YH5WR-51/134",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000149677",
+      "name": "河夏4D75避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::4D75_C.BODY"
+      ],
+      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 6,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000149647",
+      "name": "河夏4D76避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::4D76_B.BODY"
+      ],
+      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 7,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000151540",
+      "name": "#1主变501避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_T1_501_C_BODY",
+        "B11_T1_501_C_PEDESTAL",
+        "B11_T1_501_C_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "B11_photo_order_corrected_candidate: A/C legacy seats exchanged; ten multi-phase photos consistent; official registry remains frozen"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: "
+      ],
+      "photo_candidate_count": 7,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000150102",
+      "name": "平兴II748避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B03_748_A_BODY",
+        "B03_748_A_PEDESTAL",
+        "B03_748_A_ACCESSORY"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station"
+      ],
+      "limitations": [
+        "terminal leads / accessories may be incomplete; body mount screen only"
+      ],
+      "photo_candidate_count": 12,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000151290",
+      "name": "东坡II759避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_759_C_BODY",
+        "B11_759_C_PEDESTAL",
+        "B11_759_C_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "exact_canonical_name_to_official_device_code"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: "
+      ],
+      "photo_candidate_count": 7,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000149701",
+      "name": "夏吴2899避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::2899_B.BODY"
+      ],
+      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 6,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000150128",
+      "name": "兴盛I749避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B02_749_B_BODY",
+        "B02_749_B_PEDESTAL",
+        "B02_749_B_ACCESSORY"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station"
+      ],
+      "limitations": [
+        "terminal leads / accessories may be incomplete; body mount screen only"
+      ],
+      "photo_candidate_count": 8,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000151264",
+      "name": "梅林II758避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_758_B_BODY",
+        "B11_758_B_PEDESTAL",
+        "B11_758_B_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "exact_canonical_name_to_official_device_code"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: "
+      ],
+      "photo_candidate_count": 8,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000151535",
+      "name": "#2主变中压侧避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_T2_MV_B_BODY",
+        "B11_T2_MV_B_PEDESTAL",
+        "B11_T2_MV_B_ACCESSORY",
+        "B11_T2_MV_B_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "official_model_matched_SA110_SINGLE_master_photo_family_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "official_device_identity_inferred_from_501_502_structural_symmetry_high_confidence; individual phase order remains unverified after paired 501 legacy reversal discovery"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: "
+      ],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000150104",
+      "name": "平兴II748避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B03_748_C_BODY",
+        "B03_748_C_PEDESTAL",
+        "B03_748_C_ACCESSORY"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station"
+      ],
+      "limitations": [
+        "terminal leads / accessories may be incomplete; body mount screen only"
+      ],
+      "photo_candidate_count": 8,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000150079",
+      "name": "东坡I747避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B03_747_C_BODY",
+        "B03_747_C_PEDESTAL",
+        "B03_747_C_ACCESSORY"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station"
+      ],
+      "limitations": [
+        "terminal leads / accessories may be incomplete; body mount screen only"
+      ],
+      "photo_candidate_count": 8,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000149676",
+      "name": "河夏4D75避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::4D75_B.BODY"
+      ],
+      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 4,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000149725",
+      "name": "备用壹4B77避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::4B77_A.BODY"
+      ],
+      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_geometry_status": "official_model_matched_reusable_arrester_master_support_installation_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch;4B77 versus legacy夏燕4NQ1 alias has no direct labeled photograph",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000150627",
+      "name": "备用陆750避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B05_750_A_BODY",
+        "B05_750_A_PEDESTAL"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station"
+      ],
+      "limitations": [
+        "terminal leads / accessories may be incomplete; body mount screen only"
+      ],
+      "photo_candidate_count": 2,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000150067",
+      "name": "夏津746避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_candidate_mount_unpassed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_746_B_BODY",
+        "B11_746_B_PEDESTAL",
+        "B11_746_B_ACCESSORY",
+        "B11_746_B_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "exact_canonical_name_to_official_device_code"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: foot_holdout"
+      ],
+      "photo_candidate_count": 8,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000151288",
+      "name": "东坡II759避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_759_A_BODY",
+        "B11_759_A_PEDESTAL",
+        "B11_759_A_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "exact_canonical_name_to_official_device_code"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: "
+      ],
+      "photo_candidate_count": 7,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000150690",
+      "name": "备用柒751避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_751_A_BODY",
+        "B11_751_A_PEDESTAL",
+        "B11_751_A_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "exact_canonical_name_to_official_device_code"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: "
+      ],
+      "photo_candidate_count": 3,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000149726",
+      "name": "备用壹4B77避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::4B77_B.BODY"
+      ],
+      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_geometry_status": "official_model_matched_reusable_arrester_master_support_installation_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch;4B77 versus legacy夏燕4NQ1 alias has no direct labeled photograph",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000151531",
+      "name": "#2主变低压侧避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "YH5WR-51/134",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000149646",
+      "name": "河夏4D76避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::4D76_A.BODY"
+      ],
+      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 5,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000150066",
+      "name": "夏津746避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_candidate_mount_unpassed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_746_A_BODY",
+        "B11_746_A_PEDESTAL",
+        "B11_746_A_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "exact_canonical_name_to_official_device_code"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: foot_holdout"
+      ],
+      "photo_candidate_count": 7,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000151526",
+      "name": "#1主变低压侧避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "YH5WR-51/134",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000151534",
+      "name": "#2主变中压侧避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_candidate_mount_unpassed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_T2_MV_A_BODY",
+        "B11_T2_MV_A_PEDESTAL",
+        "B11_T2_MV_A_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "official_model_matched_SA110_SINGLE_master_photo_family_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "official_device_identity_inferred_from_501_502_structural_symmetry_high_confidence; individual phase order remains unverified after paired 501 legacy reversal discovery"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: foot_holdout"
+      ],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000149727",
+      "name": "备用壹4B77避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::4B77_C.BODY"
+      ],
+      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_geometry_status": "official_model_matched_reusable_arrester_master_support_installation_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch;4B77 versus legacy夏燕4NQ1 alias has no direct labeled photograph",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000151265",
+      "name": "梅林II758避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_758_C_BODY",
+        "B11_758_C_PEDESTAL",
+        "B11_758_C_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "exact_canonical_name_to_official_device_code"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: "
+      ],
+      "photo_candidate_count": 7,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000151263",
+      "name": "梅林II758避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_candidate_mount_unpassed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_758_A_BODY",
+        "B11_758_A_PEDESTAL",
+        "B11_758_A_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "exact_canonical_name_to_official_device_code"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: foot_holdout"
+      ],
+      "photo_candidate_count": 8,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000151539",
+      "name": "#1主变501避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_T1_501_B_BODY",
+        "B11_T1_501_B_PEDESTAL",
+        "B11_T1_501_B_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "B11_photo_order_corrected_candidate: A/C legacy seats exchanged; ten multi-phase photos consistent; official registry remains frozen"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: "
+      ],
+      "photo_candidate_count": 10,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000151527",
+      "name": "#1主变低压侧避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "YH5WR-51/134",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000150032",
+      "name": "#1主变高压侧避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::T1_HV_B.BODY"
+      ],
+      "legacy_variant": "SA220_TALL",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 15,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000259395",
+      "name": "#2主变中压侧中性点避雷器O相",
+      "family": "避雷器",
+      "inventory_model": "Y1.5W-72/186W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000150692",
+      "name": "备用柒751避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_candidate_mount_unpassed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_751_C_BODY",
+        "B11_751_C_PEDESTAL",
+        "B11_751_C_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "exact_canonical_name_to_official_device_code"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: foot_holdout"
+      ],
+      "photo_candidate_count": 2,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000151530",
+      "name": "#2主变低压侧避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "YH5WR-51/134",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000151538",
+      "name": "#1主变501避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_candidate_mount_unpassed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B11_T1_501_A_BODY",
+        "B11_T1_501_A_PEDESTAL",
+        "B11_T1_501_A_SITE_PAD"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B11 P02 body/pedestal shared sources",
+        "B11_validation_r2.json: saved heldout residuals and exact source/historical preservation",
+        "B11_photo_order_corrected_candidate: A/C legacy seats exchanged; ten multi-phase photos consistent; official registry remains frozen"
+      ],
+      "limitations": [
+        "main body/pedestal screen only; local leads and some housings incomplete",
+        "unpassed checks: foot_holdout"
+      ],
+      "photo_candidate_count": 8,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000149702",
+      "name": "夏吴2899避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::2899_C.BODY"
+      ],
+      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 5,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000150078",
+      "name": "东坡I747避雷器B相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B03_747_B_BODY",
+        "B03_747_B_PEDESTAL",
+        "B03_747_B_ACCESSORY"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station"
+      ],
+      "limitations": [
+        "terminal leads / accessories may be incomplete; body mount screen only"
+      ],
+      "photo_candidate_count": 11,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000151528",
+      "name": "#1主变低压侧避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "YH5WR-51/134",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000149783",
+      "name": "#2主变高压侧避雷器C相",
+      "family": "避雷器",
+      "inventory_model": "Y10W-204/532W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B18::T2_HV_C.BODY"
+      ],
+      "legacy_variant": "SA220_TALL",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "B18 one27-mesh double-section body shared across18 sites;58 expanded meshes per site",
+        "7/7 actual finite body/post/ring/foundation surface checks pass5cm screen",
+        "actual six-group overlays reviewed; raised R1 foundation error corrected to strong concrete-top evidence"
+      ],
+      "limitations": [
+        "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+        "4B77 aliases and phase identities are provisional; no phase label text invented.",
+        "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+        "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+      ],
+      "photo_candidate_count": 15,
+      "formal_installation_or_full_acceptance_claim": false,
+      "identity_status": "physical post and height independently measured; phase label inherits registry and was not independently resolved in this batch",
+      "local_patch_screens_passed": 7,
+      "local_patch_screens_unpassed": 0
+    },
+    {
+      "device_id": "12MZ0000000259391",
+      "name": "#1主变高压侧中性点避雷器O相",
+      "family": "避雷器",
+      "inventory_model": "YH1.5W-144/320",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "legacy_geometry_pose_review_pending",
+      "legacy_direct_mesh_count": 16,
+      "candidate_roots": [],
+      "legacy_variant": "SA144_NEUTRAL_SINGLE",
+      "legacy_geometry_status": "photo_guided_neutral_family_external_shape_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B10 station direct meshes, protected from v50"
+      ],
+      "limitations": [],
+      "photo_candidate_count": 1,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000150127",
+      "name": "兴盛I749避雷器A相",
+      "family": "避雷器",
+      "inventory_model": "Y10W2-102/266",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "arrester_body_mount_reviewed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [
+        "B02_749_A_BODY",
+        "B02_749_A_PEDESTAL",
+        "B02_749_A_ACCESSORY"
+      ],
+      "legacy_variant": "SA110_SINGLE",
+      "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "candidate roots present in saved B10 station"
+      ],
+      "limitations": [
+        "terminal leads / accessories may be incomplete; body mount screen only"
+      ],
+      "photo_candidate_count": 8,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000259327",
+      "name": "#2主变高压侧中性点48020接地闸刀O相",
+      "family": "隔离开关",
+      "inventory_model": "GW13-72.5",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000259394",
+      "name": "#1主变中压侧中性点5010接地闸刀O相",
+      "family": "隔离开关",
+      "inventory_model": "GW13-126/630",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000242549",
+      "name": "#2主变3020接地刀闸ABC相",
+      "family": "隔离开关",
+      "inventory_model": "GW4A-40.5W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "legacy_geometry_pose_review_pending",
+      "legacy_direct_mesh_count": 43,
+      "candidate_roots": [],
+      "legacy_variant": "GDS_GW4A_40_5W",
+      "legacy_geometry_status": "photo_guided_neutral_family_external_shape_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B10 station direct meshes, protected from v50"
+      ],
+      "limitations": [],
+      "photo_candidate_count": 2,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000259397",
+      "name": "#2主变中压侧中性点5020接地闸刀O相",
+      "family": "隔离开关",
+      "inventory_model": "GW13-126/630",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "legacy_geometry_pose_review_pending",
+      "legacy_direct_mesh_count": 15,
+      "candidate_roots": [],
+      "legacy_variant": "GDS_GW13_126_630_PARTIAL_V2",
+      "legacy_geometry_status": "photo_evidence_grounded_partial_mechanism_external_v2_six_supported_nine_evidence_pending",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B10 station direct meshes, protected from v50"
+      ],
+      "limitations": [],
+      "photo_candidate_count": 1,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000260620",
+      "name": "#1主变高压侧中性点48010接地闸刀O相",
+      "family": "隔离开关",
+      "inventory_model": "GW13-72.5",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "12MZ0000000242535",
+      "name": "#1主变3010接地刀闸ABC相",
+      "family": "隔离开关",
+      "inventory_model": "GW4A-40.5W",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "legacy_geometry_pose_review_pending",
+      "legacy_direct_mesh_count": 43,
+      "candidate_roots": [],
+      "legacy_variant": "GDS_GW4A_40_5W",
+      "legacy_geometry_status": "photo_guided_neutral_family_external_shape_dimensions_unverified",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B10 station direct meshes, protected from v50"
+      ],
+      "limitations": [],
+      "photo_candidate_count": 1,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "T23052218322040418",
+      "name": "220kV夏霖变电站接地装置",
+      "family": "接地装置",
+      "inventory_model": null,
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "T23052218322040419",
+      "name": "220kV夏霖变电站端子箱及检修电源箱",
+      "family": "端子箱及检修电源箱",
+      "inventory_model": null,
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "legacy_geometry_pose_review_pending",
+      "legacy_direct_mesh_count": 17,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B10 station direct meshes, protected from v50"
+      ],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "T23052218322040420",
+      "name": "220kV夏霖变电站站用交流电源系统",
+      "family": "站用交流电源系统",
+      "inventory_model": null,
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "T23052218322040421",
+      "name": "220kV夏霖变电站站用直流电源系统",
+      "family": "站用直流电源系统",
+      "inventory_model": null,
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "T23052218322040422",
+      "name": "220kV夏霖变电站设备构架",
+      "family": "设备构架",
+      "inventory_model": null,
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "legacy_geometry_pose_review_pending",
+      "legacy_direct_mesh_count": 481,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B10 station direct meshes, protected from v50"
+      ],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "T23052218322040423",
+      "name": "220kV夏霖变电站辅助设施",
+      "family": "辅助设施",
+      "inventory_model": null,
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "T23052218322040424",
+      "name": "220kV夏霖变电站土建设施",
+      "family": "土建设施",
+      "inventory_model": null,
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "legacy_geometry_pose_review_pending",
+      "legacy_direct_mesh_count": 2,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B10 station direct meshes, protected from v50"
+      ],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "T23052218322040425",
+      "name": "220kV夏霖变电站独立避雷针",
+      "family": "独立避雷针",
+      "inventory_model": null,
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "T23052218322040426",
+      "name": "220kV夏霖变电站电力电缆",
+      "family": "电力电缆",
+      "inventory_model": null,
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "unresolved_outdoor_or_mixed",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "T23052218322040427",
+      "name": "220kV夏霖变电站二次屏柜",
+      "family": "二次屏柜",
+      "inventory_model": null,
+      "scope_triage": "indoor_excluded",
+      "current_status": "previously_classified_indoor",
+      "legacy_direct_mesh_count": 0,
+      "candidate_roots": [],
+      "legacy_variant": null,
+      "legacy_geometry_status": null,
+      "legacy_alignment_status": null,
+      "evidence": [],
+      "limitations": [],
+      "photo_candidate_count": 0,
+      "formal_installation_or_full_acceptance_claim": false
+    },
+    {
+      "device_id": "T23052218322040428",
+      "name": "220kV夏霖变电站消防系统",
+      "family": "消防系统",
+      "inventory_model": "",
+      "scope_triage": "outdoor_or_mixed_needs_review",
+      "current_status": "legacy_geometry_pose_review_pending",
+      "legacy_direct_mesh_count": 23,
+      "candidate_roots": [],
+      "legacy_variant": "FIRE_SYSTEM_STATION",
+      "legacy_geometry_status": "photo_coarse_mesh_guided_fire_external_geometry_with_explicit_internal_region_proxies",
+      "legacy_alignment_status": null,
+      "evidence": [
+        "saved B10 station direct meshes, protected from v50"
+      ],
+      "limitations": [],
+      "photo_candidate_count": 39,
+      "formal_installation_or_full_acceptance_claim": false
+    }
+  ],
+  "requirements": [
+    {
+      "requirement": "Resolve outdoor physical scope across registry records and visible station zones",
+      "status": "incomplete",
+      "evidence": "153 records inventoried; 23 previously indoor; aggregate and unplaced records still require physical mapping"
+    },
+    {
+      "requirement": "Most outdoor devices have photo-supported editable major exterior geometry and independently checked pose",
+      "status": "not_proven",
+      "evidence": "Saved geometry coverage is broader than reviewed alignment; partial mount/cabinet checks do not prove whole-device coverage"
+    },
+    {
+      "requirement": "Major outdoor zones are coherently modeled and aligned with no systematic placement errors",
+      "status": "incomplete",
+      "evidence": "Two transformers,6 capacitor banks,48 arrester body candidates and30 partial GIS candidates. B19 adds6 GIS/VT bodies with37/60 local screens. Three prior refined groups were visually reviewed without counting new devices."
+    },
+    {
+      "requirement": "Saved, reopenable artifacts and traceable review evidence",
+      "status": "passed_for_B21_only",
+      "evidence": "422 old scenes,28041 old objects,1935 historical and evidence files preserved; broad outdoor completion unproven."
+    }
+  ],
+  "priority_next": [
+    "Review and model transformer neutral-point arresters, grounding disconnectors and current transformers as reusable assemblies.",
+    "Refine far4100 main stem and remaining GIS inspection/support envelopes against actual photos; keep existing numerical failures.",
+    "Resolve remaining outdoor/mixed registry records and station-service transformer physical placements.",
+    "Continue external overhead leads and remaining B11–B20 local alignment failures."
+  ],
+  "completion_ratio": null,
+  "reason_no_completion_ratio": "Official rows mix individual phases, bay assemblies, bus records, station-wide systems and indoor equipment; raw candidate/mesh counts are not a defensible whole-station completion percentage",
+  "saved_scene_collections": [
+    {
+      "name": "B20_RETAINED_B19_UNCHANGED_STATION_COMPONENTS",
+      "direct_objects": 878,
+      "all_objects": 878
+    },
+    {
+      "name": "B11_RETAINED_ARRESTER_CANDIDATES",
+      "direct_objects": 32,
+      "all_objects": 32
+    },
+    {
+      "name": "B06_CIVIL_PLAN_CALIBRATED_CANDIDATE",
+      "direct_objects": 0,
+      "all_objects": 69
+    },
+    {
+      "name": "B08_T1_INSTANCE",
+      "direct_objects": 1,
+      "all_objects": 1
+    },
+    {
+      "name": "B08_T2_INSTANCE",
+      "direct_objects": 1,
+      "all_objects": 1
+    },
+    {
+      "name": "B08_T1_SITE_LEADS",
+      "direct_objects": 12,
+      "all_objects": 12
+    },
+    {
+      "name": "B08_T2_SITE_LEADS",
+      "direct_objects": 12,
+      "all_objects": 12
+    },
+    {
+      "name": "B10_031_SITE",
+      "direct_objects": 1,
+      "all_objects": 1
+    },
+    {
+      "name": "B10_032_SITE",
+      "direct_objects": 1,
+      "all_objects": 1
+    },
+    {
+      "name": "B10_033_SITE",
+      "direct_objects": 1,
+      "all_objects": 1
+    },
+    {
+      "name": "B10_034_SITE",
+      "direct_objects": 1,
+      "all_objects": 1
+    },
+    {
+      "name": "B10_035_SITE",
+      "direct_objects": 1,
+      "all_objects": 1
+    },
+    {
+      "name": "B10_036_SITE",
+      "direct_objects": 1,
+      "all_objects": 1
+    },
+    {
+      "name": "B11_746_SITE",
+      "direct_objects": 7,
+      "all_objects": 7
+    },
+    {
+      "name": "B11_748_SITE",
+      "direct_objects": 3,
+      "all_objects": 3
+    },
+    {
+      "name": "B11_751_SITE",
+      "direct_objects": 9,
+      "all_objects": 9
+    },
+    {
+      "name": "B11_758_SITE",
+      "direct_objects": 9,
+      "all_objects": 9
+    },
+    {
+      "name": "B11_759_SITE",
+      "direct_objects": 9,
+      "all_objects": 9
+    },
+    {
+      "name": "B11_T1_501_SITE",
+      "direct_objects": 9,
+      "all_objects": 9
+    },
+    {
+      "name": "B11_T2_MV_SITE",
+      "direct_objects": 11,
+      "all_objects": 11
+    },
+    {
+      "name": "B13_748_SITE",
+      "direct_objects": 11,
+      "all_objects": 11
+    },
+    {
+      "name": "B13_747_SITE",
+      "direct_objects": 11,
+      "all_objects": 11
+    },
+    {
+      "name": "B13_746_SITE",
+      "direct_objects": 11,
+      "all_objects": 11
+    },
+    {
+      "name": "B13_759_SITE",
+      "direct_objects": 11,
+      "all_objects": 11
+    },
+    {
+      "name": "B13_749_SITE",
+      "direct_objects": 11,
+      "all_objects": 11
+    },
+    {
+      "name": "B15R2_753_SITE",
+      "direct_objects": 20,
+      "all_objects": 20
+    },
+    {
+      "name": "B15R2_754_SITE",
+      "direct_objects": 12,
+      "all_objects": 12
+    },
+    {
+      "name": "B15R2_755_SITE",
+      "direct_objects": 20,
+      "all_objects": 20
+    },
+    {
+      "name": "B15R2_756_SITE",
+      "direct_objects": 29,
+      "all_objects": 29
+    },
+    {
+      "name": "B15R2_757_SITE",
+      "direct_objects": 29,
+      "all_objects": 29
+    },
+    {
+      "name": "B15R2_501_SITE",
+      "direct_objects": 20,
+      "all_objects": 20
+    },
+    {
+      "name": "B15R2_502_SITE",
+      "direct_objects": 20,
+      "all_objects": 20
+    },
+    {
+      "name": "B15R2_758_SITE",
+      "direct_objects": 9,
+      "all_objects": 9
+    },
+    {
+      "name": "B16_500_SITE",
+      "direct_objects": 9,
+      "all_objects": 9
+    },
+    {
+      "name": "B16_VT_I_SITE",
+      "direct_objects": 9,
+      "all_objects": 9
+    },
+    {
+      "name": "B16_VT_II_SITE",
+      "direct_objects": 9,
+      "all_objects": 9
+    },
+    {
+      "name": "B16_750_SITE",
+      "direct_objects": 11,
+      "all_objects": 11
+    },
+    {
+      "name": "B16_751_SITE",
+      "direct_objects": 9,
+      "all_objects": 9
+    },
+    {
+      "name": "B16_752_SITE",
+      "direct_objects": 12,
+      "all_objects": 12
+    },
+    {
+      "name": "B21_RETAINED_B20_RETAINED_B17_4D75_SITE",
+      "direct_objects": 29,
+      "all_objects": 29
+    },
+    {
+      "name": "B20_RETAINED_B17_4D76_SITE",
+      "direct_objects": 29,
+      "all_objects": 29
+    },
+    {
+      "name": "B20_RETAINED_B17_2899_SITE",
+      "direct_objects": 29,
+      "all_objects": 29
+    },
+    {
+      "name": "B20_RETAINED_B17_4802_SITE",
+      "direct_objects": 33,
+      "all_objects": 33
+    },
+    {
+      "name": "B21_RETAINED_B20_RETAINED_B17_4B77_SITE",
+      "direct_objects": 31,
+      "all_objects": 31
+    },
+    {
+      "name": "B18_2899_SITE",
+      "direct_objects": 0,
+      "all_objects": 60
+    },
+    {
+      "name": "B18_4B77_SITE",
+      "direct_objects": 0,
+      "all_objects": 60
+    },
+    {
+      "name": "B18_4D75_SITE",
+      "direct_objects": 0,
+      "all_objects": 60
+    },
+    {
+      "name": "B18_4D76_SITE",
+      "direct_objects": 0,
+      "all_objects": 60
+    },
+    {
+      "name": "B18_T1_HV_SITE",
+      "direct_objects": 0,
+      "all_objects": 60
+    },
+    {
+      "name": "B18_T2_HV_SITE",
+      "direct_objects": 0,
+      "all_objects": 60
+    },
+    {
+      "name": "B19_VT_II_SITE",
+      "direct_objects": 16,
+      "all_objects": 16
+    },
+    {
+      "name": "B19_VT_IA_SITE",
+      "direct_objects": 16,
+      "all_objects": 16
+    },
+    {
+      "name": "B19_4B81_SITE",
+      "direct_objects": 30,
+      "all_objects": 30
+    },
+    {
+      "name": "B19_4B80_SITE",
+      "direct_objects": 28,
+      "all_objects": 28
+    },
+    {
+      "name": "B19_4600_SITE",
+      "direct_objects": 3,
+      "all_objects": 3
+    },
+    {
+      "name": "B19_VT_IB_SITE",
+      "direct_objects": 16,
+      "all_objects": 16
+    },
+    {
+      "name": "B19_4100_EXISTING_REVIEW",
+      "direct_objects": 250,
+      "all_objects": 250
+    },
+    {
+      "name": "B19_4801_EXISTING_REVIEW",
+      "direct_objects": 354,
+      "all_objects": 354
+    },
+    {
+      "name": "B19_4800_EXISTING_REVIEW",
+      "direct_objects": 387,
+      "all_objects": 387
+    },
+    {
+      "name": "B20_4D75_VT_IB_L0",
+      "direct_objects": 26,
+      "all_objects": 26
+    },
+    {
+      "name": "B20_VT_IB_4D76_L0",
+      "direct_objects": 13,
+      "all_objects": 13
+    },
+    {
+      "name": "B20_4D76_2899_L0",
+      "direct_objects": 58,
+      "all_objects": 58
+    },
+    {
+      "name": "B20_2899_4600_L0",
+      "direct_objects": 3,
+      "all_objects": 3
+    },
+    {
+      "name": "B20_4600_4802_L0",
+      "direct_objects": 25,
+      "all_objects": 25
+    },
+    {
+      "name": "B20_4800_VT_II_L0",
+      "direct_objects": 13,
+      "all_objects": 13
+    },
+    {
+      "name": "B20_VT_II_4B80_L0",
+      "direct_objects": 13,
+      "all_objects": 13
+    },
+    {
+      "name": "B20_4B80_4B81_L0",
+      "direct_objects": 39,
+      "all_objects": 39
+    },
+    {
+      "name": "B20_4D75_4D76_L1",
+      "direct_objects": 38,
+      "all_objects": 38
+    },
+    {
+      "name": "B20_4D76_2899_L1",
+      "direct_objects": 56,
+      "all_objects": 56
+    },
+    {
+      "name": "B20_2899_4600_L1",
+      "direct_objects": 3,
+      "all_objects": 3
+    },
+    {
+      "name": "B20_4600_4802_L1",
+      "direct_objects": 25,
+      "all_objects": 25
+    },
+    {
+      "name": "B20_4B77_4801_L1",
+      "direct_objects": 65,
+      "all_objects": 65
+    },
+    {
+      "name": "B20_4800_VT_IA_L1",
+      "direct_objects": 13,
+      "all_objects": 13
+    },
+    {
+      "name": "B20_VT_IA_4B80_L1",
+      "direct_objects": 13,
+      "all_objects": 13
+    },
+    {
+      "name": "B20_4B80_4B81_L1",
+      "direct_objects": 39,
+      "all_objects": 39
+    },
+    {
+      "name": "B21_4B77_4100_NEAR",
+      "direct_objects": 27,
+      "all_objects": 27
+    },
+    {
+      "name": "B21_4100_FAR_4801",
+      "direct_objects": 29,
+      "all_objects": 29
+    },
+    {
+      "name": "B21_4D75_END_CLOSURES",
+      "direct_objects": 4,
+      "all_objects": 4
+    }
+  ],
+  "inherited_pending": [
+    "B12 749 rear vertical shell local RMS0.06354m remains unresolved; B13 unchanged core does not clear that result. Rear shells of the7 new bays were not included in the88 B13 patch screens.",
+    "B13 ten shell/bus local screens above5cm,8 open bus boundaries and750/751 individualGIS identity remain unresolved.",
+    "B11 seven arrester mounting failures remain unresolved.",
+    "Six lower front-cap patches remain above5cm; component association includes front portal and must be reviewed separately.",
+    "Rear bridge finite surface checks are partial; retain every failed patch. Support dimensions are reference-derived, not manufacturerCAD.",
+    "752 negative lower/upper bus boundaries await coupler500; three older B13 boundary pairs remain. I/II busVT and other outdoor families remain.",
+    "B11 seven mounting failures, B12 749 rear vessel, B13 ten shell/bus failures and750/751 identity, B14 two front-vessel failures remain unresolved.",
+    "500 vertical and VT barrel reference patches include coarse distortions/supports; retain independent failed diagnostics and review actual saved finite surfaces.",
+    "Small pipes, terminals and exact rear-end cap taper remain approximate; no manufacturer dimensions or whole-device acceptance.",
+    "Earlier B11/B12/B13/B14/B15 unpassed patches and750/751 identity remain; other outdoor families and outer bus boundaries unfinished.",
+    "Exact gas chamber envelopes and compact mechanisms remain approximate; retain all unpassed reference checks.",
+    "Sixteen exposed bus boundaries require neighboring220kV variants and actual route integration.",
+    "Cabinet fronts and individual phase labels need closer photo confirmation;4B77 alias retained as provisional.",
+    "Small leads and terminals plus remaining220kV variants and arresters unfinished; inherited B11-B16 failures remain.",
+    "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+    "4B77 aliases and phase identities are provisional; no phase label text invented.",
+    "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+    "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain.",
+    "Six body models and independent supports are exterior approximations; all finite-surface failures retained.",
+    "Remaining long220kV mother-bus spools and4100 section bends need connected-row integration; ports are explicit.",
+    "4B80/4B81 separate control cabinets not verified; old guessed cabinets omitted in candidate station only.",
+    "IA/II cabinet associations based on photo-relative arrangement; phase names and exact electrical topology unasserted.",
+    "4801/4800/4100 original refined geometry retained for review, not counted as newly completed devices.",
+    "Inherited B11-B18 unpassed patches, external high voltage leads and other outdoor families remain.",
+    "4100 lane0 transverse turns: unmodeled connecting routes; no false straight bridge created.",
+    "4D75 outer two boundaries remain as prior open stubs, end closure requires reference review.",
+    "55 cap associations and35 support envelopes are coarse candidates; exact flange and frame details remain approximate.",
+    "New long bodies interpolate existing independent bay ports; local body alignment failures from B11–B19 remain.",
+    "Existing4801–4800 corridor and two old4B80–4B81 bellows retained, no new whole-device acceptance.",
+    "B20 all16 finite surface envelopes still above5cm; prior body/support residuals unchanged.",
+    "T junctions are overlapping exterior shells, not boolean-unioned manifold engineering vessels.",
+    "4 inspection support foundation footprints and fasteners approximate; upper4100 legacy body not newly refit.",
+    "Neutral point equipment and other outdoor mappings remain; whole outdoor completion unproven."
+  ],
+  "bus_boundary_update": {
+    "B15_752_negative_pair_connected": true,
+    "B13_751_positive_pair_connected": true,
+    "current_known_outer_pairs": [
+      "746 negative",
+      "759 positive"
+    ],
+    "updated_internal_chain": [
+      "750",
+      "VT_I",
+      "VT_II",
+      "751",
+      "500",
+      "752"
+    ],
+    "scope": "geometric model interfaces; does not imply electrical commissioning or whole-device acceptance"
+  },
+  "220kV_bus_boundary_update": {
+    "connections": [
+      {
+        "a": "4802",
+        "b": "4B77",
+        "bus": 0,
+        "gap_m": 8.79839510114497e-09
+      },
+      {
+        "a": "4802",
+        "b": "4B77",
+        "bus": 1,
+        "gap_m": 2.6802842704963004e-08
+      }
+    ],
+    "open_boundaries": [
+      {
+        "key": "4D75",
+        "bus": 0,
+        "side": -1,
+        "object": "B17::4D75.bus_extension.0.-1",
+        "start": [
+          -48.435935974121094,
+          -5.316709041595459,
+          1.8612747192382812
+        ],
+        "end": [
+          -47.9991340637207,
+          -6.216267108917236,
+          1.8612747192382812
+        ],
+        "open_pending_boundary": true
+      },
+      {
+        "key": "4D75",
+        "bus": 0,
+        "side": 1,
+        "object": "B17::4D75.bus_extension.0.1",
+        "start": [
+          -49.48426055908203,
+          -3.1577699184417725,
+          1.8612747192382812
+        ],
+        "end": [
+          -49.92106246948242,
+          -2.258212089538574,
+          1.8612747192382812
+        ],
+        "open_pending_boundary": true
+      },
+      {
+        "key": "4D75",
+        "bus": 1,
+        "side": -1,
+        "object": "B17::4D75.bus_extension.1.-1",
+        "start": [
+          -46.330970764160156,
+          -4.294593334197998,
+          1.8612747192382812
+        ],
+        "end": [
+          -45.894168853759766,
+          -5.194151401519775,
+          1.8612747192382812
+        ],
+        "open_pending_boundary": true
+      },
+      {
+        "key": "4D75",
+        "bus": 1,
+        "side": 1,
+        "object": "B17::4D75.bus_extension.1.1",
+        "start": [
+          -47.379295349121094,
+          -2.1356544494628906,
+          1.8612747192382812
+        ],
+        "end": [
+          -47.816097259521484,
+          -1.2360966205596924,
+          1.8612747192382812
+        ],
+        "open_pending_boundary": true
+      },
+      {
+        "key": "4D76",
+        "bus": 0,
+        "side": -1,
+        "object": "B17::4D76.bus_extension.0.-1",
+        "start": [
+          -43.25764846801758,
+          -16.140335083007812,
+          1.8774969577789307
+        ],
+        "end": [
+          -42.82084655761719,
+          -17.039892196655273,
+          1.8774969577789307
+        ],
+        "open_pending_boundary": true
+      },
+      {
+        "key": "4D76",
+        "bus": 0,
+        "side": 1,
+        "object": "B17::4D76.bus_extension.0.1",
+        "start": [
+          -44.305973052978516,
+          -13.981395721435547,
+          1.8774969577789307
+        ],
+        "end": [
+          -44.742774963378906,
+          -13.08183765411377,
+          1.8774969577789307
+        ],
+        "open_pending_boundary": true
+      },
+      {
+        "key": "4D76",
+        "bus": 1,
+        "side": -1,
+        "object": "B17::4D76.bus_extension.1.-1",
+        "start": [
+          -41.15268325805664,
+          -15.118219375610352,
+          1.8774969577789307
+        ],
+        "end": [
+          -40.71588134765625,
+          -16.017776489257812,
+          1.8774969577789307
+        ],
+        "open_pending_boundary": true
+      },
+      {
+        "key": "4D76",
+        "bus": 1,
+        "side": 1,
+        "object": "B17::4D76.bus_extension.1.1",
+        "start": [
+          -42.20100784301758,
+          -12.959280014038086,
+          1.8774969577789307
+        ],
+        "end": [
+          -42.63780975341797,
+          -12.059721946716309,
+          1.8774969577789307
+        ],
+        "open_pending_boundary": true
+      },
+      {
+        "key": "2899",
+        "bus": 0,
+        "side": -1,
+        "object": "B17::2899.bus_extension.0.-1",
+        "start": [
+          -38.0460205078125,
+          -26.988265991210938,
+          1.9054560661315918
+        ],
+        "end": [
+          -37.60921859741211,
+          -27.88782501220703,
+          1.9054560661315918
+        ],
+        "open_pending_boundary": true
+      },
+      {
+        "key": "2899",
+        "bus": 0,
+        "side": 1,
+        "object": "B17::2899.bus_extension.0.1",
+        "start": [
+          -39.09434509277344,
+          -24.829328536987305,
+          1.9054560661315918
+        ],
+        "end": [
+          -39.53114700317383,
+          -23.92976951599121,
+          1.9054560661315918
+        ],
+        "open_pending_boundary": true
+      },
+      {
+        "key": "2899",
+        "bus": 1,
+        "side": -1,
+        "object": "B17::2899.bus_extension.1.-1",
+        "start": [
+          -35.94105529785156,
+          -25.966150283813477,
+          1.9054560661315918
+        ],
+        "end": [
+          -35.50425338745117,
+          -26.86570930480957,
+          1.9054560661315918
+        ],
+        "open_pending_boundary": true
+      },
+      {
+        "key": "2899",
+        "bus": 1,
+        "side": 1,
+        "object": "B17::2899.bus_extension.1.1",
+        "start": [
+          -36.9893798828125,
+          -23.807212829589844,
+          1.9054560661315918
+        ],
+        "end": [
+          -37.42618179321289,
+          -22.90765380859375,
+          1.9054560661315918
+        ],
+        "open_pending_boundary": true
+      },
+      {
+        "key": "4802",
+        "bus": 0,
+        "side": -1,
+        "object": "B17::4802.bus_extension.0.-1",
+        "start": [
+          -32.90038299560547,
+          -32.3392333984375,
+          1.9176260232925415
+        ],
+        "end": [
+          -33.33718490600586,
+          -31.439674377441406,
+          1.9176260232925415
+        ],
+        "open_pending_boundary": true
+      },
+      {
+        "key": "4802",
+        "bus": 1,
+        "side": -1,
+        "object": "B17::4802.bus_extension.1.-1",
+        "start": [
+          -35.005348205566406,
+          -33.36134719848633,
+          1.9176260232925415
+        ],
+        "end": [
+          -35.4421501159668,
+          -32.4617919921875,
+          1.9176260232925415
+        ],
+        "open_pending_boundary": true
+      },
+      {
+        "key": "4B77",
+        "bus": 0,
+        "side": -1,
+        "object": "B17::4B77.bus_extension.0.-1",
+        "start": [
+          -32.8833122253418,
+          -37.826908111572266,
+          1.9039818048477173
+        ],
+        "end": [
+          -32.446510314941406,
+          -38.72646713256836,
+          1.9039818048477173
+        ],
+        "open_pending_boundary": true
+      },
+      {
+        "key": "4B77",
+        "bus": 1,
+        "side": -1,
+        "object": "B17::4B77.bus_extension.1.-1",
+        "start": [
+          -30.77834701538086,
+          -36.80479431152344,
+          1.9039818048477173
+        ],
+        "end": [
+          -30.34154510498047,
+          -37.704349517822266,
+          1.9039818048477173
+        ],
+        "open_pending_boundary": true
+      }
+    ],
+    "scope": "actual geometric model interfaces; remaining220kV variants not yet integrated"
+  },
+  "source_identity_correction": "P01 is220kV GIS coupler4800, not an arrester asset. Historical continuation misnomer corrected here; frozen history retained.",
+  "B18_local_body_mount_passed": [
+    "2899_A",
+    "T2_HV_B",
+    "4D75_A",
+    "4D76_C",
+    "T1_HV_A",
+    "T2_HV_A",
+    "4D75_C",
+    "4D76_B",
+    "2899_B",
+    "4D75_B",
+    "4B77_A",
+    "4B77_B",
+    "4D76_A",
+    "4B77_C",
+    "T1_HV_B",
+    "2899_C",
+    "T2_HV_C"
+  ],
+  "B18_unpassed_surface_checks": [
+    "T1_HV_C_grading_ring"
+  ],
+  "B19_unpassed_surface_checks": [
+    "VT_II_bus_0",
+    "VT_II_canister_0",
+    "VT_IA_bus_1",
+    "VT_IA_upper_1",
+    "VT_IA_canister_2",
+    "4B81_bus_0",
+    "4B81_bus_1",
+    "4B81_upper_2",
+    "4B80_bus_0",
+    "4B80_bus_1",
+    "4B80_upper_0",
+    "4B80_upper_1",
+    "4600_bus_0",
+    "4600_bus_1",
+    "4600_upper_0",
+    "4600_upper_1",
+    "4600_upper_2",
+    "4600_lower_return_1",
+    "4600_lower_return_2",
+    "4600_cabinet_xp",
+    "VT_IB_bus_0",
+    "VT_IB_canister_0",
+    "VT_IB_canister_1"
+  ],
+  "B19_existing_visual_review_groups": [
+    "4801",
+    "4800",
+    "4100"
+  ],
+  "B20_connectivity": {
+    "intervals": 16,
+    "total_length_m": 88.81272648158296,
+    "port_seams": 32,
+    "supports": 35,
+    "caps": 55,
+    "shared_expansion_joints": 4,
+    "old_overlapping_shells_reconciled": 2,
+    "local_screens_passed": 0,
+    "local_screens_unpassed": 16,
+    "new_equipment_units": 0
+  },
+  "B21_connectivity": {
+    "stems": 2,
+    "endcaps": 6,
+    "inspection_caps": 7,
+    "supports": 4,
+    "consumed_open_stubs": 3,
+    "port_seams": 6,
+    "tee_intersections": 2,
+    "total_length_m": 11.626334801498922,
+    "local_screens_passed": 17,
+    "local_screens_unpassed": 2,
+    "new_equipment_units": 0
+  },
+  "resolved_in_B21": [
+    "B20 pending4100 lane0 physical route now modeled as two capped T intersections; central gap preserved.",
+    "B20 pending4D75 outer end closure now measured and modeled."
+  ]
+}

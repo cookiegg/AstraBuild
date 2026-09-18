@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "name": "layer_exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "master_exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "master_mesh_count",
+      "ok": true,
+      "detail": "79/79"
+    },
+    {
+      "name": "empties_exist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "empties_are_collection_instances",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no_transformer_12mz_source_in_scene",
+      "ok": true,
+      "detail": "0 left"
+    },
+    {
+      "name": "d41_layer_in_scene",
+      "ok": true,
+      "detail": "2 objs"
+    },
+    {
+      "name": "t1_parts_present",
+      "ok": true,
+      "detail": "17/17"
+    },
+    {
+      "name": "t2_parts_present",
+      "ok": true,
+      "detail": "17/17"
+    },
+    {
+      "name": "plausible_positions",
+      "ok": true,
+      "detail": "[]"
+    }
+  ],
+  "ok": true
+}

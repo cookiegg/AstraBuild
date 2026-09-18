@@ -1,0 +1,574 @@
+{
+  "objective": "请持续进行变电站建模任务，直到室外设备大都实现建模与对齐。",
+  "previous_turn_classification": "progress: B29 overhead assemblies saved; B30 GIS downleads and arrester branches added, reopened and reviewed",
+  "station_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/xialin_B30_GIS_downleads_arrester_branches.blend",
+  "station_sha256": "9e1787a3eeb01e28f34eb2fa82dc5b741fef98ef5a86a085566513d5f68e4aad",
+  "completion_proven": true,
+  "conclusion": "多数室外设备已具备可编辑的主体外形，并在全站与局部视图中按照片/已配准粗模完成主要布局对齐。",
+  "basis": "按实际可见设备区逐区比较：两条 GIS 排、双主变、六组电容器、双箱式设备、中性点装置及构架/导线覆盖主要设备群；未见整排系统错位或未建的大片室外主设备群。",
+  "completion_ratio": null,
+  "reason_no_percentage": "台账混合单相、总成、全站系统和室内设备，不能用对象数或 153 条记录计算完成率。",
+  "survey_acceptance_claim": false,
+  "all_outdoor_items_complete": false,
+  "zones": [
+    {
+      "zone": "110 kV 外排",
+      "assessment": "major_exterior_modeled_and_coarse_aligned",
+      "evidence": [
+        {
+          "scene": "607_B30_G110_OUT_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/607_B30_G110_OUT_Clean.png",
+          "sha256": "e78e89bf4bcdd780913c46fd4e5f4fac2b9bbaabbccf4dd9cd4101f789017965"
+        },
+        {
+          "scene": "608_B30_G110_OUT_Overlay",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/608_B30_G110_OUT_Overlay.png",
+          "sha256": "3081f00ab4b6a15d8acbb1e3e1e83b19b6070cc06ffe2db1cfa428229e3286bc"
+        },
+        {
+          "scene": "619_B30_G110_OUT_Detail_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/619_B30_G110_OUT_Detail_Clean.png",
+          "sha256": "3865f974d67af2601d5e9b27eb5f5bd7848aff3bc952ba0b0bbf0d6e6a097a5c"
+        },
+        {
+          "scene": "620_B30_G110_OUT_Detail_Overlay",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/620_B30_G110_OUT_Detail_Overlay.png",
+          "sha256": "3e003d6fdd4a1bdb5dcc454977bc26b222f3e6d724dda0053feb73544f2807d2"
+        },
+        {
+          "scene": "625_B30_Station_Top_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/625_B30_Station_Top_Clean.png",
+          "sha256": "26e619707517c344c903dbf12e2f10ede6bf054175f441c692b008ffebb727e7"
+        },
+        {
+          "scene": "628_B30_Station_West_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/628_B30_Station_West_Clean.png",
+          "sha256": "4aa1574c5ffba7c1fcb26c54e8bf869faf581a6d681f0ec0bde004b5c28d0c16"
+        }
+      ],
+      "observation": "沿整排的出线、紧凑间隔、母线与构架对应粗模位置；首跨套管、避雷器、悬垂/耐张及下引线连接关系可见。保留照片中的空跨。",
+      "limits": "个别柜体/壳体轮廓及七处早期避雷器底座筛查残差尚存，不能宣称各部件均达到统一厘米精度。"
+    },
+    {
+      "zone": "110 kV 主变进线侧",
+      "assessment": "major_exterior_modeled_and_coarse_aligned",
+      "evidence": [
+        {
+          "scene": "610_B30_G110_IN_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/610_B30_G110_IN_Clean.png",
+          "sha256": "f1c2bdeeadfc9b890d9b40052d270299286eac68fe793a066004def680490242"
+        },
+        {
+          "scene": "611_B30_G110_IN_Overlay",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/611_B30_G110_IN_Overlay.png",
+          "sha256": "9c700ec46373a7fcbe2edfad6769a84413f8c58656283e1f5be24074bc8c2f4f"
+        },
+        {
+          "scene": "625_B30_Station_Top_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/625_B30_Station_Top_Clean.png",
+          "sha256": "26e619707517c344c903dbf12e2f10ede6bf054175f441c692b008ffebb727e7"
+        },
+        {
+          "scene": "628_B30_Station_West_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/628_B30_Station_West_Clean.png",
+          "sha256": "4aa1574c5ffba7c1fcb26c54e8bf869faf581a6d681f0ec0bde004b5c28d0c16"
+        }
+      ],
+      "observation": "两组三相 GIS、六相避雷器、内排构架及主变跨线位置对应；六组双分裂下引线及支线接合。",
+      "limits": "柜体和小机构外形近似；电气编号仍采用既有候选映射。"
+    },
+    {
+      "zone": "220 kV 外排出线侧",
+      "assessment": "major_exterior_modeled_and_coarse_aligned",
+      "evidence": [
+        {
+          "scene": "613_B30_G220_OUT_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/613_B30_G220_OUT_Clean.png",
+          "sha256": "bfbcedc3f0e869aa22d3b9e3a22a5ac41c4b2b07c995d8f9601b6397ef17236f"
+        },
+        {
+          "scene": "614_B30_G220_OUT_Overlay",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/614_B30_G220_OUT_Overlay.png",
+          "sha256": "b9ae37b48254b2a36aa2087aa479703cd586afe5d018c661bf5034dfddaa702d"
+        },
+        {
+          "scene": "622_B30_G220_OUT_Detail_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/622_B30_G220_OUT_Detail_Clean.png",
+          "sha256": "58d31e74bee2dcc5685f3fe39ff6b32ff233b4e3bddf2473ac4c3111247fb519"
+        },
+        {
+          "scene": "623_B30_G220_OUT_Detail_Overlay",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/623_B30_G220_OUT_Detail_Overlay.png",
+          "sha256": "8fb662cfd9be4edccbb8fcd648a98e48d0a5ab2fbb73d55bec872ab4576b5f43"
+        },
+        {
+          "scene": "631_B30_Station_East_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/631_B30_Station_East_Clean.png",
+          "sha256": "0b4b7c0441f973ef200927f7557368199724e0e298d9b8e7b3a85a544d3d6912"
+        }
+      ],
+      "observation": "四组三相出线区、十二相避雷器与四组间隔布置对应；双耐张串、跳线、双分裂下引线及单支线可见。",
+      "limits": "金具、盘片数量和线径为照片近似；站外出线延伸未完成。"
+    },
+    {
+      "zone": "220 kV 主变进线侧",
+      "assessment": "major_exterior_modeled_and_coarse_aligned",
+      "evidence": [
+        {
+          "scene": "616_B30_G220_IN_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/616_B30_G220_IN_Clean.png",
+          "sha256": "2a7b4c1d273052345d081f4f13d58a1ef1c3e2f8e50f5f1528eea8cd2fca4f97"
+        },
+        {
+          "scene": "617_B30_G220_IN_Overlay",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/617_B30_G220_IN_Overlay.png",
+          "sha256": "b443db37b452b040cc141867dd53b75741e2e9801e7594c7331601d62bed76e8"
+        },
+        {
+          "scene": "625_B30_Station_Top_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/625_B30_Station_Top_Clean.png",
+          "sha256": "26e619707517c344c903dbf12e2f10ede6bf054175f441c692b008ffebb727e7"
+        },
+        {
+          "scene": "631_B30_Station_East_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/631_B30_Station_East_Clean.png",
+          "sha256": "0b4b7c0441f973ef200927f7557368199724e0e298d9b8e7b3a85a544d3d6912"
+        }
+      ],
+      "observation": "两组三相套管与六相避雷器对应粗模；从六根主跨双分裂线分接的下引线落在实际保存端子。",
+      "limits": "局部柜体尺寸/位置还有可见差异；区域参考裁切包含相邻设备片段，不能算成本区缺设备。"
+    },
+    {
+      "zone": "220 kV 母联、分段、母压变和备用间隔",
+      "assessment": "major_exterior_modeled_and_coarse_aligned",
+      "evidence": [
+        {
+          "scene": "625_B30_Station_Top_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/625_B30_Station_Top_Clean.png",
+          "sha256": "26e619707517c344c903dbf12e2f10ede6bf054175f441c692b008ffebb727e7"
+        },
+        {
+          "scene": "628_B30_Station_West_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/628_B30_Station_West_Clean.png",
+          "sha256": "4aa1574c5ffba7c1fcb26c54e8bf869faf581a6d681f0ec0bde004b5c28d0c16"
+        },
+        {
+          "scene": "630_B30_Station_West_Reference",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/630_B30_Station_West_Reference.png",
+          "sha256": "9054889b8e09855abb862451e056aa94ddd90fe70ecf73d5998a7aa51beb0018"
+        },
+        {
+          "scene": "631_B30_Station_East_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/631_B30_Station_East_Clean.png",
+          "sha256": "0b4b7c0441f973ef200927f7557368199724e0e298d9b8e7b3a85a544d3d6912"
+        },
+        {
+          "scene": "633_B30_Station_East_Reference",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/633_B30_Station_East_Reference.png",
+          "sha256": "681627360a71f0ef58c97a3069478147bbc8af1ff794203c2c82b21649fa70d6"
+        }
+      ],
+      "observation": "两端无架空出线的小间隔和中部横向分段均存在，长母线连续连接；与粗模整排的间隔次序及空位一致。B19/B20/B21 保存几何在本版保持。",
+      "limits": "VT/备用间隔及部分旧柜体仍有约 5–10 cm 量级局部表面残差；不把保留几何误计成新增设备。"
+    },
+    {
+      "zone": "两台主变及中性点附件",
+      "assessment": "major_exterior_modeled_and_coarse_aligned",
+      "evidence": [
+        {
+          "scene": "625_B30_Station_Top_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/625_B30_Station_Top_Clean.png",
+          "sha256": "26e619707517c344c903dbf12e2f10ede6bf054175f441c692b008ffebb727e7"
+        },
+        {
+          "scene": "628_B30_Station_West_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/628_B30_Station_West_Clean.png",
+          "sha256": "4aa1574c5ffba7c1fcb26c54e8bf869faf581a6d681f0ec0bde004b5c28d0c16"
+        },
+        {
+          "scene": "630_B30_Station_West_Reference",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/630_B30_Station_West_Reference.png",
+          "sha256": "9054889b8e09855abb862451e056aa94ddd90fe70ecf73d5998a7aa51beb0018"
+        },
+        {
+          "scene": "631_B30_Station_East_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/631_B30_Station_East_Clean.png",
+          "sha256": "0b4b7c0441f973ef200927f7557368199724e0e298d9b8e7b3a85a544d3d6912"
+        },
+        {
+          "scene": "633_B30_Station_East_Reference",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/633_B30_Station_East_Reference.png",
+          "sha256": "681627360a71f0ef58c97a3069478147bbc8af1ff794203c2c82b21649fa70d6"
+        }
+      ],
+      "observation": "两台主体、散热器、套管、消防外管、底部基础分别位于相邻防火墙间，跨线落点与两侧 GIS 对应；主变 2 继续复用主变 1 部件母版，中性点装置和短引线保持 B23。",
+      "limits": "中性点小流变/低压避雷器的逐项台账身份仍不完整，局部箱体和细管待精修。"
+    },
+    {
+      "zone": "六组电容器",
+      "assessment": "major_exterior_modeled_and_coarse_aligned",
+      "evidence": [
+        {
+          "scene": "625_B30_Station_Top_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/625_B30_Station_Top_Clean.png",
+          "sha256": "26e619707517c344c903dbf12e2f10ede6bf054175f441c692b008ffebb727e7"
+        },
+        {
+          "scene": "627_B30_Station_Top_Reference",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/627_B30_Station_Top_Reference.png",
+          "sha256": "e3d148071011a2e5bb8154c681b7af1be0f54ef3ddf692bdf1b2c17bf9c45c3b"
+        },
+        {
+          "scene": "628_B30_Station_West_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/628_B30_Station_West_Clean.png",
+          "sha256": "4aa1574c5ffba7c1fcb26c54e8bf869faf581a6d681f0ec0bde004b5c28d0c16"
+        },
+        {
+          "scene": "630_B30_Station_West_Reference",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/630_B30_Station_West_Reference.png",
+          "sha256": "9054889b8e09855abb862451e056aa94ddd90fe70ecf73d5998a7aa51beb0018"
+        },
+        {
+          "scene": "631_B30_Station_East_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/631_B30_Station_East_Clean.png",
+          "sha256": "0b4b7c0441f973ef200927f7557368199724e0e298d9b8e7b3a85a544d3d6912"
+        },
+        {
+          "scene": "633_B30_Station_East_Reference",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/633_B30_Station_East_Reference.png",
+          "sha256": "681627360a71f0ef58c97a3069478147bbc8af1ff794203c2c82b21649fa70d6"
+        }
+      ],
+      "observation": "两列各三组的实际位置、三相圆形线圈/电抗器、框架/围栏和箱体对应；B10 六组详细外观保持，无成组遗漏。",
+      "limits": "本轮为整区复核，不重新声称每个内部元件的测绘精度。"
+    },
+    {
+      "zone": "305 / 306 箱式设备",
+      "assessment": "major_exterior_modeled_and_coarse_aligned",
+      "evidence": [
+        {
+          "scene": "625_B30_Station_Top_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/625_B30_Station_Top_Clean.png",
+          "sha256": "26e619707517c344c903dbf12e2f10ede6bf054175f441c692b008ffebb727e7"
+        },
+        {
+          "scene": "627_B30_Station_Top_Reference",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/627_B30_Station_Top_Reference.png",
+          "sha256": "e3d148071011a2e5bb8154c681b7af1be0f54ef3ddf692bdf1b2c17bf9c45c3b"
+        },
+        {
+          "scene": "628_B30_Station_West_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/628_B30_Station_West_Clean.png",
+          "sha256": "4aa1574c5ffba7c1fcb26c54e8bf869faf581a6d681f0ec0bde004b5c28d0c16"
+        },
+        {
+          "scene": "631_B30_Station_East_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/631_B30_Station_East_Clean.png",
+          "sha256": "0b4b7c0441f973ef200927f7557368199724e0e298d9b8e7b3a85a544d3d6912"
+        }
+      ],
+      "observation": "两台长方箱体在电容器与主变之间，B24 共享外壳、门窗百叶和各自刚体定位保持；位置与粗模两块基座/外壳对应。",
+      "limits": "照片不可见内部未建；B24 三个局部壁面残差保留。"
+    },
+    {
+      "zone": "构架、绝缘装置及主连接导线",
+      "assessment": "major_exterior_modeled_and_coarse_aligned",
+      "evidence": [
+        {
+          "scene": "607_B30_G110_OUT_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/607_B30_G110_OUT_Clean.png",
+          "sha256": "e78e89bf4bcdd780913c46fd4e5f4fac2b9bbaabbccf4dd9cd4101f789017965"
+        },
+        {
+          "scene": "610_B30_G110_IN_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/610_B30_G110_IN_Clean.png",
+          "sha256": "f1c2bdeeadfc9b890d9b40052d270299286eac68fe793a066004def680490242"
+        },
+        {
+          "scene": "613_B30_G220_OUT_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/613_B30_G220_OUT_Clean.png",
+          "sha256": "bfbcedc3f0e869aa22d3b9e3a22a5ac41c4b2b07c995d8f9601b6397ef17236f"
+        },
+        {
+          "scene": "616_B30_G220_IN_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/616_B30_G220_IN_Clean.png",
+          "sha256": "2a7b4c1d273052345d081f4f13d58a1ef1c3e2f8e50f5f1528eea8cd2fca4f97"
+        },
+        {
+          "scene": "625_B30_Station_Top_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/625_B30_Station_Top_Clean.png",
+          "sha256": "26e619707517c344c903dbf12e2f10ede6bf054175f441c692b008ffebb727e7"
+        },
+        {
+          "scene": "628_B30_Station_West_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/628_B30_Station_West_Clean.png",
+          "sha256": "4aa1574c5ffba7c1fcb26c54e8bf869faf581a6d681f0ec0bde004b5c28d0c16"
+        },
+        {
+          "scene": "630_B30_Station_West_Reference",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/630_B30_Station_West_Reference.png",
+          "sha256": "9054889b8e09855abb862451e056aa94ddd90fe70ecf73d5998a7aa51beb0018"
+        },
+        {
+          "scene": "631_B30_Station_East_Clean",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/631_B30_Station_East_Clean.png",
+          "sha256": "0b4b7c0441f973ef200927f7557368199724e0e298d9b8e7b3a85a544d3d6912"
+        },
+        {
+          "scene": "633_B30_Station_East_Reference",
+          "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/633_B30_Station_East_Reference.png",
+          "sha256": "681627360a71f0ef58c97a3069478147bbc8af1ff794203c2c82b21649fa70d6"
+        }
+      ],
+      "observation": "三排侧构架及中央防火墙上构架的跨度、支腿和主要高度与粗模对应。中央/侧耐张、悬垂、跳线、跨场线及本轮 GIS/避雷器下引线形成可辨识的站内连接。",
+      "limits": "独立避雷针、监控/照明杆等零星辅助设施未逐一补齐；跨出站界的远端架空线未建完。"
+    }
+  ],
+  "remaining": [
+    {
+      "item": "建筑、道路、地坪与未重建围墙段",
+      "status": "unfinished",
+      "impact": "对完整变电站场景仍是明显缺项；多数室外设备主体完成不代表建筑土建也已完成。"
+    },
+    {
+      "item": "监控、照明、独立避雷针、辅助柜及电缆细节",
+      "status": "partial_or_unmapped",
+      "impact": "零星室外辅助对象仍需逐个确认；没有据混合台账编造新设备。"
+    },
+    {
+      "item": "柜体、避雷器安装座、GIS 局部壳体和中性点细件",
+      "status": "local_refinement_remaining",
+      "impact": "历史未通过的局部筛查全部保留；已建主体的大致位置和主要形态与粗模对应，不等于每处表面达到统一容差。"
+    },
+    {
+      "item": "站界以外出线、被遮挡内部及埋地系统",
+      "status": "not_fully_modeled",
+      "impact": "本次没有完整建立站外线路或不可见内部。"
+    },
+    {
+      "item": "设备编号、相别、厂家尺寸与材质纹理",
+      "status": "partial_or_approximate",
+      "impact": "物理布置审查不替代台账逐项确权，厂家 CAD 或精细贴图仍未完成。"
+    }
+  ],
+  "photos": [
+    {
+      "path": "/data/proj/xunjian-copilot/图像数据/DJI_202608251449_025_电站0825new/DJI_20260825145116_0002_V.JPG",
+      "sha256": "0be736b3d4c0507a84f37fa59d036a93c5ca1a17f3d39f303351b8c1cf2f4259",
+      "viewed_full_original": true,
+      "note": "站内总览、两侧设备与中央防火墙的空间关系"
+    },
+    {
+      "path": "/data/proj/xunjian-copilot/图像数据/DJI_202608251449_025_电站0825new/DJI_20260825145244_0014_V.JPG",
+      "sha256": "d1404f0d890173cd3780a444d90f24dd2e38da7a45fc0307ab857d89398f5f2f",
+      "viewed_full_original": true,
+      "note": "110 kV 套管、避雷器支线与构架细节"
+    },
+    {
+      "path": "/data/proj/xunjian-copilot/图像数据/DJI_202608251449_025_电站0825new/DJI_20260825145729_0059_V.JPG",
+      "sha256": "b7bfef04b57f991a9c97ba722ff18e80a2c66eb761d7a85d8a58286c8179ebfd",
+      "viewed_full_original": true,
+      "note": "220 kV 双耐张串、下引线及分支细节"
+    }
+  ],
+  "view_evidence": [
+    {
+      "scene": "607_B30_G110_OUT_Clean",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/607_B30_G110_OUT_Clean.png",
+      "sha256": "e78e89bf4bcdd780913c46fd4e5f4fac2b9bbaabbccf4dd9cd4101f789017965"
+    },
+    {
+      "scene": "608_B30_G110_OUT_Overlay",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/608_B30_G110_OUT_Overlay.png",
+      "sha256": "3081f00ab4b6a15d8acbb1e3e1e83b19b6070cc06ffe2db1cfa428229e3286bc"
+    },
+    {
+      "scene": "610_B30_G110_IN_Clean",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/610_B30_G110_IN_Clean.png",
+      "sha256": "f1c2bdeeadfc9b890d9b40052d270299286eac68fe793a066004def680490242"
+    },
+    {
+      "scene": "611_B30_G110_IN_Overlay",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/611_B30_G110_IN_Overlay.png",
+      "sha256": "9c700ec46373a7fcbe2edfad6769a84413f8c58656283e1f5be24074bc8c2f4f"
+    },
+    {
+      "scene": "613_B30_G220_OUT_Clean",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/613_B30_G220_OUT_Clean.png",
+      "sha256": "bfbcedc3f0e869aa22d3b9e3a22a5ac41c4b2b07c995d8f9601b6397ef17236f"
+    },
+    {
+      "scene": "614_B30_G220_OUT_Overlay",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/614_B30_G220_OUT_Overlay.png",
+      "sha256": "b9ae37b48254b2a36aa2087aa479703cd586afe5d018c661bf5034dfddaa702d"
+    },
+    {
+      "scene": "616_B30_G220_IN_Clean",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/616_B30_G220_IN_Clean.png",
+      "sha256": "2a7b4c1d273052345d081f4f13d58a1ef1c3e2f8e50f5f1528eea8cd2fca4f97"
+    },
+    {
+      "scene": "617_B30_G220_IN_Overlay",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/617_B30_G220_IN_Overlay.png",
+      "sha256": "b443db37b452b040cc141867dd53b75741e2e9801e7594c7331601d62bed76e8"
+    },
+    {
+      "scene": "619_B30_G110_OUT_Detail_Clean",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/619_B30_G110_OUT_Detail_Clean.png",
+      "sha256": "3865f974d67af2601d5e9b27eb5f5bd7848aff3bc952ba0b0bbf0d6e6a097a5c"
+    },
+    {
+      "scene": "620_B30_G110_OUT_Detail_Overlay",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/620_B30_G110_OUT_Detail_Overlay.png",
+      "sha256": "3e003d6fdd4a1bdb5dcc454977bc26b222f3e6d724dda0053feb73544f2807d2"
+    },
+    {
+      "scene": "622_B30_G220_OUT_Detail_Clean",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/622_B30_G220_OUT_Detail_Clean.png",
+      "sha256": "58d31e74bee2dcc5685f3fe39ff6b32ff233b4e3bddf2473ac4c3111247fb519"
+    },
+    {
+      "scene": "623_B30_G220_OUT_Detail_Overlay",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/623_B30_G220_OUT_Detail_Overlay.png",
+      "sha256": "8fb662cfd9be4edccbb8fcd648a98e48d0a5ab2fbb73d55bec872ab4576b5f43"
+    },
+    {
+      "scene": "625_B30_Station_Top_Clean",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/625_B30_Station_Top_Clean.png",
+      "sha256": "26e619707517c344c903dbf12e2f10ede6bf054175f441c692b008ffebb727e7"
+    },
+    {
+      "scene": "626_B30_Station_Top_Overlay",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/626_B30_Station_Top_Overlay.png",
+      "sha256": "fecefa92ce13578c798cf9e35146a3380e5be7f268b17a7203f1b125059e5a74"
+    },
+    {
+      "scene": "627_B30_Station_Top_Reference",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/627_B30_Station_Top_Reference.png",
+      "sha256": "e3d148071011a2e5bb8154c681b7af1be0f54ef3ddf692bdf1b2c17bf9c45c3b"
+    },
+    {
+      "scene": "628_B30_Station_West_Clean",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/628_B30_Station_West_Clean.png",
+      "sha256": "4aa1574c5ffba7c1fcb26c54e8bf869faf581a6d681f0ec0bde004b5c28d0c16"
+    },
+    {
+      "scene": "629_B30_Station_West_Overlay",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/629_B30_Station_West_Overlay.png",
+      "sha256": "5b2ae9ed977b6b3af45f08d4a5b9da0fb3db55db97794425ddd485272786bf47"
+    },
+    {
+      "scene": "630_B30_Station_West_Reference",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/630_B30_Station_West_Reference.png",
+      "sha256": "9054889b8e09855abb862451e056aa94ddd90fe70ecf73d5998a7aa51beb0018"
+    },
+    {
+      "scene": "631_B30_Station_East_Clean",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/631_B30_Station_East_Clean.png",
+      "sha256": "0b4b7c0441f973ef200927f7557368199724e0e298d9b8e7b3a85a544d3d6912"
+    },
+    {
+      "scene": "632_B30_Station_East_Overlay",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/632_B30_Station_East_Overlay.png",
+      "sha256": "049ca20ab0f40e7799b0d6a4aa09cf051df79d2f0edca6094ee80074bebd8032"
+    },
+    {
+      "scene": "633_B30_Station_East_Reference",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/633_B30_Station_East_Reference.png",
+      "sha256": "681627360a71f0ef58c97a3069478147bbc8af1ff794203c2c82b21649fa70d6"
+    }
+  ],
+  "validation_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/B30_validation.json",
+  "GUI_readback_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/B30_GUI_readback.json",
+  "historical_unpassed_diagnostics": {
+    "source": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B28/B28_outdoor_coverage.json",
+    "notes": [
+      "B12 749 rear vertical shell local RMS0.06354m remains unresolved; B13 unchanged core does not clear that result. Rear shells of the7 new bays were not included in the88 B13 patch screens.",
+      "B13 ten shell/bus local screens above5cm,8 open bus boundaries and750/751 individualGIS identity remain unresolved.",
+      "B11 seven arrester mounting failures remain unresolved.",
+      "Six lower front-cap patches remain above5cm; component association includes front portal and must be reviewed separately.",
+      "Rear bridge finite surface checks are partial; retain every failed patch. Support dimensions are reference-derived, not manufacturerCAD.",
+      "752 negative lower/upper bus boundaries await coupler500; three older B13 boundary pairs remain. I/II busVT and other outdoor families remain.",
+      "B11 seven mounting failures, B12 749 rear vessel, B13 ten shell/bus failures and750/751 identity, B14 two front-vessel failures remain unresolved.",
+      "500 vertical and VT barrel reference patches include coarse distortions/supports; retain independent failed diagnostics and review actual saved finite surfaces.",
+      "Small pipes, terminals and exact rear-end cap taper remain approximate; no manufacturer dimensions or whole-device acceptance.",
+      "Earlier B11/B12/B13/B14/B15 unpassed patches and750/751 identity remain; other outdoor families and outer bus boundaries unfinished.",
+      "Exact gas chamber envelopes and compact mechanisms remain approximate; retain all unpassed reference checks.",
+      "Sixteen exposed bus boundaries require neighboring220kV variants and actual route integration.",
+      "Cabinet fronts and individual phase labels need closer photo confirmation;4B77 alias retained as provisional.",
+      "Small leads and terminals plus remaining220kV variants and arresters unfinished; inherited B11-B16 failures remain.",
+      "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+      "4B77 aliases and phase identities are provisional; no phase label text invented.",
+      "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+      "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain.",
+      "Six body models and independent supports are exterior approximations; all finite-surface failures retained.",
+      "Remaining long220kV mother-bus spools and4100 section bends need connected-row integration; ports are explicit.",
+      "4B80/4B81 separate control cabinets not verified; old guessed cabinets omitted in candidate station only.",
+      "IA/II cabinet associations based on photo-relative arrangement; phase names and exact electrical topology unasserted.",
+      "4801/4800/4100 original refined geometry retained for review, not counted as newly completed devices.",
+      "Inherited B11-B18 unpassed patches, external high voltage leads and other outdoor families remain.",
+      "4100 lane0 transverse turns: unmodeled connecting routes; no false straight bridge created.",
+      "4D75 outer two boundaries remain as prior open stubs, end closure requires reference review.",
+      "55 cap associations and35 support envelopes are coarse candidates; exact flange and frame details remain approximate.",
+      "New long bodies interpolate existing independent bay ports; local body alignment failures from B11–B19 remain.",
+      "Existing4801–4800 corridor and two old4B80–4B81 bellows retained, no new whole-device acceptance.",
+      "B20 all16 finite surface envelopes still above5cm; prior body/support residuals unchanged.",
+      "T junctions are overlapping exterior shells, not boolean-unioned manifold engineering vessels.",
+      "4 inspection support foundation footprints and fasteners approximate; upper4100 legacy body not newly refit.",
+      "Neutral point equipment and other outdoor mappings remain; whole outdoor completion unproven.",
+      "Transformer-to-neutral external leads not yet traced; B08 front-small terminal ports measured and available for next routing pass.",
+      "3010/3020 three-phase legacy identity mapping unresolved; red moulded head exact identity unconfirmed.",
+      "Shed counts, small hardware and support footprints approximated from photographs.",
+      "Earlier B11-B21 alignment failures and other outdoor devices remain; local screen passes are not whole-device completion.",
+      "Bare column and cabinet local failures inherited from B22; inclined/upper blade comparisons re-evaluated on identical fixed domains.",
+      "Exact neutral device registry mapping and remaining red-head external conductors unresolved.",
+      "Source reconstruction and photo-derived small hardware do not establish manufacturer dimensions or survey accuracy.",
+      "Station-service transformers305/306 and earlier B11-B21 remaining local alignment failures remain next.",
+      "Full roof interior absent in registered clay; top slab and small hardware remain photo-derived exterior approximations.",
+      "Earlier local alignment failures and remaining physical outdoor coverage retained in prior evidence.",
+      "Unseen electrical interiors and full electrical topology are not modeled.",
+      "Overhead suspension/strain strings and long external leads remain to connect to this structure.",
+      "Some mast tops meet the extraction height limit; their complete tip geometry/function is not asserted.",
+      "Small ladders, drainage details and individual flange dimensions remain simplified; previous non-structure local residuals retained.",
+      "Three outdoor gantry rows still need observed hanging/strain strings and principal leads.",
+      "Small pilaster/coping/ladder dimensions are photo-derived approximations; internal wall structure not asserted.",
+      "Previous gantry/mast-tip/local reconstruction residuals remain.",
+      "Disc counts13/20 and profile/fittings are approximate visual reconstruction.",
+      "Source reconstruction smooths individual discs; opposite triangle parity is spatially correlated.",
+      "Long conductors outside central corridor and hanging strings on other three rows remain."
+    ],
+    "B18": [
+      "T1_HV_C_grading_ring"
+    ],
+    "B19": [
+      "VT_II_bus_0",
+      "VT_II_canister_0",
+      "VT_IA_bus_1",
+      "VT_IA_upper_1",
+      "VT_IA_canister_2",
+      "4B81_bus_0",
+      "4B81_bus_1",
+      "4B81_upper_2",
+      "4B80_bus_0",
+      "4B80_bus_1",
+      "4B80_upper_0",
+      "4B80_upper_1",
+      "4600_bus_0",
+      "4600_bus_1",
+      "4600_upper_0",
+      "4600_upper_1",
+      "4600_upper_2",
+      "4600_lower_return_1",
+      "4600_lower_return_2",
+      "4600_cabinet_xp",
+      "VT_IB_bus_0",
+      "VT_IB_canister_0",
+      "VT_IB_canister_1"
+    ]
+  },
+  "limits": [
+    "模型相对照片与配准粗模建立，粗模误差和遮挡会传播；奇偶三角面来自同一重建，不是独立测绘精度。",
+    "俯视图用于站内设备布局；靠图边的土建/参考轮廓由两个斜视图补充，未宣称参考点云每个离群点均入镜。",
+    "本结论只回答原目标中的多数室外设备，不声称全部设备、土建或电气系统已完整验收。"
+  ]
+}

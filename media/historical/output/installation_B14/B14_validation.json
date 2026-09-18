@@ -1,0 +1,413 @@
+{
+  "status": "saved_geometry_and_preservation_passed_with_partial_alignment",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r3/xialin_B14_transformer_outgoing_GIS_r3.blend",
+  "sha256": "f7811b60e3c449e83536a7db0a8a79f5b6a3ce012ef87ef9adc3dd50d2362a27",
+  "previous_objects_unchanged": 24325,
+  "previous_scenes_unchanged": 137,
+  "previous_collections_unchanged": 336,
+  "previous_materials_unchanged": 303,
+  "protected_files_unchanged": 848,
+  "formal_baseline_preserved": 15096,
+  "legacy_meshes_omitted_only_new_scenes": 262,
+  "legacy_meshes_remaining": 5043,
+  "shared_new_core_units": 2,
+  "expanded_core_meshes": 270,
+  "expanded_meshes_per_unit": {
+    "501": 295,
+    "502": 295
+  },
+  "source_shapes_unchanged": true,
+  "new_common_drive_case_variant": true,
+  "shared_existing_compact_bushings": 6,
+  "asset_roundtrip_identical": true,
+  "patch_screens_passed": 22,
+  "patch_screens_unpassed": 2,
+  "measurements": [
+    {
+      "key": "501",
+      "cylinders": [
+        {
+          "name": "front_vertical_shell",
+          "heldout_count": 221,
+          "rms_m": 0.057252082712943846,
+          "p95_abs_m": 0.1315675245000693,
+          "five_cm_screen_passed": false
+        },
+        {
+          "name": "rear_vertical_shell",
+          "heldout_count": 37,
+          "rms_m": 0.03061048683695135,
+          "p95_abs_m": 0.04809420249421437,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "bus_lower",
+          "heldout_count": 208,
+          "rms_m": 0.013310766966930778,
+          "p95_abs_m": 0.02312848868997595,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "bus_upper",
+          "heldout_count": 205,
+          "rms_m": 0.013520975319917791,
+          "p95_abs_m": 0.022560480723253503,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "overhead",
+          "heldout_count": 368,
+          "rms_m": 0.008798096048189917,
+          "p95_abs_m": 0.014296602340357234,
+          "five_cm_screen_passed": true
+        }
+      ],
+      "bushings": [
+        {
+          "name": "side_plus",
+          "heldout_count": 218,
+          "rms_m": 0.01565741629276849,
+          "p95_abs_m": 0.02974846288561821,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "side_minus",
+          "heldout_count": 197,
+          "rms_m": 0.019334419520409308,
+          "p95_abs_m": 0.036100992560386624,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "rear",
+          "heldout_count": 221,
+          "rms_m": 0.022288785643596695,
+          "p95_abs_m": 0.04271820932626724,
+          "five_cm_screen_passed": true
+        }
+      ],
+      "cabinet": [
+        {
+          "name": "front",
+          "heldout_count": 43,
+          "rms_m": 0.0051597626141428495,
+          "p95_abs_m": 0.007182618106791028,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "main_rear",
+          "heldout_count": 25,
+          "rms_m": 0.017167791105064206,
+          "p95_abs_m": 0.03765036953709994,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "side_minus",
+          "heldout_count": 21,
+          "rms_m": 0.013835818841833958,
+          "p95_abs_m": 0.01481864784730379,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "side_plus",
+          "heldout_count": 8,
+          "rms_m": 0.015502857937474482,
+          "p95_abs_m": 0.01827151516527813,
+          "five_cm_screen_passed": true
+        }
+      ]
+    },
+    {
+      "key": "502",
+      "cylinders": [
+        {
+          "name": "front_vertical_shell",
+          "heldout_count": 224,
+          "rms_m": 0.053252880280032985,
+          "p95_abs_m": 0.13339030161088122,
+          "five_cm_screen_passed": false
+        },
+        {
+          "name": "rear_vertical_shell",
+          "heldout_count": 43,
+          "rms_m": 0.03068512625066591,
+          "p95_abs_m": 0.04532329937904099,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "bus_lower",
+          "heldout_count": 207,
+          "rms_m": 0.014652181266618467,
+          "p95_abs_m": 0.02404333755236549,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "bus_upper",
+          "heldout_count": 220,
+          "rms_m": 0.01623946248008031,
+          "p95_abs_m": 0.025470724217992482,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "overhead",
+          "heldout_count": 359,
+          "rms_m": 0.006382316200415405,
+          "p95_abs_m": 0.008534385909369753,
+          "five_cm_screen_passed": true
+        }
+      ],
+      "bushings": [
+        {
+          "name": "side_plus",
+          "heldout_count": 211,
+          "rms_m": 0.01661853139057108,
+          "p95_abs_m": 0.025616812519729137,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "side_minus",
+          "heldout_count": 211,
+          "rms_m": 0.01745470839034771,
+          "p95_abs_m": 0.03302418813109398,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "rear",
+          "heldout_count": 193,
+          "rms_m": 0.012816222829280936,
+          "p95_abs_m": 0.021449514105916022,
+          "five_cm_screen_passed": true
+        }
+      ],
+      "cabinet": [
+        {
+          "name": "front",
+          "heldout_count": 31,
+          "rms_m": 0.0028819202230378747,
+          "p95_abs_m": 0.006093897837099476,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "main_rear",
+          "heldout_count": 21,
+          "rms_m": 0.015864297011758417,
+          "p95_abs_m": 0.031559925050521534,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "side_minus",
+          "heldout_count": 14,
+          "rms_m": 0.011979592569731794,
+          "p95_abs_m": 0.01511709805324731,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "side_plus",
+          "heldout_count": 11,
+          "rms_m": 0.012464476425375884,
+          "p95_abs_m": 0.016874566224466876,
+          "five_cm_screen_passed": true
+        }
+      ]
+    }
+  ],
+  "drive_case_diagnostics": [
+    {
+      "key": "501",
+      "planes": [
+        {
+          "name": "left",
+          "count": 53,
+          "rms_m": 0.014845483772669914,
+          "p95_abs_m": 0.033376217228491975,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "right",
+          "count": 45,
+          "rms_m": 0.049609000587310395,
+          "p95_abs_m": 0.0630193484761263,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "front",
+          "count": 66,
+          "rms_m": 0.03212159961921349,
+          "p95_abs_m": 0.05613789309992451,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "back",
+          "count": 51,
+          "rms_m": 0.030191113600885396,
+          "p95_abs_m": 0.06803248600009415,
+          "five_cm_screen_passed": true
+        }
+      ],
+      "scope": "post-fit diagnostic only; full profile was used for visual case revision"
+    },
+    {
+      "key": "502",
+      "planes": [
+        {
+          "name": "left",
+          "count": 60,
+          "rms_m": 0.013464176386045591,
+          "p95_abs_m": 0.03339214263937198,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "right",
+          "count": 56,
+          "rms_m": 0.05335043321120853,
+          "p95_abs_m": 0.07347568556633319,
+          "five_cm_screen_passed": false
+        },
+        {
+          "name": "front",
+          "count": 64,
+          "rms_m": 0.027793580481934102,
+          "p95_abs_m": 0.04991992586941443,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "back",
+          "count": 71,
+          "rms_m": 0.02107441690670468,
+          "p95_abs_m": 0.027967336253673758,
+          "five_cm_screen_passed": true
+        }
+      ],
+      "scope": "post-fit diagnostic only; full profile was used for visual case revision"
+    }
+  ],
+  "connections": [
+    {
+      "name": "B14::fan.neck.side_plus",
+      "error_m": 9.884312043780643e-08
+    },
+    {
+      "name": "B14::fan.neck.side_minus",
+      "error_m": 1.0848209048109067e-07
+    },
+    {
+      "name": "B14::fan.neck.rear",
+      "error_m": 1.2417100761048092e-07
+    },
+    {
+      "name": "B14::501.bus_spool.0.-1",
+      "error_m": 1.1102230246251565e-16,
+      "open_pending_boundary": true
+    },
+    {
+      "name": "B14::501.bus_spool.0.+1",
+      "error_m": 1.0658141036401503e-14,
+      "open_pending_boundary": true
+    },
+    {
+      "name": "B14::501.bus_spool.1.-1",
+      "error_m": 7.94721185223203e-15,
+      "open_pending_boundary": true
+    },
+    {
+      "name": "B14::501.bus_spool.1.+1",
+      "error_m": 1.067893742893049e-14,
+      "open_pending_boundary": true
+    },
+    {
+      "name": "B14::502.bus_spool.0.-1",
+      "error_m": 4.768371599794818e-07,
+      "open_pending_boundary": true
+    },
+    {
+      "name": "B14::502.bus_spool.0.+1",
+      "error_m": 7.94721185223203e-15,
+      "open_pending_boundary": true
+    },
+    {
+      "name": "B14::502.bus_spool.1.-1",
+      "error_m": 3.5596458096434965e-15,
+      "open_pending_boundary": true
+    },
+    {
+      "name": "B14::502.bus_spool.1.+1",
+      "error_m": 7.944109290391274e-15,
+      "open_pending_boundary": true
+    }
+  ],
+  "cabinet_foundation_contacts": 2,
+  "open_bus_boundaries": 8,
+  "drive_roof_to_pipe_clearance_m": 0.008031832985579967,
+  "camera_framing": {
+    "155_B14_501_Front_Clean": {
+      "min": [
+        0.2667582035064697,
+        0.17581620812416077
+      ],
+      "max": [
+        0.7921773195266724,
+        0.6963495016098022
+      ]
+    },
+    "158_B14_501_Side_Clean": {
+      "min": [
+        0.19999966025352478,
+        0.24895988404750824
+      ],
+      "max": [
+        0.8666971325874329,
+        0.6815325617790222
+      ]
+    },
+    "161_B14_501_Top_Clean": {
+      "min": [
+        0.16275183856487274,
+        0.15833528339862823
+      ],
+      "max": [
+        0.7936551570892334,
+        0.8252373337745667
+      ]
+    },
+    "164_B14_502_Front_Clean": {
+      "min": [
+        0.2667582333087921,
+        0.17581692337989807
+      ],
+      "max": [
+        0.7921774387359619,
+        0.6963504552841187
+      ]
+    },
+    "167_B14_502_Side_Clean": {
+      "min": [
+        0.19999995827674866,
+        0.24895961582660675
+      ],
+      "max": [
+        0.8666972517967224,
+        0.6815323233604431
+      ]
+    },
+    "170_B14_502_Top_Clean": {
+      "min": [
+        0.1627887636423111,
+        0.15805229544639587
+      ],
+      "max": [
+        0.793587863445282,
+        0.8251333236694336
+      ]
+    }
+  },
+  "formal_promotions": 0,
+  "complete_GIS_devices": false,
+  "pending": [
+    "external leads and small service pipes/terminal hardware incomplete",
+    "two front vessel patches remain above5cm; inherited earlier batch pending items remain",
+    "common support dimensions/flange details are photo-derived hypotheses, not manufacturer CAD",
+    "8 new bus boundaries require integration with remaining neighboring GIS variants",
+    "whole station outdoor completion remains unproven"
+  ],
+  "validation_scope": "history and saved manufactured geometry, finite independently reserved surface patches and explicit interfaces; not whole-device acceptance",
+  "blend_saved_by_validator": false
+}

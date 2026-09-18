@@ -1,0 +1,3630 @@
+{
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/xialin_B29_strains_jumpers_crosslines.blend",
+  "sha256": "33313cca55fbb1d300a10a64d8599e13a3ac2eb1ce8782d26eec0e6ba7f94c5c",
+  "previous_objects_unchanged": 31379,
+  "previous_scenes_unchanged": 569,
+  "previous_collections_unchanged": 706,
+  "previous_materials_unchanged": 340,
+  "previous_station_objects_unchanged": 5308,
+  "protected_previous_files_unchanged": 2723,
+  "source_asset_roundtrip_identical": true,
+  "contacts": [
+    {
+      "name": "B29::G110_OUT_NEG_00_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 6.5260834325615796e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_01_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 6.469610078212268e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_02_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 6.782443464257649e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_03_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 6.34408516989566e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_04_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 6.201195594822506e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_05_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 6.117610924027499e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_06_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 6.441294928062723e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_07_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 6.645605532416315e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_08_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 6.516857030864852e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_09_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 6.15327529041901e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_10_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 5.34363979748231e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_11_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 6.2804169108519396e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_12_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 5.621453548054794e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_13_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 5.8748757121829806e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_14_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 5.476490342265726e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_15_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 5.551825931234822e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_16_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 5.482069903046634e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_17_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 5.466339587024001e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_18_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 5.573231528194019e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_19_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 5.662534442155556e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_20_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 4.930451985371246e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_21_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 6.279495634424587e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_22_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 5.688808108292508e-06
+    },
+    {
+      "name": "B29::G110_OUT_NEG_23_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 5.074333739813665e-06
+    },
+    {
+      "name": "B29::G110_IN_POS_00_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 4.122017871612596e-06
+    },
+    {
+      "name": "B29::G110_IN_POS_00_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 4.186029453627157e-06
+    },
+    {
+      "name": "B29::G110_IN_POS_01_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 4.102317088837969e-06
+    },
+    {
+      "name": "B29::G110_IN_POS_01_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 4.087917103806028e-06
+    },
+    {
+      "name": "B29::G110_IN_POS_02_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 4.188378323678025e-06
+    },
+    {
+      "name": "B29::G110_IN_POS_02_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 4.20106877818342e-06
+    },
+    {
+      "name": "B29::G110_IN_POS_03_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 3.984730343010879e-06
+    },
+    {
+      "name": "B29::G110_IN_POS_03_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 3.9843124997665706e-06
+    },
+    {
+      "name": "B29::G110_IN_POS_04_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 3.990318689414619e-06
+    },
+    {
+      "name": "B29::G110_IN_POS_04_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 3.990516457317874e-06
+    },
+    {
+      "name": "B29::G110_IN_POS_05_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 3.986323138837501e-06
+    },
+    {
+      "name": "B29::G110_IN_POS_05_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 3.987141565517137e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_00_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 4.1975420986912594e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_00_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 4.1862645971914975e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_01_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 3.375291167761641e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_01_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 3.243399707920849e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_02_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 3.1953983855400927e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_02_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 3.5613326964617894e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_03_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 3.238178031397577e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_03_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 3.1210291166929416e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_04_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 2.6090741244838463e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_04_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 3.323821583433962e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_05_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 2.7310675736266333e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_05_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 2.2322322404935416e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_06_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 2.197327907057023e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_06_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 2.051082342160077e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_07_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 1.9686568593157288e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_07_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 1.756023483300826e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_08_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 1.8799201172326366e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_08_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 1.9779561791360495e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_09_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 1.5066799621542587e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_09_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 1.6751046802110657e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_10_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 1.2422029638391149e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_10_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 1.4722604101297121e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_11_JUMPER.wire.0",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 1.082591312394712e-06
+    },
+    {
+      "name": "B29::G220_OUT_POS_11_JUMPER.wire.1",
+      "kind": "jumper",
+      "saved_endpoint_error_m": 1.1877676185059552e-06
+    },
+    {
+      "name": "B29::CROSS_110_00.wire.0",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 3.887795189606613e-06,
+      "existing_lead_gap_m": 2.174074742217266e-06
+    },
+    {
+      "name": "B29::CROSS_110_00.wire.1",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 3.848390188315878e-06,
+      "existing_lead_gap_m": 2.1716822563549677e-06
+    },
+    {
+      "name": "B29::CROSS_110_01.wire.0",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 4.598421638915988e-06,
+      "existing_lead_gap_m": 1.9960676862561446e-06
+    },
+    {
+      "name": "B29::CROSS_110_01.wire.1",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 4.6429442607723925e-06,
+      "existing_lead_gap_m": 2.037416653688635e-06
+    },
+    {
+      "name": "B29::CROSS_110_02.wire.0",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 4.228818465890666e-06,
+      "existing_lead_gap_m": 1.985844179713277e-06
+    },
+    {
+      "name": "B29::CROSS_110_02.wire.1",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 4.243156941792195e-06,
+      "existing_lead_gap_m": 2.080350973032747e-06
+    },
+    {
+      "name": "B29::CROSS_110_03.wire.0",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 3.944090532410511e-06,
+      "existing_lead_gap_m": 1.8074223656114383e-06
+    },
+    {
+      "name": "B29::CROSS_110_03.wire.1",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 3.9444226238518054e-06,
+      "existing_lead_gap_m": 1.818607224925184e-06
+    },
+    {
+      "name": "B29::CROSS_110_04.wire.0",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 3.7659967202782025e-06,
+      "existing_lead_gap_m": 1.894361497517918e-06
+    },
+    {
+      "name": "B29::CROSS_110_04.wire.1",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 3.7661791939500227e-06,
+      "existing_lead_gap_m": 1.9066626954996486e-06
+    },
+    {
+      "name": "B29::CROSS_110_05.wire.0",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 3.843376832218152e-06,
+      "existing_lead_gap_m": 1.8828351719183076e-06
+    },
+    {
+      "name": "B29::CROSS_110_05.wire.1",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 3.844219642805099e-06,
+      "existing_lead_gap_m": 1.659412494587454e-06
+    },
+    {
+      "name": "B29::CROSS_220_00.wire.0",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 1.8103616658218028e-06,
+      "existing_lead_gap_m": 1.6242202750660214e-06
+    },
+    {
+      "name": "B29::CROSS_220_00.wire.1",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 1.851475032391914e-06,
+      "existing_lead_gap_m": 1.851475032391914e-06
+    },
+    {
+      "name": "B29::CROSS_220_01.wire.0",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 1.656351841280103e-06,
+      "existing_lead_gap_m": 1.656351841280103e-06
+    },
+    {
+      "name": "B29::CROSS_220_01.wire.1",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 1.6005818432537025e-06,
+      "existing_lead_gap_m": 1.6005818432537025e-06
+    },
+    {
+      "name": "B29::CROSS_220_02.wire.0",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 1.5735363219644027e-06,
+      "existing_lead_gap_m": 1.5735363219644027e-06
+    },
+    {
+      "name": "B29::CROSS_220_02.wire.1",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 1.7611888487502967e-06,
+      "existing_lead_gap_m": 1.7611888487502967e-06
+    },
+    {
+      "name": "B29::CROSS_220_03.wire.0",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 1.3474494328035539e-06,
+      "existing_lead_gap_m": 1.3474494328035539e-06
+    },
+    {
+      "name": "B29::CROSS_220_03.wire.1",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 1.352566807988317e-06,
+      "existing_lead_gap_m": 1.352566807988317e-06
+    },
+    {
+      "name": "B29::CROSS_220_04.wire.0",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 1.8011171167097467e-06,
+      "existing_lead_gap_m": 1.8011171167097467e-06
+    },
+    {
+      "name": "B29::CROSS_220_04.wire.1",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 1.456079373892611e-06,
+      "existing_lead_gap_m": 1.456079373892611e-06
+    },
+    {
+      "name": "B29::CROSS_220_05.wire.0",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 1.2217905722362652e-06,
+      "existing_lead_gap_m": 1.2217905722362652e-06
+    },
+    {
+      "name": "B29::CROSS_220_05.wire.1",
+      "kind": "crossline",
+      "saved_endpoint_error_m": 1.3428395660895882e-06,
+      "existing_lead_gap_m": 1.3428395660895882e-06
+    }
+  ],
+  "max_transform_rounding_m": 6.524884387019599e-06,
+  "surface_checks": [
+    {
+      "id": "G110_OUT_NEG_00",
+      "kind": "strain",
+      "sample_count": 464,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.32977741258497,
+        "side": -1,
+        "y_seed": -62.34658978006369,
+        "abs_y": 1.2,
+        "z": [
+          9.341501261687393,
+          11.291501261687392
+        ]
+      },
+      "current": {
+        "rms_m": 0.026402767893346713,
+        "median_m": 0.013295617420226336,
+        "p95_m": 0.053721764869987955,
+        "max_m": 0.08415744453668594
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_01",
+      "kind": "strain",
+      "sample_count": 448,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.31954408371936,
+        "side": -1,
+        "y_seed": -60.37213724889932,
+        "abs_y": 1.2,
+        "z": [
+          9.34365019720599,
+          11.29365019720599
+        ]
+      },
+      "current": {
+        "rms_m": 0.030189746426221513,
+        "median_m": 0.019631541334092617,
+        "p95_m": 0.05779874622821807,
+        "max_m": 0.08341618627309799
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_02",
+      "kind": "strain",
+      "sample_count": 503,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.30849585236132,
+        "side": -1,
+        "y_seed": -58.24045471858398,
+        "abs_y": 1.2,
+        "z": [
+          9.345970257187917,
+          11.295970257187916
+        ]
+      },
+      "current": {
+        "rms_m": 0.030519860337642597,
+        "median_m": 0.02159484662115574,
+        "p95_m": 0.05681480690836906,
+        "max_m": 0.10215083509683609
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_03",
+      "kind": "strain",
+      "sample_count": 578,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.29189854816238,
+        "side": -1,
+        "y_seed": -55.03811560523358,
+        "abs_y": 1.2,
+        "z": [
+          9.349455588009832,
+          11.299455588009831
+        ]
+      },
+      "current": {
+        "rms_m": 0.023453800877451365,
+        "median_m": 0.012979766353964806,
+        "p95_m": 0.048233157768845555,
+        "max_m": 0.0801573172211647
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_04",
+      "kind": "strain",
+      "sample_count": 747,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.28099439473625,
+        "side": -1,
+        "y_seed": -52.934231950642605,
+        "abs_y": 1.2,
+        "z": [
+          9.351745392520694,
+          11.301745392520694
+        ]
+      },
+      "current": {
+        "rms_m": 0.027906008339426126,
+        "median_m": 0.019090251997113228,
+        "p95_m": 0.051902559772133816,
+        "max_m": 0.08800249546766281
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_05",
+      "kind": "strain",
+      "sample_count": 755,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.27025530469707,
+        "side": -1,
+        "y_seed": -50.862196175311205,
+        "abs_y": 1.2,
+        "z": [
+          9.354000534745254,
+          11.304000534745253
+        ]
+      },
+      "current": {
+        "rms_m": 0.027898996832298663,
+        "median_m": 0.019219018518924713,
+        "p95_m": 0.051920328289270394,
+        "max_m": 0.0802106112241745
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_06",
+      "kind": "strain",
+      "sample_count": 843,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.25211341497959,
+        "side": -1,
+        "y_seed": -47.361839591131464,
+        "abs_y": 1.2,
+        "z": [
+          9.35781021893506,
+          11.307810218935058
+        ]
+      },
+      "current": {
+        "rms_m": 0.031237755774727986,
+        "median_m": 0.020529573783278465,
+        "p95_m": 0.05886129923164844,
+        "max_m": 0.11916552484035492
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_07",
+      "kind": "strain",
+      "sample_count": 937,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.24141745679867,
+        "side": -1,
+        "y_seed": -45.29812582009265,
+        "abs_y": 1.2,
+        "z": [
+          9.360056303737204,
+          11.310056303737204
+        ]
+      },
+      "current": {
+        "rms_m": 0.0349870084122078,
+        "median_m": 0.023749180138111115,
+        "p95_m": 0.060757327079772896,
+        "max_m": 0.14560316503047943
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_08",
+      "kind": "strain",
+      "sample_count": 861,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.23105176937892,
+        "side": -1,
+        "y_seed": -43.298135588957095,
+        "abs_y": 1.2,
+        "z": [
+          9.362233033730302,
+          11.312233033730301
+        ]
+      },
+      "current": {
+        "rms_m": 0.031575077969775725,
+        "median_m": 0.019223829731345177,
+        "p95_m": 0.06350299715995789,
+        "max_m": 0.11535821110010147
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_09",
+      "kind": "strain",
+      "sample_count": 513,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.21433137353806,
+        "side": -1,
+        "y_seed": -40.07204676452641,
+        "abs_y": 1.2,
+        "z": [
+          9.36574421303269,
+          11.315744213032689
+        ]
+      },
+      "current": {
+        "rms_m": 0.026698826642255185,
+        "median_m": 0.014392385259270668,
+        "p95_m": 0.0530064582824707,
+        "max_m": 0.09202922880649567
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_10",
+      "kind": "strain",
+      "sample_count": 495,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.20349320475013,
+        "side": -1,
+        "y_seed": -37.98089440564798,
+        "abs_y": 1.2,
+        "z": [
+          9.368020161179258,
+          11.318020161179257
+        ]
+      },
+      "current": {
+        "rms_m": 0.03312710064245227,
+        "median_m": 0.019560175016522408,
+        "p95_m": 0.05980726666748521,
+        "max_m": 0.14316555857658386
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_11",
+      "kind": "strain",
+      "sample_count": 622,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.19240379607405,
+        "side": -1,
+        "y_seed": -35.84126698653714,
+        "abs_y": 1.2,
+        "z": [
+          9.370348868142287,
+          11.320348868142286
+        ]
+      },
+      "current": {
+        "rms_m": 0.027434331276583103,
+        "median_m": 0.01661811862140894,
+        "p95_m": 0.05196692682802677,
+        "max_m": 0.1188535988330841
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_12",
+      "kind": "strain",
+      "sample_count": 701,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.17450292694204,
+        "side": -1,
+        "y_seed": -32.38741371631543,
+        "abs_y": 1.2,
+        "z": [
+          9.374107939505743,
+          11.324107939505742
+        ]
+      },
+      "current": {
+        "rms_m": 0.03072360106287645,
+        "median_m": 0.017037874087691307,
+        "p95_m": 0.061317380517721176,
+        "max_m": 0.11214789748191833
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_13",
+      "kind": "strain",
+      "sample_count": 652,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.16396339009684,
+        "side": -1,
+        "y_seed": -30.353880398409984,
+        "abs_y": 1.2,
+        "z": [
+          9.376321176798676,
+          11.326321176798675
+        ]
+      },
+      "current": {
+        "rms_m": 0.026533264897596994,
+        "median_m": 0.018415710888803005,
+        "p95_m": 0.05089907590299843,
+        "max_m": 0.06958802044391632
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_14",
+      "kind": "strain",
+      "sample_count": 693,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.15366568956512,
+        "side": -1,
+        "y_seed": -28.367007783733442,
+        "abs_y": 1.2,
+        "z": [
+          9.378483629967448,
+          11.328483629967447
+        ]
+      },
+      "current": {
+        "rms_m": 0.02615675990765335,
+        "median_m": 0.017014218494296074,
+        "p95_m": 0.050737562030553816,
+        "max_m": 0.08917750418186188
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_15",
+      "kind": "strain",
+      "sample_count": 954,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.13636951703238,
+        "side": -1,
+        "y_seed": -25.02982668800006,
+        "abs_y": 1.2,
+        "z": [
+          9.382115718799882,
+          11.332115718799882
+        ]
+      },
+      "current": {
+        "rms_m": 0.025939835291422936,
+        "median_m": 0.016291250474750996,
+        "p95_m": 0.0514082636684179,
+        "max_m": 0.08607397973537445
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_16",
+      "kind": "strain",
+      "sample_count": 819,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.12558561404222,
+        "side": -1,
+        "y_seed": -22.949144552757314,
+        "abs_y": 1.2,
+        "z": [
+          9.38438027146588,
+          11.334380271465879
+        ]
+      },
+      "current": {
+        "rms_m": 0.025894559310249057,
+        "median_m": 0.0171236339956522,
+        "p95_m": 0.04856213927268981,
+        "max_m": 0.07677727192640305
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_17",
+      "kind": "strain",
+      "sample_count": 1020,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -73.11432246137299,
+        "side": -1,
+        "y_seed": -20.77599438933318,
+        "abs_y": 1.2,
+        "z": [
+          9.386745463588616,
+          11.336745463588615
+        ]
+      },
+      "current": {
+        "rms_m": 0.025915752275877047,
+        "median_m": 0.015384596306830645,
+        "p95_m": 0.05049406215548513,
+        "max_m": 0.08276119828224182
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_18",
+      "kind": "strain",
+      "sample_count": 825,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -72.86459602934993,
+        "side": -1,
+        "y_seed": 27.40705457568156,
+        "abs_y": 1.2,
+        "z": [
+          9.439186463653671,
+          11.38918646365367
+        ]
+      },
+      "current": {
+        "rms_m": 0.028427231758223433,
+        "median_m": 0.018606116995215416,
+        "p95_m": 0.05291202589869499,
+        "max_m": 0.10715636610984802
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_19",
+      "kind": "strain",
+      "sample_count": 957,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -72.85372858290673,
+        "side": -1,
+        "y_seed": 29.50385586281355,
+        "abs_y": 1.2,
+        "z": [
+          9.441468559926049,
+          11.391468559926048
+        ]
+      },
+      "current": {
+        "rms_m": 0.034507159242232154,
+        "median_m": 0.019518639892339706,
+        "p95_m": 0.06544843018054958,
+        "max_m": 0.15815232694149017
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_20",
+      "kind": "strain",
+      "sample_count": 811,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -72.84251906887641,
+        "side": -1,
+        "y_seed": 31.666656808718596,
+        "abs_y": 1.2,
+        "z": [
+          9.44382248826768,
+          11.393822488267679
+        ]
+      },
+      "current": {
+        "rms_m": 0.03507559567521149,
+        "median_m": 0.01733136922121048,
+        "p95_m": 0.0624551884829998,
+        "max_m": 0.16342808306217194
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_21",
+      "kind": "strain",
+      "sample_count": 775,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -72.8260498539346,
+        "side": -1,
+        "y_seed": 34.84428195447297,
+        "abs_y": 1.2,
+        "z": [
+          9.447280921140955,
+          11.397280921140954
+        ]
+      },
+      "current": {
+        "rms_m": 0.03937158867768019,
+        "median_m": 0.016918368637561798,
+        "p95_m": 0.08374426811933516,
+        "max_m": 0.2064720243215561
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_22",
+      "kind": "strain",
+      "sample_count": 673,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -72.81484745561028,
+        "side": -1,
+        "y_seed": 37.005709972382114,
+        "abs_y": 1.2,
+        "z": [
+          9.449633355228514,
+          11.399633355228513
+        ]
+      },
+      "current": {
+        "rms_m": 0.03810737166176841,
+        "median_m": 0.015468290075659752,
+        "p95_m": 0.0933683365583419,
+        "max_m": 0.151828333735466
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_23",
+      "kind": "strain",
+      "sample_count": 503,
+      "domain": {
+        "dx": [
+          0.76,
+          2.05
+        ],
+        "cx": -72.80413137604127,
+        "side": -1,
+        "y_seed": 39.07330603100984,
+        "abs_y": 1.2,
+        "z": [
+          9.451883665397215,
+          11.401883665397214
+        ]
+      },
+      "current": {
+        "rms_m": 0.03769394118318205,
+        "median_m": 0.016281502321362495,
+        "p95_m": 0.0776497796177864,
+        "max_m": 0.14411036670207977
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_00",
+      "kind": "strain",
+      "sample_count": 1157,
+      "domain": {
+        "dx": [
+          0.6100000000000001,
+          2.42
+        ],
+        "cx": -60.063695104163685,
+        "side": 1,
+        "y_seed": -16.00217264058919,
+        "abs_y": 1.2,
+        "z": [
+          11.220524567799098,
+          12.420524567799099
+        ]
+      },
+      "current": {
+        "rms_m": 0.02946959371764531,
+        "median_m": 0.016810856759548187,
+        "p95_m": 0.06025580167770386,
+        "max_m": 0.10818539559841156
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_01",
+      "kind": "strain",
+      "sample_count": 1169,
+      "domain": {
+        "dx": [
+          0.6100000000000001,
+          2.42
+        ],
+        "cx": -60.05202047721567,
+        "side": 1,
+        "y_seed": -13.795870511646925,
+        "abs_y": 1.2,
+        "z": [
+          11.22287120727647,
+          12.42287120727647
+        ]
+      },
+      "current": {
+        "rms_m": 0.027287874500608114,
+        "median_m": 0.018116803839802742,
+        "p95_m": 0.05144079402089117,
+        "max_m": 0.08695914596319199
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_02",
+      "kind": "strain",
+      "sample_count": 1317,
+      "domain": {
+        "dx": [
+          0.6100000000000001,
+          2.42
+        ],
+        "cx": -60.04004028603548,
+        "side": 1,
+        "y_seed": -11.531822039374452,
+        "abs_y": 1.2,
+        "z": [
+          11.225279266197335,
+          12.425279266197336
+        ]
+      },
+      "current": {
+        "rms_m": 0.02889268739000338,
+        "median_m": 0.019899243488907814,
+        "p95_m": 0.053781466931104666,
+        "max_m": 0.10898807644844055
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_03",
+      "kind": "strain",
+      "sample_count": 637,
+      "domain": {
+        "dx": [
+          0.6100000000000001,
+          2.42
+        ],
+        "cx": -59.984216791088016,
+        "side": 1,
+        "y_seed": -0.9821491208269061,
+        "abs_y": 1.2,
+        "z": [
+          11.236499977367977,
+          12.436499977367978
+        ]
+      },
+      "current": {
+        "rms_m": 0.02862930291847967,
+        "median_m": 0.019055837765336037,
+        "p95_m": 0.0522310234606266,
+        "max_m": 0.09615571051836014
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_04",
+      "kind": "strain",
+      "sample_count": 585,
+      "domain": {
+        "dx": [
+          0.6100000000000001,
+          2.42
+        ],
+        "cx": -59.97251684438617,
+        "side": 1,
+        "y_seed": 1.228938002704447,
+        "abs_y": 1.2,
+        "z": [
+          11.238851706201451,
+          12.438851706201453
+        ]
+      },
+      "current": {
+        "rms_m": 0.03019728847379312,
+        "median_m": 0.01800522953271866,
+        "p95_m": 0.060171057283878324,
+        "max_m": 0.10310222953557968
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_05",
+      "kind": "strain",
+      "sample_count": 875,
+      "domain": {
+        "dx": [
+          0.6100000000000001,
+          2.42
+        ],
+        "cx": -59.96062415495734,
+        "side": 1,
+        "y_seed": 3.476450160697518,
+        "abs_y": 1.2,
+        "z": [
+          11.241242176974533,
+          12.441242176974534
+        ]
+      },
+      "current": {
+        "rms_m": 0.02844744563280043,
+        "median_m": 0.018021786585450172,
+        "p95_m": 0.054769612848758684,
+        "max_m": 0.09034678339958191
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_00",
+      "kind": "strain",
+      "sample_count": 2722,
+      "domain": {
+        "dx": [
+          1.0599999999999998,
+          3.4699999999999998
+        ],
+        "cx": 7.712701041458915,
+        "side": 1,
+        "y_seed": -54.732572708665565,
+        "abs_y": 1.2,
+        "z": [
+          12.848453645067245,
+          14.148453645067246
+        ]
+      },
+      "current": {
+        "rms_m": 0.031207205265210872,
+        "median_m": 0.015419207978993654,
+        "p95_m": 0.06353125721216202,
+        "max_m": 0.1585889607667923
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_01",
+      "kind": "strain",
+      "sample_count": 3560,
+      "domain": {
+        "dx": [
+          1.0599999999999998,
+          3.4699999999999998
+        ],
+        "cx": 7.73117823008263,
+        "side": 1,
+        "y_seed": -51.113926059689405,
+        "abs_y": 1.2,
+        "z": [
+          12.853814707237532,
+          14.153814707237533
+        ]
+      },
+      "current": {
+        "rms_m": 0.03178096842544706,
+        "median_m": 0.019062581472098827,
+        "p95_m": 0.05954395327717065,
+        "max_m": 0.22098621726036072
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_02",
+      "kind": "strain",
+      "sample_count": 3619,
+      "domain": {
+        "dx": [
+          1.0599999999999998,
+          3.4699999999999998
+        ],
+        "cx": 7.748890161130498,
+        "side": 1,
+        "y_seed": -47.64515052037373,
+        "abs_y": 1.2,
+        "z": [
+          12.858953733819835,
+          14.158953733819835
+        ]
+      },
+      "current": {
+        "rms_m": 0.0325107239172888,
+        "median_m": 0.019113050773739815,
+        "p95_m": 0.06270441189408302,
+        "max_m": 0.1699524074792862
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_03",
+      "kind": "strain",
+      "sample_count": 3151,
+      "domain": {
+        "dx": [
+          1.0599999999999998,
+          3.4699999999999998
+        ],
+        "cx": 7.773784894734797,
+        "side": 1,
+        "y_seed": -42.7696661504879,
+        "abs_y": 1.2,
+        "z": [
+          12.866176813980097,
+          14.166176813980098
+        ]
+      },
+      "current": {
+        "rms_m": 0.030677438691187872,
+        "median_m": 0.01431052666157484,
+        "p95_m": 0.060840604826807976,
+        "max_m": 0.1869487166404724
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_04",
+      "kind": "strain",
+      "sample_count": 3540,
+      "domain": {
+        "dx": [
+          1.0599999999999998,
+          3.4699999999999998
+        ],
+        "cx": 7.792910962153036,
+        "side": 1,
+        "y_seed": -39.023940478657344,
+        "abs_y": 1.2,
+        "z": [
+          12.871726145027717,
+          14.171726145027717
+        ]
+      },
+      "current": {
+        "rms_m": 0.03105289984282738,
+        "median_m": 0.019590320996940136,
+        "p95_m": 0.05937192309647797,
+        "max_m": 0.1833670437335968
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_05",
+      "kind": "strain",
+      "sample_count": 3891,
+      "domain": {
+        "dx": [
+          1.0599999999999998,
+          3.4699999999999998
+        ],
+        "cx": 7.810197351657231,
+        "side": 1,
+        "y_seed": -35.63850470018796,
+        "abs_y": 1.2,
+        "z": [
+          12.87674170289851,
+          14.17674170289851
+        ]
+      },
+      "current": {
+        "rms_m": 0.030990444300982332,
+        "median_m": 0.01929166354238987,
+        "p95_m": 0.059398356825113297,
+        "max_m": 0.2023690789937973
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_06",
+      "kind": "strain",
+      "sample_count": 3276,
+      "domain": {
+        "dx": [
+          1.0599999999999998,
+          3.4699999999999998
+        ],
+        "cx": 7.834861005414547,
+        "side": 1,
+        "y_seed": -30.80827593335728,
+        "abs_y": 1.2,
+        "z": [
+          12.883897736418119,
+          14.18389773641812
+        ]
+      },
+      "current": {
+        "rms_m": 0.0316426214184358,
+        "median_m": 0.01688761729747057,
+        "p95_m": 0.06291943788528442,
+        "max_m": 0.16959381103515625
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_07",
+      "kind": "strain",
+      "sample_count": 2895,
+      "domain": {
+        "dx": [
+          1.0599999999999998,
+          3.4699999999999998
+        ],
+        "cx": 7.853268502735063,
+        "side": 1,
+        "y_seed": -27.203277908417917,
+        "abs_y": 1.2,
+        "z": [
+          12.889238578011737,
+          14.189238578011738
+        ]
+      },
+      "current": {
+        "rms_m": 0.031086248762724835,
+        "median_m": 0.018707619979977608,
+        "p95_m": 0.060385043174028354,
+        "max_m": 0.14039599895477295
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_08",
+      "kind": "strain",
+      "sample_count": 3339,
+      "domain": {
+        "dx": [
+          1.0599999999999998,
+          3.4699999999999998
+        ],
+        "cx": 7.872176634493421,
+        "side": 1,
+        "y_seed": -23.500233629378354,
+        "abs_y": 1.2,
+        "z": [
+          12.894724676137642,
+          14.194724676137643
+        ]
+      },
+      "current": {
+        "rms_m": 0.029831479324295654,
+        "median_m": 0.016227273270487785,
+        "p95_m": 0.059343093261122706,
+        "max_m": 0.1426534801721573
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_09",
+      "kind": "strain",
+      "sample_count": 2945,
+      "domain": {
+        "dx": [
+          1.0599999999999998,
+          3.4699999999999998
+        ],
+        "cx": 7.8952828476656105,
+        "side": 1,
+        "y_seed": -18.97502026662904,
+        "abs_y": 1.2,
+        "z": [
+          12.901428826203905,
+          14.201428826203905
+        ]
+      },
+      "current": {
+        "rms_m": 0.03072315861621554,
+        "median_m": 0.018581122159957886,
+        "p95_m": 0.05859701782464981,
+        "max_m": 0.12814675271511078
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_10",
+      "kind": "strain",
+      "sample_count": 2382,
+      "domain": {
+        "dx": [
+          1.0599999999999998,
+          3.4699999999999998
+        ],
+        "cx": 7.914735783900584,
+        "side": 1,
+        "y_seed": -15.165279296128462,
+        "abs_y": 1.2,
+        "z": [
+          12.907072996573877,
+          14.207072996573878
+        ]
+      },
+      "current": {
+        "rms_m": 0.032411438980164034,
+        "median_m": 0.019900559447705746,
+        "p95_m": 0.06117004156112671,
+        "max_m": 0.14622479677200317
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_11",
+      "kind": "strain",
+      "sample_count": 2161,
+      "domain": {
+        "dx": [
+          1.0599999999999998,
+          3.4699999999999998
+        ],
+        "cx": 7.933684310840247,
+        "side": 1,
+        "y_seed": -11.454323862938532,
+        "abs_y": 1.2,
+        "z": [
+          12.912570815155894,
+          14.212570815155894
+        ]
+      },
+      "current": {
+        "rms_m": 0.03267292778038441,
+        "median_m": 0.020738152787089348,
+        "p95_m": 0.062034375965595245,
+        "max_m": 0.12402992695569992
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_NEG_00",
+      "kind": "strain",
+      "sample_count": 2517,
+      "domain": {
+        "dx": [
+          1.03,
+          4.1000000000000005
+        ],
+        "cx": 7.872949516876453,
+        "side": -1,
+        "y_seed": -23.348869246929883,
+        "abs_y": 1.2,
+        "z": [
+          12.4449489240246,
+          14.044948924024599
+        ]
+      },
+      "current": {
+        "rms_m": 0.029371114952701977,
+        "median_m": 0.01726791448891163,
+        "p95_m": 0.05878783613443374,
+        "max_m": 0.14754445850849152
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_NEG_01",
+      "kind": "strain",
+      "sample_count": 1675,
+      "domain": {
+        "dx": [
+          1.03,
+          4.1000000000000005
+        ],
+        "cx": 7.8958546715718825,
+        "side": -1,
+        "y_seed": -18.863031981810668,
+        "abs_y": 1.2,
+        "z": [
+          12.45159473799787,
+          14.05159473799787
+        ]
+      },
+      "current": {
+        "rms_m": 0.029168973398770136,
+        "median_m": 0.017174821346998215,
+        "p95_m": 0.056254412233829494,
+        "max_m": 0.0896514281630516
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_NEG_02",
+      "kind": "strain",
+      "sample_count": 1364,
+      "domain": {
+        "dx": [
+          1.03,
+          4.1000000000000005
+        ],
+        "cx": 7.915032737428374,
+        "side": -1,
+        "y_seed": -15.107122727500796,
+        "abs_y": 1.2,
+        "z": [
+          12.457159156127508,
+          14.057159156127508
+        ]
+      },
+      "current": {
+        "rms_m": 0.032453463641608817,
+        "median_m": 0.02115672267973423,
+        "p95_m": 0.0627183485776186,
+        "max_m": 0.12462736666202545
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_NEG_03",
+      "kind": "strain",
+      "sample_count": 1521,
+      "domain": {
+        "dx": [
+          1.03,
+          4.1000000000000005
+        ],
+        "cx": 7.970993216136001,
+        "side": -1,
+        "y_seed": -4.1475983715847144,
+        "abs_y": 1.2,
+        "z": [
+          12.473395804003992,
+          14.073395804003992
+        ]
+      },
+      "current": {
+        "rms_m": 0.03001021658315922,
+        "median_m": 0.021637309342622757,
+        "p95_m": 0.0554603710770607,
+        "max_m": 0.13138914108276367
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_NEG_04",
+      "kind": "strain",
+      "sample_count": 1728,
+      "domain": {
+        "dx": [
+          1.03,
+          4.1000000000000005
+        ],
+        "cx": 7.991230623363597,
+        "side": -1,
+        "y_seed": -0.18422345890364747,
+        "abs_y": 1.2,
+        "z": [
+          12.479267584636968,
+          14.079267584636968
+        ]
+      },
+      "current": {
+        "rms_m": 0.03045100232692884,
+        "median_m": 0.019621754996478558,
+        "p95_m": 0.0594355223700404,
+        "max_m": 0.10729451477527618
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_NEG_05",
+      "kind": "strain",
+      "sample_count": 1944,
+      "domain": {
+        "dx": [
+          1.03,
+          4.1000000000000005
+        ],
+        "cx": 8.012379308447464,
+        "side": -1,
+        "y_seed": 3.9576197601870504,
+        "abs_y": 1.2,
+        "z": [
+          12.48540376789858,
+          14.08540376789858
+        ]
+      },
+      "current": {
+        "rms_m": 0.02837915147905711,
+        "median_m": 0.017063958570361137,
+        "p95_m": 0.05584628693759441,
+        "max_m": 0.08602342009544373
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_00_JUMPER",
+      "kind": "jumper",
+      "sample_count": 86,
+      "domain": {
+        "dx": [
+          -0.047951570770856045,
+          2.497553659801334
+        ],
+        "cx": -73.32977741258497,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.46182584181412,
+            -62.398191735297615,
+            7.888954664939341
+          ],
+          [
+            -75.64733107238631,
+            -61.98755158528569,
+            9.830916897087604
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.668954664939341,
+          9.950916897087604
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.07303221327301591,
+        "median_m": 0.03538364917039871,
+        "p95_m": 0.1468741111457348,
+        "max_m": 0.23566657304763794
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_01_JUMPER",
+      "kind": "jumper",
+      "sample_count": 109,
+      "domain": {
+        "dx": [
+          -0.010489348666816334,
+          2.476304163982413
+        ],
+        "cx": -73.31954408371936,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.48905473505255,
+            -60.38337768951178,
+            7.8849877729634
+          ],
+          [
+            -75.61584824770178,
+            -60.19448145030106,
+            10.489663243850622
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.6649877729634,
+          10.60966324385062
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.09336808851255368,
+        "median_m": 0.054824098944664,
+        "p95_m": 0.2047126412391661,
+        "max_m": 0.24938808381557465
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_02_JUMPER",
+      "kind": "jumper",
+      "sample_count": 171,
+      "domain": {
+        "dx": [
+          -0.12945504010378556,
+          2.447416680981782
+        ],
+        "cx": -73.30849585236132,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.35904081225753,
+            -58.427451055495915,
+            7.847849556828172
+          ],
+          [
+            -75.5759125333431,
+            -58.263142528431885,
+            10.874480462370292
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.627849556828172,
+          10.99448046237029
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.0772392663438568,
+        "median_m": 0.038691435009241104,
+        "p95_m": 0.16408434510231018,
+        "max_m": 0.18794803321361542
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_03_JUMPER",
+      "kind": "jumper",
+      "sample_count": 337,
+      "domain": {
+        "dx": [
+          -0.11196464082117813,
+          2.575279652324632
+        ],
+        "cx": -73.29189854816238,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.3599339073412,
+            -54.927818423539804,
+            7.839759276978699
+          ],
+          [
+            -75.68717820048701,
+            -54.93671748988625,
+            9.883632337922535
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.619759276978699,
+          10.003632337922534
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.09381830160766827,
+        "median_m": 0.021470826119184494,
+        "p95_m": 0.2192640721797943,
+        "max_m": 0.29749733209609985
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_04_JUMPER",
+      "kind": "jumper",
+      "sample_count": 361,
+      "domain": {
+        "dx": [
+          -0.019428954921302755,
+          2.662564777684658
+        ],
+        "cx": -73.28099439473625,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.44156543981495,
+            -52.91213149456224,
+            7.8925916431467265
+          ],
+          [
+            -75.76355917242091,
+            -52.94865699177752,
+            10.29955272061007
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.672591643146727,
+          10.419552720610069
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.09288442593236505,
+        "median_m": 0.030292587354779243,
+        "p95_m": 0.21255138516426086,
+        "max_m": 0.3829459249973297
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_05_JUMPER",
+      "kind": "jumper",
+      "sample_count": 258,
+      "domain": {
+        "dx": [
+          -0.05717453522297716,
+          2.621269001495357
+        ],
+        "cx": -73.27025530469707,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.3930807694741,
+            -50.92350193003402,
+            7.87595693668384
+          ],
+          [
+            -75.71152430619243,
+            -51.13861037617765,
+            10.699562969917395
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.6559569366838405,
+          10.819562969917394
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.08122724147848343,
+        "median_m": 0.029324193485081196,
+        "p95_m": 0.1818322755396365,
+        "max_m": 0.316128671169281
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_06_JUMPER",
+      "kind": "jumper",
+      "sample_count": 350,
+      "domain": {
+        "dx": [
+          -0.15768154240060311,
+          2.331475305600471
+        ],
+        "cx": -73.25211341497959,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.27443187257899,
+            -47.464819819339894,
+            7.853752444439835
+          ],
+          [
+            -75.40358872058006,
+            -47.01102009785448,
+            9.563005510841018
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.6337524444398355,
+          9.683005510841017
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.06739945097221658,
+        "median_m": 0.027981694787740707,
+        "p95_m": 0.158756735175848,
+        "max_m": 0.20144258439540863
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_07_JUMPER",
+      "kind": "jumper",
+      "sample_count": 342,
+      "domain": {
+        "dx": [
+          -0.10822111417041241,
+          2.455002327348787
+        ],
+        "cx": -73.24141745679867,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.31319634262826,
+            -45.47970720025168,
+            7.7902496600508755
+          ],
+          [
+            -75.51641978414746,
+            -45.13702020109457,
+            10.09725944365729
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.570249660050876,
+          10.217259443657289
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.08997927124814106,
+        "median_m": 0.0475429929792881,
+        "p95_m": 0.17414990961551663,
+        "max_m": 0.21021229028701782
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_08_JUMPER",
+      "kind": "jumper",
+      "sample_count": 396,
+      "domain": {
+        "dx": [
+          -0.18509628558096153,
+          2.5247147549658497
+        ],
+        "cx": -73.23105176937892,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.22595548379796,
+            -43.40932848858094,
+            7.859808433874368
+          ],
+          [
+            -75.57576652434477,
+            -43.43167058901693,
+            10.032378043643565
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.639808433874368,
+          10.152378043643564
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.10197575427219248,
+        "median_m": 0.05047856643795967,
+        "p95_m": 0.21259895712137222,
+        "max_m": 0.2527702748775482
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_09_JUMPER",
+      "kind": "jumper",
+      "sample_count": 403,
+      "domain": {
+        "dx": [
+          -0.15559393231165358,
+          2.5441280926068193
+        ],
+        "cx": -73.21433137353806,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.2387374412264,
+            -39.95485438176248,
+            7.9183540829324
+          ],
+          [
+            -75.57845946614488,
+            -39.99788601809085,
+            9.999392636078742
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.698354082932401,
+          10.119392636078741
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.06241498050821291,
+        "median_m": 0.02837822027504444,
+        "p95_m": 0.14776302874088287,
+        "max_m": 0.2593419551849365
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_10_JUMPER",
+      "kind": "jumper",
+      "sample_count": 226,
+      "domain": {
+        "dx": [
+          -0.009897940326517862,
+          2.653640200828939
+        ],
+        "cx": -73.20349320475013,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.37359526442361,
+            -37.91648209799969,
+            7.864234972021933
+          ],
+          [
+            -75.67713340557907,
+            -38.04028164166976,
+            10.70450487441038
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.644234972021933,
+          10.82450487441038
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.13017511805707638,
+        "median_m": 0.0837099589407444,
+        "p95_m": 0.2784968465566635,
+        "max_m": 0.3385474979877472
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_11_JUMPER",
+      "kind": "jumper",
+      "sample_count": 323,
+      "domain": {
+        "dx": [
+          -0.0857461514143199,
+          2.61605180762593
+        ],
+        "cx": -73.19240379607405,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.28665764465973,
+            -35.91956073674337,
+            7.8861186194656705
+          ],
+          [
+            -75.62845560369998,
+            -36.03980109318379,
+            10.311605063732596
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.666118619465671,
+          10.431605063732595
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.1013873289427967,
+        "median_m": 0.03377973288297653,
+        "p95_m": 0.23021432757377616,
+        "max_m": 0.3521438241004944
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_12_JUMPER",
+      "kind": "jumper",
+      "sample_count": 476,
+      "domain": {
+        "dx": [
+          -0.17207825799501847,
+          2.5748817681241225
+        ],
+        "cx": -73.17450292694204,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.18242466894702,
+            -32.42327064978017,
+            7.790832223118466
+          ],
+          [
+            -75.56938469506616,
+            -32.02730403698302,
+            9.728671903258508
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.570832223118466,
+          9.848671903258507
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.08346485264153387,
+        "median_m": 0.029309825971722603,
+        "p95_m": 0.19073442742228508,
+        "max_m": 0.29961928725242615
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_13_JUMPER",
+      "kind": "jumper",
+      "sample_count": 429,
+      "domain": {
+        "dx": [
+          0.005509891602350769,
+          2.746736185562178
+        ],
+        "cx": -73.16396339009684,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.34947328169919,
+            -30.43365631267063,
+            7.8335414227573485
+          ],
+          [
+            -75.73069957565902,
+            -30.27321804467234,
+            10.838102081006381
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.613541422757349,
+          10.95810208100638
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.1234742840898414,
+        "median_m": 0.029947876930236816,
+        "p95_m": 0.3399313449859618,
+        "max_m": 0.45234304666519165
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_14_JUMPER",
+      "kind": "jumper",
+      "sample_count": 355,
+      "domain": {
+        "dx": [
+          -0.023918190785146287,
+          2.657757651677749
+        ],
+        "cx": -73.15366568956512,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.30974749877997,
+            -28.3708266564589,
+            7.828434886433559
+          ],
+          [
+            -75.63142334124286,
+            -28.637874575012198,
+            10.08224397800535
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.608434886433559,
+          10.202243978005349
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.10181077525075166,
+        "median_m": 0.033556703478097916,
+        "p95_m": 0.24147865623235715,
+        "max_m": 0.3987533152103424
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_15_JUMPER",
+      "kind": "jumper",
+      "sample_count": 595,
+      "domain": {
+        "dx": [
+          -0.05225230442199119,
+          2.765802559528631
+        ],
+        "cx": -73.13636951703238,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.26411721261039,
+            -24.933161157012606,
+            7.835938388576616
+          ],
+          [
+            -75.72217207656101,
+            -24.888372233405917,
+            10.153174800963944
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.615938388576616,
+          10.273174800963943
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.11016031763008453,
+        "median_m": 0.02536996267735958,
+        "p95_m": 0.2855810105800619,
+        "max_m": 0.5142785310745239
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_16_JUMPER",
+      "kind": "jumper",
+      "sample_count": 484,
+      "domain": {
+        "dx": [
+          0.03902895543153989,
+          2.7520188315370366
+        ],
+        "cx": -73.12558561404222,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.34461456947376,
+            -22.915115672952613,
+            7.849033608085001
+          ],
+          [
+            -75.69760444557926,
+            -23.037287427737688,
+            10.952218095960065
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.629033608085002,
+          11.072218095960064
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.10362404875080547,
+        "median_m": 0.03244525566697121,
+        "p95_m": 0.22815527394413948,
+        "max_m": 0.43294596672058105
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_17_JUMPER",
+      "kind": "jumper",
+      "sample_count": 562,
+      "domain": {
+        "dx": [
+          -0.04998138707876648,
+          2.7356859942027048
+        ],
+        "cx": -73.11432246137299,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -73.24434107429423,
+            -20.876530611586414,
+            7.841462617461415
+          ],
+          [
+            -75.6700084555757,
+            -20.8883844534287,
+            10.26767750459129
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.6214626174614155,
+          10.38767750459129
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.11757190873608898,
+        "median_m": 0.03594641759991646,
+        "p95_m": 0.2909023612737651,
+        "max_m": 0.4647344648838043
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_18_JUMPER",
+      "kind": "jumper",
+      "sample_count": 215,
+      "domain": {
+        "dx": [
+          -0.1415247090867598,
+          2.548788808317703
+        ],
+        "cx": -72.86459602934993,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -72.90307132026317,
+            27.53410204794527,
+            7.95327588113687
+          ],
+          [
+            -75.23338483766763,
+            27.442870797739644,
+            10.10037304972854
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.73327588113687,
+          10.22037304972854
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.07952378661023099,
+        "median_m": 0.03812317177653313,
+        "p95_m": 0.17498304843902582,
+        "max_m": 0.2760610580444336
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_19_JUMPER",
+      "kind": "jumper",
+      "sample_count": 247,
+      "domain": {
+        "dx": [
+          -0.13800580706843163,
+          2.4736455916209015
+        ],
+        "cx": -72.85372858290673,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -72.8957227758383,
+            29.56620733602099,
+            7.937727972037829
+          ],
+          [
+            -75.14737417452763,
+            29.506312513423822,
+            9.915816597458885
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.717727972037829,
+          10.035816597458885
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.09167867720360459,
+        "median_m": 0.05150996893644333,
+        "p95_m": 0.18240993767976757,
+        "max_m": 0.23439821600914001
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_20_JUMPER",
+      "kind": "jumper",
+      "sample_count": 194,
+      "domain": {
+        "dx": [
+          -0.19039452323072964,
+          2.505348535313353
+        ],
+        "cx": -72.84251906887641,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -72.83212454564568,
+            31.564455902411595,
+            7.954688910534879
+          ],
+          [
+            -75.16786760418977,
+            31.54487475771952,
+            10.000222243552901
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.734688910534879,
+          10.1202222435529
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.09244434750305779,
+        "median_m": 0.0546305850148201,
+        "p95_m": 0.18273058161139488,
+        "max_m": 0.2304704338312149
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_21_JUMPER",
+      "kind": "jumper",
+      "sample_count": 164,
+      "domain": {
+        "dx": [
+          -0.22634611961675716,
+          2.5099258119026833
+        ],
+        "cx": -72.8260498539346,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -72.77970373431785,
+            35.00880024395481,
+            7.943282073578212
+          ],
+          [
+            -75.15597566583729,
+            34.86065320197595,
+            9.974789347615513
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.723282073578212,
+          10.094789347615512
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.08489234476712042,
+        "median_m": 0.058106740936636925,
+        "p95_m": 0.17552958875894545,
+        "max_m": 0.22154763340950012
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_22_JUMPER",
+      "kind": "jumper",
+      "sample_count": 139,
+      "domain": {
+        "dx": [
+          -0.15877780371429423,
+          2.4267241639610195
+        ],
+        "cx": -72.81484745561028,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -72.83606965189598,
+            36.99405143094158,
+            7.987828922841407
+          ],
+          [
+            -75.0615716195713,
+            36.90215465567297,
+            9.937115214877881
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.7678289228414075,
+          10.05711521487788
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.07365522908680355,
+        "median_m": 0.042256828397512436,
+        "p95_m": 0.15077393800020214,
+        "max_m": 0.18400581181049347
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_NEG_23_JUMPER",
+      "kind": "jumper",
+      "sample_count": 103,
+      "domain": {
+        "dx": [
+          -0.16540122010835773,
+          2.463527101007124
+        ],
+        "cx": -72.80413137604127,
+        "side": -1,
+        "y_line_endpoints": [
+          [
+            -72.81873015593291,
+            39.013627710961586,
+            8.032259354215274
+          ],
+          [
+            -75.0876584770484,
+            38.849619651675724,
+            10.330513281143473
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          7.812259354215274,
+          10.450513281143472
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.08354239101138798,
+        "median_m": 0.04367971047759056,
+        "p95_m": 0.19315693229436862,
+        "max_m": 0.22045175731182098
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_00_JUMPER",
+      "kind": "jumper",
+      "sample_count": 898,
+      "domain": {
+        "dx": [
+          -0.25586342480758645,
+          3.0009741185752294
+        ],
+        "cx": -60.063695104163685,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            -60.13955852897127,
+            -15.829771928342495,
+            9.737853801452662
+          ],
+          [
+            -57.242720985588456,
+            -16.11449156397774,
+            11.59632220558423
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.517853801452661,
+          11.716322205584229
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.08153508898313766,
+        "median_m": 0.040136292576789856,
+        "p95_m": 0.17518821954727168,
+        "max_m": 0.32584884762763977
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_01_JUMPER",
+      "kind": "jumper",
+      "sample_count": 748,
+      "domain": {
+        "dx": [
+          -0.21346305292478746,
+          2.997182721678954
+        ],
+        "cx": -60.05202047721567,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            -60.08548353014046,
+            -13.800705190616137,
+            9.7729084079446
+          ],
+          [
+            -57.23483775553672,
+            -13.774448363447478,
+            11.58115218462419
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.5529084079446,
+          11.701152184624188
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.07639057024246916,
+        "median_m": 0.039374636486172676,
+        "p95_m": 0.17007401213049889,
+        "max_m": 0.3313428461551666
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_02_JUMPER",
+      "kind": "jumper",
+      "sample_count": 812,
+      "domain": {
+        "dx": [
+          -0.25799419598829615,
+          3.0001409891431625
+        ],
+        "cx": -60.04004028603548,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            -60.11803448202377,
+            -11.700094978993532,
+            9.778212179544356
+          ],
+          [
+            -57.219899296892315,
+            -11.510334621322968,
+            11.58395751784255
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.558212179544356,
+          11.703957517842548
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.07494840846577808,
+        "median_m": 0.0404670387506485,
+        "p95_m": 0.15615821555256842,
+        "max_m": 0.3464844524860382
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_03_JUMPER",
+      "kind": "jumper",
+      "sample_count": 991,
+      "domain": {
+        "dx": [
+          -0.2367129858910249,
+          2.9962812852141956
+        ],
+        "cx": -59.984216791088016,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            -60.04092977697904,
+            -0.8590132929938434,
+            9.77387801787723
+          ],
+          [
+            -57.16793550587382,
+            -1.109700172259716,
+            11.625142906874093
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.55387801787723,
+          11.745142906874092
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.0803964015179053,
+        "median_m": 0.03820614144206047,
+        "p95_m": 0.182417131960392,
+        "max_m": 0.33899369835853577
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_04_JUMPER",
+      "kind": "jumper",
+      "sample_count": 880,
+      "domain": {
+        "dx": [
+          -0.18714508934141377,
+          3.0030513286063685
+        ],
+        "cx": -59.97251684438617,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            -59.979661933727584,
+            1.2404346069578764,
+            9.752154805753971
+          ],
+          [
+            -57.1494655157798,
+            1.2343029309379088,
+            11.652486026203807
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.53215480575397,
+          11.772486026203806
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.0873533842627839,
+        "median_m": 0.03839399665594101,
+        "p95_m": 0.1921214990317821,
+        "max_m": 0.36013832688331604
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_POS_05_JUMPER",
+      "kind": "jumper",
+      "sample_count": 814,
+      "domain": {
+        "dx": [
+          -0.21918413880654014,
+          2.9879968975784412
+        ],
+        "cx": -59.96062415495734,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            -59.99980829376388,
+            3.2486855669814836,
+            9.773265259439622
+          ],
+          [
+            -57.152627257378896,
+            3.5446793912244052,
+            11.6292478583111
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.553265259439621,
+          11.749247858311099
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.08188215230498677,
+        "median_m": 0.04068977199494839,
+        "p95_m": 0.18869016319513318,
+        "max_m": 0.34149274230003357
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_00_JUMPER",
+      "kind": "jumper",
+      "sample_count": 983,
+      "domain": {
+        "dx": [
+          0.05758914894386685,
+          4.909760958555188
+        ],
+        "cx": 7.712701041458915,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            7.950290190402782,
+            -54.19460628628036,
+            10.015014095384164
+          ],
+          [
+            12.442462000014103,
+            -55.00570185740586,
+            14.024965373352762
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.795014095384163,
+          14.144965373352761
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.2807162866231722,
+        "median_m": 0.05079560726881027,
+        "p95_m": 0.7407717585563659,
+        "max_m": 1.1776186227798462
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_01_JUMPER",
+      "kind": "jumper",
+      "sample_count": 1362,
+      "domain": {
+        "dx": [
+          0.13571499087728228,
+          4.937535254008214
+        ],
+        "cx": 7.73117823008263,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            8.046893220959912,
+            -51.190684502051504,
+            10.042120498556443
+          ],
+          [
+            12.488713484090844,
+            -51.4716809105581,
+            14.455149642789278
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.822120498556442,
+          14.575149642789277
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.44495519487998375,
+        "median_m": 0.06066889874637127,
+        "p95_m": 1.1649636387825013,
+        "max_m": 1.2753709554672241
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_02_JUMPER",
+      "kind": "jumper",
+      "sample_count": 1662,
+      "domain": {
+        "dx": [
+          0.03874603567325935,
+          4.95868961646704
+        ],
+        "cx": 7.748890161130498,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            7.967636196803757,
+            -48.210512871946484,
+            10.048080423103661
+          ],
+          [
+            12.527579777597538,
+            -47.94840486844339,
+            13.997938455608134
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.82808042310366,
+          14.117938455608133
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.3386031286039727,
+        "median_m": 0.05118909478187561,
+        "p95_m": 1.0765219271183013,
+        "max_m": 1.2420732975006104
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_03_JUMPER",
+      "kind": "jumper",
+      "sample_count": 1695,
+      "domain": {
+        "dx": [
+          0.07615350455283271,
+          5.018497142250455
+        ],
+        "cx": 7.773784894734797,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            8.02993839928763,
+            -42.17378530826181,
+            10.050771629815424
+          ],
+          [
+            12.612282036985253,
+            -42.829746816828,
+            14.017896697114862
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.830771629815423,
+          14.137896697114861
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.4595820552479353,
+        "median_m": 0.05593579635024071,
+        "p95_m": 1.1862470030784606,
+        "max_m": 1.2811527252197266
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_04_JUMPER",
+      "kind": "jumper",
+      "sample_count": 1722,
+      "domain": {
+        "dx": [
+          0.11316717408746219,
+          5.036927154730802
+        ],
+        "cx": 7.792910962153036,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            8.086078136240499,
+            -39.166322424783004,
+            10.040827299250955
+          ],
+          [
+            12.649838116883839,
+            -39.444862648043575,
+            14.543006568816923
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.820827299250954,
+          14.663006568816922
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.45954354926233276,
+        "median_m": 0.06293624639511108,
+        "p95_m": 1.1954990804195404,
+        "max_m": 1.304587483406067
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_05_JUMPER",
+      "kind": "jumper",
+      "sample_count": 1909,
+      "domain": {
+        "dx": [
+          0.06278986448830065,
+          4.8737270351403295
+        ],
+        "cx": 7.810197351657231,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            8.052987216145532,
+            -36.0535749503788,
+            10.05072480563091
+          ],
+          [
+            12.50392438679756,
+            -35.838753876530035,
+            14.21971439946555
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.83072480563091,
+          14.33971439946555
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.27339058780663994,
+        "median_m": 0.05385131388902664,
+        "p95_m": 0.6848199367523193,
+        "max_m": 1.1019052267074585
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_06_JUMPER",
+      "kind": "jumper",
+      "sample_count": 1643,
+      "domain": {
+        "dx": [
+          0.014959506837909309,
+          4.643204219080312
+        ],
+        "cx": 7.834861005414547,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            8.029820512252456,
+            -30.182731649307183,
+            10.063375891163586
+          ],
+          [
+            12.29806522449486,
+            -30.797154924704834,
+            14.24402806988096
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.843375891163586,
+          14.364028069880959
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.1698997346619068,
+        "median_m": 0.04477059096097946,
+        "p95_m": 0.4667664974927889,
+        "max_m": 0.8935163021087646
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_07_JUMPER",
+      "kind": "jumper",
+      "sample_count": 1700,
+      "domain": {
+        "dx": [
+          0.0392077004647155,
+          4.772305280534847
+        ],
+        "cx": 7.853268502735063,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            8.072476203199779,
+            -27.24606211970584,
+            10.070776041094659
+          ],
+          [
+            12.44557378326991,
+            -27.156462266411033,
+            14.488715401907408
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.850776041094658,
+          14.608715401907407
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.30102682106269146,
+        "median_m": 0.04394139163196087,
+        "p95_m": 0.9121345251798629,
+        "max_m": 1.0234330892562866
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_08_JUMPER",
+      "kind": "jumper",
+      "sample_count": 1692,
+      "domain": {
+        "dx": [
+          0.029992607138532967,
+          4.80199618935934
+        ],
+        "cx": 7.872176634493421,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            8.082169241631954,
+            -24.14117596974611,
+            10.083187100664444
+          ],
+          [
+            12.494172823852761,
+            -23.601680849552178,
+            14.361082095480436
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.863187100664444,
+          14.481082095480435
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.3561238556235169,
+        "median_m": 0.05750473774969578,
+        "p95_m": 0.9776970386505126,
+        "max_m": 1.0637238025665283
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_09_JUMPER",
+      "kind": "jumper",
+      "sample_count": 1510,
+      "domain": {
+        "dx": [
+          0.03249089201486982,
+          4.786959877961214
+        ],
+        "cx": 7.8952828476656105,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            8.10777373968048,
+            -18.224596048369296,
+            10.09210676182483
+          ],
+          [
+            12.502242725626825,
+            -18.85629859900126,
+            14.025312559597536
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.87210676182483,
+          14.145312559597535
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.3307012452639964,
+        "median_m": 0.04925694689154625,
+        "p95_m": 0.9586357057094572,
+        "max_m": 1.0464035272598267
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_10_JUMPER",
+      "kind": "jumper",
+      "sample_count": 1494,
+      "domain": {
+        "dx": [
+          -0.02692823415654849,
+          4.7435734377838354
+        ],
+        "cx": 7.914735783900584,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            8.067807549744035,
+            -15.218324037220304,
+            10.08951399230351
+          ],
+          [
+            12.47830922168442,
+            -15.346779326490369,
+            13.798259471651056
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.86951399230351,
+          13.918259471651055
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.3484361549246029,
+        "median_m": 0.06110226549208164,
+        "p95_m": 0.9589114606380462,
+        "max_m": 1.0502002239227295
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_POS_11_JUMPER",
+      "kind": "jumper",
+      "sample_count": 1411,
+      "domain": {
+        "dx": [
+          0.010480748977270415,
+          4.652807913567237
+        ],
+        "cx": 7.933684310840247,
+        "side": 1,
+        "y_line_endpoints": [
+          [
+            8.124165059817518,
+            -12.182768398893655,
+            10.074108930526437
+          ],
+          [
+            12.406492224407485,
+            -11.754690488871677,
+            14.019151010596381
+          ]
+        ],
+        "abs_y": 0.48,
+        "z": [
+          9.854108930526436,
+          14.13915101059638
+        ],
+        "chain_vertical_and_header_excluded_by_explicit_geometry": true
+      },
+      "current": {
+        "rms_m": 0.1747340301745486,
+        "median_m": 0.04528197646141052,
+        "p95_m": 0.40378236770629883,
+        "max_m": 0.9094105362892151
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_110_00",
+      "kind": "crossline",
+      "sample_count": 2171,
+      "domain": {
+        "t": [
+          0.025,
+          0.975
+        ],
+        "abs_y_from_endpoint_line_m": 0.65,
+        "z_below_lower_end_m": 2.8,
+        "z_above_endpoint_line_m": 0.22
+      },
+      "current": {
+        "rms_m": 0.03724009411368556,
+        "median_m": 0.024472152814269066,
+        "p95_m": 0.07001462951302528,
+        "max_m": 0.11076749861240387
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_110_01",
+      "kind": "crossline",
+      "sample_count": 2250,
+      "domain": {
+        "t": [
+          0.025,
+          0.975
+        ],
+        "abs_y_from_endpoint_line_m": 0.65,
+        "z_below_lower_end_m": 2.8,
+        "z_above_endpoint_line_m": 0.22
+      },
+      "current": {
+        "rms_m": 0.04818355500409031,
+        "median_m": 0.033521078526973724,
+        "p95_m": 0.08670850954949841,
+        "max_m": 0.21867971122264862
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_110_02",
+      "kind": "crossline",
+      "sample_count": 2106,
+      "domain": {
+        "t": [
+          0.025,
+          0.975
+        ],
+        "abs_y_from_endpoint_line_m": 0.65,
+        "z_below_lower_end_m": 2.8,
+        "z_above_endpoint_line_m": 0.22
+      },
+      "current": {
+        "rms_m": 0.04816466551350633,
+        "median_m": 0.02945223543792963,
+        "p95_m": 0.08273288607597351,
+        "max_m": 0.3113567531108856
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_110_03",
+      "kind": "crossline",
+      "sample_count": 2507,
+      "domain": {
+        "t": [
+          0.025,
+          0.975
+        ],
+        "abs_y_from_endpoint_line_m": 0.65,
+        "z_below_lower_end_m": 2.8,
+        "z_above_endpoint_line_m": 0.22
+      },
+      "current": {
+        "rms_m": 0.037582157822213254,
+        "median_m": 0.024385327473282814,
+        "p95_m": 0.06979912891983986,
+        "max_m": 0.20532916486263275
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_110_04",
+      "kind": "crossline",
+      "sample_count": 3246,
+      "domain": {
+        "t": [
+          0.025,
+          0.975
+        ],
+        "abs_y_from_endpoint_line_m": 0.65,
+        "z_below_lower_end_m": 2.8,
+        "z_above_endpoint_line_m": 0.22
+      },
+      "current": {
+        "rms_m": 0.03792023596853562,
+        "median_m": 0.02620456088334322,
+        "p95_m": 0.07025893591344357,
+        "max_m": 0.11873035132884979
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_110_05",
+      "kind": "crossline",
+      "sample_count": 3113,
+      "domain": {
+        "t": [
+          0.025,
+          0.975
+        ],
+        "abs_y_from_endpoint_line_m": 0.65,
+        "z_below_lower_end_m": 2.8,
+        "z_above_endpoint_line_m": 0.22
+      },
+      "current": {
+        "rms_m": 0.03453751750033457,
+        "median_m": 0.025288905948400497,
+        "p95_m": 0.06218515634536743,
+        "max_m": 0.09755014628171921
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_00",
+      "kind": "crossline",
+      "sample_count": 1556,
+      "domain": {
+        "t": [
+          0.025,
+          0.975
+        ],
+        "abs_y_from_endpoint_line_m": 0.65,
+        "z_below_lower_end_m": 2.8,
+        "z_above_endpoint_line_m": 0.22
+      },
+      "current": {
+        "rms_m": 0.7658698830695118,
+        "median_m": 0.013583879917860031,
+        "p95_m": 1.9355085790157318,
+        "max_m": 2.328308582305908
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_01",
+      "kind": "crossline",
+      "sample_count": 1527,
+      "domain": {
+        "t": [
+          0.025,
+          0.975
+        ],
+        "abs_y_from_endpoint_line_m": 0.65,
+        "z_below_lower_end_m": 2.8,
+        "z_above_endpoint_line_m": 0.22
+      },
+      "current": {
+        "rms_m": 0.7033381727028756,
+        "median_m": 0.014631308615207672,
+        "p95_m": 1.867013549804688,
+        "max_m": 2.3470494747161865
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_02",
+      "kind": "crossline",
+      "sample_count": 1565,
+      "domain": {
+        "t": [
+          0.025,
+          0.975
+        ],
+        "abs_y_from_endpoint_line_m": 0.65,
+        "z_below_lower_end_m": 2.8,
+        "z_above_endpoint_line_m": 0.22
+      },
+      "current": {
+        "rms_m": 0.6494662396560413,
+        "median_m": 0.013978979550302029,
+        "p95_m": 1.7756668806076048,
+        "max_m": 2.3176639080047607
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_03",
+      "kind": "crossline",
+      "sample_count": 1556,
+      "domain": {
+        "t": [
+          0.025,
+          0.975
+        ],
+        "abs_y_from_endpoint_line_m": 0.65,
+        "z_below_lower_end_m": 2.8,
+        "z_above_endpoint_line_m": 0.22
+      },
+      "current": {
+        "rms_m": 0.6525914927761276,
+        "median_m": 0.013805496506392956,
+        "p95_m": 1.799120545387268,
+        "max_m": 2.290116310119629
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_04",
+      "kind": "crossline",
+      "sample_count": 1703,
+      "domain": {
+        "t": [
+          0.025,
+          0.975
+        ],
+        "abs_y_from_endpoint_line_m": 0.65,
+        "z_below_lower_end_m": 2.8,
+        "z_above_endpoint_line_m": 0.22
+      },
+      "current": {
+        "rms_m": 0.6785993341941553,
+        "median_m": 0.012799725867807865,
+        "p95_m": 1.8823237061500548,
+        "max_m": 2.3545069694519043
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "CROSS_220_05",
+      "kind": "crossline",
+      "sample_count": 1694,
+      "domain": {
+        "t": [
+          0.025,
+          0.975
+        ],
+        "abs_y_from_endpoint_line_m": 0.65,
+        "z_below_lower_end_m": 2.8,
+        "z_above_endpoint_line_m": 0.22
+      },
+      "current": {
+        "rms_m": 0.6320444830411989,
+        "median_m": 0.018935885280370712,
+        "p95_m": 1.7371903717517854,
+        "max_m": 2.3301172256469727
+      },
+      "residual_trimming": false
+    }
+  ],
+  "camera_framing": {
+    "587_B29_G110_OUT_Clean": {
+      "meshes": 2955,
+      "min": [
+        0.1599772721529007,
+        0.050000011920928955
+      ],
+      "max": [
+        0.8414664268493652,
+        0.9486194849014282
+      ]
+    },
+    "590_B29_G110_IN_Clean": {
+      "meshes": 1197,
+      "min": [
+        0.22302477061748505,
+        0.05807678401470184
+      ],
+      "max": [
+        0.7708835601806641,
+        0.949999988079071
+      ]
+    },
+    "593_B29_G220_OUT_Clean": {
+      "meshes": 3568,
+      "min": [
+        0.2505244016647339,
+        0.16902261972427368
+      ],
+      "max": [
+        0.7563676834106445,
+        0.949999988079071
+      ]
+    },
+    "596_B29_G110_OUT_Detail_Clean": {
+      "meshes": 483,
+      "min": [
+        0.2458348423242569,
+        0.31604206562042236
+      ],
+      "max": [
+        0.7336857318878174,
+        0.7049203515052795
+      ]
+    },
+    "599_B29_G220_OUT_Detail_Clean": {
+      "meshes": 1155,
+      "min": [
+        0.2301296889781952,
+        0.22445641458034515
+      ],
+      "max": [
+        0.7996006608009338,
+        0.7300604581832886
+      ]
+    },
+    "602_B29_Crossyard_Clean": {
+      "meshes": 5334,
+      "min": [
+        0.13995416462421417,
+        0.22152858972549438
+      ],
+      "max": [
+        0.9036982655525208,
+        0.8579729795455933
+      ]
+    }
+  },
+  "pending": [
+    "GIS bushing downleads and remaining minor overhead branches need continuation.",
+    "Small fittings, disc counts and conductor radii are visual approximations; reference mesh is correlated photogrammetry."
+  ],
+  "outdoor_goal_complete": false,
+  "comparison_scope": "Fixed original odd triangle domains; fit even triangles in spatially correlated reconstruction. Domains retain end fittings/secondary crossing wires; no residual trimming or survey tolerance claim."
+}

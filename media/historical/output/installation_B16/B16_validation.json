@@ -1,0 +1,518 @@
+{
+  "status": "saved_geometry_and_history_preserved_partial_alignment",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B16/r2/xialin_B16_coupler_bus_VT_r2.blend",
+  "sha256": "c35271d2284c37a33e84bed4dfa0232794248792d65fab890437320aca22ee54",
+  "previous_objects_unchanged": 24810,
+  "previous_scenes_unchanged": 217,
+  "previous_collections_unchanged": 405,
+  "previous_materials_unchanged": 303,
+  "protected_previous_files_unchanged": 1137,
+  "formal_baseline_preserved": 15096,
+  "legacy_meshes_remaining": 4524,
+  "new_candidates": 3,
+  "updated_neighbor_routes": 3,
+  "shared_VT_units": 2,
+  "source_asset_roundtrip_identical": true,
+  "connections": [
+    {
+      "a": "750",
+      "b": "VT_I",
+      "level": 0,
+      "gap_m": 1.7899392516967093e-07
+    },
+    {
+      "a": "750",
+      "b": "VT_I",
+      "level": 1,
+      "gap_m": 6.002923711828089e-08
+    },
+    {
+      "a": "VT_I",
+      "b": "VT_II",
+      "level": 0,
+      "gap_m": 8.442871858281094e-08
+    },
+    {
+      "a": "VT_I",
+      "b": "VT_II",
+      "level": 1,
+      "gap_m": 9.265730883103702e-08
+    },
+    {
+      "a": "VT_II",
+      "b": "751",
+      "level": 0,
+      "gap_m": 1.2084473415676368e-07
+    },
+    {
+      "a": "VT_II",
+      "b": "751",
+      "level": 1,
+      "gap_m": 7.613099042833118e-08
+    },
+    {
+      "a": "751",
+      "b": "500",
+      "level": 0,
+      "gap_m": 6.619314335333206e-08
+    },
+    {
+      "a": "751",
+      "b": "500",
+      "level": 1,
+      "gap_m": 3.743598689332446e-08
+    },
+    {
+      "a": "500",
+      "b": "752",
+      "level": 0,
+      "gap_m": 3.8248937063118457e-07
+    },
+    {
+      "a": "500",
+      "b": "752",
+      "level": 1,
+      "gap_m": 2.483140724805133e-07
+    }
+  ],
+  "route_checks": [
+    {
+      "object": "B16::750.route.0.+1",
+      "max_endpoint_error_m": 8.429884613974779e-08
+    },
+    {
+      "object": "B16::VT_I.route.0.-1",
+      "max_endpoint_error_m": 1.1249455222386532e-07
+    },
+    {
+      "object": "B16::750.route.1.+1",
+      "max_endpoint_error_m": 2.026697109157253e-08
+    },
+    {
+      "object": "B16::VT_I.route.1.-1",
+      "max_endpoint_error_m": 5.846043453264965e-08
+    },
+    {
+      "object": "B16::VT_I.route.0.+1",
+      "max_endpoint_error_m": 7.938125120469297e-08
+    },
+    {
+      "object": "B16::VT_II.route.0.-1",
+      "max_endpoint_error_m": 1.2759294240884438e-07
+    },
+    {
+      "object": "B16::VT_I.route.1.+1",
+      "max_endpoint_error_m": 1.4590885337960929e-07
+    },
+    {
+      "object": "B16::VT_II.route.1.-1",
+      "max_endpoint_error_m": 1.2759294228911212e-07
+    },
+    {
+      "object": "B16::VT_II.route.0.+1",
+      "max_endpoint_error_m": 5.392908465504383e-08
+    },
+    {
+      "object": "B16::751.route.0.-1",
+      "max_endpoint_error_m": 1.1279089700591105e-07
+    },
+    {
+      "object": "B16::VT_II.route.1.+1",
+      "max_endpoint_error_m": 4.4233082106536286e-08
+    },
+    {
+      "object": "B16::751.route.1.-1",
+      "max_endpoint_error_m": 4.008324470169246e-08
+    },
+    {
+      "object": "B16::751.route.0.+1",
+      "max_endpoint_error_m": 5.6529564622541235e-08
+    },
+    {
+      "object": "B16::500.route.0.-1",
+      "max_endpoint_error_m": 6.306670452364421e-08
+    },
+    {
+      "object": "B16::751.route.1.+1",
+      "max_endpoint_error_m": 3.332001076334457e-08
+    },
+    {
+      "object": "B16::500.route.1.-1",
+      "max_endpoint_error_m": 7.073004356017047e-08
+    },
+    {
+      "object": "B16::500.route.0.+1",
+      "max_endpoint_error_m": 2.165405049509189e-07
+    },
+    {
+      "object": "B16::752.route.0.-1",
+      "max_endpoint_error_m": 1.828454523712139e-07
+    },
+    {
+      "object": "B16::500.route.1.+1",
+      "max_endpoint_error_m": 1.850685851774546e-07
+    },
+    {
+      "object": "B16::752.route.1.-1",
+      "max_endpoint_error_m": 6.706168931890198e-08
+    }
+  ],
+  "cabinet_base_contacts": [
+    {
+      "key": "500",
+      "base_gap_m": -3.3527612686157227e-08
+    },
+    {
+      "key": "VT_I",
+      "base_gap_m": -1.1175870895385742e-08
+    },
+    {
+      "key": "VT_II",
+      "base_gap_m": 3.725290298461914e-09
+    }
+  ],
+  "support_contacts": [
+    {
+      "key": "752",
+      "side": -1,
+      "contacts_passed": true
+    }
+  ],
+  "measurements": [
+    {
+      "key": "500",
+      "patches": [
+        {
+          "name": "bus_0",
+          "heldout_count": 144,
+          "rms_m": 0.05386875291111858,
+          "p95_m": 0.10184034258127211,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "bus_1",
+          "heldout_count": 163,
+          "rms_m": 0.057887007412996426,
+          "p95_m": 0.10934201702475549,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "coupler_vertical",
+          "heldout_count": 224,
+          "rms_m": 0.1008867197077731,
+          "p95_m": 0.21353598833084106,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "coupler_upper_connector",
+          "heldout_count": 141,
+          "rms_m": 0.06258327896431942,
+          "p95_m": 0.14952075481414795,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "coupler_lower_connector",
+          "heldout_count": 84,
+          "rms_m": 0.029749695656448236,
+          "p95_m": 0.024395697470754336,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_front",
+          "heldout_count": 145,
+          "rms_m": 0.006791954770200833,
+          "p95_m": 0.006646886281669138,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_rear",
+          "heldout_count": 33,
+          "rms_m": 0.01639891888266211,
+          "p95_m": 0.029400315508246386,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_side_minus",
+          "heldout_count": 39,
+          "rms_m": 0.016512892586926963,
+          "p95_m": 0.02040099073201418,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_side_plus",
+          "heldout_count": 8,
+          "rms_m": 0.013475515235129415,
+          "p95_m": 0.016995889786630868,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        }
+      ]
+    },
+    {
+      "key": "VT_I",
+      "patches": [
+        {
+          "name": "bus_0",
+          "heldout_count": 132,
+          "rms_m": 0.05214684972298118,
+          "p95_m": 0.10872974097728728,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "bus_1",
+          "heldout_count": 112,
+          "rms_m": 0.033286633693928515,
+          "p95_m": 0.09858417436480521,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "VT_barrel",
+          "heldout_count": 119,
+          "rms_m": 0.0429347246462095,
+          "p95_m": 0.0970737881958483,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_front",
+          "heldout_count": 109,
+          "rms_m": 0.0032568147905146,
+          "p95_m": 0.004740568529814481,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_rear",
+          "heldout_count": 24,
+          "rms_m": 0.00706855300357631,
+          "p95_m": 0.01257283561863005,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_side_minus",
+          "heldout_count": 8,
+          "rms_m": 0.019461088260385635,
+          "p95_m": 0.020271511375904085,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_side_plus",
+          "heldout_count": 18,
+          "rms_m": 0.018776054809037462,
+          "p95_m": 0.023185397218912836,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        }
+      ]
+    },
+    {
+      "key": "VT_II",
+      "patches": [
+        {
+          "name": "bus_0",
+          "heldout_count": 114,
+          "rms_m": 0.04155200339958488,
+          "p95_m": 0.10375255085527896,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "bus_1",
+          "heldout_count": 128,
+          "rms_m": 0.046891638649737694,
+          "p95_m": 0.10351016819477081,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "VT_barrel",
+          "heldout_count": 130,
+          "rms_m": 0.05495282590506551,
+          "p95_m": 0.15043492317199703,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_front",
+          "heldout_count": 225,
+          "rms_m": 0.023080816141515758,
+          "p95_m": 0.06562060043215732,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_rear",
+          "heldout_count": 27,
+          "rms_m": 0.028279594260714417,
+          "p95_m": 0.042408339679241173,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_side_minus",
+          "heldout_count": 58,
+          "rms_m": 0.03279249770386974,
+          "p95_m": 0.07569637559354304,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_side_plus",
+          "heldout_count": 13,
+          "rms_m": 0.019886793013181903,
+          "p95_m": 0.02659426741302013,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        }
+      ]
+    }
+  ],
+  "local_screens_passed": 17,
+  "local_screens_unpassed": 6,
+  "camera_framing": {
+    "235_B16_500_Front_Clean": {
+      "min": [
+        0.23640230298042297,
+        0.10733282566070557
+      ],
+      "max": [
+        0.8221012353897095,
+        0.8269799947738647
+      ]
+    },
+    "238_B16_500_Rear_Clean": {
+      "min": [
+        0.223860502243042,
+        0.12102110683917999
+      ],
+      "max": [
+        0.8045947551727295,
+        0.7896379828453064
+      ]
+    },
+    "241_B16_500_Side_Clean": {
+      "min": [
+        0.1737498939037323,
+        0.22960937023162842
+      ],
+      "max": [
+        0.9116619825363159,
+        0.7722498774528503
+      ]
+    },
+    "244_B16_VT_I_Front_Clean": {
+      "min": [
+        0.23640191555023193,
+        0.10730595886707306
+      ],
+      "max": [
+        0.7860265374183655,
+        0.6186323761940002
+      ]
+    },
+    "247_B16_VT_I_Rear_Clean": {
+      "min": [
+        0.22386038303375244,
+        0.12102144956588745
+      ],
+      "max": [
+        0.8044275641441345,
+        0.7899286150932312
+      ]
+    },
+    "250_B16_VT_I_Side_Clean": {
+      "min": [
+        0.17375001311302185,
+        0.22960937023162842
+      ],
+      "max": [
+        0.9121737480163574,
+        0.6733806729316711
+      ]
+    },
+    "253_B16_VT_II_Front_Clean": {
+      "min": [
+        0.23640158772468567,
+        0.10764533281326294
+      ],
+      "max": [
+        0.78670334815979,
+        0.7134529948234558
+      ]
+    },
+    "256_B16_VT_II_Rear_Clean": {
+      "min": [
+        0.22386035323143005,
+        0.12102110683917999
+      ],
+      "max": [
+        0.8032837510108948,
+        0.7900566458702087
+      ]
+    },
+    "259_B16_VT_II_Side_Clean": {
+      "min": [
+        0.17374971508979797,
+        0.22960935533046722
+      ],
+      "max": [
+        0.9117434620857239,
+        0.6841915845870972
+      ]
+    },
+    "263_B16_Connected_Row": {
+      "min": [
+        0.08598063141107559,
+        0.237227201461792
+      ],
+      "max": [
+        0.8750773072242737,
+        0.7920704483985901
+      ]
+    }
+  },
+  "pending": [
+    "500 vertical and VT barrel reference patches include coarse distortions/supports; retain independent failed diagnostics and review actual saved finite surfaces.",
+    "Small pipes, terminals and exact rear-end cap taper remain approximate; no manufacturer dimensions or whole-device acceptance.",
+    "Earlier B11/B12/B13/B14/B15 unpassed patches and750/751 identity remain; other outdoor families and outer bus boundaries unfinished."
+  ],
+  "formal_promotions": 0,
+  "outdoor_goal_complete": false,
+  "scope": "saved finite surfaces and connections, source asset reuse and retained history; no whole-device acceptance",
+  "saved_by_validator": false
+}

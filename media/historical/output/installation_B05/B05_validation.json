@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "scope": "saved geometry/source/baseline preservation and recorded bounded screens, not full geometric or official semantic acceptance",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/xialin_photo_first_B05_station_preview_r2.blend",
+  "sha256": "967fccc7588893b06ae4431a03a7625eedad406670fbf2dd82de4b6943b3003b",
+  "baseline_components_preserved": 15096,
+  "retained_original_components": 14786,
+  "previous_arresters_preserved": 9,
+  "previous_partial_cabinet_preserved": 1,
+  "new_arrester_candidates": 6,
+  "new_components": 337,
+  "new_accessories": 1,
+  "total_equipment_mesh_instances": 15687,
+  "candidate_arresters": 15,
+  "partial_GIS_cabinets": 1,
+  "unpassed_new_targets": [
+    "B05_746_A",
+    "B05_746_B"
+  ],
+  "previous_748_B_failure_preserved": true,
+  "P03_full_core_still_uninstalled": true,
+  "scene_checks": {
+    "18_Photo_First_B05_Station_Clean": {
+      "candidate_meshes": 901,
+      "matrix_error": 3.633313340856148e-06
+    },
+    "19_Photo_First_B05_Coarse_Overlay": {
+      "candidate_meshes": 901,
+      "matrix_error": 3.633313340856148e-06
+    },
+    "20_B05_746_Detail": {
+      "candidate_meshes": 172,
+      "matrix_error": 3.633313340856148e-06
+    },
+    "20_B05_750_Detail": {
+      "candidate_meshes": 165,
+      "matrix_error": 1.8962107439790543e-06
+    }
+  },
+  "framing": {
+    "20_B05_746_Detail": [
+      [
+        0.21915042400360107,
+        0.053571395576000214
+      ],
+      [
+        0.7808492183685303,
+        0.9464285373687744
+      ]
+    ],
+    "20_B05_750_Detail": [
+      [
+        0.2247159630060196,
+        0.053571444004774094
+      ],
+      [
+        0.7752841711044312,
+        0.9464285373687744
+      ]
+    ]
+  },
+  "mounting_checks": [
+    {
+      "target": "B05_746_A",
+      "shaft_rms_m": 0.04915879635508301,
+      "mounting_screen_passed": false,
+      "accessory_installed": false
+    },
+    {
+      "target": "B05_746_B",
+      "shaft_rms_m": 0.0321987936538928,
+      "mounting_screen_passed": false,
+      "accessory_installed": true
+    },
+    {
+      "target": "B05_746_C",
+      "shaft_rms_m": 0.027847153412763084,
+      "mounting_screen_passed": true,
+      "accessory_installed": false
+    },
+    {
+      "target": "B05_750_A",
+      "shaft_rms_m": 0.031522153074985945,
+      "mounting_screen_passed": true,
+      "accessory_installed": false
+    },
+    {
+      "target": "B05_750_B",
+      "shaft_rms_m": 0.030083283782525908,
+      "mounting_screen_passed": true,
+      "accessory_installed": false
+    },
+    {
+      "target": "B05_750_C",
+      "shaft_rms_m": 0.031883781372840404,
+      "mounting_screen_passed": true,
+      "accessory_installed": false
+    }
+  ],
+  "coarse_tiles_preserved": 23,
+  "protected_files": 240,
+  "nonuniform_scale_detection": "passed_restored",
+  "formal_promotions": 0,
+  "blend_saved_by_validator": false
+}

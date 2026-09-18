@@ -1,0 +1,755 @@
+{
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B36/xialin_B36_transformer_bus_racks_r3.blend",
+  "sha256": "b6bbc3caeffdf72ca52df2dd5e01234269fe652827131e64f1f8a1da7ef502e8",
+  "previous_objects_unchanged": 36615,
+  "previous_scenes_unchanged": 731,
+  "previous_collections_unchanged": 827,
+  "previous_materials_unchanged": 392,
+  "previous_station_transforms_unchanged": 7114,
+  "protected_files_unchanged": 2798,
+  "counts": {
+    "objects": 36812,
+    "scenes": 743,
+    "station_objects": 7116
+  },
+  "summary": {
+    "main_columns": 5,
+    "wall_stands": 6,
+    "post_insulators": 33,
+    "wall_bushings": 6,
+    "main_busbar_routes": 6,
+    "assemblies": 2
+  },
+  "shared_main_transformers_preserved": true,
+  "shared_new_component_masters": true,
+  "asset_roundtrip_identical": true,
+  "finite_new_geometry": true,
+  "source_checks": [
+    {
+      "key": "T1",
+      "part": "post_0",
+      "samples": 201,
+      "shaft_radial_rms_m": 0.02248141492990122,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "post_1",
+      "samples": 185,
+      "shaft_radial_rms_m": 0.002342453867089377,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "post_2",
+      "samples": 180,
+      "shaft_radial_rms_m": 0.002114120204800989,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "wall_stand_0",
+      "samples": 209,
+      "shaft_radial_rms_m": 0.02626001277938494,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "wall_stand_1",
+      "samples": 258,
+      "shaft_radial_rms_m": 0.029513077134876067,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "wall_stand_2",
+      "samples": 216,
+      "shaft_radial_rms_m": 0.03267449073864521,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_00",
+      "samples": 69,
+      "surface_rms_m": 0.00923737315241997,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_01",
+      "samples": 62,
+      "surface_rms_m": 0.010569931520603345,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_02",
+      "samples": 69,
+      "surface_rms_m": 0.005400637290772015,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_03",
+      "samples": 70,
+      "surface_rms_m": 0.04109715322750206,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_04",
+      "samples": 66,
+      "surface_rms_m": 0.012551163662886774,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_05",
+      "samples": 76,
+      "surface_rms_m": 0.010254002958280503,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_06",
+      "samples": 78,
+      "surface_rms_m": 0.03269234832906507,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_07",
+      "samples": 41,
+      "surface_rms_m": 0.012202504975236025,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_08",
+      "samples": 75,
+      "surface_rms_m": 0.007163196264146983,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_09",
+      "samples": 69,
+      "surface_rms_m": 0.00930182026552505,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_10",
+      "samples": 74,
+      "surface_rms_m": 0.010722578289647495,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_11",
+      "samples": 51,
+      "surface_rms_m": 0.008720966800245427,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_12",
+      "samples": 76,
+      "surface_rms_m": 0.010022275075656045,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_13",
+      "samples": 64,
+      "surface_rms_m": 0.008635346474193843,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_14",
+      "samples": 49,
+      "surface_rms_m": 0.009122093854632463,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_15",
+      "samples": 51,
+      "surface_rms_m": 0.006102570125593747,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_16",
+      "samples": 29,
+      "surface_rms_m": 0.023486526376929523,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_17",
+      "samples": 53,
+      "surface_rms_m": 0.0174391797211021,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_18",
+      "samples": 51,
+      "surface_rms_m": 0.008530944509752135,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_19",
+      "samples": 55,
+      "surface_rms_m": 0.020472652718171218,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T1",
+      "part": "insulator_20",
+      "samples": 69,
+      "surface_rms_m": 0.010348621298664713,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "post_0",
+      "samples": 211,
+      "shaft_radial_rms_m": 0.023460473416128697,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "post_1",
+      "samples": 173,
+      "shaft_radial_rms_m": 0.004234131561212786,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "wall_stand_0",
+      "samples": 222,
+      "shaft_radial_rms_m": 0.02896077235708443,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "wall_stand_1",
+      "samples": 198,
+      "shaft_radial_rms_m": 0.030483662538940304,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "wall_stand_2",
+      "samples": 222,
+      "shaft_radial_rms_m": 0.02460923487692081,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "insulator_00",
+      "samples": 46,
+      "surface_rms_m": 0.008456875315435763,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "insulator_01",
+      "samples": 50,
+      "surface_rms_m": 0.0072100421492339375,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "insulator_02",
+      "samples": 56,
+      "surface_rms_m": 0.01584093333242381,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "insulator_03",
+      "samples": 49,
+      "surface_rms_m": 0.03295627143532618,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "insulator_04",
+      "samples": 44,
+      "surface_rms_m": 0.015526631949304343,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "insulator_05",
+      "samples": 62,
+      "surface_rms_m": 0.011720974846312042,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "insulator_06",
+      "samples": 81,
+      "surface_rms_m": 0.020411481920908907,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "insulator_07",
+      "samples": 46,
+      "surface_rms_m": 0.011827711950473224,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "insulator_08",
+      "samples": 69,
+      "surface_rms_m": 0.007918046236826445,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "insulator_09",
+      "samples": 61,
+      "surface_rms_m": 0.00731301109615185,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "insulator_10",
+      "samples": 56,
+      "surface_rms_m": 0.00668551454354155,
+      "source": "odd original triangles"
+    },
+    {
+      "key": "T2",
+      "part": "insulator_11",
+      "samples": 49,
+      "surface_rms_m": 0.008341800234846644,
+      "source": "odd original triangles"
+    }
+  ],
+  "foundation_contacts": [
+    {
+      "name": "B36::T1.post_0.foundation",
+      "bottom": -0.2071586810052395,
+      "top": 0.09999999776482582,
+      "ground": -0.16695284843444824,
+      "foot_gap_m": 7.450580596923828e-09
+    },
+    {
+      "name": "B36::T1.post_1.foundation",
+      "bottom": -0.15465676598250866,
+      "top": 0.09999999590218067,
+      "ground": -0.11453700065612793,
+      "foot_gap_m": 7.450580596923828e-09
+    },
+    {
+      "name": "B36::T1.post_2.foundation",
+      "bottom": -0.15002684853971004,
+      "top": 0.10000000335276127,
+      "ground": -0.11004292964935303,
+      "foot_gap_m": 0.0
+    },
+    {
+      "name": "B36::T1.wall_stand_0.foundation",
+      "bottom": -0.1334415152668953,
+      "top": 0.10000000149011612,
+      "ground": -0.03946948051452637,
+      "foot_gap_m": 0.0
+    },
+    {
+      "name": "B36::T1.wall_stand_1.foundation",
+      "bottom": -0.13391035050153732,
+      "top": 0.10000000149011612,
+      "ground": -0.039815664291381836,
+      "foot_gap_m": 0.0
+    },
+    {
+      "name": "B36::T1.wall_stand_2.foundation",
+      "bottom": -0.13585410825908184,
+      "top": 0.09999999590218067,
+      "ground": -0.04175567626953125,
+      "foot_gap_m": 7.450580596923828e-09
+    },
+    {
+      "name": "B36::T2.post_0.foundation",
+      "bottom": -0.22856798022985458,
+      "top": 0.07499999552965164,
+      "ground": -0.18854928016662598,
+      "foot_gap_m": 7.450580596923828e-09
+    },
+    {
+      "name": "B36::T2.post_1.foundation",
+      "bottom": -0.1765853948891163,
+      "top": 0.07499999925494194,
+      "ground": -0.13657796382904053,
+      "foot_gap_m": 0.0
+    },
+    {
+      "name": "B36::T2.wall_stand_0.foundation",
+      "bottom": -0.1661132462322712,
+      "top": 0.07499999925494194,
+      "ground": -0.07196986675262451,
+      "foot_gap_m": 0.0
+    },
+    {
+      "name": "B36::T2.wall_stand_1.foundation",
+      "bottom": -0.16372010484337807,
+      "top": 0.07499999925494194,
+      "ground": -0.06954383850097656,
+      "foot_gap_m": 0.0
+    },
+    {
+      "name": "B36::T2.wall_stand_2.foundation",
+      "bottom": -0.16079135239124298,
+      "top": 0.07500000298023224,
+      "ground": -0.06658291816711426,
+      "foot_gap_m": 0.0
+    }
+  ],
+  "column_beam_contacts": [
+    {
+      "key": "T1",
+      "part": "post_0",
+      "gap_m": 1.0490417468034252e-07
+    },
+    {
+      "key": "T1",
+      "part": "post_1",
+      "gap_m": 1.0490417468034252e-07
+    },
+    {
+      "key": "T1",
+      "part": "post_2",
+      "gap_m": 1.0490417468034252e-07
+    },
+    {
+      "key": "T2",
+      "part": "post_0",
+      "gap_m": 3.814697269177714e-08
+    },
+    {
+      "key": "T2",
+      "part": "post_1",
+      "gap_m": 3.814697269177714e-08
+    }
+  ],
+  "insulator_contacts": [
+    {
+      "key": "T1",
+      "index": 0,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.00699925422668457,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 1,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006998777389526367,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 2,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999969482421875,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 3,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999492645263672,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 4,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999492645263672,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 5,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999969482421875,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 6,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999969482421875,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 7,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999972276389599,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 8,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999972276389599,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 9,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.00699997041374445,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 10,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999969482421875,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 11,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.013036775402724743,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 12,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999973673373461,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 13,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999969482421875,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 14,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999969482421875,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 15,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999969482421875,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 16,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999969482421875,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 17,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999969482421875,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 18,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999969482421875,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 19,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999969482421875,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T1",
+      "index": 20,
+      "base_gap_m": 7.629394538355427e-08,
+      "cap_center_to_bus_surface_m": 0.006999969482421875,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T2",
+      "index": 0,
+      "base_gap_m": 6.675720198856538e-08,
+      "cap_center_to_bus_surface_m": 0.0069997310638427734,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T2",
+      "index": 1,
+      "base_gap_m": 6.675720198856538e-08,
+      "cap_center_to_bus_surface_m": 0.0069997310638427734,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T2",
+      "index": 2,
+      "base_gap_m": 6.675720198856538e-08,
+      "cap_center_to_bus_surface_m": 0.006999969482421875,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T2",
+      "index": 3,
+      "base_gap_m": 6.675720198856538e-08,
+      "cap_center_to_bus_surface_m": 0.0069997310638427734,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T2",
+      "index": 4,
+      "base_gap_m": 6.675720198856538e-08,
+      "cap_center_to_bus_surface_m": 0.0069997310638427734,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T2",
+      "index": 5,
+      "base_gap_m": 6.675720198856538e-08,
+      "cap_center_to_bus_surface_m": 0.006999969482421875,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T2",
+      "index": 6,
+      "base_gap_m": 6.675720198856538e-08,
+      "cap_center_to_bus_surface_m": 0.0069997310638427734,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T2",
+      "index": 7,
+      "base_gap_m": 6.675720198856538e-08,
+      "cap_center_to_bus_surface_m": 0.011129379272460938,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T2",
+      "index": 8,
+      "base_gap_m": 6.675720198856538e-08,
+      "cap_center_to_bus_surface_m": 0.006999969482421875,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T2",
+      "index": 9,
+      "base_gap_m": 6.675720198856538e-08,
+      "cap_center_to_bus_surface_m": 0.006438923999667168,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T2",
+      "index": 10,
+      "base_gap_m": 6.675720198856538e-08,
+      "cap_center_to_bus_surface_m": 0.008190343156456947,
+      "cap_half_width_m": 0.1
+    },
+    {
+      "key": "T2",
+      "index": 11,
+      "base_gap_m": 6.675720198856538e-08,
+      "cap_center_to_bus_surface_m": 0.006999969482421875,
+      "cap_half_width_m": 0.1
+    }
+  ],
+  "endpoint_checks": [
+    {
+      "key": "T1",
+      "bar": 0,
+      "b08_stub_gap_m": 1.8629412579402554e-07,
+      "wall_bushing_gap_m": 2.690727595777261e-07
+    },
+    {
+      "key": "T1",
+      "bar": 1,
+      "b08_stub_gap_m": 1.9750112775110247e-07,
+      "wall_bushing_gap_m": 1.9223082549575242e-07
+    },
+    {
+      "key": "T1",
+      "bar": 2,
+      "b08_stub_gap_m": 1.605192076350366e-07,
+      "wall_bushing_gap_m": 1.2141337937012434e-07
+    },
+    {
+      "key": "T2",
+      "bar": 0,
+      "b08_stub_gap_m": 3.683208342313402e-07,
+      "wall_bushing_gap_m": 6.881563593299123e-08
+    },
+    {
+      "key": "T2",
+      "bar": 1,
+      "b08_stub_gap_m": 3.6828940995705654e-07,
+      "wall_bushing_gap_m": 3.738365779494559e-07
+    },
+    {
+      "key": "T2",
+      "bar": 2,
+      "b08_stub_gap_m": 4.6045214334309955e-07,
+      "wall_bushing_gap_m": 1.528396005326364e-07
+    }
+  ],
+  "camera_framing": {
+    "747_B36_T1_Rack_Clean": {
+      "min": [
+        0.18441326916217804,
+        0.10279715806245804
+      ],
+      "max": [
+        0.8420005440711975,
+        0.9326307773590088
+      ]
+    },
+    "750_B36_T2_Rack_Clean": {
+      "min": [
+        0.20910613238811493,
+        0.059999980032444
+      ],
+      "max": [
+        0.7060206532478333,
+        0.8334282636642456
+      ]
+    },
+    "757_B36_Station_Clean": {
+      "min": [
+        0.09812121093273163,
+        0.15025067329406738
+      ],
+      "max": [
+        0.8983776569366455,
+        0.9399999976158142
+      ]
+    }
+  },
+  "limitations": [
+    "Dimensions regularized from the registered reconstruction and source photos, not independent survey.",
+    "T1 side branch and T2 straight routing are separate installed assemblies; manufactured component meshes shared.",
+    "Electrical phase identities, rated model numbers, hidden wall interiors and underground routes unassigned.",
+    "Shed count, small clamps and fasteners approximate from photos.",
+    "Main busbars terminate at exterior wall bushings. Existing B08 short terminal bars remain intact.",
+    "Red incoming bars have a local lateral reconciliation of up to 0.16m around retained approximate fire risers; measured terminal endpoints and supported rack route remain unchanged."
+  ],
+  "comparison_scope": "Source surface checks use odd original triangles in previously fixed part regions. Same reconstruction as modeling; no independent survey accuracy claim."
+}

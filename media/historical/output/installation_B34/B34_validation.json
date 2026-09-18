@@ -1,0 +1,85 @@
+{
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B34/xialin_B34_ground_roads_perimeter.blend",
+  "sha256": "225985c7898f4ac3ea550df9a3d8ef8d2300e460d953891600dc62489c4fda8d",
+  "previous_objects_unchanged": 35034,
+  "previous_scenes_unchanged": 697,
+  "previous_collections_unchanged": 787,
+  "previous_materials_unchanged": 376,
+  "previous_station_transforms_unchanged": 7110,
+  "protected_previous_files_unchanged": 3180,
+  "source_asset_roundtrip_identical": true,
+  "shared_main_transformers_preserved": true,
+  "counts": {
+    "objects": 35550,
+    "scenes": 710,
+    "station_objects": 7112
+  },
+  "ground_surface_area_m2": 10181.74482784179,
+  "ground_vertex_roundtrip_max_m": 4.58641310621365e-06,
+  "downward_foundation_contacts": 129,
+  "foundation_join_max_error_m": 7.450580596923828e-09,
+  "new_wall_segments": 4,
+  "wall_junctions_connected": true,
+  "wall_checks": [
+    {
+      "face": "west",
+      "samples": 6789,
+      "rms_m": 0.039040842569645726,
+      "p95_m": 0.08393061757087707,
+      "residual_trimming": false
+    },
+    {
+      "face": "east",
+      "samples": 5133,
+      "rms_m": 0.05218442513717284,
+      "p95_m": 0.09819892793893813,
+      "residual_trimming": false
+    },
+    {
+      "face": "front",
+      "samples": 2212,
+      "rms_m": 0.044482414429812996,
+      "p95_m": 0.1005468986928463,
+      "residual_trimming": false
+    }
+  ],
+  "camera_framing": {
+    "713_B34_Station_West_Clean": {
+      "min": [
+        0.09812121093273163,
+        0.15025067329406738
+      ],
+      "max": [
+        0.8983776569366455,
+        0.9399999976158142
+      ]
+    },
+    "716_B34_Station_Top_Clean": {
+      "min": [
+        0.2667248249053955,
+        0.060451049357652664
+      ],
+      "max": [
+        0.7297066450119019,
+        0.9399999976158142
+      ]
+    },
+    "722_B34_Station_East_Clean": {
+      "min": [
+        0.0726616382598877,
+        0.16177964210510254
+      ],
+      "max": [
+        0.9235650300979614,
+        0.8782023787498474
+      ]
+    }
+  },
+  "limitations": [
+    "North wall joins the two visible return corners; its missing span is inferred.",
+    "Roads and paving regularized from visible low mesh bands and photos, construction widths approximate.",
+    "Ground smooth interpolation through reconstruction gaps; new contact skirts continue existing low concrete footprint downward, no equipment moved."
+  ],
+  "comparison_scope": "Fixed odd original triangles for three observed wall datums. Missing north wall inferred; ground grid and roadway reconstruction are visual modeling rather than independent survey.",
+  "broader_objective_complete": false
+}

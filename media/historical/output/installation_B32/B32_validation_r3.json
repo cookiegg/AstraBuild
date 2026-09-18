@@ -1,0 +1,211 @@
+{
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/xialin_B32_secondary_equipment_cabins_r3.blend",
+  "sha256": "b0265b2626a009cea20056b08d01e671d0761952710185b375b0cfd3780a587f",
+  "previous_objects_unchanged": 34191,
+  "previous_scenes_unchanged": 640,
+  "previous_collections_unchanged": 758,
+  "previous_materials_unchanged": 356,
+  "previous_station_objects_unchanged": 7114,
+  "protected_previous_files_unchanged": 2953,
+  "source_asset_roundtrip_identical": true,
+  "shared_main_transformers_preserved": true,
+  "shared_end_modules": 4,
+  "shared_doors": 3,
+  "counts": {
+    "objects": 34436,
+    "scenes": 667,
+    "station_objects": 7116
+  },
+  "max_transform_rounding_m": 1.3999352344029603e-07,
+  "envelopes": [
+    {
+      "key": "C110",
+      "width": 2.8007682703494936,
+      "length": 9.192887260552247,
+      "root_rigid": true,
+      "label_polygons": 421,
+      "shared_end_modules": 2,
+      "door_side": "east"
+    },
+    {
+      "key": "C220",
+      "width": 2.798609358864721,
+      "length": 12.197216591614193,
+      "root_rigid": true,
+      "label_polygons": 447,
+      "shared_end_modules": 2,
+      "door_side": "west"
+    }
+  ],
+  "facade_checks": [
+    {
+      "key": "C110",
+      "face": "west",
+      "samples": 682,
+      "rms_m": 0.0027524249747724553,
+      "median_m": 0.0016405241913162172,
+      "p95_m": 0.0055210277670994365,
+      "max_m": 0.011579705402255058,
+      "residual_trimming": false
+    },
+    {
+      "key": "C110",
+      "face": "east",
+      "samples": 443,
+      "rms_m": 0.002689312381895265,
+      "median_m": 0.0012404267909005284,
+      "p95_m": 0.004996187752112742,
+      "max_m": 0.012277520261704922,
+      "residual_trimming": false
+    },
+    {
+      "key": "C110",
+      "face": "front",
+      "samples": 126,
+      "rms_m": 0.04359682509859619,
+      "median_m": 0.0048459826502949,
+      "p95_m": 0.1221485435962677,
+      "max_m": 0.12557543814182281,
+      "residual_trimming": false
+    },
+    {
+      "key": "C110",
+      "face": "rear",
+      "samples": 142,
+      "rms_m": 0.04509278116180831,
+      "median_m": 0.0046503012999892235,
+      "p95_m": 0.12586284205317497,
+      "max_m": 0.12671540677547455,
+      "residual_trimming": false
+    },
+    {
+      "key": "C220",
+      "face": "west",
+      "samples": 658,
+      "rms_m": 0.014631173387257257,
+      "median_m": 0.003712171223014593,
+      "p95_m": 0.016126845777034757,
+      "max_m": 0.17078495025634766,
+      "residual_trimming": false
+    },
+    {
+      "key": "C220",
+      "face": "east",
+      "samples": 485,
+      "rms_m": 0.0027448941788359212,
+      "median_m": 0.001868569990620017,
+      "p95_m": 0.005488736368715763,
+      "max_m": 0.007640998810529709,
+      "residual_trimming": false
+    },
+    {
+      "key": "C220",
+      "face": "front",
+      "samples": 109,
+      "rms_m": 0.04501884112152473,
+      "median_m": 0.005149054806679487,
+      "p95_m": 0.1267874449491501,
+      "max_m": 0.14516855776309967,
+      "residual_trimming": false
+    },
+    {
+      "key": "C220",
+      "face": "rear",
+      "samples": 101,
+      "rms_m": 0.035972615425846156,
+      "median_m": 0.005818898789584637,
+      "p95_m": 0.11337170749902725,
+      "max_m": 0.14290645718574524,
+      "residual_trimming": false
+    }
+  ],
+  "camera_framing": {
+    "658_B32_C110_Oblique_Clean": {
+      "min": [
+        0.2909527122974396,
+        0.22949457168579102
+      ],
+      "max": [
+        0.7090474963188171,
+        0.7632807493209839
+      ]
+    },
+    "661_B32_C110_Side_Clean": {
+      "min": [
+        0.19040939211845398,
+        0.3378123641014099
+      ],
+      "max": [
+        0.8095897436141968,
+        0.6462500095367432
+      ]
+    },
+    "664_B32_C110_End_Clean": {
+      "min": [
+        0.26453346014022827,
+        0.08784497529268265
+      ],
+      "max": [
+        0.9399999976158142,
+        0.8496369123458862
+      ]
+    },
+    "667_B32_C110_Top_Clean": {
+      "min": [
+        0.4102715253829956,
+        0.06293164938688278
+      ],
+      "max": [
+        0.6676696538925171,
+        0.9370685815811157
+      ]
+    },
+    "670_B32_C220_Oblique_Clean": {
+      "min": [
+        0.19481226801872253,
+        0.17856302857398987
+      ],
+      "max": [
+        0.7557557821273804,
+        0.7884897589683533
+      ]
+    },
+    "673_B32_C220_Side_Clean": {
+      "min": [
+        0.09652489423751831,
+        0.32187527418136597
+      ],
+      "max": [
+        0.9034758806228638,
+        0.6321882009506226
+      ]
+    },
+    "676_B32_C220_End_Clean": {
+      "min": [
+        0.07138605415821075,
+        0.05999999865889549
+      ],
+      "max": [
+        0.7292968034744263,
+        0.8068723678588867
+      ]
+    },
+    "679_B32_C220_Top_Clean": {
+      "min": [
+        0.3705315589904785,
+        0.060000061988830566
+      ],
+      "max": [
+        0.5692620277404785,
+        0.940000057220459
+      ]
+    }
+  },
+  "limitations": [
+    "Shell datums from correlated registered reconstruction; door centers, roof sheets and small HVAC details use photo-derived regularization.",
+    "C110 east door at local Y -3.90, C220 two west doors at -5.50 and +5.32: source stair footprints and photos DSC3140/DJI0001/0002. Door centers regularized to stair platforms; green corner strips clipped around real door openings. Floor and stair elevations approximate source deck levels. Hidden interiors and precise manufacturer dimensions not reconstructed.",
+    "Other entrance/service buildings, roads, missing boundary walls and auxiliary facilities still require modeling."
+  ],
+  "comparison_scope": "Fixed odd original-triangle wall domains; even triangles used for wall datum fit. Correlated reconstruction, no independent survey claim or residual trimming.",
+  "broader_objective_complete": false
+}

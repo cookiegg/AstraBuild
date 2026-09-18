@@ -1,0 +1,17 @@
+{
+ "baseline_sha256": "ca84352903281ba8ff431ab22f32efe76efa5098061fc45fcb447d73717e7db4",
+ "assign_counts": {
+  "MTL_STEEL_GALV": 493,
+  "MTL_CONDUCTOR": 446,
+  "MTL_ALU_PIPE": 36,
+  "MTL_FITTING": 812,
+  "MTL_PORCELAIN_DARK": 18,
+  "MTL_PORCELAIN_LIGHT": 91
+ },
+ "assigned_total": 1896,
+ "n_objects": 37153,
+ "n_scenes": 755,
+ "n_collections": 858,
+ "n_meshes": 3916,
+ "n_materials": 416
+}

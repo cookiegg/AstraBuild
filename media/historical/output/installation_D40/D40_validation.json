@@ -1,0 +1,13 @@
+{
+ "baseline_hash_unchanged": true,
+ "counts_match_manifest": true,
+ "counts_match_d38_baseline": true,
+ "total_verts_finite": true,
+ "recorded_total_verts": 29986649,
+ "assignments_verified": true,
+ "assignments_failed": 0,
+ "assignments_total": 1896,
+ "material_params_ok": true,
+ "render_nonempty": true,
+ "result": "D40_VALIDATED"
+}

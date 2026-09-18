@@ -1,0 +1,1066 @@
+{
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/r2/xialin_B12_749_GIS_r2.blend",
+  "sha256": "933674f4802f36c22cd25b2b43579987ffb09c8bab18c7ddddae53d89d9b649c",
+  "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/B12_749_modular_exterior.blend",
+  "asset_sha256": "f691d9eb934ea9eedecdf78746866acb068b93f6e81ad9d6d0ab1b7f9d4f32b2",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/xialin_B11_110kV_arresters_r2.blend",
+  "previous_sha256": "0a18323d9ded48d5ec5e4e05b386111f8ba76403e7f237db6d25007e85badd05",
+  "previous_scenes": [
+    "07_Full_Station_Semantic_v50",
+    "100_B11_759_Reference",
+    "101_B11_T1_501_Clean",
+    "102_B11_T1_501_Overlay",
+    "103_B11_T1_501_Reference",
+    "104_B11_T2_MV_Clean",
+    "105_B11_T2_MV_Overlay",
+    "106_B11_T2_MV_Reference",
+    "107_B11_110kV_Arresters",
+    "18_Photo_First_B05_Station_Clean",
+    "19_Photo_First_B05_Coarse_Overlay",
+    "20_B05_746_Detail",
+    "20_B05_750_Detail",
+    "21_Photo_First_B06_Station_Clean",
+    "22_Photo_First_B06_Coarse_Overlay",
+    "23_B06_Wall_Top_Overlay",
+    "24_B06_Station_Perspective",
+    "25_B06_Wall_Top_Clean",
+    "26_B06_Gate_Overlay",
+    "27_B07_Station_Clean",
+    "28_B07_Station_Overlay",
+    "29_B07_T1_Clean",
+    "30_B07_T1_Overlay",
+    "31_B07_T1_Reference",
+    "32_B07_T1_Top_Overlay",
+    "33_B07_T1_Before_Overlay",
+    "34_B08_Station_Clean",
+    "35_B08_Station_Overlay",
+    "36_B08_T1_Front_Clean",
+    "37_B08_T1_Rear_Clean",
+    "38_B08_T1_Rear_Overlay",
+    "39_B08_T1_Top_Overlay",
+    "40_B08_T2_Rear_Clean",
+    "41_B08_T2_Rear_Overlay",
+    "42_B08_Transformer_Pair",
+    "43_B08_T1_Leads_Overlay",
+    "44_B08_EDIT_SHARED_MASTER",
+    "45_B08_T1_Rear_Reference",
+    "46_B08_T2_Rear_Reference",
+    "47_B09_Station_Clean",
+    "48_B09_Station_Overlay",
+    "49_B09_031_Clean",
+    "50_B09_031_Overlay",
+    "51_B09_031_Reference",
+    "52_B09_032_Clean",
+    "53_B09_032_Overlay",
+    "54_B09_032_Reference",
+    "55_B09_033_Clean",
+    "56_B09_033_Overlay",
+    "57_B09_033_Reference",
+    "58_B09_031_Top_Overlay",
+    "59_B09_Three_Banks",
+    "60_B09_EDIT_031_LOCAL",
+    "61_B10_Station_Clean",
+    "62_B10_Station_Overlay",
+    "63_B10_031_Clean",
+    "64_B10_031_Overlay",
+    "65_B10_031_Reference",
+    "66_B10_032_Clean",
+    "67_B10_032_Overlay",
+    "68_B10_032_Reference",
+    "69_B10_033_Clean",
+    "70_B10_033_Overlay",
+    "71_B10_033_Reference",
+    "72_B10_034_Clean",
+    "73_B10_034_Overlay",
+    "74_B10_034_Reference",
+    "75_B10_035_Clean",
+    "76_B10_035_Overlay",
+    "77_B10_035_Reference",
+    "78_B10_036_Clean",
+    "79_B10_036_Overlay",
+    "80_B10_036_Reference",
+    "81_B10_Six_Banks",
+    "82_B10_031_Top_Overlay",
+    "83_B10_EDIT_034_LOCAL",
+    "84_B11_Station_Clean",
+    "85_B11_Station_Overlay",
+    "86_B11_746_Clean",
+    "87_B11_746_Overlay",
+    "88_B11_746_Reference",
+    "89_B11_748_Clean",
+    "90_B11_748_Overlay",
+    "91_B11_748_Reference",
+    "92_B11_751_Clean",
+    "93_B11_751_Overlay",
+    "94_B11_751_Reference",
+    "95_B11_758_Clean",
+    "96_B11_758_Overlay",
+    "97_B11_758_Reference",
+    "98_B11_759_Clean",
+    "99_B11_759_Overlay"
+  ],
+  "new_scenes": [
+    "108_B12_Station_Clean",
+    "109_B12_Station_Overlay",
+    "110_B12_749_Rear_Clean",
+    "111_B12_749_Rear_Overlay",
+    "112_B12_749_Rear_Reference",
+    "113_B12_749_Front_Clean",
+    "114_B12_749_Front_Overlay",
+    "115_B12_749_Front_Reference",
+    "116_B12_749_Side_Clean",
+    "117_B12_749_Side_Overlay",
+    "118_B12_749_Side_Reference",
+    "119_B12_749_Top_Clean",
+    "120_B12_749_Top_Overlay",
+    "121_B12_749_Top_Reference",
+    "122_B12_749_Local_Edit"
+  ],
+  "detail_scenes": [
+    "110_B12_749_Rear_Clean",
+    "113_B12_749_Front_Clean",
+    "116_B12_749_Side_Clean",
+    "119_B12_749_Top_Clean"
+  ],
+  "station_scene": "108_B12_Station_Clean",
+  "default_scene": "110_B12_749_Rear_Clean",
+  "edit_scene": "122_B12_749_Local_Edit",
+  "master_collection": "B12_749_EXTERIOR_MASTER",
+  "bushing_master": "B12_COMPACT_BUSHING_MASTER",
+  "upper_module": "B12_UPPER_METAL_MODULE",
+  "source_collections": [
+    "P03_BUS_LEVEL_UNIT",
+    "P03_CORE_STRUCTURE"
+  ],
+  "site_collection": "B12_749_SITE",
+  "context": "B12_UNCHANGED_STATION_COMPONENTS",
+  "reference_collection": "B12_749_REFERENCE",
+  "frame_to_world": [
+    [
+      -0.9012996483415838,
+      0.4331961956196493,
+      0.0,
+      18.67894
+    ],
+    [
+      -0.4331961956196492,
+      -0.9012996483415837,
+      0.0,
+      14.759939999999999
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "created_meshes": [
+    "B12::compact.base_flange",
+    "B12::compact.neck",
+    "B12::compact.insulating_core",
+    "B12::compact.shed.00",
+    "B12::compact.shed.01",
+    "B12::compact.shed.02",
+    "B12::compact.shed.03",
+    "B12::compact.shed.04",
+    "B12::compact.shed.05",
+    "B12::compact.shed.06",
+    "B12::compact.shed.07",
+    "B12::compact.shed.08",
+    "B12::compact.shed.09",
+    "B12::compact.shed.10",
+    "B12::compact.shed.11",
+    "B12::compact.shed.12",
+    "B12::compact.shed.13",
+    "B12::compact.shed.14",
+    "B12::compact.shed.15",
+    "B12::compact.shed.16",
+    "B12::compact.shed.17",
+    "B12::compact.shed.18",
+    "B12::compact.shed.19",
+    "B12::compact.shed.20",
+    "B12::compact.shed.21",
+    "B12::compact.shed.22",
+    "B12::compact.shed.23",
+    "B12::compact.shed.24",
+    "B12::compact.shed.25",
+    "B12::compact.shed.26",
+    "B12::compact.shed.27",
+    "B12::compact.tip_collar",
+    "B12::compact.terminal",
+    "B12::compact.lug",
+    "B12::front_bus_neck.0",
+    "B12::front_bus_neck.0.ring",
+    "B12::bus_spool.0.-1",
+    "B12::bus_spool.0.-1.joint",
+    "B12::bus_spool.0.1",
+    "B12::bus_spool.0.1.joint",
+    "B12::front_bus_neck.1",
+    "B12::front_bus_neck.1.ring",
+    "B12::bus_spool.1.-1",
+    "B12::bus_spool.1.-1.joint",
+    "B12::bus_spool.1.1",
+    "B12::bus_spool.1.1.joint",
+    "B12::front_vertical_shell",
+    "B12::front_vertical_cap",
+    "B12::front_vertical_joint.0",
+    "B12::front_vertical_joint.1",
+    "B12::front_vertical_joint.2",
+    "B12::longitudinal_tank",
+    "B12::longitudinal_joint.0",
+    "B12::longitudinal_joint.1",
+    "B12::longitudinal_joint.2",
+    "B12::rear_vertical_shell",
+    "B12::rear_vertical_joint.0",
+    "B12::rear_vertical_band.0",
+    "B12::rear_vertical_joint.1",
+    "B12::rear_vertical_band.1",
+    "B12::rear_vertical_joint.2",
+    "B12::rear_vertical_band.2",
+    "B12::rear_vertical_joint.3",
+    "B12::rear_vertical_band.3",
+    "B12::rear_vertical_joint.4",
+    "B12::rear_vertical_band.4",
+    "B12::rear_vertical_joint.5",
+    "B12::rear_vertical_band.5",
+    "B12::fan.link",
+    "B12::fan.link_joint.0",
+    "B12::fan.link_joint.1",
+    "B12::fan.head",
+    "B12::fan.neck.side_plus",
+    "B12::fan.neck.side_minus",
+    "B12::fan.neck.rear",
+    "B12::drive.base",
+    "B12::drive.case",
+    "B12::drive.panel",
+    "B12::drive.rain_cover",
+    "B12::drive.cowl",
+    "B12::rear.mechanism",
+    "B12::gauge.rim.0",
+    "B12::gauge.face.0",
+    "B12::gauge.rim.1",
+    "B12::gauge.face.1",
+    "B12::gauge.rim.2",
+    "B12::gauge.face.2",
+    "B12::foundation.strip.0",
+    "B12::frame.rail.0",
+    "B12::frame.foot.0.0",
+    "B12::frame.foot.0.1",
+    "B12::frame.foot.0.2",
+    "B12::frame.foot.0.3",
+    "B12::foundation.strip.1",
+    "B12::frame.rail.1",
+    "B12::frame.foot.1.0",
+    "B12::frame.foot.1.1",
+    "B12::frame.foot.1.2",
+    "B12::frame.foot.1.3",
+    "B12::frame.cross.0",
+    "B12::frame.cross.1",
+    "B12::frame.cross.2",
+    "B12::frame.cross.3",
+    "B12::frame.fan_post.0",
+    "B12::frame.fan_post.1",
+    "B12::frame.fan_cradle",
+    "B12::frame.front_cradle",
+    "B12::frame.rear_cradle",
+    "B12::frame.rear_leg.0",
+    "B12::frame.rear_leg.1",
+    "B12::frame.bus_post.0",
+    "B12::frame.bus_seat.0.0",
+    "B12::frame.bus_seat.0.1",
+    "B12::frame.bus_post.1",
+    "B12::frame.bus_seat.1.0",
+    "B12::frame.bus_seat.1.1",
+    "B12::cabinet.site_pad"
+  ],
+  "instances": [
+    {
+      "name": "B12::bushing.side_plus",
+      "source": "B12_COMPACT_BUSHING_MASTER",
+      "matrix": [
+        [
+          -0.8770423531532288,
+          0.21012766659259796,
+          -0.43202242255210876,
+          -4.014414310455322
+        ],
+        [
+          -0.48041337728500366,
+          -0.38360917568206787,
+          0.7886996865272522,
+          1.0398762226104736
+        ],
+        [
+          -1.2201752497276175e-07,
+          0.8992722034454346,
+          0.43738946318626404,
+          3.2750437259674072
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "role": "BUSHING",
+      "uniform_scale": 1
+    },
+    {
+      "name": "B12::bushing.side_minus",
+      "source": "B12_COMPACT_BUSHING_MASTER",
+      "matrix": [
+        [
+          0.8709518313407898,
+          0.2246861457824707,
+          -0.43698859214782715,
+          -4.047463893890381
+        ],
+        [
+          -0.4913683831691742,
+          0.398256778717041,
+          -0.7745635509490967,
+          0.32600992918014526
+        ],
+        [
+          -6.2758829244558e-09,
+          0.8893299698829651,
+          0.4572661221027374,
+          3.2872886657714844
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "role": "BUSHING",
+      "uniform_scale": 1
+    },
+    {
+      "name": "B12::bushing.rear",
+      "source": "B12_COMPACT_BUSHING_MASTER",
+      "matrix": [
+        [
+          0.006886737421154976,
+          0.6891829371452332,
+          -0.7245545983314514,
+          -4.254758358001709
+        ],
+        [
+          -0.9999762773513794,
+          0.004746418446302414,
+          -0.004989843815565109,
+          0.7204362154006958
+        ],
+        [
+          1.0274466433202178e-07,
+          0.7245717644691467,
+          0.6891993284225464,
+          3.331104040145874
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "role": "BUSHING",
+      "uniform_scale": 1
+    },
+    {
+      "name": "B12::upper_metal",
+      "source": "B12_UPPER_METAL_MODULE",
+      "matrix": [
+        [
+          0.48907139897346497,
+          0.0,
+          0.0,
+          -2.6504321098327637
+        ],
+        [
+          0.0,
+          0.48907139897346497,
+          0.0,
+          0.7080414891242981
+        ],
+        [
+          0.0,
+          0.0,
+          0.48907139897346497,
+          3.966747999191284
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "role": "UPPER_METAL",
+      "uniform_scale": 0.4890713860677766
+    },
+    {
+      "name": "B12::bus_level.0",
+      "source": "P03_BUS_LEVEL_UNIT",
+      "matrix": [
+        [
+          3.4343813126724854e-08,
+          -0.45489758253097534,
+          0.0,
+          0.9418157935142517
+        ],
+        [
+          0.45489758253097534,
+          3.4343813126724854e-08,
+          0.0,
+          0.7095000147819519
+        ],
+        [
+          0.0,
+          0.0,
+          0.45489758253097534,
+          0.7547063231468201
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "role": "BUS_LEVEL",
+      "uniform_scale": 0.4548975901400627
+    },
+    {
+      "name": "B12::bus_level.1",
+      "source": "P03_BUS_LEVEL_UNIT",
+      "matrix": [
+        [
+          3.4343813126724854e-08,
+          -0.45489758253097534,
+          0.0,
+          0.9458470940589905
+        ],
+        [
+          0.45489758253097534,
+          3.4343813126724854e-08,
+          0.0,
+          0.7095000147819519
+        ],
+        [
+          0.0,
+          0.0,
+          0.45489758253097534,
+          1.7982873916625977
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "role": "BUS_LEVEL",
+      "uniform_scale": 0.4548975901400627
+    },
+    {
+      "name": "B12::cabinet",
+      "source": "P03_CONTROL_CABINET",
+      "matrix": [
+        [
+          0.002971366047859192,
+          -0.47930097579956055,
+          0.0,
+          2.948578357696533
+        ],
+        [
+          0.47930097579956055,
+          0.002971366047859192,
+          0.0,
+          0.7108974456787109
+        ],
+        [
+          0.0,
+          0.0,
+          0.47931021451950073,
+          0.09783055633306503
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "role": "CONTROL_CABINET",
+      "uniform_scale": 0.47931021451950073
+    },
+    {
+      "name": "B12::749.SHARED_EXTERIOR",
+      "source": "B12_749_EXTERIOR_MASTER",
+      "matrix": [
+        [
+          -0.9012996554374695,
+          0.43319618701934814,
+          0.0,
+          18.678939819335938
+        ],
+        [
+          -0.43319618701934814,
+          -0.9012996554374695,
+          0.0,
+          14.759940147399902
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "role": "SITE_ASSEMBLY",
+      "uniform_scale": 1
+    }
+  ],
+  "copied_upper_parts": [
+    {
+      "name": "B12::upper.vertical.upper_neck",
+      "source_name": "P03_vertical.upper_neck",
+      "component_key": "vertical.upper_neck",
+      "translation": [
+        1.399999976158142,
+        -2.25,
+        -6.090000152587891
+      ]
+    },
+    {
+      "name": "B12::upper.vertical.upper_ring.0",
+      "source_name": "P03_vertical.upper_ring.0",
+      "component_key": "vertical.upper_ring.0",
+      "translation": [
+        1.399999976158142,
+        -2.25,
+        -6.090000152587891
+      ]
+    },
+    {
+      "name": "B12::upper.vertical.upper_ring.0.fasteners",
+      "source_name": "P03_vertical.upper_ring.0.fasteners",
+      "component_key": "vertical.upper_ring.0.fasteners",
+      "translation": [
+        1.399999976158142,
+        -2.25,
+        -6.090000152587891
+      ]
+    },
+    {
+      "name": "B12::upper.vertical.upper_band.0",
+      "source_name": "P03_vertical.upper_band.0",
+      "component_key": "vertical.upper_band.0",
+      "translation": [
+        1.399999976158142,
+        -2.25,
+        -6.090000152587891
+      ]
+    },
+    {
+      "name": "B12::upper.vertical.upper_ring.1",
+      "source_name": "P03_vertical.upper_ring.1",
+      "component_key": "vertical.upper_ring.1",
+      "translation": [
+        1.399999976158142,
+        -2.25,
+        -6.090000152587891
+      ]
+    },
+    {
+      "name": "B12::upper.vertical.upper_ring.1.fasteners",
+      "source_name": "P03_vertical.upper_ring.1.fasteners",
+      "component_key": "vertical.upper_ring.1.fasteners",
+      "translation": [
+        1.399999976158142,
+        -2.25,
+        -6.090000152587891
+      ]
+    },
+    {
+      "name": "B12::upper.vertical.upper_band.1",
+      "source_name": "P03_vertical.upper_band.1",
+      "component_key": "vertical.upper_band.1",
+      "translation": [
+        1.399999976158142,
+        -2.25,
+        -6.090000152587891
+      ]
+    },
+    {
+      "name": "B12::upper.vertical.upper_service_cover",
+      "source_name": "P03_vertical.upper_service_cover",
+      "component_key": "vertical.upper_service_cover",
+      "translation": [
+        1.399999976158142,
+        -2.25,
+        -6.090000152587891
+      ]
+    },
+    {
+      "name": "B12::upper.vertical.upper_service_cover.bolts",
+      "source_name": "P03_vertical.upper_service_cover.bolts",
+      "component_key": "vertical.upper_service_cover.bolts",
+      "translation": [
+        1.399999976158142,
+        -2.25,
+        -6.090000152587891
+      ]
+    },
+    {
+      "name": "B12::upper.vertical.top_can",
+      "source_name": "P03_vertical.top_can",
+      "component_key": "vertical.top_can",
+      "translation": [
+        1.399999976158142,
+        -2.25,
+        -6.090000152587891
+      ]
+    },
+    {
+      "name": "B12::upper.vertical.top_can_cap",
+      "source_name": "P03_vertical.top_can_cap",
+      "component_key": "vertical.top_can_cap",
+      "translation": [
+        1.399999976158142,
+        -2.25,
+        -6.090000152587891
+      ]
+    },
+    {
+      "name": "B12::upper.vertical.top_can_cap.bolts",
+      "source_name": "P03_vertical.top_can_cap.bolts",
+      "component_key": "vertical.top_can_cap.bolts",
+      "translation": [
+        1.399999976158142,
+        -2.25,
+        -6.090000152587891
+      ]
+    },
+    {
+      "name": "B12::upper.vertical.top_side_box",
+      "source_name": "P03_vertical.top_side_box",
+      "component_key": "vertical.top_side_box",
+      "translation": [
+        1.399999976158142,
+        -2.25,
+        -6.090000152587891
+      ]
+    },
+    {
+      "name": "B12::upper.vertical.top_tie.0",
+      "source_name": "P03_vertical.top_tie.0",
+      "component_key": "vertical.top_tie.0",
+      "translation": [
+        1.399999976158142,
+        -2.25,
+        -6.090000152587891
+      ]
+    },
+    {
+      "name": "B12::upper.vertical.top_tie.1",
+      "source_name": "P03_vertical.top_tie.1",
+      "component_key": "vertical.top_tie.1",
+      "translation": [
+        1.399999976158142,
+        -2.25,
+        -6.090000152587891
+      ]
+    }
+  ],
+  "bushing_poses": [
+    {
+      "name": "side_plus",
+      "root": "B12::bushing.side_plus",
+      "point": [
+        -4.014414310455322,
+        1.0398762226104736,
+        3.2750437259674072
+      ],
+      "axis": [
+        -0.4320225119590759,
+        0.7886996269226074,
+        0.4373893737792969
+      ],
+      "tip": [
+        -4.703490257263184,
+        2.2978522777557373,
+        3.972679853439331
+      ],
+      "axial_shift_m": -0.52
+    },
+    {
+      "name": "side_minus",
+      "root": "B12::bushing.side_minus",
+      "point": [
+        -4.047463893890381,
+        0.32600992918014526,
+        3.2872886657714844
+      ],
+      "axis": [
+        -0.43698859214782715,
+        -0.7745634913444519,
+        0.457266241312027
+      ],
+      "tip": [
+        -4.744460582733154,
+        -0.9094190001487732,
+        4.016628265380859
+      ],
+      "axial_shift_m": -0.55
+    },
+    {
+      "name": "rear",
+      "root": "B12::bushing.rear",
+      "point": [
+        -4.254758358001709,
+        0.7204362154006958,
+        3.331104040145874
+      ],
+      "axis": [
+        -0.7245545983314514,
+        -0.00498989736661315,
+        0.6891993284225464
+      ],
+      "tip": [
+        -5.4104228019714355,
+        0.7124773859977722,
+        4.430377006530762
+      ],
+      "axial_shift_m": -0.58
+    }
+  ],
+  "bus_modules": [
+    {
+      "name": "B12::bus_level.0",
+      "fit": "bus_lower",
+      "radius_m": 0.22744879507003135,
+      "axis_point": [
+        0.9418158071195306,
+        0.7095,
+        0.7547063419823669
+      ]
+    },
+    {
+      "name": "B12::bus_level.1",
+      "fit": "bus_upper",
+      "radius_m": 0.22744879507003135,
+      "axis_point": [
+        0.945847103139665,
+        0.7095,
+        1.7982874243879605
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "type": "bushing_neck",
+      "neck": "B12::fan.neck.side_plus",
+      "bushing": "B12::bushing.side_plus",
+      "expected": [
+        -4.014414310455322,
+        1.0398762226104736,
+        3.2750437259674072
+      ]
+    },
+    {
+      "type": "bushing_neck",
+      "neck": "B12::fan.neck.side_minus",
+      "bushing": "B12::bushing.side_minus",
+      "expected": [
+        -4.047463893890381,
+        0.32600992918014526,
+        3.2872886657714844
+      ]
+    },
+    {
+      "type": "bushing_neck",
+      "neck": "B12::fan.neck.rear",
+      "bushing": "B12::bushing.rear",
+      "expected": [
+        -4.254758358001709,
+        0.7204362154006958,
+        3.331104040145874
+      ]
+    },
+    {
+      "type": "rail_foot",
+      "rail": "B12::frame.rail.0",
+      "foot": "B12::frame.foot.0.0"
+    },
+    {
+      "type": "rail_foot",
+      "rail": "B12::frame.rail.0",
+      "foot": "B12::frame.foot.0.1"
+    },
+    {
+      "type": "rail_foot",
+      "rail": "B12::frame.rail.0",
+      "foot": "B12::frame.foot.0.2"
+    },
+    {
+      "type": "rail_foot",
+      "rail": "B12::frame.rail.0",
+      "foot": "B12::frame.foot.0.3"
+    },
+    {
+      "type": "rail_foot",
+      "rail": "B12::frame.rail.1",
+      "foot": "B12::frame.foot.1.0"
+    },
+    {
+      "type": "rail_foot",
+      "rail": "B12::frame.rail.1",
+      "foot": "B12::frame.foot.1.1"
+    },
+    {
+      "type": "rail_foot",
+      "rail": "B12::frame.rail.1",
+      "foot": "B12::frame.foot.1.2"
+    },
+    {
+      "type": "rail_foot",
+      "rail": "B12::frame.rail.1",
+      "foot": "B12::frame.foot.1.3"
+    }
+  ],
+  "omitted_legacy_names": [
+    "12MZ0000000196705 | 兴盛I749组合设备",
+    "12MZ0000000196705::body.earth_strap",
+    "12MZ0000000196705::body.expansion_bellows.ring00",
+    "12MZ0000000196705::body.expansion_bellows.ring01",
+    "12MZ0000000196705::body.expansion_bellows.ring02",
+    "12MZ0000000196705::body.expansion_bellows.ring03",
+    "12MZ0000000196705::body.expansion_bellows.ring04",
+    "12MZ0000000196705::body.expansion_bellows.ring05",
+    "12MZ0000000196705::body.expansion_bellows.ring06",
+    "12MZ0000000196705::body.expansion_bellows.ring07",
+    "12MZ0000000196705::body.expansion_bellows.ring08",
+    "12MZ0000000196705::body.front_round_end_cover",
+    "12MZ0000000196705::body.front_service_flange",
+    "12MZ0000000196705::body.main_flange1",
+    "12MZ0000000196705::body.main_flange2",
+    "12MZ0000000196705::body.main_flange3",
+    "12MZ0000000196705::body.main_flange4",
+    "12MZ0000000196705::body.main_flange5",
+    "12MZ0000000196705::body.main_gas_enclosure",
+    "12MZ0000000196705::body.manifold.cross_canister",
+    "12MZ0000000196705::body.manifold.cross_flange.+0.36",
+    "12MZ0000000196705::body.manifold.cross_flange.-0.36",
+    "12MZ0000000196705::body.manifold.lower",
+    "12MZ0000000196705::body.manifold.mid_flange",
+    "12MZ0000000196705::body.manifold.upper",
+    "12MZ0000000196705::body.side_service_cover.L",
+    "12MZ0000000196705::body.side_service_cover.R",
+    "12MZ0000000196705::body.side_service_cover_flange.L",
+    "12MZ0000000196705::body.side_service_cover_flange.R",
+    "12MZ0000000196705::body.spacer_insulator1",
+    "12MZ0000000196705::body.spacer_insulator2",
+    "12MZ0000000196705::bus.interface1.endcover.+1",
+    "12MZ0000000196705::bus.interface1.endcover.-1",
+    "12MZ0000000196705::bus.interface1.flange.+1",
+    "12MZ0000000196705::bus.interface1.flange.-1",
+    "12MZ0000000196705::bus.interface1.gasket.+1",
+    "12MZ0000000196705::bus.interface1.gasket.-1",
+    "12MZ0000000196705::bus.interface1.local_barrel",
+    "12MZ0000000196705::bus.interface1.support.+1.45",
+    "12MZ0000000196705::bus.interface1.support.-1.45",
+    "12MZ0000000196705::bus.interface2.endcover.+1",
+    "12MZ0000000196705::bus.interface2.endcover.-1",
+    "12MZ0000000196705::bus.interface2.flange.+1",
+    "12MZ0000000196705::bus.interface2.flange.-1",
+    "12MZ0000000196705::bus.interface2.gasket.+1",
+    "12MZ0000000196705::bus.interface2.gasket.-1",
+    "12MZ0000000196705::bus.interface2.local_barrel",
+    "12MZ0000000196705::bus.interface2.support.+1.45",
+    "12MZ0000000196705::bus.interface2.support.-1.45",
+    "12MZ0000000196705::foundation.concrete_strip.1",
+    "12MZ0000000196705::foundation.concrete_strip.2",
+    "12MZ0000000196705::foundation.crossmember.1",
+    "12MZ0000000196705::foundation.crossmember.2",
+    "12MZ0000000196705::foundation.crossmember.3",
+    "12MZ0000000196705::foundation.crossmember.4",
+    "12MZ0000000196705::foundation.pedestal.1",
+    "12MZ0000000196705::foundation.pedestal.2",
+    "12MZ0000000196705::foundation.pedestal.3",
+    "12MZ0000000196705::foundation.pedestal.4",
+    "12MZ0000000196705::foundation.steel_skid.1",
+    "12MZ0000000196705::foundation.steel_skid.2",
+    "12MZ0000000196705::foundation.support_post.1",
+    "12MZ0000000196705::foundation.support_post.2",
+    "12MZ0000000196705::foundation.support_post.3",
+    "12MZ0000000196705::foundation.support_post.4",
+    "12MZ0000000196705::instrument.arrester_meter",
+    "12MZ0000000196705::instrument.breaker_pressure.bezel",
+    "12MZ0000000196705::instrument.breaker_pressure.face",
+    "12MZ0000000196705::instrument.breaker_pressure.hood",
+    "12MZ0000000196705::instrument.live_display",
+    "12MZ0000000196705::instrument.operation_counter",
+    "12MZ0000000196705::instrument.position_indicator.dome",
+    "12MZ0000000196705::instrument.position_indicator.face",
+    "12MZ0000000196705::instrument.sf6.bezel",
+    "12MZ0000000196705::instrument.sf6.conduit_ring0",
+    "12MZ0000000196705::instrument.sf6.conduit_ring1",
+    "12MZ0000000196705::instrument.sf6.conduit_ring2",
+    "12MZ0000000196705::instrument.sf6.conduit_ring3",
+    "12MZ0000000196705::instrument.sf6.conduit_ring4",
+    "12MZ0000000196705::instrument.sf6.conduit_ring5",
+    "12MZ0000000196705::instrument.sf6.dial_face",
+    "12MZ0000000196705::instrument.sf6.flex_conduit",
+    "12MZ0000000196705::instrument.sf6.hood_body",
+    "12MZ0000000196705::instrument.sf6.mount_plate",
+    "12MZ0000000196705::instrument.sf6.valve_block",
+    "12MZ0000000196705::instrument.sf6.valve_knob",
+    "12MZ0000000196705::instrument.sf6.yellow_gas_line",
+    "12MZ0000000196705::phase.A.base_flange",
+    "12MZ0000000196705::phase.A.branch_neck",
+    "12MZ0000000196705::phase.A.bushing",
+    "12MZ0000000196705::phase.A.grading_ring",
+    "12MZ0000000196705::phase.A.terminal_palm",
+    "12MZ0000000196705::phase.A.terminal_stud",
+    "12MZ0000000196705::phase.A.top_flange",
+    "12MZ0000000196705::phase.B.base_flange",
+    "12MZ0000000196705::phase.B.branch_neck",
+    "12MZ0000000196705::phase.B.bushing",
+    "12MZ0000000196705::phase.B.grading_ring",
+    "12MZ0000000196705::phase.B.terminal_palm",
+    "12MZ0000000196705::phase.B.terminal_stud",
+    "12MZ0000000196705::phase.B.top_flange",
+    "12MZ0000000196705::phase.C.base_flange",
+    "12MZ0000000196705::phase.C.branch_neck",
+    "12MZ0000000196705::phase.C.bushing",
+    "12MZ0000000196705::phase.C.grading_ring",
+    "12MZ0000000196705::phase.C.terminal_palm",
+    "12MZ0000000196705::phase.C.terminal_stud",
+    "12MZ0000000196705::phase.C.top_flange",
+    "12MZ0000000196705::switch.breaker.front_flange",
+    "12MZ0000000196705::switch.breaker.front_gasket",
+    "12MZ0000000196705::switch.breaker.gas_chamber",
+    "12MZ0000000196705::switch.breaker.mechanism_box",
+    "12MZ0000000196705::switch.breaker.position_window",
+    "12MZ0000000196705::switch.breaker.round_cover",
+    "12MZ0000000196705::switch.breaker.transition",
+    "12MZ0000000196705::switch.disconnector.front_flange",
+    "12MZ0000000196705::switch.disconnector.front_gasket",
+    "12MZ0000000196705::switch.disconnector.gas_chamber",
+    "12MZ0000000196705::switch.disconnector.mechanism_box",
+    "12MZ0000000196705::switch.disconnector.position_window",
+    "12MZ0000000196705::switch.disconnector.round_cover",
+    "12MZ0000000196705::switch.disconnector.transition"
+  ],
+  "superseded_cabinet_root": "B04_749_CABINET_CANDIDATE",
+  "cabinet_local_matrix": [
+    [
+      0.002971366047859192,
+      -0.47930097579956055,
+      0.0,
+      2.948578357696533
+    ],
+    [
+      0.47930097579956055,
+      0.002971366047859192,
+      0.0,
+      0.7108974456787109
+    ],
+    [
+      0.0,
+      0.0,
+      0.47931021451950073,
+      0.09783055633306503
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "fit_object_map": {
+    "front_vertical_shell": "B12::front_vertical_shell",
+    "rear_vertical_shell": "B12::rear_vertical_shell",
+    "longitudinal_tank": "B12::longitudinal_tank",
+    "upper_metal_can": "B12::upper.vertical.top_can"
+  },
+  "formal_promotions": 0,
+  "complete_GIS_device": false,
+  "pending": [
+    "all dimensions are reference-derived, not survey/manufacturer CAD",
+    "front/rear vessel patch residuals and reconstructed surface irregularities remain visible",
+    "new compact bushing exact skirt count and terminal hardware unresolved",
+    "inter-bay bus boundaries, remote outgoing leads, hidden connectors and small service pipes pending",
+    "B04 cabinet rear depth mismatch remains; current pose and source shape preserved",
+    "other ZF23 variants require independent pose and topology checks before reuse"
+  ],
+  "r1_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/xialin_B12_749_GIS.blend",
+  "r1_sha256": "c8e785862d533f03bd69abb1734f68dc55f5df90ed7f9131e6a0c77a0ff8170a",
+  "overlay_proxy": "B12_CYAN_OVERLAY_PROXY",
+  "revision": "r2_top_camera_and_overlay_only",
+  "framing_adjustments": {
+    "110_B12_749_Rear_Clean": {
+      "old_min": [
+        0.1495456099510193,
+        0.10687461495399475
+      ],
+      "old_max": [
+        0.8467028141021729,
+        0.784378707408905
+      ],
+      "scale_multiplier": 1
+    },
+    "113_B12_749_Front_Clean": {
+      "old_min": [
+        0.18506455421447754,
+        0.07306595146656036
+      ],
+      "old_max": [
+        0.8716234564781189,
+        0.906788170337677
+      ],
+      "scale_multiplier": 1
+    },
+    "116_B12_749_Side_Clean": {
+      "old_min": [
+        0.10736418515443802,
+        0.15565264225006104
+      ],
+      "old_max": [
+        0.8985466957092285,
+        0.7893152832984924
+      ],
+      "scale_multiplier": 1
+    },
+    "119_B12_749_Top_Clean": {
+      "old_min": [
+        0.11080838739871979,
+        0.057894639670848846
+      ],
+      "old_max": [
+        0.8950507044792175,
+        0.9673686623573303
+      ],
+      "scale_multiplier": 1.0050938975426458
+    }
+  }
+}

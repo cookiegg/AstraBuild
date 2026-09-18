@@ -1,0 +1,523 @@
+{
+  "status": "central support walls and gantry saved; hanging equipment remains",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B26/xialin_B26_transformer_central_gantry.blend",
+  "sha256": "cee7425915fe4c3abb6b10621ee542e1a4fab71bea1374601d9b2ee4cdece630",
+  "previous_objects_unchanged": 30366,
+  "previous_scenes_unchanged": 521,
+  "previous_collections_unchanged": 659,
+  "previous_materials_unchanged": 333,
+  "previous_station_world_transforms_unchanged": 4416,
+  "protected_previous_files_unchanged": 2559,
+  "protection_evidence": {
+    "inherited_unchanged_stats": 2477,
+    "new_release_full_hash_checks": 81,
+    "B26_additional_reference_full_hash_checks": 1
+  },
+  "legacy_meshes_remaining": 1143,
+  "formal_baseline_meshes": 15096,
+  "source_asset_roundtrip_identical": true,
+  "master_collection": "B26_CENTRAL_GANTRY_AND_FIREWALLS",
+  "wall_count": 3,
+  "support_count": 3,
+  "span_count": 2,
+  "max_primitive_transform_rounding_m": 8.847683652648568e-05,
+  "shaft_checks": [
+    {
+      "name": "B26::CENTRAL_00.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 2.258875215212754e-06
+    },
+    {
+      "name": "B26::CENTRAL_00.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 2.2162983601137682e-06
+    },
+    {
+      "name": "B26::CENTRAL_01.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 1.7594078071697135e-06
+    },
+    {
+      "name": "B26::CENTRAL_01.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 1.7035056885299336e-06
+    },
+    {
+      "name": "B26::CENTRAL_02.leg.-1.shaft",
+      "max_endpoint_radius_error_m": 1.7573801256037087e-06
+    },
+    {
+      "name": "B26::CENTRAL_02.leg.+1.shaft",
+      "max_endpoint_radius_error_m": 1.7030238694920394e-06
+    }
+  ],
+  "construction_contacts": [
+    {
+      "shaft": "B26::CENTRAL_00.leg.-1.shaft",
+      "plate": "B26::CENTRAL_00.leg.-1.base_plate",
+      "wall": "FW1",
+      "base_axis_gap_m": 1.1251153075875209e-07,
+      "plate_supported_by_coping": true
+    },
+    {
+      "shaft": "B26::CENTRAL_00.leg.+1.shaft",
+      "plate": "B26::CENTRAL_00.leg.+1.base_plate",
+      "wall": "FW1",
+      "base_axis_gap_m": 1.1251153075875209e-07,
+      "plate_supported_by_coping": true
+    },
+    {
+      "shaft": "B26::CENTRAL_01.leg.-1.shaft",
+      "plate": "B26::CENTRAL_01.leg.-1.base_plate",
+      "wall": "FW2",
+      "base_axis_gap_m": 1.6239733824363611e-07,
+      "plate_supported_by_coping": true
+    },
+    {
+      "shaft": "B26::CENTRAL_01.leg.+1.shaft",
+      "plate": "B26::CENTRAL_01.leg.+1.base_plate",
+      "wall": "FW2",
+      "base_axis_gap_m": 1.6239733824363611e-07,
+      "plate_supported_by_coping": true
+    },
+    {
+      "shaft": "B26::CENTRAL_02.leg.-1.shaft",
+      "plate": "B26::CENTRAL_02.leg.-1.base_plate",
+      "wall": "FW3",
+      "base_axis_gap_m": 1.9656917782384653e-07,
+      "plate_supported_by_coping": true
+    },
+    {
+      "shaft": "B26::CENTRAL_02.leg.+1.shaft",
+      "plate": "B26::CENTRAL_02.leg.+1.base_plate",
+      "wall": "FW3",
+      "base_axis_gap_m": 1.9656917782384653e-07,
+      "plate_supported_by_coping": true
+    }
+  ],
+  "surface_checks": [
+    {
+      "kind": "wall",
+      "name": "FW1",
+      "sample_count": 4251,
+      "before": {
+        "rms_m": 1.8807999958375883,
+        "median_m": 1.7601373195648193,
+        "p95_m": 2.7873998880386353,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.0334239758137882,
+        "median_m": 0.004926284309476614,
+        "p95_m": 0.09912845492362976,
+        "within_25cm_fraction": 0.9988238061632557
+      },
+      "domain": {
+        "x": [
+          -30.2,
+          -18.2
+        ],
+        "y_seed": -22.4,
+        "abs_y": 0.55,
+        "z": [
+          1,
+          6.7
+        ],
+        "normal_y_min": 0.92
+      },
+      "five_cm_screen_passed": true,
+      "residual_trimming": false
+    },
+    {
+      "kind": "wall",
+      "name": "FW2",
+      "sample_count": 5191,
+      "before": {
+        "rms_m": 1.258420215723364,
+        "median_m": 1.0041354894638062,
+        "p95_m": 2.223271369934082,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.03696324636001,
+        "median_m": 0.005549919791519642,
+        "p95_m": 0.1283179521560669,
+        "within_25cm_fraction": 0.999036794451936
+      },
+      "domain": {
+        "x": [
+          -30.2,
+          -18.2
+        ],
+        "y_seed": -7.3,
+        "abs_y": 0.55,
+        "z": [
+          1,
+          6.7
+        ],
+        "normal_y_min": 0.92
+      },
+      "five_cm_screen_passed": true,
+      "residual_trimming": false
+    },
+    {
+      "kind": "wall",
+      "name": "FW3",
+      "sample_count": 4639,
+      "before": {
+        "rms_m": 0.8812238084199381,
+        "median_m": 0.30125680565834045,
+        "p95_m": 2.048860692977898,
+        "within_25cm_fraction": 0.2647122224617374
+      },
+      "current": {
+        "rms_m": 0.03597631534293693,
+        "median_m": 0.005502060987055302,
+        "p95_m": 0.12538776695728285,
+        "within_25cm_fraction": 0.9993533089027807
+      },
+      "domain": {
+        "x": [
+          -30.2,
+          -18.2
+        ],
+        "y_seed": 7.6,
+        "abs_y": 0.55,
+        "z": [
+          1,
+          6.7
+        ],
+        "normal_y_min": 0.92
+      },
+      "five_cm_screen_passed": true,
+      "residual_trimming": false
+    },
+    {
+      "kind": "leg",
+      "name": "CENTRAL_00.-1",
+      "sample_count": 999,
+      "before": {
+        "rms_m": 5.036325729202472,
+        "median_m": 5.069875717163086,
+        "p95_m": 5.263232088088989,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.023555212518023037,
+        "median_m": 0.005958761554211378,
+        "p95_m": 0.060009799897670725,
+        "within_25cm_fraction": 1.0
+      },
+      "domain": {
+        "z": [
+          8.103713245980128,
+          13.245870990851646
+        ],
+        "center_y": -22.394648403866665,
+        "abs_y": 0.4,
+        "axis_x_seed_at_top": -25.37519930352371,
+        "axis_slope_seed": 0.105,
+        "abs_x": 0.29
+      },
+      "five_cm_screen_passed": true,
+      "residual_trimming": false
+    },
+    {
+      "kind": "leg",
+      "name": "CENTRAL_00.+1",
+      "sample_count": 2895,
+      "before": {
+        "rms_m": 4.9087876149202465,
+        "median_m": 4.947764873504639,
+        "p95_m": 5.247408246994018,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.09690272803524765,
+        "median_m": 0.05740036070346832,
+        "p95_m": 0.19381646811962117,
+        "within_25cm_fraction": 1.0
+      },
+      "domain": {
+        "z": [
+          8.103713245980128,
+          13.245870990851646
+        ],
+        "center_y": -22.394648403866665,
+        "abs_y": 0.4,
+        "axis_x_seed_at_top": -23.835199303523712,
+        "axis_slope_seed": -0.105,
+        "abs_x": 0.29
+      },
+      "five_cm_screen_passed": false,
+      "residual_trimming": false
+    },
+    {
+      "kind": "leg",
+      "name": "CENTRAL_01.-1",
+      "sample_count": 1158,
+      "before": {
+        "rms_m": 3.066602133987506,
+        "median_m": 2.889044404029846,
+        "p95_m": 4.273228669166565,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.026211596725057903,
+        "median_m": 0.0071896943263709545,
+        "p95_m": 0.0629296313971281,
+        "within_25cm_fraction": 1.0
+      },
+      "domain": {
+        "z": [
+          8.122837551955891,
+          13.26134394735892
+        ],
+        "center_y": -7.391998462357863,
+        "abs_y": 0.4,
+        "axis_x_seed_at_top": -25.27685320555371,
+        "axis_slope_seed": 0.105,
+        "abs_x": 0.29
+      },
+      "five_cm_screen_passed": true,
+      "residual_trimming": false
+    },
+    {
+      "kind": "leg",
+      "name": "CENTRAL_01.+1",
+      "sample_count": 3223,
+      "before": {
+        "rms_m": 3.0454216574120827,
+        "median_m": 2.7857964038848877,
+        "p95_m": 4.530217123031616,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.10682015478698186,
+        "median_m": 0.0629844069480896,
+        "p95_m": 0.21544200032949445,
+        "within_25cm_fraction": 0.9959664908470369
+      },
+      "domain": {
+        "z": [
+          8.122837551955891,
+          13.26134394735892
+        ],
+        "center_y": -7.391998462357863,
+        "abs_y": 0.4,
+        "axis_x_seed_at_top": -23.73685320555371,
+        "axis_slope_seed": -0.105,
+        "abs_x": 0.29
+      },
+      "five_cm_screen_passed": false,
+      "residual_trimming": false
+    },
+    {
+      "kind": "leg",
+      "name": "CENTRAL_02.-1",
+      "sample_count": 1457,
+      "before": {
+        "rms_m": 3.457056879339421,
+        "median_m": 3.221052646636963,
+        "p95_m": 4.6697615623474125,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.07862456402701046,
+        "median_m": 0.02146546170115471,
+        "p95_m": 0.20654221475124362,
+        "within_25cm_fraction": 0.9766643788606726
+      },
+      "domain": {
+        "z": [
+          8.148476166449997,
+          13.27680847595176
+        ],
+        "center_y": 7.602479734472126,
+        "abs_y": 0.4,
+        "axis_x_seed_at_top": -25.178560675400455,
+        "axis_slope_seed": 0.105,
+        "abs_x": 0.29
+      },
+      "five_cm_screen_passed": false,
+      "residual_trimming": false
+    },
+    {
+      "kind": "leg",
+      "name": "CENTRAL_02.+1",
+      "sample_count": 3274,
+      "before": {
+        "rms_m": 3.313002993608487,
+        "median_m": 3.0728214979171753,
+        "p95_m": 4.6638405323028564,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.09990152721468794,
+        "median_m": 0.058416055515408516,
+        "p95_m": 0.20314315408468248,
+        "within_25cm_fraction": 0.9923640806353085
+      },
+      "domain": {
+        "z": [
+          8.148476166449997,
+          13.27680847595176
+        ],
+        "center_y": 7.602479734472126,
+        "abs_y": 0.4,
+        "axis_x_seed_at_top": -23.638560675400456,
+        "axis_slope_seed": -0.105,
+        "abs_x": 0.29
+      },
+      "five_cm_screen_passed": false,
+      "residual_trimming": false
+    },
+    {
+      "kind": "beam",
+      "name": "CENTRAL_SPAN_00_01",
+      "sample_count": 5521,
+      "before": {
+        "rms_m": 3.6770171196934602,
+        "median_m": 3.627305507659912,
+        "p95_m": 4.465729236602783,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.13653277145780857,
+        "median_m": 0.0934705063700676,
+        "p95_m": 0.2660852372646332,
+        "within_25cm_fraction": 0.9288172432530338
+      },
+      "domain": {
+        "y": [
+          -21.794648403866663,
+          -7.991998462357863
+        ],
+        "abs_x_from_beam_axis": 0.75,
+        "z": [
+          13.65,
+          14.68
+        ],
+        "fixed_voxel_m": 0.075
+      },
+      "five_cm_screen_passed": false,
+      "residual_trimming": false
+    },
+    {
+      "kind": "beam",
+      "name": "CENTRAL_SPAN_01_02",
+      "sample_count": 6499,
+      "before": {
+        "rms_m": 3.6598066415067443,
+        "median_m": 3.614206314086914,
+        "p95_m": 4.357833147048949,
+        "within_25cm_fraction": 0.0
+      },
+      "current": {
+        "rms_m": 0.12852463258293625,
+        "median_m": 0.08801305294036865,
+        "p95_m": 0.2474879056215286,
+        "within_25cm_fraction": 0.9524542237267272
+      },
+      "domain": {
+        "y": [
+          -6.7919984623578635,
+          7.002479734472127
+        ],
+        "abs_x_from_beam_axis": 0.75,
+        "z": [
+          13.65,
+          14.68
+        ],
+        "fixed_voxel_m": 0.075
+      },
+      "five_cm_screen_passed": false,
+      "residual_trimming": false
+    }
+  ],
+  "high_zone_comparison": {
+    "zone": "TRANSFORMERS",
+    "height_range": "z > 7m",
+    "sample_count": 36034,
+    "before": {
+      "rms_m": 3.411691427230835,
+      "median_m": 3.151526927947998,
+      "p95_m": 5.273654460906982,
+      "within_25cm_fraction": 0.14330909696397848
+    },
+    "current": {
+      "rms_m": 1.79942470655373,
+      "median_m": 0.06220787763595581,
+      "p95_m": 4.876605319976801,
+      "within_25cm_fraction": 0.7664150524504635
+    },
+    "beyond_1m_before": 0.7882555364378088,
+    "beyond_1m_current": 0.14550147083310208,
+    "scope": "fixed B25 occupied10cm source voxels; actual saved station finite surfaces; not physical-device completion rate"
+  },
+  "local_screens_passed": 5,
+  "local_screens_unpassed": 6,
+  "camera_framing": {
+    "539_B26_Central_Equipment_Clean": {
+      "meshes": 3864,
+      "min": [
+        0.1945013552904129,
+        0.14557993412017822
+      ],
+      "max": [
+        0.8149641752243042,
+        0.863113522529602
+      ]
+    },
+    "542_B26_Structure_Clean": {
+      "meshes": 400,
+      "min": [
+        0.19418728351593018,
+        0.11390046030282974
+      ],
+      "max": [
+        0.8144014477729797,
+        0.8513863682746887
+      ]
+    },
+    "545_B26_FW1_Clean": {
+      "meshes": 84,
+      "min": [
+        0.30920758843421936,
+        0.049999985843896866
+      ],
+      "max": [
+        0.6813965439796448,
+        0.8618927597999573
+      ]
+    },
+    "548_B26_FW2_Clean": {
+      "meshes": 84,
+      "min": [
+        0.3110988736152649,
+        0.04999997839331627
+      ],
+      "max": [
+        0.6846223473548889,
+        0.8645930290222168
+      ]
+    },
+    "551_B26_FW3_Clean": {
+      "meshes": 84,
+      "min": [
+        0.313843697309494,
+        0.049999989569187164
+      ],
+      "max": [
+        0.6881862878799438,
+        0.8674824833869934
+      ]
+    }
+  },
+  "pending": [
+    "Central six main hanging/strain strings and overhead connections remain to be installed.",
+    "Three outdoor gantry rows still need observed hanging/strain strings and principal leads.",
+    "Small pilaster/coping/ladder dimensions are photo-derived approximations; internal wall structure not asserted.",
+    "Previous gantry/mast-tip/local reconstruction residuals remain."
+  ],
+  "formal_promotions": 0,
+  "outdoor_goal_complete": false,
+  "saved_by_validator": false,
+  "screen_scope": "3 fixed wall domains +6 legs +2 beam prisms; saved finite surfaces; odd/even triangles from correlated reconstruction;5cm internal screen, not survey acceptance"
+}

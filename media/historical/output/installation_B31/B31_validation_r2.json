@@ -1,0 +1,132 @@
+{
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B31/xialin_B31_main_building_r2.blend",
+  "sha256": "22643b892ae05b9dd2c2eb0e18d31c9526c38dacf5c1a41641956118742c559b",
+  "checkpoint_byte_identical": true,
+  "previous_objects_unchanged": 33223,
+  "previous_scenes_unchanged": 618,
+  "previous_collections_unchanged": 752,
+  "previous_materials_unchanged": 344,
+  "previous_station_objects_unchanged": 7113,
+  "protected_previous_files_unchanged": 2859,
+  "source_asset_roundtrip_identical": true,
+  "shared_main_transformers_preserved": true,
+  "shared_AC_instances": 11,
+  "root_rigid_rectangular": true,
+  "windows": 12,
+  "doors": 4,
+  "counts": {
+    "objects": 34191,
+    "scenes": 640,
+    "station_objects": 7114,
+    "new_expanded_building_meshes": 2796
+  },
+  "max_transform_rounding_m": 1.496792640043882e-07,
+  "facade_checks": [
+    {
+      "face": "west",
+      "samples": 4817,
+      "rms_m": 0.0320845600457681,
+      "median_m": 0.005402763374149799,
+      "p95_m": 0.07985510230064391,
+      "max_m": 0.17099550366401672,
+      "residual_trimming": false
+    },
+    {
+      "face": "east",
+      "samples": 4042,
+      "rms_m": 0.021035742936393577,
+      "median_m": 0.003794889780692756,
+      "p95_m": 0.01423941506072878,
+      "max_m": 0.2682652473449707,
+      "residual_trimming": false
+    },
+    {
+      "face": "front",
+      "samples": 1253,
+      "rms_m": 0.02479439684179142,
+      "median_m": 0.005662101320922375,
+      "p95_m": 0.0643784299492836,
+      "max_m": 0.1225949078798294,
+      "residual_trimming": false
+    },
+    {
+      "face": "rear",
+      "samples": 1071,
+      "rms_m": 0.018469275526939798,
+      "median_m": 0.0026941432151943445,
+      "p95_m": 0.039864681661129,
+      "max_m": 0.1265774816274643,
+      "residual_trimming": false
+    }
+  ],
+  "camera_framing": {
+    "636_B31_Main_West_Clean": {
+      "min": [
+        0.15078595280647278,
+        0.21229414641857147
+      ],
+      "max": [
+        0.8545629978179932,
+        0.801298201084137
+      ]
+    },
+    "639_B31_Main_East_Clean": {
+      "min": [
+        0.13026873767375946,
+        0.21501708030700684
+      ],
+      "max": [
+        0.8631142973899841,
+        0.7773536443710327
+      ]
+    },
+    "642_B31_Main_Front_Clean": {
+      "min": [
+        0.10558662563562393,
+        0.2592106759548187
+      ],
+      "max": [
+        0.8802018165588379,
+        0.8276320099830627
+      ]
+    },
+    "645_B31_Main_Rear_Clean": {
+      "min": [
+        0.11979775875806808,
+        0.22763124108314514
+      ],
+      "max": [
+        0.8944128155708313,
+        0.7960526347160339
+      ]
+    },
+    "648_B31_Main_Top_Clean": {
+      "min": [
+        0.4155573546886444,
+        0.060000013560056686
+      ],
+      "max": [
+        0.5814000964164734,
+        0.9258882403373718
+      ]
+    },
+    "651_B31_Main_West_Elevation_Clean": {
+      "min": [
+        0.0741116926074028,
+        0.4163331985473633
+      ],
+      "max": [
+        0.9399999976158142,
+        0.5988791584968567
+      ]
+    }
+  },
+  "limitations": [
+    "Registered mesh, not an independent survey: wall fit RMS 0.055m; shared yaw keeps footprint rectangular.",
+    "Low roof surface mostly missing in reconstruction; elevation inferred from upper roof and photographed parapet; high roof uneven source regularized.",
+    "Small vents, panel joints, door dimensions, AC hardware and ladder cage are photo-scale approximations; hidden interiors are not modeled.",
+    "11 AC units positioned using separately visible source envelopes (west4, east5, rear2); case sizes are a shared exterior approximation. Further occluded small accessories remain possible."
+  ],
+  "comparison_scope": "Fixed odd original-triangle wall domains; even triangles used for wall datum fit. Correlated reconstruction only, no independent survey claim or residual trimming.",
+  "broader_objective_complete": false
+}

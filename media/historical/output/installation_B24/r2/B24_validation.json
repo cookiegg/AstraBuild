@@ -1,0 +1,305 @@
+{
+  "status": "shared_exterior_refined_and_rigid_placement_corrected",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/r2/xialin_B24_station_service_305_306.blend",
+  "sha256": "2e0009e73c449d5c6078c2c8fdb923158b4f8d26d8a0cd8aea3e0e08b589f462",
+  "previous_objects_unchanged": 28474,
+  "previous_scenes_unchanged": 484,
+  "previous_collections_unchanged": 623,
+  "previous_materials_unchanged": 324,
+  "previous_station_world_transforms_unchanged": 3260,
+  "protected_previous_files_unchanged": 2392,
+  "protection_evidence": {
+    "inherited_unchanged_stats": 2192,
+    "new_release_full_hash_checks": 125,
+    "new_source_full_hash_checks": 75
+  },
+  "legacy_meshes_remaining": 1626,
+  "formal_baseline_meshes": 15096,
+  "source_asset_roundtrip_identical": true,
+  "shared_masters": [
+    "B24_STATION_SERVICE_ENCLOSURE_MASTER"
+  ],
+  "master_meshes": 205,
+  "surface_checks": [
+    {
+      "key": "305",
+      "name": "front",
+      "sample_count": 404,
+      "old_rms_m": 1.141893797587319,
+      "rms_m": 0.0984155463850884,
+      "p95_m": 0.21365062519907949,
+      "area_weighted_rms_m": 0.043190085486152774,
+      "five_cm_screen_passed": false,
+      "domain": [
+        [
+          -4.25,
+          -1.65,
+          0.55
+        ],
+        [
+          -3.7899999999999996,
+          0.4,
+          2.8
+        ]
+      ],
+      "residual_trimming": false
+    },
+    {
+      "key": "305",
+      "name": "rear",
+      "sample_count": 156,
+      "old_rms_m": 0.5171944801976297,
+      "rms_m": 0.006931234947873358,
+      "p95_m": 0.013894725823774934,
+      "area_weighted_rms_m": 0.00583071085918692,
+      "five_cm_screen_passed": true,
+      "domain": [
+        [
+          1.65,
+          -1.65,
+          0.55
+        ],
+        [
+          2.11,
+          0.4,
+          2.8
+        ]
+      ],
+      "residual_trimming": false
+    },
+    {
+      "key": "305",
+      "name": "door_side",
+      "sample_count": 3054,
+      "old_rms_m": 0.5223096186374907,
+      "rms_m": 0.04948351628057416,
+      "p95_m": 0.1051558010280132,
+      "area_weighted_rms_m": 0.03621218614164548,
+      "five_cm_screen_passed": true,
+      "domain": [
+        [
+          -3.7199999999999998,
+          -2.15,
+          0.55
+        ],
+        [
+          1.5799999999999998,
+          -1.65,
+          2.8
+        ]
+      ],
+      "residual_trimming": false
+    },
+    {
+      "key": "305",
+      "name": "blank_side",
+      "sample_count": 289,
+      "old_rms_m": 0.5159936647519037,
+      "rms_m": 0.004076797846414916,
+      "p95_m": 0.009436795301735381,
+      "area_weighted_rms_m": 0.0032267708281125008,
+      "five_cm_screen_passed": true,
+      "domain": [
+        [
+          -3.7199999999999998,
+          0.5,
+          0.55
+        ],
+        [
+          1.5799999999999998,
+          1.0,
+          2.8
+        ]
+      ],
+      "residual_trimming": false
+    },
+    {
+      "key": "306",
+      "name": "front",
+      "sample_count": 254,
+      "old_rms_m": 0.2342092059279306,
+      "rms_m": 0.0730758024220657,
+      "p95_m": 0.17046537101268766,
+      "area_weighted_rms_m": 0.027359081706327688,
+      "five_cm_screen_passed": false,
+      "domain": [
+        [
+          -2.79,
+          -1.65,
+          0.55
+        ],
+        [
+          -2.33,
+          0.4,
+          2.8
+        ]
+      ],
+      "residual_trimming": false
+    },
+    {
+      "key": "306",
+      "name": "rear",
+      "sample_count": 209,
+      "old_rms_m": 0.5542080546350279,
+      "rms_m": 0.0035665473214834134,
+      "p95_m": 0.006619518436491488,
+      "area_weighted_rms_m": 0.003393127309334886,
+      "five_cm_screen_passed": true,
+      "domain": [
+        [
+          3.11,
+          -1.65,
+          0.55
+        ],
+        [
+          3.57,
+          0.4,
+          2.8
+        ]
+      ],
+      "residual_trimming": false
+    },
+    {
+      "key": "306",
+      "name": "door_side",
+      "sample_count": 882,
+      "old_rms_m": 0.35649761667901425,
+      "rms_m": 0.07281474292792235,
+      "p95_m": 0.15320542156696315,
+      "area_weighted_rms_m": 0.03766116967192734,
+      "five_cm_screen_passed": false,
+      "domain": [
+        [
+          -2.2600000000000002,
+          -2.15,
+          0.55
+        ],
+        [
+          3.04,
+          -1.65,
+          2.8
+        ]
+      ],
+      "residual_trimming": false
+    },
+    {
+      "key": "306",
+      "name": "blank_side",
+      "sample_count": 233,
+      "old_rms_m": 0.5205505379496224,
+      "rms_m": 0.0022190563753709007,
+      "p95_m": 0.00459318086504936,
+      "area_weighted_rms_m": 0.0022203806201341394,
+      "five_cm_screen_passed": true,
+      "domain": [
+        [
+          -2.2600000000000002,
+          0.5,
+          0.55
+        ],
+        [
+          3.04,
+          1.0,
+          2.8
+        ]
+      ],
+      "residual_trimming": false
+    }
+  ],
+  "local_screens_passed": 5,
+  "local_screens_unpassed": 3,
+  "construction_contacts": [
+    {
+      "a": "foundation.pad",
+      "b": "skirt",
+      "gap_m": 7.450580596923828e-09
+    },
+    {
+      "a": "foundation.pad",
+      "b": "cabin.body",
+      "gap_m": 4.470348358154297e-08
+    },
+    {
+      "a": "cabin.body",
+      "b": "roof.slab",
+      "gap_m": 9.685754776000977e-08
+    }
+  ],
+  "camera_framing": {
+    "502_B24_Pair_Oblique_Clean": {
+      "meshes": 412,
+      "min": [
+        0.1633530557155609,
+        0.18147236108779907
+      ],
+      "max": [
+        0.8370043039321899,
+        0.8302962779998779
+      ]
+    },
+    "505_B24_Master_Doors": {
+      "meshes": 205,
+      "min": [
+        0.14997164905071259,
+        0.11276359856128693
+      ],
+      "max": [
+        0.8500284552574158,
+        0.8882195353507996
+      ]
+    },
+    "506_B24_Master_Blank": {
+      "meshes": 205,
+      "min": [
+        0.1499716192483902,
+        0.11276336759328842
+      ],
+      "max": [
+        0.8500284552574158,
+        0.8882192969322205
+      ]
+    },
+    "507_B24_305_Doors_Clean": {
+      "meshes": 206,
+      "min": [
+        0.14997175335884094,
+        0.11276382207870483
+      ],
+      "max": [
+        0.8500285744667053,
+        0.8882198929786682
+      ]
+    },
+    "510_B24_306_Doors_Clean": {
+      "meshes": 206,
+      "min": [
+        0.14997154474258423,
+        0.11276336759328842
+      ],
+      "max": [
+        0.8500282764434814,
+        0.8882191181182861
+      ]
+    },
+    "513_B24_Pair_Top_Clean": {
+      "meshes": 412,
+      "min": [
+        0.15918700397014618,
+        0.05124124139547348
+      ],
+      "max": [
+        0.8404914140701294,
+        0.949999988079071
+      ]
+    }
+  },
+  "pending": [
+    "Full roof interior absent in registered clay; top slab and small hardware remain photo-derived exterior approximations.",
+    "Earlier local alignment failures and remaining physical outdoor coverage retained in prior evidence.",
+    "Unseen electrical interiors and full electrical topology are not modeled."
+  ],
+  "formal_promotions": 0,
+  "outdoor_goal_complete": false,
+  "saved_by_validator": false,
+  "screen_scope": "8 fixed wall domains; finite saved surfaces; odd comparison/even fit from one spatially correlated reconstruction; 5cm is internal screen, not survey acceptance"
+}

@@ -1,0 +1,245 @@
+{
+  "status": "passed",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/xialin_B09_capacitor_banks.blend",
+  "sha256": "d9d95b447b58165719096bb2f53d1f630fca0170e9ebfb5abea58a1b48e60b5f",
+  "formal_promotions": 0,
+  "complete_capacitor_bank": false,
+  "acceptance_scope": "saved references, historical preservation, same-end terminals, support contacts, framing and cylindrical holdout distances; not complete equipment acceptance",
+  "original_objects_unchanged": 22106,
+  "original_collections_unchanged": 242,
+  "original_scenes_unchanged": 31,
+  "original_materials_unchanged": 263,
+  "formal_v50_components_preserved": 15096,
+  "B06_civil_meshes_preserved": 69,
+  "retained_original_components_in_new_station": 10495,
+  "legacy_meshes_omitted_only_in_new_scenes": 3852,
+  "protected_files_unchanged": 445,
+  "P05_source_objects_unchanged": 119,
+  "expanded_meshes": {
+    "031": 1560,
+    "032": 1560,
+    "033": 1560
+  },
+  "main_modules_per_bank": {
+    "031": {
+      "rack": 3,
+      "reactor": 3,
+      "discharge": 3,
+      "small_arrester": 3
+    },
+    "032": {
+      "rack": 3,
+      "reactor": 3,
+      "discharge": 3,
+      "small_arrester": 3
+    },
+    "033": {
+      "rack": 3,
+      "reactor": 3,
+      "discharge": 3,
+      "small_arrester": 3
+    }
+  },
+  "source_instance_uniform_scales": true,
+  "reactor_support_contacts": 27,
+  "terminal_orientation_plus_local_x": true,
+  "rack_can_count_per_rack": 8,
+  "rack_can_count_is_candidate": true,
+  "reactor_heldout_measurements": [
+    {
+      "unit": "031",
+      "lane": 1,
+      "heldout_triangles": 69,
+      "median_abs_m": 0.004574343908320122,
+      "p95_abs_m": 0.024674066565553883,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "031",
+      "lane": 2,
+      "heldout_triangles": 67,
+      "median_abs_m": 0.0035877613684088816,
+      "p95_abs_m": 0.03131473882152583,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "031",
+      "lane": 3,
+      "heldout_triangles": 85,
+      "median_abs_m": 0.005050474847131503,
+      "p95_abs_m": 0.019223493053082286,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "032",
+      "lane": 1,
+      "heldout_triangles": 85,
+      "median_abs_m": 0.0071752500423484245,
+      "p95_abs_m": 0.11574921924759293,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "032",
+      "lane": 2,
+      "heldout_triangles": 82,
+      "median_abs_m": 0.004651569568118297,
+      "p95_abs_m": 0.021818372794478503,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "032",
+      "lane": 3,
+      "heldout_triangles": 76,
+      "median_abs_m": 0.004881733580254122,
+      "p95_abs_m": 0.02179298121856571,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "033",
+      "lane": 1,
+      "heldout_triangles": 66,
+      "median_abs_m": 0.004201984177912066,
+      "p95_abs_m": 0.024839900086180422,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "033",
+      "lane": 2,
+      "heldout_triangles": 68,
+      "median_abs_m": 0.027185271914751064,
+      "p95_abs_m": 0.07035718917508095,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "033",
+      "lane": 3,
+      "heldout_triangles": 73,
+      "median_abs_m": 0.008335375898049002,
+      "p95_abs_m": 0.09388592611289168,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    }
+  ],
+  "rack_fit_diagnostics": [
+    {
+      "unit": "031",
+      "lane": 1,
+      "back_plane": -2.2663710548239617,
+      "median_abs_m": 0.013063825942411844,
+      "p95_abs_m": 0.12625565699964503,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "031",
+      "lane": 2,
+      "back_plane": -0.025195552285280698,
+      "median_abs_m": 0.011586663938486973,
+      "p95_abs_m": 0.05596183165244515,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "031",
+      "lane": 3,
+      "back_plane": 2.2395602033776374,
+      "median_abs_m": 0.012811381182128212,
+      "p95_abs_m": 0.06747206672223771,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "032",
+      "lane": 1,
+      "back_plane": -2.362843437369433,
+      "median_abs_m": 0.006961750921996135,
+      "p95_abs_m": 0.1392817649407865,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "032",
+      "lane": 2,
+      "back_plane": -0.10037340062436151,
+      "median_abs_m": 0.008392334958772271,
+      "p95_abs_m": 0.10826043385530347,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "032",
+      "lane": 3,
+      "back_plane": 2.142212943856153,
+      "median_abs_m": 0.010176708870642814,
+      "p95_abs_m": 0.074734509350182,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "033",
+      "lane": 1,
+      "back_plane": -2.032121820624438,
+      "median_abs_m": 0.006786663527353465,
+      "p95_abs_m": 0.08415256389873729,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "033",
+      "lane": 2,
+      "back_plane": 0.2347914741677375,
+      "median_abs_m": 0.01186886657256958,
+      "p95_abs_m": 0.07164626529599533,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "033",
+      "lane": 3,
+      "back_plane": 2.474943237130079,
+      "median_abs_m": 0.015531869382248598,
+      "p95_abs_m": 0.05000844361205681,
+      "scope": "fit-set diagnostic, not independent validation"
+    }
+  ],
+  "camera_framing": {
+    "031": {
+      "min": [
+        0.1503361612558365,
+        0.11518716812133789
+      ],
+      "max": [
+        0.8794509172439575,
+        0.8601412773132324
+      ]
+    },
+    "032": {
+      "min": [
+        0.14864809811115265,
+        0.12241173535585403
+      ],
+      "max": [
+        0.8802574276924133,
+        0.8685310482978821
+      ]
+    },
+    "033": {
+      "min": [
+        0.12737081944942474,
+        0.1183253601193428
+      ],
+      "max": [
+        0.8589333891868591,
+        0.8647699952125549
+      ]
+    }
+  },
+  "pending": [
+    "exact internal capacitor count and hidden terminal connections",
+    "fence gate hardware and detailed wire mesh pitch",
+    "incoming switch internals and full circuit topology",
+    "small arrester exact foot position and detailed discharge terminal dimensions",
+    "site dimensions are coarse-relative, not surveyed"
+  ],
+  "blend_saved_by_validator": false
+}

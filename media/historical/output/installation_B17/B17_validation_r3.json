@@ -1,0 +1,1358 @@
+{
+  "status": "saved_geometry_and_history_preserved_partial_alignment",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B17/r3/xialin_B17_220kV_outgoing_GIS_r3.blend",
+  "sha256": "3e6b6a4c3946442ecec0460f2bc0e49cb8552eed9e3509bd262607e432a99500",
+  "previous_objects_unchanged": 25076,
+  "previous_scenes_unchanged": 248,
+  "previous_collections_unchanged": 424,
+  "previous_materials_unchanged": 303,
+  "protected_previous_files_unchanged": 1269,
+  "formal_baseline_preserved": 15096,
+  "legacy_meshes_remaining": 3104,
+  "new_candidates": 5,
+  "shared_core_instances": 5,
+  "shared_terminal_instances": 15,
+  "source_asset_roundtrip_identical": true,
+  "route_checks": [
+    {
+      "object": "B17::4D75.air_route.0",
+      "max_endpoint_error_m": 2.6292873739287713e-07
+    },
+    {
+      "object": "B17::4D75.air_route.1",
+      "max_endpoint_error_m": 4.438797479728955e-07
+    },
+    {
+      "object": "B17::4D75.air_route.2",
+      "max_endpoint_error_m": 5.693322036460956e-07
+    },
+    {
+      "object": "B17::4D76.air_route.0",
+      "max_endpoint_error_m": 3.35977246166754e-07
+    },
+    {
+      "object": "B17::4D76.air_route.1",
+      "max_endpoint_error_m": 2.629654989706333e-07
+    },
+    {
+      "object": "B17::4D76.air_route.2",
+      "max_endpoint_error_m": 2.887242795921669e-07
+    },
+    {
+      "object": "B17::2899.air_route.0",
+      "max_endpoint_error_m": 3.25282167780317e-07
+    },
+    {
+      "object": "B17::2899.air_route.1",
+      "max_endpoint_error_m": 2.513484338409371e-07
+    },
+    {
+      "object": "B17::2899.air_route.2",
+      "max_endpoint_error_m": 3.25282167780317e-07
+    },
+    {
+      "object": "B17::4802.air_route.0",
+      "max_endpoint_error_m": 4.956661800994961e-07
+    },
+    {
+      "object": "B17::4802.air_route.1",
+      "max_endpoint_error_m": 4.956661800994961e-07
+    },
+    {
+      "object": "B17::4802.air_route.2",
+      "max_endpoint_error_m": 4.956661800994961e-07
+    },
+    {
+      "object": "B17::4B77.air_route.0",
+      "max_endpoint_error_m": 2.000683511866051e-06
+    },
+    {
+      "object": "B17::4B77.air_route.1",
+      "max_endpoint_error_m": 2.000683511866051e-06
+    },
+    {
+      "object": "B17::4B77.air_route.2",
+      "max_endpoint_error_m": 2.000683511866051e-06
+    },
+    {
+      "object": "B17::4D75.bus_extension.0.-1",
+      "max_endpoint_error_m": 5.290429341331539e-08
+    },
+    {
+      "object": "B17::4D75.bus_extension.0.1",
+      "max_endpoint_error_m": 2.1930792623001867e-07
+    },
+    {
+      "object": "B17::4D75.bus_extension.1.-1",
+      "max_endpoint_error_m": 5.290429741598019e-08
+    },
+    {
+      "object": "B17::4D75.bus_extension.1.1",
+      "max_endpoint_error_m": 2.1930792568688277e-07
+    },
+    {
+      "object": "B17::4D76.bus_extension.0.-1",
+      "max_endpoint_error_m": 1.1316073793891356e-07
+    },
+    {
+      "object": "B17::4D76.bus_extension.0.1",
+      "max_endpoint_error_m": 1.4026495151476826e-07
+    },
+    {
+      "object": "B17::4D76.bus_extension.1.-1",
+      "max_endpoint_error_m": 1.1316073981021856e-07
+    },
+    {
+      "object": "B17::4D76.bus_extension.1.1",
+      "max_endpoint_error_m": 1.4026495151476826e-07
+    },
+    {
+      "object": "B17::2899.bus_extension.0.-1",
+      "max_endpoint_error_m": 2.018763502312907e-07
+    },
+    {
+      "object": "B17::2899.bus_extension.0.1",
+      "max_endpoint_error_m": 2.018763441167867e-07
+    },
+    {
+      "object": "B17::2899.bus_extension.1.-1",
+      "max_endpoint_error_m": 2.0187635023129108e-07
+    },
+    {
+      "object": "B17::2899.bus_extension.1.1",
+      "max_endpoint_error_m": 2.0187634201888653e-07
+    },
+    {
+      "object": "B17::4802.bus_extension.0.-1",
+      "max_endpoint_error_m": 2.0187633974178896e-07
+    },
+    {
+      "object": "B17::4802.bus_extension.0.1",
+      "max_endpoint_error_m": 8.342994868321372e-09
+    },
+    {
+      "object": "B17::4802.bus_extension.1.-1",
+      "max_endpoint_error_m": 2.0304442494062025e-07
+    },
+    {
+      "object": "B17::4802.bus_extension.1.1",
+      "max_endpoint_error_m": 1.4614640485388543e-08
+    },
+    {
+      "object": "B17::4B77.bus_extension.0.-1",
+      "max_endpoint_error_m": 2.0187635232919118e-07
+    },
+    {
+      "object": "B17::4B77.bus_extension.0.1",
+      "max_endpoint_error_m": 1.6264855653745988e-08
+    },
+    {
+      "object": "B17::4B77.bus_extension.1.-1",
+      "max_endpoint_error_m": 1.0070153798869935e-07
+    },
+    {
+      "object": "B17::4B77.bus_extension.1.1",
+      "max_endpoint_error_m": 7.092734973190543e-09
+    }
+  ],
+  "connections": [
+    {
+      "a": "4802",
+      "b": "4B77",
+      "bus": 0,
+      "gap_m": 8.79839510114497e-09
+    },
+    {
+      "a": "4802",
+      "b": "4B77",
+      "bus": 1,
+      "gap_m": 2.6802842704963004e-08
+    }
+  ],
+  "open_bus_boundaries": 16,
+  "terminal_contacts": [
+    {
+      "key": "4D75",
+      "index": 0,
+      "axis_error_m": 7.019283476872649e-07,
+      "post_base_contact": true,
+      "base_porcelain_datum_contact": true
+    },
+    {
+      "key": "4D75",
+      "index": 1,
+      "axis_error_m": 2.2353810842976662e-06,
+      "post_base_contact": true,
+      "base_porcelain_datum_contact": true
+    },
+    {
+      "key": "4D75",
+      "index": 2,
+      "axis_error_m": 1.6422870094908047e-06,
+      "post_base_contact": true,
+      "base_porcelain_datum_contact": true
+    },
+    {
+      "key": "4D76",
+      "index": 0,
+      "axis_error_m": 1.2797485631984296e-06,
+      "post_base_contact": true,
+      "base_porcelain_datum_contact": true
+    },
+    {
+      "key": "4D76",
+      "index": 1,
+      "axis_error_m": 9.113025310484236e-07,
+      "post_base_contact": true,
+      "base_porcelain_datum_contact": true
+    },
+    {
+      "key": "4D76",
+      "index": 2,
+      "axis_error_m": 3.670736801930176e-07,
+      "post_base_contact": true,
+      "base_porcelain_datum_contact": true
+    },
+    {
+      "key": "2899",
+      "index": 0,
+      "axis_error_m": 3.254531007335795e-06,
+      "post_base_contact": true,
+      "base_porcelain_datum_contact": true
+    },
+    {
+      "key": "2899",
+      "index": 1,
+      "axis_error_m": 6.700174555537775e-07,
+      "post_base_contact": true,
+      "base_porcelain_datum_contact": true
+    },
+    {
+      "key": "2899",
+      "index": 2,
+      "axis_error_m": 8.140762717199521e-07,
+      "post_base_contact": true,
+      "base_porcelain_datum_contact": true
+    },
+    {
+      "key": "4802",
+      "index": 0,
+      "axis_error_m": 2.2053530092077172e-06,
+      "post_base_contact": true,
+      "base_porcelain_datum_contact": true
+    },
+    {
+      "key": "4802",
+      "index": 1,
+      "axis_error_m": 1.2746436866441102e-06,
+      "post_base_contact": true,
+      "base_porcelain_datum_contact": true
+    },
+    {
+      "key": "4802",
+      "index": 2,
+      "axis_error_m": 1.5370765910484911e-06,
+      "post_base_contact": true,
+      "base_porcelain_datum_contact": true
+    },
+    {
+      "key": "4B77",
+      "index": 0,
+      "axis_error_m": 2.9686406594384e-06,
+      "post_base_contact": true,
+      "base_porcelain_datum_contact": true
+    },
+    {
+      "key": "4B77",
+      "index": 1,
+      "axis_error_m": 1.9101256855060573e-06,
+      "post_base_contact": true,
+      "base_porcelain_datum_contact": true
+    },
+    {
+      "key": "4B77",
+      "index": 2,
+      "axis_error_m": 3.6055967196111105e-06,
+      "post_base_contact": true,
+      "base_porcelain_datum_contact": true
+    }
+  ],
+  "terminal_grading_ring_checks": [
+    {
+      "key": "4D75",
+      "index": 0,
+      "ring": "lower",
+      "heldout_rms_m": 0.028635379182614246,
+      "actual_ring_height_m": 5.2104461269378675
+    },
+    {
+      "key": "4D75",
+      "index": 0,
+      "ring": "upper",
+      "heldout_rms_m": 0.026285895153396993,
+      "actual_ring_height_m": 5.45744611477852
+    },
+    {
+      "key": "4D75",
+      "index": 1,
+      "ring": "lower",
+      "heldout_rms_m": 0.020083256789773612,
+      "actual_ring_height_m": 5.190032966613771
+    },
+    {
+      "key": "4D75",
+      "index": 1,
+      "ring": "upper",
+      "heldout_rms_m": 0.016370824652573956,
+      "actual_ring_height_m": 5.437032954454423
+    },
+    {
+      "key": "4D75",
+      "index": 2,
+      "ring": "lower",
+      "heldout_rms_m": 0.022778013970774443,
+      "actual_ring_height_m": 5.2108383255004895
+    },
+    {
+      "key": "4D75",
+      "index": 2,
+      "ring": "upper",
+      "heldout_rms_m": 0.03043220651061727,
+      "actual_ring_height_m": 5.457838313341142
+    },
+    {
+      "key": "4D76",
+      "index": 0,
+      "ring": "lower",
+      "heldout_rms_m": 0.027260357793061636,
+      "actual_ring_height_m": 5.236612804412843
+    },
+    {
+      "key": "4D76",
+      "index": 0,
+      "ring": "upper",
+      "heldout_rms_m": 0.0237798846814912,
+      "actual_ring_height_m": 5.483612792253496
+    },
+    {
+      "key": "4D76",
+      "index": 1,
+      "ring": "lower",
+      "heldout_rms_m": 0.023110961996652905,
+      "actual_ring_height_m": 5.22534871864319
+    },
+    {
+      "key": "4D76",
+      "index": 1,
+      "ring": "upper",
+      "heldout_rms_m": 0.021762290624016373,
+      "actual_ring_height_m": 5.472348706483842
+    },
+    {
+      "key": "4D76",
+      "index": 2,
+      "ring": "lower",
+      "heldout_rms_m": 0.02346518092876864,
+      "actual_ring_height_m": 5.239363916397096
+    },
+    {
+      "key": "4D76",
+      "index": 2,
+      "ring": "upper",
+      "heldout_rms_m": 0.02074231311463639,
+      "actual_ring_height_m": 5.486363904237749
+    },
+    {
+      "key": "2899",
+      "index": 0,
+      "ring": "lower",
+      "heldout_rms_m": 0.026726701563924368,
+      "actual_ring_height_m": 5.253807790756227
+    },
+    {
+      "key": "2899",
+      "index": 0,
+      "ring": "upper",
+      "heldout_rms_m": 0.02076735742944572,
+      "actual_ring_height_m": 5.500807778596879
+    },
+    {
+      "key": "2899",
+      "index": 1,
+      "ring": "lower",
+      "heldout_rms_m": 0.02101417188791796,
+      "actual_ring_height_m": 5.254044301986696
+    },
+    {
+      "key": "2899",
+      "index": 1,
+      "ring": "upper",
+      "heldout_rms_m": 0.024227616613872568,
+      "actual_ring_height_m": 5.501044289827348
+    },
+    {
+      "key": "2899",
+      "index": 2,
+      "ring": "lower",
+      "heldout_rms_m": 0.022765663139844305,
+      "actual_ring_height_m": 5.2570278720855725
+    },
+    {
+      "key": "2899",
+      "index": 2,
+      "ring": "upper",
+      "heldout_rms_m": 0.026431540228583537,
+      "actual_ring_height_m": 5.504027859926225
+    },
+    {
+      "key": "4802",
+      "index": 0,
+      "ring": "lower",
+      "heldout_rms_m": 0.02696910955822328,
+      "actual_ring_height_m": 5.312848814010621
+    },
+    {
+      "key": "4802",
+      "index": 0,
+      "ring": "upper",
+      "heldout_rms_m": 0.017604799748982394,
+      "actual_ring_height_m": 5.559848801851274
+    },
+    {
+      "key": "4802",
+      "index": 1,
+      "ring": "lower",
+      "heldout_rms_m": 0.02742740698023609,
+      "actual_ring_height_m": 5.315135248184205
+    },
+    {
+      "key": "4802",
+      "index": 1,
+      "ring": "upper",
+      "heldout_rms_m": 0.024019569657154672,
+      "actual_ring_height_m": 5.562135236024858
+    },
+    {
+      "key": "4802",
+      "index": 2,
+      "ring": "lower",
+      "heldout_rms_m": 0.023047839736933338,
+      "actual_ring_height_m": 5.318664319992067
+    },
+    {
+      "key": "4802",
+      "index": 2,
+      "ring": "upper",
+      "heldout_rms_m": 0.02562003598969028,
+      "actual_ring_height_m": 5.565664307832719
+    },
+    {
+      "key": "4B77",
+      "index": 0,
+      "ring": "lower",
+      "heldout_rms_m": 0.020847574905828184,
+      "actual_ring_height_m": 5.254462249755861
+    },
+    {
+      "key": "4B77",
+      "index": 0,
+      "ring": "upper",
+      "heldout_rms_m": 0.026241780457465388,
+      "actual_ring_height_m": 5.501462237596513
+    },
+    {
+      "key": "4B77",
+      "index": 1,
+      "ring": "lower",
+      "heldout_rms_m": 0.02208278447797008,
+      "actual_ring_height_m": 5.2698147373199475
+    },
+    {
+      "key": "4B77",
+      "index": 1,
+      "ring": "upper",
+      "heldout_rms_m": 0.019186224874057762,
+      "actual_ring_height_m": 5.5168147251606
+    },
+    {
+      "key": "4B77",
+      "index": 2,
+      "ring": "lower",
+      "heldout_rms_m": 0.022912028638056026,
+      "actual_ring_height_m": 5.275266654968263
+    },
+    {
+      "key": "4B77",
+      "index": 2,
+      "ring": "upper",
+      "heldout_rms_m": 0.02495281488084038,
+      "actual_ring_height_m": 5.5222666428089155
+    }
+  ],
+  "measurements": [
+    {
+      "key": "4D75",
+      "patches": [
+        {
+          "name": "bus_0",
+          "heldout_count": 64,
+          "rms_m": 0.011851275018993924,
+          "p95_m": 0.017136866040527818,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "bus_1",
+          "heldout_count": 74,
+          "rms_m": 0.06458713292507048,
+          "p95_m": 0.14221934303641318,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_0",
+          "heldout_count": 307,
+          "rms_m": 0.06131328139061117,
+          "p95_m": 0.11262940913438794,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_1",
+          "heldout_count": 133,
+          "rms_m": 0.07491551156159822,
+          "p95_m": 0.14985962808132164,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_2",
+          "heldout_count": 282,
+          "rms_m": 0.06185692513677072,
+          "p95_m": 0.13827300444245336,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "air_support_0",
+          "heldout_count": 64,
+          "rms_m": 0.01199748824245682,
+          "p95_m": 0.013637650385499,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "air_support_1",
+          "heldout_count": 69,
+          "rms_m": 0.002251923805293984,
+          "p95_m": 0.0041384675540029996,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "air_support_2",
+          "heldout_count": 85,
+          "rms_m": 0.027190724200425776,
+          "p95_m": 0.06137177012860764,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_x_minus",
+          "heldout_count": 155,
+          "rms_m": 0.02084111819935764,
+          "p95_m": 0.03984364829957485,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_x_plus",
+          "heldout_count": 90,
+          "rms_m": 0.0701470694514954,
+          "p95_m": 0.0967090867459774,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_y_minus",
+          "heldout_count": 73,
+          "rms_m": 0.053195016896535406,
+          "p95_m": 0.08911283165216444,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_y_plus",
+          "heldout_count": 64,
+          "rms_m": 0.04101844070360403,
+          "p95_m": 0.07237116433680055,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "porcelain_0",
+          "heldout_count": 1656,
+          "rms_m": 0.020032170616108215,
+          "p95_m": 0.03392847999930382,
+          "five_cm_screen_passed": true,
+          "scope": "independent visible coarse porcelain envelope; no source refit",
+          "residual_trimming": false
+        },
+        {
+          "name": "porcelain_1",
+          "heldout_count": 1204,
+          "rms_m": 0.027490066303874246,
+          "p95_m": 0.05426537804305551,
+          "five_cm_screen_passed": true,
+          "scope": "independent visible coarse porcelain envelope; no source refit",
+          "residual_trimming": false
+        },
+        {
+          "name": "porcelain_2",
+          "heldout_count": 1328,
+          "rms_m": 0.0219477087440785,
+          "p95_m": 0.03757828809320926,
+          "five_cm_screen_passed": true,
+          "scope": "independent visible coarse porcelain envelope; no source refit",
+          "residual_trimming": false
+        }
+      ]
+    },
+    {
+      "key": "4D76",
+      "patches": [
+        {
+          "name": "bus_0",
+          "heldout_count": 155,
+          "rms_m": 0.03803201212695324,
+          "p95_m": 0.1076498344540596,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "bus_1",
+          "heldout_count": 194,
+          "rms_m": 0.07391060962652492,
+          "p95_m": 0.14269394874572752,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_0",
+          "heldout_count": 180,
+          "rms_m": 0.05483053860624364,
+          "p95_m": 0.10269930623471735,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_1",
+          "heldout_count": 69,
+          "rms_m": 0.05775307591931211,
+          "p95_m": 0.11584300696849821,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_2",
+          "heldout_count": 244,
+          "rms_m": 0.046659857671451435,
+          "p95_m": 0.09101846516132353,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "air_support_0",
+          "heldout_count": 72,
+          "rms_m": 0.012396805397004822,
+          "p95_m": 0.01671923054382205,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "air_support_1",
+          "heldout_count": 79,
+          "rms_m": 0.0027763153289520597,
+          "p95_m": 0.005734449066221714,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "air_support_2",
+          "heldout_count": 68,
+          "rms_m": 0.01068485664668534,
+          "p95_m": 0.013108298694714905,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_x_minus",
+          "heldout_count": 105,
+          "rms_m": 0.027457645526409016,
+          "p95_m": 0.04888721406459808,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_x_plus",
+          "heldout_count": 48,
+          "rms_m": 0.06754268721225992,
+          "p95_m": 0.0808518409729004,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_y_minus",
+          "heldout_count": 40,
+          "rms_m": 0.040855002119732246,
+          "p95_m": 0.05316111594438553,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_y_plus",
+          "heldout_count": 62,
+          "rms_m": 0.048910461908710685,
+          "p95_m": 0.06994069330394267,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "porcelain_0",
+          "heldout_count": 1401,
+          "rms_m": 0.023423112466333655,
+          "p95_m": 0.03708110749721527,
+          "five_cm_screen_passed": true,
+          "scope": "independent visible coarse porcelain envelope; no source refit",
+          "residual_trimming": false
+        },
+        {
+          "name": "porcelain_1",
+          "heldout_count": 1266,
+          "rms_m": 0.023042931730015457,
+          "p95_m": 0.04146692901849747,
+          "five_cm_screen_passed": true,
+          "scope": "independent visible coarse porcelain envelope; no source refit",
+          "residual_trimming": false
+        },
+        {
+          "name": "porcelain_2",
+          "heldout_count": 2058,
+          "rms_m": 0.02534590932125732,
+          "p95_m": 0.0440606104210019,
+          "five_cm_screen_passed": true,
+          "scope": "independent visible coarse porcelain envelope; no source refit",
+          "residual_trimming": false
+        }
+      ]
+    },
+    {
+      "key": "2899",
+      "patches": [
+        {
+          "name": "bus_0",
+          "heldout_count": 182,
+          "rms_m": 0.05937741836788345,
+          "p95_m": 0.14084604829549788,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "bus_1",
+          "heldout_count": 167,
+          "rms_m": 0.0638388094203467,
+          "p95_m": 0.14774657189846033,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_0",
+          "heldout_count": 285,
+          "rms_m": 0.05452941968276369,
+          "p95_m": 0.11303276270627977,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_1",
+          "heldout_count": 112,
+          "rms_m": 0.07063528514404073,
+          "p95_m": 0.118544240668416,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_2",
+          "heldout_count": 237,
+          "rms_m": 0.0476153073330478,
+          "p95_m": 0.09627565294504165,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "air_support_0",
+          "heldout_count": 78,
+          "rms_m": 0.01284791056966091,
+          "p95_m": 0.015158749977126717,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "air_support_1",
+          "heldout_count": 86,
+          "rms_m": 0.0023690708672335923,
+          "p95_m": 0.0038755047135055065,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "air_support_2",
+          "heldout_count": 76,
+          "rms_m": 0.011942107634046135,
+          "p95_m": 0.01517158281058073,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_x_minus",
+          "heldout_count": 155,
+          "rms_m": 0.02520290875849552,
+          "p95_m": 0.05067533440887927,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_x_plus",
+          "heldout_count": 57,
+          "rms_m": 0.06399388816703491,
+          "p95_m": 0.0835594534873962,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_y_minus",
+          "heldout_count": 62,
+          "rms_m": 0.040770710283516705,
+          "p95_m": 0.05910328719764947,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_y_plus",
+          "heldout_count": 56,
+          "rms_m": 0.0389025990092972,
+          "p95_m": 0.057293737307190895,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "porcelain_0",
+          "heldout_count": 1306,
+          "rms_m": 0.023601940120572713,
+          "p95_m": 0.036588181741535664,
+          "five_cm_screen_passed": true,
+          "scope": "independent visible coarse porcelain envelope; no source refit",
+          "residual_trimming": false
+        },
+        {
+          "name": "porcelain_1",
+          "heldout_count": 848,
+          "rms_m": 0.019559852348728812,
+          "p95_m": 0.03244683966040611,
+          "five_cm_screen_passed": true,
+          "scope": "independent visible coarse porcelain envelope; no source refit",
+          "residual_trimming": false
+        },
+        {
+          "name": "porcelain_2",
+          "heldout_count": 1459,
+          "rms_m": 0.024190203056082524,
+          "p95_m": 0.04058591835200785,
+          "five_cm_screen_passed": true,
+          "scope": "independent visible coarse porcelain envelope; no source refit",
+          "residual_trimming": false
+        }
+      ]
+    },
+    {
+      "key": "4802",
+      "patches": [
+        {
+          "name": "bus_0",
+          "heldout_count": 203,
+          "rms_m": 0.05358260783381966,
+          "p95_m": 0.13412467092275615,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "bus_1",
+          "heldout_count": 188,
+          "rms_m": 0.0694231291902069,
+          "p95_m": 0.146794081479311,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_0",
+          "heldout_count": 307,
+          "rms_m": 0.059072638675456327,
+          "p95_m": 0.11434025615453718,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_1",
+          "heldout_count": 148,
+          "rms_m": 0.07491063941704038,
+          "p95_m": 0.1346015825867653,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_2",
+          "heldout_count": 191,
+          "rms_m": 0.0418618235749534,
+          "p95_m": 0.09174158051609993,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "air_support_0",
+          "heldout_count": 60,
+          "rms_m": 0.013639372075745941,
+          "p95_m": 0.015270743751898408,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "air_support_1",
+          "heldout_count": 65,
+          "rms_m": 0.0021302108584938836,
+          "p95_m": 0.003759984346106648,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "air_support_2",
+          "heldout_count": 67,
+          "rms_m": 0.013135534416295476,
+          "p95_m": 0.0151903728954494,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_x_minus",
+          "heldout_count": 168,
+          "rms_m": 0.02254062615211812,
+          "p95_m": 0.04151631705462934,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_x_plus",
+          "heldout_count": 64,
+          "rms_m": 0.06575671286293726,
+          "p95_m": 0.08385066725313661,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_y_minus",
+          "heldout_count": 44,
+          "rms_m": 0.04262590508036706,
+          "p95_m": 0.05654073376208544,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_y_plus",
+          "heldout_count": 77,
+          "rms_m": 0.040431828154498396,
+          "p95_m": 0.05472432747483254,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "porcelain_0",
+          "heldout_count": 1938,
+          "rms_m": 0.027194452558549253,
+          "p95_m": 0.04740852881222963,
+          "five_cm_screen_passed": true,
+          "scope": "independent visible coarse porcelain envelope; no source refit",
+          "residual_trimming": false
+        },
+        {
+          "name": "porcelain_1",
+          "heldout_count": 1907,
+          "rms_m": 0.02625324969929985,
+          "p95_m": 0.0449700180441141,
+          "five_cm_screen_passed": true,
+          "scope": "independent visible coarse porcelain envelope; no source refit",
+          "residual_trimming": false
+        },
+        {
+          "name": "porcelain_2",
+          "heldout_count": 1561,
+          "rms_m": 0.029548687017715583,
+          "p95_m": 0.0543888695538044,
+          "five_cm_screen_passed": true,
+          "scope": "independent visible coarse porcelain envelope; no source refit",
+          "residual_trimming": false
+        }
+      ]
+    },
+    {
+      "key": "4B77",
+      "patches": [
+        {
+          "name": "bus_0",
+          "heldout_count": 272,
+          "rms_m": 0.242731507673181,
+          "p95_m": 0.44715900421142574,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "bus_1",
+          "heldout_count": 351,
+          "rms_m": 0.26633003684616663,
+          "p95_m": 0.4550090730190277,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_0",
+          "heldout_count": 193,
+          "rms_m": 0.03925472864038381,
+          "p95_m": 0.10105725675821295,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_1",
+          "heldout_count": 101,
+          "rms_m": 0.05048800501337832,
+          "p95_m": 0.1001245304942131,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_2",
+          "heldout_count": 253,
+          "rms_m": 0.05256145742432559,
+          "p95_m": 0.1184357911348343,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "air_support_0",
+          "heldout_count": 63,
+          "rms_m": 0.012196479917064034,
+          "p95_m": 0.014654148556292056,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "air_support_1",
+          "heldout_count": 74,
+          "rms_m": 0.0026699925210037574,
+          "p95_m": 0.005235189432278268,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "air_support_2",
+          "heldout_count": 67,
+          "rms_m": 0.011994145939927196,
+          "p95_m": 0.014240651205182074,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_x_minus",
+          "heldout_count": 141,
+          "rms_m": 0.022143228769329396,
+          "p95_m": 0.04743083193898201,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_x_plus",
+          "heldout_count": 56,
+          "rms_m": 0.07367929404157615,
+          "p95_m": 0.11765895783901215,
+          "five_cm_screen_passed": false,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_y_minus",
+          "heldout_count": 49,
+          "rms_m": 0.0426261996569905,
+          "p95_m": 0.060418045520782455,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "cab_y_plus",
+          "heldout_count": 56,
+          "rms_m": 0.04435529109624278,
+          "p95_m": 0.06256055179983377,
+          "five_cm_screen_passed": true,
+          "scope": "actual saved finite component surfaces",
+          "residual_trimming": false
+        },
+        {
+          "name": "porcelain_0",
+          "heldout_count": 898,
+          "rms_m": 0.030992531311315203,
+          "p95_m": 0.052936429344117644,
+          "five_cm_screen_passed": true,
+          "scope": "independent visible coarse porcelain envelope; no source refit",
+          "residual_trimming": false
+        },
+        {
+          "name": "porcelain_1",
+          "heldout_count": 788,
+          "rms_m": 0.02577341399090674,
+          "p95_m": 0.048964376188814634,
+          "five_cm_screen_passed": true,
+          "scope": "independent visible coarse porcelain envelope; no source refit",
+          "residual_trimming": false
+        },
+        {
+          "name": "porcelain_2",
+          "heldout_count": 894,
+          "rms_m": 0.023050413225753318,
+          "p95_m": 0.03808393497020006,
+          "five_cm_screen_passed": true,
+          "scope": "independent visible coarse porcelain envelope; no source refit",
+          "residual_trimming": false
+        }
+      ]
+    }
+  ],
+  "local_screens_passed": 50,
+  "local_screens_unpassed": 25,
+  "camera_framing": {
+    "266_B17_4D75_Front_Clean": {
+      "min": [
+        0.29737621545791626,
+        0.05000002682209015
+      ],
+      "max": [
+        0.9264434576034546,
+        0.705624520778656
+      ]
+    },
+    "269_B17_4D75_Side_Clean": {
+      "min": [
+        0.23233820497989655,
+        0.20955950021743774
+      ],
+      "max": [
+        0.9391498565673828,
+        0.8061375021934509
+      ]
+    },
+    "272_B17_4D75_Top_Clean": {
+      "min": [
+        0.2988855838775635,
+        0.05000000447034836
+      ],
+      "max": [
+        0.6272274255752563,
+        0.7512710094451904
+      ]
+    },
+    "275_B17_4D76_Front_Clean": {
+      "min": [
+        0.28892970085144043,
+        0.05000004917383194
+      ],
+      "max": [
+        0.9319990277290344,
+        0.7145456671714783
+      ]
+    },
+    "278_B17_4D76_Side_Clean": {
+      "min": [
+        0.23428545892238617,
+        0.21122846007347107
+      ],
+      "max": [
+        0.9252015352249146,
+        0.8090720176696777
+      ]
+    },
+    "281_B17_4D76_Top_Clean": {
+      "min": [
+        0.380728155374527,
+        0.24631883203983307
+      ],
+      "max": [
+        0.7406911849975586,
+        0.949999988079071
+      ]
+    },
+    "284_B17_2899_Front_Clean": {
+      "min": [
+        0.28708702325820923,
+        0.05000000074505806
+      ],
+      "max": [
+        0.9346111416816711,
+        0.7170379757881165
+      ]
+    },
+    "287_B17_2899_Side_Clean": {
+      "min": [
+        0.23522888123989105,
+        0.21405726671218872
+      ],
+      "max": [
+        0.9283255934715271,
+        0.8108888268470764
+      ]
+    },
+    "290_B17_2899_Top_Clean": {
+      "min": [
+        0.35509610176086426,
+        0.049999989569187164
+      ],
+      "max": [
+        0.8016105890274048,
+        0.7239900827407837
+      ]
+    },
+    "293_B17_4802_Front_Clean": {
+      "min": [
+        0.0736028328537941,
+        0.21197500824928284
+      ],
+      "max": [
+        0.6238222718238831,
+        0.9428071975708008
+      ]
+    },
+    "296_B17_4802_Side_Clean": {
+      "min": [
+        0.05000000074505806,
+        0.21461671590805054
+      ],
+      "max": [
+        0.6232264637947083,
+        0.8166079521179199
+      ]
+    },
+    "299_B17_4802_Top_Clean": {
+      "min": [
+        0.05000000074505806,
+        0.09241607785224915
+      ],
+      "max": [
+        0.6247768402099609,
+        0.7561160326004028
+      ]
+    },
+    "302_B17_4B77_Front_Clean": {
+      "min": [
+        0.2889406979084015,
+        0.05000004544854164
+      ],
+      "max": [
+        0.9268541932106018,
+        0.7124685645103455
+      ]
+    },
+    "305_B17_4B77_Side_Clean": {
+      "min": [
+        0.23379720747470856,
+        0.21395182609558105
+      ],
+      "max": [
+        0.9277319312095642,
+        0.812764048576355
+      ]
+    },
+    "308_B17_4B77_Top_Clean": {
+      "min": [
+        0.16546989977359772,
+        0.049999985843896866
+      ],
+      "max": [
+        0.6716182827949524,
+        0.711465060710907
+      ]
+    }
+  },
+  "pending": [
+    "Exact gas chamber envelopes and compact mechanisms remain approximate; retain all unpassed reference checks.",
+    "Sixteen exposed bus boundaries require neighboring220kV variants and actual route integration.",
+    "Cabinet fronts and individual phase labels need closer photo confirmation;4B77 alias retained as provisional.",
+    "Small leads and terminals plus remaining220kV variants and arresters unfinished; inherited B11-B16 failures remain."
+  ],
+  "formal_promotions": 0,
+  "outdoor_goal_complete": false,
+  "scope": "saved component geometry and independent installation datums; no full-device acceptance",
+  "saved_by_validator": false
+}

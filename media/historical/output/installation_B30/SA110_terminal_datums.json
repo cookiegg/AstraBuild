@@ -1,0 +1,334 @@
+{
+  "terminals": [
+    {
+      "id": "B02_749_A_BODY",
+      "kind": "SA110_arrester",
+      "root": "B02_749_A_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.24924657409764,
+        -35.894202458808074,
+        4.462693371410584
+      ]
+    },
+    {
+      "id": "B02_749_B_BODY",
+      "kind": "SA110_arrester",
+      "root": "B02_749_B_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.2530700942047,
+        -37.90114782791004,
+        4.466158547039246
+      ]
+    },
+    {
+      "id": "B02_749_C_BODY",
+      "kind": "SA110_arrester",
+      "root": "B02_749_C_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.25570939943539,
+        -39.900392619585396,
+        4.460638918514466
+      ]
+    },
+    {
+      "id": "B03_748_A_BODY",
+      "kind": "SA110_arrester",
+      "root": "B03_748_A_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.27246517204121,
+        -43.40215661891182,
+        4.456747688884949
+      ]
+    },
+    {
+      "id": "B03_748_C_BODY",
+      "kind": "SA110_arrester",
+      "root": "B03_748_C_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.29061736628438,
+        -47.40981408058698,
+        4.451541580791687
+      ]
+    },
+    {
+      "id": "B03_747_A_BODY",
+      "kind": "SA110_arrester",
+      "root": "B03_747_A_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.31773819906613,
+        -50.90014383911409,
+        4.44071380102179
+      ]
+    },
+    {
+      "id": "B03_747_B_BODY",
+      "kind": "SA110_arrester",
+      "root": "B03_747_B_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.32292011890499,
+        -52.90470790680929,
+        4.4418682237818
+      ]
+    },
+    {
+      "id": "B03_747_C_BODY",
+      "kind": "SA110_arrester",
+      "root": "B03_747_C_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.3376305233462,
+        -54.903546868070954,
+        4.440159716243958
+      ]
+    },
+    {
+      "id": "B05_746_C_BODY",
+      "kind": "SA110_arrester",
+      "root": "B05_746_C_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.38021708737084,
+        -62.40743117283901,
+        4.424757637615418
+      ]
+    },
+    {
+      "id": "B05_750_A_BODY",
+      "kind": "SA110_arrester",
+      "root": "B05_750_A_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.20220534805978,
+        -28.40288774146318,
+        4.4831158300592655
+      ]
+    },
+    {
+      "id": "B05_750_B_BODY",
+      "kind": "SA110_arrester",
+      "root": "B05_750_B_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.2244263249074,
+        -30.408570039308913,
+        4.47295085393927
+      ]
+    },
+    {
+      "id": "B05_750_C_BODY",
+      "kind": "SA110_arrester",
+      "root": "B05_750_C_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.22175625384884,
+        -32.40994553749249,
+        4.469919600124573
+      ]
+    },
+    {
+      "id": "B11_746_A_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_746_A_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.34478352313765,
+        -58.407367850734765,
+        4.436178841228699
+      ]
+    },
+    {
+      "id": "B11_746_B_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_746_B_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.35550521277182,
+        -60.39943336085197,
+        4.427637495632386
+      ]
+    },
+    {
+      "id": "B11_748_B_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_748_B_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.29360726098236,
+        -45.40609299598216,
+        4.4563097139551395
+      ]
+    },
+    {
+      "id": "B11_751_A_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_751_A_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.16947980753119,
+        -20.89208333562143,
+        4.49594274961493
+      ]
+    },
+    {
+      "id": "B11_751_B_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_751_B_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.17031264262152,
+        -22.895974299442347,
+        4.485058464641785
+      ]
+    },
+    {
+      "id": "B11_751_C_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_751_C_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -74.17368069527528,
+        -24.898165240405852,
+        4.480582394237732
+      ]
+    },
+    {
+      "id": "B11_758_A_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_758_A_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -73.8574560051786,
+        31.59808018680257,
+        4.569430269832825
+      ]
+    },
+    {
+      "id": "B11_758_B_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_758_B_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -73.87015942403161,
+        29.59977635247808,
+        4.559805550213074
+      ]
+    },
+    {
+      "id": "B11_758_C_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_758_C_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -73.87575469032433,
+        27.593195142358248,
+        4.5565857073023075
+      ]
+    },
+    {
+      "id": "B11_759_A_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_759_A_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -73.81546019214372,
+        39.1014880302564,
+        4.574517168636536
+      ]
+    },
+    {
+      "id": "B11_759_B_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_759_B_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -73.82320878984244,
+        37.09845439648851,
+        4.575484432811951
+      ]
+    },
+    {
+      "id": "B11_759_C_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_759_C_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -73.82409319603491,
+        35.084055927226125,
+        4.577980436916565
+      ]
+    },
+    {
+      "id": "B11_T1_501_A_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_T1_501_A_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -59.51082427161005,
+        3.266261840148182,
+        4.455820717449402
+      ]
+    },
+    {
+      "id": "B11_T1_501_B_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_T1_501_B_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -59.52315017919763,
+        1.2643906687881667,
+        4.455011763210511
+      ]
+    },
+    {
+      "id": "B11_T1_501_C_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_T1_501_C_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -59.52859012231735,
+        -0.7377136394936556,
+        4.45465628110907
+      ]
+    },
+    {
+      "id": "B11_T2_MV_A_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_T2_MV_A_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -59.59910351743256,
+        -15.72410355653486,
+        4.444696106548523
+      ]
+    },
+    {
+      "id": "B11_T2_MV_B_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_T2_MV_B_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -59.58689194775242,
+        -13.726969844470748,
+        4.446068682308411
+      ]
+    },
+    {
+      "id": "B11_T2_MV_C_BODY",
+      "kind": "SA110_arrester",
+      "root": "B11_T2_MV_C_BODY",
+      "terminal_mesh": "P02_body.terminal_lug",
+      "point": [
+        -59.56863077449897,
+        -11.726032109927232,
+        4.457611479397034
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1703 @@
+{
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B28/xialin_B28_outdoor_suspension_insulators.blend",
+  "sha256": "d9911b13470022524f7f215f71bcea49acd7abad7787a86fe99bb175cee8a774",
+  "previous_objects_unchanged": 31032,
+  "previous_scenes_unchanged": 550,
+  "previous_collections_unchanged": 685,
+  "previous_materials_unchanged": 337,
+  "previous_station_objects_unchanged": 5056,
+  "protected_previous_files_unchanged": 2663,
+  "source_asset_roundtrip_identical": true,
+  "assemblies": 42,
+  "family_counts": {
+    "SHORT_110": 30,
+    "LONG_220": 12
+  },
+  "contacts": [
+    {
+      "id": "G110_OUT_SUSP_00",
+      "connector_axis_gap_m": 7.737267644453967e-06,
+      "assembly_endpoint_transform_error_m": 7.219257892555778e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_01",
+      "connector_axis_gap_m": 6.4424570014117045e-06,
+      "assembly_endpoint_transform_error_m": 4.6441877231561225e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_02",
+      "connector_axis_gap_m": 6.613774110733005e-06,
+      "assembly_endpoint_transform_error_m": 1.6006483409938964e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_03",
+      "connector_axis_gap_m": 6.324421451125329e-06,
+      "assembly_endpoint_transform_error_m": 2.6730669919954506e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_04",
+      "connector_axis_gap_m": 6.278374066783489e-06,
+      "assembly_endpoint_transform_error_m": 4.197062935098982e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_05",
+      "connector_axis_gap_m": 6.471812741917398e-06,
+      "assembly_endpoint_transform_error_m": 3.5523363655837107e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_06",
+      "connector_axis_gap_m": 6.286673051932499e-06,
+      "assembly_endpoint_transform_error_m": 6.590172372467201e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_07",
+      "connector_axis_gap_m": 5.268978936294302e-06,
+      "assembly_endpoint_transform_error_m": 1.5950096051262403e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_08",
+      "connector_axis_gap_m": 6.06256894402098e-06,
+      "assembly_endpoint_transform_error_m": 5.131249265424067e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_09",
+      "connector_axis_gap_m": 5.879739940284535e-06,
+      "assembly_endpoint_transform_error_m": 2.385282040817811e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_10",
+      "connector_axis_gap_m": 5.6556149195846265e-06,
+      "assembly_endpoint_transform_error_m": 1.3140810273879614e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_11",
+      "connector_axis_gap_m": 4.859379380962445e-06,
+      "assembly_endpoint_transform_error_m": 2.111481463977348e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_12",
+      "connector_axis_gap_m": 5.984878691664551e-06,
+      "assembly_endpoint_transform_error_m": 7.68826964131574e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_13",
+      "connector_axis_gap_m": 6.687004519307268e-06,
+      "assembly_endpoint_transform_error_m": 3.846613340070175e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_14",
+      "connector_axis_gap_m": 5.4389116882134665e-06,
+      "assembly_endpoint_transform_error_m": 4.7383813817127345e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_15",
+      "connector_axis_gap_m": 5.332480601016181e-06,
+      "assembly_endpoint_transform_error_m": 3.7209213796714515e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_16",
+      "connector_axis_gap_m": 5.174714142316721e-06,
+      "assembly_endpoint_transform_error_m": 4.013235500622419e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_17",
+      "connector_axis_gap_m": 5.401367274562331e-06,
+      "assembly_endpoint_transform_error_m": 5.6818997676577536e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_18",
+      "connector_axis_gap_m": 5.467032715185529e-06,
+      "assembly_endpoint_transform_error_m": 3.837533784537503e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_19",
+      "connector_axis_gap_m": 4.9652403884961266e-06,
+      "assembly_endpoint_transform_error_m": 7.350274525532184e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_20",
+      "connector_axis_gap_m": 5.856130447067694e-06,
+      "assembly_endpoint_transform_error_m": 6.112551442209696e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_21",
+      "connector_axis_gap_m": 5.535156369659068e-06,
+      "assembly_endpoint_transform_error_m": 1.8586534939660854e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_22",
+      "connector_axis_gap_m": 5.530946977254354e-06,
+      "assembly_endpoint_transform_error_m": 3.453810448925531e-06
+    },
+    {
+      "id": "G110_OUT_SUSP_23",
+      "connector_axis_gap_m": 5.820920604402604e-06,
+      "assembly_endpoint_transform_error_m": 7.341244275007454e-06
+    },
+    {
+      "id": "G110_IN_SUSP_00",
+      "connector_axis_gap_m": 4.161864905845696e-06,
+      "assembly_endpoint_transform_error_m": 9.441129994330038e-07
+    },
+    {
+      "id": "G110_IN_SUSP_01",
+      "connector_axis_gap_m": 4.464655022574388e-06,
+      "assembly_endpoint_transform_error_m": 1.4754138928649779e-06
+    },
+    {
+      "id": "G110_IN_SUSP_02",
+      "connector_axis_gap_m": 4.210213192109898e-06,
+      "assembly_endpoint_transform_error_m": 2.3025143838805443e-06
+    },
+    {
+      "id": "G110_IN_SUSP_03",
+      "connector_axis_gap_m": 4.328499890347931e-06,
+      "assembly_endpoint_transform_error_m": 1.4231235977937628e-06
+    },
+    {
+      "id": "G110_IN_SUSP_04",
+      "connector_axis_gap_m": 4.447198487219875e-06,
+      "assembly_endpoint_transform_error_m": 7.489865579449871e-06
+    },
+    {
+      "id": "G110_IN_SUSP_05",
+      "connector_axis_gap_m": 4.077030199529495e-06,
+      "assembly_endpoint_transform_error_m": 2.7634957494447834e-06
+    },
+    {
+      "id": "G220_OUT_SUSP_00",
+      "connector_axis_gap_m": 3.803059200345978e-06,
+      "assembly_endpoint_transform_error_m": 1.8704501968454266e-06
+    },
+    {
+      "id": "G220_OUT_SUSP_01",
+      "connector_axis_gap_m": 3.937674894868217e-06,
+      "assembly_endpoint_transform_error_m": 1.7151293087164242e-06
+    },
+    {
+      "id": "G220_OUT_SUSP_02",
+      "connector_axis_gap_m": 3.6827253265533942e-06,
+      "assembly_endpoint_transform_error_m": 3.374962153635315e-06
+    },
+    {
+      "id": "G220_OUT_SUSP_03",
+      "connector_axis_gap_m": 3.311200986571859e-06,
+      "assembly_endpoint_transform_error_m": 2.517009254462145e-06
+    },
+    {
+      "id": "G220_OUT_SUSP_04",
+      "connector_axis_gap_m": 2.5859779734781958e-06,
+      "assembly_endpoint_transform_error_m": 3.11529704171569e-06
+    },
+    {
+      "id": "G220_OUT_SUSP_05",
+      "connector_axis_gap_m": 2.442701548235981e-06,
+      "assembly_endpoint_transform_error_m": 1.6353577964875772e-06
+    },
+    {
+      "id": "G220_OUT_SUSP_06",
+      "connector_axis_gap_m": 2.5582824337610416e-06,
+      "assembly_endpoint_transform_error_m": 2.507933698575307e-06
+    },
+    {
+      "id": "G220_OUT_SUSP_07",
+      "connector_axis_gap_m": 2.0154405316878403e-06,
+      "assembly_endpoint_transform_error_m": 1.646136220870917e-06
+    },
+    {
+      "id": "G220_OUT_SUSP_08",
+      "connector_axis_gap_m": 1.98128020978924e-06,
+      "assembly_endpoint_transform_error_m": 2.766322603400742e-06
+    },
+    {
+      "id": "G220_OUT_SUSP_09",
+      "connector_axis_gap_m": 1.2383960259770736e-06,
+      "assembly_endpoint_transform_error_m": 1.793867361156138e-06
+    },
+    {
+      "id": "G220_OUT_SUSP_10",
+      "connector_axis_gap_m": 1.1337270752412594e-06,
+      "assembly_endpoint_transform_error_m": 1.2739403001875349e-06
+    },
+    {
+      "id": "G220_OUT_SUSP_11",
+      "connector_axis_gap_m": 1.1232417707027443e-06,
+      "assembly_endpoint_transform_error_m": 2.2805697128326373e-06
+    }
+  ],
+  "max_transform_rounding_m": 6.439959443494082e-06,
+  "surface_checks": [
+    {
+      "id": "G110_OUT_SUSP_00",
+      "row": "G110_OUT",
+      "sample_count": 496,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.04613182120080509,
+          -73.27574080311666
+        ],
+        "y_poly": [
+          -0.009301945356319867,
+          -62.383986580683256
+        ],
+        "z_origin": 10.041469068715388,
+        "abs_xy": 0.29,
+        "z": [
+          8.141469068715388,
+          9.751469068715389
+        ]
+      },
+      "before": {
+        "rms_m": 1.2313022125245983,
+        "median_m": 1.2363945245742798,
+        "p95_m": 1.6578927338123322
+      },
+      "current": {
+        "rms_m": 0.026380285182592843,
+        "median_m": 0.012144576758146286,
+        "p95_m": 0.06171415280550718
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_01",
+      "row": "G110_OUT",
+      "sample_count": 509,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.08302006415878323,
+          -73.25394535191931
+        ],
+        "y_poly": [
+          -0.023265353620752965,
+          -60.40366346432925
+        ],
+        "z_origin": 10.043649310882163,
+        "abs_xy": 0.29,
+        "z": [
+          8.143649310882163,
+          9.753649310882164
+        ]
+      },
+      "before": {
+        "rms_m": 1.3108620361450445,
+        "median_m": 1.2677559852600098,
+        "p95_m": 1.8388119220733643
+      },
+      "current": {
+        "rms_m": 0.028211251259840756,
+        "median_m": 0.01367725245654583,
+        "p95_m": 0.06477969139814375
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_02",
+      "row": "G110_OUT",
+      "sample_count": 715,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.017064250652647342,
+          -73.33304514706658
+        ],
+        "y_poly": [
+          -0.03280236657090207,
+          -58.45158666335129
+        ],
+        "z_origin": 10.045789050124213,
+        "abs_xy": 0.29,
+        "z": [
+          8.145789050124213,
+          9.755789050124214
+        ]
+      },
+      "before": {
+        "rms_m": 1.2386701719514093,
+        "median_m": 1.1456795930862427,
+        "p95_m": 1.8137210369110106
+      },
+      "current": {
+        "rms_m": 0.022035478533923094,
+        "median_m": 0.01379069872200489,
+        "p95_m": 0.04342097379267215
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_03",
+      "row": "G110_OUT",
+      "sample_count": 724,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.010085016376392326,
+          -73.32105751187666
+        ],
+        "y_poly": [
+          -0.012943708112248912,
+          -54.95413067799694
+        ],
+        "z_origin": 10.049577681020757,
+        "abs_xy": 0.29,
+        "z": [
+          8.149577681020757,
+          9.759577681020758
+        ]
+      },
+      "before": {
+        "rms_m": 1.2633033694243239,
+        "median_m": 1.2471767663955688,
+        "p95_m": 1.8103769540786743
+      },
+      "current": {
+        "rms_m": 0.02584897768739861,
+        "median_m": 0.015689188614487648,
+        "p95_m": 0.055139915272593515
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_04",
+      "row": "G110_OUT",
+      "sample_count": 687,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.06136229067284569,
+          -73.26329548000818
+        ],
+        "y_poly": [
+          -0.049748683480559205,
+          -52.96508232032378
+        ],
+        "z_origin": 10.05176994218869,
+        "abs_xy": 0.29,
+        "z": [
+          8.15176994218869,
+          9.76176994218869
+        ]
+      },
+      "before": {
+        "rms_m": 1.2579645751995645,
+        "median_m": 1.2326263189315796,
+        "p95_m": 1.8182499051094054
+      },
+      "current": {
+        "rms_m": 0.025148273676214573,
+        "median_m": 0.015013298019766808,
+        "p95_m": 0.05326591581106186
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_05",
+      "row": "G110_OUT",
+      "sample_count": 769,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.041617171059288895,
+          -73.27837298938407
+        ],
+        "y_poly": [
+          0.016541814797041893,
+          -50.911299641571055
+        ],
+        "z_origin": 10.05393113818763,
+        "abs_xy": 0.29,
+        "z": [
+          8.15393113818763,
+          9.763931138187631
+        ]
+      },
+      "before": {
+        "rms_m": 1.209818563163224,
+        "median_m": 1.2418060302734375,
+        "p95_m": 1.623799991607666
+      },
+      "current": {
+        "rms_m": 0.02593407845399279,
+        "median_m": 0.01244028378278017,
+        "p95_m": 0.05368784889578815
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_06",
+      "row": "G110_OUT",
+      "sample_count": 816,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.03778675378315974,
+          -73.32997948383559
+        ],
+        "y_poly": [
+          -0.01598213129679974,
+          -47.44507012176538
+        ],
+        "z_origin": 10.057745193328458,
+        "abs_xy": 0.29,
+        "z": [
+          8.157745193328457,
+          9.767745193328459
+        ]
+      },
+      "before": {
+        "rms_m": 1.1747624049563876,
+        "median_m": 1.1498337984085083,
+        "p95_m": 1.6678127348423004
+      },
+      "current": {
+        "rms_m": 0.026503923911057933,
+        "median_m": 0.014245572965592146,
+        "p95_m": 0.05183045193552971
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_07",
+      "row": "G110_OUT",
+      "sample_count": 797,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.019374694161504884,
+          -73.24813080900071
+        ],
+        "y_poly": [
+          0.029489581739530923,
+          -45.39355336693019
+        ],
+        "z_origin": 10.059898348403673,
+        "abs_xy": 0.29,
+        "z": [
+          8.159898348403672,
+          9.769898348403673
+        ]
+      },
+      "before": {
+        "rms_m": 1.2943559257357793,
+        "median_m": 1.2497650384902954,
+        "p95_m": 1.8175645589828489
+      },
+      "current": {
+        "rms_m": 0.024377876456293312,
+        "median_m": 0.01641269586980343,
+        "p95_m": 0.04903687536716461
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_08",
+      "row": "G110_OUT",
+      "sample_count": 827,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.01606837360846514,
+          -73.28670324086012
+        ],
+        "y_poly": [
+          0.0014816006712030096,
+          -43.418355432413584
+        ],
+        "z_origin": 10.062089694364758,
+        "abs_xy": 0.29,
+        "z": [
+          8.162089694364758,
+          9.772089694364759
+        ]
+      },
+      "before": {
+        "rms_m": 1.223823889126398,
+        "median_m": 1.0857374668121338,
+        "p95_m": 1.800127387046814
+      },
+      "current": {
+        "rms_m": 0.024495136064544742,
+        "median_m": 0.014606288634240627,
+        "p95_m": 0.04831509627401829
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_09",
+      "row": "G110_OUT",
+      "sample_count": 722,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.030086165006964337,
+          -73.19295240564792
+        ],
+        "y_poly": [
+          0.007226771892838319,
+          -39.93025193703721
+        ],
+        "z_origin": 10.065891994407552,
+        "abs_xy": 0.29,
+        "z": [
+          8.165891994407552,
+          9.775891994407553
+        ]
+      },
+      "before": {
+        "rms_m": 1.2227634374006782,
+        "median_m": 1.1314504742622375,
+        "p95_m": 1.8055189967155456
+      },
+      "current": {
+        "rms_m": 0.02459816187682193,
+        "median_m": 0.013938379008322954,
+        "p95_m": 0.045107944123446916
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_10",
+      "row": "G110_OUT",
+      "sample_count": 687,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.06076498794291965,
+          -73.13605712164308
+        ],
+        "y_poly": [
+          0.009635411461953626,
+          -37.92307210533437
+        ],
+        "z_origin": 10.0680788785575,
+        "abs_xy": 0.29,
+        "z": [
+          8.1680788785575,
+          9.778078878557501
+        ]
+      },
+      "before": {
+        "rms_m": 1.2498940738322708,
+        "median_m": 1.1729240417480469,
+        "p95_m": 1.823344850540161
+      },
+      "current": {
+        "rms_m": 0.025994879198894483,
+        "median_m": 0.01531157549470663,
+        "p95_m": 0.05418788753449915
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_11",
+      "row": "G110_OUT",
+      "sample_count": 720,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.004971343510238234,
+          -73.20534019929578
+        ],
+        "y_poly": [
+          -0.018058481823550156,
+          -35.95142318153418
+        ],
+        "z_origin": 10.07024391558911,
+        "abs_xy": 0.29,
+        "z": [
+          8.17024391558911,
+          9.78024391558911
+        ]
+      },
+      "before": {
+        "rms_m": 1.1554441425874493,
+        "median_m": 1.1169368028640747,
+        "p95_m": 1.626248985528946
+      },
+      "current": {
+        "rms_m": 0.02232016097072975,
+        "median_m": 0.014181713573634624,
+        "p95_m": 0.04654604252427816
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_12",
+      "row": "G110_OUT",
+      "sample_count": 765,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.012154155853837398,
+          -73.21584357270528
+        ],
+        "y_poly": [
+          -0.020110552276949696,
+          -32.46722461623968
+        ],
+        "z_origin": 10.074053742593417,
+        "abs_xy": 0.29,
+        "z": [
+          8.174053742593417,
+          9.784053742593418
+        ]
+      },
+      "before": {
+        "rms_m": 1.1988972085266154,
+        "median_m": 1.2070393562316895,
+        "p95_m": 1.625948357582092
+      },
+      "current": {
+        "rms_m": 0.023511712485623216,
+        "median_m": 0.015110781416296959,
+        "p95_m": 0.047780848294496504
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_13",
+      "row": "G110_OUT",
+      "sample_count": 789,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.014541556853662607,
+          -73.19944375805105
+        ],
+        "y_poly": [
+          -0.0057132538920961,
+          -30.443831349041485
+        ],
+        "z_origin": 10.076251919126348,
+        "abs_xy": 0.29,
+        "z": [
+          8.176251919126347,
+          9.786251919126348
+        ]
+      },
+      "before": {
+        "rms_m": 1.2395549749815644,
+        "median_m": 1.1976091861724854,
+        "p95_m": 1.8182912826538085
+      },
+      "current": {
+        "rms_m": 0.022812372338273098,
+        "median_m": 0.014419532380998135,
+        "p95_m": 0.04647825732827186
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_14",
+      "row": "G110_OUT",
+      "sample_count": 991,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.016431253150609518,
+          -73.20242724179737
+        ],
+        "y_poly": [
+          -0.03729982581865397,
+          -28.456886847836408
+        ],
+        "z_origin": 10.078410230241106,
+        "abs_xy": 0.29,
+        "z": [
+          8.178410230241106,
+          9.788410230241107
+        ]
+      },
+      "before": {
+        "rms_m": 1.215551698123047,
+        "median_m": 1.1165021657943726,
+        "p95_m": 1.807905673980713
+      },
+      "current": {
+        "rms_m": 0.0241580096593968,
+        "median_m": 0.014234332367777824,
+        "p95_m": 0.04861117713153362
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_15",
+      "row": "G110_OUT",
+      "sample_count": 812,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.017881668204453492,
+          -73.22326933685305
+        ],
+        "y_poly": [
+          -0.011612677122651568,
+          -24.946232144127993
+        ],
+        "z_origin": 10.082211441296248,
+        "abs_xy": 0.29,
+        "z": [
+          8.182211441296248,
+          9.79221144129625
+        ]
+      },
+      "before": {
+        "rms_m": 1.2295952615619699,
+        "median_m": 1.1152790784835815,
+        "p95_m": 1.8129281878471373
+      },
+      "current": {
+        "rms_m": 0.03195418651943514,
+        "median_m": 0.017057823948562145,
+        "p95_m": 0.07082804441452016
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_16",
+      "row": "G110_OUT",
+      "sample_count": 904,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.055181466621147084,
+          -73.10055324953939
+        ],
+        "y_poly": [
+          -0.002654194132437399,
+          -22.92939611601539
+        ],
+        "z_origin": 10.084400519253485,
+        "abs_xy": 0.29,
+        "z": [
+          8.184400519253485,
+          9.794400519253486
+        ]
+      },
+      "before": {
+        "rms_m": 1.2615986793486773,
+        "median_m": 1.2326398491859436,
+        "p95_m": 1.8282520592212677
+      },
+      "current": {
+        "rms_m": 0.028476531712419303,
+        "median_m": 0.016071508638560772,
+        "p95_m": 0.06050681024789806
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_17",
+      "row": "G110_OUT",
+      "sample_count": 918,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.023619433891681158,
+          -73.13658392558077
+        ],
+        "y_poly": [
+          -0.016216509546341715,
+          -20.949089486057307
+        ],
+        "z_origin": 10.0865702893999,
+        "abs_xy": 0.29,
+        "z": [
+          8.1865702893999,
+          9.7965702893999
+        ]
+      },
+      "before": {
+        "rms_m": 1.1866051955435486,
+        "median_m": 1.1355063319206238,
+        "p95_m": 1.645050823688507
+      },
+      "current": {
+        "rms_m": 0.0301465841943135,
+        "median_m": 0.017597713507711887,
+        "p95_m": 0.059542476944625375
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_18",
+      "row": "G110_OUT",
+      "sample_count": 980,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.04129649183941347,
+          -72.81987973398817
+        ],
+        "y_poly": [
+          -0.0036542469277888964,
+          27.55467787924584
+        ],
+        "z_origin": 10.139361571052966,
+        "abs_xy": 0.29,
+        "z": [
+          8.239361571052966,
+          9.849361571052967
+        ]
+      },
+      "before": {
+        "rms_m": 1.1879187797008992,
+        "median_m": 1.1779159903526306,
+        "p95_m": 1.6401084363460539
+      },
+      "current": {
+        "rms_m": 0.02253565831739764,
+        "median_m": 0.014756471384316683,
+        "p95_m": 0.044436250068247314
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_19",
+      "row": "G110_OUT",
+      "sample_count": 1117,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.03959106105747141,
+          -72.80560653863236
+        ],
+        "y_poly": [
+          -0.00022776780961706358,
+          29.53894562759503
+        ],
+        "z_origin": 10.141496424921742,
+        "abs_xy": 0.29,
+        "z": [
+          8.241496424921742,
+          9.851496424921743
+        ]
+      },
+      "before": {
+        "rms_m": 1.2291644245508728,
+        "median_m": 1.168056845664978,
+        "p95_m": 1.7891648292541504
+      },
+      "current": {
+        "rms_m": 0.0243161360412467,
+        "median_m": 0.01581631600856781,
+        "p95_m": 0.047522231191396716
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_20",
+      "row": "G110_OUT",
+      "sample_count": 1009,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.020116930896429745,
+          -72.81860316551082
+        ],
+        "y_poly": [
+          -0.01790142265551101,
+          31.536788005838897
+        ],
+        "z_origin": 10.143701362264062,
+        "abs_xy": 0.29,
+        "z": [
+          8.243701362264062,
+          9.853701362264063
+        ]
+      },
+      "before": {
+        "rms_m": 1.2282504248162807,
+        "median_m": 1.1547386646270752,
+        "p95_m": 1.778261351585388
+      },
+      "current": {
+        "rms_m": 0.024814089128218624,
+        "median_m": 0.014786327257752419,
+        "p95_m": 0.048898484557867036
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_21",
+      "row": "G110_OUT",
+      "sample_count": 765,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.0012628152186740771,
+          -72.79400061430981
+        ],
+        "y_poly": [
+          -0.02761643523368638,
+          34.988336467203105
+        ],
+        "z_origin": 10.147473371496565,
+        "abs_xy": 0.29,
+        "z": [
+          8.247473371496564,
+          9.857473371496566
+        ]
+      },
+      "before": {
+        "rms_m": 1.1905493757284633,
+        "median_m": 1.136527419090271,
+        "p95_m": 1.7737804651260374
+      },
+      "current": {
+        "rms_m": 0.0236397479425612,
+        "median_m": 0.012436077930033207,
+        "p95_m": 0.051583255082368835
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_22",
+      "row": "G110_OUT",
+      "sample_count": 908,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.03904504671102192,
+          -72.73353799904959
+        ],
+        "y_poly": [
+          -0.00705624848869829,
+          37.00393690838875
+        ],
+        "z_origin": 10.149636702104758,
+        "abs_xy": 0.29,
+        "z": [
+          8.249636702104757,
+          9.859636702104758
+        ]
+      },
+      "before": {
+        "rms_m": 1.2465756139468218,
+        "median_m": 1.2179653644561768,
+        "p95_m": 1.796204972267151
+      },
+      "current": {
+        "rms_m": 0.02234080721773843,
+        "median_m": 0.01320348959416151,
+        "p95_m": 0.04781407210975885
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_OUT_SUSP_23",
+      "row": "G110_OUT",
+      "sample_count": 831,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.03366229017691568,
+          -72.75244002154945
+        ],
+        "y_poly": [
+          0.004417275539521741,
+          39.01965450280538
+        ],
+        "z_origin": 10.151811120846789,
+        "abs_xy": 0.29,
+        "z": [
+          8.251811120846789,
+          9.86181112084679
+        ]
+      },
+      "before": {
+        "rms_m": 1.1825013935288486,
+        "median_m": 1.1326977014541626,
+        "p95_m": 1.68226557970047
+      },
+      "current": {
+        "rms_m": 0.02495593547237929,
+        "median_m": 0.012848399579524994,
+        "p95_m": 0.053397420793771744
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_SUSP_00",
+      "row": "G110_IN",
+      "sample_count": 852,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.048968074625357044,
+          -60.03245567883351
+        ],
+        "y_poly": [
+          0.012336422528252565,
+          -15.751805504722284
+        ],
+        "z_origin": 12.020768855165167,
+        "abs_xy": 0.29,
+        "z": [
+          10.120768855165167,
+          11.730768855165168
+        ]
+      },
+      "before": {
+        "rms_m": 1.2389902132042483,
+        "median_m": 1.1666590571403503,
+        "p95_m": 1.7872132360935211
+      },
+      "current": {
+        "rms_m": 0.026754549526949962,
+        "median_m": 0.01676089223474264,
+        "p95_m": 0.05526462383568286
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_SUSP_01",
+      "row": "G110_IN",
+      "sample_count": 845,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.02074514168485479,
+          -60.08515808976654
+        ],
+        "y_poly": [
+          0.012756517206263883,
+          -13.753082348129272
+        ],
+        "z_origin": 12.02289669726635,
+        "abs_xy": 0.29,
+        "z": [
+          10.12289669726635,
+          11.732896697266352
+        ]
+      },
+      "before": {
+        "rms_m": 1.2141757400394764,
+        "median_m": 1.1231216192245483,
+        "p95_m": 1.8051417112350463
+      },
+      "current": {
+        "rms_m": 0.02372997578442131,
+        "median_m": 0.01636240817606449,
+        "p95_m": 0.04493995830416679
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_SUSP_02",
+      "row": "G110_IN",
+      "sample_count": 890,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.027358113076192774,
+          -60.041540539076514
+        ],
+        "y_poly": [
+          -0.026773181205712045,
+          -11.794291575111016
+        ],
+        "z_origin": 12.025042289439728,
+        "abs_xy": 0.29,
+        "z": [
+          10.125042289439728,
+          11.735042289439729
+        ]
+      },
+      "before": {
+        "rms_m": 1.2280573440203906,
+        "median_m": 1.1757529973983765,
+        "p95_m": 1.7880017936229706
+      },
+      "current": {
+        "rms_m": 0.024504251841741546,
+        "median_m": 0.016429475508630276,
+        "p95_m": 0.04891261402517553
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_SUSP_03",
+      "row": "G110_IN",
+      "sample_count": 709,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.031564107310765734,
+          -59.99389235606459
+        ],
+        "y_poly": [
+          0.01943316328403801,
+          -0.7245895278014732
+        ],
+        "z_origin": 12.036741834729169,
+        "abs_xy": 0.29,
+        "z": [
+          10.136741834729168,
+          11.74674183472917
+        ]
+      },
+      "before": {
+        "rms_m": 1.2302582070559689,
+        "median_m": 1.1168357133865356,
+        "p95_m": 1.7812337636947633
+      },
+      "current": {
+        "rms_m": 0.02115785902728764,
+        "median_m": 0.012890273705124855,
+        "p95_m": 0.04217741638422013
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_SUSP_04",
+      "row": "G110_IN",
+      "sample_count": 651,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.007790938553629882,
+          -59.97127389358811
+        ],
+        "y_poly": [
+          -0.011592713868798368,
+          1.237305091143985
+        ],
+        "z_origin": 12.03887075816686,
+        "abs_xy": 0.29,
+        "z": [
+          10.13887075816686,
+          11.748870758166861
+        ]
+      },
+      "before": {
+        "rms_m": 1.1855080604145014,
+        "median_m": 1.0927664041519165,
+        "p95_m": 1.798969328403473
+      },
+      "current": {
+        "rms_m": 0.022222226487478167,
+        "median_m": 0.012921874411404133,
+        "p95_m": 0.04680168628692627
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G110_IN_SUSP_05",
+      "row": "G110_IN",
+      "sample_count": 703,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          0.0023504465321900767,
+          -59.991228483490644
+        ],
+        "y_poly": [
+          -0.0014272013052869553,
+          3.239079092794174
+        ],
+        "z_origin": 12.04099952067487,
+        "abs_xy": 0.29,
+        "z": [
+          10.14099952067487,
+          11.75099952067487
+        ]
+      },
+      "before": {
+        "rms_m": 1.257541485118878,
+        "median_m": 1.2080060243606567,
+        "p95_m": 1.7851431727409364
+      },
+      "current": {
+        "rms_m": 0.024979208273851212,
+        "median_m": 0.014995397068560123,
+        "p95_m": 0.05039317421615122
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_SUSP_00",
+      "row": "G220_OUT",
+      "sample_count": 1685,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.0640153350525519,
+          7.672900425666775
+        ],
+        "y_poly": [
+          0.028839492343021862,
+          -54.06006135561639
+        ],
+        "z_origin": 13.749408844742252,
+        "abs_xy": 0.29,
+        "z": [
+          10.499408844742252,
+          13.459408844742253
+        ]
+      },
+      "before": {
+        "rms_m": 1.9696277321154685,
+        "median_m": 1.8925167322158813,
+        "p95_m": 2.84524245262146
+      },
+      "current": {
+        "rms_m": 0.02423844547315732,
+        "median_m": 0.011932714842259884,
+        "p95_m": 0.054532629251480086
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_SUSP_01",
+      "row": "G220_OUT",
+      "sample_count": 1743,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.0949708433796534,
+          7.656227979860214
+        ],
+        "y_poly": [
+          0.009890640052388213,
+          -51.09029223658454
+        ],
+        "z_origin": 13.753845802790625,
+        "abs_xy": 0.29,
+        "z": [
+          10.503845802790625,
+          13.463845802790626
+        ]
+      },
+      "before": {
+        "rms_m": 2.0758114794751616,
+        "median_m": 1.9654133319854736,
+        "p95_m": 3.113617444038391
+      },
+      "current": {
+        "rms_m": 0.024746192603743767,
+        "median_m": 0.010253430344164371,
+        "p95_m": 0.05736550949513904
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_SUSP_02",
+      "row": "G220_OUT",
+      "sample_count": 2137,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.06622906031693529,
+          7.692340632098642
+        ],
+        "y_poly": [
+          0.008966981491011761,
+          -48.11979664937282
+        ],
+        "z_origin": 13.758213224347577,
+        "abs_xy": 0.29,
+        "z": [
+          10.508213224347577,
+          13.468213224347577
+        ]
+      },
+      "before": {
+        "rms_m": 2.039724330731444,
+        "median_m": 1.8768854141235352,
+        "p95_m": 3.137616443634033
+      },
+      "current": {
+        "rms_m": 0.02325479072846735,
+        "median_m": 0.011153015308082104,
+        "p95_m": 0.053500539809465356
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_SUSP_03",
+      "row": "G220_OUT",
+      "sample_count": 1938,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.07402357879621047,
+          7.7340489576691605
+        ],
+        "y_poly": [
+          0.013600612029330017,
+          -42.127857833553826
+        ],
+        "z_origin": 13.767107181604109,
+        "abs_xy": 0.29,
+        "z": [
+          10.517107181604109,
+          13.47710718160411
+        ]
+      },
+      "before": {
+        "rms_m": 2.004566183326915,
+        "median_m": 1.833574891090393,
+        "p95_m": 3.1335807204246517
+      },
+      "current": {
+        "rms_m": 0.021578809453953313,
+        "median_m": 0.011102630756795406,
+        "p95_m": 0.048961113207042176
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_SUSP_04",
+      "row": "G220_OUT",
+      "sample_count": 1888,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.0796413844212225,
+          7.7361354837922045
+        ],
+        "y_poly": [
+          0.01277337192158914,
+          -39.11871779670123
+        ],
+        "z_origin": 13.771576513459154,
+        "abs_xy": 0.29,
+        "z": [
+          10.521576513459154,
+          13.481576513459155
+        ]
+      },
+      "before": {
+        "rms_m": 2.082680671404962,
+        "median_m": 1.9689676761627197,
+        "p95_m": 3.1456193804740904
+      },
+      "current": {
+        "rms_m": 0.023646830226058742,
+        "median_m": 0.010547887533903122,
+        "p95_m": 0.05430131144821639
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_SUSP_05",
+      "row": "G220_OUT",
+      "sample_count": 1822,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.0727241766412898,
+          7.7460579090465504
+        ],
+        "y_poly": [
+          -0.006585620968670672,
+          -36.15811930084388
+        ],
+        "z_origin": 13.775970026350222,
+        "abs_xy": 0.29,
+        "z": [
+          10.525970026350222,
+          13.485970026350223
+        ]
+      },
+      "before": {
+        "rms_m": 2.0478846271289033,
+        "median_m": 1.965097725391388,
+        "p95_m": 2.8810059309005736
+      },
+      "current": {
+        "rms_m": 0.024766442616244125,
+        "median_m": 0.012945188209414482,
+        "p95_m": 0.05610274225473403
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_SUSP_06",
+      "row": "G220_OUT",
+      "sample_count": 1512,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.05749254500564871,
+          7.815795616926959
+        ],
+        "y_poly": [
+          0.012943331250221873,
+          -30.12611780026766
+        ],
+        "z_origin": 13.784890262496914,
+        "abs_xy": 0.29,
+        "z": [
+          10.534890262496914,
+          13.494890262496915
+        ]
+      },
+      "before": {
+        "rms_m": 1.9245802794341191,
+        "median_m": 1.7973788976669312,
+        "p95_m": 2.825227200984955
+      },
+      "current": {
+        "rms_m": 0.02135230308427345,
+        "median_m": 0.013793608639389277,
+        "p95_m": 0.04266747105866671
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_SUSP_07",
+      "row": "G220_OUT",
+      "sample_count": 1418,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.07683893630589521,
+          7.805433724499358
+        ],
+        "y_poly": [
+          0.012369785399762441,
+          -27.128400903259177
+        ],
+        "z_origin": 13.789336123043977,
+        "abs_xy": 0.29,
+        "z": [
+          10.539336123043977,
+          13.499336123043978
+        ]
+      },
+      "before": {
+        "rms_m": 1.9658547887551978,
+        "median_m": 1.7556931972503662,
+        "p95_m": 3.141443860530853
+      },
+      "current": {
+        "rms_m": 0.020486106866567443,
+        "median_m": 0.012765601743012667,
+        "p95_m": 0.04079842921346426
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_SUSP_08",
+      "row": "G220_OUT",
+      "sample_count": 1769,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.05661899353245255,
+          7.84424040490567
+        ],
+        "y_poly": [
+          -0.007682062224474846,
+          -24.1563508821146
+        ],
+        "z_origin": 13.793762991236278,
+        "abs_xy": 0.29,
+        "z": [
+          10.543762991236278,
+          13.503762991236279
+        ]
+      },
+      "before": {
+        "rms_m": 2.021780667281626,
+        "median_m": 1.898613691329956,
+        "p95_m": 3.0706921577453614
+      },
+      "current": {
+        "rms_m": 0.027041232868707053,
+        "median_m": 0.014151349663734436,
+        "p95_m": 0.057565876096486994
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_SUSP_09",
+      "row": "G220_OUT",
+      "sample_count": 1465,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.05600563399460629,
+          7.873996418960126
+        ],
+        "y_poly": [
+          0.016274407964312183,
+          -18.14743363660485
+        ],
+        "z_origin": 13.802623073103709,
+        "abs_xy": 0.29,
+        "z": [
+          10.552623073103709,
+          13.51262307310371
+        ]
+      },
+      "before": {
+        "rms_m": 2.0311915377817433,
+        "median_m": 1.875471591949463,
+        "p95_m": 3.1462536334991453
+      },
+      "current": {
+        "rms_m": 0.023959066685304117,
+        "median_m": 0.012713304720818996,
+        "p95_m": 0.05147292762994765
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_SUSP_10",
+      "row": "G220_OUT",
+      "sample_count": 1268,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.05406300849612349,
+          7.90434330085184
+        ],
+        "y_poly": [
+          0.007388283488951245,
+          -15.14814040605164
+        ],
+        "z_origin": 13.80708808727561,
+        "abs_xy": 0.29,
+        "z": [
+          10.55708808727561,
+          13.51708808727561
+        ]
+      },
+      "before": {
+        "rms_m": 1.9451982984102587,
+        "median_m": 1.7138585448265076,
+        "p95_m": 3.121177351474762
+      },
+      "current": {
+        "rms_m": 0.024498600946221645,
+        "median_m": 0.01293508941307664,
+        "p95_m": 0.05390550438314676
+      },
+      "residual_trimming": false
+    },
+    {
+      "id": "G220_OUT_SUSP_11",
+      "row": "G220_OUT",
+      "sample_count": 1419,
+      "domain": {
+        "type": "fixed upright source prism around initial axis",
+        "x_poly": [
+          -0.05459556823927803,
+          7.914570600743613
+        ],
+        "y_poly": [
+          0.006299210871365662,
+          -12.154856522971432
+        ],
+        "z_origin": 13.811527308516974,
+        "abs_xy": 0.29,
+        "z": [
+          10.561527308516974,
+          13.521527308516974
+        ]
+      },
+      "before": {
+        "rms_m": 1.9673724830611712,
+        "median_m": 1.8047397136688232,
+        "p95_m": 2.8888333797454835
+      },
+      "current": {
+        "rms_m": 0.02546037977944247,
+        "median_m": 0.013517588376998901,
+        "p95_m": 0.05234250538051128
+      },
+      "residual_trimming": false
+    }
+  ],
+  "camera_framing": {
+    "568_B28_G110_OUT_Clean": {
+      "meshes": 2092,
+      "min": [
+        0.12508858740329742,
+        0.16862893104553223
+      ],
+      "max": [
+        0.7491579651832581,
+        0.9500000476837158
+      ]
+    },
+    "571_B28_G110_IN_Clean": {
+      "meshes": 879,
+      "min": [
+        0.366558700799942,
+        0.05000002309679985
+      ],
+      "max": [
+        0.8260934948921204,
+        0.7723866105079651
+      ]
+    },
+    "574_B28_G220_OUT_Clean": {
+      "meshes": 1768,
+      "min": [
+        0.19827210903167725,
+        0.32845863699913025
+      ],
+      "max": [
+        0.6106221675872803,
+        0.949999988079071
+      ]
+    },
+    "577_B28_G110_OUT_Detail_Clean": {
+      "meshes": 267,
+      "min": [
+        0.2511520981788635,
+        0.3519619107246399
+      ],
+      "max": [
+        0.7305273413658142,
+        0.6894375681877136
+      ]
+    },
+    "580_B28_G220_OUT_Detail_Clean": {
+      "meshes": 465,
+      "min": [
+        0.2428046613931656,
+        0.30094656348228455
+      ],
+      "max": [
+        0.746829092502594,
+        0.7206458449363708
+      ]
+    },
+    "583_B28_SHORT_110_Edit": {
+      "meshes": 28,
+      "min": [
+        0.4406352937221527,
+        0.04999997094273567
+      ],
+      "max": [
+        0.5593645572662354,
+        0.9499996900558472
+      ]
+    },
+    "584_B28_LONG_220_Edit": {
+      "meshes": 50,
+      "min": [
+        0.4661846458911896,
+        0.050000011920928955
+      ],
+      "max": [
+        0.5338152647018433,
+        0.9499998092651367
+      ]
+    }
+  },
+  "pending": [
+    "Alternating shed counts12+11 and23+22, small end fittings and exact material are photograph-derived approximations.",
+    "Source broad tube envelopes smooth individual shed details; fixed comparisons are correlated reconstruction, not survey.",
+    "Inclined strain strings and principal conductors on these rows remain pending."
+  ],
+  "outdoor_goal_complete": false,
+  "comparison_scope": "fixed original odd triangle domains; even fitting from spatially correlated reconstruction; no survey tolerance claim"
+}

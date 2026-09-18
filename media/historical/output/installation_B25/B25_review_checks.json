@@ -1,0 +1,31 @@
+{
+  "render_images": 21,
+  "interactive_cases": 9,
+  "embedded_render_hashes": {
+    "516_B25_Station_Clean": "cab30aea4e8c609fee093dd172302ba0ed3da38cc357f9ad18ebae8999783737",
+    "517_B25_Station_Overlay": "184654fb1e34a3ed8e3ef6c05d22f9ed3e7ec6e772a2cea67b759a5c800ca6ab",
+    "518_B25_Gantry_Overview": "11ca57c6c7e534f7964ae4357ba90fb7595c1191dec2377dd875297e3cbabb68",
+    "519_B25_G110_OUT_Row_Clean": "9e80cc1b359e61654e02fe79718e9a51e5366c6dced5eac7bc6ca3b54f2e07b0",
+    "520_B25_G110_OUT_Row_Overlay": "388b9fa9d543271942ef72d0fa0c96836614ff62394bace3d01553bf57a512c6",
+    "521_B25_G110_OUT_Row_Reference": "ef572df6fc2b169553439f9636ecd702142f811da4dbe3aa613002989f80713f",
+    "522_B25_G110_OUT_Span_Clean": "c5ea215efd1c8ac55567f85f02b2676d80731a0ff1744ab561f8043e4581fdc0",
+    "523_B25_G110_OUT_Span_Overlay": "10c0188174856f30714eb519f1686ce5dd30783e1727d5ca061edfb8ff41fd7c",
+    "524_B25_G110_OUT_Span_Reference": "dc25e6fccce38f75f5d1904da15a263663282fcc6721c02a7ae113cb27999bf9",
+    "525_B25_G110_IN_Row_Clean": "477060060f66385fa55a13ca40946ba5d7406bb325ec5790632be613e6f7c67e",
+    "526_B25_G110_IN_Row_Overlay": "ac73efac76fd62950fe25bbd51bae1656546c69ae44ce62432c53335e4faad09",
+    "527_B25_G110_IN_Row_Reference": "53dfa12582273fec25b575a66d42283ee06c3ee3c6cb12aad4378914fe08b4c8",
+    "528_B25_G110_IN_Span_Clean": "f130da32fe7621a6088972df5a90511ff0add64416ba47a9b3f8a53d9081b64e",
+    "529_B25_G110_IN_Span_Overlay": "069c160399b320f009e81cee15dd0e91f74b1eae662f60431630fd59e1f0fb08",
+    "530_B25_G110_IN_Span_Reference": "d537b37d246fb4fd2af05b60882be3dd4e9df35afd62366b0f98be05f0c57d08",
+    "531_B25_G220_OUT_Row_Clean": "11750aca4578a4d9530bff302bb3dc14e802ecc59d59dd5378e9dc7abcdb9ee6",
+    "532_B25_G220_OUT_Row_Overlay": "5b7fe7ea6651141fbcb36daacbcf3276c9299cac574e98ef77b1451976fe7fb7",
+    "533_B25_G220_OUT_Row_Reference": "353fde58563488383c6e3d421c4b3c03027827c4f4a445998c62242a4612f1fb",
+    "534_B25_G220_OUT_Span_Clean": "acaf0a78b3075fcc6c3e45ba4e09e6e78dc807a71e42b4c55a8aaaf82fbe4c0e",
+    "535_B25_G220_OUT_Span_Overlay": "69b2db5f2cacc8ff502921accb08cd2329ae9c5d8819e011edce9b44d1901e3f",
+    "536_B25_G220_OUT_Span_Reference": "6af336b0c018396737e230b216835a27c99ca471e2e361b870684c09288fcf2a"
+  },
+  "relative_artifact_links_valid": true,
+  "javascript_syntax_passed": true,
+  "browser_layout_tested": false,
+  "html_bytes": 49914016
+}

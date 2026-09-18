@@ -1,0 +1,1898 @@
+{
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/xialin_B07_T1_site_exterior_r2.blend",
+  "sha256": "b3a5f6af1737c1b487de713a76615d3a267d40f63aa3efa4de9f89483264ec4f",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/xialin_photo_first_B06_wall_aligned_r2.blend",
+  "previous_sha256": "06bf806e74a3fa665c3391a824ccfe4b667726036ec9a273463d11bfdb180382",
+  "plan_sha256": "44dda6c0fa8228662a76ae15b75b735668836be223458aadb58076beb84e220f",
+  "candidate_collection": "B07_T1_PARTIAL_SITE_EXTERIOR_CANDIDATE",
+  "core_collection": "B07_T1_CORE",
+  "new_meshes": [
+    "B07::tank.shell",
+    "B07::tank.base_rim",
+    "B07::tank.roof",
+    "B07::tank.runner.-0.95",
+    "B07::tank.foot.-2.8.-0.95",
+    "B07::tank.foot.0.-0.95",
+    "B07::tank.foot.2.8.-0.95",
+    "B07::tank.runner.0.95",
+    "B07::tank.foot.-2.8.0.95",
+    "B07::tank.foot.0.0.95",
+    "B07::tank.foot.2.8.0.95",
+    "B07::tank.rib.-1.0",
+    "B07::tank.lid_bolt.-1.0",
+    "B07::tank.rib.-1.1",
+    "B07::tank.lid_bolt.-1.1",
+    "B07::tank.rib.-1.2",
+    "B07::tank.lid_bolt.-1.2",
+    "B07::tank.rib.-1.3",
+    "B07::tank.lid_bolt.-1.3",
+    "B07::tank.rib.-1.4",
+    "B07::tank.lid_bolt.-1.4",
+    "B07::tank.rib.-1.5",
+    "B07::tank.lid_bolt.-1.5",
+    "B07::tank.rib.-1.6",
+    "B07::tank.lid_bolt.-1.6",
+    "B07::tank.rib.-1.7",
+    "B07::tank.lid_bolt.-1.7",
+    "B07::tank.rib.-1.8",
+    "B07::tank.lid_bolt.-1.8",
+    "B07::tank.rib.-1.9",
+    "B07::tank.lid_bolt.-1.9",
+    "B07::tank.rib.-1.10",
+    "B07::tank.lid_bolt.-1.10",
+    "B07::tank.rib.-1.11",
+    "B07::tank.lid_bolt.-1.11",
+    "B07::tank.rib.-1.12",
+    "B07::tank.lid_bolt.-1.12",
+    "B07::tank.rib.1.0",
+    "B07::tank.lid_bolt.1.0",
+    "B07::tank.rib.1.1",
+    "B07::tank.lid_bolt.1.1",
+    "B07::tank.rib.1.2",
+    "B07::tank.lid_bolt.1.2",
+    "B07::tank.rib.1.3",
+    "B07::tank.lid_bolt.1.3",
+    "B07::tank.rib.1.4",
+    "B07::tank.lid_bolt.1.4",
+    "B07::tank.rib.1.5",
+    "B07::tank.lid_bolt.1.5",
+    "B07::tank.rib.1.6",
+    "B07::tank.lid_bolt.1.6",
+    "B07::tank.rib.1.7",
+    "B07::tank.lid_bolt.1.7",
+    "B07::tank.rib.1.8",
+    "B07::tank.lid_bolt.1.8",
+    "B07::tank.rib.1.9",
+    "B07::tank.lid_bolt.1.9",
+    "B07::tank.rib.1.10",
+    "B07::tank.lid_bolt.1.10",
+    "B07::tank.rib.1.11",
+    "B07::tank.lid_bolt.1.11",
+    "B07::tank.rib.1.12",
+    "B07::tank.lid_bolt.1.12",
+    "B07::radiator.bridge.front.00.0",
+    "B07::radiator.bridge.front.00.1",
+    "B07::radiator.bridge.front.01.0",
+    "B07::radiator.bridge.front.01.1",
+    "B07::radiator.bridge.front.02.0",
+    "B07::radiator.bridge.front.02.1",
+    "B07::radiator.bridge.front.03.0",
+    "B07::radiator.bridge.front.03.1",
+    "B07::radiator.bridge.front.04.0",
+    "B07::radiator.bridge.front.04.1",
+    "B07::radiator.bridge.front.05.0",
+    "B07::radiator.bridge.front.05.1",
+    "B07::radiator.bridge.front.06.0",
+    "B07::radiator.bridge.front.06.1",
+    "B07::radiator.bridge.front.07.0",
+    "B07::radiator.bridge.front.07.1",
+    "B07::radiator.bridge.front.08.0",
+    "B07::radiator.bridge.front.08.1",
+    "B07::radiator.bridge.front.09.0",
+    "B07::radiator.bridge.front.09.1",
+    "B07::radiator.bridge.front.10.0",
+    "B07::radiator.bridge.front.10.1",
+    "B07::radiator.bridge.front.11.0",
+    "B07::radiator.bridge.front.11.1",
+    "B07::radiator.bridge.front.12.0",
+    "B07::radiator.bridge.front.12.1",
+    "B07::radiator.bridge.front.13.0",
+    "B07::radiator.bridge.front.13.1",
+    "B07::radiator.bridge.front.14.0",
+    "B07::radiator.bridge.front.14.1",
+    "B07::radiator.bridge.front.15.0",
+    "B07::radiator.bridge.front.15.1",
+    "B07::radiator.bridge.front.16.0",
+    "B07::radiator.bridge.front.16.1",
+    "B07::radiator.bridge.front.17.0",
+    "B07::radiator.bridge.front.17.1",
+    "B07::radiator.shared_header.front.0",
+    "B07::radiator.shared_header.front.1",
+    "B07::radiator.bridge.rear.00.0",
+    "B07::radiator.bridge.rear.00.1",
+    "B07::radiator.bridge.rear.01.0",
+    "B07::radiator.bridge.rear.01.1",
+    "B07::radiator.bridge.rear.02.0",
+    "B07::radiator.bridge.rear.02.1",
+    "B07::radiator.bridge.rear.03.0",
+    "B07::radiator.bridge.rear.03.1",
+    "B07::radiator.bridge.rear.04.0",
+    "B07::radiator.bridge.rear.04.1",
+    "B07::radiator.bridge.rear.05.0",
+    "B07::radiator.bridge.rear.05.1",
+    "B07::radiator.bridge.rear.06.0",
+    "B07::radiator.bridge.rear.06.1",
+    "B07::radiator.bridge.rear.07.0",
+    "B07::radiator.bridge.rear.07.1",
+    "B07::radiator.bridge.rear.08.0",
+    "B07::radiator.bridge.rear.08.1",
+    "B07::radiator.bridge.rear.09.0",
+    "B07::radiator.bridge.rear.09.1",
+    "B07::radiator.bridge.rear.10.0",
+    "B07::radiator.bridge.rear.10.1",
+    "B07::radiator.bridge.rear.11.0",
+    "B07::radiator.bridge.rear.11.1",
+    "B07::radiator.bridge.rear.12.0",
+    "B07::radiator.bridge.rear.12.1",
+    "B07::radiator.bridge.rear.13.0",
+    "B07::radiator.bridge.rear.13.1",
+    "B07::radiator.bridge.rear.14.0",
+    "B07::radiator.bridge.rear.14.1",
+    "B07::radiator.bridge.rear.15.0",
+    "B07::radiator.bridge.rear.15.1",
+    "B07::radiator.bridge.rear.16.0",
+    "B07::radiator.bridge.rear.16.1",
+    "B07::radiator.bridge.rear.17.0",
+    "B07::radiator.bridge.rear.17.1",
+    "B07::radiator.shared_header.rear.0",
+    "B07::radiator.shared_header.rear.1",
+    "B07::bushing.mount.front_large_1",
+    "B07::bushing.roof_neck.front_large_1",
+    "B07::bushing.mount.front_large_2",
+    "B07::bushing.roof_neck.front_large_2",
+    "B07::bushing.mount.front_large_3",
+    "B07::bushing.roof_neck.front_large_3",
+    "B07::bushing.mount.front_small",
+    "B07::bushing.roof_neck.front_small",
+    "B07::conservator.exterior",
+    "B07::conservator.rim.0",
+    "B07::conservator.rim.1",
+    "B07::conservator.panel.0",
+    "B07::conservator.louver.0.-1.00",
+    "B07::conservator.louver.0.-1.01",
+    "B07::conservator.louver.0.-1.02",
+    "B07::conservator.louver.0.-1.03",
+    "B07::conservator.louver.0.-1.04",
+    "B07::conservator.louver.0.-1.05",
+    "B07::conservator.louver.0.-1.06",
+    "B07::conservator.louver.0.-1.07",
+    "B07::conservator.louver.0.-1.08",
+    "B07::conservator.louver.0.-1.09",
+    "B07::conservator.louver.0.-1.10",
+    "B07::conservator.louver.0.-1.11",
+    "B07::conservator.louver.0.-1.12",
+    "B07::conservator.louver.0.-1.13",
+    "B07::conservator.louver.0.-1.14",
+    "B07::conservator.louver.0.-1.15",
+    "B07::conservator.louver.0.1.00",
+    "B07::conservator.louver.0.1.01",
+    "B07::conservator.louver.0.1.02",
+    "B07::conservator.louver.0.1.03",
+    "B07::conservator.louver.0.1.04",
+    "B07::conservator.louver.0.1.05",
+    "B07::conservator.louver.0.1.06",
+    "B07::conservator.louver.0.1.07",
+    "B07::conservator.louver.0.1.08",
+    "B07::conservator.louver.0.1.09",
+    "B07::conservator.louver.0.1.10",
+    "B07::conservator.louver.0.1.11",
+    "B07::conservator.louver.0.1.12",
+    "B07::conservator.louver.0.1.13",
+    "B07::conservator.louver.0.1.14",
+    "B07::conservator.louver.0.1.15",
+    "B07::conservator.panel.1",
+    "B07::conservator.louver.1.-1.00",
+    "B07::conservator.louver.1.-1.01",
+    "B07::conservator.louver.1.-1.02",
+    "B07::conservator.louver.1.-1.03",
+    "B07::conservator.louver.1.-1.04",
+    "B07::conservator.louver.1.-1.05",
+    "B07::conservator.louver.1.-1.06",
+    "B07::conservator.louver.1.-1.07",
+    "B07::conservator.louver.1.-1.08",
+    "B07::conservator.louver.1.-1.09",
+    "B07::conservator.louver.1.-1.10",
+    "B07::conservator.louver.1.-1.11",
+    "B07::conservator.louver.1.-1.12",
+    "B07::conservator.louver.1.-1.13",
+    "B07::conservator.louver.1.-1.14",
+    "B07::conservator.louver.1.-1.15",
+    "B07::conservator.louver.1.1.00",
+    "B07::conservator.louver.1.1.01",
+    "B07::conservator.louver.1.1.02",
+    "B07::conservator.louver.1.1.03",
+    "B07::conservator.louver.1.1.04",
+    "B07::conservator.louver.1.1.05",
+    "B07::conservator.louver.1.1.06",
+    "B07::conservator.louver.1.1.07",
+    "B07::conservator.louver.1.1.08",
+    "B07::conservator.louver.1.1.09",
+    "B07::conservator.louver.1.1.10",
+    "B07::conservator.louver.1.1.11",
+    "B07::conservator.louver.1.1.12",
+    "B07::conservator.louver.1.1.13",
+    "B07::conservator.louver.1.1.14",
+    "B07::conservator.louver.1.1.15",
+    "B07::conservator.panel.2",
+    "B07::conservator.louver.2.-1.00",
+    "B07::conservator.louver.2.-1.01",
+    "B07::conservator.louver.2.-1.02",
+    "B07::conservator.louver.2.-1.03",
+    "B07::conservator.louver.2.-1.04",
+    "B07::conservator.louver.2.-1.05",
+    "B07::conservator.louver.2.-1.06",
+    "B07::conservator.louver.2.-1.07",
+    "B07::conservator.louver.2.-1.08",
+    "B07::conservator.louver.2.-1.09",
+    "B07::conservator.louver.2.-1.10",
+    "B07::conservator.louver.2.-1.11",
+    "B07::conservator.louver.2.-1.12",
+    "B07::conservator.louver.2.-1.13",
+    "B07::conservator.louver.2.-1.14",
+    "B07::conservator.louver.2.-1.15",
+    "B07::conservator.louver.2.1.00",
+    "B07::conservator.louver.2.1.01",
+    "B07::conservator.louver.2.1.02",
+    "B07::conservator.louver.2.1.03",
+    "B07::conservator.louver.2.1.04",
+    "B07::conservator.louver.2.1.05",
+    "B07::conservator.louver.2.1.06",
+    "B07::conservator.louver.2.1.07",
+    "B07::conservator.louver.2.1.08",
+    "B07::conservator.louver.2.1.09",
+    "B07::conservator.louver.2.1.10",
+    "B07::conservator.louver.2.1.11",
+    "B07::conservator.louver.2.1.12",
+    "B07::conservator.louver.2.1.13",
+    "B07::conservator.louver.2.1.14",
+    "B07::conservator.louver.2.1.15",
+    "B07::conservator.panel.3",
+    "B07::conservator.louver.3.-1.00",
+    "B07::conservator.louver.3.-1.01",
+    "B07::conservator.louver.3.-1.02",
+    "B07::conservator.louver.3.-1.03",
+    "B07::conservator.louver.3.-1.04",
+    "B07::conservator.louver.3.-1.05",
+    "B07::conservator.louver.3.-1.06",
+    "B07::conservator.louver.3.-1.07",
+    "B07::conservator.louver.3.-1.08",
+    "B07::conservator.louver.3.-1.09",
+    "B07::conservator.louver.3.-1.10",
+    "B07::conservator.louver.3.-1.11",
+    "B07::conservator.louver.3.-1.12",
+    "B07::conservator.louver.3.-1.13",
+    "B07::conservator.louver.3.-1.14",
+    "B07::conservator.louver.3.-1.15",
+    "B07::conservator.louver.3.1.00",
+    "B07::conservator.louver.3.1.01",
+    "B07::conservator.louver.3.1.02",
+    "B07::conservator.louver.3.1.03",
+    "B07::conservator.louver.3.1.04",
+    "B07::conservator.louver.3.1.05",
+    "B07::conservator.louver.3.1.06",
+    "B07::conservator.louver.3.1.07",
+    "B07::conservator.louver.3.1.08",
+    "B07::conservator.louver.3.1.09",
+    "B07::conservator.louver.3.1.10",
+    "B07::conservator.louver.3.1.11",
+    "B07::conservator.louver.3.1.12",
+    "B07::conservator.louver.3.1.13",
+    "B07::conservator.louver.3.1.14",
+    "B07::conservator.louver.3.1.15",
+    "B07::conservator.support.-0.9",
+    "B07::conservator.crossbeam.-0.9",
+    "B07::conservator.support.2.2",
+    "B07::conservator.crossbeam.2.2",
+    "B07::conservator.level_window.frame",
+    "B07::conservator.level_window.unread",
+    "B07::conservator.ladder.rail.-0.25",
+    "B07::conservator.ladder.rail.0.02",
+    "B07::conservator.ladder.rung.0",
+    "B07::conservator.ladder.rung.1",
+    "B07::conservator.ladder.rung.2",
+    "B07::conservator.ladder.rung.3",
+    "B07::conservator.ladder.rung.4",
+    "B07::conservator.ladder.rung.5",
+    "B07::conservator.ladder.rung.6",
+    "B07::conservator.ladder.rung.7",
+    "B07::conservator.ladder.rung.8",
+    "B07::conservator.ladder.rung.9",
+    "B07::conservator.ladder.rung.10",
+    "B07::conservator.ladder.rung.11",
+    "B07::conservator.visible_side_pipe.00",
+    "B07::conservator.visible_side_pipe.01",
+    "B07::conservator.visible_side_pipe.02",
+    "B07::surround.slab",
+    "B07::surround.gravel",
+    "B07::fire.open_U.0.00",
+    "B07::fire.open_U.0.01",
+    "B07::fire.open_U.0.02",
+    "B07::fire.open_U.0.03",
+    "B07::fire.open_U.0.04",
+    "B07::fire.open_U.1.00",
+    "B07::fire.open_U.1.01",
+    "B07::fire.open_U.1.02",
+    "B07::fire.open_U.1.03",
+    "B07::fire.open_U.1.04",
+    "B07::fire.support.0",
+    "B07::fire.support_foot.0",
+    "B07::fire.support.1",
+    "B07::fire.support_foot.1",
+    "B07::fire.support.2",
+    "B07::fire.support_foot.2",
+    "B07::fire.support.3",
+    "B07::fire.support_foot.3",
+    "B07::fire.support.4",
+    "B07::fire.support_foot.4",
+    "B07::fire.front_riser.0.00",
+    "B07::fire.front_riser.0.01",
+    "B07::fire.front_riser.0.02",
+    "B07::fire.front_riser.1.00",
+    "B07::fire.front_riser.1.01",
+    "B07::fire.front_riser.1.02",
+    "B07::fire.front_riser.2.00",
+    "B07::fire.front_riser.2.01",
+    "B07::fire.front_riser.2.02",
+    "B07::fire.front_riser.3.00",
+    "B07::fire.front_riser.3.01",
+    "B07::fire.front_riser.3.02",
+    "B07::fire.front_riser.4.00",
+    "B07::fire.front_riser.4.01",
+    "B07::fire.front_riser.4.02",
+    "B07::fire.front_riser.5.00",
+    "B07::fire.front_riser.5.01",
+    "B07::fire.front_riser.5.02",
+    "B07::fire.front_riser.6.00",
+    "B07::fire.front_riser.6.01",
+    "B07::fire.front_riser.6.02",
+    "B07::fire.overhead_visible.00",
+    "B07::fire.overhead_visible.01",
+    "B07::fire.overhead_branch.0.00",
+    "B07::fire.overhead_branch.0.01",
+    "B07::fire.overhead_branch.1.00",
+    "B07::fire.overhead_branch.1.01",
+    "B07::fire.overhead_branch.2.00",
+    "B07::fire.overhead_branch.2.01",
+    "B07::fire.overhead_branch.3.00",
+    "B07::fire.overhead_branch.3.01",
+    "B07::fire.overhead_branch.4.00",
+    "B07::fire.overhead_branch.4.01",
+    "B07::fire.overhead_branch.5.00",
+    "B07::fire.overhead_branch.5.01"
+  ],
+  "instances": [
+    {
+      "name": "B07::radiator.front.01",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -8.232843399047852
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -36.781585693359375
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.02",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -7.99820613861084
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -37.27341079711914
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.03",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -7.763568878173828
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -37.76523971557617
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.04",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -7.528932094573975
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -38.25706481933594
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.05",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -7.294294834136963
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -38.74889373779297
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.06",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -7.059658050537109
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -39.240718841552734
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.07",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -6.825020790100098
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -39.732547760009766
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.08",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -6.590384006500244
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -40.22437286376953
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.09",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -6.355747222900391
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -40.7161979675293
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.10",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -6.121109962463379
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -41.20802688598633
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.11",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -5.886473178863525
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -41.699851989746094
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.12",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -5.651836395263672
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -42.191680908203125
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.13",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -5.41719913482666
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -42.68350601196289
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.14",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -5.182562351226807
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -43.17533493041992
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.15",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -4.947925090789795
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -43.66716003417969
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.16",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -4.713288307189941
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -44.15898513793945
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.17",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -4.47865104675293
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -44.650814056396484
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.front.18",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          1.463979959487915,
+          3.0686745643615723,
+          0.0,
+          -4.244014263153076
+        ],
+        [
+          -3.0686745643615723,
+          1.463979959487915,
+          0.0,
+          -45.14263916015625
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.01",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          -2.0387156009674072
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -33.8265380859375
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.02",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          -1.8040786981582642
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -34.31836700439453
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.03",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          -1.5694416761398315
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -34.8101921081543
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.04",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          -1.334804654121399
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -35.30201721191406
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.05",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          -1.1001676321029663
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -35.793846130371094
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.06",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          -0.8655307292938232
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -36.28567123413086
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.07",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          -0.6308937072753906
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -36.77750015258789
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.08",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          -0.3962567448616028
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -37.269325256347656
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.09",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          -0.16161975264549255
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -37.76115417480469
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.10",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          0.07301721721887589
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -38.25297927856445
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.11",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          0.3076542019844055
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -38.74480438232422
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.12",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          0.5422911643981934
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -39.23663330078125
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.13",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          0.776928186416626
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -39.728458404541016
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.14",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          1.011565089225769
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -40.22028732299805
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.15",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          1.2462021112442017
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -40.71211242675781
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.16",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          1.4808391332626343
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -41.203941345214844
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.17",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          1.715476155281067
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -41.69576644897461
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::radiator.rear.18",
+      "source_module": "P04_RADIATOR_PACK_MASTER",
+      "uniform_scale": 3.4,
+      "matrix_world": [
+        [
+          -1.463979721069336,
+          -3.0686748027801514,
+          0.0,
+          1.95011305809021
+        ],
+        [
+          3.0686748027801514,
+          -1.463979721069336,
+          0.0,
+          -42.187591552734375
+        ],
+        [
+          0.0,
+          0.0,
+          3.4000000953674316,
+          0.699999988079071
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::bushing.front_large_1",
+      "source_module": "P04_LARGE_BUSHING_MASTER",
+      "uniform_scale": 2.9,
+      "matrix_world": [
+        [
+          0.12321669608354568,
+          2.6221582889556885,
+          -1.232519268989563,
+          -5.369370460510254
+        ],
+        [
+          -2.89738130569458,
+          0.11151227355003357,
+          -0.052415136247873306,
+          -38.86768341064453
+        ],
+        [
+          9.312187465582156e-09,
+          1.2336333990097046,
+          2.624528408050537,
+          4.349999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::bushing.front_large_2",
+      "source_module": "P04_LARGE_BUSHING_MASTER",
+      "uniform_scale": 2.9,
+      "matrix_world": [
+        [
+          1.3997125625610352,
+          2.3002336025238037,
+          -1.0769078731536865,
+          -4.31245231628418
+        ],
+        [
+          -2.5398435592651367,
+          1.2676630020141602,
+          -0.593485951423645,
+          -40.918846130371094
+        ],
+        [
+          7.851927108504242e-09,
+          1.2296162843704224,
+          2.626412868499756,
+          4.349999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::bushing.front_large_3",
+      "source_module": "P04_LARGE_BUSHING_MASTER",
+      "uniform_scale": 2.9,
+      "matrix_world": [
+        [
+          2.201448440551758,
+          1.6860300302505493,
+          -0.8490747809410095,
+          -3.3269481658935547
+        ],
+        [
+          -1.8877568244934082,
+          1.9662004709243774,
+          -0.9901670813560486,
+          -43.090065002441406
+        ],
+        [
+          -1.390734922779302e-07,
+          1.3043614625930786,
+          2.590104579925537,
+          4.349999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "B07::bushing.front_small",
+      "source_module": "P04_SMALL_BUSHING_MASTER",
+      "uniform_scale": 3.2,
+      "matrix_world": [
+        [
+          0.8797582983970642,
+          2.8031561374664307,
+          -1.2682040929794312,
+          -6.3048319816589355
+        ],
+        [
+          -3.076690673828125,
+          0.8015430569648743,
+          -0.36263415217399597,
+          -36.65166091918945
+        ],
+        [
+          -1.490698764428089e-08,
+          1.3190319538116455,
+          2.9155025482177734,
+          4.349999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "source_modules": [
+    "P04_RADIATOR_PACK_MASTER",
+    "P04_LARGE_BUSHING_MASTER",
+    "P04_SMALL_BUSHING_MASTER"
+  ],
+  "assembly_to_world": [
+    [
+      0.43058234453201294,
+      0.9025512933731079,
+      0.0,
+      -3.1582348346710205
+    ],
+    [
+      -0.9025512933731079,
+      0.43058234453201294,
+      0.0,
+      -39.492637634277344
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.5
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "omitted_legacy_names_in_new_scenes": [
+    "12MZ0000000150023::aux.smart_terminal.body",
+    "12MZ0000000150023::aux.smart_terminal.device_plate",
+    "12MZ0000000150023::aux.smart_terminal.front_door",
+    "12MZ0000000150023::aux.smart_terminal.handle",
+    "12MZ0000000150023::aux.smart_terminal.lower_service_box",
+    "12MZ0000000150023::aux.smart_terminal.roof",
+    "12MZ0000000150023::aux.smart_terminal.system_plate",
+    "12MZ0000000150023::bushing.1.oil_level_bezel",
+    "12MZ0000000150023::bushing.1.oil_level_gauge",
+    "12MZ0000000150023::bushing.1.test_tap",
+    "12MZ0000000150023::bushing.1.test_tap_cap",
+    "12MZ0000000150023::bushing.2.oil_level_bezel",
+    "12MZ0000000150023::bushing.2.oil_level_gauge",
+    "12MZ0000000150023::bushing.2.test_tap",
+    "12MZ0000000150023::bushing.2.test_tap_cap",
+    "12MZ0000000150023::bushing.3.oil_level_bezel",
+    "12MZ0000000150023::bushing.3.oil_level_gauge",
+    "12MZ0000000150023::bushing.3.test_tap",
+    "12MZ0000000150023::bushing.3.test_tap_cap",
+    "12MZ0000000150023::cooling.fan.1.blade1",
+    "12MZ0000000150023::cooling.fan.1.blade2",
+    "12MZ0000000150023::cooling.fan.1.blade3",
+    "12MZ0000000150023::cooling.fan.1.blade4",
+    "12MZ0000000150023::cooling.fan.1.guard",
+    "12MZ0000000150023::cooling.fan.1.hub",
+    "12MZ0000000150023::cooling.fan.2.blade1",
+    "12MZ0000000150023::cooling.fan.2.blade2",
+    "12MZ0000000150023::cooling.fan.2.blade3",
+    "12MZ0000000150023::cooling.fan.2.blade4",
+    "12MZ0000000150023::cooling.fan.2.guard",
+    "12MZ0000000150023::cooling.fan.2.hub",
+    "12MZ0000000150023::cooling.fan.3.blade1",
+    "12MZ0000000150023::cooling.fan.3.blade2",
+    "12MZ0000000150023::cooling.fan.3.blade3",
+    "12MZ0000000150023::cooling.fan.3.blade4",
+    "12MZ0000000150023::cooling.fan.3.guard",
+    "12MZ0000000150023::cooling.fan.3.hub",
+    "12MZ0000000150023::cooling.fan.4.blade1",
+    "12MZ0000000150023::cooling.fan.4.blade2",
+    "12MZ0000000150023::cooling.fan.4.blade3",
+    "12MZ0000000150023::cooling.fan.4.blade4",
+    "12MZ0000000150023::cooling.fan.4.guard",
+    "12MZ0000000150023::cooling.fan.4.hub",
+    "12MZ0000000150023::cooling.fan.5.blade1",
+    "12MZ0000000150023::cooling.fan.5.blade2",
+    "12MZ0000000150023::cooling.fan.5.blade3",
+    "12MZ0000000150023::cooling.fan.5.blade4",
+    "12MZ0000000150023::cooling.fan.5.guard",
+    "12MZ0000000150023::cooling.fan.5.hub",
+    "12MZ0000000150023::cooling.fan.6.blade1",
+    "12MZ0000000150023::cooling.fan.6.blade2",
+    "12MZ0000000150023::cooling.fan.6.blade3",
+    "12MZ0000000150023::cooling.fan.6.blade4",
+    "12MZ0000000150023::cooling.fan.6.guard",
+    "12MZ0000000150023::cooling.fan.6.hub",
+    "12MZ0000000150023::cooling.oil_flow_relay.body",
+    "12MZ0000000150023::cooling.oil_flow_relay.indicator",
+    "12MZ0000000150023::monitor.online.body",
+    "12MZ0000000150023::monitor.online.front_door",
+    "12MZ0000000150023::monitor.online.handle",
+    "12MZ0000000150023::monitor.online.identity_plate",
+    "12MZ0000000150023::monitor.online.lifting_eye1",
+    "12MZ0000000150023::monitor.online.lifting_eye2",
+    "12MZ0000000150023::monitor.online.lifting_eye_stem1",
+    "12MZ0000000150023::monitor.online.lifting_eye_stem2",
+    "12MZ0000000150023::monitor.online.model_plate",
+    "12MZ0000000150023::monitor.online.roof",
+    "12MZ0000000150023::protection.pressure_relief.base",
+    "12MZ0000000150023::protection.pressure_relief.cap",
+    "12MZ0000000150023::protection.sudden_pressure_dial",
+    "12MZ0000000150023::protection.sudden_pressure_relay",
+    "12MZ0000000150023::tapchanger.breather.cartridge",
+    "12MZ0000000150023::tapchanger.breather.pipe",
+    "12MZ0000000150023::tapchanger.conservator.body",
+    "12MZ0000000150023::tapchanger.conservator.level_window",
+    "12MZ0000000150023::tapchanger.filter.canister1",
+    "12MZ0000000150023::tapchanger.filter.canister2",
+    "12MZ0000000150023::tapchanger.filter.pipe",
+    "12MZ0000000150023::tapchanger.filter.pump",
+    "12MZ0000000150023::tapchanger.mechanism_cabinet",
+    "12MZ0000000150023::tapchanger.mechanism_panel",
+    "12MZ0000000150023::transformer.v3.base.000.t1_buchholz_relay_approximate_housing",
+    "12MZ0000000150023::transformer.v3.base.001.t1_front_radiator_bank_01",
+    "12MZ0000000150023::transformer.v3.base.002.t1_front_radiator_bank_02",
+    "12MZ0000000150023::transformer.v3.base.003.t1_front_radiator_bank_03",
+    "12MZ0000000150023::transformer.v3.base.004.t1_front_radiator_bank_04",
+    "12MZ0000000150023::transformer.v3.base.005.t1_front_radiator_bank_05",
+    "12MZ0000000150023::transformer.v3.base.006.t1_front_radiator_bank_06",
+    "12MZ0000000150023::transformer.v3.base.007.t1_front_radiator_bank_07",
+    "12MZ0000000150023::transformer.v3.base.008.t1_front_radiator_bank_08",
+    "12MZ0000000150023::transformer.v3.base.009.t1_front_radiator_bank_09",
+    "12MZ0000000150023::transformer.v3.base.010.t1_front_radiator_bank_10",
+    "12MZ0000000150023::transformer.v3.base.011.t1_front_radiator_bank_11",
+    "12MZ0000000150023::transformer.v3.base.012.t1_front_radiator_bank_12",
+    "12MZ0000000150023::transformer.v3.base.013.t1_hv_1_continuous_ribbed_porcelain",
+    "12MZ0000000150023::transformer.v3.base.014.t1_hv_1_flange_bolts_and_terminal",
+    "12MZ0000000150023::transformer.v3.base.015.t1_hv_1_short_lead_stub",
+    "12MZ0000000150023::transformer.v3.base.016.t1_hv_2_continuous_ribbed_porcelain",
+    "12MZ0000000150023::transformer.v3.base.017.t1_hv_2_flange_bolts_and_terminal",
+    "12MZ0000000150023::transformer.v3.base.018.t1_hv_2_short_lead_stub",
+    "12MZ0000000150023::transformer.v3.base.019.t1_hv_3_continuous_ribbed_porcelain",
+    "12MZ0000000150023::transformer.v3.base.020.t1_hv_3_flange_bolts_and_terminal",
+    "12MZ0000000150023::transformer.v3.base.021.t1_hv_3_short_lead_stub",
+    "12MZ0000000150023::transformer.v3.base.022.t1_rear_radiator_bank_01",
+    "12MZ0000000150023::transformer.v3.base.023.t1_rear_radiator_bank_02",
+    "12MZ0000000150023::transformer.v3.base.024.t1_rear_radiator_bank_03",
+    "12MZ0000000150023::transformer.v3.base.025.t1_rear_radiator_bank_04",
+    "12MZ0000000150023::transformer.v3.base.026.t1_rear_radiator_bank_05",
+    "12MZ0000000150023::transformer.v3.base.027.t1_rear_radiator_bank_06",
+    "12MZ0000000150023::transformer.v3.base.028.t1_rear_radiator_bank_07",
+    "12MZ0000000150023::transformer.v3.base.029.t1_rear_radiator_bank_08",
+    "12MZ0000000150023::transformer.v3.base.030.t1_rear_radiator_bank_09",
+    "12MZ0000000150023::transformer.v3.base.031.t1_rear_radiator_bank_10",
+    "12MZ0000000150023::transformer.v3.base.032.t1_access_panel_hinge",
+    "12MZ0000000150023::transformer.v3.base.033.t1_access_panel_hinge_001",
+    "12MZ0000000150023::transformer.v3.base.034.t1_access_panel_hinge_002",
+    "12MZ0000000150023::transformer.v3.base.035.t1_access_panel_hinge_003",
+    "12MZ0000000150023::transformer.v3.base.036.t1_access_panel_hinge_004",
+    "12MZ0000000150023::transformer.v3.base.037.t1_access_panel_hinge_005",
+    "12MZ0000000150023::transformer.v3.base.038.t1_bolted_tank_lid",
+    "12MZ0000000150023::transformer.v3.base.039.t1_breather_blue_cartridge",
+    "12MZ0000000150023::transformer.v3.base.040.t1_breather_end_cap",
+    "12MZ0000000150023::transformer.v3.base.041.t1_breather_end_cap_001",
+    "12MZ0000000150023::transformer.v3.base.042.t1_conservator_access_panel_1",
+    "12MZ0000000150023::transformer.v3.base.043.t1_conservator_access_panel_2",
+    "12MZ0000000150023::transformer.v3.base.044.t1_conservator_access_panel_3",
+    "12MZ0000000150023::transformer.v3.base.045.t1_conservator_inspection_ladder",
+    "12MZ0000000150023::transformer.v3.base.046.t1_conservator_level_window",
+    "12MZ0000000150023::transformer.v3.base.047.t1_conservator_oil_and_breather_lines",
+    "12MZ0000000150023::transformer.v3.base.048.t1_conservator_rounded_casing",
+    "12MZ0000000150023::transformer.v3.base.049.t1_conservator_support_cradles",
+    "12MZ0000000150023::transformer.v3.base.050.t1_conservator_top_and_bottom_seams",
+    "12MZ0000000150023::transformer.v3.base.051.t1_cooler_headers__1_01",
+    "12MZ0000000150023::transformer.v3.base.052.t1_cooler_headers__1_02",
+    "12MZ0000000150023::transformer.v3.base.053.t1_cooler_headers__1_03",
+    "12MZ0000000150023::transformer.v3.base.054.t1_cooler_headers__1_04",
+    "12MZ0000000150023::transformer.v3.base.055.t1_cooler_headers__1_05",
+    "12MZ0000000150023::transformer.v3.base.056.t1_cooler_headers__1_06",
+    "12MZ0000000150023::transformer.v3.base.057.t1_cooler_headers__1_07",
+    "12MZ0000000150023::transformer.v3.base.058.t1_cooler_headers__1_08",
+    "12MZ0000000150023::transformer.v3.base.059.t1_cooler_headers__1_09",
+    "12MZ0000000150023::transformer.v3.base.060.t1_cooler_headers__1_10",
+    "12MZ0000000150023::transformer.v3.base.061.t1_cooler_headers__1_11",
+    "12MZ0000000150023::transformer.v3.base.062.t1_cooler_headers__1_12",
+    "12MZ0000000150023::transformer.v3.base.063.t1_cooler_headers_1_01",
+    "12MZ0000000150023::transformer.v3.base.064.t1_cooler_headers_1_02",
+    "12MZ0000000150023::transformer.v3.base.065.t1_cooler_headers_1_03",
+    "12MZ0000000150023::transformer.v3.base.066.t1_cooler_headers_1_04",
+    "12MZ0000000150023::transformer.v3.base.067.t1_cooler_headers_1_05",
+    "12MZ0000000150023::transformer.v3.base.068.t1_cooler_headers_1_06",
+    "12MZ0000000150023::transformer.v3.base.069.t1_cooler_headers_1_07",
+    "12MZ0000000150023::transformer.v3.base.070.t1_cooler_headers_1_08",
+    "12MZ0000000150023::transformer.v3.base.071.t1_cooler_headers_1_09",
+    "12MZ0000000150023::transformer.v3.base.072.t1_cooler_headers_1_10",
+    "12MZ0000000150023::transformer.v3.base.073.t1_cooling_control_cabinet",
+    "12MZ0000000150023::transformer.v3.base.074.t1_front_nameplate",
+    "12MZ0000000150023::transformer.v3.base.075.t1_front_spray_risers_and_bends",
+    "12MZ0000000150023::transformer.v3.base.076.t1_galvanized_fire_ring_support_posts",
+    "12MZ0000000150023::transformer.v3.base.077.t1_gauge_dial",
+    "12MZ0000000150023::transformer.v3.base.078.t1_gauge_dial_001",
+    "12MZ0000000150023::transformer.v3.base.079.t1_gravel_bed",
+    "12MZ0000000150023::transformer.v3.base.080.t1_instrument_bezel",
+    "12MZ0000000150023::transformer.v3.base.081.t1_instrument_bezel_001",
+    "12MZ0000000150023::transformer.v3.base.082.t1_lid_bolts",
+    "12MZ0000000150023::transformer.v3.base.083.t1_main_oil_tank",
+    "12MZ0000000150023::transformer.v3.base.084.t1_mounting_shoe",
+    "12MZ0000000150023::transformer.v3.base.085.t1_mounting_shoe_001",
+    "12MZ0000000150023::transformer.v3.base.086.t1_mounting_shoe_002",
+    "12MZ0000000150023::transformer.v3.base.087.t1_mounting_shoe_003",
+    "12MZ0000000150023::transformer.v3.base.089.t1_oil_containment_slab",
+    "12MZ0000000150023::transformer.v3.base.090.t1_oil_level_ruler_graduations",
+    "12MZ0000000150023::transformer.v3.base.091.t1_overhead_fire_spray_header",
+    "12MZ0000000150023::transformer.v3.base.092.t1_panel_1_louver_blades",
+    "12MZ0000000150023::transformer.v3.base.093.t1_panel_2_louver_blades",
+    "12MZ0000000150023::transformer.v3.base.094.t1_panel_3_louver_blades",
+    "12MZ0000000150023::transformer.v3.base.095.t1_pipe_couplings_z0_65",
+    "12MZ0000000150023::transformer.v3.base.096.t1_pipe_couplings_z2_65",
+    "12MZ0000000150023::transformer.v3.base.097.t1_rail__1",
+    "12MZ0000000150023::transformer.v3.base.098.t1_rail_1",
+    "12MZ0000000150023::transformer.v3.base.099.t1_rear_bushing_metal_1",
+    "12MZ0000000150023::transformer.v3.base.100.t1_rear_bushing_metal_2",
+    "12MZ0000000150023::transformer.v3.base.101.t1_rear_bushing_metal_3",
+    "12MZ0000000150023::transformer.v3.base.102.t1_rear_low_bushing_1",
+    "12MZ0000000150023::transformer.v3.base.103.t1_rear_low_bushing_2",
+    "12MZ0000000150023::transformer.v3.base.104.t1_rear_low_bushing_3",
+    "12MZ0000000150023::transformer.v3.base.105.t1_red_perimeter_ring_z0_65",
+    "12MZ0000000150023::transformer.v3.base.106.t1_red_perimeter_ring_z2_65",
+    "12MZ0000000150023::transformer.v3.base.107.t1_spray_nozzles",
+    "12MZ0000000150023::transformer.v3.base.108.t1_tank_stiffening_ribs"
+  ],
+  "previous_scenes": [
+    "07_Full_Station_Semantic_v50",
+    "18_Photo_First_B05_Station_Clean",
+    "19_Photo_First_B05_Coarse_Overlay",
+    "20_B05_746_Detail",
+    "20_B05_750_Detail",
+    "21_Photo_First_B06_Station_Clean",
+    "22_Photo_First_B06_Coarse_Overlay",
+    "23_B06_Wall_Top_Overlay",
+    "24_B06_Station_Perspective",
+    "25_B06_Wall_Top_Clean",
+    "26_B06_Gate_Overlay"
+  ],
+  "new_scenes": [
+    "27_B07_Station_Clean",
+    "28_B07_Station_Overlay",
+    "29_B07_T1_Clean",
+    "30_B07_T1_Overlay",
+    "31_B07_T1_Reference",
+    "32_B07_T1_Top_Overlay",
+    "33_B07_T1_Before_Overlay"
+  ],
+  "default_scene": "29_B07_T1_Clean",
+  "full_scene": "27_B07_Station_Clean",
+  "render_jobs": [
+    {
+      "scene": "27_B07_Station_Clean",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/27_B07_Station_Clean_r2.png"
+    },
+    {
+      "scene": "28_B07_Station_Overlay",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/28_B07_Station_Overlay_r2.png"
+    },
+    {
+      "scene": "29_B07_T1_Clean",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/29_B07_T1_Clean_r2.png"
+    },
+    {
+      "scene": "30_B07_T1_Overlay",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/30_B07_T1_Overlay_r2.png"
+    },
+    {
+      "scene": "31_B07_T1_Reference",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/31_B07_T1_Reference_r2.png"
+    },
+    {
+      "scene": "32_B07_T1_Top_Overlay",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/32_B07_T1_Top_Overlay_r2.png"
+    },
+    {
+      "scene": "33_B07_T1_Before_Overlay",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/33_B07_T1_Before_Overlay_r2.png"
+    }
+  ],
+  "formal_promotions": 0,
+  "source_module_display_color_override_only": true,
+  "complete_transformer": false,
+  "scope": "partial exterior assembly, not a complete accepted transformer; frozen P04 core remains unchanged",
+  "display_revision": "r2",
+  "r1_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/xialin_B07_T1_site_exterior.blend",
+  "r1_sha256": "6f20aa238b1544babea1f4c59b570ce824b3fc80956bc5fc8238209a84cc8161"
+}

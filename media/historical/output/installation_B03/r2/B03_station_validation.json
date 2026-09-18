@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "scope": "cumulative working-preview integration and source preservation, not official semantic or full geometric acceptance",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B03/r2/xialin_photo_first_B03_station_preview.blend",
+  "sha256": "04a5974dca2a04e3134915e7f76f2aea47c58b46e8b46faead7508dd29c5c2fc",
+  "scene_count": 4,
+  "baseline_objects_preserved": 15096,
+  "unchanged_old_objects_in_preview": 14916,
+  "cumulative_old_target_components_omitted": 180,
+  "new_old_components_omitted": 120,
+  "previous_B02_candidates_preserved": 3,
+  "new_B03_candidates": 6,
+  "total_working_candidate_equipment": 9,
+  "previous_candidate_components": 186,
+  "new_candidate_components": 365,
+  "total_preview_equipment_meshes": 15467,
+  "new_accessories": 5,
+  "unpassed_mounting_candidate": "B03_748_B",
+  "source_collections_shared_across_all9": true,
+  "source_shape_or_scale_changed": false,
+  "scene_checks": {
+    "12_Photo_First_B03_Station_Clean": {
+      "retained_original_objects": 14916,
+      "photo_first_candidate_components": 551,
+      "max_instance_matrix_error": 3.0648581486047988e-06,
+      "all9_share_frozen_source_modules": true,
+      "old_target_meshes_absent": true
+    },
+    "13_Photo_First_B03_Coarse_Overlay": {
+      "retained_original_objects": 14916,
+      "photo_first_candidate_components": 551,
+      "max_instance_matrix_error": 3.0648581486047988e-06,
+      "all9_share_frozen_source_modules": true,
+      "old_target_meshes_absent": true
+    },
+    "14_Photo_First_B03_Local_Detail": {
+      "retained_original_objects": 0,
+      "photo_first_candidate_components": 365,
+      "max_instance_matrix_error": 3.0648581486047988e-06,
+      "all9_share_frozen_source_modules": false,
+      "old_target_meshes_absent": true
+    }
+  },
+  "coarse_tiles_preserved": 23,
+  "protected_files_verified": 196,
+  "official_registry_modified": false,
+  "formal_promotions": 0,
+  "B01_failed_result_preserved": true,
+  "validation_saved_blend": false
+}

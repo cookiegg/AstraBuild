@@ -1,0 +1,464 @@
+{
+  "status": "passed",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/xialin_B10_capacitor_banks.blend",
+  "sha256": "bfc18cd99b6db6f54d47b9a1434488ba34e69ba9965043fe03462658e4b43a87",
+  "formal_promotions": 0,
+  "complete_capacitor_bank": false,
+  "acceptance_scope": "saved references, historical preservation, same-end terminals, support contacts, framing and cylindrical holdout distances; not complete equipment acceptance",
+  "original_objects_unchanged": 22641,
+  "original_collections_unchanged": 263,
+  "original_scenes_unchanged": 45,
+  "original_materials_unchanged": 279,
+  "formal_v50_components_preserved": 15096,
+  "B06_civil_meshes_preserved": 69,
+  "retained_original_components_in_new_station": 6643,
+  "legacy_meshes_omitted_only_in_new_scenes": 3852,
+  "protected_files_unchanged": 498,
+  "P05_source_objects_unchanged": 119,
+  "expanded_meshes": {
+    "031": 1771,
+    "032": 1771,
+    "033": 1771,
+    "034": 1756,
+    "035": 1756,
+    "036": 1771
+  },
+  "main_modules_per_bank": {
+    "031": {
+      "rack": 3,
+      "reactor": 3,
+      "discharge": 3,
+      "small_arrester": 3
+    },
+    "032": {
+      "rack": 3,
+      "reactor": 3,
+      "discharge": 3,
+      "small_arrester": 3
+    },
+    "033": {
+      "rack": 3,
+      "reactor": 3,
+      "discharge": 3,
+      "small_arrester": 3
+    },
+    "034": {
+      "rack": 3,
+      "reactor": 3,
+      "discharge": 3,
+      "small_arrester": 3
+    },
+    "035": {
+      "rack": 3,
+      "reactor": 3,
+      "discharge": 3,
+      "small_arrester": 3
+    },
+    "036": {
+      "rack": 3,
+      "reactor": 3,
+      "discharge": 3,
+      "small_arrester": 3
+    }
+  },
+  "source_instance_uniform_scales": true,
+  "reactor_support_contacts": 54,
+  "terminal_orientation_plus_local_x": true,
+  "rack_can_count_per_rack": 8,
+  "rack_can_count_is_candidate": true,
+  "reactor_heldout_measurements": [
+    {
+      "unit": "031",
+      "lane": 1,
+      "heldout_triangles": 69,
+      "median_abs_m": 0.004574343908320122,
+      "p95_abs_m": 0.024674066565553883,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "031",
+      "lane": 2,
+      "heldout_triangles": 67,
+      "median_abs_m": 0.0035877613684088816,
+      "p95_abs_m": 0.03131473882152583,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "031",
+      "lane": 3,
+      "heldout_triangles": 85,
+      "median_abs_m": 0.005050474847131503,
+      "p95_abs_m": 0.019223493053082286,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "032",
+      "lane": 1,
+      "heldout_triangles": 85,
+      "median_abs_m": 0.0071752500423484245,
+      "p95_abs_m": 0.11574921924759293,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "032",
+      "lane": 2,
+      "heldout_triangles": 82,
+      "median_abs_m": 0.004651569568118297,
+      "p95_abs_m": 0.021818372794478503,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "032",
+      "lane": 3,
+      "heldout_triangles": 76,
+      "median_abs_m": 0.004881733580254122,
+      "p95_abs_m": 0.02179298121856571,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "033",
+      "lane": 1,
+      "heldout_triangles": 66,
+      "median_abs_m": 0.004201984177912066,
+      "p95_abs_m": 0.024839900086180422,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "033",
+      "lane": 2,
+      "heldout_triangles": 68,
+      "median_abs_m": 0.027185271914751064,
+      "p95_abs_m": 0.07035718917508095,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "033",
+      "lane": 3,
+      "heldout_triangles": 73,
+      "median_abs_m": 0.008335375898049002,
+      "p95_abs_m": 0.09388592611289168,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "034",
+      "lane": 1,
+      "heldout_triangles": 48,
+      "median_abs_m": 0.006205500314817647,
+      "p95_abs_m": 0.05694103626641144,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "034",
+      "lane": 2,
+      "heldout_triangles": 49,
+      "median_abs_m": 0.007429196116584769,
+      "p95_abs_m": 0.019483335302765276,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "034",
+      "lane": 3,
+      "heldout_triangles": 74,
+      "median_abs_m": 0.006367582510098391,
+      "p95_abs_m": 0.025481937463357977,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "035",
+      "lane": 1,
+      "heldout_triangles": 61,
+      "median_abs_m": 0.007452366304346092,
+      "p95_abs_m": 0.048241072642191685,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "035",
+      "lane": 2,
+      "heldout_triangles": 30,
+      "median_abs_m": 0.024302699592542554,
+      "p95_abs_m": 0.051709640995847905,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "035",
+      "lane": 3,
+      "heldout_triangles": 30,
+      "median_abs_m": 0.014897156375793363,
+      "p95_abs_m": 0.024155306431615647,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "036",
+      "lane": 1,
+      "heldout_triangles": 68,
+      "median_abs_m": 0.008347528253525083,
+      "p95_abs_m": 0.030731521340799258,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "036",
+      "lane": 2,
+      "heldout_triangles": 72,
+      "median_abs_m": 0.006748599291331425,
+      "p95_abs_m": 0.032996432263887175,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    },
+    {
+      "unit": "036",
+      "lane": 3,
+      "heldout_triangles": 79,
+      "median_abs_m": 0.0138997655394002,
+      "p95_abs_m": 0.033719864615413514,
+      "saved_radius": 0.5983356818073389,
+      "scope": "radial cylindrical face only; all preselected holdout sectors retained"
+    }
+  ],
+  "rack_fit_diagnostics": [
+    {
+      "unit": "031",
+      "lane": 1,
+      "back_plane": -2.2663710548239617,
+      "median_abs_m": 0.013063825942411844,
+      "p95_abs_m": 0.12625565699964503,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "031",
+      "lane": 2,
+      "back_plane": -0.025195552285280698,
+      "median_abs_m": 0.011586663938486973,
+      "p95_abs_m": 0.05596183165244515,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "031",
+      "lane": 3,
+      "back_plane": 2.2395602033776374,
+      "median_abs_m": 0.012811381182128212,
+      "p95_abs_m": 0.06747206672223771,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "032",
+      "lane": 1,
+      "back_plane": -2.362843437369433,
+      "median_abs_m": 0.006961750921996135,
+      "p95_abs_m": 0.1392817649407865,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "032",
+      "lane": 2,
+      "back_plane": -0.10037340062436151,
+      "median_abs_m": 0.008392334958772271,
+      "p95_abs_m": 0.10826043385530347,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "032",
+      "lane": 3,
+      "back_plane": 2.142212943856153,
+      "median_abs_m": 0.010176708870642814,
+      "p95_abs_m": 0.074734509350182,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "033",
+      "lane": 1,
+      "back_plane": -2.032121820624438,
+      "median_abs_m": 0.006786663527353465,
+      "p95_abs_m": 0.08415256389873729,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "033",
+      "lane": 2,
+      "back_plane": 0.2347914741677375,
+      "median_abs_m": 0.01186886657256958,
+      "p95_abs_m": 0.07164626529599533,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "033",
+      "lane": 3,
+      "back_plane": 2.474943237130079,
+      "median_abs_m": 0.015531869382248598,
+      "p95_abs_m": 0.05000844361205681,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "034",
+      "lane": 1,
+      "back_plane": -2.656142873938647,
+      "median_abs_m": 0.010598289271858574,
+      "p95_abs_m": 0.09751729285520172,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "034",
+      "lane": 2,
+      "back_plane": -0.40635339754399347,
+      "median_abs_m": 0.00755751910713498,
+      "p95_abs_m": 0.07622625950024695,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "034",
+      "lane": 3,
+      "back_plane": 1.840272025887403,
+      "median_abs_m": 0.012716543233539657,
+      "p95_abs_m": 0.11084424906203894,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "035",
+      "lane": 1,
+      "back_plane": -2.5726179315405755,
+      "median_abs_m": 0.013685276760654563,
+      "p95_abs_m": 0.09055528934421521,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "035",
+      "lane": 2,
+      "back_plane": -0.3272478191810517,
+      "median_abs_m": 0.010141108965560364,
+      "p95_abs_m": 0.06857349348039665,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "035",
+      "lane": 3,
+      "back_plane": 1.9242907331627936,
+      "median_abs_m": 0.016933335342133038,
+      "p95_abs_m": 0.04462799639302073,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "036",
+      "lane": 1,
+      "back_plane": -2.4855391218024163,
+      "median_abs_m": 0.02565970673414064,
+      "p95_abs_m": 0.19151968212210865,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "036",
+      "lane": 2,
+      "back_plane": -0.25369986730393457,
+      "median_abs_m": 0.008574751514926066,
+      "p95_abs_m": 0.05358971876147101,
+      "scope": "fit-set diagnostic, not independent validation"
+    },
+    {
+      "unit": "036",
+      "lane": 3,
+      "back_plane": 2.00237162572566,
+      "median_abs_m": 0.011161579815185618,
+      "p95_abs_m": 0.03333837963458952,
+      "scope": "fit-set diagnostic, not independent validation"
+    }
+  ],
+  "camera_framing": {
+    "031": {
+      "min": [
+        0.1503361612558365,
+        0.11518716812133789
+      ],
+      "max": [
+        0.8794509172439575,
+        0.8708922863006592
+      ]
+    },
+    "032": {
+      "min": [
+        0.14864809811115265,
+        0.12241173535585403
+      ],
+      "max": [
+        0.8802574276924133,
+        0.8812230825424194
+      ]
+    },
+    "033": {
+      "min": [
+        0.12737081944942474,
+        0.1183253601193428
+      ],
+      "max": [
+        0.8589333891868591,
+        0.87912517786026
+      ]
+    },
+    "034": {
+      "min": [
+        0.19226127862930298,
+        0.10624027997255325
+      ],
+      "max": [
+        0.9223251342773438,
+        0.8708430528640747
+      ]
+    },
+    "035": {
+      "min": [
+        0.18817459046840668,
+        0.1029559001326561
+      ],
+      "max": [
+        0.919105589389801,
+        0.8682537078857422
+      ]
+    },
+    "036": {
+      "min": [
+        0.17134739458560944,
+        0.1128956750035286
+      ],
+      "max": [
+        0.9040988683700562,
+        0.8819522261619568
+      ]
+    },
+    "six_banks": {
+      "min": [
+        0.039030853658914566,
+        0.24773859977722168
+      ],
+      "max": [
+        0.9770616888999939,
+        0.7736225128173828
+      ]
+    }
+  },
+  "discharge_primary_bushings": 54,
+  "side_supports": 24,
+  "incoming_supports": 46,
+  "saved_rack_to_primary_endpoint_max_error_m": 5.459298223770371e-07,
+  "pending": [
+    "hidden circuit topology, conductor electrical phase assignment and operating state",
+    "precise internal capacitor, winding and shed counts",
+    "fine switch mechanics, bolts, material finish and exact terminal angles",
+    "fence shared-boundary and gate hardware; mesh pitch illustrative",
+    "site dimensions are coarse-relative, not surveyed",
+    "small side support and discharge tank foot/terminal residuals need close photo refinement"
+  ],
+  "blend_saved_by_validator": false
+}

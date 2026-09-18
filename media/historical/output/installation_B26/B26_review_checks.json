@@ -1,0 +1,27 @@
+{
+  "render_images": 17,
+  "interactive_cases": 7,
+  "embedded_render_hashes": {
+    "537_B26_Station_Clean": "df405d1b726b31ba6ce30f5ebc323e9ffc73802fba5a571ccf37fa4e89174975",
+    "538_B26_Station_Overlay": "164a4f68ca712bd323e364125f04e03cc0c8dfcfa430a0bb71bafd5aca3626a1",
+    "539_B26_Central_Equipment_Clean": "0a708c78f532801ccb6496afe9c06d0218250be421502903ce786d9a0882ee9c",
+    "540_B26_Central_Equipment_Overlay": "228b8fc727a03778f6d553a276a60dc615bbc81a1f3bed33902133eedbefebe5",
+    "541_B26_Central_Equipment_Reference": "2488d66c7bfb6775b8d69115a2402b098025a411c04df1cd7c70329c1ffb114d",
+    "542_B26_Structure_Clean": "1451f66216add2f33d7269c9577f086f728bd035fc17efb865f890599d81137f",
+    "543_B26_Structure_Overlay": "3925158174a3ae6d8957310e8af5c5ce2da7bd72f51cb3d30011e2ab41b5adeb",
+    "544_B26_Structure_Reference": "908f1c4dcce4d43b2a2a62e7b52411f509aeb45ef80fc462b4d22abc02046d7e",
+    "545_B26_FW1_Clean": "2791eb5b6b4101573b1ae3c790cf04e17622d779c3b9cde8daf6d3164e956f42",
+    "546_B26_FW1_Overlay": "2a9bb7ed60d4fd99ad10c5d1157cef67f57d97e69691a09fc71cb3c73187adda",
+    "547_B26_FW1_Reference": "1efddbb8db07f30363c4110ee993f75399725945a334252212e707ba6220d971",
+    "548_B26_FW2_Clean": "c49c336bd89e350d4f5cca737c2834757e8cd9e964ba76e92fbcda668e5b4306",
+    "549_B26_FW2_Overlay": "8a8e2f8ba1928bff70e6b3ef5e58ae54310cff06125781229e6ffc43d3dd21bf",
+    "550_B26_FW2_Reference": "ddf51012ae5c99d29d51b1eaabe48a66bb9ca1ee5ccc5a9d57eed6241dd68e2e",
+    "551_B26_FW3_Clean": "bcdc72b6b50ee3ee29a8592ff3a78ceaf107486c76f96a6525cc356b8de4e694",
+    "552_B26_FW3_Overlay": "eccbff6f3019369e2402c0bc97690459660389056da8751c56f20414bfe2b43b",
+    "553_B26_FW3_Reference": "c15f886d5f71b573f2f78ae8602f01f04c84065bcd58b2beace37b36e1237719"
+  },
+  "relative_artifact_links_valid": true,
+  "javascript_syntax_passed": true,
+  "browser_layout_tested": false,
+  "html_bytes": 49547437
+}

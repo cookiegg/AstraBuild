@@ -1,0 +1,1015 @@
+{
+  "status": "two_shared_physical_neutral_assemblies_saved_partial_alignment",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/r2/xialin_B22_shared_neutral_assemblies_r2.blend",
+  "sha256": "8979bc01abe9571d931f03e908c31dcb16d237f2581e88f4a42fdca6bec20b0c",
+  "previous_objects_unchanged": 28131,
+  "previous_scenes_unchanged": 440,
+  "previous_collections_unchanged": 585,
+  "previous_materials_unchanged": 318,
+  "previous_station_world_transforms_unchanged": 3293,
+  "protected_previous_files_unchanged": 2072,
+  "protected_files_verification": "2072 complete hashes passed in initial validation; all file size/mtime_ns unchanged after B22-only r2 revision; checkpoint and initial report preserved",
+  "legacy_meshes_remaining": 1682,
+  "formal_baseline_meshes": 15096,
+  "source_asset_roundtrip_identical": true,
+  "shared_masters": [
+    "B22_NEUTRAL_CLUSTER_MASTER",
+    "B22_UPPER_BLADE_MASTER",
+    "B22_MECHANISM_CABINET_MASTER"
+  ],
+  "local_screens_passed": 23,
+  "local_screens_unpassed": 5,
+  "surface_checks": [
+    {
+      "key": "T1",
+      "name": "column",
+      "heldout_count": 334,
+      "rms_m": 0.05280202390350073,
+      "p95_m": 0.12499649189412593,
+      "five_cm_screen_passed": false,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "center_xy": [
+          -5.92,
+          -4.23
+        ],
+        "radius": 0.28,
+        "z": [
+          1.45,
+          2.8
+        ],
+        "max_abs_normal_z": 0.45,
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "brown",
+      "heldout_count": 252,
+      "rms_m": 0.009031311405451875,
+      "p95_m": 0.016128583531826734,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "center_xy": [
+          -5.92,
+          -4.54
+        ],
+        "radius": 0.24,
+        "z": [
+          4.3,
+          5.45
+        ],
+        "max_abs_normal_z": 0.45,
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "black",
+      "heldout_count": 179,
+      "rms_m": 0.009143430746572426,
+      "p95_m": 0.017418044432997704,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "center_xy": [
+          -5.91,
+          -3.84
+        ],
+        "radius": 0.25,
+        "z": [
+          4.65,
+          5.65
+        ],
+        "max_abs_normal_z": 0.45,
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "beam_top",
+      "heldout_count": 154,
+      "rms_m": 0.024579909265838768,
+      "p95_m": 0.039738620072603224,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 2,
+        "span": [
+          3.965,
+          4.085
+        ],
+        "bounds": [
+          [
+            -6.2,
+            -5.7,
+            0
+          ],
+          [
+            -5.6,
+            -3.5,
+            9
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "base_top",
+      "heldout_count": 39,
+      "rms_m": 0.011243899042471328,
+      "p95_m": 0.020577094703912734,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 2,
+        "span": [
+          0.015,
+          0.13
+        ],
+        "bounds": [
+          [
+            -6.2,
+            -4.52,
+            0
+          ],
+          [
+            -5.61,
+            -3.95,
+            9
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "cab_xlo",
+      "heldout_count": 21,
+      "rms_m": 0.006914467574007807,
+      "p95_m": 0.011978475376963615,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 0,
+        "span": [
+          -6.27,
+          -6.08
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "cab_xhi",
+      "heldout_count": 27,
+      "rms_m": 0.0055996878392524894,
+      "p95_m": 0.01064678123220801,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 0,
+        "span": [
+          -5.69,
+          -5.51
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "cab_ylo",
+      "heldout_count": 56,
+      "rms_m": 0.051064893753586,
+      "p95_m": 0.10632430389523506,
+      "five_cm_screen_passed": false,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 1,
+        "span": [
+          -4.04,
+          -3.91
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "cab_yhi",
+      "heldout_count": 23,
+      "rms_m": 0.009806156455317266,
+      "p95_m": 0.015760275628417728,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 1,
+        "span": [
+          -3.58,
+          -3.36
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "cab_zlo",
+      "heldout_count": 20,
+      "rms_m": 0.022923829494512365,
+      "p95_m": 0.04001576602458955,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 2,
+        "span": [
+          0.32,
+          0.49
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "cab_zhi",
+      "heldout_count": 32,
+      "rms_m": 0.03455875720816503,
+      "p95_m": 0.07819646149873732,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 2,
+        "span": [
+          1.0,
+          1.18
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "red_head",
+      "heldout_count": 229,
+      "rms_m": 0.022313777852709802,
+      "p95_m": 0.040043570846319196,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "bounds": [
+          [
+            -6.2,
+            -5.6,
+            4.8
+          ],
+          [
+            -5.55,
+            -5.12,
+            5.3
+          ]
+        ],
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "inclined",
+      "heldout_count": 373,
+      "rms_m": 0.08104041790476482,
+      "p95_m": 0.15598945319652546,
+      "five_cm_screen_passed": false,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "bounds": [
+          [
+            -6.2,
+            -3.55,
+            4.15
+          ],
+          [
+            -5.55,
+            -2.65,
+            4.91
+          ]
+        ],
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T1",
+      "name": "upper_blade",
+      "heldout_count": 63,
+      "rms_m": 0.10104022360196906,
+      "p95_m": 0.1736466869711876,
+      "five_cm_screen_passed": false,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "z": [
+          5.2,
+          5.51
+        ],
+        "radius": [
+          0.3,
+          1.25
+        ],
+        "xy": [
+          [
+            -7.4,
+            -4.25
+          ],
+          [
+            -5.4,
+            -2.6
+          ]
+        ],
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "column",
+      "heldout_count": 284,
+      "rms_m": 0.04385307395116797,
+      "p95_m": 0.10861279927194113,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "center_xy": [
+          -5.92,
+          -4.23
+        ],
+        "radius": 0.28,
+        "z": [
+          1.45,
+          2.8
+        ],
+        "max_abs_normal_z": 0.45,
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "brown",
+      "heldout_count": 267,
+      "rms_m": 0.01101127587515442,
+      "p95_m": 0.019055804423987854,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "center_xy": [
+          -5.92,
+          -4.54
+        ],
+        "radius": 0.24,
+        "z": [
+          4.3,
+          5.45
+        ],
+        "max_abs_normal_z": 0.45,
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "black",
+      "heldout_count": 184,
+      "rms_m": 0.00929133747337335,
+      "p95_m": 0.017072416096925735,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "center_xy": [
+          -5.91,
+          -3.84
+        ],
+        "radius": 0.25,
+        "z": [
+          4.65,
+          5.65
+        ],
+        "max_abs_normal_z": 0.45,
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "beam_top",
+      "heldout_count": 89,
+      "rms_m": 0.020370746345486374,
+      "p95_m": 0.051789426803588855,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 2,
+        "span": [
+          3.965,
+          4.085
+        ],
+        "bounds": [
+          [
+            -6.2,
+            -5.7,
+            0
+          ],
+          [
+            -5.6,
+            -3.5,
+            9
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "base_top",
+      "heldout_count": 49,
+      "rms_m": 0.011207070301749191,
+      "p95_m": 0.020087940990924834,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 2,
+        "span": [
+          0.015,
+          0.13
+        ],
+        "bounds": [
+          [
+            -6.2,
+            -4.52,
+            0
+          ],
+          [
+            -5.61,
+            -3.95,
+            9
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "cab_xlo",
+      "heldout_count": 28,
+      "rms_m": 0.03094684882633597,
+      "p95_m": 0.07511217314749953,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 0,
+        "span": [
+          -6.27,
+          -6.08
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "cab_xhi",
+      "heldout_count": 21,
+      "rms_m": 0.009028801171480371,
+      "p95_m": 0.0163999292999506,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 0,
+        "span": [
+          -5.69,
+          -5.51
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "cab_ylo",
+      "heldout_count": 57,
+      "rms_m": 0.04040009941981433,
+      "p95_m": 0.08726452291011805,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 1,
+        "span": [
+          -4.04,
+          -3.91
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "cab_yhi",
+      "heldout_count": 27,
+      "rms_m": 0.011865692121917217,
+      "p95_m": 0.02175014223903417,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 1,
+        "span": [
+          -3.58,
+          -3.36
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "cab_zlo",
+      "heldout_count": 16,
+      "rms_m": 0.019567805251344696,
+      "p95_m": 0.032982237637043,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 2,
+        "span": [
+          0.32,
+          0.49
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "cab_zhi",
+      "heldout_count": 5,
+      "rms_m": 0.04535137001447477,
+      "p95_m": 0.06948714852333068,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "axis": 2,
+        "span": [
+          1.0,
+          1.18
+        ],
+        "bounds": [
+          [
+            -6.3,
+            -4.06,
+            0.25
+          ],
+          [
+            -5.5,
+            -3.3,
+            1.25
+          ]
+        ]
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "red_head",
+      "heldout_count": 218,
+      "rms_m": 0.02317157081204381,
+      "p95_m": 0.05219575744122266,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "bounds": [
+          [
+            -6.2,
+            -5.6,
+            4.8
+          ],
+          [
+            -5.55,
+            -5.12,
+            5.3
+          ]
+        ],
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "inclined",
+      "heldout_count": 397,
+      "rms_m": 0.08381239109166962,
+      "p95_m": 0.15309019684791564,
+      "five_cm_screen_passed": false,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "bounds": [
+          [
+            -6.2,
+            -3.55,
+            4.15
+          ],
+          [
+            -5.55,
+            -2.65,
+            4.91
+          ]
+        ],
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    },
+    {
+      "key": "T2",
+      "name": "upper_blade",
+      "heldout_count": 19,
+      "rms_m": 0.017066661252225446,
+      "p95_m": 0.031201492622494685,
+      "five_cm_screen_passed": true,
+      "scope": "actual saved finite surfaces",
+      "domain": {
+        "z": [
+          5.2,
+          5.51
+        ],
+        "radius": [
+          0.3,
+          1.25
+        ],
+        "xy": [
+          [
+            -7.4,
+            -4.25
+          ],
+          [
+            -5.4,
+            -2.6
+          ]
+        ],
+        "min_area": 1e-05
+      },
+      "residual_trimming": false
+    }
+  ],
+  "construction_contacts": [
+    {
+      "key": "T1",
+      "a": "foundation",
+      "b": "column.baseplate",
+      "gap_m": 3.725290298461914e-09
+    },
+    {
+      "key": "T1",
+      "a": "column.baseplate",
+      "b": "column",
+      "gap_m": 3.725290298461914e-09
+    },
+    {
+      "key": "T1",
+      "a": "column",
+      "b": "beam.bottom_flange",
+      "gap_m": 2.5704503059387207e-07
+    },
+    {
+      "key": "T1",
+      "a": "beam.top_flange",
+      "b": "brown.base",
+      "gap_m": 6.332993507385254e-08
+    },
+    {
+      "key": "T1",
+      "a": "beam.top_flange",
+      "b": "black.base",
+      "gap_m": 6.332993507385254e-08
+    },
+    {
+      "key": "T1",
+      "a": "brown.base",
+      "b": "brown.ceramic",
+      "gap_m": 0.0
+    },
+    {
+      "key": "T1",
+      "a": "black.base",
+      "b": "black.ceramic",
+      "gap_m": 0.0
+    },
+    {
+      "key": "T1",
+      "a": "B22::T1.cabinet.stand.0",
+      "b": "B22::T1.cabinet.footing",
+      "gap_m": 1.862645149230957e-09
+    },
+    {
+      "key": "T1",
+      "a": "B22::T1.cabinet.stand.1",
+      "b": "B22::T1.cabinet.footing",
+      "gap_m": 1.862645149230957e-09
+    },
+    {
+      "key": "T1",
+      "a": "redhead.seat",
+      "b": "redframe.side.2.0",
+      "gap_m": 9.499490261077881e-08
+    },
+    {
+      "key": "T2",
+      "a": "foundation",
+      "b": "column.baseplate",
+      "gap_m": 3.725290298461914e-09
+    },
+    {
+      "key": "T2",
+      "a": "column.baseplate",
+      "b": "column",
+      "gap_m": 3.725290298461914e-09
+    },
+    {
+      "key": "T2",
+      "a": "column",
+      "b": "beam.bottom_flange",
+      "gap_m": 2.5704503059387207e-07
+    },
+    {
+      "key": "T2",
+      "a": "beam.top_flange",
+      "b": "brown.base",
+      "gap_m": 6.332993507385254e-08
+    },
+    {
+      "key": "T2",
+      "a": "beam.top_flange",
+      "b": "black.base",
+      "gap_m": 6.332993507385254e-08
+    },
+    {
+      "key": "T2",
+      "a": "brown.base",
+      "b": "brown.ceramic",
+      "gap_m": 0.0
+    },
+    {
+      "key": "T2",
+      "a": "black.base",
+      "b": "black.ceramic",
+      "gap_m": 0.0
+    },
+    {
+      "key": "T2",
+      "a": "B22::T2.cabinet.stand.0",
+      "b": "B22::T2.cabinet.footing",
+      "gap_m": 2.066371962428093e-09
+    },
+    {
+      "key": "T2",
+      "a": "B22::T2.cabinet.stand.1",
+      "b": "B22::T2.cabinet.footing",
+      "gap_m": 2.066371962428093e-09
+    },
+    {
+      "key": "T2",
+      "a": "redhead.seat",
+      "b": "redframe.side.2.0",
+      "gap_m": 9.499490261077881e-08
+    }
+  ],
+  "prior_comparison": [
+    {
+      "key": "T1",
+      "sample_count": 765,
+      "prior_rms_m": 1.743548306609611,
+      "new_rms_m": 0.027437972829239526,
+      "scope": "same fixed post/column odd patches, complete nearby candidate vs complete new cluster envelope; not whole-device validation"
+    },
+    {
+      "key": "T2",
+      "sample_count": 735,
+      "prior_rms_m": 1.1155686045215483,
+      "new_rms_m": 0.020604252059089282,
+      "scope": "same fixed post/column odd patches, complete nearby candidate vs complete new cluster envelope; not whole-device validation"
+    }
+  ],
+  "camera_framing": {
+    "458_B22_T1_Oblique_Clean": {
+      "expanded_meshes": 93,
+      "min": [
+        0.3928355872631073,
+        0.04999997466802597
+      ],
+      "max": [
+        0.6324211359024048,
+        0.9349169731140137
+      ]
+    },
+    "461_B22_T1_Side_Clean": {
+      "expanded_meshes": 93,
+      "min": [
+        0.36535221338272095,
+        0.04999997839331627
+      ],
+      "max": [
+        0.6537895202636719,
+        0.9421775341033936
+      ]
+    },
+    "464_B22_T1_Top_Clean": {
+      "expanded_meshes": 93,
+      "min": [
+        0.3317926526069641,
+        0.3671347200870514
+      ],
+      "max": [
+        0.6443200707435608,
+        0.5979611873626709
+      ]
+    },
+    "467_B22_T2_Oblique_Clean": {
+      "expanded_meshes": 92,
+      "min": [
+        0.3934231400489807,
+        0.04999999701976776
+      ],
+      "max": [
+        0.6328513622283936,
+        0.9234157800674438
+      ]
+    },
+    "470_B22_T2_Side_Clean": {
+      "expanded_meshes": 92,
+      "min": [
+        0.3689415454864502,
+        0.05000000074505806
+      ],
+      "max": [
+        0.654546320438385,
+        0.9342291951179504
+      ]
+    },
+    "473_B22_T2_Top_Clean": {
+      "expanded_meshes": 92,
+      "min": [
+        0.3293343484401703,
+        0.36473706364631653
+      ],
+      "max": [
+        0.6399734020233154,
+        0.6608086228370667
+      ]
+    },
+    "476_B22_Neutral_Master_Edit": {
+      "expanded_meshes": 77,
+      "min": [
+        0.359946608543396,
+        0.049999989569187164
+      ],
+      "max": [
+        0.6141297817230225,
+        0.9463781118392944
+      ]
+    }
+  },
+  "formal_promotions": 0,
+  "outdoor_goal_complete": false,
+  "pending": [
+    "Transformer-to-neutral external leads not yet traced; B08 front-small terminal ports measured and available for next routing pass.",
+    "3010/3020 three-phase legacy identity mapping unresolved; red moulded head exact identity unconfirmed.",
+    "Shed counts, small hardware and support footprints approximated from photographs.",
+    "Earlier B11-B21 alignment failures and other outdoor devices remain; local screen passes are not whole-device completion."
+  ],
+  "saved_by_validator": false,
+  "screen_scope": "5cm is an internal comparison screen, not user survey tolerance; odd/even indices of one spatially correlated reconstruction are not independent survey evidence"
+}

@@ -1,0 +1,204 @@
+{
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B33/xialin_B33_entrance_service_buildings_r2.blend",
+  "sha256": "009050a5a745f05a889e6e4be115a1f56a851329ff7403d5ceb356f3177fc1df",
+  "previous_objects_unchanged": 34436,
+  "previous_scenes_unchanged": 667,
+  "previous_collections_unchanged": 771,
+  "previous_materials_unchanged": 364,
+  "previous_station_transforms_unchanged": 7116,
+  "old_pump_objects_preserved_in_history_but_omitted_from_new_station": 9,
+  "protected_previous_files_unchanged": 3078,
+  "source_asset_roundtrip_identical": true,
+  "shared_main_transformers_preserved": true,
+  "counts": {
+    "objects": 35034,
+    "scenes": 697,
+    "station_objects": 7110
+  },
+  "max_transform_rounding_m": 2.800483531881734e-06,
+  "envelopes": [
+    {
+      "key": "PUMP",
+      "root_rigid": true,
+      "roof_surface": 4.34,
+      "parapet_top": 5.15,
+      "openings": 5,
+      "openings_clear": true,
+      "front_approximate": true
+    },
+    {
+      "key": "ENTRANCE",
+      "root_rigid": true,
+      "roof_surface": 3.32,
+      "parapet_top": 4.04,
+      "openings": 8,
+      "openings_clear": true,
+      "front_approximate": true
+    }
+  ],
+  "facade_checks": [
+    {
+      "key": "PUMP",
+      "face": "west",
+      "samples": 476,
+      "rms_m": 0.03312825363503824,
+      "median_m": 0.010056316386908293,
+      "p95_m": 0.09841186180710793,
+      "max_m": 0.13345003128051758,
+      "residual_trimming": false
+    },
+    {
+      "key": "PUMP",
+      "face": "east",
+      "samples": 665,
+      "rms_m": 0.03538543187715507,
+      "median_m": 0.010785328224301338,
+      "p95_m": 0.1126975685358047,
+      "max_m": 0.1574477106332779,
+      "residual_trimming": false
+    },
+    {
+      "key": "PUMP",
+      "face": "rear",
+      "samples": 962,
+      "rms_m": 0.028168652990364623,
+      "median_m": 0.018396513536572456,
+      "p95_m": 0.0526457879692316,
+      "max_m": 0.12995168566703796,
+      "residual_trimming": false
+    },
+    {
+      "key": "ENTRANCE",
+      "face": "west",
+      "samples": 208,
+      "rms_m": 0.026355698726004614,
+      "median_m": 0.005922653013840318,
+      "p95_m": 0.045260161906480786,
+      "max_m": 0.1357901692390442,
+      "residual_trimming": false
+    },
+    {
+      "key": "ENTRANCE",
+      "face": "east",
+      "samples": 71,
+      "rms_m": 0.0031397846926109678,
+      "median_m": 0.00225353566929698,
+      "p95_m": 0.0054814559407532215,
+      "max_m": 0.0067476085387170315,
+      "residual_trimming": false
+    },
+    {
+      "key": "ENTRANCE",
+      "face": "rear",
+      "samples": 840,
+      "rms_m": 0.035994357995810126,
+      "median_m": 0.008431036490947008,
+      "p95_m": 0.08146334551274777,
+      "max_m": 0.19816309213638306,
+      "residual_trimming": false
+    }
+  ],
+  "camera_framing": {
+    "685_B33_PUMP_Oblique_Clean": {
+      "min": [
+        0.216345876455307,
+        0.199341282248497
+      ],
+      "max": [
+        0.7615751028060913,
+        0.8623930811882019
+      ]
+    },
+    "688_B33_PUMP_Rear_Clean": {
+      "min": [
+        0.31106331944465637,
+        0.2991997003555298
+      ],
+      "max": [
+        0.7145634293556213,
+        0.8374326229095459
+      ]
+    },
+    "691_B33_PUMP_Top_Clean": {
+      "min": [
+        0.3049425184726715,
+        0.1905985176563263
+      ],
+      "max": [
+        0.6717607378959656,
+        0.8919014930725098
+      ]
+    },
+    "694_B33_ENTRANCE_Oblique_Clean": {
+      "min": [
+        0.2172873169183731,
+        0.19689270853996277
+      ],
+      "max": [
+        0.782712459564209,
+        0.7877437472343445
+      ]
+    },
+    "697_B33_ENTRANCE_Rear_Clean": {
+      "min": [
+        0.17585840821266174,
+        0.329132616519928
+      ],
+      "max": [
+        0.8791421055793762,
+        0.6646061539649963
+      ]
+    },
+    "700_B33_ENTRANCE_Top_Clean": {
+      "min": [
+        0.15532539784908295,
+        0.3647242784500122
+      ],
+      "max": [
+        0.7946742177009583,
+        0.6352759003639221
+      ]
+    },
+    "703_B33_LOW_ANNEX_Oblique_Clean": {
+      "min": [
+        0.060000043362379074,
+        0.14856186509132385
+      ],
+      "max": [
+        0.9399993419647217,
+        0.8240529894828796
+      ]
+    },
+    "706_B33_LOW_ANNEX_Rear_Clean": {
+      "min": [
+        0.06000000238418579,
+        0.38572561740875244
+      ],
+      "max": [
+        0.9399999380111694,
+        0.6325501799583435
+      ]
+    },
+    "709_B33_LOW_ANNEX_Top_Clean": {
+      "min": [
+        0.07954545319080353,
+        0.18806862831115723
+      ],
+      "max": [
+        0.9204546213150024,
+        0.8119319677352905
+      ]
+    }
+  },
+  "limitations": [
+    "Front wall is not independently fitted: inferred from side-wall endpoints and photos; flat roof missing in mesh, regularized from photographed parapet relation.",
+    "Openings visible in photos or reconstruction only; unseen entrance-building front/east openings remain unconfirmed.",
+    "Small accessories, panel joints and drainage are approximate photo-scale details.",
+    "Front wall is not independently fitted: inferred from side-wall endpoints and photos; flat roof missing in mesh, regularized from photographed parapet relation.",
+    "Openings visible in photos or reconstruction only; unseen entrance-building front/east openings remain unconfirmed.",
+    "Small accessories, panel joints and drainage are approximate photo-scale details.",
+    "Footprint and top coping from source boundary; roof surface and hatch sizes inferred from DJI0005. Subterranean volume and piping interiors excluded."
+  ],
+  "comparison_scope": "Fixed odd original-triangle side/rear wall domains; even triangles used for wall datum fit. Front walls and missing roof surfaces approximate. Correlated reconstruction, no independent survey claim or residual trimming.",
+  "broader_objective_complete": false
+}

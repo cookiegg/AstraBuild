@@ -1,0 +1,159 @@
+{
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/xialin_photo_first_B06_wall_aligned_r2.blend",
+  "sha256": "06bf806e74a3fa665c3391a824ccfe4b667726036ec9a273463d11bfdb180382",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/xialin_photo_first_B05_station_preview_r2.blend",
+  "previous_sha256": "967fccc7588893b06ae4431a03a7625eedad406670fbf2dd82de4b6943b3003b",
+  "plan_sha256": "215a7c44b65582d9ea58bbb587ee4a5e34166849e0d2f7aa346372012d0b69a0",
+  "civil_collection": "B06_CIVIL_PLAN_CALIBRATED_CANDIDATE",
+  "civil_meshes": 69,
+  "omitted_legacy_names_in_new_scenes": [
+    "T23052218322040424::gate.main_panel",
+    "T23052218322040424::gate.panel_seam.1",
+    "T23052218322040424::gate.panel_seam.2",
+    "T23052218322040424::gate.panel_seam.3",
+    "T23052218322040424::gate.panel_seam.4",
+    "T23052218322040424::gate.panel_seam.5",
+    "T23052218322040424::gate.panel_seam.6",
+    "T23052218322040424::gate.pedestrian_door",
+    "T23052218322040424::gate.pedestrian_handle",
+    "T23052218322040424::gate.pillar.A",
+    "T23052218322040424::gate.pillar.A.cap",
+    "T23052218322040424::gate.pillar.B",
+    "T23052218322040424::gate.pillar.B.cap",
+    "T23052218322040424::wall.east.panel",
+    "T23052218322040424::wall.east.plinth",
+    "T23052218322040424::wall.east.post.00",
+    "T23052218322040424::wall.east.post.01",
+    "T23052218322040424::wall.east.post.02",
+    "T23052218322040424::wall.east.post.03",
+    "T23052218322040424::wall.east.post.04",
+    "T23052218322040424::wall.east.post.05",
+    "T23052218322040424::wall.east.post.06",
+    "T23052218322040424::wall.east.post.07",
+    "T23052218322040424::wall.east.post.08",
+    "T23052218322040424::wall.east.post.09",
+    "T23052218322040424::wall.east.post.10",
+    "T23052218322040424::wall.east.post.11",
+    "T23052218322040424::wall.east.post.12",
+    "T23052218322040424::wall.east.post.13",
+    "T23052218322040424::wall.east.post.14",
+    "T23052218322040424::wall.east.post.15",
+    "T23052218322040424::wall.east.post.16",
+    "T23052218322040424::wall.east.post.17",
+    "T23052218322040424::wall.east.post.18",
+    "T23052218322040424::wall.east.post.19",
+    "T23052218322040424::wall.east.post.20",
+    "T23052218322040424::wall.east.post.21",
+    "T23052218322040424::wall.east.post.22",
+    "T23052218322040424::wall.east.post.23",
+    "T23052218322040424::wall.east.post.24",
+    "T23052218322040424::wall.nw.east.panel",
+    "T23052218322040424::wall.nw.east.plinth",
+    "T23052218322040424::wall.nw.east.post.00",
+    "T23052218322040424::wall.nw.east.post.01",
+    "T23052218322040424::wall.nw.east.post.02",
+    "T23052218322040424::wall.nw.east.post.03",
+    "T23052218322040424::wall.nw.east.post.04",
+    "T23052218322040424::wall.nw.east.post.05",
+    "T23052218322040424::wall.nw.east.post.06",
+    "T23052218322040424::wall.nw.east.post.07",
+    "T23052218322040424::wall.nw.east.post.08",
+    "T23052218322040424::wall.nw.east.post.09",
+    "T23052218322040424::wall.nw.east.post.10",
+    "T23052218322040424::wall.nw.east.post.11",
+    "T23052218322040424::wall.nw.east.post.12",
+    "T23052218322040424::wall.nw.east.post.13",
+    "T23052218322040424::wall.nw.west.panel",
+    "T23052218322040424::wall.nw.west.plinth",
+    "T23052218322040424::wall.nw.west.post.00",
+    "T23052218322040424::wall.nw.west.post.01",
+    "T23052218322040424::wall.nw.west.post.02"
+  ],
+  "gate_sources": {
+    "B06::gate.pillar.A": "T23052218322040424::gate.pillar.A",
+    "B06::gate.pillar.A.cap": "T23052218322040424::gate.pillar.A.cap",
+    "B06::gate.pillar.B": "T23052218322040424::gate.pillar.B",
+    "B06::gate.pillar.B.cap": "T23052218322040424::gate.pillar.B.cap",
+    "B06::gate.main_panel": "T23052218322040424::gate.main_panel",
+    "B06::gate.panel_seam.1": "T23052218322040424::gate.panel_seam.1",
+    "B06::gate.panel_seam.2": "T23052218322040424::gate.panel_seam.2",
+    "B06::gate.panel_seam.3": "T23052218322040424::gate.panel_seam.3",
+    "B06::gate.panel_seam.4": "T23052218322040424::gate.panel_seam.4",
+    "B06::gate.panel_seam.5": "T23052218322040424::gate.panel_seam.5",
+    "B06::gate.panel_seam.6": "T23052218322040424::gate.panel_seam.6",
+    "B06::gate.pedestrian_door": "T23052218322040424::gate.pedestrian_door",
+    "B06::gate.pedestrian_handle": "T23052218322040424::gate.pedestrian_handle"
+  },
+  "gate_rigid_transform": [
+    [
+      0.9978960156440735,
+      0.06483462452888489,
+      0.0,
+      -0.41375887393951416
+    ],
+    [
+      -0.06483462452888489,
+      0.9978960156440735,
+      0.0,
+      1.0454778671264648
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "new_scenes": [
+    "21_Photo_First_B06_Station_Clean",
+    "22_Photo_First_B06_Coarse_Overlay",
+    "23_B06_Wall_Top_Overlay",
+    "24_B06_Station_Perspective",
+    "25_B06_Wall_Top_Clean",
+    "26_B06_Gate_Overlay"
+  ],
+  "default_scene": "22_Photo_First_B06_Coarse_Overlay",
+  "full_scene": "21_Photo_First_B06_Station_Clean",
+  "top_scene": "23_B06_Wall_Top_Overlay",
+  "render_jobs": [
+    {
+      "scene": "21_Photo_First_B06_Station_Clean",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/21_Photo_First_B06_Station_Clean_r2.png"
+    },
+    {
+      "scene": "22_Photo_First_B06_Coarse_Overlay",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/22_Photo_First_B06_Coarse_Overlay_r2.png"
+    },
+    {
+      "scene": "23_B06_Wall_Top_Overlay",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/23_B06_Wall_Top_Overlay_r2.png"
+    },
+    {
+      "scene": "24_B06_Station_Perspective",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/24_B06_Station_Perspective_r2.png"
+    },
+    {
+      "scene": "25_B06_Wall_Top_Clean",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/25_B06_Wall_Top_Clean_r2.png"
+    },
+    {
+      "scene": "26_B06_Gate_Overlay",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/26_B06_Gate_Overlay_r2.png"
+    }
+  ],
+  "previous_scenes_preserved": true,
+  "formal_promotions": 0,
+  "gate_dimensions_pending": true,
+  "display_revision": "r2",
+  "r1_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/xialin_photo_first_B06_wall_aligned.blend",
+  "r1_sha256": "e51d7652258c96ded06a2893d4bfac896de5100730479b9c4cfbe71b6b4c28f7",
+  "geometry_changed_from_r1": false,
+  "framing_reference": "world bounding-box corners of all 23 original coarse tiles and 69 civil meshes",
+  "top_ortho_scale": 254.72254943847656
+}

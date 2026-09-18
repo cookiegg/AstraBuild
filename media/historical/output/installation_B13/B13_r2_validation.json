@@ -1,0 +1,49 @@
+{
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/xialin_B13_GIS_line_bays_r2.blend",
+  "sha256": "db23fb9a761ddf6e2a2a031cfb8537f813a46dfd32742dd88176e33e7224ca40",
+  "r1_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/xialin_B13_GIS_line_bays.blend",
+  "r1_sha256": "b9c42462bfbba0ac38d7f870257eea9524d37f21644b9e63e1c448cc0fbcb002",
+  "status": "framing_revision_saved_geometry_unchanged",
+  "r1_objects_unchanged_except_one_camera": 24323,
+  "r1_scenes_preserved": 137,
+  "collections_preserved": 336,
+  "materials_preserved": 303,
+  "all_model_geometry_unchanged": true,
+  "asset_roundtrip_identical": true,
+  "local_cabinet_framing": {
+    "151_B13_Cabinet_Local_Edit": {
+      "min": [
+        0.3631804883480072,
+        0.09540540724992752
+      ],
+      "max": [
+        0.640932023525238,
+        0.9300000071525574
+      ]
+    },
+    "153_B13_Cabinet_Rear_Review": {
+      "min": [
+        0.35014837980270386,
+        0.09189270436763763
+      ],
+      "max": [
+        0.629018247127533,
+        0.9282311201095581
+      ]
+    }
+  },
+  "geometry_validation": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/B13_validation.json",
+  "temporary_rear_render_not_saved_in_station": true,
+  "renders": [
+    {
+      "scene": "151_B13_Cabinet_Local_Edit",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/151_B13_Cabinet_Local_Edit.png",
+      "sha256": "31b76fd6c81f1e71e3cdc04410ccbd1c7456a4e463bfadb81ae46160a40556ce"
+    },
+    {
+      "scene": "153_B13_Cabinet_Rear_Review",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/153_B13_Cabinet_Rear_Review.png",
+      "sha256": "61d3b72192f390bf30aa90127303cff8209df6e6af1d612e22024de793fd3f22"
+    }
+  ]
+}

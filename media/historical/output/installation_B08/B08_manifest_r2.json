@@ -1,0 +1,6287 @@
+{
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/xialin_B08_shared_transformers_r2.blend",
+  "sha256": "69f59b972458e2a6e95726477f49f46aaff8baec2f76fe04f94f3f1aac010403",
+  "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/B08_transformer_shared_asset_r2.blend",
+  "asset_sha256": "8afc3ee891019eb1137aa5a722bd6e120a381101fdd1f64147391b62f7510bca",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/xialin_B07_T1_site_exterior_r2.blend",
+  "previous_sha256": "b3a5f6af1737c1b487de713a76615d3a267d40f63aa3efa4de9f89483264ec4f",
+  "plan_sha256": "f9456121bbba738edf9593769e149f252aef0239c3374b8cde4863f54eb98fc2",
+  "route_sha256": "35ba62835bab97c5e87db56ec2306a616474e1476ee838ed11cbf122b90eee50",
+  "master_collection": "B08_TRANSFORMER_MASTER",
+  "radiator_master": "B08_RADIATOR_PACK_MASTER",
+  "cabinet_modules": [
+    "B08_SMART_CABINET_MASTER",
+    "B08_MONITOR_CABINET_MASTER"
+  ],
+  "unit_roots": {
+    "T1": "B08::T1.SHARED_ASSEMBLY",
+    "T2": "B08::T2.SHARED_ASSEMBLY"
+  },
+  "unit_collections": {
+    "T1": "B08_T1_INSTANCE",
+    "T2": "B08_T2_INSTANCE"
+  },
+  "lead_collections": {
+    "T1": "B08_T1_SITE_LEADS",
+    "T2": "B08_T2_SITE_LEADS"
+  },
+  "frames": {
+    "T1": [
+      [
+        0.43058234453201294,
+        0.9025512933731079,
+        0.0,
+        -3.1582348346710205
+      ],
+      [
+        -0.9025512933731079,
+        0.43058234453201294,
+        0.0,
+        -39.492637634277344
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "T2": [
+      [
+        0.43044430017471313,
+        0.9026171565055847,
+        0.0,
+        -9.624619483947754
+      ],
+      [
+        -0.9026171565055847,
+        0.43044430017471313,
+        0.0,
+        -25.98065757751465
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.4880153238773346
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "copied_B07_parts": [
+    {
+      "name": "B08::tank.shell",
+      "source": "B07::tank.shell"
+    },
+    {
+      "name": "B08::tank.base_rim",
+      "source": "B07::tank.base_rim"
+    },
+    {
+      "name": "B08::tank.roof",
+      "source": "B07::tank.roof"
+    },
+    {
+      "name": "B08::tank.runner.-0.95",
+      "source": "B07::tank.runner.-0.95"
+    },
+    {
+      "name": "B08::tank.foot.-2.8.-0.95",
+      "source": "B07::tank.foot.-2.8.-0.95"
+    },
+    {
+      "name": "B08::tank.foot.0.-0.95",
+      "source": "B07::tank.foot.0.-0.95"
+    },
+    {
+      "name": "B08::tank.foot.2.8.-0.95",
+      "source": "B07::tank.foot.2.8.-0.95"
+    },
+    {
+      "name": "B08::tank.runner.0.95",
+      "source": "B07::tank.runner.0.95"
+    },
+    {
+      "name": "B08::tank.foot.-2.8.0.95",
+      "source": "B07::tank.foot.-2.8.0.95"
+    },
+    {
+      "name": "B08::tank.foot.0.0.95",
+      "source": "B07::tank.foot.0.0.95"
+    },
+    {
+      "name": "B08::tank.foot.2.8.0.95",
+      "source": "B07::tank.foot.2.8.0.95"
+    },
+    {
+      "name": "B08::tank.rib.-1.0",
+      "source": "B07::tank.rib.-1.0"
+    },
+    {
+      "name": "B08::tank.lid_bolt.-1.0",
+      "source": "B07::tank.lid_bolt.-1.0"
+    },
+    {
+      "name": "B08::tank.rib.-1.1",
+      "source": "B07::tank.rib.-1.1"
+    },
+    {
+      "name": "B08::tank.lid_bolt.-1.1",
+      "source": "B07::tank.lid_bolt.-1.1"
+    },
+    {
+      "name": "B08::tank.rib.-1.2",
+      "source": "B07::tank.rib.-1.2"
+    },
+    {
+      "name": "B08::tank.lid_bolt.-1.2",
+      "source": "B07::tank.lid_bolt.-1.2"
+    },
+    {
+      "name": "B08::tank.rib.-1.3",
+      "source": "B07::tank.rib.-1.3"
+    },
+    {
+      "name": "B08::tank.lid_bolt.-1.3",
+      "source": "B07::tank.lid_bolt.-1.3"
+    },
+    {
+      "name": "B08::tank.rib.-1.4",
+      "source": "B07::tank.rib.-1.4"
+    },
+    {
+      "name": "B08::tank.lid_bolt.-1.4",
+      "source": "B07::tank.lid_bolt.-1.4"
+    },
+    {
+      "name": "B08::tank.rib.-1.5",
+      "source": "B07::tank.rib.-1.5"
+    },
+    {
+      "name": "B08::tank.lid_bolt.-1.5",
+      "source": "B07::tank.lid_bolt.-1.5"
+    },
+    {
+      "name": "B08::tank.rib.-1.6",
+      "source": "B07::tank.rib.-1.6"
+    },
+    {
+      "name": "B08::tank.lid_bolt.-1.6",
+      "source": "B07::tank.lid_bolt.-1.6"
+    },
+    {
+      "name": "B08::tank.rib.-1.7",
+      "source": "B07::tank.rib.-1.7"
+    },
+    {
+      "name": "B08::tank.lid_bolt.-1.7",
+      "source": "B07::tank.lid_bolt.-1.7"
+    },
+    {
+      "name": "B08::tank.rib.-1.8",
+      "source": "B07::tank.rib.-1.8"
+    },
+    {
+      "name": "B08::tank.lid_bolt.-1.8",
+      "source": "B07::tank.lid_bolt.-1.8"
+    },
+    {
+      "name": "B08::tank.rib.-1.9",
+      "source": "B07::tank.rib.-1.9"
+    },
+    {
+      "name": "B08::tank.lid_bolt.-1.9",
+      "source": "B07::tank.lid_bolt.-1.9"
+    },
+    {
+      "name": "B08::tank.rib.-1.10",
+      "source": "B07::tank.rib.-1.10"
+    },
+    {
+      "name": "B08::tank.lid_bolt.-1.10",
+      "source": "B07::tank.lid_bolt.-1.10"
+    },
+    {
+      "name": "B08::tank.rib.-1.11",
+      "source": "B07::tank.rib.-1.11"
+    },
+    {
+      "name": "B08::tank.lid_bolt.-1.11",
+      "source": "B07::tank.lid_bolt.-1.11"
+    },
+    {
+      "name": "B08::tank.rib.-1.12",
+      "source": "B07::tank.rib.-1.12"
+    },
+    {
+      "name": "B08::tank.lid_bolt.-1.12",
+      "source": "B07::tank.lid_bolt.-1.12"
+    },
+    {
+      "name": "B08::tank.rib.1.0",
+      "source": "B07::tank.rib.1.0"
+    },
+    {
+      "name": "B08::tank.lid_bolt.1.0",
+      "source": "B07::tank.lid_bolt.1.0"
+    },
+    {
+      "name": "B08::tank.rib.1.1",
+      "source": "B07::tank.rib.1.1"
+    },
+    {
+      "name": "B08::tank.lid_bolt.1.1",
+      "source": "B07::tank.lid_bolt.1.1"
+    },
+    {
+      "name": "B08::tank.rib.1.2",
+      "source": "B07::tank.rib.1.2"
+    },
+    {
+      "name": "B08::tank.lid_bolt.1.2",
+      "source": "B07::tank.lid_bolt.1.2"
+    },
+    {
+      "name": "B08::tank.rib.1.3",
+      "source": "B07::tank.rib.1.3"
+    },
+    {
+      "name": "B08::tank.lid_bolt.1.3",
+      "source": "B07::tank.lid_bolt.1.3"
+    },
+    {
+      "name": "B08::tank.rib.1.4",
+      "source": "B07::tank.rib.1.4"
+    },
+    {
+      "name": "B08::tank.lid_bolt.1.4",
+      "source": "B07::tank.lid_bolt.1.4"
+    },
+    {
+      "name": "B08::tank.rib.1.5",
+      "source": "B07::tank.rib.1.5"
+    },
+    {
+      "name": "B08::tank.lid_bolt.1.5",
+      "source": "B07::tank.lid_bolt.1.5"
+    },
+    {
+      "name": "B08::tank.rib.1.6",
+      "source": "B07::tank.rib.1.6"
+    },
+    {
+      "name": "B08::tank.lid_bolt.1.6",
+      "source": "B07::tank.lid_bolt.1.6"
+    },
+    {
+      "name": "B08::tank.rib.1.7",
+      "source": "B07::tank.rib.1.7"
+    },
+    {
+      "name": "B08::tank.lid_bolt.1.7",
+      "source": "B07::tank.lid_bolt.1.7"
+    },
+    {
+      "name": "B08::tank.rib.1.8",
+      "source": "B07::tank.rib.1.8"
+    },
+    {
+      "name": "B08::tank.lid_bolt.1.8",
+      "source": "B07::tank.lid_bolt.1.8"
+    },
+    {
+      "name": "B08::tank.rib.1.9",
+      "source": "B07::tank.rib.1.9"
+    },
+    {
+      "name": "B08::tank.lid_bolt.1.9",
+      "source": "B07::tank.lid_bolt.1.9"
+    },
+    {
+      "name": "B08::tank.rib.1.10",
+      "source": "B07::tank.rib.1.10"
+    },
+    {
+      "name": "B08::tank.lid_bolt.1.10",
+      "source": "B07::tank.lid_bolt.1.10"
+    },
+    {
+      "name": "B08::tank.rib.1.11",
+      "source": "B07::tank.rib.1.11"
+    },
+    {
+      "name": "B08::tank.lid_bolt.1.11",
+      "source": "B07::tank.lid_bolt.1.11"
+    },
+    {
+      "name": "B08::tank.rib.1.12",
+      "source": "B07::tank.rib.1.12"
+    },
+    {
+      "name": "B08::tank.lid_bolt.1.12",
+      "source": "B07::tank.lid_bolt.1.12"
+    },
+    {
+      "name": "B08::bushing.front_large_1",
+      "source": "B07::bushing.front_large_1"
+    },
+    {
+      "name": "B08::bushing.mount.front_large_1",
+      "source": "B07::bushing.mount.front_large_1"
+    },
+    {
+      "name": "B08::bushing.roof_neck.front_large_1",
+      "source": "B07::bushing.roof_neck.front_large_1"
+    },
+    {
+      "name": "B08::bushing.front_large_2",
+      "source": "B07::bushing.front_large_2"
+    },
+    {
+      "name": "B08::bushing.mount.front_large_2",
+      "source": "B07::bushing.mount.front_large_2"
+    },
+    {
+      "name": "B08::bushing.roof_neck.front_large_2",
+      "source": "B07::bushing.roof_neck.front_large_2"
+    },
+    {
+      "name": "B08::bushing.front_large_3",
+      "source": "B07::bushing.front_large_3"
+    },
+    {
+      "name": "B08::bushing.mount.front_large_3",
+      "source": "B07::bushing.mount.front_large_3"
+    },
+    {
+      "name": "B08::bushing.roof_neck.front_large_3",
+      "source": "B07::bushing.roof_neck.front_large_3"
+    },
+    {
+      "name": "B08::bushing.front_small",
+      "source": "B07::bushing.front_small"
+    },
+    {
+      "name": "B08::bushing.mount.front_small",
+      "source": "B07::bushing.mount.front_small"
+    },
+    {
+      "name": "B08::bushing.roof_neck.front_small",
+      "source": "B07::bushing.roof_neck.front_small"
+    },
+    {
+      "name": "B08::conservator.exterior",
+      "source": "B07::conservator.exterior"
+    },
+    {
+      "name": "B08::conservator.rim.0",
+      "source": "B07::conservator.rim.0"
+    },
+    {
+      "name": "B08::conservator.rim.1",
+      "source": "B07::conservator.rim.1"
+    },
+    {
+      "name": "B08::conservator.panel.0",
+      "source": "B07::conservator.panel.0"
+    },
+    {
+      "name": "B08::conservator.louver.0.-1.00",
+      "source": "B07::conservator.louver.0.-1.00"
+    },
+    {
+      "name": "B08::conservator.louver.0.-1.01",
+      "source": "B07::conservator.louver.0.-1.01"
+    },
+    {
+      "name": "B08::conservator.louver.0.-1.02",
+      "source": "B07::conservator.louver.0.-1.02"
+    },
+    {
+      "name": "B08::conservator.louver.0.-1.03",
+      "source": "B07::conservator.louver.0.-1.03"
+    },
+    {
+      "name": "B08::conservator.louver.0.-1.04",
+      "source": "B07::conservator.louver.0.-1.04"
+    },
+    {
+      "name": "B08::conservator.louver.0.-1.05",
+      "source": "B07::conservator.louver.0.-1.05"
+    },
+    {
+      "name": "B08::conservator.louver.0.-1.06",
+      "source": "B07::conservator.louver.0.-1.06"
+    },
+    {
+      "name": "B08::conservator.louver.0.-1.07",
+      "source": "B07::conservator.louver.0.-1.07"
+    },
+    {
+      "name": "B08::conservator.louver.0.-1.08",
+      "source": "B07::conservator.louver.0.-1.08"
+    },
+    {
+      "name": "B08::conservator.louver.0.-1.09",
+      "source": "B07::conservator.louver.0.-1.09"
+    },
+    {
+      "name": "B08::conservator.louver.0.-1.10",
+      "source": "B07::conservator.louver.0.-1.10"
+    },
+    {
+      "name": "B08::conservator.louver.0.-1.11",
+      "source": "B07::conservator.louver.0.-1.11"
+    },
+    {
+      "name": "B08::conservator.louver.0.-1.12",
+      "source": "B07::conservator.louver.0.-1.12"
+    },
+    {
+      "name": "B08::conservator.louver.0.-1.13",
+      "source": "B07::conservator.louver.0.-1.13"
+    },
+    {
+      "name": "B08::conservator.louver.0.-1.14",
+      "source": "B07::conservator.louver.0.-1.14"
+    },
+    {
+      "name": "B08::conservator.louver.0.-1.15",
+      "source": "B07::conservator.louver.0.-1.15"
+    },
+    {
+      "name": "B08::conservator.louver.0.1.00",
+      "source": "B07::conservator.louver.0.1.00"
+    },
+    {
+      "name": "B08::conservator.louver.0.1.01",
+      "source": "B07::conservator.louver.0.1.01"
+    },
+    {
+      "name": "B08::conservator.louver.0.1.02",
+      "source": "B07::conservator.louver.0.1.02"
+    },
+    {
+      "name": "B08::conservator.louver.0.1.03",
+      "source": "B07::conservator.louver.0.1.03"
+    },
+    {
+      "name": "B08::conservator.louver.0.1.04",
+      "source": "B07::conservator.louver.0.1.04"
+    },
+    {
+      "name": "B08::conservator.louver.0.1.05",
+      "source": "B07::conservator.louver.0.1.05"
+    },
+    {
+      "name": "B08::conservator.louver.0.1.06",
+      "source": "B07::conservator.louver.0.1.06"
+    },
+    {
+      "name": "B08::conservator.louver.0.1.07",
+      "source": "B07::conservator.louver.0.1.07"
+    },
+    {
+      "name": "B08::conservator.louver.0.1.08",
+      "source": "B07::conservator.louver.0.1.08"
+    },
+    {
+      "name": "B08::conservator.louver.0.1.09",
+      "source": "B07::conservator.louver.0.1.09"
+    },
+    {
+      "name": "B08::conservator.louver.0.1.10",
+      "source": "B07::conservator.louver.0.1.10"
+    },
+    {
+      "name": "B08::conservator.louver.0.1.11",
+      "source": "B07::conservator.louver.0.1.11"
+    },
+    {
+      "name": "B08::conservator.louver.0.1.12",
+      "source": "B07::conservator.louver.0.1.12"
+    },
+    {
+      "name": "B08::conservator.louver.0.1.13",
+      "source": "B07::conservator.louver.0.1.13"
+    },
+    {
+      "name": "B08::conservator.louver.0.1.14",
+      "source": "B07::conservator.louver.0.1.14"
+    },
+    {
+      "name": "B08::conservator.louver.0.1.15",
+      "source": "B07::conservator.louver.0.1.15"
+    },
+    {
+      "name": "B08::conservator.panel.1",
+      "source": "B07::conservator.panel.1"
+    },
+    {
+      "name": "B08::conservator.louver.1.-1.00",
+      "source": "B07::conservator.louver.1.-1.00"
+    },
+    {
+      "name": "B08::conservator.louver.1.-1.01",
+      "source": "B07::conservator.louver.1.-1.01"
+    },
+    {
+      "name": "B08::conservator.louver.1.-1.02",
+      "source": "B07::conservator.louver.1.-1.02"
+    },
+    {
+      "name": "B08::conservator.louver.1.-1.03",
+      "source": "B07::conservator.louver.1.-1.03"
+    },
+    {
+      "name": "B08::conservator.louver.1.-1.04",
+      "source": "B07::conservator.louver.1.-1.04"
+    },
+    {
+      "name": "B08::conservator.louver.1.-1.05",
+      "source": "B07::conservator.louver.1.-1.05"
+    },
+    {
+      "name": "B08::conservator.louver.1.-1.06",
+      "source": "B07::conservator.louver.1.-1.06"
+    },
+    {
+      "name": "B08::conservator.louver.1.-1.07",
+      "source": "B07::conservator.louver.1.-1.07"
+    },
+    {
+      "name": "B08::conservator.louver.1.-1.08",
+      "source": "B07::conservator.louver.1.-1.08"
+    },
+    {
+      "name": "B08::conservator.louver.1.-1.09",
+      "source": "B07::conservator.louver.1.-1.09"
+    },
+    {
+      "name": "B08::conservator.louver.1.-1.10",
+      "source": "B07::conservator.louver.1.-1.10"
+    },
+    {
+      "name": "B08::conservator.louver.1.-1.11",
+      "source": "B07::conservator.louver.1.-1.11"
+    },
+    {
+      "name": "B08::conservator.louver.1.-1.12",
+      "source": "B07::conservator.louver.1.-1.12"
+    },
+    {
+      "name": "B08::conservator.louver.1.-1.13",
+      "source": "B07::conservator.louver.1.-1.13"
+    },
+    {
+      "name": "B08::conservator.louver.1.-1.14",
+      "source": "B07::conservator.louver.1.-1.14"
+    },
+    {
+      "name": "B08::conservator.louver.1.-1.15",
+      "source": "B07::conservator.louver.1.-1.15"
+    },
+    {
+      "name": "B08::conservator.louver.1.1.00",
+      "source": "B07::conservator.louver.1.1.00"
+    },
+    {
+      "name": "B08::conservator.louver.1.1.01",
+      "source": "B07::conservator.louver.1.1.01"
+    },
+    {
+      "name": "B08::conservator.louver.1.1.02",
+      "source": "B07::conservator.louver.1.1.02"
+    },
+    {
+      "name": "B08::conservator.louver.1.1.03",
+      "source": "B07::conservator.louver.1.1.03"
+    },
+    {
+      "name": "B08::conservator.louver.1.1.04",
+      "source": "B07::conservator.louver.1.1.04"
+    },
+    {
+      "name": "B08::conservator.louver.1.1.05",
+      "source": "B07::conservator.louver.1.1.05"
+    },
+    {
+      "name": "B08::conservator.louver.1.1.06",
+      "source": "B07::conservator.louver.1.1.06"
+    },
+    {
+      "name": "B08::conservator.louver.1.1.07",
+      "source": "B07::conservator.louver.1.1.07"
+    },
+    {
+      "name": "B08::conservator.louver.1.1.08",
+      "source": "B07::conservator.louver.1.1.08"
+    },
+    {
+      "name": "B08::conservator.louver.1.1.09",
+      "source": "B07::conservator.louver.1.1.09"
+    },
+    {
+      "name": "B08::conservator.louver.1.1.10",
+      "source": "B07::conservator.louver.1.1.10"
+    },
+    {
+      "name": "B08::conservator.louver.1.1.11",
+      "source": "B07::conservator.louver.1.1.11"
+    },
+    {
+      "name": "B08::conservator.louver.1.1.12",
+      "source": "B07::conservator.louver.1.1.12"
+    },
+    {
+      "name": "B08::conservator.louver.1.1.13",
+      "source": "B07::conservator.louver.1.1.13"
+    },
+    {
+      "name": "B08::conservator.louver.1.1.14",
+      "source": "B07::conservator.louver.1.1.14"
+    },
+    {
+      "name": "B08::conservator.louver.1.1.15",
+      "source": "B07::conservator.louver.1.1.15"
+    },
+    {
+      "name": "B08::conservator.panel.2",
+      "source": "B07::conservator.panel.2"
+    },
+    {
+      "name": "B08::conservator.louver.2.-1.00",
+      "source": "B07::conservator.louver.2.-1.00"
+    },
+    {
+      "name": "B08::conservator.louver.2.-1.01",
+      "source": "B07::conservator.louver.2.-1.01"
+    },
+    {
+      "name": "B08::conservator.louver.2.-1.02",
+      "source": "B07::conservator.louver.2.-1.02"
+    },
+    {
+      "name": "B08::conservator.louver.2.-1.03",
+      "source": "B07::conservator.louver.2.-1.03"
+    },
+    {
+      "name": "B08::conservator.louver.2.-1.04",
+      "source": "B07::conservator.louver.2.-1.04"
+    },
+    {
+      "name": "B08::conservator.louver.2.-1.05",
+      "source": "B07::conservator.louver.2.-1.05"
+    },
+    {
+      "name": "B08::conservator.louver.2.-1.06",
+      "source": "B07::conservator.louver.2.-1.06"
+    },
+    {
+      "name": "B08::conservator.louver.2.-1.07",
+      "source": "B07::conservator.louver.2.-1.07"
+    },
+    {
+      "name": "B08::conservator.louver.2.-1.08",
+      "source": "B07::conservator.louver.2.-1.08"
+    },
+    {
+      "name": "B08::conservator.louver.2.-1.09",
+      "source": "B07::conservator.louver.2.-1.09"
+    },
+    {
+      "name": "B08::conservator.louver.2.-1.10",
+      "source": "B07::conservator.louver.2.-1.10"
+    },
+    {
+      "name": "B08::conservator.louver.2.-1.11",
+      "source": "B07::conservator.louver.2.-1.11"
+    },
+    {
+      "name": "B08::conservator.louver.2.-1.12",
+      "source": "B07::conservator.louver.2.-1.12"
+    },
+    {
+      "name": "B08::conservator.louver.2.-1.13",
+      "source": "B07::conservator.louver.2.-1.13"
+    },
+    {
+      "name": "B08::conservator.louver.2.-1.14",
+      "source": "B07::conservator.louver.2.-1.14"
+    },
+    {
+      "name": "B08::conservator.louver.2.-1.15",
+      "source": "B07::conservator.louver.2.-1.15"
+    },
+    {
+      "name": "B08::conservator.louver.2.1.00",
+      "source": "B07::conservator.louver.2.1.00"
+    },
+    {
+      "name": "B08::conservator.louver.2.1.01",
+      "source": "B07::conservator.louver.2.1.01"
+    },
+    {
+      "name": "B08::conservator.louver.2.1.02",
+      "source": "B07::conservator.louver.2.1.02"
+    },
+    {
+      "name": "B08::conservator.louver.2.1.03",
+      "source": "B07::conservator.louver.2.1.03"
+    },
+    {
+      "name": "B08::conservator.louver.2.1.04",
+      "source": "B07::conservator.louver.2.1.04"
+    },
+    {
+      "name": "B08::conservator.louver.2.1.05",
+      "source": "B07::conservator.louver.2.1.05"
+    },
+    {
+      "name": "B08::conservator.louver.2.1.06",
+      "source": "B07::conservator.louver.2.1.06"
+    },
+    {
+      "name": "B08::conservator.louver.2.1.07",
+      "source": "B07::conservator.louver.2.1.07"
+    },
+    {
+      "name": "B08::conservator.louver.2.1.08",
+      "source": "B07::conservator.louver.2.1.08"
+    },
+    {
+      "name": "B08::conservator.louver.2.1.09",
+      "source": "B07::conservator.louver.2.1.09"
+    },
+    {
+      "name": "B08::conservator.louver.2.1.10",
+      "source": "B07::conservator.louver.2.1.10"
+    },
+    {
+      "name": "B08::conservator.louver.2.1.11",
+      "source": "B07::conservator.louver.2.1.11"
+    },
+    {
+      "name": "B08::conservator.louver.2.1.12",
+      "source": "B07::conservator.louver.2.1.12"
+    },
+    {
+      "name": "B08::conservator.louver.2.1.13",
+      "source": "B07::conservator.louver.2.1.13"
+    },
+    {
+      "name": "B08::conservator.louver.2.1.14",
+      "source": "B07::conservator.louver.2.1.14"
+    },
+    {
+      "name": "B08::conservator.louver.2.1.15",
+      "source": "B07::conservator.louver.2.1.15"
+    },
+    {
+      "name": "B08::conservator.panel.3",
+      "source": "B07::conservator.panel.3"
+    },
+    {
+      "name": "B08::conservator.louver.3.-1.00",
+      "source": "B07::conservator.louver.3.-1.00"
+    },
+    {
+      "name": "B08::conservator.louver.3.-1.01",
+      "source": "B07::conservator.louver.3.-1.01"
+    },
+    {
+      "name": "B08::conservator.louver.3.-1.02",
+      "source": "B07::conservator.louver.3.-1.02"
+    },
+    {
+      "name": "B08::conservator.louver.3.-1.03",
+      "source": "B07::conservator.louver.3.-1.03"
+    },
+    {
+      "name": "B08::conservator.louver.3.-1.04",
+      "source": "B07::conservator.louver.3.-1.04"
+    },
+    {
+      "name": "B08::conservator.louver.3.-1.05",
+      "source": "B07::conservator.louver.3.-1.05"
+    },
+    {
+      "name": "B08::conservator.louver.3.-1.06",
+      "source": "B07::conservator.louver.3.-1.06"
+    },
+    {
+      "name": "B08::conservator.louver.3.-1.07",
+      "source": "B07::conservator.louver.3.-1.07"
+    },
+    {
+      "name": "B08::conservator.louver.3.-1.08",
+      "source": "B07::conservator.louver.3.-1.08"
+    },
+    {
+      "name": "B08::conservator.louver.3.-1.09",
+      "source": "B07::conservator.louver.3.-1.09"
+    },
+    {
+      "name": "B08::conservator.louver.3.-1.10",
+      "source": "B07::conservator.louver.3.-1.10"
+    },
+    {
+      "name": "B08::conservator.louver.3.-1.11",
+      "source": "B07::conservator.louver.3.-1.11"
+    },
+    {
+      "name": "B08::conservator.louver.3.-1.12",
+      "source": "B07::conservator.louver.3.-1.12"
+    },
+    {
+      "name": "B08::conservator.louver.3.-1.13",
+      "source": "B07::conservator.louver.3.-1.13"
+    },
+    {
+      "name": "B08::conservator.louver.3.-1.14",
+      "source": "B07::conservator.louver.3.-1.14"
+    },
+    {
+      "name": "B08::conservator.louver.3.-1.15",
+      "source": "B07::conservator.louver.3.-1.15"
+    },
+    {
+      "name": "B08::conservator.louver.3.1.00",
+      "source": "B07::conservator.louver.3.1.00"
+    },
+    {
+      "name": "B08::conservator.louver.3.1.01",
+      "source": "B07::conservator.louver.3.1.01"
+    },
+    {
+      "name": "B08::conservator.louver.3.1.02",
+      "source": "B07::conservator.louver.3.1.02"
+    },
+    {
+      "name": "B08::conservator.louver.3.1.03",
+      "source": "B07::conservator.louver.3.1.03"
+    },
+    {
+      "name": "B08::conservator.louver.3.1.04",
+      "source": "B07::conservator.louver.3.1.04"
+    },
+    {
+      "name": "B08::conservator.louver.3.1.05",
+      "source": "B07::conservator.louver.3.1.05"
+    },
+    {
+      "name": "B08::conservator.louver.3.1.06",
+      "source": "B07::conservator.louver.3.1.06"
+    },
+    {
+      "name": "B08::conservator.louver.3.1.07",
+      "source": "B07::conservator.louver.3.1.07"
+    },
+    {
+      "name": "B08::conservator.louver.3.1.08",
+      "source": "B07::conservator.louver.3.1.08"
+    },
+    {
+      "name": "B08::conservator.louver.3.1.09",
+      "source": "B07::conservator.louver.3.1.09"
+    },
+    {
+      "name": "B08::conservator.louver.3.1.10",
+      "source": "B07::conservator.louver.3.1.10"
+    },
+    {
+      "name": "B08::conservator.louver.3.1.11",
+      "source": "B07::conservator.louver.3.1.11"
+    },
+    {
+      "name": "B08::conservator.louver.3.1.12",
+      "source": "B07::conservator.louver.3.1.12"
+    },
+    {
+      "name": "B08::conservator.louver.3.1.13",
+      "source": "B07::conservator.louver.3.1.13"
+    },
+    {
+      "name": "B08::conservator.louver.3.1.14",
+      "source": "B07::conservator.louver.3.1.14"
+    },
+    {
+      "name": "B08::conservator.louver.3.1.15",
+      "source": "B07::conservator.louver.3.1.15"
+    },
+    {
+      "name": "B08::conservator.support.-0.9",
+      "source": "B07::conservator.support.-0.9"
+    },
+    {
+      "name": "B08::conservator.crossbeam.-0.9",
+      "source": "B07::conservator.crossbeam.-0.9"
+    },
+    {
+      "name": "B08::conservator.support.2.2",
+      "source": "B07::conservator.support.2.2"
+    },
+    {
+      "name": "B08::conservator.crossbeam.2.2",
+      "source": "B07::conservator.crossbeam.2.2"
+    },
+    {
+      "name": "B08::conservator.level_window.frame",
+      "source": "B07::conservator.level_window.frame"
+    },
+    {
+      "name": "B08::conservator.level_window.unread",
+      "source": "B07::conservator.level_window.unread"
+    },
+    {
+      "name": "B08::conservator.ladder.rail.-0.25",
+      "source": "B07::conservator.ladder.rail.-0.25"
+    },
+    {
+      "name": "B08::conservator.ladder.rail.0.02",
+      "source": "B07::conservator.ladder.rail.0.02"
+    },
+    {
+      "name": "B08::conservator.ladder.rung.0",
+      "source": "B07::conservator.ladder.rung.0"
+    },
+    {
+      "name": "B08::conservator.ladder.rung.1",
+      "source": "B07::conservator.ladder.rung.1"
+    },
+    {
+      "name": "B08::conservator.ladder.rung.2",
+      "source": "B07::conservator.ladder.rung.2"
+    },
+    {
+      "name": "B08::conservator.ladder.rung.3",
+      "source": "B07::conservator.ladder.rung.3"
+    },
+    {
+      "name": "B08::conservator.ladder.rung.4",
+      "source": "B07::conservator.ladder.rung.4"
+    },
+    {
+      "name": "B08::conservator.ladder.rung.5",
+      "source": "B07::conservator.ladder.rung.5"
+    },
+    {
+      "name": "B08::conservator.ladder.rung.6",
+      "source": "B07::conservator.ladder.rung.6"
+    },
+    {
+      "name": "B08::conservator.ladder.rung.7",
+      "source": "B07::conservator.ladder.rung.7"
+    },
+    {
+      "name": "B08::conservator.ladder.rung.8",
+      "source": "B07::conservator.ladder.rung.8"
+    },
+    {
+      "name": "B08::conservator.ladder.rung.9",
+      "source": "B07::conservator.ladder.rung.9"
+    },
+    {
+      "name": "B08::conservator.ladder.rung.10",
+      "source": "B07::conservator.ladder.rung.10"
+    },
+    {
+      "name": "B08::conservator.ladder.rung.11",
+      "source": "B07::conservator.ladder.rung.11"
+    },
+    {
+      "name": "B08::conservator.visible_side_pipe.00",
+      "source": "B07::conservator.visible_side_pipe.00"
+    },
+    {
+      "name": "B08::conservator.visible_side_pipe.01",
+      "source": "B07::conservator.visible_side_pipe.01"
+    },
+    {
+      "name": "B08::conservator.visible_side_pipe.02",
+      "source": "B07::conservator.visible_side_pipe.02"
+    },
+    {
+      "name": "B08::surround.slab",
+      "source": "B07::surround.slab"
+    },
+    {
+      "name": "B08::surround.gravel",
+      "source": "B07::surround.gravel"
+    },
+    {
+      "name": "B08::fire.open_U.0.00",
+      "source": "B07::fire.open_U.0.00"
+    },
+    {
+      "name": "B08::fire.open_U.0.01",
+      "source": "B07::fire.open_U.0.01"
+    },
+    {
+      "name": "B08::fire.open_U.0.02",
+      "source": "B07::fire.open_U.0.02"
+    },
+    {
+      "name": "B08::fire.open_U.0.03",
+      "source": "B07::fire.open_U.0.03"
+    },
+    {
+      "name": "B08::fire.open_U.0.04",
+      "source": "B07::fire.open_U.0.04"
+    },
+    {
+      "name": "B08::fire.open_U.1.00",
+      "source": "B07::fire.open_U.1.00"
+    },
+    {
+      "name": "B08::fire.open_U.1.01",
+      "source": "B07::fire.open_U.1.01"
+    },
+    {
+      "name": "B08::fire.open_U.1.02",
+      "source": "B07::fire.open_U.1.02"
+    },
+    {
+      "name": "B08::fire.open_U.1.03",
+      "source": "B07::fire.open_U.1.03"
+    },
+    {
+      "name": "B08::fire.open_U.1.04",
+      "source": "B07::fire.open_U.1.04"
+    },
+    {
+      "name": "B08::fire.support.0",
+      "source": "B07::fire.support.0"
+    },
+    {
+      "name": "B08::fire.support_foot.0",
+      "source": "B07::fire.support_foot.0"
+    },
+    {
+      "name": "B08::fire.support.1",
+      "source": "B07::fire.support.1"
+    },
+    {
+      "name": "B08::fire.support_foot.1",
+      "source": "B07::fire.support_foot.1"
+    },
+    {
+      "name": "B08::fire.support.2",
+      "source": "B07::fire.support.2"
+    },
+    {
+      "name": "B08::fire.support_foot.2",
+      "source": "B07::fire.support_foot.2"
+    },
+    {
+      "name": "B08::fire.support.3",
+      "source": "B07::fire.support.3"
+    },
+    {
+      "name": "B08::fire.support_foot.3",
+      "source": "B07::fire.support_foot.3"
+    },
+    {
+      "name": "B08::fire.support.4",
+      "source": "B07::fire.support.4"
+    },
+    {
+      "name": "B08::fire.support_foot.4",
+      "source": "B07::fire.support_foot.4"
+    },
+    {
+      "name": "B08::fire.front_riser.0.00",
+      "source": "B07::fire.front_riser.0.00"
+    },
+    {
+      "name": "B08::fire.front_riser.0.01",
+      "source": "B07::fire.front_riser.0.01"
+    },
+    {
+      "name": "B08::fire.front_riser.0.02",
+      "source": "B07::fire.front_riser.0.02"
+    },
+    {
+      "name": "B08::fire.front_riser.1.00",
+      "source": "B07::fire.front_riser.1.00"
+    },
+    {
+      "name": "B08::fire.front_riser.1.01",
+      "source": "B07::fire.front_riser.1.01"
+    },
+    {
+      "name": "B08::fire.front_riser.1.02",
+      "source": "B07::fire.front_riser.1.02"
+    },
+    {
+      "name": "B08::fire.front_riser.2.00",
+      "source": "B07::fire.front_riser.2.00"
+    },
+    {
+      "name": "B08::fire.front_riser.2.01",
+      "source": "B07::fire.front_riser.2.01"
+    },
+    {
+      "name": "B08::fire.front_riser.2.02",
+      "source": "B07::fire.front_riser.2.02"
+    },
+    {
+      "name": "B08::fire.front_riser.3.00",
+      "source": "B07::fire.front_riser.3.00"
+    },
+    {
+      "name": "B08::fire.front_riser.3.01",
+      "source": "B07::fire.front_riser.3.01"
+    },
+    {
+      "name": "B08::fire.front_riser.3.02",
+      "source": "B07::fire.front_riser.3.02"
+    },
+    {
+      "name": "B08::fire.front_riser.4.00",
+      "source": "B07::fire.front_riser.4.00"
+    },
+    {
+      "name": "B08::fire.front_riser.4.01",
+      "source": "B07::fire.front_riser.4.01"
+    },
+    {
+      "name": "B08::fire.front_riser.4.02",
+      "source": "B07::fire.front_riser.4.02"
+    },
+    {
+      "name": "B08::fire.front_riser.5.00",
+      "source": "B07::fire.front_riser.5.00"
+    },
+    {
+      "name": "B08::fire.front_riser.5.01",
+      "source": "B07::fire.front_riser.5.01"
+    },
+    {
+      "name": "B08::fire.front_riser.5.02",
+      "source": "B07::fire.front_riser.5.02"
+    },
+    {
+      "name": "B08::fire.front_riser.6.00",
+      "source": "B07::fire.front_riser.6.00"
+    },
+    {
+      "name": "B08::fire.front_riser.6.01",
+      "source": "B07::fire.front_riser.6.01"
+    },
+    {
+      "name": "B08::fire.front_riser.6.02",
+      "source": "B07::fire.front_riser.6.02"
+    },
+    {
+      "name": "B08::fire.overhead_visible.00",
+      "source": "B07::fire.overhead_visible.00"
+    },
+    {
+      "name": "B08::fire.overhead_visible.01",
+      "source": "B07::fire.overhead_visible.01"
+    },
+    {
+      "name": "B08::fire.overhead_branch.0.00",
+      "source": "B07::fire.overhead_branch.0.00"
+    },
+    {
+      "name": "B08::fire.overhead_branch.0.01",
+      "source": "B07::fire.overhead_branch.0.01"
+    },
+    {
+      "name": "B08::fire.overhead_branch.1.00",
+      "source": "B07::fire.overhead_branch.1.00"
+    },
+    {
+      "name": "B08::fire.overhead_branch.1.01",
+      "source": "B07::fire.overhead_branch.1.01"
+    },
+    {
+      "name": "B08::fire.overhead_branch.2.00",
+      "source": "B07::fire.overhead_branch.2.00"
+    },
+    {
+      "name": "B08::fire.overhead_branch.2.01",
+      "source": "B07::fire.overhead_branch.2.01"
+    },
+    {
+      "name": "B08::fire.overhead_branch.3.00",
+      "source": "B07::fire.overhead_branch.3.00"
+    },
+    {
+      "name": "B08::fire.overhead_branch.3.01",
+      "source": "B07::fire.overhead_branch.3.01"
+    },
+    {
+      "name": "B08::fire.overhead_branch.4.00",
+      "source": "B07::fire.overhead_branch.4.00"
+    },
+    {
+      "name": "B08::fire.overhead_branch.4.01",
+      "source": "B07::fire.overhead_branch.4.01"
+    },
+    {
+      "name": "B08::fire.overhead_branch.5.00",
+      "source": "B07::fire.overhead_branch.5.00"
+    },
+    {
+      "name": "B08::fire.overhead_branch.5.01",
+      "source": "B07::fire.overhead_branch.5.01"
+    }
+  ],
+  "new_meshes": [
+    "B08::tank.shell",
+    "B08::tank.base_rim",
+    "B08::tank.roof",
+    "B08::tank.runner.-0.95",
+    "B08::tank.foot.-2.8.-0.95",
+    "B08::tank.foot.0.-0.95",
+    "B08::tank.foot.2.8.-0.95",
+    "B08::tank.runner.0.95",
+    "B08::tank.foot.-2.8.0.95",
+    "B08::tank.foot.0.0.95",
+    "B08::tank.foot.2.8.0.95",
+    "B08::tank.rib.-1.0",
+    "B08::tank.lid_bolt.-1.0",
+    "B08::tank.rib.-1.1",
+    "B08::tank.lid_bolt.-1.1",
+    "B08::tank.rib.-1.2",
+    "B08::tank.lid_bolt.-1.2",
+    "B08::tank.rib.-1.3",
+    "B08::tank.lid_bolt.-1.3",
+    "B08::tank.rib.-1.4",
+    "B08::tank.lid_bolt.-1.4",
+    "B08::tank.rib.-1.5",
+    "B08::tank.lid_bolt.-1.5",
+    "B08::tank.rib.-1.6",
+    "B08::tank.lid_bolt.-1.6",
+    "B08::tank.rib.-1.7",
+    "B08::tank.lid_bolt.-1.7",
+    "B08::tank.rib.-1.8",
+    "B08::tank.lid_bolt.-1.8",
+    "B08::tank.rib.-1.9",
+    "B08::tank.lid_bolt.-1.9",
+    "B08::tank.rib.-1.10",
+    "B08::tank.lid_bolt.-1.10",
+    "B08::tank.rib.-1.11",
+    "B08::tank.lid_bolt.-1.11",
+    "B08::tank.rib.-1.12",
+    "B08::tank.lid_bolt.-1.12",
+    "B08::tank.rib.1.0",
+    "B08::tank.lid_bolt.1.0",
+    "B08::tank.rib.1.1",
+    "B08::tank.lid_bolt.1.1",
+    "B08::tank.rib.1.2",
+    "B08::tank.lid_bolt.1.2",
+    "B08::tank.rib.1.3",
+    "B08::tank.lid_bolt.1.3",
+    "B08::tank.rib.1.4",
+    "B08::tank.lid_bolt.1.4",
+    "B08::tank.rib.1.5",
+    "B08::tank.lid_bolt.1.5",
+    "B08::tank.rib.1.6",
+    "B08::tank.lid_bolt.1.6",
+    "B08::tank.rib.1.7",
+    "B08::tank.lid_bolt.1.7",
+    "B08::tank.rib.1.8",
+    "B08::tank.lid_bolt.1.8",
+    "B08::tank.rib.1.9",
+    "B08::tank.lid_bolt.1.9",
+    "B08::tank.rib.1.10",
+    "B08::tank.lid_bolt.1.10",
+    "B08::tank.rib.1.11",
+    "B08::tank.lid_bolt.1.11",
+    "B08::tank.rib.1.12",
+    "B08::tank.lid_bolt.1.12",
+    "B08::bushing.mount.front_large_1",
+    "B08::bushing.roof_neck.front_large_1",
+    "B08::bushing.mount.front_large_2",
+    "B08::bushing.roof_neck.front_large_2",
+    "B08::bushing.mount.front_large_3",
+    "B08::bushing.roof_neck.front_large_3",
+    "B08::bushing.mount.front_small",
+    "B08::bushing.roof_neck.front_small",
+    "B08::conservator.exterior",
+    "B08::conservator.rim.0",
+    "B08::conservator.rim.1",
+    "B08::conservator.panel.0",
+    "B08::conservator.louver.0.-1.00",
+    "B08::conservator.louver.0.-1.01",
+    "B08::conservator.louver.0.-1.02",
+    "B08::conservator.louver.0.-1.03",
+    "B08::conservator.louver.0.-1.04",
+    "B08::conservator.louver.0.-1.05",
+    "B08::conservator.louver.0.-1.06",
+    "B08::conservator.louver.0.-1.07",
+    "B08::conservator.louver.0.-1.08",
+    "B08::conservator.louver.0.-1.09",
+    "B08::conservator.louver.0.-1.10",
+    "B08::conservator.louver.0.-1.11",
+    "B08::conservator.louver.0.-1.12",
+    "B08::conservator.louver.0.-1.13",
+    "B08::conservator.louver.0.-1.14",
+    "B08::conservator.louver.0.-1.15",
+    "B08::conservator.louver.0.1.00",
+    "B08::conservator.louver.0.1.01",
+    "B08::conservator.louver.0.1.02",
+    "B08::conservator.louver.0.1.03",
+    "B08::conservator.louver.0.1.04",
+    "B08::conservator.louver.0.1.05",
+    "B08::conservator.louver.0.1.06",
+    "B08::conservator.louver.0.1.07",
+    "B08::conservator.louver.0.1.08",
+    "B08::conservator.louver.0.1.09",
+    "B08::conservator.louver.0.1.10",
+    "B08::conservator.louver.0.1.11",
+    "B08::conservator.louver.0.1.12",
+    "B08::conservator.louver.0.1.13",
+    "B08::conservator.louver.0.1.14",
+    "B08::conservator.louver.0.1.15",
+    "B08::conservator.panel.1",
+    "B08::conservator.louver.1.-1.00",
+    "B08::conservator.louver.1.-1.01",
+    "B08::conservator.louver.1.-1.02",
+    "B08::conservator.louver.1.-1.03",
+    "B08::conservator.louver.1.-1.04",
+    "B08::conservator.louver.1.-1.05",
+    "B08::conservator.louver.1.-1.06",
+    "B08::conservator.louver.1.-1.07",
+    "B08::conservator.louver.1.-1.08",
+    "B08::conservator.louver.1.-1.09",
+    "B08::conservator.louver.1.-1.10",
+    "B08::conservator.louver.1.-1.11",
+    "B08::conservator.louver.1.-1.12",
+    "B08::conservator.louver.1.-1.13",
+    "B08::conservator.louver.1.-1.14",
+    "B08::conservator.louver.1.-1.15",
+    "B08::conservator.louver.1.1.00",
+    "B08::conservator.louver.1.1.01",
+    "B08::conservator.louver.1.1.02",
+    "B08::conservator.louver.1.1.03",
+    "B08::conservator.louver.1.1.04",
+    "B08::conservator.louver.1.1.05",
+    "B08::conservator.louver.1.1.06",
+    "B08::conservator.louver.1.1.07",
+    "B08::conservator.louver.1.1.08",
+    "B08::conservator.louver.1.1.09",
+    "B08::conservator.louver.1.1.10",
+    "B08::conservator.louver.1.1.11",
+    "B08::conservator.louver.1.1.12",
+    "B08::conservator.louver.1.1.13",
+    "B08::conservator.louver.1.1.14",
+    "B08::conservator.louver.1.1.15",
+    "B08::conservator.panel.2",
+    "B08::conservator.louver.2.-1.00",
+    "B08::conservator.louver.2.-1.01",
+    "B08::conservator.louver.2.-1.02",
+    "B08::conservator.louver.2.-1.03",
+    "B08::conservator.louver.2.-1.04",
+    "B08::conservator.louver.2.-1.05",
+    "B08::conservator.louver.2.-1.06",
+    "B08::conservator.louver.2.-1.07",
+    "B08::conservator.louver.2.-1.08",
+    "B08::conservator.louver.2.-1.09",
+    "B08::conservator.louver.2.-1.10",
+    "B08::conservator.louver.2.-1.11",
+    "B08::conservator.louver.2.-1.12",
+    "B08::conservator.louver.2.-1.13",
+    "B08::conservator.louver.2.-1.14",
+    "B08::conservator.louver.2.-1.15",
+    "B08::conservator.louver.2.1.00",
+    "B08::conservator.louver.2.1.01",
+    "B08::conservator.louver.2.1.02",
+    "B08::conservator.louver.2.1.03",
+    "B08::conservator.louver.2.1.04",
+    "B08::conservator.louver.2.1.05",
+    "B08::conservator.louver.2.1.06",
+    "B08::conservator.louver.2.1.07",
+    "B08::conservator.louver.2.1.08",
+    "B08::conservator.louver.2.1.09",
+    "B08::conservator.louver.2.1.10",
+    "B08::conservator.louver.2.1.11",
+    "B08::conservator.louver.2.1.12",
+    "B08::conservator.louver.2.1.13",
+    "B08::conservator.louver.2.1.14",
+    "B08::conservator.louver.2.1.15",
+    "B08::conservator.panel.3",
+    "B08::conservator.louver.3.-1.00",
+    "B08::conservator.louver.3.-1.01",
+    "B08::conservator.louver.3.-1.02",
+    "B08::conservator.louver.3.-1.03",
+    "B08::conservator.louver.3.-1.04",
+    "B08::conservator.louver.3.-1.05",
+    "B08::conservator.louver.3.-1.06",
+    "B08::conservator.louver.3.-1.07",
+    "B08::conservator.louver.3.-1.08",
+    "B08::conservator.louver.3.-1.09",
+    "B08::conservator.louver.3.-1.10",
+    "B08::conservator.louver.3.-1.11",
+    "B08::conservator.louver.3.-1.12",
+    "B08::conservator.louver.3.-1.13",
+    "B08::conservator.louver.3.-1.14",
+    "B08::conservator.louver.3.-1.15",
+    "B08::conservator.louver.3.1.00",
+    "B08::conservator.louver.3.1.01",
+    "B08::conservator.louver.3.1.02",
+    "B08::conservator.louver.3.1.03",
+    "B08::conservator.louver.3.1.04",
+    "B08::conservator.louver.3.1.05",
+    "B08::conservator.louver.3.1.06",
+    "B08::conservator.louver.3.1.07",
+    "B08::conservator.louver.3.1.08",
+    "B08::conservator.louver.3.1.09",
+    "B08::conservator.louver.3.1.10",
+    "B08::conservator.louver.3.1.11",
+    "B08::conservator.louver.3.1.12",
+    "B08::conservator.louver.3.1.13",
+    "B08::conservator.louver.3.1.14",
+    "B08::conservator.louver.3.1.15",
+    "B08::conservator.support.-0.9",
+    "B08::conservator.crossbeam.-0.9",
+    "B08::conservator.support.2.2",
+    "B08::conservator.crossbeam.2.2",
+    "B08::conservator.level_window.frame",
+    "B08::conservator.level_window.unread",
+    "B08::conservator.ladder.rail.-0.25",
+    "B08::conservator.ladder.rail.0.02",
+    "B08::conservator.ladder.rung.0",
+    "B08::conservator.ladder.rung.1",
+    "B08::conservator.ladder.rung.2",
+    "B08::conservator.ladder.rung.3",
+    "B08::conservator.ladder.rung.4",
+    "B08::conservator.ladder.rung.5",
+    "B08::conservator.ladder.rung.6",
+    "B08::conservator.ladder.rung.7",
+    "B08::conservator.ladder.rung.8",
+    "B08::conservator.ladder.rung.9",
+    "B08::conservator.ladder.rung.10",
+    "B08::conservator.ladder.rung.11",
+    "B08::conservator.visible_side_pipe.00",
+    "B08::conservator.visible_side_pipe.01",
+    "B08::conservator.visible_side_pipe.02",
+    "B08::surround.slab",
+    "B08::surround.gravel",
+    "B08::fire.open_U.0.00",
+    "B08::fire.open_U.0.01",
+    "B08::fire.open_U.0.02",
+    "B08::fire.open_U.0.03",
+    "B08::fire.open_U.0.04",
+    "B08::fire.open_U.1.00",
+    "B08::fire.open_U.1.01",
+    "B08::fire.open_U.1.02",
+    "B08::fire.open_U.1.03",
+    "B08::fire.open_U.1.04",
+    "B08::fire.support.0",
+    "B08::fire.support_foot.0",
+    "B08::fire.support.1",
+    "B08::fire.support_foot.1",
+    "B08::fire.support.2",
+    "B08::fire.support_foot.2",
+    "B08::fire.support.3",
+    "B08::fire.support_foot.3",
+    "B08::fire.support.4",
+    "B08::fire.support_foot.4",
+    "B08::fire.front_riser.0.00",
+    "B08::fire.front_riser.0.01",
+    "B08::fire.front_riser.0.02",
+    "B08::fire.front_riser.1.00",
+    "B08::fire.front_riser.1.01",
+    "B08::fire.front_riser.1.02",
+    "B08::fire.front_riser.2.00",
+    "B08::fire.front_riser.2.01",
+    "B08::fire.front_riser.2.02",
+    "B08::fire.front_riser.3.00",
+    "B08::fire.front_riser.3.01",
+    "B08::fire.front_riser.3.02",
+    "B08::fire.front_riser.4.00",
+    "B08::fire.front_riser.4.01",
+    "B08::fire.front_riser.4.02",
+    "B08::fire.front_riser.5.00",
+    "B08::fire.front_riser.5.01",
+    "B08::fire.front_riser.5.02",
+    "B08::fire.front_riser.6.00",
+    "B08::fire.front_riser.6.01",
+    "B08::fire.front_riser.6.02",
+    "B08::fire.overhead_visible.00",
+    "B08::fire.overhead_visible.01",
+    "B08::fire.overhead_branch.0.00",
+    "B08::fire.overhead_branch.0.01",
+    "B08::fire.overhead_branch.1.00",
+    "B08::fire.overhead_branch.1.01",
+    "B08::fire.overhead_branch.2.00",
+    "B08::fire.overhead_branch.2.01",
+    "B08::fire.overhead_branch.3.00",
+    "B08::fire.overhead_branch.3.01",
+    "B08::fire.overhead_branch.4.00",
+    "B08::fire.overhead_branch.4.01",
+    "B08::fire.overhead_branch.5.00",
+    "B08::fire.overhead_branch.5.01",
+    "B08::rad_class.leaf.00",
+    "B08::rad_class.leaf.01",
+    "B08::rad_class.leaf.02",
+    "B08::rad_class.leaf.03",
+    "B08::rad_class.leaf.04",
+    "B08::rad_class.leaf.05",
+    "B08::rad_class.leaf.06",
+    "B08::rad_class.leaf.07",
+    "B08::rad_class.leaf.08",
+    "B08::rad_class.leaf.09",
+    "B08::rad_class.header.0",
+    "B08::rad_class.port.0",
+    "B08::rad_class.header.1",
+    "B08::rad_class.port.1",
+    "B08::rad_class.foot.-0.15",
+    "B08::rad_class.foot.0.15",
+    "B08::radiator.bridge.front.00.0",
+    "B08::radiator.bridge.front.00.1",
+    "B08::radiator.bridge.front.01.0",
+    "B08::radiator.bridge.front.01.1",
+    "B08::radiator.bridge.front.02.0",
+    "B08::radiator.bridge.front.02.1",
+    "B08::radiator.bridge.front.03.0",
+    "B08::radiator.bridge.front.03.1",
+    "B08::radiator.bridge.front.04.0",
+    "B08::radiator.bridge.front.04.1",
+    "B08::radiator.bridge.front.05.0",
+    "B08::radiator.bridge.front.05.1",
+    "B08::radiator.bridge.front.06.0",
+    "B08::radiator.bridge.front.06.1",
+    "B08::radiator.bridge.front.07.0",
+    "B08::radiator.bridge.front.07.1",
+    "B08::radiator.bridge.front.08.0",
+    "B08::radiator.bridge.front.08.1",
+    "B08::radiator.bridge.front.09.0",
+    "B08::radiator.bridge.front.09.1",
+    "B08::radiator.bridge.front.10.0",
+    "B08::radiator.bridge.front.10.1",
+    "B08::radiator.bridge.front.11.0",
+    "B08::radiator.bridge.front.11.1",
+    "B08::radiator.bridge.front.12.0",
+    "B08::radiator.bridge.front.12.1",
+    "B08::radiator.bridge.front.13.0",
+    "B08::radiator.bridge.front.13.1",
+    "B08::radiator.bridge.front.14.0",
+    "B08::radiator.bridge.front.14.1",
+    "B08::radiator.bridge.front.15.0",
+    "B08::radiator.bridge.front.15.1",
+    "B08::radiator.bridge.front.16.0",
+    "B08::radiator.bridge.front.16.1",
+    "B08::radiator.shared_header.front.0",
+    "B08::radiator.shared_header.front.1",
+    "B08::radiator.bridge.rear.00.0",
+    "B08::radiator.bridge.rear.00.1",
+    "B08::radiator.bridge.rear.01.0",
+    "B08::radiator.bridge.rear.01.1",
+    "B08::radiator.bridge.rear.02.0",
+    "B08::radiator.bridge.rear.02.1",
+    "B08::radiator.bridge.rear.03.0",
+    "B08::radiator.bridge.rear.03.1",
+    "B08::radiator.bridge.rear.04.0",
+    "B08::radiator.bridge.rear.04.1",
+    "B08::radiator.bridge.rear.05.0",
+    "B08::radiator.bridge.rear.05.1",
+    "B08::radiator.bridge.rear.06.0",
+    "B08::radiator.bridge.rear.06.1",
+    "B08::radiator.bridge.rear.07.0",
+    "B08::radiator.bridge.rear.07.1",
+    "B08::radiator.bridge.rear.08.0",
+    "B08::radiator.bridge.rear.08.1",
+    "B08::radiator.bridge.rear.09.0",
+    "B08::radiator.bridge.rear.09.1",
+    "B08::radiator.bridge.rear.10.0",
+    "B08::radiator.bridge.rear.10.1",
+    "B08::radiator.bridge.rear.11.0",
+    "B08::radiator.bridge.rear.11.1",
+    "B08::radiator.bridge.rear.12.0",
+    "B08::radiator.bridge.rear.12.1",
+    "B08::radiator.bridge.rear.13.0",
+    "B08::radiator.bridge.rear.13.1",
+    "B08::radiator.bridge.rear.14.0",
+    "B08::radiator.bridge.rear.14.1",
+    "B08::radiator.bridge.rear.15.0",
+    "B08::radiator.bridge.rear.15.1",
+    "B08::radiator.bridge.rear.16.0",
+    "B08::radiator.bridge.rear.16.1",
+    "B08::radiator.shared_header.rear.0",
+    "B08::radiator.shared_header.rear.1",
+    "B08::bushing.mount.rear_medium_1",
+    "B08::bushing.roof_neck.rear_medium_1.00",
+    "B08::bushing.roof_neck.rear_medium_1.01",
+    "B08::bushing.mount.rear_medium_2",
+    "B08::bushing.roof_neck.rear_medium_2.00",
+    "B08::bushing.roof_neck.rear_medium_2.01",
+    "B08::bushing.mount.rear_medium_3",
+    "B08::bushing.roof_neck.rear_medium_3.00",
+    "B08::bushing.roof_neck.rear_medium_3.01",
+    "B08::bushing.mount.rear_short_outer",
+    "B08::bushing.roof_neck.rear_short_outer.00",
+    "B08::bushing.roof_neck.rear_short_outer.01",
+    "B08::bushing.mount.rear_low_1",
+    "B08::bushing.roof_neck.rear_low_1.00",
+    "B08::bushing.roof_neck.rear_low_1.01",
+    "B08::bushing.low_clamp.rear_low_1",
+    "B08::bushing.low_visible_bar.rear_low_1.00",
+    "B08::bushing.low_visible_bar.rear_low_1.01",
+    "B08::bushing.mount.rear_low_2",
+    "B08::bushing.roof_neck.rear_low_2.00",
+    "B08::bushing.roof_neck.rear_low_2.01",
+    "B08::bushing.low_clamp.rear_low_2",
+    "B08::bushing.low_visible_bar.rear_low_2.00",
+    "B08::bushing.low_visible_bar.rear_low_2.01",
+    "B08::bushing.mount.rear_low_3",
+    "B08::bushing.roof_neck.rear_low_3.00",
+    "B08::bushing.roof_neck.rear_low_3.01",
+    "B08::bushing.low_clamp.rear_low_3",
+    "B08::bushing.low_visible_bar.rear_low_3.00",
+    "B08::bushing.low_visible_bar.rear_low_3.01",
+    "B08::fire.rear_rail.0",
+    "B08::fire.rear_rail.1",
+    "B08::fire.rear_support.0",
+    "B08::fire.rear_support_foot.0",
+    "B08::fire.rear_support.1",
+    "B08::fire.rear_support_foot.1",
+    "B08::fire.rear_support.2",
+    "B08::fire.rear_support_foot.2",
+    "B08::fire.rear_support.3",
+    "B08::fire.rear_support_foot.3",
+    "B08::fire.rear_support.4",
+    "B08::fire.rear_support_foot.4",
+    "B08::fire.rear_riser.0.00",
+    "B08::fire.rear_riser.0.01",
+    "B08::fire.rear_riser.0.02",
+    "B08::fire.rear_riser.1.00",
+    "B08::fire.rear_riser.1.01",
+    "B08::fire.rear_riser.1.02",
+    "B08::fire.rear_riser.2.00",
+    "B08::fire.rear_riser.2.01",
+    "B08::fire.rear_riser.2.02",
+    "B08::fire.rear_riser.3.00",
+    "B08::fire.rear_riser.3.01",
+    "B08::fire.rear_riser.3.02",
+    "B08::fire.rear_riser.4.00",
+    "B08::fire.rear_riser.4.01",
+    "B08::fire.rear_riser.4.02",
+    "B08::fire.rear_riser.5.00",
+    "B08::fire.rear_riser.5.01",
+    "B08::fire.rear_riser.5.02",
+    "B08::fire.rear_riser.6.00",
+    "B08::fire.rear_riser.6.01",
+    "B08::fire.rear_riser.6.02",
+    "B08::smart.plinth",
+    "B08::smart.shell",
+    "B08::smart.door_seam",
+    "B08::smart.door",
+    "B08::smart.roof",
+    "B08::smart.label_unread",
+    "B08::smart.hinge.0",
+    "B08::smart.hinge.1",
+    "B08::smart.handle.00",
+    "B08::smart.handle.01",
+    "B08::smart.handle.02",
+    "B08::smart.lower_service_box",
+    "B08::smart.vent.0",
+    "B08::smart.vent.1",
+    "B08::smart.vent.2",
+    "B08::smart.vent.3",
+    "B08::smart.vent.4",
+    "B08::smart.vent.5",
+    "B08::smart.vent.6",
+    "B08::monitor.plinth",
+    "B08::monitor.shell",
+    "B08::monitor.door_seam",
+    "B08::monitor.door",
+    "B08::monitor.roof",
+    "B08::monitor.label_unread",
+    "B08::monitor.hinge.0",
+    "B08::monitor.hinge.1",
+    "B08::monitor.handle.00",
+    "B08::monitor.handle.01",
+    "B08::monitor.handle.02",
+    "B08::monitor.lifting_eye.0.0.00",
+    "B08::monitor.lifting_eye.0.0.01",
+    "B08::monitor.lifting_eye.0.0.02",
+    "B08::monitor.lifting_eye.0.0.03",
+    "B08::monitor.lifting_eye.0.0.04",
+    "B08::monitor.lifting_eye.0.0.05",
+    "B08::monitor.lifting_eye.0.0.06",
+    "B08::monitor.lifting_eye.0.0.07",
+    "B08::monitor.lifting_eye.0.0.08",
+    "B08::monitor.lifting_eye.0.0.09",
+    "B08::monitor.lifting_eye.0.0.10",
+    "B08::monitor.lifting_eye.0.1.00",
+    "B08::monitor.lifting_eye.0.1.01",
+    "B08::monitor.lifting_eye.0.1.02",
+    "B08::monitor.lifting_eye.0.1.03",
+    "B08::monitor.lifting_eye.0.1.04",
+    "B08::monitor.lifting_eye.0.1.05",
+    "B08::monitor.lifting_eye.0.1.06",
+    "B08::monitor.lifting_eye.0.1.07",
+    "B08::monitor.lifting_eye.0.1.08",
+    "B08::monitor.lifting_eye.0.1.09",
+    "B08::monitor.lifting_eye.0.1.10",
+    "B08::monitor.lifting_eye.1.0.00",
+    "B08::monitor.lifting_eye.1.0.01",
+    "B08::monitor.lifting_eye.1.0.02",
+    "B08::monitor.lifting_eye.1.0.03",
+    "B08::monitor.lifting_eye.1.0.04",
+    "B08::monitor.lifting_eye.1.0.05",
+    "B08::monitor.lifting_eye.1.0.06",
+    "B08::monitor.lifting_eye.1.0.07",
+    "B08::monitor.lifting_eye.1.0.08",
+    "B08::monitor.lifting_eye.1.0.09",
+    "B08::monitor.lifting_eye.1.0.10",
+    "B08::monitor.lifting_eye.1.1.00",
+    "B08::monitor.lifting_eye.1.1.01",
+    "B08::monitor.lifting_eye.1.1.02",
+    "B08::monitor.lifting_eye.1.1.03",
+    "B08::monitor.lifting_eye.1.1.04",
+    "B08::monitor.lifting_eye.1.1.05",
+    "B08::monitor.lifting_eye.1.1.06",
+    "B08::monitor.lifting_eye.1.1.07",
+    "B08::monitor.lifting_eye.1.1.08",
+    "B08::monitor.lifting_eye.1.1.09",
+    "B08::monitor.lifting_eye.1.1.10",
+    "B08::monitor.bottom_gland.-0.225",
+    "B08::monitor.bottom_gland.0.225",
+    "B08::end.service_box",
+    "B08::end.service_door",
+    "B08::end.service_vent.0",
+    "B08::end.service_vent.1",
+    "B08::end.service_vent.2",
+    "B08::end.service_vent.3",
+    "B08::end.service_vent.4",
+    "B08::end.service_vent.5",
+    "B08::end.visible_oil_pipe.00",
+    "B08::end.visible_oil_pipe.01",
+    "B08::end.visible_oil_pipe.02",
+    "B08::end.gauge_body",
+    "B08::end.gauge_unread",
+    "B08::T1.lead.front_large_1.-1",
+    "B08::T1.lead.front_large_1.1",
+    "B08::T1.lead.front_large_2.-1",
+    "B08::T1.lead.front_large_2.1",
+    "B08::T1.lead.front_large_3.-1",
+    "B08::T1.lead.front_large_3.1",
+    "B08::T1.lead.rear_medium_1.-1",
+    "B08::T1.lead.rear_medium_1.1",
+    "B08::T1.lead.rear_medium_2.-1",
+    "B08::T1.lead.rear_medium_2.1",
+    "B08::T1.lead.rear_medium_3.-1",
+    "B08::T1.lead.rear_medium_3.1",
+    "B08::T2.lead.front_large_1.-1",
+    "B08::T2.lead.front_large_1.1",
+    "B08::T2.lead.front_large_2.-1",
+    "B08::T2.lead.front_large_2.1",
+    "B08::T2.lead.front_large_3.-1",
+    "B08::T2.lead.front_large_3.1",
+    "B08::T2.lead.rear_medium_1.-1",
+    "B08::T2.lead.rear_medium_1.1",
+    "B08::T2.lead.rear_medium_2.-1",
+    "B08::T2.lead.rear_medium_2.1",
+    "B08::T2.lead.rear_medium_3.-1",
+    "B08::T2.lead.rear_medium_3.1",
+    "B08::radiator.base_beam.front",
+    "B08::radiator.support_leg.front.0",
+    "B08::radiator.support_foot.front.0",
+    "B08::radiator.support_leg.front.1",
+    "B08::radiator.support_foot.front.1",
+    "B08::radiator.support_leg.front.2",
+    "B08::radiator.support_foot.front.2",
+    "B08::radiator.support_leg.front.3",
+    "B08::radiator.support_foot.front.3",
+    "B08::radiator.base_beam.rear",
+    "B08::radiator.support_leg.rear.0",
+    "B08::radiator.support_foot.rear.0",
+    "B08::radiator.support_leg.rear.1",
+    "B08::radiator.support_foot.rear.1",
+    "B08::radiator.support_leg.rear.2",
+    "B08::radiator.support_foot.rear.2",
+    "B08::radiator.support_leg.rear.3",
+    "B08::radiator.support_foot.rear.3",
+    "B08::surround.cabinet_pad",
+    "B08::fire.support_clamp.front.0.0",
+    "B08::fire.support_clamp.front.0.1",
+    "B08::fire.support_clamp.front.1.0",
+    "B08::fire.support_clamp.front.1.1",
+    "B08::fire.support_clamp.front.2.0",
+    "B08::fire.support_clamp.front.2.1",
+    "B08::fire.support_clamp.front.3.0",
+    "B08::fire.support_clamp.front.3.1",
+    "B08::fire.support_clamp.front.4.0",
+    "B08::fire.support_clamp.front.4.1",
+    "B08::fire.support_clamp.rear.0.0",
+    "B08::fire.support_clamp.rear.0.1",
+    "B08::fire.support_clamp.rear.1.0",
+    "B08::fire.support_clamp.rear.1.1",
+    "B08::fire.support_clamp.rear.2.0",
+    "B08::fire.support_clamp.rear.2.1",
+    "B08::fire.support_clamp.rear.3.0",
+    "B08::fire.support_clamp.rear.3.1",
+    "B08::fire.support_clamp.rear.4.0",
+    "B08::fire.support_clamp.rear.4.1"
+  ],
+  "instances": [
+    {
+      "name": "B08::bushing.front_large_1",
+      "source": "P04_LARGE_BUSHING_MASTER",
+      "class_scale": 2.9
+    },
+    {
+      "name": "B08::bushing.front_large_2",
+      "source": "P04_LARGE_BUSHING_MASTER",
+      "class_scale": 2.9
+    },
+    {
+      "name": "B08::bushing.front_large_3",
+      "source": "P04_LARGE_BUSHING_MASTER",
+      "class_scale": 2.9
+    },
+    {
+      "name": "B08::bushing.front_small",
+      "source": "P04_SMALL_BUSHING_MASTER",
+      "class_scale": 3.2
+    },
+    {
+      "name": "B08::radiator.front.01",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.front.02",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.front.03",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.front.04",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.front.05",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.front.06",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.front.07",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.front.08",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.front.09",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.front.10",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.front.11",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.front.12",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.front.13",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.front.14",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.front.15",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.front.16",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.front.17",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.01",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.02",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.03",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.04",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.05",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.06",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.07",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.08",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.09",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.10",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.11",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.12",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.13",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.14",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.15",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.16",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::radiator.rear.17",
+      "source": "B08_RADIATOR_PACK_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::bushing.rear_medium_1",
+      "source": "P04_SMALL_BUSHING_MASTER",
+      "class_scale": 3.2
+    },
+    {
+      "name": "B08::bushing.rear_medium_2",
+      "source": "P04_SMALL_BUSHING_MASTER",
+      "class_scale": 3.2
+    },
+    {
+      "name": "B08::bushing.rear_medium_3",
+      "source": "P04_SMALL_BUSHING_MASTER",
+      "class_scale": 3.2
+    },
+    {
+      "name": "B08::bushing.rear_short_outer",
+      "source": "P04_SMALL_BUSHING_MASTER",
+      "class_scale": 2.7
+    },
+    {
+      "name": "B08::bushing.rear_low_1",
+      "source": "P04_SMALL_BUSHING_MASTER",
+      "class_scale": 1.2
+    },
+    {
+      "name": "B08::bushing.rear_low_2",
+      "source": "P04_SMALL_BUSHING_MASTER",
+      "class_scale": 1.2
+    },
+    {
+      "name": "B08::bushing.rear_low_3",
+      "source": "P04_SMALL_BUSHING_MASTER",
+      "class_scale": 1.2
+    },
+    {
+      "name": "B08::accessory.smart",
+      "source": "B08_SMART_CABINET_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::accessory.monitor",
+      "source": "B08_MONITOR_CABINET_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::T1.SHARED_ASSEMBLY",
+      "source": "B08_TRANSFORMER_MASTER",
+      "class_scale": 1.0
+    },
+    {
+      "name": "B08::T2.SHARED_ASSEMBLY",
+      "source": "B08_TRANSFORMER_MASTER",
+      "class_scale": 1.0
+    }
+  ],
+  "radiator_instances": [
+    "B08::radiator.front.01",
+    "B08::radiator.front.02",
+    "B08::radiator.front.03",
+    "B08::radiator.front.04",
+    "B08::radiator.front.05",
+    "B08::radiator.front.06",
+    "B08::radiator.front.07",
+    "B08::radiator.front.08",
+    "B08::radiator.front.09",
+    "B08::radiator.front.10",
+    "B08::radiator.front.11",
+    "B08::radiator.front.12",
+    "B08::radiator.front.13",
+    "B08::radiator.front.14",
+    "B08::radiator.front.15",
+    "B08::radiator.front.16",
+    "B08::radiator.front.17",
+    "B08::radiator.rear.01",
+    "B08::radiator.rear.02",
+    "B08::radiator.rear.03",
+    "B08::radiator.rear.04",
+    "B08::radiator.rear.05",
+    "B08::radiator.rear.06",
+    "B08::radiator.rear.07",
+    "B08::radiator.rear.08",
+    "B08::radiator.rear.09",
+    "B08::radiator.rear.10",
+    "B08::radiator.rear.11",
+    "B08::radiator.rear.12",
+    "B08::radiator.rear.13",
+    "B08::radiator.rear.14",
+    "B08::radiator.rear.15",
+    "B08::radiator.rear.16",
+    "B08::radiator.rear.17"
+  ],
+  "wires": [
+    {
+      "name": "B08::T1.lead.front_large_1.-1",
+      "unit": "T1",
+      "bushing": "B08::bushing.front_large_1",
+      "local_centerline": [
+        [
+          -2.052696943283081,
+          -2.9863967895507812,
+          6.763226509094238
+        ],
+        [
+          -2.183520901024365,
+          -3.116732554467516,
+          6.958696964052008
+        ],
+        [
+          -2.2365800304168806,
+          -3.23892195685682,
+          7.204516934365817
+        ],
+        [
+          -2.309962063811065,
+          -3.344526917931413,
+          7.433617803751819
+        ],
+        [
+          -2.417904067074873,
+          -3.4333360331280973,
+          7.675339610678504
+        ],
+        [
+          -2.558854809845263,
+          -3.506581634140117,
+          7.93027886041817
+        ],
+        [
+          -2.725282370189795,
+          -3.5559128000658626,
+          8.15477031986831
+        ],
+        [
+          -2.910536064441216,
+          -3.57274048070097,
+          8.39076405028374
+        ],
+        [
+          -3.1053580101703666,
+          -3.560769093047245,
+          8.629565235365726
+        ],
+        [
+          -3.2914167766372677,
+          -3.53467935233605,
+          8.897614020992615
+        ],
+        [
+          -3.4495688935964113,
+          -3.506723512856936,
+          9.14785754487986
+        ],
+        [
+          -3.577376563067642,
+          -3.4805725199828688,
+          9.369921576244437
+        ],
+        [
+          -3.6825914344865507,
+          -3.4566738848418366,
+          9.620781487221528
+        ],
+        [
+          -3.769279159341954,
+          -3.4352362829533702,
+          9.859752570876921
+        ],
+        [
+          -3.8432514162980373,
+          -3.415688110952251,
+          10.106193153959174
+        ],
+        [
+          -3.910319726961404,
+          -3.3971753251150427,
+          10.305888584720286
+        ],
+        [
+          -3.968880706482347,
+          -3.3820576398103945,
+          10.5740753210319
+        ],
+        [
+          -4.017038183581657,
+          -3.375162705196521,
+          10.821571612690436
+        ],
+        [
+          -4.058077692838433,
+          -3.37927005791074,
+          11.037252061010939
+        ],
+        [
+          -4.093098716277527,
+          -3.3977616112406928,
+          11.26940404966549
+        ],
+        [
+          -4.11803891387462,
+          -3.4332800762785425,
+          11.539027334548852
+        ],
+        [
+          -4.136878725324481,
+          -3.4785657502325233,
+          11.76135948889561
+        ],
+        [
+          -4.158585749059908,
+          -3.522369555006542,
+          12.015848761413494
+        ],
+        [
+          -4.182593378824019,
+          -3.562219679233048,
+          12.219370798471862
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_LARGE_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T1.lead.front_large_1.1",
+      "unit": "T1",
+      "bushing": "B08::bushing.front_large_1",
+      "local_centerline": [
+        [
+          -2.052696943283081,
+          -2.9863967895507812,
+          6.763226509094238
+        ],
+        [
+          -2.023520901024365,
+          -3.116732554467516,
+          6.958696964052008
+        ],
+        [
+          -2.0765800304168804,
+          -3.23892195685682,
+          7.204516934365817
+        ],
+        [
+          -2.149962063811065,
+          -3.344526917931413,
+          7.433617803751819
+        ],
+        [
+          -2.2579040670748727,
+          -3.4333360331280973,
+          7.675339610678504
+        ],
+        [
+          -2.398854809845263,
+          -3.506581634140117,
+          7.93027886041817
+        ],
+        [
+          -2.5652823701897947,
+          -3.5559128000658626,
+          8.15477031986831
+        ],
+        [
+          -2.750536064441216,
+          -3.57274048070097,
+          8.39076405028374
+        ],
+        [
+          -2.9453580101703665,
+          -3.560769093047245,
+          8.629565235365726
+        ],
+        [
+          -3.1314167766372676,
+          -3.53467935233605,
+          8.897614020992615
+        ],
+        [
+          -3.289568893596411,
+          -3.506723512856936,
+          9.14785754487986
+        ],
+        [
+          -3.417376563067642,
+          -3.4805725199828688,
+          9.369921576244437
+        ],
+        [
+          -3.5225914344865505,
+          -3.4566738848418366,
+          9.620781487221528
+        ],
+        [
+          -3.6092791593419538,
+          -3.4352362829533702,
+          9.859752570876921
+        ],
+        [
+          -3.683251416298037,
+          -3.415688110952251,
+          10.106193153959174
+        ],
+        [
+          -3.7503197269614037,
+          -3.3971753251150427,
+          10.305888584720286
+        ],
+        [
+          -3.8088807064823467,
+          -3.3820576398103945,
+          10.5740753210319
+        ],
+        [
+          -3.8570381835816567,
+          -3.375162705196521,
+          10.821571612690436
+        ],
+        [
+          -3.898077692838433,
+          -3.37927005791074,
+          11.037252061010939
+        ],
+        [
+          -3.9330987162775273,
+          -3.3977616112406928,
+          11.26940404966549
+        ],
+        [
+          -3.9580389138746197,
+          -3.4332800762785425,
+          11.539027334548852
+        ],
+        [
+          -3.9768787253244806,
+          -3.4785657502325233,
+          11.76135948889561
+        ],
+        [
+          -3.9985857490599077,
+          -3.522369555006542,
+          12.015848761413494
+        ],
+        [
+          -4.022593378824019,
+          -3.562219679233048,
+          12.219370798471862
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_LARGE_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T1.lead.front_large_2.-1",
+      "unit": "T1",
+      "bushing": "B08::bushing.front_large_2",
+      "local_centerline": [
+        [
+          0.8701092004776001,
+          -3.018374443054199,
+          6.765317916870117
+        ],
+        [
+          0.7583110041651911,
+          -3.112021127703326,
+          6.932877243770825
+        ],
+        [
+          0.736125994570034,
+          -3.2163858964077585,
+          7.204971176908337
+        ],
+        [
+          0.7247020628256552,
+          -3.311023321849379,
+          7.475620129658622
+        ],
+        [
+          0.7088023812315236,
+          -3.375399117456471,
+          7.671636276549769
+        ],
+        [
+          0.6747001529047782,
+          -3.4134308829054203,
+          7.948322949276779
+        ],
+        [
+          0.6299910599668106,
+          -3.435587730343637,
+          8.167216965576834
+        ],
+        [
+          0.5820424252205771,
+          -3.4486337700957925,
+          8.413304674673613
+        ],
+        [
+          0.5260171874492364,
+          -3.4563805745484872,
+          8.659267148118774
+        ],
+        [
+          0.4638866164098467,
+          -3.4578116586946273,
+          8.879617582072175
+        ],
+        [
+          0.4025083053817754,
+          -3.4499232255420793,
+          9.123672540786764
+        ],
+        [
+          0.3435759633216459,
+          -3.431089713471885,
+          9.36603584071287
+        ],
+        [
+          0.28837140379452125,
+          -3.4072108133786903,
+          9.590189368847236
+        ],
+        [
+          0.2382882342407116,
+          -3.3895041370593635,
+          9.884896670630177
+        ],
+        [
+          0.19009790467155263,
+          -3.379507744636626,
+          10.114381396365674
+        ],
+        [
+          0.1407779423169066,
+          -3.3732589657745313,
+          10.303241337047194
+        ],
+        [
+          0.09261002030283873,
+          -3.3690526265656655,
+          10.584105425454238
+        ],
+        [
+          0.04712734446755719,
+          -3.3651172046431386,
+          10.798744929827064
+        ],
+        [
+          0.003981866942265155,
+          -3.3668406577478143,
+          11.099728369826893
+        ],
+        [
+          -0.036747282016866466,
+          -3.3819367462447785,
+          11.281083526539517
+        ],
+        [
+          -0.07730576428022581,
+          -3.411469040283439,
+          11.517727637413811
+        ],
+        [
+          -0.11752305994837964,
+          -3.4559554301536384,
+          11.804500379633417
+        ],
+        [
+          -0.15227860071207489,
+          -3.5120665437611485,
+          12.01224529625474
+        ],
+        [
+          -0.18068084046297322,
+          -3.5714533884096133,
+          12.206337412912397
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_LARGE_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T1.lead.front_large_2.1",
+      "unit": "T1",
+      "bushing": "B08::bushing.front_large_2",
+      "local_centerline": [
+        [
+          0.8701092004776001,
+          -3.018374443054199,
+          6.765317916870117
+        ],
+        [
+          0.9183110041651911,
+          -3.112021127703326,
+          6.932877243770825
+        ],
+        [
+          0.896125994570034,
+          -3.2163858964077585,
+          7.204971176908337
+        ],
+        [
+          0.8847020628256551,
+          -3.311023321849379,
+          7.475620129658622
+        ],
+        [
+          0.8688023812315235,
+          -3.375399117456471,
+          7.671636276549769
+        ],
+        [
+          0.8347001529047782,
+          -3.4134308829054203,
+          7.948322949276779
+        ],
+        [
+          0.7899910599668105,
+          -3.435587730343637,
+          8.167216965576834
+        ],
+        [
+          0.7420424252205771,
+          -3.4486337700957925,
+          8.413304674673613
+        ],
+        [
+          0.6860171874492363,
+          -3.4563805745484872,
+          8.659267148118774
+        ],
+        [
+          0.6238866164098467,
+          -3.4578116586946273,
+          8.879617582072175
+        ],
+        [
+          0.5625083053817754,
+          -3.4499232255420793,
+          9.123672540786764
+        ],
+        [
+          0.5035759633216459,
+          -3.431089713471885,
+          9.36603584071287
+        ],
+        [
+          0.4483714037945213,
+          -3.4072108133786903,
+          9.590189368847236
+        ],
+        [
+          0.39828823424071164,
+          -3.3895041370593635,
+          9.884896670630177
+        ],
+        [
+          0.35009790467155266,
+          -3.379507744636626,
+          10.114381396365674
+        ],
+        [
+          0.30077794231690663,
+          -3.3732589657745313,
+          10.303241337047194
+        ],
+        [
+          0.25261002030283874,
+          -3.3690526265656655,
+          10.584105425454238
+        ],
+        [
+          0.2071273444675572,
+          -3.3651172046431386,
+          10.798744929827064
+        ],
+        [
+          0.16398186694226516,
+          -3.3668406577478143,
+          11.099728369826893
+        ],
+        [
+          0.12325271798313353,
+          -3.3819367462447785,
+          11.281083526539517
+        ],
+        [
+          0.08269423571977419,
+          -3.411469040283439,
+          11.517727637413811
+        ],
+        [
+          0.04247694005162036,
+          -3.4559554301536384,
+          11.804500379633417
+        ],
+        [
+          0.007721399287925104,
+          -3.5120665437611485,
+          12.01224529625474
+        ],
+        [
+          -0.020680840462973235,
+          -3.5714533884096133,
+          12.206337412912397
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_LARGE_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T1.lead.front_large_3.-1",
+      "unit": "T1",
+      "bushing": "B08::bushing.front_large_3",
+      "local_centerline": [
+        [
+          3.7603864669799805,
+          -3.025136947631836,
+          6.725015640258789
+        ],
+        [
+          3.647750487928227,
+          -3.124247240689903,
+          6.90253439952947
+        ],
+        [
+          3.6567412613268617,
+          -3.2286796305218926,
+          7.158429924472616
+        ],
+        [
+          3.6983645335365516,
+          -3.321685191091173,
+          7.423502424362731
+        ],
+        [
+          3.744402862080001,
+          -3.3879552855955275,
+          7.630361687223571
+        ],
+        [
+          3.780559042193718,
+          -3.430510257814761,
+          7.894196795913997
+        ],
+        [
+          3.8028068971365805,
+          -3.4556699469070935,
+          8.071355790524935
+        ],
+        [
+          3.81216895763756,
+          -3.4664614630380317,
+          8.36960598290775
+        ],
+        [
+          3.814276832597023,
+          -3.4673031018091276,
+          8.608733144660754
+        ],
+        [
+          3.815652883708056,
+          -3.4619336992321155,
+          8.838860952714471
+        ],
+        [
+          3.8186043554014573,
+          -3.4509656787777723,
+          9.097099268358745
+        ],
+        [
+          3.82351610362307,
+          -3.437369268889709,
+          9.340898004155996
+        ],
+        [
+          3.8277315712307316,
+          -3.4265449849389493,
+          9.547205889716663
+        ],
+        [
+          3.826966385493483,
+          -3.416847666336021,
+          9.777200029947666
+        ],
+        [
+          3.824754184221491,
+          -3.4019230877611544,
+          10.089115584384958
+        ],
+        [
+          3.8268242987982655,
+          -3.3859818575269096,
+          10.290399511330163
+        ],
+        [
+          3.8325130193173753,
+          -3.37962478301489,
+          10.481925285798734
+        ],
+        [
+          3.8398907682193055,
+          -3.380996206489746,
+          10.760145786849822
+        ],
+        [
+          3.8461658897623856,
+          -3.383849454733754,
+          11.014246744381108
+        ],
+        [
+          3.8458748794039495,
+          -3.3930689020133173,
+          11.267282444794379
+        ],
+        [
+          3.8392383799818295,
+          -3.4162793718934035,
+          11.50954846205603
+        ],
+        [
+          3.8290908170053823,
+          -3.4563033593922188,
+          11.758336188353631
+        ],
+        [
+          3.814232118532992,
+          -3.50770185208643,
+          11.99199244190472
+        ],
+        [
+          3.7960172062215625,
+          -3.560173843770894,
+          12.172169495513858
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_LARGE_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T1.lead.front_large_3.1",
+      "unit": "T1",
+      "bushing": "B08::bushing.front_large_3",
+      "local_centerline": [
+        [
+          3.7603864669799805,
+          -3.025136947631836,
+          6.725015640258789
+        ],
+        [
+          3.807750487928227,
+          -3.124247240689903,
+          6.90253439952947
+        ],
+        [
+          3.816741261326862,
+          -3.2286796305218926,
+          7.158429924472616
+        ],
+        [
+          3.8583645335365517,
+          -3.321685191091173,
+          7.423502424362731
+        ],
+        [
+          3.9044028620800013,
+          -3.3879552855955275,
+          7.630361687223571
+        ],
+        [
+          3.940559042193718,
+          -3.430510257814761,
+          7.894196795913997
+        ],
+        [
+          3.9628068971365806,
+          -3.4556699469070935,
+          8.071355790524935
+        ],
+        [
+          3.9721689576375603,
+          -3.4664614630380317,
+          8.36960598290775
+        ],
+        [
+          3.974276832597023,
+          -3.4673031018091276,
+          8.608733144660754
+        ],
+        [
+          3.9756528837080563,
+          -3.4619336992321155,
+          8.838860952714471
+        ],
+        [
+          3.9786043554014574,
+          -3.4509656787777723,
+          9.097099268358745
+        ],
+        [
+          3.98351610362307,
+          -3.437369268889709,
+          9.340898004155996
+        ],
+        [
+          3.9877315712307317,
+          -3.4265449849389493,
+          9.547205889716663
+        ],
+        [
+          3.986966385493483,
+          -3.416847666336021,
+          9.777200029947666
+        ],
+        [
+          3.984754184221491,
+          -3.4019230877611544,
+          10.089115584384958
+        ],
+        [
+          3.9868242987982656,
+          -3.3859818575269096,
+          10.290399511330163
+        ],
+        [
+          3.9925130193173755,
+          -3.37962478301489,
+          10.481925285798734
+        ],
+        [
+          3.9998907682193057,
+          -3.380996206489746,
+          10.760145786849822
+        ],
+        [
+          4.006165889762386,
+          -3.383849454733754,
+          11.014246744381108
+        ],
+        [
+          4.005874879403949,
+          -3.3930689020133173,
+          11.267282444794379
+        ],
+        [
+          3.9992383799818296,
+          -3.4162793718934035,
+          11.50954846205603
+        ],
+        [
+          3.9890908170053825,
+          -3.4563033593922188,
+          11.758336188353631
+        ],
+        [
+          3.974232118532992,
+          -3.50770185208643,
+          11.99199244190472
+        ],
+        [
+          3.9560172062215626,
+          -3.560173843770894,
+          12.172169495513858
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_LARGE_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T1.lead.rear_medium_1.-1",
+      "unit": "T1",
+      "bushing": "B08::bushing.rear_medium_1",
+      "local_centerline": [
+        [
+          -2.4874155521392822,
+          2.2849717140197754,
+          5.41806697845459
+        ],
+        [
+          -2.5546770542629025,
+          2.435413104942498,
+          5.654874856797255
+        ],
+        [
+          -2.5702009815116527,
+          2.579352872257683,
+          5.832722465921179
+        ],
+        [
+          -2.6318419234427837,
+          2.7397490075541633,
+          6.05410946884192
+        ],
+        [
+          -2.7319129798262063,
+          2.920704173507948,
+          6.360816628822983
+        ],
+        [
+          -2.843680308463113,
+          3.0914149635457226,
+          6.5528348299394334
+        ],
+        [
+          -2.9573570173404593,
+          3.23366812342702,
+          6.810285914768101
+        ],
+        [
+          -3.0686815057548618,
+          3.35237729060342,
+          7.088688801140936
+        ],
+        [
+          -3.159840437751527,
+          3.450247102335677,
+          7.280201642262127
+        ],
+        [
+          -3.2339880588128316,
+          3.5234399176148763,
+          7.557212078604582
+        ],
+        [
+          -3.3116364449396243,
+          3.574959465788546,
+          7.77649744462009
+        ],
+        [
+          -3.404692114820559,
+          3.6146441751152096,
+          8.01272764109942
+        ],
+        [
+          -3.501993010881107,
+          3.6456816942499026,
+          8.264346216873541
+        ],
+        [
+          -3.5637589088295734,
+          3.6678908887010597,
+          8.489347709962482
+        ],
+        [
+          -3.583326461325067,
+          3.687212123540114,
+          8.727581600256574
+        ],
+        [
+          -3.609649499044999,
+          3.7061658808472124,
+          8.982541331380137
+        ],
+        [
+          -3.668116477920729,
+          3.7193473467466944,
+          9.230695665508367
+        ],
+        [
+          -3.7316137131028793,
+          3.7255201554054613,
+          9.467371892030668
+        ],
+        [
+          -3.7744609930968984,
+          3.7294378190684636,
+          9.692717189016978
+        ],
+        [
+          -3.7964779655133984,
+          3.733031805773033,
+          9.920437768476077
+        ],
+        [
+          -3.806325265019802,
+          3.735222895879544,
+          10.182610619068758
+        ],
+        [
+          -3.818530654361826,
+          3.7382426710759233,
+          10.416819369909312
+        ],
+        [
+          -3.8369768221722165,
+          3.744481778946344,
+          10.674370720147914
+        ],
+        [
+          -3.8422169156462864,
+          3.749169077851938,
+          10.897846835597472
+        ],
+        [
+          -3.8345686163623394,
+          3.7487683883677563,
+          11.129396399914844
+        ],
+        [
+          -3.8415030365099954,
+          3.7499291674424136,
+          11.377545629071975
+        ],
+        [
+          -3.8660572973594385,
+          3.760001242091031,
+          11.627256669956424
+        ],
+        [
+          -3.8929103989967784,
+          3.7797354318737217,
+          11.86748199112478
+        ],
+        [
+          -3.913658980266543,
+          3.7885030132698683,
+          12.100417735264704
+        ],
+        [
+          -3.9180412574534005,
+          3.7266988023427947,
+          12.360368064280063
+        ],
+        [
+          -3.9053529863009087,
+          3.5718988514844803,
+          12.49181649426886
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_SMALL_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T1.lead.rear_medium_1.1",
+      "unit": "T1",
+      "bushing": "B08::bushing.rear_medium_1",
+      "local_centerline": [
+        [
+          -2.4874155521392822,
+          2.2849717140197754,
+          5.41806697845459
+        ],
+        [
+          -2.3946770542629023,
+          2.435413104942498,
+          5.654874856797255
+        ],
+        [
+          -2.4102009815116525,
+          2.579352872257683,
+          5.832722465921179
+        ],
+        [
+          -2.4718419234427835,
+          2.7397490075541633,
+          6.05410946884192
+        ],
+        [
+          -2.571912979826206,
+          2.920704173507948,
+          6.360816628822983
+        ],
+        [
+          -2.6836803084631127,
+          3.0914149635457226,
+          6.5528348299394334
+        ],
+        [
+          -2.797357017340459,
+          3.23366812342702,
+          6.810285914768101
+        ],
+        [
+          -2.9086815057548616,
+          3.35237729060342,
+          7.088688801140936
+        ],
+        [
+          -2.999840437751527,
+          3.450247102335677,
+          7.280201642262127
+        ],
+        [
+          -3.0739880588128314,
+          3.5234399176148763,
+          7.557212078604582
+        ],
+        [
+          -3.151636444939624,
+          3.574959465788546,
+          7.77649744462009
+        ],
+        [
+          -3.244692114820559,
+          3.6146441751152096,
+          8.01272764109942
+        ],
+        [
+          -3.3419930108811067,
+          3.6456816942499026,
+          8.264346216873541
+        ],
+        [
+          -3.403758908829573,
+          3.6678908887010597,
+          8.489347709962482
+        ],
+        [
+          -3.423326461325067,
+          3.687212123540114,
+          8.727581600256574
+        ],
+        [
+          -3.449649499044999,
+          3.7061658808472124,
+          8.982541331380137
+        ],
+        [
+          -3.508116477920729,
+          3.7193473467466944,
+          9.230695665508367
+        ],
+        [
+          -3.571613713102879,
+          3.7255201554054613,
+          9.467371892030668
+        ],
+        [
+          -3.6144609930968983,
+          3.7294378190684636,
+          9.692717189016978
+        ],
+        [
+          -3.6364779655133983,
+          3.733031805773033,
+          9.920437768476077
+        ],
+        [
+          -3.6463252650198017,
+          3.735222895879544,
+          10.182610619068758
+        ],
+        [
+          -3.658530654361826,
+          3.7382426710759233,
+          10.416819369909312
+        ],
+        [
+          -3.6769768221722163,
+          3.744481778946344,
+          10.674370720147914
+        ],
+        [
+          -3.6822169156462863,
+          3.749169077851938,
+          10.897846835597472
+        ],
+        [
+          -3.6745686163623392,
+          3.7487683883677563,
+          11.129396399914844
+        ],
+        [
+          -3.681503036509995,
+          3.7499291674424136,
+          11.377545629071975
+        ],
+        [
+          -3.7060572973594383,
+          3.760001242091031,
+          11.627256669956424
+        ],
+        [
+          -3.7329103989967782,
+          3.7797354318737217,
+          11.86748199112478
+        ],
+        [
+          -3.7536589802665428,
+          3.7885030132698683,
+          12.100417735264704
+        ],
+        [
+          -3.7580412574534003,
+          3.7266988023427947,
+          12.360368064280063
+        ],
+        [
+          -3.7453529863009085,
+          3.5718988514844803,
+          12.49181649426886
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_SMALL_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T1.lead.rear_medium_2.-1",
+      "unit": "T1",
+      "bushing": "B08::bushing.rear_medium_2",
+      "local_centerline": [
+        [
+          -0.8347223401069641,
+          2.261284351348877,
+          5.393519401550293
+        ],
+        [
+          -0.9046623462879005,
+          2.410240438388268,
+          5.622788605420638
+        ],
+        [
+          -0.8840216160394228,
+          2.543459015734817,
+          5.812201989338571
+        ],
+        [
+          -0.8587918307153056,
+          2.675288711893785,
+          6.06839361638562
+        ],
+        [
+          -0.8219382569724084,
+          2.819388730406292,
+          6.285383938814197
+        ],
+        [
+          -0.7658968241702149,
+          2.9659607057228534,
+          6.580869909648579
+        ],
+        [
+          -0.7075471422732025,
+          3.097384543389718,
+          6.7935194187439025
+        ],
+        [
+          -0.658719339956502,
+          3.20566283754792,
+          7.068831019338
+        ],
+        [
+          -0.6095073037290218,
+          3.2937035827266694,
+          7.261270735490573
+        ],
+        [
+          -0.5542190281612113,
+          3.3680051340976087,
+          7.529716144975485
+        ],
+        [
+          -0.49890991490032766,
+          3.4311909946830856,
+          7.762978446318181
+        ],
+        [
+          -0.44715045148864135,
+          3.48231237086204,
+          7.970230457350807
+        ],
+        [
+          -0.4127552946401622,
+          3.523440821790982,
+          8.228306633179551
+        ],
+        [
+          -0.4130110620847521,
+          3.5578149838246023,
+          8.480407104757635
+        ],
+        [
+          -0.42706587280278024,
+          3.5864020659772513,
+          8.725959034363894
+        ],
+        [
+          -0.4244584616189854,
+          3.611333758959435,
+          8.934984394152682
+        ],
+        [
+          -0.40456142852274823,
+          3.6345484858290558,
+          9.202403267317449
+        ],
+        [
+          -0.3705640237768543,
+          3.6542831878534985,
+          9.43400241620533
+        ],
+        [
+          -0.3325665160594827,
+          3.670668585709766,
+          9.678779791651147
+        ],
+        [
+          -0.3050076782670402,
+          3.687000521565663,
+          9.929689282751776
+        ],
+        [
+          -0.27825537725980154,
+          3.7033310013309553,
+          10.14728404923196
+        ],
+        [
+          -0.24991365213926026,
+          3.718874297361811,
+          10.400102158958488
+        ],
+        [
+          -0.23614914484997107,
+          3.7335786777141085,
+          10.62844419259376
+        ],
+        [
+          -0.23451788464314666,
+          3.7461311532962522,
+          10.87879135991198
+        ],
+        [
+          -0.23094260228034513,
+          3.7575729351300904,
+          11.11625975439496
+        ],
+        [
+          -0.21804508331416073,
+          3.7686348691903935,
+          11.367475353710816
+        ],
+        [
+          -0.19469495568795847,
+          3.778468492901589,
+          11.592653429911001
+        ],
+        [
+          -0.16728816035672672,
+          3.7924511579555116,
+          11.810410658451602
+        ],
+        [
+          -0.13704354349448294,
+          3.801338813375145,
+          12.086168616981746
+        ],
+        [
+          -0.100667117750005,
+          3.752216349813565,
+          12.347132198719743
+        ],
+        [
+          -0.06208077336630832,
+          3.620441661250279,
+          12.46807621515
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_SMALL_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T1.lead.rear_medium_2.1",
+      "unit": "T1",
+      "bushing": "B08::bushing.rear_medium_2",
+      "local_centerline": [
+        [
+          -0.8347223401069641,
+          2.261284351348877,
+          5.393519401550293
+        ],
+        [
+          -0.7446623462879006,
+          2.410240438388268,
+          5.622788605420638
+        ],
+        [
+          -0.7240216160394228,
+          2.543459015734817,
+          5.812201989338571
+        ],
+        [
+          -0.6987918307153057,
+          2.675288711893785,
+          6.06839361638562
+        ],
+        [
+          -0.6619382569724085,
+          2.819388730406292,
+          6.285383938814197
+        ],
+        [
+          -0.605896824170215,
+          2.9659607057228534,
+          6.580869909648579
+        ],
+        [
+          -0.5475471422732026,
+          3.097384543389718,
+          6.7935194187439025
+        ],
+        [
+          -0.49871933995650203,
+          3.20566283754792,
+          7.068831019338
+        ],
+        [
+          -0.44950730372902187,
+          3.2937035827266694,
+          7.261270735490573
+        ],
+        [
+          -0.3942190281612113,
+          3.3680051340976087,
+          7.529716144975485
+        ],
+        [
+          -0.3389099149003276,
+          3.4311909946830856,
+          7.762978446318181
+        ],
+        [
+          -0.2871504514886413,
+          3.48231237086204,
+          7.970230457350807
+        ],
+        [
+          -0.25275529464016216,
+          3.523440821790982,
+          8.228306633179551
+        ],
+        [
+          -0.25301106208475205,
+          3.5578149838246023,
+          8.480407104757635
+        ],
+        [
+          -0.2670658728027802,
+          3.5864020659772513,
+          8.725959034363894
+        ],
+        [
+          -0.2644584616189854,
+          3.611333758959435,
+          8.934984394152682
+        ],
+        [
+          -0.2445614285227482,
+          3.6345484858290558,
+          9.202403267317449
+        ],
+        [
+          -0.2105640237768543,
+          3.6542831878534985,
+          9.43400241620533
+        ],
+        [
+          -0.17256651605948264,
+          3.670668585709766,
+          9.678779791651147
+        ],
+        [
+          -0.1450076782670402,
+          3.687000521565663,
+          9.929689282751776
+        ],
+        [
+          -0.11825537725980152,
+          3.7033310013309553,
+          10.14728404923196
+        ],
+        [
+          -0.08991365213926027,
+          3.718874297361811,
+          10.400102158958488
+        ],
+        [
+          -0.07614914484997105,
+          3.7335786777141085,
+          10.62844419259376
+        ],
+        [
+          -0.07451788464314667,
+          3.7461311532962522,
+          10.87879135991198
+        ],
+        [
+          -0.07094260228034512,
+          3.7575729351300904,
+          11.11625975439496
+        ],
+        [
+          -0.05804508331416071,
+          3.7686348691903935,
+          11.367475353710816
+        ],
+        [
+          -0.03469495568795847,
+          3.778468492901589,
+          11.592653429911001
+        ],
+        [
+          -0.007288160356726733,
+          3.7924511579555116,
+          11.810410658451602
+        ],
+        [
+          0.022956456505517073,
+          3.801338813375145,
+          12.086168616981746
+        ],
+        [
+          0.059332882249995,
+          3.752216349813565,
+          12.347132198719743
+        ],
+        [
+          0.09791922663369168,
+          3.620441661250279,
+          12.46807621515
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_SMALL_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T1.lead.rear_medium_3.-1",
+      "unit": "T1",
+      "bushing": "B08::bushing.rear_medium_3",
+      "local_centerline": [
+        [
+          3.046616315841675,
+          2.2748234272003174,
+          5.366982936859131
+        ],
+        [
+          2.9543018941265524,
+          2.4074420839097064,
+          5.582856590770741
+        ],
+        [
+          2.9555928677427294,
+          2.53779971650101,
+          5.795673161199654
+        ],
+        [
+          2.977790917951652,
+          2.673999283836881,
+          6.0531278523558045
+        ],
+        [
+          3.017421678064832,
+          2.8206274602685633,
+          6.280314537457623
+        ],
+        [
+          3.076793625881817,
+          2.969544026601768,
+          6.519870852494605
+        ],
+        [
+          3.1455432686322258,
+          3.105009576929068,
+          6.761129318048284
+        ],
+        [
+          3.192290821166991,
+          3.214186228266704,
+          6.990571575582762
+        ],
+        [
+          3.218783677492679,
+          3.299659456325137,
+          7.258013814061972
+        ],
+        [
+          3.263720929260655,
+          3.3709943747651945,
+          7.4891566254303195
+        ],
+        [
+          3.3347612451058604,
+          3.4275352070525025,
+          7.738940788079137
+        ],
+        [
+          3.397325200400284,
+          3.468810151172592,
+          7.967645868464363
+        ],
+        [
+          3.4241651986336055,
+          3.5031377794180507,
+          8.189053438571111
+        ],
+        [
+          3.4183860477961088,
+          3.5336662459839863,
+          8.486736667503743
+        ],
+        [
+          3.4084060169914725,
+          3.5587394475992125,
+          8.690960309802273
+        ],
+        [
+          3.4208023983755207,
+          3.5821867278434123,
+          8.91784291586795
+        ],
+        [
+          3.4538130801113,
+          3.6055141711067304,
+          9.187969885096638
+        ],
+        [
+          3.49180382956332,
+          3.6251069828159066,
+          9.396166058262956
+        ],
+        [
+          3.529646766495313,
+          3.641605548391035,
+          9.631428439689873
+        ],
+        [
+          3.567554243069919,
+          3.6565975700892284,
+          9.88409840681316
+        ],
+        [
+          3.5927903006803303,
+          3.6699689350156595,
+          10.140237214050686
+        ],
+        [
+          3.5987123209639016,
+          3.6832305368539133,
+          10.396921494521823
+        ],
+        [
+          3.601249854949305,
+          3.695788333113819,
+          10.60212885424514
+        ],
+        [
+          3.6114143078203114,
+          3.7061765402455222,
+          10.824411892030161
+        ],
+        [
+          3.629176652382543,
+          3.7156138089135795,
+          11.091358533070864
+        ],
+        [
+          3.645769501231591,
+          3.726109340449045,
+          11.351746268363186
+        ],
+        [
+          3.6519742428164035,
+          3.7408836713856806,
+          11.562675339495073
+        ],
+        [
+          3.665611415457762,
+          3.7630034797156404,
+          11.818495127645875
+        ],
+        [
+          3.69841619341726,
+          3.7843602839521497,
+          12.044782664122954
+        ],
+        [
+          3.7259596039846836,
+          3.7758333290212476,
+          12.322101934212066
+        ],
+        [
+          3.7338566443690557,
+          3.7238561626058817,
+          12.439311048417318
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_SMALL_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T1.lead.rear_medium_3.1",
+      "unit": "T1",
+      "bushing": "B08::bushing.rear_medium_3",
+      "local_centerline": [
+        [
+          3.046616315841675,
+          2.2748234272003174,
+          5.366982936859131
+        ],
+        [
+          3.1143018941265526,
+          2.4074420839097064,
+          5.582856590770741
+        ],
+        [
+          3.1155928677427296,
+          2.53779971650101,
+          5.795673161199654
+        ],
+        [
+          3.1377909179516523,
+          2.673999283836881,
+          6.0531278523558045
+        ],
+        [
+          3.177421678064832,
+          2.8206274602685633,
+          6.280314537457623
+        ],
+        [
+          3.236793625881817,
+          2.969544026601768,
+          6.519870852494605
+        ],
+        [
+          3.305543268632226,
+          3.105009576929068,
+          6.761129318048284
+        ],
+        [
+          3.3522908211669913,
+          3.214186228266704,
+          6.990571575582762
+        ],
+        [
+          3.378783677492679,
+          3.299659456325137,
+          7.258013814061972
+        ],
+        [
+          3.423720929260655,
+          3.3709943747651945,
+          7.4891566254303195
+        ],
+        [
+          3.4947612451058605,
+          3.4275352070525025,
+          7.738940788079137
+        ],
+        [
+          3.557325200400284,
+          3.468810151172592,
+          7.967645868464363
+        ],
+        [
+          3.5841651986336056,
+          3.5031377794180507,
+          8.189053438571111
+        ],
+        [
+          3.578386047796109,
+          3.5336662459839863,
+          8.486736667503743
+        ],
+        [
+          3.5684060169914726,
+          3.5587394475992125,
+          8.690960309802273
+        ],
+        [
+          3.580802398375521,
+          3.5821867278434123,
+          8.91784291586795
+        ],
+        [
+          3.6138130801113,
+          3.6055141711067304,
+          9.187969885096638
+        ],
+        [
+          3.65180382956332,
+          3.6251069828159066,
+          9.396166058262956
+        ],
+        [
+          3.689646766495313,
+          3.641605548391035,
+          9.631428439689873
+        ],
+        [
+          3.7275542430699193,
+          3.6565975700892284,
+          9.88409840681316
+        ],
+        [
+          3.7527903006803305,
+          3.6699689350156595,
+          10.140237214050686
+        ],
+        [
+          3.7587123209639017,
+          3.6832305368539133,
+          10.396921494521823
+        ],
+        [
+          3.761249854949305,
+          3.695788333113819,
+          10.60212885424514
+        ],
+        [
+          3.7714143078203115,
+          3.7061765402455222,
+          10.824411892030161
+        ],
+        [
+          3.789176652382543,
+          3.7156138089135795,
+          11.091358533070864
+        ],
+        [
+          3.805769501231591,
+          3.726109340449045,
+          11.351746268363186
+        ],
+        [
+          3.8119742428164036,
+          3.7408836713856806,
+          11.562675339495073
+        ],
+        [
+          3.8256114154577623,
+          3.7630034797156404,
+          11.818495127645875
+        ],
+        [
+          3.85841619341726,
+          3.7843602839521497,
+          12.044782664122954
+        ],
+        [
+          3.8859596039846838,
+          3.7758333290212476,
+          12.322101934212066
+        ],
+        [
+          3.893856644369056,
+          3.7238561626058817,
+          12.439311048417318
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_SMALL_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T2.lead.front_large_1.-1",
+      "unit": "T2",
+      "bushing": "B08::bushing.front_large_1",
+      "local_centerline": [
+        [
+          -2.052696943283081,
+          -2.9863967895507812,
+          6.763226509094238
+        ],
+        [
+          -2.164309686047074,
+          -3.0724297122447686,
+          6.945334198569889
+        ],
+        [
+          -2.2043852178092926,
+          -3.1671870175522665,
+          7.190839846838783
+        ],
+        [
+          -2.2702871098823127,
+          -3.261582314222993,
+          7.439323830142469
+        ],
+        [
+          -2.3758951204748753,
+          -3.3418383092406527,
+          7.66518602776241
+        ],
+        [
+          -2.5222308458583527,
+          -3.401107019758182,
+          7.911118619888445
+        ],
+        [
+          -2.6939776896720184,
+          -3.438851042943834,
+          8.18410108407373
+        ],
+        [
+          -2.8726551200478148,
+          -3.460241998499546,
+          8.383040742374668
+        ],
+        [
+          -3.053806534916247,
+          -3.4698462060275075,
+          8.637747305186455
+        ],
+        [
+          -3.2344751222652333,
+          -3.47047342141837,
+          8.86725318661917
+        ],
+        [
+          -3.4052679696685337,
+          -3.465513831130676,
+          9.129623634792535
+        ],
+        [
+          -3.5636408839014155,
+          -3.454889857031951,
+          9.357119483395065
+        ],
+        [
+          -3.7085398616738336,
+          -3.4399803247790524,
+          9.626093173274572
+        ],
+        [
+          -3.833289979970603,
+          -3.428993344365532,
+          9.865672700535681
+        ],
+        [
+          -3.9404066750646436,
+          -3.425187934051154,
+          10.08869056432474
+        ],
+        [
+          -4.040579054850957,
+          -3.422707890443845,
+          10.332413969337631
+        ],
+        [
+          -4.136792302253257,
+          -3.417076410124621,
+          10.56980641132765
+        ],
+        [
+          -4.227149816882179,
+          -3.4100488368782624,
+          10.812971754264161
+        ],
+        [
+          -4.311202728788331,
+          -3.4074824341918735,
+          11.025676898248078
+        ],
+        [
+          -4.389957011099895,
+          -3.413153062882449,
+          11.329044048778298
+        ],
+        [
+          -4.467856054074141,
+          -3.426929465214485,
+          11.529211390532115
+        ],
+        [
+          -4.545951959660278,
+          -3.450620655798301,
+          11.799143832861683
+        ],
+        [
+          -4.618717067472322,
+          -3.485809764427488,
+          12.01108301720924
+        ],
+        [
+          -4.685110946824255,
+          -3.5282230627445306,
+          12.244709384951026
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_LARGE_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T2.lead.front_large_1.1",
+      "unit": "T2",
+      "bushing": "B08::bushing.front_large_1",
+      "local_centerline": [
+        [
+          -2.052696943283081,
+          -2.9863967895507812,
+          6.763226509094238
+        ],
+        [
+          -2.004309686047074,
+          -3.0724297122447686,
+          6.945334198569889
+        ],
+        [
+          -2.0443852178092925,
+          -3.1671870175522665,
+          7.190839846838783
+        ],
+        [
+          -2.1102871098823126,
+          -3.261582314222993,
+          7.439323830142469
+        ],
+        [
+          -2.215895120474875,
+          -3.3418383092406527,
+          7.66518602776241
+        ],
+        [
+          -2.3622308458583525,
+          -3.401107019758182,
+          7.911118619888445
+        ],
+        [
+          -2.5339776896720183,
+          -3.438851042943834,
+          8.18410108407373
+        ],
+        [
+          -2.7126551200478146,
+          -3.460241998499546,
+          8.383040742374668
+        ],
+        [
+          -2.893806534916247,
+          -3.4698462060275075,
+          8.637747305186455
+        ],
+        [
+          -3.074475122265233,
+          -3.47047342141837,
+          8.86725318661917
+        ],
+        [
+          -3.2452679696685336,
+          -3.465513831130676,
+          9.129623634792535
+        ],
+        [
+          -3.4036408839014154,
+          -3.454889857031951,
+          9.357119483395065
+        ],
+        [
+          -3.5485398616738335,
+          -3.4399803247790524,
+          9.626093173274572
+        ],
+        [
+          -3.673289979970603,
+          -3.428993344365532,
+          9.865672700535681
+        ],
+        [
+          -3.7804066750646435,
+          -3.425187934051154,
+          10.08869056432474
+        ],
+        [
+          -3.880579054850957,
+          -3.422707890443845,
+          10.332413969337631
+        ],
+        [
+          -3.9767923022532568,
+          -3.417076410124621,
+          10.56980641132765
+        ],
+        [
+          -4.0671498168821785,
+          -3.4100488368782624,
+          10.812971754264161
+        ],
+        [
+          -4.151202728788331,
+          -3.4074824341918735,
+          11.025676898248078
+        ],
+        [
+          -4.229957011099895,
+          -3.413153062882449,
+          11.329044048778298
+        ],
+        [
+          -4.307856054074141,
+          -3.426929465214485,
+          11.529211390532115
+        ],
+        [
+          -4.385951959660278,
+          -3.450620655798301,
+          11.799143832861683
+        ],
+        [
+          -4.458717067472322,
+          -3.485809764427488,
+          12.01108301720924
+        ],
+        [
+          -4.525110946824255,
+          -3.5282230627445306,
+          12.244709384951026
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_LARGE_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T2.lead.front_large_2.-1",
+      "unit": "T2",
+      "bushing": "B08::bushing.front_large_2",
+      "local_centerline": [
+        [
+          0.8701092004776001,
+          -3.018374443054199,
+          6.765317916870117
+        ],
+        [
+          0.7360927644531424,
+          -3.0935033009531283,
+          6.947227609973938
+        ],
+        [
+          0.7055970895668467,
+          -3.1846463821189355,
+          7.180987811189031
+        ],
+        [
+          0.6902870482928278,
+          -3.2741833081341523,
+          7.4475571863518475
+        ],
+        [
+          0.6629135558259414,
+          -3.3418863329386177,
+          7.680657754898736
+        ],
+        [
+          0.6142504653973176,
+          -3.3878580225671104,
+          7.940837603768522
+        ],
+        [
+          0.5524825596196886,
+          -3.4159599942133525,
+          8.177873361495495
+        ],
+        [
+          0.47815711712592884,
+          -3.4300669895142137,
+          8.396993083806198
+        ],
+        [
+          0.39238489559864603,
+          -3.437943232662863,
+          8.664052419989185
+        ],
+        [
+          0.3067568122359486,
+          -3.4424840726777948,
+          8.886175253075848
+        ],
+        [
+          0.22538129801161522,
+          -3.438915177652353,
+          9.107687419288201
+        ],
+        [
+          0.14465901247383778,
+          -3.4261417033283177,
+          9.371589781172952
+        ],
+        [
+          0.06555989230435925,
+          -3.4108189846623054,
+          9.619478670983336
+        ],
+        [
+          -0.008220776551128003,
+          -3.3991020168891644,
+          9.866345860445017
+        ],
+        [
+          -0.07390028551136266,
+          -3.3901451024715223,
+          10.106093394509404
+        ],
+        [
+          -0.13433235552560852,
+          -3.3790178678015397,
+          10.340182137498747
+        ],
+        [
+          -0.19679530271888784,
+          -3.3667702804454462,
+          10.570067085014353
+        ],
+        [
+          -0.26282293463430156,
+          -3.3592740890395865,
+          10.816434389765375
+        ],
+        [
+          -0.3276623635112728,
+          -3.3599425856038625,
+          11.014051297368253
+        ],
+        [
+          -0.38800353550022026,
+          -3.3698624775957584,
+          11.296850705949039
+        ],
+        [
+          -0.44572259545270804,
+          -3.3898842259119073,
+          11.552133905310846
+        ],
+        [
+          -0.5040588701937968,
+          -3.417637201339896,
+          11.751522259420714
+        ],
+        [
+          -0.5602396471827851,
+          -3.4358188407398926,
+          12.006027107372786
+        ],
+        [
+          -0.6106153853156051,
+          -3.431438705943068,
+          12.209091076200123
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_LARGE_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T2.lead.front_large_2.1",
+      "unit": "T2",
+      "bushing": "B08::bushing.front_large_2",
+      "local_centerline": [
+        [
+          0.8701092004776001,
+          -3.018374443054199,
+          6.765317916870117
+        ],
+        [
+          0.8960927644531423,
+          -3.0935033009531283,
+          6.947227609973938
+        ],
+        [
+          0.8655970895668467,
+          -3.1846463821189355,
+          7.180987811189031
+        ],
+        [
+          0.8502870482928278,
+          -3.2741833081341523,
+          7.4475571863518475
+        ],
+        [
+          0.8229135558259413,
+          -3.3418863329386177,
+          7.680657754898736
+        ],
+        [
+          0.7742504653973176,
+          -3.3878580225671104,
+          7.940837603768522
+        ],
+        [
+          0.7124825596196885,
+          -3.4159599942133525,
+          8.177873361495495
+        ],
+        [
+          0.6381571171259288,
+          -3.4300669895142137,
+          8.396993083806198
+        ],
+        [
+          0.552384895598646,
+          -3.437943232662863,
+          8.664052419989185
+        ],
+        [
+          0.4667568122359486,
+          -3.4424840726777948,
+          8.886175253075848
+        ],
+        [
+          0.38538129801161525,
+          -3.438915177652353,
+          9.107687419288201
+        ],
+        [
+          0.30465901247383775,
+          -3.4261417033283177,
+          9.371589781172952
+        ],
+        [
+          0.22555989230435924,
+          -3.4108189846623054,
+          9.619478670983336
+        ],
+        [
+          0.151779223448872,
+          -3.3991020168891644,
+          9.866345860445017
+        ],
+        [
+          0.08609971448863735,
+          -3.3901451024715223,
+          10.106093394509404
+        ],
+        [
+          0.0256676444743915,
+          -3.3790178678015397,
+          10.340182137498747
+        ],
+        [
+          -0.036795302718887854,
+          -3.3667702804454462,
+          10.570067085014353
+        ],
+        [
+          -0.10282293463430155,
+          -3.3592740890395865,
+          10.816434389765375
+        ],
+        [
+          -0.16766236351127284,
+          -3.3599425856038625,
+          11.014051297368253
+        ],
+        [
+          -0.22800353550022023,
+          -3.3698624775957584,
+          11.296850705949039
+        ],
+        [
+          -0.285722595452708,
+          -3.3898842259119073,
+          11.552133905310846
+        ],
+        [
+          -0.34405887019379683,
+          -3.417637201339896,
+          11.751522259420714
+        ],
+        [
+          -0.4002396471827851,
+          -3.4358188407398926,
+          12.006027107372786
+        ],
+        [
+          -0.45061538531560513,
+          -3.431438705943068,
+          12.209091076200123
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_LARGE_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T2.lead.front_large_3.-1",
+      "unit": "T2",
+      "bushing": "B08::bushing.front_large_3",
+      "local_centerline": [
+        [
+          3.7603864669799805,
+          -3.025136947631836,
+          6.725015640258789
+        ],
+        [
+          3.6808726845605326,
+          -3.128000560937809,
+          6.911575809522884
+        ],
+        [
+          3.7036942605085885,
+          -3.2292416880975314,
+          7.131828406934481
+        ],
+        [
+          3.734738144303022,
+          -3.3161673077683,
+          7.389174792002813
+        ],
+        [
+          3.7505627156461268,
+          -3.3766796389427762,
+          7.633407595557461
+        ],
+        [
+          3.7546701404392584,
+          -3.4119661655239786,
+          7.839932760441328
+        ],
+        [
+          3.758161071275315,
+          -3.429288924948435,
+          8.100518073863654
+        ],
+        [
+          3.753715372151271,
+          -3.4345398771251787,
+          8.389375368767546
+        ],
+        [
+          3.7302876591874887,
+          -3.4325992829958984,
+          8.603993584635326
+        ],
+        [
+          3.694676802714268,
+          -3.4276264803683616,
+          8.852773200873024
+        ],
+        [
+          3.6640380164342625,
+          -3.4219517892614317,
+          9.063638861945023
+        ],
+        [
+          3.64582785830936,
+          -3.4165138814753173,
+          9.304026300774604
+        ],
+        [
+          3.63131556784053,
+          -3.410576059412797,
+          9.607290917134439
+        ],
+        [
+          3.6105626448604475,
+          -3.401491306084578,
+          9.81039955486167
+        ],
+        [
+          3.5856774383884256,
+          -3.3878070833433247,
+          10.085614863030575
+        ],
+        [
+          3.5599323135778165,
+          -3.3721244195815516,
+          10.26923945324626
+        ],
+        [
+          3.5322216035678604,
+          -3.360224714768346,
+          10.527460289566896
+        ],
+        [
+          3.5051455934309956,
+          -3.3546333042674146,
+          10.76322336557934
+        ],
+        [
+          3.4818722009774143,
+          -3.353018904859538,
+          10.969876962003491
+        ],
+        [
+          3.459555281881815,
+          -3.3574432048650724,
+          11.246310588534834
+        ],
+        [
+          3.4333710479840494,
+          -3.375690721865251,
+          11.460373285348306
+        ],
+        [
+          3.4023107052473183,
+          -3.4093377689520072,
+          11.740505906345698
+        ],
+        [
+          3.3700238535747182,
+          -3.4484324319593402,
+          11.97370121373439
+        ],
+        [
+          3.3400853105215607,
+          -3.4842707831928035,
+          12.190714100270029
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_LARGE_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T2.lead.front_large_3.1",
+      "unit": "T2",
+      "bushing": "B08::bushing.front_large_3",
+      "local_centerline": [
+        [
+          3.7603864669799805,
+          -3.025136947631836,
+          6.725015640258789
+        ],
+        [
+          3.8408726845605328,
+          -3.128000560937809,
+          6.911575809522884
+        ],
+        [
+          3.8636942605085887,
+          -3.2292416880975314,
+          7.131828406934481
+        ],
+        [
+          3.8947381443030222,
+          -3.3161673077683,
+          7.389174792002813
+        ],
+        [
+          3.910562715646127,
+          -3.3766796389427762,
+          7.633407595557461
+        ],
+        [
+          3.9146701404392585,
+          -3.4119661655239786,
+          7.839932760441328
+        ],
+        [
+          3.918161071275315,
+          -3.429288924948435,
+          8.100518073863654
+        ],
+        [
+          3.913715372151271,
+          -3.4345398771251787,
+          8.389375368767546
+        ],
+        [
+          3.890287659187489,
+          -3.4325992829958984,
+          8.603993584635326
+        ],
+        [
+          3.854676802714268,
+          -3.4276264803683616,
+          8.852773200873024
+        ],
+        [
+          3.8240380164342627,
+          -3.4219517892614317,
+          9.063638861945023
+        ],
+        [
+          3.8058278583093603,
+          -3.4165138814753173,
+          9.304026300774604
+        ],
+        [
+          3.79131556784053,
+          -3.410576059412797,
+          9.607290917134439
+        ],
+        [
+          3.7705626448604477,
+          -3.401491306084578,
+          9.81039955486167
+        ],
+        [
+          3.7456774383884257,
+          -3.3878070833433247,
+          10.085614863030575
+        ],
+        [
+          3.7199323135778166,
+          -3.3721244195815516,
+          10.26923945324626
+        ],
+        [
+          3.6922216035678606,
+          -3.360224714768346,
+          10.527460289566896
+        ],
+        [
+          3.6651455934309958,
+          -3.3546333042674146,
+          10.76322336557934
+        ],
+        [
+          3.6418722009774145,
+          -3.353018904859538,
+          10.969876962003491
+        ],
+        [
+          3.6195552818818153,
+          -3.3574432048650724,
+          11.246310588534834
+        ],
+        [
+          3.5933710479840495,
+          -3.375690721865251,
+          11.460373285348306
+        ],
+        [
+          3.5623107052473184,
+          -3.4093377689520072,
+          11.740505906345698
+        ],
+        [
+          3.5300238535747184,
+          -3.4484324319593402,
+          11.97370121373439
+        ],
+        [
+          3.500085310521561,
+          -3.4842707831928035,
+          12.190714100270029
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_LARGE_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T2.lead.rear_medium_1.-1",
+      "unit": "T2",
+      "bushing": "B08::bushing.rear_medium_1",
+      "local_centerline": [
+        [
+          -2.4874155521392822,
+          2.2849717140197754,
+          5.41806697845459
+        ],
+        [
+          -2.5318045277957673,
+          2.4017173170165322,
+          5.625845269461759
+        ],
+        [
+          -2.5365127376733367,
+          2.5290313549212935,
+          5.83332584957336
+        ],
+        [
+          -2.589182289808905,
+          2.67847625531185,
+          6.100104656826464
+        ],
+        [
+          -2.679555345993613,
+          2.8475611801902136,
+          6.34892497966156
+        ],
+        [
+          -2.7994658694538326,
+          3.020425393767912,
+          6.5683491467782975
+        ],
+        [
+          -2.926764607878555,
+          3.1774275344051417,
+          6.8311231649690605
+        ],
+        [
+          -3.0370956050431417,
+          3.302566704970745,
+          7.087185684434468
+        ],
+        [
+          -3.1440620931974004,
+          3.39594482775403,
+          7.29250279935761
+        ],
+        [
+          -3.2596003753000273,
+          3.4685816174080117,
+          7.534783939601362
+        ],
+        [
+          -3.3555061951808276,
+          3.524474487053742,
+          7.781646972597375
+        ],
+        [
+          -3.4226050738321465,
+          3.5628193474475403,
+          8.025350823520109
+        ],
+        [
+          -3.486153919705274,
+          3.589030023538429,
+          8.271656148011719
+        ],
+        [
+          -3.552738212035632,
+          3.6102129361840527,
+          8.486060434506928
+        ],
+        [
+          -3.6116622635602056,
+          3.6276817200623515,
+          8.746072100540813
+        ],
+        [
+          -3.660543926288028,
+          3.641956097640416,
+          8.966023745638166
+        ],
+        [
+          -3.6929954505797715,
+          3.6553292571277947,
+          9.187136295014222
+        ],
+        [
+          -3.7056277071860917,
+          3.6682602624205627,
+          9.482208084371198
+        ],
+        [
+          -3.715840435910662,
+          3.681274774449442,
+          9.720801805392032
+        ],
+        [
+          -3.741841434651059,
+          3.6949432460852103,
+          9.935189231625424
+        ],
+        [
+          -3.7891292267774004,
+          3.7073744631697294,
+          10.159812930649018
+        ],
+        [
+          -3.8406442301744583,
+          3.715523669205704,
+          10.410992310086739
+        ],
+        [
+          -3.8683869664698243,
+          3.7198065036456613,
+          10.688767758371393
+        ],
+        [
+          -3.879569352413758,
+          3.725460001057281,
+          10.909558613077833
+        ],
+        [
+          -3.893180180113645,
+          3.7342473538526906,
+          11.146135342680635
+        ],
+        [
+          -3.9006916091416777,
+          3.7449404828706667,
+          11.408199950599789
+        ],
+        [
+          -3.9001537550721608,
+          3.7609932102432295,
+          11.611540179235337
+        ],
+        [
+          -3.9064273216494656,
+          3.7849548015925754,
+          11.858042731146398
+        ],
+        [
+          -3.9256703425277664,
+          3.8150219427376486,
+          12.092409798753176
+        ],
+        [
+          -3.953647042173797,
+          3.8488299099910286,
+          12.345553713644575
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_SMALL_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T2.lead.rear_medium_1.1",
+      "unit": "T2",
+      "bushing": "B08::bushing.rear_medium_1",
+      "local_centerline": [
+        [
+          -2.4874155521392822,
+          2.2849717140197754,
+          5.41806697845459
+        ],
+        [
+          -2.371804527795767,
+          2.4017173170165322,
+          5.625845269461759
+        ],
+        [
+          -2.3765127376733366,
+          2.5290313549212935,
+          5.83332584957336
+        ],
+        [
+          -2.429182289808905,
+          2.67847625531185,
+          6.100104656826464
+        ],
+        [
+          -2.519555345993613,
+          2.8475611801902136,
+          6.34892497966156
+        ],
+        [
+          -2.6394658694538324,
+          3.020425393767912,
+          6.5683491467782975
+        ],
+        [
+          -2.766764607878555,
+          3.1774275344051417,
+          6.8311231649690605
+        ],
+        [
+          -2.8770956050431415,
+          3.302566704970745,
+          7.087185684434468
+        ],
+        [
+          -2.9840620931974002,
+          3.39594482775403,
+          7.29250279935761
+        ],
+        [
+          -3.099600375300027,
+          3.4685816174080117,
+          7.534783939601362
+        ],
+        [
+          -3.1955061951808275,
+          3.524474487053742,
+          7.781646972597375
+        ],
+        [
+          -3.2626050738321464,
+          3.5628193474475403,
+          8.025350823520109
+        ],
+        [
+          -3.326153919705274,
+          3.589030023538429,
+          8.271656148011719
+        ],
+        [
+          -3.3927382120356318,
+          3.6102129361840527,
+          8.486060434506928
+        ],
+        [
+          -3.4516622635602054,
+          3.6276817200623515,
+          8.746072100540813
+        ],
+        [
+          -3.500543926288028,
+          3.641956097640416,
+          8.966023745638166
+        ],
+        [
+          -3.5329954505797714,
+          3.6553292571277947,
+          9.187136295014222
+        ],
+        [
+          -3.5456277071860915,
+          3.6682602624205627,
+          9.482208084371198
+        ],
+        [
+          -3.5558404359106617,
+          3.681274774449442,
+          9.720801805392032
+        ],
+        [
+          -3.581841434651059,
+          3.6949432460852103,
+          9.935189231625424
+        ],
+        [
+          -3.6291292267774002,
+          3.7073744631697294,
+          10.159812930649018
+        ],
+        [
+          -3.680644230174458,
+          3.715523669205704,
+          10.410992310086739
+        ],
+        [
+          -3.708386966469824,
+          3.7198065036456613,
+          10.688767758371393
+        ],
+        [
+          -3.719569352413758,
+          3.725460001057281,
+          10.909558613077833
+        ],
+        [
+          -3.733180180113645,
+          3.7342473538526906,
+          11.146135342680635
+        ],
+        [
+          -3.7406916091416775,
+          3.7449404828706667,
+          11.408199950599789
+        ],
+        [
+          -3.7401537550721606,
+          3.7609932102432295,
+          11.611540179235337
+        ],
+        [
+          -3.7464273216494655,
+          3.7849548015925754,
+          11.858042731146398
+        ],
+        [
+          -3.7656703425277662,
+          3.8150219427376486,
+          12.092409798753176
+        ],
+        [
+          -3.793647042173797,
+          3.8488299099910286,
+          12.345553713644575
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_SMALL_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T2.lead.rear_medium_2.-1",
+      "unit": "T2",
+      "bushing": "B08::bushing.rear_medium_2",
+      "local_centerline": [
+        [
+          -0.8347223401069641,
+          2.261284351348877,
+          5.393519401550293
+        ],
+        [
+          -0.9066460611190376,
+          2.363572857923107,
+          5.605084390031962
+        ],
+        [
+          -0.8808044881999775,
+          2.473210606596074,
+          5.812332433675138
+        ],
+        [
+          -0.8443920861498914,
+          2.598485714064885,
+          6.082499689506956
+        ],
+        [
+          -0.8109635372718761,
+          2.7381443350663774,
+          6.328348909946778
+        ],
+        [
+          -0.7766281436177015,
+          2.8809259943366943,
+          6.531747365203096
+        ],
+        [
+          -0.7326794524149549,
+          3.017084882922288,
+          6.79173973416184
+        ],
+        [
+          -0.6797929971398698,
+          3.141595971589306,
+          7.032541217663013
+        ],
+        [
+          -0.6295788191883008,
+          3.252077421044328,
+          7.250333476264259
+        ],
+        [
+          -0.5926675911017222,
+          3.345524476618675,
+          7.533239052018012
+        ],
+        [
+          -0.5619488366452813,
+          3.417799427235919,
+          7.762760565011124
+        ],
+        [
+          -0.5273924568873622,
+          3.4710000407109356,
+          8.002998596113128
+        ],
+        [
+          -0.49467809491669695,
+          3.5115553219173794,
+          8.238556797705668
+        ],
+        [
+          -0.46681783359833307,
+          3.5430702075250093,
+          8.495591087449661
+        ],
+        [
+          -0.4341107692868698,
+          3.5702665708523424,
+          8.708460402708676
+        ],
+        [
+          -0.39865823002877565,
+          3.597377219619892,
+          8.939234797052576
+        ],
+        [
+          -0.3789180854952658,
+          3.6229884321263395,
+          9.190955047097809
+        ],
+        [
+          -0.37041618612677135,
+          3.6448850191868623,
+          9.429079603947734
+        ],
+        [
+          -0.3444654860949291,
+          3.6620875472341092,
+          9.663022876461632
+        ],
+        [
+          -0.30849231080731543,
+          3.67601593452311,
+          9.92410043844413
+        ],
+        [
+          -0.2861128640272231,
+          3.6903705920714387,
+          10.137457102923133
+        ],
+        [
+          -0.26363711274541946,
+          3.7052992436086005,
+          10.4076557733796
+        ],
+        [
+          -0.22989047068526697,
+          3.719066192162825,
+          10.645844013094624
+        ],
+        [
+          -0.1963444161581927,
+          3.7316555441658705,
+          10.85599601362709
+        ],
+        [
+          -0.17478906680953166,
+          3.7429479848635876,
+          11.126299409483233
+        ],
+        [
+          -0.16834824075480725,
+          3.7536520745786195,
+          11.340988027933287
+        ],
+        [
+          -0.16509130547393172,
+          3.767731925883141,
+          11.605034860584409
+        ],
+        [
+          -0.15641334935161183,
+          3.7889776010929808,
+          11.841035091688784
+        ],
+        [
+          -0.15752671811050012,
+          3.793294542980468,
+          12.064012423853809
+        ],
+        [
+          -0.20585122849201692,
+          3.7097183085811913,
+          12.32447690143724
+        ],
+        [
+          -0.3138989633968235,
+          3.5148345036002975,
+          12.46239174882011
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_SMALL_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T2.lead.rear_medium_2.1",
+      "unit": "T2",
+      "bushing": "B08::bushing.rear_medium_2",
+      "local_centerline": [
+        [
+          -0.8347223401069641,
+          2.261284351348877,
+          5.393519401550293
+        ],
+        [
+          -0.7466460611190376,
+          2.363572857923107,
+          5.605084390031962
+        ],
+        [
+          -0.7208044881999776,
+          2.473210606596074,
+          5.812332433675138
+        ],
+        [
+          -0.6843920861498914,
+          2.598485714064885,
+          6.082499689506956
+        ],
+        [
+          -0.6509635372718762,
+          2.7381443350663774,
+          6.328348909946778
+        ],
+        [
+          -0.6166281436177016,
+          2.8809259943366943,
+          6.531747365203096
+        ],
+        [
+          -0.572679452414955,
+          3.017084882922288,
+          6.79173973416184
+        ],
+        [
+          -0.5197929971398699,
+          3.141595971589306,
+          7.032541217663013
+        ],
+        [
+          -0.46957881918830086,
+          3.252077421044328,
+          7.250333476264259
+        ],
+        [
+          -0.4326675911017222,
+          3.345524476618675,
+          7.533239052018012
+        ],
+        [
+          -0.4019488366452813,
+          3.417799427235919,
+          7.762760565011124
+        ],
+        [
+          -0.3673924568873622,
+          3.4710000407109356,
+          8.002998596113128
+        ],
+        [
+          -0.3346780949166969,
+          3.5115553219173794,
+          8.238556797705668
+        ],
+        [
+          -0.30681783359833303,
+          3.5430702075250093,
+          8.495591087449661
+        ],
+        [
+          -0.2741107692868698,
+          3.5702665708523424,
+          8.708460402708676
+        ],
+        [
+          -0.23865823002877562,
+          3.597377219619892,
+          8.939234797052576
+        ],
+        [
+          -0.21891808549526576,
+          3.6229884321263395,
+          9.190955047097809
+        ],
+        [
+          -0.21041618612677132,
+          3.6448850191868623,
+          9.429079603947734
+        ],
+        [
+          -0.18446548609492908,
+          3.6620875472341092,
+          9.663022876461632
+        ],
+        [
+          -0.1484923108073154,
+          3.67601593452311,
+          9.92410043844413
+        ],
+        [
+          -0.1261128640272231,
+          3.6903705920714387,
+          10.137457102923133
+        ],
+        [
+          -0.10363711274541947,
+          3.7052992436086005,
+          10.4076557733796
+        ],
+        [
+          -0.06989047068526698,
+          3.719066192162825,
+          10.645844013094624
+        ],
+        [
+          -0.03634441615819271,
+          3.7316555441658705,
+          10.85599601362709
+        ],
+        [
+          -0.014789066809531667,
+          3.7429479848635876,
+          11.126299409483233
+        ],
+        [
+          -0.008348240754807251,
+          3.7536520745786195,
+          11.340988027933287
+        ],
+        [
+          -0.005091305473931718,
+          3.767731925883141,
+          11.605034860584409
+        ],
+        [
+          0.0035866506483881594,
+          3.7889776010929808,
+          11.841035091688784
+        ],
+        [
+          0.002473281889499898,
+          3.793294542980468,
+          12.064012423853809
+        ],
+        [
+          -0.045851228492016935,
+          3.7097183085811913,
+          12.32447690143724
+        ],
+        [
+          -0.15389896339682346,
+          3.5148345036002975,
+          12.46239174882011
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_SMALL_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T2.lead.rear_medium_3.-1",
+      "unit": "T2",
+      "bushing": "B08::bushing.rear_medium_3",
+      "local_centerline": [
+        [
+          3.046616315841675,
+          2.2748234272003174,
+          5.366982936859131
+        ],
+        [
+          2.970682859688422,
+          2.366832303573759,
+          5.557266218805935
+        ],
+        [
+          2.9874594379536927,
+          2.4897570564592773,
+          5.781376980801547
+        ],
+        [
+          3.0114766942402236,
+          2.6361110312382237,
+          6.069595296050213
+        ],
+        [
+          3.039483150136758,
+          2.783794538147104,
+          6.29113924971024
+        ],
+        [
+          3.0811472859206823,
+          2.9250679281861083,
+          6.510459849489103
+        ],
+        [
+          3.131477211258418,
+          3.056193414927998,
+          6.753543254348921
+        ],
+        [
+          3.1774748822249386,
+          3.169945255282652,
+          7.000766787089686
+        ],
+        [
+          3.2166266119257387,
+          3.266119218522812,
+          7.239859921118194
+        ],
+        [
+          3.2494874183352,
+          3.3496560042252583,
+          7.480381194205974
+        ],
+        [
+          3.284539167545769,
+          3.4196294999322028,
+          7.744910334722033
+        ],
+        [
+          3.328932155890315,
+          3.47396123541563,
+          7.995632894362693
+        ],
+        [
+          3.368177366450052,
+          3.517216190282144,
+          8.197749220837572
+        ],
+        [
+          3.390180339122274,
+          3.551535078413131,
+          8.434798339840855
+        ],
+        [
+          3.4105874509984035,
+          3.575942211578134,
+          8.681301348187741
+        ],
+        [
+          3.4438066969334704,
+          3.5980064415558948,
+          8.935501816298457
+        ],
+        [
+          3.481359320459264,
+          3.62438871142757,
+          9.171978725739994
+        ],
+        [
+          3.5086875200723115,
+          3.6503248088151574,
+          9.389557767438315
+        ],
+        [
+          3.5236508349771207,
+          3.671163747638908,
+          9.65325806570177
+        ],
+        [
+          3.5382148353863085,
+          3.687111769090155,
+          9.869696357488515
+        ],
+        [
+          3.5560702899979875,
+          3.698948118783105,
+          10.110330001734129
+        ],
+        [
+          3.58049842834345,
+          3.7097040562484045,
+          10.372773067713648
+        ],
+        [
+          3.624465230875947,
+          3.721941317680466,
+          10.599576857892519
+        ],
+        [
+          3.6660761578689933,
+          3.733557710150187,
+          10.861608238820029
+        ],
+        [
+          3.675735801828005,
+          3.7438679230368614,
+          11.08983746489326
+        ],
+        [
+          3.6731111821732245,
+          3.758294823395074,
+          11.31365685470069
+        ],
+        [
+          3.671580850168814,
+          3.780901570100158,
+          11.553202671882042
+        ],
+        [
+          3.664316610390377,
+          3.8091957195200443,
+          11.82013118325757
+        ],
+        [
+          3.678236237752035,
+          3.8201065297140113,
+          12.049905500476951
+        ],
+        [
+          3.7342504109068577,
+          3.7505133223952978,
+          12.326589969653671
+        ],
+        [
+          3.812056992505603,
+          3.577114464853861,
+          12.440156509960742
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_SMALL_BUSHING.terminal_port"
+    },
+    {
+      "name": "B08::T2.lead.rear_medium_3.1",
+      "unit": "T2",
+      "bushing": "B08::bushing.rear_medium_3",
+      "local_centerline": [
+        [
+          3.046616315841675,
+          2.2748234272003174,
+          5.366982936859131
+        ],
+        [
+          3.130682859688422,
+          2.366832303573759,
+          5.557266218805935
+        ],
+        [
+          3.147459437953693,
+          2.4897570564592773,
+          5.781376980801547
+        ],
+        [
+          3.1714766942402237,
+          2.6361110312382237,
+          6.069595296050213
+        ],
+        [
+          3.199483150136758,
+          2.783794538147104,
+          6.29113924971024
+        ],
+        [
+          3.2411472859206825,
+          2.9250679281861083,
+          6.510459849489103
+        ],
+        [
+          3.2914772112584183,
+          3.056193414927998,
+          6.753543254348921
+        ],
+        [
+          3.3374748822249387,
+          3.169945255282652,
+          7.000766787089686
+        ],
+        [
+          3.376626611925739,
+          3.266119218522812,
+          7.239859921118194
+        ],
+        [
+          3.4094874183352,
+          3.3496560042252583,
+          7.480381194205974
+        ],
+        [
+          3.444539167545769,
+          3.4196294999322028,
+          7.744910334722033
+        ],
+        [
+          3.488932155890315,
+          3.47396123541563,
+          7.995632894362693
+        ],
+        [
+          3.528177366450052,
+          3.517216190282144,
+          8.197749220837572
+        ],
+        [
+          3.550180339122274,
+          3.551535078413131,
+          8.434798339840855
+        ],
+        [
+          3.5705874509984037,
+          3.575942211578134,
+          8.681301348187741
+        ],
+        [
+          3.6038066969334706,
+          3.5980064415558948,
+          8.935501816298457
+        ],
+        [
+          3.641359320459264,
+          3.62438871142757,
+          9.171978725739994
+        ],
+        [
+          3.6686875200723117,
+          3.6503248088151574,
+          9.389557767438315
+        ],
+        [
+          3.683650834977121,
+          3.671163747638908,
+          9.65325806570177
+        ],
+        [
+          3.6982148353863087,
+          3.687111769090155,
+          9.869696357488515
+        ],
+        [
+          3.7160702899979876,
+          3.698948118783105,
+          10.110330001734129
+        ],
+        [
+          3.74049842834345,
+          3.7097040562484045,
+          10.372773067713648
+        ],
+        [
+          3.784465230875947,
+          3.721941317680466,
+          10.599576857892519
+        ],
+        [
+          3.8260761578689935,
+          3.733557710150187,
+          10.861608238820029
+        ],
+        [
+          3.835735801828005,
+          3.7438679230368614,
+          11.08983746489326
+        ],
+        [
+          3.8331111821732247,
+          3.758294823395074,
+          11.31365685470069
+        ],
+        [
+          3.8315808501688142,
+          3.780901570100158,
+          11.553202671882042
+        ],
+        [
+          3.824316610390377,
+          3.8091957195200443,
+          11.82013118325757
+        ],
+        [
+          3.838236237752035,
+          3.8201065297140113,
+          12.049905500476951
+        ],
+        [
+          3.894250410906858,
+          3.7505133223952978,
+          12.326589969653671
+        ],
+        [
+          3.9720569925056033,
+          3.577114464853861,
+          12.440156509960742
+        ]
+      ],
+      "first_ring_vertices": 12,
+      "lower_endpoint": "bushing terminal",
+      "upper_endpoint": "observed lead end; remote network junction pending",
+      "source_port": "P04_SMALL_BUSHING.terminal_port"
+    }
+  ],
+  "omitted_T1_names": [
+    "12MZ0000000150023::aux.smart_terminal.body",
+    "12MZ0000000150023::aux.smart_terminal.device_plate",
+    "12MZ0000000150023::aux.smart_terminal.front_door",
+    "12MZ0000000150023::aux.smart_terminal.handle",
+    "12MZ0000000150023::aux.smart_terminal.lower_service_box",
+    "12MZ0000000150023::aux.smart_terminal.roof",
+    "12MZ0000000150023::aux.smart_terminal.system_plate",
+    "12MZ0000000150023::bushing.1.oil_level_bezel",
+    "12MZ0000000150023::bushing.1.oil_level_gauge",
+    "12MZ0000000150023::bushing.1.test_tap",
+    "12MZ0000000150023::bushing.1.test_tap_cap",
+    "12MZ0000000150023::bushing.2.oil_level_bezel",
+    "12MZ0000000150023::bushing.2.oil_level_gauge",
+    "12MZ0000000150023::bushing.2.test_tap",
+    "12MZ0000000150023::bushing.2.test_tap_cap",
+    "12MZ0000000150023::bushing.3.oil_level_bezel",
+    "12MZ0000000150023::bushing.3.oil_level_gauge",
+    "12MZ0000000150023::bushing.3.test_tap",
+    "12MZ0000000150023::bushing.3.test_tap_cap",
+    "12MZ0000000150023::cooling.fan.1.blade1",
+    "12MZ0000000150023::cooling.fan.1.blade2",
+    "12MZ0000000150023::cooling.fan.1.blade3",
+    "12MZ0000000150023::cooling.fan.1.blade4",
+    "12MZ0000000150023::cooling.fan.1.guard",
+    "12MZ0000000150023::cooling.fan.1.hub",
+    "12MZ0000000150023::cooling.fan.2.blade1",
+    "12MZ0000000150023::cooling.fan.2.blade2",
+    "12MZ0000000150023::cooling.fan.2.blade3",
+    "12MZ0000000150023::cooling.fan.2.blade4",
+    "12MZ0000000150023::cooling.fan.2.guard",
+    "12MZ0000000150023::cooling.fan.2.hub",
+    "12MZ0000000150023::cooling.fan.3.blade1",
+    "12MZ0000000150023::cooling.fan.3.blade2",
+    "12MZ0000000150023::cooling.fan.3.blade3",
+    "12MZ0000000150023::cooling.fan.3.blade4",
+    "12MZ0000000150023::cooling.fan.3.guard",
+    "12MZ0000000150023::cooling.fan.3.hub",
+    "12MZ0000000150023::cooling.fan.4.blade1",
+    "12MZ0000000150023::cooling.fan.4.blade2",
+    "12MZ0000000150023::cooling.fan.4.blade3",
+    "12MZ0000000150023::cooling.fan.4.blade4",
+    "12MZ0000000150023::cooling.fan.4.guard",
+    "12MZ0000000150023::cooling.fan.4.hub",
+    "12MZ0000000150023::cooling.fan.5.blade1",
+    "12MZ0000000150023::cooling.fan.5.blade2",
+    "12MZ0000000150023::cooling.fan.5.blade3",
+    "12MZ0000000150023::cooling.fan.5.blade4",
+    "12MZ0000000150023::cooling.fan.5.guard",
+    "12MZ0000000150023::cooling.fan.5.hub",
+    "12MZ0000000150023::cooling.fan.6.blade1",
+    "12MZ0000000150023::cooling.fan.6.blade2",
+    "12MZ0000000150023::cooling.fan.6.blade3",
+    "12MZ0000000150023::cooling.fan.6.blade4",
+    "12MZ0000000150023::cooling.fan.6.guard",
+    "12MZ0000000150023::cooling.fan.6.hub",
+    "12MZ0000000150023::cooling.oil_flow_relay.body",
+    "12MZ0000000150023::cooling.oil_flow_relay.indicator",
+    "12MZ0000000150023::monitor.online.body",
+    "12MZ0000000150023::monitor.online.front_door",
+    "12MZ0000000150023::monitor.online.handle",
+    "12MZ0000000150023::monitor.online.identity_plate",
+    "12MZ0000000150023::monitor.online.lifting_eye1",
+    "12MZ0000000150023::monitor.online.lifting_eye2",
+    "12MZ0000000150023::monitor.online.lifting_eye_stem1",
+    "12MZ0000000150023::monitor.online.lifting_eye_stem2",
+    "12MZ0000000150023::monitor.online.model_plate",
+    "12MZ0000000150023::monitor.online.roof",
+    "12MZ0000000150023::protection.pressure_relief.base",
+    "12MZ0000000150023::protection.pressure_relief.cap",
+    "12MZ0000000150023::protection.sudden_pressure_dial",
+    "12MZ0000000150023::protection.sudden_pressure_relay",
+    "12MZ0000000150023::tapchanger.breather.cartridge",
+    "12MZ0000000150023::tapchanger.breather.pipe",
+    "12MZ0000000150023::tapchanger.conservator.body",
+    "12MZ0000000150023::tapchanger.conservator.level_window",
+    "12MZ0000000150023::tapchanger.filter.canister1",
+    "12MZ0000000150023::tapchanger.filter.canister2",
+    "12MZ0000000150023::tapchanger.filter.pipe",
+    "12MZ0000000150023::tapchanger.filter.pump",
+    "12MZ0000000150023::tapchanger.mechanism_cabinet",
+    "12MZ0000000150023::tapchanger.mechanism_panel",
+    "12MZ0000000150023::transformer.v3.base.000.t1_buchholz_relay_approximate_housing",
+    "12MZ0000000150023::transformer.v3.base.001.t1_front_radiator_bank_01",
+    "12MZ0000000150023::transformer.v3.base.002.t1_front_radiator_bank_02",
+    "12MZ0000000150023::transformer.v3.base.003.t1_front_radiator_bank_03",
+    "12MZ0000000150023::transformer.v3.base.004.t1_front_radiator_bank_04",
+    "12MZ0000000150023::transformer.v3.base.005.t1_front_radiator_bank_05",
+    "12MZ0000000150023::transformer.v3.base.006.t1_front_radiator_bank_06",
+    "12MZ0000000150023::transformer.v3.base.007.t1_front_radiator_bank_07",
+    "12MZ0000000150023::transformer.v3.base.008.t1_front_radiator_bank_08",
+    "12MZ0000000150023::transformer.v3.base.009.t1_front_radiator_bank_09",
+    "12MZ0000000150023::transformer.v3.base.010.t1_front_radiator_bank_10",
+    "12MZ0000000150023::transformer.v3.base.011.t1_front_radiator_bank_11",
+    "12MZ0000000150023::transformer.v3.base.012.t1_front_radiator_bank_12",
+    "12MZ0000000150023::transformer.v3.base.013.t1_hv_1_continuous_ribbed_porcelain",
+    "12MZ0000000150023::transformer.v3.base.014.t1_hv_1_flange_bolts_and_terminal",
+    "12MZ0000000150023::transformer.v3.base.015.t1_hv_1_short_lead_stub",
+    "12MZ0000000150023::transformer.v3.base.016.t1_hv_2_continuous_ribbed_porcelain",
+    "12MZ0000000150023::transformer.v3.base.017.t1_hv_2_flange_bolts_and_terminal",
+    "12MZ0000000150023::transformer.v3.base.018.t1_hv_2_short_lead_stub",
+    "12MZ0000000150023::transformer.v3.base.019.t1_hv_3_continuous_ribbed_porcelain",
+    "12MZ0000000150023::transformer.v3.base.020.t1_hv_3_flange_bolts_and_terminal",
+    "12MZ0000000150023::transformer.v3.base.021.t1_hv_3_short_lead_stub",
+    "12MZ0000000150023::transformer.v3.base.022.t1_rear_radiator_bank_01",
+    "12MZ0000000150023::transformer.v3.base.023.t1_rear_radiator_bank_02",
+    "12MZ0000000150023::transformer.v3.base.024.t1_rear_radiator_bank_03",
+    "12MZ0000000150023::transformer.v3.base.025.t1_rear_radiator_bank_04",
+    "12MZ0000000150023::transformer.v3.base.026.t1_rear_radiator_bank_05",
+    "12MZ0000000150023::transformer.v3.base.027.t1_rear_radiator_bank_06",
+    "12MZ0000000150023::transformer.v3.base.028.t1_rear_radiator_bank_07",
+    "12MZ0000000150023::transformer.v3.base.029.t1_rear_radiator_bank_08",
+    "12MZ0000000150023::transformer.v3.base.030.t1_rear_radiator_bank_09",
+    "12MZ0000000150023::transformer.v3.base.031.t1_rear_radiator_bank_10",
+    "12MZ0000000150023::transformer.v3.base.032.t1_access_panel_hinge",
+    "12MZ0000000150023::transformer.v3.base.033.t1_access_panel_hinge_001",
+    "12MZ0000000150023::transformer.v3.base.034.t1_access_panel_hinge_002",
+    "12MZ0000000150023::transformer.v3.base.035.t1_access_panel_hinge_003",
+    "12MZ0000000150023::transformer.v3.base.036.t1_access_panel_hinge_004",
+    "12MZ0000000150023::transformer.v3.base.037.t1_access_panel_hinge_005",
+    "12MZ0000000150023::transformer.v3.base.038.t1_bolted_tank_lid",
+    "12MZ0000000150023::transformer.v3.base.039.t1_breather_blue_cartridge",
+    "12MZ0000000150023::transformer.v3.base.040.t1_breather_end_cap",
+    "12MZ0000000150023::transformer.v3.base.041.t1_breather_end_cap_001",
+    "12MZ0000000150023::transformer.v3.base.042.t1_conservator_access_panel_1",
+    "12MZ0000000150023::transformer.v3.base.043.t1_conservator_access_panel_2",
+    "12MZ0000000150023::transformer.v3.base.044.t1_conservator_access_panel_3",
+    "12MZ0000000150023::transformer.v3.base.045.t1_conservator_inspection_ladder",
+    "12MZ0000000150023::transformer.v3.base.046.t1_conservator_level_window",
+    "12MZ0000000150023::transformer.v3.base.047.t1_conservator_oil_and_breather_lines",
+    "12MZ0000000150023::transformer.v3.base.048.t1_conservator_rounded_casing",
+    "12MZ0000000150023::transformer.v3.base.049.t1_conservator_support_cradles",
+    "12MZ0000000150023::transformer.v3.base.050.t1_conservator_top_and_bottom_seams",
+    "12MZ0000000150023::transformer.v3.base.051.t1_cooler_headers__1_01",
+    "12MZ0000000150023::transformer.v3.base.052.t1_cooler_headers__1_02",
+    "12MZ0000000150023::transformer.v3.base.053.t1_cooler_headers__1_03",
+    "12MZ0000000150023::transformer.v3.base.054.t1_cooler_headers__1_04",
+    "12MZ0000000150023::transformer.v3.base.055.t1_cooler_headers__1_05",
+    "12MZ0000000150023::transformer.v3.base.056.t1_cooler_headers__1_06",
+    "12MZ0000000150023::transformer.v3.base.057.t1_cooler_headers__1_07",
+    "12MZ0000000150023::transformer.v3.base.058.t1_cooler_headers__1_08",
+    "12MZ0000000150023::transformer.v3.base.059.t1_cooler_headers__1_09",
+    "12MZ0000000150023::transformer.v3.base.060.t1_cooler_headers__1_10",
+    "12MZ0000000150023::transformer.v3.base.061.t1_cooler_headers__1_11",
+    "12MZ0000000150023::transformer.v3.base.062.t1_cooler_headers__1_12",
+    "12MZ0000000150023::transformer.v3.base.063.t1_cooler_headers_1_01",
+    "12MZ0000000150023::transformer.v3.base.064.t1_cooler_headers_1_02",
+    "12MZ0000000150023::transformer.v3.base.065.t1_cooler_headers_1_03",
+    "12MZ0000000150023::transformer.v3.base.066.t1_cooler_headers_1_04",
+    "12MZ0000000150023::transformer.v3.base.067.t1_cooler_headers_1_05",
+    "12MZ0000000150023::transformer.v3.base.068.t1_cooler_headers_1_06",
+    "12MZ0000000150023::transformer.v3.base.069.t1_cooler_headers_1_07",
+    "12MZ0000000150023::transformer.v3.base.070.t1_cooler_headers_1_08",
+    "12MZ0000000150023::transformer.v3.base.071.t1_cooler_headers_1_09",
+    "12MZ0000000150023::transformer.v3.base.072.t1_cooler_headers_1_10",
+    "12MZ0000000150023::transformer.v3.base.073.t1_cooling_control_cabinet",
+    "12MZ0000000150023::transformer.v3.base.074.t1_front_nameplate",
+    "12MZ0000000150023::transformer.v3.base.075.t1_front_spray_risers_and_bends",
+    "12MZ0000000150023::transformer.v3.base.076.t1_galvanized_fire_ring_support_posts",
+    "12MZ0000000150023::transformer.v3.base.077.t1_gauge_dial",
+    "12MZ0000000150023::transformer.v3.base.078.t1_gauge_dial_001",
+    "12MZ0000000150023::transformer.v3.base.079.t1_gravel_bed",
+    "12MZ0000000150023::transformer.v3.base.080.t1_instrument_bezel",
+    "12MZ0000000150023::transformer.v3.base.081.t1_instrument_bezel_001",
+    "12MZ0000000150023::transformer.v3.base.082.t1_lid_bolts",
+    "12MZ0000000150023::transformer.v3.base.083.t1_main_oil_tank",
+    "12MZ0000000150023::transformer.v3.base.084.t1_mounting_shoe",
+    "12MZ0000000150023::transformer.v3.base.085.t1_mounting_shoe_001",
+    "12MZ0000000150023::transformer.v3.base.086.t1_mounting_shoe_002",
+    "12MZ0000000150023::transformer.v3.base.087.t1_mounting_shoe_003",
+    "12MZ0000000150023::transformer.v3.base.089.t1_oil_containment_slab",
+    "12MZ0000000150023::transformer.v3.base.090.t1_oil_level_ruler_graduations",
+    "12MZ0000000150023::transformer.v3.base.091.t1_overhead_fire_spray_header",
+    "12MZ0000000150023::transformer.v3.base.092.t1_panel_1_louver_blades",
+    "12MZ0000000150023::transformer.v3.base.093.t1_panel_2_louver_blades",
+    "12MZ0000000150023::transformer.v3.base.094.t1_panel_3_louver_blades",
+    "12MZ0000000150023::transformer.v3.base.095.t1_pipe_couplings_z0_65",
+    "12MZ0000000150023::transformer.v3.base.096.t1_pipe_couplings_z2_65",
+    "12MZ0000000150023::transformer.v3.base.097.t1_rail__1",
+    "12MZ0000000150023::transformer.v3.base.098.t1_rail_1",
+    "12MZ0000000150023::transformer.v3.base.099.t1_rear_bushing_metal_1",
+    "12MZ0000000150023::transformer.v3.base.100.t1_rear_bushing_metal_2",
+    "12MZ0000000150023::transformer.v3.base.101.t1_rear_bushing_metal_3",
+    "12MZ0000000150023::transformer.v3.base.102.t1_rear_low_bushing_1",
+    "12MZ0000000150023::transformer.v3.base.103.t1_rear_low_bushing_2",
+    "12MZ0000000150023::transformer.v3.base.104.t1_rear_low_bushing_3",
+    "12MZ0000000150023::transformer.v3.base.105.t1_red_perimeter_ring_z0_65",
+    "12MZ0000000150023::transformer.v3.base.106.t1_red_perimeter_ring_z2_65",
+    "12MZ0000000150023::transformer.v3.base.107.t1_spray_nozzles",
+    "12MZ0000000150023::transformer.v3.base.108.t1_tank_stiffening_ribs"
+  ],
+  "omitted_T2_names": [
+    "12MZ0000000149769::aux.smart_terminal.body",
+    "12MZ0000000149769::aux.smart_terminal.device_plate",
+    "12MZ0000000149769::aux.smart_terminal.front_door",
+    "12MZ0000000149769::aux.smart_terminal.handle",
+    "12MZ0000000149769::aux.smart_terminal.lower_service_box",
+    "12MZ0000000149769::aux.smart_terminal.roof",
+    "12MZ0000000149769::aux.smart_terminal.system_plate",
+    "12MZ0000000149769::bushing.1.oil_level_bezel",
+    "12MZ0000000149769::bushing.1.oil_level_gauge",
+    "12MZ0000000149769::bushing.1.test_tap",
+    "12MZ0000000149769::bushing.1.test_tap_cap",
+    "12MZ0000000149769::bushing.2.oil_level_bezel",
+    "12MZ0000000149769::bushing.2.oil_level_gauge",
+    "12MZ0000000149769::bushing.2.test_tap",
+    "12MZ0000000149769::bushing.2.test_tap_cap",
+    "12MZ0000000149769::bushing.3.oil_level_bezel",
+    "12MZ0000000149769::bushing.3.oil_level_gauge",
+    "12MZ0000000149769::bushing.3.test_tap",
+    "12MZ0000000149769::bushing.3.test_tap_cap",
+    "12MZ0000000149769::cooling.fan.1.blade1",
+    "12MZ0000000149769::cooling.fan.1.blade2",
+    "12MZ0000000149769::cooling.fan.1.blade3",
+    "12MZ0000000149769::cooling.fan.1.blade4",
+    "12MZ0000000149769::cooling.fan.1.guard",
+    "12MZ0000000149769::cooling.fan.1.hub",
+    "12MZ0000000149769::cooling.fan.2.blade1",
+    "12MZ0000000149769::cooling.fan.2.blade2",
+    "12MZ0000000149769::cooling.fan.2.blade3",
+    "12MZ0000000149769::cooling.fan.2.blade4",
+    "12MZ0000000149769::cooling.fan.2.guard",
+    "12MZ0000000149769::cooling.fan.2.hub",
+    "12MZ0000000149769::cooling.fan.3.blade1",
+    "12MZ0000000149769::cooling.fan.3.blade2",
+    "12MZ0000000149769::cooling.fan.3.blade3",
+    "12MZ0000000149769::cooling.fan.3.blade4",
+    "12MZ0000000149769::cooling.fan.3.guard",
+    "12MZ0000000149769::cooling.fan.3.hub",
+    "12MZ0000000149769::cooling.fan.4.blade1",
+    "12MZ0000000149769::cooling.fan.4.blade2",
+    "12MZ0000000149769::cooling.fan.4.blade3",
+    "12MZ0000000149769::cooling.fan.4.blade4",
+    "12MZ0000000149769::cooling.fan.4.guard",
+    "12MZ0000000149769::cooling.fan.4.hub",
+    "12MZ0000000149769::cooling.fan.5.blade1",
+    "12MZ0000000149769::cooling.fan.5.blade2",
+    "12MZ0000000149769::cooling.fan.5.blade3",
+    "12MZ0000000149769::cooling.fan.5.blade4",
+    "12MZ0000000149769::cooling.fan.5.guard",
+    "12MZ0000000149769::cooling.fan.5.hub",
+    "12MZ0000000149769::cooling.fan.6.blade1",
+    "12MZ0000000149769::cooling.fan.6.blade2",
+    "12MZ0000000149769::cooling.fan.6.blade3",
+    "12MZ0000000149769::cooling.fan.6.blade4",
+    "12MZ0000000149769::cooling.fan.6.guard",
+    "12MZ0000000149769::cooling.fan.6.hub",
+    "12MZ0000000149769::cooling.oil_flow_relay.body",
+    "12MZ0000000149769::cooling.oil_flow_relay.indicator",
+    "12MZ0000000149769::monitor.online.body",
+    "12MZ0000000149769::monitor.online.front_door",
+    "12MZ0000000149769::monitor.online.handle",
+    "12MZ0000000149769::monitor.online.identity_plate",
+    "12MZ0000000149769::monitor.online.lifting_eye1",
+    "12MZ0000000149769::monitor.online.lifting_eye2",
+    "12MZ0000000149769::monitor.online.lifting_eye_stem1",
+    "12MZ0000000149769::monitor.online.lifting_eye_stem2",
+    "12MZ0000000149769::monitor.online.model_plate",
+    "12MZ0000000149769::monitor.online.roof",
+    "12MZ0000000149769::protection.pressure_relief.base",
+    "12MZ0000000149769::protection.pressure_relief.cap",
+    "12MZ0000000149769::protection.sudden_pressure_dial",
+    "12MZ0000000149769::protection.sudden_pressure_relay",
+    "12MZ0000000149769::tapchanger.breather.cartridge",
+    "12MZ0000000149769::tapchanger.breather.pipe",
+    "12MZ0000000149769::tapchanger.conservator.body",
+    "12MZ0000000149769::tapchanger.conservator.level_window",
+    "12MZ0000000149769::tapchanger.filter.canister1",
+    "12MZ0000000149769::tapchanger.filter.canister2",
+    "12MZ0000000149769::tapchanger.filter.pipe",
+    "12MZ0000000149769::tapchanger.filter.pump",
+    "12MZ0000000149769::tapchanger.mechanism_cabinet",
+    "12MZ0000000149769::tapchanger.mechanism_panel",
+    "12MZ0000000149769::transformer.v3.base.000.t1_buchholz_relay_approximate_housing",
+    "12MZ0000000149769::transformer.v3.base.001.t1_front_radiator_bank_01",
+    "12MZ0000000149769::transformer.v3.base.002.t1_front_radiator_bank_02",
+    "12MZ0000000149769::transformer.v3.base.003.t1_front_radiator_bank_03",
+    "12MZ0000000149769::transformer.v3.base.004.t1_front_radiator_bank_04",
+    "12MZ0000000149769::transformer.v3.base.005.t1_front_radiator_bank_05",
+    "12MZ0000000149769::transformer.v3.base.006.t1_front_radiator_bank_06",
+    "12MZ0000000149769::transformer.v3.base.007.t1_front_radiator_bank_07",
+    "12MZ0000000149769::transformer.v3.base.008.t1_front_radiator_bank_08",
+    "12MZ0000000149769::transformer.v3.base.009.t1_front_radiator_bank_09",
+    "12MZ0000000149769::transformer.v3.base.010.t1_front_radiator_bank_10",
+    "12MZ0000000149769::transformer.v3.base.011.t1_front_radiator_bank_11",
+    "12MZ0000000149769::transformer.v3.base.012.t1_front_radiator_bank_12",
+    "12MZ0000000149769::transformer.v3.base.013.t1_hv_1_continuous_ribbed_porcelain",
+    "12MZ0000000149769::transformer.v3.base.014.t1_hv_1_flange_bolts_and_terminal",
+    "12MZ0000000149769::transformer.v3.base.015.t1_hv_1_short_lead_stub",
+    "12MZ0000000149769::transformer.v3.base.016.t1_hv_2_continuous_ribbed_porcelain",
+    "12MZ0000000149769::transformer.v3.base.017.t1_hv_2_flange_bolts_and_terminal",
+    "12MZ0000000149769::transformer.v3.base.018.t1_hv_2_short_lead_stub",
+    "12MZ0000000149769::transformer.v3.base.019.t1_hv_3_continuous_ribbed_porcelain",
+    "12MZ0000000149769::transformer.v3.base.020.t1_hv_3_flange_bolts_and_terminal",
+    "12MZ0000000149769::transformer.v3.base.021.t1_hv_3_short_lead_stub",
+    "12MZ0000000149769::transformer.v3.base.022.t1_rear_radiator_bank_01",
+    "12MZ0000000149769::transformer.v3.base.023.t1_rear_radiator_bank_02",
+    "12MZ0000000149769::transformer.v3.base.024.t1_rear_radiator_bank_03",
+    "12MZ0000000149769::transformer.v3.base.025.t1_rear_radiator_bank_04",
+    "12MZ0000000149769::transformer.v3.base.026.t1_rear_radiator_bank_05",
+    "12MZ0000000149769::transformer.v3.base.027.t1_rear_radiator_bank_06",
+    "12MZ0000000149769::transformer.v3.base.028.t1_rear_radiator_bank_07",
+    "12MZ0000000149769::transformer.v3.base.029.t1_rear_radiator_bank_08",
+    "12MZ0000000149769::transformer.v3.base.030.t1_rear_radiator_bank_09",
+    "12MZ0000000149769::transformer.v3.base.031.t1_rear_radiator_bank_10",
+    "12MZ0000000149769::transformer.v3.base.032.t1_access_panel_hinge",
+    "12MZ0000000149769::transformer.v3.base.033.t1_access_panel_hinge_001",
+    "12MZ0000000149769::transformer.v3.base.034.t1_access_panel_hinge_002",
+    "12MZ0000000149769::transformer.v3.base.035.t1_access_panel_hinge_003",
+    "12MZ0000000149769::transformer.v3.base.036.t1_access_panel_hinge_004",
+    "12MZ0000000149769::transformer.v3.base.037.t1_access_panel_hinge_005",
+    "12MZ0000000149769::transformer.v3.base.038.t1_bolted_tank_lid",
+    "12MZ0000000149769::transformer.v3.base.039.t1_breather_blue_cartridge",
+    "12MZ0000000149769::transformer.v3.base.040.t1_breather_end_cap",
+    "12MZ0000000149769::transformer.v3.base.041.t1_breather_end_cap_001",
+    "12MZ0000000149769::transformer.v3.base.042.t1_conservator_access_panel_1",
+    "12MZ0000000149769::transformer.v3.base.043.t1_conservator_access_panel_2",
+    "12MZ0000000149769::transformer.v3.base.044.t1_conservator_access_panel_3",
+    "12MZ0000000149769::transformer.v3.base.045.t1_conservator_inspection_ladder",
+    "12MZ0000000149769::transformer.v3.base.046.t1_conservator_level_window",
+    "12MZ0000000149769::transformer.v3.base.047.t1_conservator_oil_and_breather_lines",
+    "12MZ0000000149769::transformer.v3.base.048.t1_conservator_rounded_casing",
+    "12MZ0000000149769::transformer.v3.base.049.t1_conservator_support_cradles",
+    "12MZ0000000149769::transformer.v3.base.050.t1_conservator_top_and_bottom_seams",
+    "12MZ0000000149769::transformer.v3.base.051.t1_cooler_headers__1_01",
+    "12MZ0000000149769::transformer.v3.base.052.t1_cooler_headers__1_02",
+    "12MZ0000000149769::transformer.v3.base.053.t1_cooler_headers__1_03",
+    "12MZ0000000149769::transformer.v3.base.054.t1_cooler_headers__1_04",
+    "12MZ0000000149769::transformer.v3.base.055.t1_cooler_headers__1_05",
+    "12MZ0000000149769::transformer.v3.base.056.t1_cooler_headers__1_06",
+    "12MZ0000000149769::transformer.v3.base.057.t1_cooler_headers__1_07",
+    "12MZ0000000149769::transformer.v3.base.058.t1_cooler_headers__1_08",
+    "12MZ0000000149769::transformer.v3.base.059.t1_cooler_headers__1_09",
+    "12MZ0000000149769::transformer.v3.base.060.t1_cooler_headers__1_10",
+    "12MZ0000000149769::transformer.v3.base.061.t1_cooler_headers__1_11",
+    "12MZ0000000149769::transformer.v3.base.062.t1_cooler_headers__1_12",
+    "12MZ0000000149769::transformer.v3.base.063.t1_cooler_headers_1_01",
+    "12MZ0000000149769::transformer.v3.base.064.t1_cooler_headers_1_02",
+    "12MZ0000000149769::transformer.v3.base.065.t1_cooler_headers_1_03",
+    "12MZ0000000149769::transformer.v3.base.066.t1_cooler_headers_1_04",
+    "12MZ0000000149769::transformer.v3.base.067.t1_cooler_headers_1_05",
+    "12MZ0000000149769::transformer.v3.base.068.t1_cooler_headers_1_06",
+    "12MZ0000000149769::transformer.v3.base.069.t1_cooler_headers_1_07",
+    "12MZ0000000149769::transformer.v3.base.070.t1_cooler_headers_1_08",
+    "12MZ0000000149769::transformer.v3.base.071.t1_cooler_headers_1_09",
+    "12MZ0000000149769::transformer.v3.base.072.t1_cooler_headers_1_10",
+    "12MZ0000000149769::transformer.v3.base.073.t1_cooling_control_cabinet",
+    "12MZ0000000149769::transformer.v3.base.074.t1_front_nameplate",
+    "12MZ0000000149769::transformer.v3.base.075.t1_front_spray_risers_and_bends",
+    "12MZ0000000149769::transformer.v3.base.076.t1_galvanized_fire_ring_support_posts",
+    "12MZ0000000149769::transformer.v3.base.077.t1_gauge_dial",
+    "12MZ0000000149769::transformer.v3.base.078.t1_gauge_dial_001",
+    "12MZ0000000149769::transformer.v3.base.079.t1_gravel_bed",
+    "12MZ0000000149769::transformer.v3.base.080.t1_instrument_bezel",
+    "12MZ0000000149769::transformer.v3.base.081.t1_instrument_bezel_001",
+    "12MZ0000000149769::transformer.v3.base.082.t1_lid_bolts",
+    "12MZ0000000149769::transformer.v3.base.083.t1_main_oil_tank",
+    "12MZ0000000149769::transformer.v3.base.084.t1_mounting_shoe",
+    "12MZ0000000149769::transformer.v3.base.085.t1_mounting_shoe_001",
+    "12MZ0000000149769::transformer.v3.base.086.t1_mounting_shoe_002",
+    "12MZ0000000149769::transformer.v3.base.087.t1_mounting_shoe_003",
+    "12MZ0000000149769::transformer.v3.base.089.t1_oil_containment_slab",
+    "12MZ0000000149769::transformer.v3.base.090.t1_oil_level_ruler_graduations",
+    "12MZ0000000149769::transformer.v3.base.091.t1_overhead_fire_spray_header",
+    "12MZ0000000149769::transformer.v3.base.092.t1_panel_1_louver_blades",
+    "12MZ0000000149769::transformer.v3.base.093.t1_panel_2_louver_blades",
+    "12MZ0000000149769::transformer.v3.base.094.t1_panel_3_louver_blades",
+    "12MZ0000000149769::transformer.v3.base.095.t1_pipe_couplings_z0_65",
+    "12MZ0000000149769::transformer.v3.base.096.t1_pipe_couplings_z2_65",
+    "12MZ0000000149769::transformer.v3.base.097.t1_rail__1",
+    "12MZ0000000149769::transformer.v3.base.098.t1_rail_1",
+    "12MZ0000000149769::transformer.v3.base.099.t1_rear_bushing_metal_1",
+    "12MZ0000000149769::transformer.v3.base.100.t1_rear_bushing_metal_2",
+    "12MZ0000000149769::transformer.v3.base.101.t1_rear_bushing_metal_3",
+    "12MZ0000000149769::transformer.v3.base.102.t1_rear_low_bushing_1",
+    "12MZ0000000149769::transformer.v3.base.103.t1_rear_low_bushing_2",
+    "12MZ0000000149769::transformer.v3.base.104.t1_rear_low_bushing_3",
+    "12MZ0000000149769::transformer.v3.base.105.t1_red_perimeter_ring_z0_65",
+    "12MZ0000000149769::transformer.v3.base.106.t1_red_perimeter_ring_z2_65",
+    "12MZ0000000149769::transformer.v3.base.107.t1_spray_nozzles",
+    "12MZ0000000149769::transformer.v3.base.108.t1_tank_stiffening_ribs"
+  ],
+  "context_collection": "B08_UNCHANGED_STATION_COMPONENTS",
+  "previous_scenes": [
+    "07_Full_Station_Semantic_v50",
+    "18_Photo_First_B05_Station_Clean",
+    "19_Photo_First_B05_Coarse_Overlay",
+    "20_B05_746_Detail",
+    "20_B05_750_Detail",
+    "21_Photo_First_B06_Station_Clean",
+    "22_Photo_First_B06_Coarse_Overlay",
+    "23_B06_Wall_Top_Overlay",
+    "24_B06_Station_Perspective",
+    "25_B06_Wall_Top_Clean",
+    "26_B06_Gate_Overlay",
+    "27_B07_Station_Clean",
+    "28_B07_Station_Overlay",
+    "29_B07_T1_Clean",
+    "30_B07_T1_Overlay",
+    "31_B07_T1_Reference",
+    "32_B07_T1_Top_Overlay",
+    "33_B07_T1_Before_Overlay"
+  ],
+  "new_scenes": [
+    "34_B08_Station_Clean",
+    "35_B08_Station_Overlay",
+    "36_B08_T1_Front_Clean",
+    "37_B08_T1_Rear_Clean",
+    "38_B08_T1_Rear_Overlay",
+    "39_B08_T1_Top_Overlay",
+    "40_B08_T2_Rear_Clean",
+    "41_B08_T2_Rear_Overlay",
+    "42_B08_Transformer_Pair",
+    "43_B08_T1_Leads_Overlay",
+    "44_B08_EDIT_SHARED_MASTER",
+    "45_B08_T1_Rear_Reference",
+    "46_B08_T2_Rear_Reference"
+  ],
+  "default_scene": "42_B08_Transformer_Pair",
+  "edit_scene": "44_B08_EDIT_SHARED_MASTER",
+  "render_jobs": [
+    {
+      "scene": "34_B08_Station_Clean",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/34_B08_Station_Clean_r2.png"
+    },
+    {
+      "scene": "36_B08_T1_Front_Clean",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/36_B08_T1_Front_Clean_r2.png"
+    },
+    {
+      "scene": "37_B08_T1_Rear_Clean",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/37_B08_T1_Rear_Clean_r2.png"
+    },
+    {
+      "scene": "38_B08_T1_Rear_Overlay",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/38_B08_T1_Rear_Overlay_r2.png"
+    },
+    {
+      "scene": "39_B08_T1_Top_Overlay",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/39_B08_T1_Top_Overlay_r2.png"
+    },
+    {
+      "scene": "40_B08_T2_Rear_Clean",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/40_B08_T2_Rear_Clean_r2.png"
+    },
+    {
+      "scene": "41_B08_T2_Rear_Overlay",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/41_B08_T2_Rear_Overlay_r2.png"
+    },
+    {
+      "scene": "42_B08_Transformer_Pair",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/42_B08_Transformer_Pair_r2.png"
+    },
+    {
+      "scene": "43_B08_T1_Leads_Overlay",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/43_B08_T1_Leads_Overlay_r2.png"
+    },
+    {
+      "scene": "45_B08_T1_Rear_Reference",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/45_B08_T1_Rear_Reference_r2.png"
+    },
+    {
+      "scene": "46_B08_T2_Rear_Reference",
+      "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/46_B08_T2_Rear_Reference_r2.png"
+    }
+  ],
+  "formal_promotions": 0,
+  "complete_transformer": false,
+  "scope": "visible exterior assembly shared by T1 and T2; external conductor routes per site; hidden mechanical/electrical detail not asserted",
+  "r1_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/xialin_B08_shared_transformers.blend",
+  "r1_sha256": "7cd3c1ae8aec0231d16f3bfb68d6d0ea139f774ce96886959fab47b4949ac821",
+  "r1_asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/B08_transformer_shared_asset.blend",
+  "r1_asset_sha256": "7ab910df0384f610f51bc72444e23daedb9dbb7af1e88e7c0214a10cbd039258",
+  "revision": "r2_supports_and_ports",
+  "r2_added_support_meshes": [
+    "B08::radiator.base_beam.front",
+    "B08::radiator.support_leg.front.0",
+    "B08::radiator.support_foot.front.0",
+    "B08::radiator.support_leg.front.1",
+    "B08::radiator.support_foot.front.1",
+    "B08::radiator.support_leg.front.2",
+    "B08::radiator.support_foot.front.2",
+    "B08::radiator.support_leg.front.3",
+    "B08::radiator.support_foot.front.3",
+    "B08::radiator.base_beam.rear",
+    "B08::radiator.support_leg.rear.0",
+    "B08::radiator.support_foot.rear.0",
+    "B08::radiator.support_leg.rear.1",
+    "B08::radiator.support_foot.rear.1",
+    "B08::radiator.support_leg.rear.2",
+    "B08::radiator.support_foot.rear.2",
+    "B08::radiator.support_leg.rear.3",
+    "B08::radiator.support_foot.rear.3",
+    "B08::surround.cabinet_pad",
+    "B08::fire.support_clamp.front.0.0",
+    "B08::fire.support_clamp.front.0.1",
+    "B08::fire.support_clamp.front.1.0",
+    "B08::fire.support_clamp.front.1.1",
+    "B08::fire.support_clamp.front.2.0",
+    "B08::fire.support_clamp.front.2.1",
+    "B08::fire.support_clamp.front.3.0",
+    "B08::fire.support_clamp.front.3.1",
+    "B08::fire.support_clamp.front.4.0",
+    "B08::fire.support_clamp.front.4.1",
+    "B08::fire.support_clamp.rear.0.0",
+    "B08::fire.support_clamp.rear.0.1",
+    "B08::fire.support_clamp.rear.1.0",
+    "B08::fire.support_clamp.rear.1.1",
+    "B08::fire.support_clamp.rear.2.0",
+    "B08::fire.support_clamp.rear.2.1",
+    "B08::fire.support_clamp.rear.3.0",
+    "B08::fire.support_clamp.rear.3.1",
+    "B08::fire.support_clamp.rear.4.0",
+    "B08::fire.support_clamp.rear.4.1"
+  ],
+  "r2_port_adjustments": [
+    {
+      "wire": "B08::T1.lead.front_large_1.-1",
+      "adjustment_m": 0.0014503400953158902
+    },
+    {
+      "wire": "B08::T1.lead.front_large_1.1",
+      "adjustment_m": 0.0014502615631514794
+    },
+    {
+      "wire": "B08::T1.lead.front_large_2.-1",
+      "adjustment_m": 0.0014506263243218719
+    },
+    {
+      "wire": "B08::T1.lead.front_large_2.1",
+      "adjustment_m": 0.00145056532258072
+    },
+    {
+      "wire": "B08::T1.lead.front_large_3.-1",
+      "adjustment_m": 0.0014510941797701942
+    },
+    {
+      "wire": "B08::T1.lead.front_large_3.1",
+      "adjustment_m": 0.001451149697035798
+    },
+    {
+      "wire": "B08::T1.lead.rear_medium_1.-1",
+      "adjustment_m": 8.885335839453499e-08
+    },
+    {
+      "wire": "B08::T1.lead.rear_medium_1.1",
+      "adjustment_m": 7.947285984855057e-08
+    },
+    {
+      "wire": "B08::T1.lead.rear_medium_2.-1",
+      "adjustment_m": 4.789022919703915e-07
+    },
+    {
+      "wire": "B08::T1.lead.rear_medium_2.1",
+      "adjustment_m": 3.2132653343337133e-07
+    },
+    {
+      "wire": "B08::T1.lead.rear_medium_3.-1",
+      "adjustment_m": 2.4252247074787487e-07
+    },
+    {
+      "wire": "B08::T1.lead.rear_medium_3.1",
+      "adjustment_m": 2.7957056515004934e-07
+    },
+    {
+      "wire": "B08::T2.lead.front_large_1.-1",
+      "adjustment_m": 0.001450252618432703
+    },
+    {
+      "wire": "B08::T2.lead.front_large_1.1",
+      "adjustment_m": 0.0014502400225950155
+    },
+    {
+      "wire": "B08::T2.lead.front_large_2.-1",
+      "adjustment_m": 0.0014506180226755503
+    },
+    {
+      "wire": "B08::T2.lead.front_large_2.1",
+      "adjustment_m": 0.001450662542876147
+    },
+    {
+      "wire": "B08::T2.lead.front_large_3.-1",
+      "adjustment_m": 0.001451043272874299
+    },
+    {
+      "wire": "B08::T2.lead.front_large_3.1",
+      "adjustment_m": 0.001451114222094943
+    },
+    {
+      "wire": "B08::T2.lead.rear_medium_1.-1",
+      "adjustment_m": 8.885335839453499e-08
+    },
+    {
+      "wire": "B08::T2.lead.rear_medium_1.1",
+      "adjustment_m": 9.934107438880346e-08
+    },
+    {
+      "wire": "B08::T2.lead.rear_medium_2.-1",
+      "adjustment_m": 3.579381748874281e-07
+    },
+    {
+      "wire": "B08::T2.lead.rear_medium_2.1",
+      "adjustment_m": 3.584891672169975e-07
+    },
+    {
+      "wire": "B08::T2.lead.rear_medium_3.-1",
+      "adjustment_m": 2.1855036427063304e-07
+    },
+    {
+      "wire": "B08::T2.lead.rear_medium_3.1",
+      "adjustment_m": 1.996730887965268e-07
+    }
+  ]
+}

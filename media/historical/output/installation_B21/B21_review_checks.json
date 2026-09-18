@@ -1,0 +1,9 @@
+{
+  "cases": 18,
+  "relative_artifact_links_valid": true,
+  "embedded_images_identical": true,
+  "javascript_syntax_passed": true,
+  "browser_layout_checked": false,
+  "script_check": "node --check, not browser rendering",
+  "review_file_sha256": "d66cc80c777fea231de75fa49d9cf714ff2776166ed389d4eb7bc78b83885a2b"
+}

@@ -1,0 +1,1091 @@
+{
+  "status": "saved_geometry_and_history_preserved_partial_alignment",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B19/r3/xialin_B19_remaining_220kV_GIS_r3.blend",
+  "sha256": "68151206c9a9c78703cb920c2374a048e9119206f92f04b978cf06c7597b91d2",
+  "previous_objects_unchanged": 26896,
+  "previous_scenes_unchanged": 336,
+  "previous_collections_unchanged": 490,
+  "previous_materials_unchanged": 317,
+  "previous_station_world_transforms_unchanged": 2861,
+  "history_method": "all object local transforms, parent inverse, hierarchy, geometry, materials, modifiers, constraints, collection and scene membership compared; evaluated station world transforms additionally compared; avoids stale inactive-scene world caches",
+  "protected_previous_files_unchanged": 1643,
+  "formal_baseline_preserved": 15096,
+  "legacy_meshes_remaining": 1839,
+  "new_candidates": 6,
+  "retained_existing_review_groups": 3,
+  "source_asset_roundtrip_identical": true,
+  "contacts": [
+    {
+      "key": "VT_II",
+      "foundation_foot_rail_post_max_error_m": 4.470348358154297e-08
+    },
+    {
+      "key": "VT_IA",
+      "foundation_foot_rail_post_max_error_m": 1.1175870895385742e-08
+    },
+    {
+      "key": "4B81",
+      "foundation_foot_rail_post_max_error_m": 3.725290298461914e-09
+    },
+    {
+      "key": "4B80",
+      "foundation_foot_rail_post_max_error_m": 3.725290298461914e-08
+    },
+    {
+      "key": "VT_IB",
+      "foundation_foot_rail_post_max_error_m": 2.60770320892334e-08
+    }
+  ],
+  "central_support_contacts": [
+    {
+      "key": "4B81",
+      "pairs": 10,
+      "max_gap_m": 0.0
+    },
+    {
+      "key": "4B80",
+      "pairs": 10,
+      "max_gap_m": 3.725290298461914e-08
+    }
+  ],
+  "measurements": [
+    {
+      "key": "VT_II",
+      "family": "VT",
+      "patches": [
+        {
+          "name": "bus_0",
+          "heldout_count": 304,
+          "rms_m": 0.05459690686155057,
+          "p95_m": 0.1274233654141426,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "fixed local barrel domain |y|<0.87m, radial x/z0.41/0.40m; external station spans remain pending",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_0",
+          "heldout_count": 150,
+          "rms_m": 0.046188086330935414,
+          "p95_m": 0.08496195040643212,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_1",
+          "heldout_count": 72,
+          "rms_m": 0.03130418724202414,
+          "p95_m": 0.06966755762696267,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_2",
+          "heldout_count": 155,
+          "rms_m": 0.04016711698698408,
+          "p95_m": 0.09293526038527483,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "canister_0",
+          "heldout_count": 136,
+          "rms_m": 0.0530561756936711,
+          "p95_m": 0.11547415144741535,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index lower canister domain z0.48–0.94m",
+          "residual_trimming": false
+        },
+        {
+          "name": "canister_1",
+          "heldout_count": 149,
+          "rms_m": 0.04761740508827746,
+          "p95_m": 0.11104245483875269,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index lower canister domain z0.48–0.94m",
+          "residual_trimming": false
+        },
+        {
+          "name": "canister_2",
+          "heldout_count": 130,
+          "rms_m": 0.04844448372434513,
+          "p95_m": 0.10481204316020011,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index lower canister domain z0.48–0.94m",
+          "residual_trimming": false
+        },
+        {
+          "name": "foundation",
+          "heldout_count": 111,
+          "rms_m": 0.032758285955049656,
+          "p95_m": 0.09776121005415916,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent coarse concrete-top patch",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_xm",
+          "heldout_count": 76,
+          "rms_m": 0.016175811705651383,
+          "p95_m": 0.032116456888616085,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent measured cabinet face plane; identity association candidate",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_xp",
+          "heldout_count": 54,
+          "rms_m": 0.03179320882831579,
+          "p95_m": 0.05907054021954533,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent measured cabinet face plane; identity association candidate",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_ym",
+          "heldout_count": 88,
+          "rms_m": 0.01069941205158987,
+          "p95_m": 0.022791961301118116,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent measured cabinet face plane; identity association candidate",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_yp",
+          "heldout_count": 69,
+          "rms_m": 0.011776241358563286,
+          "p95_m": 0.017001620307564733,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent measured cabinet face plane; identity association candidate",
+          "residual_trimming": false
+        }
+      ],
+      "axis_datums": [
+        {
+          "name": "bus_0",
+          "heldout_rms_m": 0.06619123402146176,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_0",
+          "heldout_rms_m": 0.05156192493649698,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_1",
+          "heldout_rms_m": 0.02939547690334679,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_2",
+          "heldout_rms_m": 0.048237285989202246,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "canister_0",
+          "heldout_rms_m": 0.051366401361392505,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "canister_1",
+          "heldout_rms_m": 0.046534571438604955,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "canister_2",
+          "heldout_rms_m": 0.05376045379861511,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        }
+      ]
+    },
+    {
+      "key": "VT_IA",
+      "family": "VT",
+      "patches": [
+        {
+          "name": "bus_1",
+          "heldout_count": 304,
+          "rms_m": 0.05769941694647503,
+          "p95_m": 0.13975586146116256,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "fixed local barrel domain |y|<0.87m, radial x/z0.41/0.40m; external station spans remain pending",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_0",
+          "heldout_count": 122,
+          "rms_m": 0.04240182667536792,
+          "p95_m": 0.07369183711707587,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_1",
+          "heldout_count": 53,
+          "rms_m": 0.05394491577290904,
+          "p95_m": 0.11592277735471716,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_2",
+          "heldout_count": 129,
+          "rms_m": 0.04172854926910344,
+          "p95_m": 0.08724733740091323,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "canister_0",
+          "heldout_count": 95,
+          "rms_m": 0.041514103471478124,
+          "p95_m": 0.10821646153926849,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index lower canister domain z0.48–0.94m",
+          "residual_trimming": false
+        },
+        {
+          "name": "canister_1",
+          "heldout_count": 125,
+          "rms_m": 0.0436734178776224,
+          "p95_m": 0.10744718760251999,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index lower canister domain z0.48–0.94m",
+          "residual_trimming": false
+        },
+        {
+          "name": "canister_2",
+          "heldout_count": 138,
+          "rms_m": 0.0595734204689349,
+          "p95_m": 0.11775481626391412,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index lower canister domain z0.48–0.94m",
+          "residual_trimming": false
+        },
+        {
+          "name": "foundation",
+          "heldout_count": 168,
+          "rms_m": 0.015307168912561122,
+          "p95_m": 0.03132215980440379,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent coarse concrete-top patch",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_xm",
+          "heldout_count": 91,
+          "rms_m": 0.017350872702482572,
+          "p95_m": 0.035503948107361794,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent measured cabinet face plane; identity association candidate",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_xp",
+          "heldout_count": 61,
+          "rms_m": 0.04049826317416615,
+          "p95_m": 0.055818431079387665,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent measured cabinet face plane; identity association candidate",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_ym",
+          "heldout_count": 63,
+          "rms_m": 0.018801904825814637,
+          "p95_m": 0.0448013924062252,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent measured cabinet face plane; identity association candidate",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_yp",
+          "heldout_count": 47,
+          "rms_m": 0.02223517917808735,
+          "p95_m": 0.0532570015639066,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent measured cabinet face plane; identity association candidate",
+          "residual_trimming": false
+        }
+      ],
+      "axis_datums": [
+        {
+          "name": "bus_1",
+          "heldout_rms_m": 0.06649598970797219,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_0",
+          "heldout_rms_m": 0.03617548492827543,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_1",
+          "heldout_rms_m": 0.05916411005394027,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_2",
+          "heldout_rms_m": 0.045374539799357905,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "canister_0",
+          "heldout_rms_m": 0.04672844702281922,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "canister_1",
+          "heldout_rms_m": 0.05115674387934365,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "canister_2",
+          "heldout_rms_m": 0.054856076847567214,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        }
+      ]
+    },
+    {
+      "key": "4B81",
+      "family": "SPARE",
+      "patches": [
+        {
+          "name": "bus_0",
+          "heldout_count": 870,
+          "rms_m": 0.07490046674431135,
+          "p95_m": 0.1567431017756462,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "fixed local barrel domain |y|<0.87m, radial x/z0.41/0.40m; external station spans remain pending",
+          "residual_trimming": false
+        },
+        {
+          "name": "bus_1",
+          "heldout_count": 510,
+          "rms_m": 0.05969406693830135,
+          "p95_m": 0.14065793976187696,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "fixed local barrel domain |y|<0.87m, radial x/z0.41/0.40m; external station spans remain pending",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_0",
+          "heldout_count": 335,
+          "rms_m": 0.04699338919627538,
+          "p95_m": 0.09918902441859245,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_1",
+          "heldout_count": 183,
+          "rms_m": 0.045315969993454386,
+          "p95_m": 0.09697709754109383,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_2",
+          "heldout_count": 326,
+          "rms_m": 0.05055415436423206,
+          "p95_m": 0.1012713611125946,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "foundation",
+          "heldout_count": 284,
+          "rms_m": 0.012431647637474898,
+          "p95_m": 0.02626579655334352,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent coarse concrete-top patch",
+          "residual_trimming": false
+        }
+      ],
+      "axis_datums": [
+        {
+          "name": "bus_0",
+          "heldout_rms_m": 0.07090317890071222,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "bus_1",
+          "heldout_rms_m": 0.054950336129043736,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_0",
+          "heldout_rms_m": 0.04716454936998449,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_1",
+          "heldout_rms_m": 0.03214466736840827,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_2",
+          "heldout_rms_m": 0.041225954807256625,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        }
+      ]
+    },
+    {
+      "key": "4B80",
+      "family": "SPARE",
+      "patches": [
+        {
+          "name": "bus_0",
+          "heldout_count": 602,
+          "rms_m": 0.07723029529822047,
+          "p95_m": 0.16086655557155607,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "fixed local barrel domain |y|<0.87m, radial x/z0.41/0.40m; external station spans remain pending",
+          "residual_trimming": false
+        },
+        {
+          "name": "bus_1",
+          "heldout_count": 422,
+          "rms_m": 0.07341921338116231,
+          "p95_m": 0.15393867567181582,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "fixed local barrel domain |y|<0.87m, radial x/z0.41/0.40m; external station spans remain pending",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_0",
+          "heldout_count": 267,
+          "rms_m": 0.050718997218202125,
+          "p95_m": 0.10296604484319685,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_1",
+          "heldout_count": 161,
+          "rms_m": 0.051750108926259336,
+          "p95_m": 0.10599888116121292,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_2",
+          "heldout_count": 262,
+          "rms_m": 0.04089710884286064,
+          "p95_m": 0.07671083062887189,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "foundation",
+          "heldout_count": 221,
+          "rms_m": 0.011423381045989863,
+          "p95_m": 0.02017512172460556,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent coarse concrete-top patch",
+          "residual_trimming": false
+        }
+      ],
+      "axis_datums": [
+        {
+          "name": "bus_0",
+          "heldout_rms_m": 0.06290618664243201,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "bus_1",
+          "heldout_rms_m": 0.06105722905230692,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_0",
+          "heldout_rms_m": 0.06046217202532685,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_1",
+          "heldout_rms_m": 0.0499326800346995,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_2",
+          "heldout_rms_m": 0.04128871451279097,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        }
+      ]
+    },
+    {
+      "key": "4600",
+      "family": "COUPLER",
+      "patches": [
+        {
+          "name": "bus_0",
+          "heldout_count": 482,
+          "rms_m": 0.07882626926743166,
+          "p95_m": 0.15754529312253,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "fixed local barrel domain |y|<0.87m, radial x/z0.41/0.40m; external station spans remain pending",
+          "residual_trimming": false
+        },
+        {
+          "name": "bus_1",
+          "heldout_count": 268,
+          "rms_m": 0.0853663501657468,
+          "p95_m": 0.165706255286932,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "fixed local barrel domain |y|<0.87m, radial x/z0.41/0.40m; external station spans remain pending",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_0",
+          "heldout_count": 164,
+          "rms_m": 0.056603702005211046,
+          "p95_m": 0.13059314042329787,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_1",
+          "heldout_count": 121,
+          "rms_m": 0.06769496208836218,
+          "p95_m": 0.1586020141839981,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_2",
+          "heldout_count": 200,
+          "rms_m": 0.060124051727502466,
+          "p95_m": 0.13096127957105627,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "lower_return_0",
+          "heldout_count": 136,
+          "rms_m": 0.0382399490930258,
+          "p95_m": 0.0951482504606247,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent lower return patch",
+          "residual_trimming": false
+        },
+        {
+          "name": "lower_return_1",
+          "heldout_count": 10,
+          "rms_m": 0.09745633381505707,
+          "p95_m": 0.1227052893489599,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "independent lower return patch",
+          "residual_trimming": false
+        },
+        {
+          "name": "lower_return_2",
+          "heldout_count": 214,
+          "rms_m": 0.0659254284780811,
+          "p95_m": 0.12252620421350002,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "independent lower return patch",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_xm",
+          "heldout_count": 117,
+          "rms_m": 0.02416314627062881,
+          "p95_m": 0.043691822141408876,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent measured cabinet face plane; identity association candidate",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_xp",
+          "heldout_count": 48,
+          "rms_m": 0.0780074628194515,
+          "p95_m": 0.09325695037841795,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "independent measured cabinet face plane; identity association candidate",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_ym",
+          "heldout_count": 51,
+          "rms_m": 0.04152382378194456,
+          "p95_m": 0.061643049120903015,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent measured cabinet face plane; identity association candidate",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_yp",
+          "heldout_count": 55,
+          "rms_m": 0.040300718344695584,
+          "p95_m": 0.05760186277329919,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent measured cabinet face plane; identity association candidate",
+          "residual_trimming": false
+        }
+      ],
+      "axis_datums": [
+        {
+          "name": "bus_0",
+          "heldout_rms_m": 0.07701051514809046,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "bus_1",
+          "heldout_rms_m": 0.0809012943163431,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_0",
+          "heldout_rms_m": 0.04157603535166429,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_1",
+          "heldout_rms_m": 0.043366558808055254,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_2",
+          "heldout_rms_m": 0.036947449711320496,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "lower_return_0",
+          "heldout_rms_m": 0.03652191794583522,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "lower_return_1",
+          "heldout_rms_m": 0.07745910631344977,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "lower_return_2",
+          "heldout_rms_m": 0.055840155061240127,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        }
+      ]
+    },
+    {
+      "key": "VT_IB",
+      "family": "VT",
+      "patches": [
+        {
+          "name": "bus_0",
+          "heldout_count": 293,
+          "rms_m": 0.05893743543536282,
+          "p95_m": 0.13277105987071988,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "fixed local barrel domain |y|<0.87m, radial x/z0.41/0.40m; external station spans remain pending",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_0",
+          "heldout_count": 145,
+          "rms_m": 0.04545477503552121,
+          "p95_m": 0.08220600485801695,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_1",
+          "heldout_count": 64,
+          "rms_m": 0.04433319299328244,
+          "p95_m": 0.0836924523115158,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "upper_2",
+          "heldout_count": 112,
+          "rms_m": 0.04093146398114732,
+          "p95_m": 0.07732723504304882,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index upper tube patch in predetermined measurement domain",
+          "residual_trimming": false
+        },
+        {
+          "name": "canister_0",
+          "heldout_count": 159,
+          "rms_m": 0.053490367785750996,
+          "p95_m": 0.10792494267225265,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index lower canister domain z0.48–0.94m",
+          "residual_trimming": false
+        },
+        {
+          "name": "canister_1",
+          "heldout_count": 158,
+          "rms_m": 0.050303985268217145,
+          "p95_m": 0.11271633356809618,
+          "five_cm_screen_passed": false,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index lower canister domain z0.48–0.94m",
+          "residual_trimming": false
+        },
+        {
+          "name": "canister_2",
+          "heldout_count": 133,
+          "rms_m": 0.04847782048788084,
+          "p95_m": 0.11478950530290595,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent odd-index lower canister domain z0.48–0.94m",
+          "residual_trimming": false
+        },
+        {
+          "name": "foundation",
+          "heldout_count": 104,
+          "rms_m": 0.02492351580036724,
+          "p95_m": 0.05167241953313351,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent coarse concrete-top patch",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_xm",
+          "heldout_count": 54,
+          "rms_m": 0.012272150133947399,
+          "p95_m": 0.021281795203685755,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent measured cabinet face plane; identity association candidate",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_xp",
+          "heldout_count": 54,
+          "rms_m": 0.026238447812711514,
+          "p95_m": 0.04242420755326746,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent measured cabinet face plane; identity association candidate",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_ym",
+          "heldout_count": 54,
+          "rms_m": 0.013421290647009317,
+          "p95_m": 0.035898006334900784,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent measured cabinet face plane; identity association candidate",
+          "residual_trimming": false
+        },
+        {
+          "name": "cabinet_yp",
+          "heldout_count": 37,
+          "rms_m": 0.003988783138101042,
+          "p95_m": 0.005670999456197018,
+          "five_cm_screen_passed": true,
+          "evidence_sufficient": true,
+          "scope": "independent measured cabinet face plane; identity association candidate",
+          "residual_trimming": false
+        }
+      ],
+      "axis_datums": [
+        {
+          "name": "bus_0",
+          "heldout_rms_m": 0.06334146728385631,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_0",
+          "heldout_rms_m": 0.047932624113106316,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_1",
+          "heldout_rms_m": 0.03276376507830686,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "upper_2",
+          "heldout_rms_m": 0.03832195642979882,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "canister_0",
+          "heldout_rms_m": 0.046610158694818854,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "canister_1",
+          "heldout_rms_m": 0.05469730068757702,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        },
+        {
+          "name": "canister_2",
+          "heldout_rms_m": 0.05265708761645695,
+          "scope": "infinite cylinder datum only, independent from finite modeled envelope checks"
+        }
+      ]
+    }
+  ],
+  "local_screens_passed": 37,
+  "local_screens_unpassed": 23,
+  "camera_framing": {
+    "354_B19_VT_II_Front_Clean": {
+      "min": [
+        0.3148682117462158,
+        0.05000001937150955
+      ],
+      "max": [
+        0.6433677077293396,
+        0.9207850098609924
+      ]
+    },
+    "357_B19_VT_II_Top_Clean": {
+      "min": [
+        0.30357086658477783,
+        0.18306519091129303
+      ],
+      "max": [
+        0.6700915098190308,
+        0.8364903926849365
+      ]
+    },
+    "360_B19_VT_IA_Front_Clean": {
+      "min": [
+        0.06155593693256378,
+        0.09300538897514343
+      ],
+      "max": [
+        0.949999988079071,
+        0.8939542770385742
+      ]
+    },
+    "363_B19_VT_IA_Top_Clean": {
+      "min": [
+        0.09624949842691422,
+        0.13449715077877045
+      ],
+      "max": [
+        0.8845460414886475,
+        0.7861644625663757
+      ]
+    },
+    "366_B19_4B81_Front_Clean": {
+      "min": [
+        0.27242499589920044,
+        0.050000011920928955
+      ],
+      "max": [
+        0.7265951633453369,
+        0.9075956344604492
+      ]
+    },
+    "369_B19_4B81_Top_Clean": {
+      "min": [
+        0.2886490821838379,
+        0.30810874700546265
+      ],
+      "max": [
+        0.7093997001647949,
+        0.696910560131073
+      ]
+    },
+    "372_B19_4B80_Front_Clean": {
+      "min": [
+        0.2730157673358917,
+        0.05000000447034836
+      ],
+      "max": [
+        0.7269837856292725,
+        0.9100682735443115
+      ]
+    },
+    "375_B19_4B80_Top_Clean": {
+      "min": [
+        0.28962409496307373,
+        0.31099918484687805
+      ],
+      "max": [
+        0.7103745937347412,
+        0.6890004873275757
+      ]
+    },
+    "378_B19_4600_Front_Clean": {
+      "min": [
+        0.14681407809257507,
+        0.04999999701976776
+      ],
+      "max": [
+        0.858044445514679,
+        0.8461776375770569
+      ]
+    },
+    "381_B19_4600_Top_Clean": {
+      "min": [
+        0.07701575756072998,
+        0.3037124276161194
+      ],
+      "max": [
+        0.9220873117446899,
+        0.6781131029129028
+      ]
+    },
+    "384_B19_VT_IB_Front_Clean": {
+      "min": [
+        0.2125387191772461,
+        0.0723479762673378
+      ],
+      "max": [
+        0.7794601321220398,
+        0.858802318572998
+      ]
+    },
+    "387_B19_VT_IB_Top_Clean": {
+      "min": [
+        0.3285694718360901,
+        0.1937006413936615
+      ],
+      "max": [
+        0.6914201974868774,
+        0.860759437084198
+      ]
+    },
+    "390_B19_4100_Front_Clean": {
+      "min": [
+        0.24367980659008026,
+        0.05000001937150955
+      ],
+      "max": [
+        0.7653929591178894,
+        0.9334884881973267
+      ]
+    },
+    "393_B19_4100_Top_Clean": {
+      "min": [
+        0.4399036467075348,
+        0.049999963492155075
+      ],
+      "max": [
+        0.64106285572052,
+        0.9023064374923706
+      ]
+    },
+    "396_B19_4801_Front_Clean": {
+      "min": [
+        0.15274620056152344,
+        0.05523156374692917
+      ],
+      "max": [
+        0.7894372344017029,
+        0.8327421545982361
+      ]
+    },
+    "399_B19_4801_Top_Clean": {
+      "min": [
+        0.2824234366416931,
+        0.22134295105934143
+      ],
+      "max": [
+        0.8493452072143555,
+        0.9193115234375
+      ]
+    },
+    "402_B19_4800_Front_Clean": {
+      "min": [
+        0.1469453126192093,
+        0.049999989569187164
+      ],
+      "max": [
+        0.8671899437904358,
+        0.8523080348968506
+      ]
+    },
+    "405_B19_4800_Top_Clean": {
+      "min": [
+        0.059206366539001465,
+        0.2956113815307617
+      ],
+      "max": [
+        0.9147500991821289,
+        0.6700120568275452
+      ]
+    }
+  },
+  "pending": [
+    "Six body models and independent supports are exterior approximations; all finite-surface failures retained.",
+    "Remaining long220kV mother-bus spools and4100 section bends need connected-row integration; ports are explicit.",
+    "4B80/4B81 separate control cabinets not verified; old guessed cabinets omitted in candidate station only.",
+    "IA/II cabinet associations based on photo-relative arrangement; phase names and exact electrical topology unasserted.",
+    "4801/4800/4100 original refined geometry retained for review, not counted as newly completed devices.",
+    "Inherited B11-B18 unpassed patches, external high voltage leads and other outdoor families remain."
+  ],
+  "formal_promotions": 0,
+  "outdoor_goal_complete": false,
+  "saved_by_validator": false
+}

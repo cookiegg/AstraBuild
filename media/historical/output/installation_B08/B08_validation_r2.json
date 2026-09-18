@@ -1,0 +1,138 @@
+{
+  "status": "passed",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/xialin_B08_shared_transformers_r2.blend",
+  "sha256": "69f59b972458e2a6e95726477f49f46aaff8baec2f76fe04f94f3f1aac010403",
+  "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/B08_transformer_shared_asset_r2.blend",
+  "asset_sha256": "8afc3ee891019eb1137aa5a722bd6e120a381101fdd1f64147391b62f7510bca",
+  "acceptance_scope": "saved reuse, exterior bank holdouts, attachments, framing, and preservation; not full mechanical/electrical acceptance",
+  "original_objects_unchanged": 21459,
+  "original_collections_unchanged": 228,
+  "original_scenes_unchanged": 18,
+  "original_materials_unchanged": 256,
+  "formal_v50_components_preserved": 15096,
+  "B06_civil_meshes_preserved": 69,
+  "legacy_meshes_omitted_only_in_new_scenes": 378,
+  "retained_original_components_in_new_station": 14347,
+  "shared_master": "B08_TRANSFORMER_MASTER",
+  "shared_roots": 2,
+  "uniform_rigid_site_instances": true,
+  "shared_edit_propagation_checked": true,
+  "edit_probe_saved": false,
+  "master_direct_meshes": 473,
+  "master_nested_instances": 47,
+  "expanded_meshes_per_unit": 1606,
+  "depsgraph_counts": {
+    "T1": 1606,
+    "T2": 1606
+  },
+  "radiator_packs_per_unit": 34,
+  "visible_roof_bushings_per_unit": 11,
+  "accessory_cabinets_per_unit": 2,
+  "site_conductor_meshes": 24,
+  "site_routes_independently_traced": true,
+  "terminal_max_error_m": 1.9895036879324568e-06,
+  "supports_contact_checked": true,
+  "asset_export_geometry_identical": true,
+  "bank_measurements": [
+    {
+      "unit": "T1",
+      "bank": "front",
+      "heldout_triangles": 1226,
+      "median_abs_m": 0.011234621058337835,
+      "p95_abs_m": 0.19335346277835563,
+      "actual_saved_leaf_outer_y": -3.9227632880210876,
+      "acceptance_scope": "outer bank plane only; no survey or whole-unit accuracy claim"
+    },
+    {
+      "unit": "T1",
+      "bank": "rear",
+      "heldout_triangles": 1000,
+      "median_abs_m": 0.008957824629305833,
+      "p95_abs_m": 0.2832837902586915,
+      "actual_saved_leaf_outer_y": 3.960145653653121,
+      "acceptance_scope": "outer bank plane only; no survey or whole-unit accuracy claim"
+    },
+    {
+      "unit": "T2",
+      "bank": "front",
+      "heldout_triangles": 1267,
+      "median_abs_m": 0.02115037839411782,
+      "p95_abs_m": 0.6200844731980836,
+      "actual_saved_leaf_outer_y": -3.9227632880210876,
+      "acceptance_scope": "outer bank plane only; no survey or whole-unit accuracy claim"
+    },
+    {
+      "unit": "T2",
+      "bank": "rear",
+      "heldout_triangles": 1105,
+      "median_abs_m": 0.019049190567619778,
+      "p95_abs_m": 0.25036739955986104,
+      "actual_saved_leaf_outer_y": 3.960145653653121,
+      "acceptance_scope": "outer bank plane only; no survey or whole-unit accuracy claim"
+    }
+  ],
+  "camera_framing": {
+    "36_B08_T1_Front_Clean": {
+      "min": [
+        0.08381598442792892,
+        0.050135236233472824
+      ],
+      "max": [
+        0.9098900556564331,
+        0.8426094651222229
+      ]
+    },
+    "37_B08_T1_Rear_Clean": {
+      "min": [
+        0.09312770515680313,
+        0.08165967464447021
+      ],
+      "max": [
+        0.912103533744812,
+        0.8015510439872742
+      ]
+    },
+    "39_B08_T1_Top_Overlay": {
+      "min": [
+        0.1880950927734375,
+        0.11466667801141739
+      ],
+      "max": [
+        0.8119046092033386,
+        0.9037905335426331
+      ]
+    },
+    "40_B08_T2_Rear_Clean": {
+      "min": [
+        0.09312792867422104,
+        0.08165955543518066
+      ],
+      "max": [
+        0.9121039509773254,
+        0.8015508651733398
+      ]
+    },
+    "42_B08_Transformer_Pair": {
+      "min": [
+        0.07184763997793198,
+        0.09167705476284027
+      ],
+      "max": [
+        0.917923092842102,
+        0.8817872405052185
+      ]
+    }
+  },
+  "protected_files_unchanged": 380,
+  "additional_source_photos_unchanged": 10,
+  "formal_promotions": 0,
+  "complete_transformer": false,
+  "pending": [
+    "individual radiator fin and bushing shed counts",
+    "occluded internal oil path and hidden tank dimensions",
+    "exact nameplate/rating mapping and electrical clearances",
+    "surround/cabinet and conductor dimensions are coarse-relative candidates",
+    "remote lead junctions, short-terminal connections to separate equipment and full station electrical topology"
+  ],
+  "blend_saved_by_validator": false
+}

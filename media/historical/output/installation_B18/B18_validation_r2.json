@@ -1,0 +1,1954 @@
+{
+  "status": "saved_geometry_and_history_preserved_partial_alignment",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/r2/xialin_B18_220kV_arresters_r2.blend",
+  "sha256": "176d78f3610b988f1662c4830f73728b184193472199934af8b3e902a8dde257",
+  "previous_objects_unchanged": 26468,
+  "previous_scenes_unchanged": 296,
+  "previous_collections_unchanged": 447,
+  "previous_materials_unchanged": 316,
+  "protected_previous_files_unchanged": 1480,
+  "formal_baseline_preserved": 15096,
+  "legacy_meshes_remaining": 2672,
+  "new_candidates": 18,
+  "shared_body_instances": 18,
+  "source_asset_roundtrip_identical": true,
+  "contacts": [
+    {
+      "key": "2899_A",
+      "axis_error_m": 1.1409678013099587e-06,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 3.725290298461914e-08
+    },
+    {
+      "key": "2899_B",
+      "axis_error_m": 9.309689703145575e-07,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 3.725290298461914e-08
+    },
+    {
+      "key": "2899_C",
+      "axis_error_m": 7.266250470820059e-07,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 3.725290298461914e-08
+    },
+    {
+      "key": "4B77_A",
+      "axis_error_m": 4.25824736328394e-07,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 3.725290298461914e-08
+    },
+    {
+      "key": "4B77_B",
+      "axis_error_m": 1.3874675635400157e-06,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 3.725290298461914e-08
+    },
+    {
+      "key": "4B77_C",
+      "axis_error_m": 2.3480116900369205e-06,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 3.725290298461914e-08
+    },
+    {
+      "key": "4D75_A",
+      "axis_error_m": 1.4615316966007807e-06,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 2.0116567611694336e-07
+    },
+    {
+      "key": "4D75_B",
+      "axis_error_m": 1.1597767459661414e-06,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 3.725290298461914e-08
+    },
+    {
+      "key": "4D75_C",
+      "axis_error_m": 1.1125360904132455e-06,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 3.725290298461914e-08
+    },
+    {
+      "key": "4D76_A",
+      "axis_error_m": 5.292281604183893e-07,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 3.725290298461914e-08
+    },
+    {
+      "key": "4D76_B",
+      "axis_error_m": 6.194516585220885e-07,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 2.0116567611694336e-07
+    },
+    {
+      "key": "4D76_C",
+      "axis_error_m": 1.6909976364713964e-06,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 3.725290298461914e-08
+    },
+    {
+      "key": "T1_HV_A",
+      "axis_error_m": 2.0150717236756617e-06,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 2.0116567611694336e-07
+    },
+    {
+      "key": "T1_HV_B",
+      "axis_error_m": 7.399542094685727e-07,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 2.0116567611694336e-07
+    },
+    {
+      "key": "T1_HV_C",
+      "axis_error_m": 9.234934166832715e-07,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 3.725290298461914e-08
+    },
+    {
+      "key": "T2_HV_A",
+      "axis_error_m": 8.312368358476463e-07,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 2.0116567611694336e-07
+    },
+    {
+      "key": "T2_HV_B",
+      "axis_error_m": 4.6628959723563906e-07,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 2.0116567611694336e-07
+    },
+    {
+      "key": "T2_HV_C",
+      "axis_error_m": 1.5133125919850424e-06,
+      "foundation_steel_post_contact": true,
+      "post_cap_contact": true,
+      "four_mounts_to_body_max_error_m": 3.725290298461914e-08
+    }
+  ],
+  "measurements": [
+    {
+      "key": "2899_A",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 186,
+          "rms_m": 0.029909581946623597,
+          "p95_m": 0.05964325089007616,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 332,
+          "rms_m": 0.007667672079187103,
+          "p95_m": 0.013944553630426525,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 297,
+          "rms_m": 0.008992107575744876,
+          "p95_m": 0.015579694509506225,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 80,
+          "rms_m": 0.01851142531421823,
+          "p95_m": 0.036002764105796815,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 34,
+          "rms_m": 0.03646967031313989,
+          "p95_m": 0.0643749214708805,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 93,
+          "rms_m": 0.019770084027403816,
+          "p95_m": 0.03773892149329177,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 77,
+          "rms_m": 0.013185419769241676,
+          "p95_m": 0.02329900413751602,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.05556337338445951,
+      "independent_axis_delta_m": 0.003410680053726873,
+      "phase_identity_provisional": false
+    },
+    {
+      "key": "2899_B",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 200,
+          "rms_m": 0.026207628629149018,
+          "p95_m": 0.05386761780828236,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 285,
+          "rms_m": 0.0077209888527476995,
+          "p95_m": 0.014424590952694417,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 312,
+          "rms_m": 0.017904771462301093,
+          "p95_m": 0.03595782350748777,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 84,
+          "rms_m": 0.01964423919193212,
+          "p95_m": 0.039457806386053555,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 24,
+          "rms_m": 0.03940790963973793,
+          "p95_m": 0.06599082760512828,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 95,
+          "rms_m": 0.025736578644150857,
+          "p95_m": 0.058287179097533226,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 59,
+          "rms_m": 0.01233659349914518,
+          "p95_m": 0.019339974224567402,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.026484532822688464,
+      "independent_axis_delta_m": 0.004618294453115113,
+      "phase_identity_provisional": false
+    },
+    {
+      "key": "2899_C",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 199,
+          "rms_m": 0.022715471031744382,
+          "p95_m": 0.04855208471417427,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 490,
+          "rms_m": 0.008081498656690292,
+          "p95_m": 0.01514406474307175,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 398,
+          "rms_m": 0.010733662954598974,
+          "p95_m": 0.013867427175864562,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 71,
+          "rms_m": 0.015323300922351927,
+          "p95_m": 0.028082055039703846,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 27,
+          "rms_m": 0.04365747820890934,
+          "p95_m": 0.06689865589141845,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 94,
+          "rms_m": 0.020353476866391926,
+          "p95_m": 0.03907512594014405,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 72,
+          "rms_m": 0.010758611974953088,
+          "p95_m": 0.01865491569042206,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.05375172591833673,
+      "independent_axis_delta_m": 0.004452950813964526,
+      "phase_identity_provisional": false
+    },
+    {
+      "key": "4B77_A",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 178,
+          "rms_m": 0.02512959801415045,
+          "p95_m": 0.04962789099663496,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 322,
+          "rms_m": 0.007420217177240523,
+          "p95_m": 0.01283062808215618,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 346,
+          "rms_m": 0.018138876171269955,
+          "p95_m": 0.03196911560371518,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 80,
+          "rms_m": 0.0313166984479671,
+          "p95_m": 0.06461544521152973,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 28,
+          "rms_m": 0.044621367294045304,
+          "p95_m": 0.07115327119827271,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 77,
+          "rms_m": 0.02391570682486798,
+          "p95_m": 0.04567497819662095,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 44,
+          "rms_m": 0.012902077225149617,
+          "p95_m": 0.02081212177872658,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.049537418408749964,
+      "independent_axis_delta_m": 0.008109155643605958,
+      "phase_identity_provisional": true
+    },
+    {
+      "key": "4B77_B",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 168,
+          "rms_m": 0.025281137665858742,
+          "p95_m": 0.04542454853653908,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 279,
+          "rms_m": 0.008243661118930472,
+          "p95_m": 0.014646227285265908,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 338,
+          "rms_m": 0.020469204207560033,
+          "p95_m": 0.04135196320712548,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 82,
+          "rms_m": 0.018048523522092606,
+          "p95_m": 0.03851955831050874,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 20,
+          "rms_m": 0.038559354161874636,
+          "p95_m": 0.06689359433948994,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 75,
+          "rms_m": 0.02089221132874143,
+          "p95_m": 0.03683658987283706,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 49,
+          "rms_m": 0.011822975576420694,
+          "p95_m": 0.019304618239402768,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.05767742221189354,
+      "independent_axis_delta_m": 0.005122930407657214,
+      "phase_identity_provisional": true
+    },
+    {
+      "key": "4B77_C",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 160,
+          "rms_m": 0.026753014779969983,
+          "p95_m": 0.051764744333922856,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 268,
+          "rms_m": 0.006721066629608574,
+          "p95_m": 0.012376202782616018,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 210,
+          "rms_m": 0.013867776886175203,
+          "p95_m": 0.01845955550670623,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 60,
+          "rms_m": 0.0222609318120437,
+          "p95_m": 0.04043953232467174,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 29,
+          "rms_m": 0.042631422242504165,
+          "p95_m": 0.06641477346420288,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 90,
+          "rms_m": 0.026472744047565975,
+          "p95_m": 0.05479126442223787,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 60,
+          "rms_m": 0.01189520391273208,
+          "p95_m": 0.02172233909368515,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.07539317560983275,
+      "independent_axis_delta_m": 0.029213502789414248,
+      "phase_identity_provisional": true
+    },
+    {
+      "key": "4D75_A",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 157,
+          "rms_m": 0.027861422282771102,
+          "p95_m": 0.05445243418216705,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 330,
+          "rms_m": 0.007567335267948457,
+          "p95_m": 0.013351537100970746,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 293,
+          "rms_m": 0.018333681058343647,
+          "p95_m": 0.032093754410743705,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 82,
+          "rms_m": 0.03620748942870033,
+          "p95_m": 0.06596652083098889,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 25,
+          "rms_m": 0.037730875088026194,
+          "p95_m": 0.06999770253896713,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 80,
+          "rms_m": 0.026695337670649074,
+          "p95_m": 0.053878844715654836,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 51,
+          "rms_m": 0.010766558585101263,
+          "p95_m": 0.019248150289058685,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.08247200280063771,
+      "independent_axis_delta_m": 0.012620550611824106,
+      "phase_identity_provisional": false
+    },
+    {
+      "key": "4D75_B",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 203,
+          "rms_m": 0.023596644250075988,
+          "p95_m": 0.04997850693762302,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 293,
+          "rms_m": 0.007541353230799468,
+          "p95_m": 0.012579653412103653,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 419,
+          "rms_m": 0.012865379515158778,
+          "p95_m": 0.023978557623922796,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 88,
+          "rms_m": 0.016464515578365237,
+          "p95_m": 0.03448909930884838,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 26,
+          "rms_m": 0.03793829091982913,
+          "p95_m": 0.0676669180393219,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 78,
+          "rms_m": 0.024754545313148257,
+          "p95_m": 0.059380591288208946,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 49,
+          "rms_m": 0.014706391959992056,
+          "p95_m": 0.02378583550453185,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.06701489775754423,
+      "independent_axis_delta_m": 0.007576821309997246,
+      "phase_identity_provisional": false
+    },
+    {
+      "key": "4D75_C",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 195,
+          "rms_m": 0.026069936552594035,
+          "p95_m": 0.05243854932487009,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 382,
+          "rms_m": 0.00944713065000757,
+          "p95_m": 0.014021118171513077,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 580,
+          "rms_m": 0.020312708208531195,
+          "p95_m": 0.041828981786966306,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 99,
+          "rms_m": 0.016811080973998617,
+          "p95_m": 0.033953958377242084,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 27,
+          "rms_m": 0.035711277045543194,
+          "p95_m": 0.06670148819684982,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 82,
+          "rms_m": 0.025397793853154015,
+          "p95_m": 0.05704646687954665,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 65,
+          "rms_m": 0.0121390538961784,
+          "p95_m": 0.0204818457365036,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.05293180159477355,
+      "independent_axis_delta_m": 0.005482501083640473,
+      "phase_identity_provisional": false
+    },
+    {
+      "key": "4D76_A",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 218,
+          "rms_m": 0.02330677115114543,
+          "p95_m": 0.04598711747676133,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 382,
+          "rms_m": 0.00846598180007765,
+          "p95_m": 0.013909540884196757,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 357,
+          "rms_m": 0.009887662894759848,
+          "p95_m": 0.019688482210040083,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 69,
+          "rms_m": 0.014784567586706118,
+          "p95_m": 0.030750824511051177,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 37,
+          "rms_m": 0.039612963675436194,
+          "p95_m": 0.06717621535062789,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 110,
+          "rms_m": 0.020136788055715456,
+          "p95_m": 0.044399256817996495,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 64,
+          "rms_m": 0.012681869133706355,
+          "p95_m": 0.02345699593424797,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.08083372701156205,
+      "independent_axis_delta_m": 0.00599986250721378,
+      "phase_identity_provisional": false
+    },
+    {
+      "key": "4D76_B",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 232,
+          "rms_m": 0.024575566129970243,
+          "p95_m": 0.04927230440080166,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 316,
+          "rms_m": 0.006787214306655913,
+          "p95_m": 0.012076380895450711,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 400,
+          "rms_m": 0.01361373993948972,
+          "p95_m": 0.021046437229961152,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 84,
+          "rms_m": 0.01942187154826491,
+          "p95_m": 0.03487506434321403,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 23,
+          "rms_m": 0.039101866688156274,
+          "p95_m": 0.06983806937932968,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 84,
+          "rms_m": 0.023457910722511823,
+          "p95_m": 0.052221882157027714,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 64,
+          "rms_m": 0.013208191665368359,
+          "p95_m": 0.022568334639072412,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.05786225781728824,
+      "independent_axis_delta_m": 0.005266905754610638,
+      "phase_identity_provisional": false
+    },
+    {
+      "key": "4D76_C",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 227,
+          "rms_m": 0.02031588782730289,
+          "p95_m": 0.04407352693378925,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 413,
+          "rms_m": 0.009220830952698756,
+          "p95_m": 0.015614236518740648,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 385,
+          "rms_m": 0.02206018370691963,
+          "p95_m": 0.045787482708692546,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 81,
+          "rms_m": 0.031181645545615904,
+          "p95_m": 0.05790917947888374,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 25,
+          "rms_m": 0.023945154410763135,
+          "p95_m": 0.04119073301553725,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 84,
+          "rms_m": 0.026852700060686237,
+          "p95_m": 0.05483531728386878,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 60,
+          "rms_m": 0.011673477393266778,
+          "p95_m": 0.021798013150691985,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.019492768221442924,
+      "independent_axis_delta_m": 0.002287013353436431,
+      "phase_identity_provisional": false
+    },
+    {
+      "key": "T1_HV_A",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 191,
+          "rms_m": 0.01990485107797895,
+          "p95_m": 0.04154182784259319,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 465,
+          "rms_m": 0.007772239301635815,
+          "p95_m": 0.014755511842668056,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 456,
+          "rms_m": 0.018006079500770114,
+          "p95_m": 0.03133710008114576,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 88,
+          "rms_m": 0.022163922197892694,
+          "p95_m": 0.04798108618706461,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 26,
+          "rms_m": 0.0328321233689105,
+          "p95_m": 0.06656554713845253,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 87,
+          "rms_m": 0.021009494371095307,
+          "p95_m": 0.04723178893327714,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 54,
+          "rms_m": 0.010931583023505333,
+          "p95_m": 0.020449532382190227,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.046116381280908565,
+      "independent_axis_delta_m": 0.001923269249753531,
+      "phase_identity_provisional": false
+    },
+    {
+      "key": "T1_HV_B",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 159,
+          "rms_m": 0.020547444797564453,
+          "p95_m": 0.03911470174789429,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 424,
+          "rms_m": 0.007817980411591917,
+          "p95_m": 0.013415823876857755,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 395,
+          "rms_m": 0.011636231381783296,
+          "p95_m": 0.014352454338222742,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 88,
+          "rms_m": 0.01993816526866905,
+          "p95_m": 0.0396595824509859,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 21,
+          "rms_m": 0.044012099397980044,
+          "p95_m": 0.06980053335428238,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 69,
+          "rms_m": 0.018198562625144327,
+          "p95_m": 0.036999592185020434,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 64,
+          "rms_m": 0.011835510143012755,
+          "p95_m": 0.021572179254144428,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.04147512478405113,
+      "independent_axis_delta_m": 0.002335471013223824,
+      "phase_identity_provisional": false
+    },
+    {
+      "key": "T1_HV_C",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 197,
+          "rms_m": 0.024289917300123226,
+          "p95_m": 0.04458533450961113,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 377,
+          "rms_m": 0.007763693248809351,
+          "p95_m": 0.01351880207657814,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 495,
+          "rms_m": 0.012661784763145306,
+          "p95_m": 0.023424169793724962,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 105,
+          "rms_m": 0.0314183921261084,
+          "p95_m": 0.0660203531384468,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 30,
+          "rms_m": 0.04104533654640744,
+          "p95_m": 0.06624486930668354,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 38,
+          "rms_m": 0.05359029342027965,
+          "p95_m": 0.07440176755189895,
+          "five_cm_screen_passed": false,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 52,
+          "rms_m": 0.011437564502900949,
+          "p95_m": 0.02002476593479514,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.07182618414393754,
+      "independent_axis_delta_m": 0.002169407916783514,
+      "phase_identity_provisional": false
+    },
+    {
+      "key": "T2_HV_A",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 155,
+          "rms_m": 0.01942581707769233,
+          "p95_m": 0.037967547401785845,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 493,
+          "rms_m": 0.008134966026258975,
+          "p95_m": 0.012738125771284102,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 485,
+          "rms_m": 0.016271834080469366,
+          "p95_m": 0.030333091318607328,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 81,
+          "rms_m": 0.017259467036021995,
+          "p95_m": 0.03512458875775337,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 24,
+          "rms_m": 0.04256088654553958,
+          "p95_m": 0.07098742872476578,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 88,
+          "rms_m": 0.01815880355788273,
+          "p95_m": 0.03385911639779805,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 44,
+          "rms_m": 0.012161600472888192,
+          "p95_m": 0.021222806349396706,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.07101495442738735,
+      "independent_axis_delta_m": 0.0037323641674170704,
+      "phase_identity_provisional": false
+    },
+    {
+      "key": "T2_HV_B",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 158,
+          "rms_m": 0.02583210527555239,
+          "p95_m": 0.04322520177811384,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 437,
+          "rms_m": 0.009703052498677265,
+          "p95_m": 0.020048505812883376,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 478,
+          "rms_m": 0.016460031864690246,
+          "p95_m": 0.020841939561068997,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 83,
+          "rms_m": 0.014110841957313715,
+          "p95_m": 0.031038459949195383,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 29,
+          "rms_m": 0.03320696040335306,
+          "p95_m": 0.06622342467308043,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 74,
+          "rms_m": 0.02399326919294435,
+          "p95_m": 0.04876099266111848,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 59,
+          "rms_m": 0.011347567652833032,
+          "p95_m": 0.020627453550696357,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.07826713757347394,
+      "independent_axis_delta_m": 0.006031478582182695,
+      "phase_identity_provisional": false
+    },
+    {
+      "key": "T2_HV_C",
+      "patches": [
+        {
+          "name": "shaft",
+          "heldout_count": 175,
+          "rms_m": 0.02027355294894999,
+          "p95_m": 0.04214426577091216,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "same held-out height band; bare-post envelope radius0.23m excludes side equipment"
+        },
+        {
+          "name": "lower_porcelain",
+          "heldout_count": 378,
+          "rms_m": 0.010369588827010152,
+          "p95_m": 0.021019023098051547,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "upper_porcelain",
+          "heldout_count": 454,
+          "rms_m": 0.022552583464326634,
+          "p95_m": 0.050867855362594055,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "visible porcelain envelope, fixed relative height band and radius0.28m; independent odd-index observations"
+        },
+        {
+          "name": "middle_joint",
+          "heldout_count": 94,
+          "rms_m": 0.016437715182090706,
+          "p95_m": 0.0319650650024414,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "top_cap",
+          "heldout_count": 27,
+          "rms_m": 0.03517919503191422,
+          "p95_m": 0.06642718762159347,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "grading_ring",
+          "heldout_count": 62,
+          "rms_m": 0.027097364577190624,
+          "p95_m": 0.05634946804493663,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        },
+        {
+          "name": "foundation_top",
+          "heldout_count": 53,
+          "rms_m": 0.011681092669307938,
+          "p95_m": 0.022011778503656387,
+          "five_cm_screen_passed": true,
+          "geometric_limit_m": 0.05,
+          "evidence_sufficient": true,
+          "residual_trimming": false,
+          "scope": "actual saved finite component surfaces",
+          "source_domain": "fixed reference domain"
+        }
+      ],
+      "original_wide_shaft_rms_m": 0.039757486734102475,
+      "independent_axis_delta_m": 0.004071635937115432,
+      "phase_identity_provisional": false
+    }
+  ],
+  "local_screens_passed": 125,
+  "local_screens_unpassed": 1,
+  "all_local_screens_passed_devices": [
+    "2899_A",
+    "2899_B",
+    "2899_C",
+    "4B77_A",
+    "4B77_B",
+    "4B77_C",
+    "4D75_A",
+    "4D75_B",
+    "4D75_C",
+    "4D76_A",
+    "4D76_B",
+    "4D76_C",
+    "T1_HV_A",
+    "T1_HV_B",
+    "T2_HV_A",
+    "T2_HV_B",
+    "T2_HV_C"
+  ],
+  "camera_framing": {
+    "314_B18_2899_Front_Clean": {
+      "min": [
+        0.17524413764476776,
+        0.050000034272670746
+      ],
+      "max": [
+        0.8224830627441406,
+        0.8742343783378601
+      ]
+    },
+    "317_B18_2899_Side_Clean": {
+      "min": [
+        0.31897667050361633,
+        0.05000000447034836
+      ],
+      "max": [
+        0.677582859992981,
+        0.8816359043121338
+      ]
+    },
+    "320_B18_4B77_Front_Clean": {
+      "min": [
+        0.17624053359031677,
+        0.05000002309679985
+      ],
+      "max": [
+        0.8272243142127991,
+        0.878611147403717
+      ]
+    },
+    "323_B18_4B77_Side_Clean": {
+      "min": [
+        0.32106420397758484,
+        0.05000000447034836
+      ],
+      "max": [
+        0.6843648552894592,
+        0.8847879767417908
+      ]
+    },
+    "326_B18_4D75_Front_Clean": {
+      "min": [
+        0.1780390739440918,
+        0.049999989569187164
+      ],
+      "max": [
+        0.8208539485931396,
+        0.8641029596328735
+      ]
+    },
+    "329_B18_4D75_Side_Clean": {
+      "min": [
+        0.3191510736942291,
+        0.05000000447034836
+      ],
+      "max": [
+        0.6801758408546448,
+        0.8722499012947083
+      ]
+    },
+    "332_B18_4D76_Front_Clean": {
+      "min": [
+        0.17749373614788055,
+        0.04999997094273567
+      ],
+      "max": [
+        0.8204872012138367,
+        0.8702513575553894
+      ]
+    },
+    "335_B18_4D76_Side_Clean": {
+      "min": [
+        0.3204164505004883,
+        0.04999997839331627
+      ],
+      "max": [
+        0.6774425506591797,
+        0.8789702653884888
+      ]
+    },
+    "338_B18_T1_HV_Front_Clean": {
+      "min": [
+        0.16560684144496918,
+        0.04999999329447746
+      ],
+      "max": [
+        0.8340769410133362,
+        0.9081544876098633
+      ]
+    },
+    "341_B18_T1_HV_Side_Clean": {
+      "min": [
+        0.315284788608551,
+        0.05000000447034836
+      ],
+      "max": [
+        0.6843311786651611,
+        0.9143957495689392
+      ]
+    },
+    "344_B18_T2_HV_Front_Clean": {
+      "min": [
+        0.16971175372600555,
+        0.05000003054738045
+      ],
+      "max": [
+        0.834586501121521,
+        0.9010021686553955
+      ]
+    },
+    "347_B18_T2_HV_Side_Clean": {
+      "min": [
+        0.31936436891555786,
+        0.05000000074505806
+      ],
+      "max": [
+        0.6864640712738037,
+        0.9079278111457825
+      ]
+    }
+  },
+  "pending": [
+    "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
+    "4B77 aliases and phase identities are provisional; no phase label text invented.",
+    "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
+    "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+  ],
+  "formal_promotions": 0,
+  "outdoor_goal_complete": false,
+  "scope": "major body and installation reference surfaces; accessories approximate, phase identities provisional where noted",
+  "saved_by_validator": false
+}

@@ -1,0 +1,26 @@
+{
+  "render_images": 16,
+  "interactive_cases": 8,
+  "embedded_render_hashes": {
+    "500_B24_Station_Clean": "90fa7a6f327885b3b1917890ec6c45daa499939f096eaffd4043ef60839b77ad",
+    "501_B24_Station_Overlay": "82a801fe45c98e109f173246b97835e798272ac43a913e500c37589934643603",
+    "502_B24_Pair_Oblique_Clean": "16aab95e9523f26a87838c89489f4ad62123e870c003fa52540a3e8b78495fc3",
+    "503_B24_Pair_Oblique_Overlay": "809562ba0dbf0c981b9e61e045e1524fa5a436ced035a6d14068c2964b830c39",
+    "504_B24_Pair_Oblique_Reference": "9f57c5cb167c8819ed551a25388935d3af57499cca111fb4a9d74ee432a4116a",
+    "505_B24_Master_Doors": "e230d5102b214820427c0d385f524a28be5681f65821f3f62ba3bdf188edaeaa",
+    "506_B24_Master_Blank": "ed787f390c9f2f45c3315b0d2b270a188a51d31caff12037d7e9354ce981a881",
+    "507_B24_305_Doors_Clean": "5f78ebd00963dddd41a90d226065916c67e9956712e7352034f1b135163c7d22",
+    "508_B24_305_Doors_Overlay": "de05e33c89cc75f48789257ebe8a0d45c11c6d14709ee7d63fa9ce9735ca2ed2",
+    "509_B24_305_Doors_Reference": "159bf2251ec3e7e897b1f0dbcb370144dc14246d265872d9e90464d5b0020e98",
+    "510_B24_306_Doors_Clean": "206e9d31a57a3d84b512aaf7c121b51372a0fe9e608c5e92053d6e08f0b62e6c",
+    "511_B24_306_Doors_Overlay": "70b6599a592e3aab8921cca2e4d9db223f267c3c196a94ca8ac3f64b44b28467",
+    "512_B24_306_Doors_Reference": "dfa538e96e2751485b8a584619b94a0f18dbd3bd9a63603999e29f7d2937d4c3",
+    "513_B24_Pair_Top_Clean": "0b6d2bab4a881783a74c0b6f0b350282c724c6250cf07bc7aa149aed33a287e9",
+    "514_B24_Pair_Top_Overlay": "3ba8d8b1ed624a2ea01800c057b963cfd0054f532bf0aa76c8bd3225d58c8f1b",
+    "515_B24_Pair_Top_Reference": "9fca6a21b483ca84c3a4b471e9d07bc525d83df440421a779b6c3c1873a1282c"
+  },
+  "relative_artifact_links_valid": true,
+  "javascript_syntax_passed": true,
+  "browser_layout_tested": false,
+  "html_bytes": 57851517
+}

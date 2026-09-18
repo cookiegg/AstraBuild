@@ -1,0 +1,720 @@
+{
+  "status": "saved_history_preserved_ports_joined_partial_surface_alignment",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/xialin_B20_220kV_bus_row.blend",
+  "sha256": "a2ab73c6ad88924482ca62a1502b0008f98b8a34794aacb8e7b42c45bacfc6df",
+  "previous_objects_unchanged": 27524,
+  "previous_scenes_unchanged": 395,
+  "previous_collections_unchanged": 523,
+  "previous_materials_unchanged": 318,
+  "previous_station_world_transforms_unchanged": 2955,
+  "history_method": "raw parent/local structure and mesh/material hashes for all prior data, plus actual evaluated station transforms",
+  "protected_previous_files_unchanged": 1867,
+  "legacy_meshes_remaining": 1837,
+  "formal_baseline_meshes": 15096,
+  "source_asset_roundtrip_identical": true,
+  "connections": 16,
+  "total_new_route_length_m": 88.81272648158296,
+  "port_seams": [
+    {
+      "route": "4D75_VT_IB_L0",
+      "body": "4D75",
+      "max_body_surface_gap_m": 3.846231720672222e-06
+    },
+    {
+      "route": "4D75_VT_IB_L0",
+      "body": "VT_IB",
+      "max_body_surface_gap_m": 4.271620127838105e-06
+    },
+    {
+      "route": "VT_IB_4D76_L0",
+      "body": "VT_IB",
+      "max_body_surface_gap_m": 4.266627001925372e-06
+    },
+    {
+      "route": "VT_IB_4D76_L0",
+      "body": "4D76",
+      "max_body_surface_gap_m": 3.831424237432657e-06
+    },
+    {
+      "route": "4D76_2899_L0",
+      "body": "4D76",
+      "max_body_surface_gap_m": 4.266627001925372e-06
+    },
+    {
+      "route": "4D76_2899_L0",
+      "body": "2899",
+      "max_body_surface_gap_m": 3.82214057026431e-06
+    },
+    {
+      "route": "2899_4600_L0",
+      "body": "2899",
+      "max_body_surface_gap_m": 4.2649612623790745e-06
+    },
+    {
+      "route": "2899_4600_L0",
+      "body": "4600",
+      "max_body_surface_gap_m": 0.0006958232843317091
+    },
+    {
+      "route": "4600_4802_L0",
+      "body": "4600",
+      "max_body_surface_gap_m": 0.000693757610861212
+    },
+    {
+      "route": "4600_4802_L0",
+      "body": "4802",
+      "max_body_surface_gap_m": 3.82214057026431e-06
+    },
+    {
+      "route": "4800_VT_II_L0",
+      "body": "4800",
+      "max_body_surface_gap_m": 0.0006934641860425472
+    },
+    {
+      "route": "4800_VT_II_L0",
+      "body": "VT_II",
+      "max_body_surface_gap_m": 1.922192041092785e-06
+    },
+    {
+      "route": "VT_II_4B80_L0",
+      "body": "VT_II",
+      "max_body_surface_gap_m": 3.814697265625e-06
+    },
+    {
+      "route": "VT_II_4B80_L0",
+      "body": "4B80",
+      "max_body_surface_gap_m": 7.865103725634981e-06
+    },
+    {
+      "route": "4B80_4B81_L0",
+      "body": "4B80",
+      "max_body_surface_gap_m": 7.692463441344444e-06
+    },
+    {
+      "route": "4B80_4B81_L0",
+      "body": "4B81",
+      "max_body_surface_gap_m": 7.68876816437114e-06
+    },
+    {
+      "route": "4D75_4D76_L1",
+      "body": "4D75",
+      "max_body_surface_gap_m": 3.846231720672222e-06
+    },
+    {
+      "route": "4D75_4D76_L1",
+      "body": "4D76",
+      "max_body_surface_gap_m": 1.922192041092785e-06
+    },
+    {
+      "route": "4D76_2899_L1",
+      "body": "4D76",
+      "max_body_surface_gap_m": 4.266627001925372e-06
+    },
+    {
+      "route": "4D76_2899_L1",
+      "body": "2899",
+      "max_body_surface_gap_m": 3.82214057026431e-06
+    },
+    {
+      "route": "2899_4600_L1",
+      "body": "2899",
+      "max_body_surface_gap_m": 4.2649612623790745e-06
+    },
+    {
+      "route": "2899_4600_L1",
+      "body": "4600",
+      "max_body_surface_gap_m": 0.0006996324518695474
+    },
+    {
+      "route": "4600_4802_L1",
+      "body": "4600",
+      "max_body_surface_gap_m": 0.0006993318675085902
+    },
+    {
+      "route": "4600_4802_L1",
+      "body": "4802",
+      "max_body_surface_gap_m": 5.40006249138969e-06
+    },
+    {
+      "route": "4B77_4801_L1",
+      "body": "4B77",
+      "max_body_surface_gap_m": 3.81655945602688e-06
+    },
+    {
+      "route": "4B77_4801_L1",
+      "body": "4801",
+      "max_body_surface_gap_m": 0.000694024027325213
+    },
+    {
+      "route": "4800_VT_IA_L1",
+      "body": "4800",
+      "max_body_surface_gap_m": 0.0006992127746343613
+    },
+    {
+      "route": "4800_VT_IA_L1",
+      "body": "VT_IA",
+      "max_body_surface_gap_m": 3.81655945602688e-06
+    },
+    {
+      "route": "VT_IA_4B80_L1",
+      "body": "VT_IA",
+      "max_body_surface_gap_m": 3.81655945602688e-06
+    },
+    {
+      "route": "VT_IA_4B80_L1",
+      "body": "4B80",
+      "max_body_surface_gap_m": 7.864199687901419e-06
+    },
+    {
+      "route": "4B80_4B81_L1",
+      "body": "4B80",
+      "max_body_surface_gap_m": 7.867813110351562e-06
+    },
+    {
+      "route": "4B80_4B81_L1",
+      "body": "4B81",
+      "max_body_surface_gap_m": 7.689692210988142e-06
+    }
+  ],
+  "frame_contacts": [
+    {
+      "route": "4D75_VT_IB_L0",
+      "post": "B20::4D75_VT_IB_L0.support.0.post",
+      "max_contact_gap_m": 4.8988269663041706e-08,
+      "foundation_sample_count": 68,
+      "foundation_surface_rms_m": 0.046759433173706545
+    },
+    {
+      "route": "4D75_VT_IB_L0",
+      "post": "B20::4D75_VT_IB_L0.support.1.post",
+      "max_contact_gap_m": 4.470348358154297e-08,
+      "foundation_sample_count": 68,
+      "foundation_surface_rms_m": 0.04837094659542675
+    },
+    {
+      "route": "VT_IB_4D76_L0",
+      "post": "B20::VT_IB_4D76_L0.support.0.post",
+      "max_contact_gap_m": 2.2351741790771484e-08,
+      "foundation_sample_count": 46,
+      "foundation_surface_rms_m": 0.02689686232114905
+    },
+    {
+      "route": "4D76_2899_L0",
+      "post": "B20::4D76_2899_L0.support.0.post",
+      "max_contact_gap_m": 5.155690252500733e-08,
+      "foundation_sample_count": 48,
+      "foundation_surface_rms_m": 0.12237633870202674
+    },
+    {
+      "route": "4D76_2899_L0",
+      "post": "B20::4D76_2899_L0.support.1.post",
+      "max_contact_gap_m": 4.095173644635963e-08,
+      "foundation_sample_count": 70,
+      "foundation_surface_rms_m": 0.11866816300267735
+    },
+    {
+      "route": "4D76_2899_L0",
+      "post": "B20::4D76_2899_L0.support.2.post",
+      "max_contact_gap_m": 2.3587732433938413e-08,
+      "foundation_sample_count": 78,
+      "foundation_surface_rms_m": 0.0626326987976833
+    },
+    {
+      "route": "4D76_2899_L0",
+      "post": "B20::4D76_2899_L0.support.3.post",
+      "max_contact_gap_m": 4.470348358154297e-08,
+      "foundation_sample_count": 56,
+      "foundation_surface_rms_m": 0.04340554244061406
+    },
+    {
+      "route": "4D76_2899_L0",
+      "post": "B20::4D76_2899_L0.support.4.post",
+      "max_contact_gap_m": 3.725290298461914e-08,
+      "foundation_sample_count": 65,
+      "foundation_surface_rms_m": 0.040042768959815254
+    },
+    {
+      "route": "4600_4802_L0",
+      "post": "B20::4600_4802_L0.support.0.post",
+      "max_contact_gap_m": 5.315846696163362e-08,
+      "foundation_sample_count": 84,
+      "foundation_surface_rms_m": 0.057630481853406065
+    },
+    {
+      "route": "4600_4802_L0",
+      "post": "B20::4600_4802_L0.support.1.post",
+      "max_contact_gap_m": 2.6499038963123667e-08,
+      "foundation_sample_count": 87,
+      "foundation_surface_rms_m": 0.040934840821867755
+    },
+    {
+      "route": "4800_VT_II_L0",
+      "post": "B20::4800_VT_II_L0.support.0.post",
+      "max_contact_gap_m": 5.777891853853134e-08,
+      "foundation_sample_count": 78,
+      "foundation_surface_rms_m": 0.047490657676345686
+    },
+    {
+      "route": "VT_II_4B80_L0",
+      "post": "B20::VT_II_4B80_L0.support.0.post",
+      "max_contact_gap_m": 3.725290298461914e-08,
+      "foundation_sample_count": 86,
+      "foundation_surface_rms_m": 0.0432753258090201
+    },
+    {
+      "route": "4B80_4B81_L0",
+      "post": "B20::4B80_4B81_L0.support.0.post",
+      "max_contact_gap_m": 3.367825551769954e-08,
+      "foundation_sample_count": 79,
+      "foundation_surface_rms_m": 0.04132536857655075
+    },
+    {
+      "route": "4B80_4B81_L0",
+      "post": "B20::4B80_4B81_L0.support.1.post",
+      "max_contact_gap_m": 9.685754776000977e-08,
+      "foundation_sample_count": 95,
+      "foundation_surface_rms_m": 0.04456924571193298
+    },
+    {
+      "route": "4B80_4B81_L0",
+      "post": "B20::4B80_4B81_L0.support.2.post",
+      "max_contact_gap_m": 4.6659205166221795e-08,
+      "foundation_sample_count": 85,
+      "foundation_surface_rms_m": 0.04531899461065316
+    },
+    {
+      "route": "4D75_4D76_L1",
+      "post": "B20::4D75_4D76_L1.support.0.post",
+      "max_contact_gap_m": 4.470348358154297e-08,
+      "foundation_sample_count": 59,
+      "foundation_surface_rms_m": 0.05225144569159309
+    },
+    {
+      "route": "4D75_4D76_L1",
+      "post": "B20::4D75_4D76_L1.support.1.post",
+      "max_contact_gap_m": 3.725290298461914e-08,
+      "foundation_sample_count": 82,
+      "foundation_surface_rms_m": 0.05186738166924781
+    },
+    {
+      "route": "4D75_4D76_L1",
+      "post": "B20::4D75_4D76_L1.support.2.post",
+      "max_contact_gap_m": 2.2351741790771484e-08,
+      "foundation_sample_count": 64,
+      "foundation_surface_rms_m": 0.05221785562660588
+    },
+    {
+      "route": "4D76_2899_L1",
+      "post": "B20::4D76_2899_L1.support.0.post",
+      "max_contact_gap_m": 8.195638656616211e-08,
+      "foundation_sample_count": 52,
+      "foundation_surface_rms_m": 0.1074431455672819
+    },
+    {
+      "route": "4D76_2899_L1",
+      "post": "B20::4D76_2899_L1.support.1.post",
+      "max_contact_gap_m": 5.21540641784668e-08,
+      "foundation_sample_count": 38,
+      "foundation_surface_rms_m": 0.11085682361370346
+    },
+    {
+      "route": "4D76_2899_L1",
+      "post": "B20::4D76_2899_L1.support.2.post",
+      "max_contact_gap_m": 4.470348358154297e-08,
+      "foundation_sample_count": 61,
+      "foundation_surface_rms_m": 0.040627494511955915
+    },
+    {
+      "route": "4D76_2899_L1",
+      "post": "B20::4D76_2899_L1.support.3.post",
+      "max_contact_gap_m": 5.6266716619290946e-08,
+      "foundation_sample_count": 83,
+      "foundation_surface_rms_m": 0.04407673165856192
+    },
+    {
+      "route": "4D76_2899_L1",
+      "post": "B20::4D76_2899_L1.support.4.post",
+      "max_contact_gap_m": 3.725290298461914e-08,
+      "foundation_sample_count": 63,
+      "foundation_surface_rms_m": 0.05493235172799478
+    },
+    {
+      "route": "4600_4802_L1",
+      "post": "B20::4600_4802_L1.support.0.post",
+      "max_contact_gap_m": 3.725290298461914e-08,
+      "foundation_sample_count": 83,
+      "foundation_surface_rms_m": 0.0447190623261079
+    },
+    {
+      "route": "4600_4802_L1",
+      "post": "B20::4600_4802_L1.support.1.post",
+      "max_contact_gap_m": 2.2351741790771484e-08,
+      "foundation_sample_count": 105,
+      "foundation_surface_rms_m": 0.04832167880731789
+    },
+    {
+      "route": "4B77_4801_L1",
+      "post": "B20::4B77_4801_L1.support.0.post",
+      "max_contact_gap_m": 3.725290298461914e-08,
+      "foundation_sample_count": 73,
+      "foundation_surface_rms_m": 0.05063807393584134
+    },
+    {
+      "route": "4B77_4801_L1",
+      "post": "B20::4B77_4801_L1.support.1.post",
+      "max_contact_gap_m": 3.725290298461914e-08,
+      "foundation_sample_count": 83,
+      "foundation_surface_rms_m": 0.07231658769517298
+    },
+    {
+      "route": "4B77_4801_L1",
+      "post": "B20::4B77_4801_L1.support.2.post",
+      "max_contact_gap_m": 2.7100034438731768e-08,
+      "foundation_sample_count": 100,
+      "foundation_surface_rms_m": 0.046580281783636386
+    },
+    {
+      "route": "4B77_4801_L1",
+      "post": "B20::4B77_4801_L1.support.3.post",
+      "max_contact_gap_m": 4.8565395704969205e-08,
+      "foundation_sample_count": 73,
+      "foundation_surface_rms_m": 0.10368660945842839
+    },
+    {
+      "route": "4B77_4801_L1",
+      "post": "B20::4B77_4801_L1.support.4.post",
+      "max_contact_gap_m": 3.725290298461914e-08,
+      "foundation_sample_count": 73,
+      "foundation_surface_rms_m": 0.10690304650103072
+    },
+    {
+      "route": "4800_VT_IA_L1",
+      "post": "B20::4800_VT_IA_L1.support.0.post",
+      "max_contact_gap_m": 9.685754776000977e-08,
+      "foundation_sample_count": 85,
+      "foundation_surface_rms_m": 0.048527193511047756
+    },
+    {
+      "route": "VT_IA_4B80_L1",
+      "post": "B20::VT_IA_4B80_L1.support.0.post",
+      "max_contact_gap_m": 2.2351741790771484e-08,
+      "foundation_sample_count": 90,
+      "foundation_surface_rms_m": 0.04993284217259737
+    },
+    {
+      "route": "4B80_4B81_L1",
+      "post": "B20::4B80_4B81_L1.support.0.post",
+      "max_contact_gap_m": 3.347134192033252e-08,
+      "foundation_sample_count": 98,
+      "foundation_surface_rms_m": 0.04610911634750007
+    },
+    {
+      "route": "4B80_4B81_L1",
+      "post": "B20::4B80_4B81_L1.support.1.post",
+      "max_contact_gap_m": 9.685754776000977e-08,
+      "foundation_sample_count": 81,
+      "foundation_surface_rms_m": 0.04024389226945229
+    },
+    {
+      "route": "4B80_4B81_L1",
+      "post": "B20::4B80_4B81_L1.support.2.post",
+      "max_contact_gap_m": 3.725290298461914e-08,
+      "foundation_sample_count": 88,
+      "foundation_surface_rms_m": 0.04288911115114584
+    }
+  ],
+  "surface_checks": [
+    {
+      "route": "4D75_VT_IB_L0",
+      "sample_count": 1329,
+      "rms_m": 0.054963248145298814,
+      "p95_m": 0.13197588622570036,
+      "five_cm_screen_passed": false,
+      "scope": "fixed radius0.50m tube around candidate axis; endpoint margins0.13m; |normalY|<0.4; area>0.000025; even train odd heldout; no residual trimming",
+      "independent_holdout": false,
+      "independence_note": "odd-index geometric comparison only: accessory positions and radii used coarse clusters containing both index parities; this is not independent predictive validation",
+      "residual_trimming": false
+    },
+    {
+      "route": "VT_IB_4D76_L0",
+      "sample_count": 265,
+      "rms_m": 0.0589002309684282,
+      "p95_m": 0.13851036429405209,
+      "five_cm_screen_passed": false,
+      "scope": "fixed radius0.50m tube around candidate axis; endpoint margins0.13m; |normalY|<0.4; area>0.000025; even train odd heldout; no residual trimming",
+      "independent_holdout": false,
+      "independence_note": "odd-index geometric comparison only: accessory positions and radii used coarse clusters containing both index parities; this is not independent predictive validation",
+      "residual_trimming": false
+    },
+    {
+      "route": "4D76_2899_L0",
+      "sample_count": 2290,
+      "rms_m": 0.06501983190665372,
+      "p95_m": 0.15378937497735023,
+      "five_cm_screen_passed": false,
+      "scope": "fixed radius0.50m tube around candidate axis; endpoint margins0.13m; |normalY|<0.4; area>0.000025; even train odd heldout; no residual trimming",
+      "independent_holdout": false,
+      "independence_note": "odd-index geometric comparison only: accessory positions and radii used coarse clusters containing both index parities; this is not independent predictive validation",
+      "residual_trimming": false
+    },
+    {
+      "route": "2899_4600_L0",
+      "sample_count": 101,
+      "rms_m": 0.07673527207422434,
+      "p95_m": 0.15082883834838867,
+      "five_cm_screen_passed": false,
+      "scope": "fixed radius0.50m tube around candidate axis; endpoint margins0.13m; |normalY|<0.4; area>0.000025; even train odd heldout; no residual trimming",
+      "independent_holdout": false,
+      "independence_note": "odd-index geometric comparison only: accessory positions and radii used coarse clusters containing both index parities; this is not independent predictive validation",
+      "residual_trimming": false
+    },
+    {
+      "route": "4600_4802_L0",
+      "sample_count": 778,
+      "rms_m": 0.05091721118154911,
+      "p95_m": 0.13132863566279407,
+      "five_cm_screen_passed": false,
+      "scope": "fixed radius0.50m tube around candidate axis; endpoint margins0.13m; |normalY|<0.4; area>0.000025; even train odd heldout; no residual trimming",
+      "independent_holdout": false,
+      "independence_note": "odd-index geometric comparison only: accessory positions and radii used coarse clusters containing both index parities; this is not independent predictive validation",
+      "residual_trimming": false
+    },
+    {
+      "route": "4800_VT_II_L0",
+      "sample_count": 428,
+      "rms_m": 0.06014262036035984,
+      "p95_m": 0.1438980363309383,
+      "five_cm_screen_passed": false,
+      "scope": "fixed radius0.50m tube around candidate axis; endpoint margins0.13m; |normalY|<0.4; area>0.000025; even train odd heldout; no residual trimming",
+      "independent_holdout": false,
+      "independence_note": "odd-index geometric comparison only: accessory positions and radii used coarse clusters containing both index parities; this is not independent predictive validation",
+      "residual_trimming": false
+    },
+    {
+      "route": "VT_II_4B80_L0",
+      "sample_count": 425,
+      "rms_m": 0.05820971160402554,
+      "p95_m": 0.1453728556632995,
+      "five_cm_screen_passed": false,
+      "scope": "fixed radius0.50m tube around candidate axis; endpoint margins0.13m; |normalY|<0.4; area>0.000025; even train odd heldout; no residual trimming",
+      "independent_holdout": false,
+      "independence_note": "odd-index geometric comparison only: accessory positions and radii used coarse clusters containing both index parities; this is not independent predictive validation",
+      "residual_trimming": false
+    },
+    {
+      "route": "4B80_4B81_L0",
+      "sample_count": 2474,
+      "rms_m": 0.06632685144724416,
+      "p95_m": 0.160878836363554,
+      "five_cm_screen_passed": false,
+      "scope": "fixed radius0.50m tube around candidate axis; endpoint margins0.13m; |normalY|<0.4; area>0.000025; even train odd heldout; no residual trimming",
+      "independent_holdout": false,
+      "independence_note": "odd-index geometric comparison only: accessory positions and radii used coarse clusters containing both index parities; this is not independent predictive validation",
+      "residual_trimming": false,
+      "retained_visible_bellows": [
+        "12MZ0000000419148::bus_segment::bus.expansion_bellows",
+        "12MZ0000000419148::bus_segment::bus.expansion_joint.shoulder.A",
+        "12MZ0000000419148::bus_segment::bus.expansion_joint.shoulder.B"
+      ],
+      "previous_incomplete_envelope_rms_m": 0.07018935334470194
+    },
+    {
+      "route": "4D75_4D76_L1",
+      "sample_count": 1820,
+      "rms_m": 0.06071094530476289,
+      "p95_m": 0.14574826508760452,
+      "five_cm_screen_passed": false,
+      "scope": "fixed radius0.50m tube around candidate axis; endpoint margins0.13m; |normalY|<0.4; area>0.000025; even train odd heldout; no residual trimming",
+      "independent_holdout": false,
+      "independence_note": "odd-index geometric comparison only: accessory positions and radii used coarse clusters containing both index parities; this is not independent predictive validation",
+      "residual_trimming": false
+    },
+    {
+      "route": "4D76_2899_L1",
+      "sample_count": 2210,
+      "rms_m": 0.06921137917468619,
+      "p95_m": 0.15426006838679304,
+      "five_cm_screen_passed": false,
+      "scope": "fixed radius0.50m tube around candidate axis; endpoint margins0.13m; |normalY|<0.4; area>0.000025; even train odd heldout; no residual trimming",
+      "independent_holdout": false,
+      "independence_note": "odd-index geometric comparison only: accessory positions and radii used coarse clusters containing both index parities; this is not independent predictive validation",
+      "residual_trimming": false
+    },
+    {
+      "route": "2899_4600_L1",
+      "sample_count": 79,
+      "rms_m": 0.07636360186612706,
+      "p95_m": 0.1570820465683937,
+      "five_cm_screen_passed": false,
+      "scope": "fixed radius0.50m tube around candidate axis; endpoint margins0.13m; |normalY|<0.4; area>0.000025; even train odd heldout; no residual trimming",
+      "independent_holdout": false,
+      "independence_note": "odd-index geometric comparison only: accessory positions and radii used coarse clusters containing both index parities; this is not independent predictive validation",
+      "residual_trimming": false
+    },
+    {
+      "route": "4600_4802_L1",
+      "sample_count": 787,
+      "rms_m": 0.05238053171018133,
+      "p95_m": 0.13013640642166138,
+      "five_cm_screen_passed": false,
+      "scope": "fixed radius0.50m tube around candidate axis; endpoint margins0.13m; |normalY|<0.4; area>0.000025; even train odd heldout; no residual trimming",
+      "independent_holdout": false,
+      "independence_note": "odd-index geometric comparison only: accessory positions and radii used coarse clusters containing both index parities; this is not independent predictive validation",
+      "residual_trimming": false
+    },
+    {
+      "route": "4B77_4801_L1",
+      "sample_count": 2897,
+      "rms_m": 0.06503098146555764,
+      "p95_m": 0.15377323329448697,
+      "five_cm_screen_passed": false,
+      "scope": "fixed radius0.50m tube around candidate axis; endpoint margins0.13m; |normalY|<0.4; area>0.000025; even train odd heldout; no residual trimming",
+      "independent_holdout": false,
+      "independence_note": "odd-index geometric comparison only: accessory positions and radii used coarse clusters containing both index parities; this is not independent predictive validation",
+      "residual_trimming": false
+    },
+    {
+      "route": "4800_VT_IA_L1",
+      "sample_count": 381,
+      "rms_m": 0.051897825842163084,
+      "p95_m": 0.1378164291381836,
+      "five_cm_screen_passed": false,
+      "scope": "fixed radius0.50m tube around candidate axis; endpoint margins0.13m; |normalY|<0.4; area>0.000025; even train odd heldout; no residual trimming",
+      "independent_holdout": false,
+      "independence_note": "odd-index geometric comparison only: accessory positions and radii used coarse clusters containing both index parities; this is not independent predictive validation",
+      "residual_trimming": false
+    },
+    {
+      "route": "VT_IA_4B80_L1",
+      "sample_count": 305,
+      "rms_m": 0.06803559881560174,
+      "p95_m": 0.15336745381355285,
+      "five_cm_screen_passed": false,
+      "scope": "fixed radius0.50m tube around candidate axis; endpoint margins0.13m; |normalY|<0.4; area>0.000025; even train odd heldout; no residual trimming",
+      "independent_holdout": false,
+      "independence_note": "odd-index geometric comparison only: accessory positions and radii used coarse clusters containing both index parities; this is not independent predictive validation",
+      "residual_trimming": false
+    },
+    {
+      "route": "4B80_4B81_L1",
+      "sample_count": 2081,
+      "rms_m": 0.06489647347133484,
+      "p95_m": 0.15819495916366577,
+      "five_cm_screen_passed": false,
+      "scope": "fixed radius0.50m tube around candidate axis; endpoint margins0.13m; |normalY|<0.4; area>0.000025; even train odd heldout; no residual trimming",
+      "independent_holdout": false,
+      "independence_note": "odd-index geometric comparison only: accessory positions and radii used coarse clusters containing both index parities; this is not independent predictive validation",
+      "residual_trimming": false,
+      "retained_visible_bellows": [
+        "12MZ0000000419290::bus_segment::bus.expansion_bellows",
+        "12MZ0000000419290::bus_segment::bus.expansion_joint.shoulder.A",
+        "12MZ0000000419290::bus_segment::bus.expansion_joint.shoulder.B"
+      ],
+      "previous_incomplete_envelope_rms_m": 0.06829622940626004
+    }
+  ],
+  "local_screens_passed": 0,
+  "local_screens_unpassed": 16,
+  "camera_framing": {
+    "413_B20_WEST_Clean": {
+      "expanded_meshes": 1255,
+      "min": [
+        0.106641985476017,
+        0.26399147510528564
+      ],
+      "max": [
+        0.949999988079071,
+        0.9481726288795471
+      ]
+    },
+    "416_B20_WEST_MID_Clean": {
+      "expanded_meshes": 1438,
+      "min": [
+        0.08147551864385605,
+        0.24101078510284424
+      ],
+      "max": [
+        0.9413715600967407,
+        0.949999988079071
+      ]
+    },
+    "419_B20_COUPLER_Clean": {
+      "expanded_meshes": 1232,
+      "min": [
+        0.09609765559434891,
+        0.2382543683052063
+      ],
+      "max": [
+        0.8657393455505371,
+        0.9500000476837158
+      ]
+    },
+    "422_B20_SECTION_Clean": {
+      "expanded_meshes": 937,
+      "min": [
+        0.050000011920928955,
+        0.2653709352016449
+      ],
+      "max": [
+        0.9171900153160095,
+        0.7963034510612488
+      ]
+    },
+    "425_B20_CORRIDOR_Clean": {
+      "expanded_meshes": 681,
+      "min": [
+        0.06956496089696884,
+        0.20243333280086517
+      ],
+      "max": [
+        0.9235302209854126,
+        0.7331796884536743
+      ]
+    },
+    "428_B20_VT_Clean": {
+      "expanded_meshes": 889,
+      "min": [
+        0.05000000447034836,
+        0.34911075234413147
+      ],
+      "max": [
+        0.7447361946105957,
+        0.6482810974121094
+      ]
+    },
+    "431_B20_SPARE_Clean": {
+      "expanded_meshes": 746,
+      "min": [
+        0.20227313041687012,
+        0.2936594486236572
+      ],
+      "max": [
+        0.9230250716209412,
+        0.7441486716270447
+      ]
+    },
+    "436_B20_Row_Top_Clean": {
+      "expanded_meshes": 5860,
+      "min": [
+        0.3978622853755951,
+        0.04476005584001541
+      ],
+      "max": [
+        0.6253982782363892,
+        0.9303052425384521
+      ]
+    }
+  },
+  "formal_promotions": 0,
+  "outdoor_goal_complete": false,
+  "pending": [
+    "4100 lane0 transverse turns: unmodeled connecting routes; no false straight bridge created.",
+    "4D75 outer two boundaries remain as prior open stubs, end closure requires reference review.",
+    "55 cap associations and35 support envelopes are coarse candidates; exact flange and frame details remain approximate.",
+    "New long bodies interpolate existing independent bay ports; local body alignment failures from B11–B19 remain.",
+    "Existing4801–4800 corridor and two old4B80–4B81 bellows retained, no new whole-device acceptance."
+  ],
+  "saved_by_validator": false,
+  "original_report": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/B20_validation.json",
+  "supplemental_scope": "only two spare-route surface distances recomputed with retained existing visible bellows; same saved station and unchanged reference sample; all original history/contact/framing checks inherited"
+}

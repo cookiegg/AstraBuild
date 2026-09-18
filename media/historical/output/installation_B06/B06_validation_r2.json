@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/xialin_photo_first_B06_wall_aligned_r2.blend",
+  "sha256": "06bf806e74a3fa665c3391a824ccfe4b667726036ec9a273463d11bfdb180382",
+  "wall_measurements": [
+    {
+      "key": "wall.nw.east.panel",
+      "before_median_abs_face_distance_m": 1.4082565525027775,
+      "after_median_abs_face_distance_m": 0.032233989650755746,
+      "after_p95_abs_face_distance_m": 0.11569981608699459,
+      "axis_readback_error_deg": -2.160261411718467e-07,
+      "new_yaw_deg": 25.5889185691669,
+      "heldout_fit_angle_difference_deg": 0.018935678374175913
+    },
+    {
+      "key": "wall.east.panel",
+      "before_median_abs_face_distance_m": 7.8696131182595614,
+      "after_median_abs_face_distance_m": 0.014655915683828624,
+      "after_p95_abs_face_distance_m": 0.10446002486587169,
+      "axis_readback_error_deg": -2.621628774572224e-06,
+      "new_yaw_deg": -64.41595631702468,
+      "heldout_fit_angle_difference_deg": 0.0014979085849411418
+    }
+  ],
+  "original_objects_unchanged": 20857,
+  "original_collections_unchanged": 214,
+  "original_scenes_unchanged": 5,
+  "formal_v50_components_preserved": 15096,
+  "new_scene_retained_original_components": 14725,
+  "civil_meshes": 69,
+  "gate_rigid_mesh_components": 13,
+  "gate_width_m": 9.691268920898438,
+  "maximum_endpoint_error_m": 4.185808975876171e-06,
+  "new_camera_framing": {
+    "23_B06_Wall_Top_Overlay": {
+      "min": [
+        0.24134910106658936,
+        0.060000017285346985
+      ],
+      "max": [
+        0.7586508989334106,
+        0.9399999976158142
+      ]
+    },
+    "24_B06_Station_Perspective": {
+      "min": [
+        0.07030201703310013,
+        0.0941954255104065
+      ],
+      "max": [
+        0.8293254971504211,
+        0.7830056548118591
+      ]
+    }
+  },
+  "protected_files_unchanged": 288,
+  "formal_promotions": 0,
+  "gate_dimensions_pending": true,
+  "vertical_dimensions_pending": true,
+  "r1_civil_geometry_unchanged": 69,
+  "blend_saved_by_validator": false
+}

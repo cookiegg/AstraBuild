@@ -1,0 +1,257 @@
+{
+  "protected_hashes": {
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/730_B35_Station_Top_Overlay.png": "7b49cc6f285988dbd5ec179d2545ff16e90ee1209539a34a267819dd1c20d793",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_pole_elevations.png": "ccc3cdf03baa17793ff4e938beb1321cbc1fd02bce4278ad004f50a57fa40f21",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_renders.json": "b01ad5d29da242283c348e6afb0ab2527a5da35706eb7dc3337694beccac869d",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_auxiliary_components.blend": "802f53a1751413139f3beac53746ec6e6f6376a34b07a5391edb2ebae5da0211",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/743_B35_CCTV_Detail_Reference.png": "aea5ade5a5fc357e06f6be0e55aab63733a327410340024896bc6cbf8ec26a06",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/745_B35_Lamp_Hydrant_Overlay.png": "7bb9a1d1a1bff7b9a157d5a9ebe2d51459df9ea7aed7e54ea319ff1877c2006b",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/727_B35_Station_West_Overlay.png": "61a69b511d0c5992a4a3ad9e09a5ed2aee55c2db820c08fd84f5de16df653fb4",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_fence_plan.png": "a33e2c156c80ec3db8e8909089a8a691fa7fbaa3c5fc24a5a80c2f6dce784478",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/726_B35_Station_West_Clean.png": "828fcaaf5f4dd442a5487cc5f25c958c4ed23eac37940beea033e2c9cbec7ace",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_auxiliary_candidates.png": "a94a0f5ad8997e7460992eb200684b709caff1bc2c0c4facd7a32698b799b299",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_manifest.json": "73537f41e47a8c40471f6ade6b80f9ee3f31b1ff89b2ffce950bf4b9a095b14f",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/744_B35_Lamp_Hydrant_Clean.png": "94dbb5d061bc0f411431de78c944e15e200368b301a40fddce20a650529677c9",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_pole_measurements.json": "d871bd9ae3216925a71189493146f212d87ef737b7c8c16a4d0f26a54631bdfe",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/validate_B35.log": "460b82cbb9e66c9c65165f065713852fe0e3a706a392dbf52ae4eb1840b3a154",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/728_B35_Station_West_Reference.png": "4e188abc4952c86daa6f39d973d3b2d2642d2f494c337901fca643d715018bbb",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_entrance_samples.npz": "f2309c91483e06ea19d5e27cfbb21f2a1f492eeb1a1a7ae222b14eeb3937dd83",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_auxiliary_candidates.json": "46d0a4b3edcaef5e6c83c9946691f637a43a99d761fb155128025a9758a6bee7",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/inputs_B35.json": "668dd81cafdc151416e085a68404aba7f987d3eb2829951b29b2b05945561682",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/731_B35_Station_Top_Reference.png": "7b23666cb20f3991253c9d8defa5f8491bece2d891f0b783b8270da44f4bbe02",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/742_B35_CCTV_Detail_Overlay.png": "d28598cab532d17812126f58cba12f65b487159dd2fc41ee20315de1045c887d",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_site_plan.json": "6aa9e175925f14226c286a7d707652e704f1deca3abc6e3db521165a0d8e2505",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/746_B35_Lamp_Hydrant_Reference.png": "b7d1fb482c7c617365d21f9581f049173ff872a20f88b388a606cc74fcdc77a4",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/734_B35_Entrance_Reference.png": "e4196ae9248408711718677591b28620d33c80fc7cf6aaec237cab44912c6096",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/737_B35_Green_Fence_Reference.png": "de20cff63ee88c9b7a872c7d858cbfca634e7974acbeef26ab3ac004d2e96e7c",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/735_B35_Green_Fence_Clean.png": "71f3dfe4990548850ddde3b69e4fa00f34db003045e835ce9823205a74308f23",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/738_B35_White_Fences_Clean.png": "d0abc712e234808cfc63269f86edb7d8aea9380b8782d2b986f8051f518a869c",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/build_B35.log": "400d0f943eaeee05f6639d793281c8b8b4cab9bd94a195c4a58251d4ad716823",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/xialin_B35_auxiliary_equipment.blend": "81ac9d1c23a50d00b93cbcc7994b956e5e3d11ac1ebda6fa25ed78fd07c0a2f2",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/741_B35_CCTV_Detail_Clean.png": "798b2e0b729cfdbd91f6337c101529f1116d47c6b7b9c06594fd9240bb264bc7",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/732_B35_Entrance_Clean.png": "b698add0f2e48a12acc5967b856aafe4d2bf709b156d1c45961e0d71aabb0d43",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/739_B35_White_Fences_Overlay.png": "3902180de1cadb4b8a2a2b8e69b00b57c9df2d773e95d7d59db00ee03993b692",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_all_pole_candidates.json": "597f05e489b4395dd185ce8f5a04869757c35a87419bd0a6b0d4fe2075f66a2b",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/729_B35_Station_Top_Clean.png": "2730b6f2524833916a8eb5b8d943268656316626a138231b9e8f345ecbfbd7f7",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/740_B35_White_Fences_Reference.png": "0c73842f6d0b8a3667d0c3037f82afecf6fc95ba6a82c73c74990e7a4fe28b1c",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/736_B35_Green_Fence_Overlay.png": "3ffa5b6b80109c4a979b70888b0836e6d98b11e3637d4b5c27213871339d07e4",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_entrance_source_details.png": "a8aaec950f96a492d79585fa00837932f1fbcb28d6f901842cf71f9b5c4c3282",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/733_B35_Entrance_Overlay.png": "c51fda39353aa55985722ebe6329b1470aea9eb8b66e087df5119d9ef203460f",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_all_pole_elevations.png": "0fae0c3148f09ef35d2b46a140fc12e099b50cf38b37b728480e20652b4ca272",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/west_scan/B35_all_pole_candidates.json": "c14ecebb1fa4309683973b6bbcf5401fbeb5728e58fcf9224aa62b645a74d10c",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/west_scan/B35_all_pole_elevations.png": "ed652b43da51ce4f9e5cfa6850cc0557e1478e387af4bdb55510496d10aaaf7b",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/measure_B35_poles.py": "b122c8c798980b2cf699ceea3a2efc26dfd467f3c34319b837056fa33eea0d06",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/plan_B35.py": "988b59271f7af3c8f3410aa6911a5f4aff3a57505d21784a2c7d8df7328cb223",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/prepare_B35.py": "2815dd2d8ae476aed5f6829db457ed9575b4fae0997be3f2b7813ecfdea2f64e",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/prepare_validate_B35.py": "36323a193370ba3546d82ef6453a898f9ec984b7d53b1fd55029b26dc255e888",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/inspect_B35_details.py": "a79c41cc18c5ac58cd1387cc0b1dfcaa010697bc3248d4d1db341fe46f94c97a",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/inspect_B35_all_poles.py": "4772453451a62eb46c57566a32272f3d02fe920e61bda6d810791df4fde97f50",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/validate_B35.py": "d5da5f72f9bd96cd520540afee20b713d8dc283ec9b2051a0af0e2e0ae96b1d1",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/inspect_B35_auxiliary.py": "2f6fe194758d2c6b99a57ed5a128c3c0ef365947d14cc88cf8823b32cc95ddba",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/build_B35.py": "71d5f30951739b1925a252d840080c6a56f41568bb0ae9e5d9ad35917d8a7bbe",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/inspect_B35_west_poles.py": "f918edbaab722e3f9bd62efaa0bdce395c72e83b4823fa900e5d0a45b9d851a7"
+  },
+  "protected_file_stats": {
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/730_B35_Station_Top_Overlay.png": [
+      2249111,
+      1789275230373962207
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_pole_elevations.png": [
+      718249,
+      1789274393192343103
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_renders.json": [
+      6132,
+      1789275354336657286
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_auxiliary_components.blend": [
+      2757148,
+      1789275171722634528
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/743_B35_CCTV_Detail_Reference.png": [
+      2974774,
+      1789275331656885433
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/745_B35_Lamp_Hydrant_Overlay.png": [
+      2484345,
+      1789275349764702924
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/727_B35_Station_West_Overlay.png": [
+      2039897,
+      1789275206042236418
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_fence_plan.png": [
+      138293,
+      1789274860903017848
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/726_B35_Station_West_Clean.png": [
+      1861822,
+      1789275192970386448
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_auxiliary_candidates.png": [
+      700910,
+      1789273978809412179
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_manifest.json": [
+      665355,
+      1789275183510496247
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/744_B35_Lamp_Hydrant_Clean.png": [
+      2009454,
+      1789275339140809660
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_pole_measurements.json": [
+      4847,
+      1789274393196343090
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/validate_B35.log": [
+      1441,
+      1789275443787797705
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/728_B35_Station_West_Reference.png": [
+      1853099,
+      1789275211334176226
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_entrance_samples.npz": [
+      13270358,
+      1789274389388354097
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_auxiliary_candidates.json": [
+      2748,
+      1789273978809412179
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/inputs_B35.json": [
+      1212218,
+      1789274638707407540
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/731_B35_Station_Top_Reference.png": [
+      2235932,
+      1789275235393906430
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/742_B35_CCTV_Detail_Overlay.png": [
+      3113418,
+      1789275326964933186
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_site_plan.json": [
+      778187,
+      1789274908194241550
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/746_B35_Lamp_Hydrant_Reference.png": [
+      2377850,
+      1789275354312657525
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/734_B35_Entrance_Reference.png": [
+      2635614,
+      1789275263049603849
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/737_B35_Green_Fence_Reference.png": [
+      3060351,
+      1789275286797350154
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/735_B35_Green_Fence_Clean.png": [
+      2772446,
+      1789275271201516141
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/738_B35_White_Fences_Clean.png": [
+      2348180,
+      1789275293589278598
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/build_B35.log": [
+      5630,
+      1789275359356607378
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/xialin_B35_auxiliary_equipment.blend": [
+      3297089822,
+      1789275176370579808
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/741_B35_CCTV_Detail_Clean.png": [
+      2712426,
+      1789275316037045165
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/732_B35_Entrance_Clean.png": [
+      2588237,
+      1789275244373807317
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/739_B35_White_Fences_Overlay.png": [
+      2537230,
+      1789275303961170163
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_all_pole_candidates.json": [
+      464204,
+      1789274714889746494
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/729_B35_Station_Top_Clean.png": [
+      1914496,
+      1789275219082088657
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/740_B35_White_Fences_Reference.png": [
+      2548540,
+      1789275308577122227
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/736_B35_Green_Fence_Overlay.png": [
+      3083806,
+      1789275282301397763
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_entrance_source_details.png": [
+      381250,
+      1789274390952349580
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/733_B35_Entrance_Overlay.png": [
+      2828040,
+      1789275257421664792
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_all_pole_elevations.png": [
+      1077488,
+      1789274714853747236
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/west_scan/B35_all_pole_candidates.json": [
+      9273,
+      1789275446511772464
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/west_scan/B35_all_pole_elevations.png": [
+      71106,
+      1789275446511772464
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/measure_B35_poles.py": [
+      1707,
+      1789274906006276443
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/plan_B35.py": [
+      5900,
+      1789274852139166975
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/prepare_B35.py": [
+      1397,
+      1789274630831590009
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/prepare_validate_B35.py": [
+      5795,
+      1789275191322405502
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/inspect_B35_details.py": [
+      2103,
+      1789274380068380968
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/inspect_B35_all_poles.py": [
+      2184,
+      1789274568891819241
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/validate_B35.py": [
+      8141,
+      1789275191346405225
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/inspect_B35_auxiliary.py": [
+      1866,
+      1789273968061435363
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/build_B35.py": [
+      13340,
+      1789275064511973552
+    ],
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/inspect_B35_west_poles.py": [
+      2226,
+      1789275405604157150
+    ]
+  },
+  "reason": "Preserve R1 and failed strict scene-membership check; R2 retains old direct camera link, adds one source-backed western CCTV, and moves CCTV review camera to road side."
+}

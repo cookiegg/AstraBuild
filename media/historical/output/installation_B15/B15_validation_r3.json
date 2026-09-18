@@ -1,0 +1,1035 @@
+{
+  "status": "saved_connected_geometry_preserved_partial_alignment",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B15/r3/xialin_B15_spare_GIS_connected_r3.blend",
+  "sha256": "28cc24c5f75871a4205a0e305a154a2e3e7e9edaf88b20abc4732403e74bae7b",
+  "R1_objects_unchanged": 24531,
+  "R1_scenes_unchanged": 186,
+  "R1_collections_unchanged": 367,
+  "R1_materials_unchanged": 303,
+  "protected_prior_files_unchanged": 954,
+  "previous_B14_preservation": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B15/B15_validation.json",
+  "formal_baseline_preserved": 15096,
+  "legacy_meshes_remaining": 4701,
+  "new_spare_units": 6,
+  "updated_neighbor_units": 3,
+  "shared_equipment_meshes": 112,
+  "expanded_meshes_per_site": {
+    "752": 123,
+    "753": 131,
+    "754": 123,
+    "755": 131,
+    "756": 140,
+    "757": 140,
+    "501": 304,
+    "502": 304,
+    "758": 298
+  },
+  "source_asset_roundtrip_identical": true,
+  "trimmed_close_interfaces": [
+    {
+      "a": "752",
+      "b": "502",
+      "level": 0,
+      "max_ring_vertex_gap_m": 2.7045479764879465e-07,
+      "old_port_overlap_m": 0.04606116122476977,
+      "remaining_overlap_at_trimmed_ends": false
+    },
+    {
+      "a": "752",
+      "b": "502",
+      "level": 1,
+      "max_ring_vertex_gap_m": 1.3248997675523825e-06,
+      "old_port_overlap_m": 0.04606939245331395,
+      "remaining_overlap_at_trimmed_ends": false
+    },
+    {
+      "a": "754",
+      "b": "501",
+      "level": 0,
+      "max_ring_vertex_gap_m": 1.545532580744857e-06,
+      "old_port_overlap_m": 0.08184260206725827,
+      "remaining_overlap_at_trimmed_ends": false
+    },
+    {
+      "a": "754",
+      "b": "501",
+      "level": 1,
+      "max_ring_vertex_gap_m": 7.404606446334269e-07,
+      "old_port_overlap_m": 0.08185841082657398,
+      "remaining_overlap_at_trimmed_ends": false
+    }
+  ],
+  "finite_spool_connections": [
+    {
+      "a": "753",
+      "b": "754",
+      "level": 0,
+      "endpoint_gap_m": 1.5423675467372857e-06
+    },
+    {
+      "a": "753",
+      "b": "754",
+      "level": 1,
+      "endpoint_gap_m": 1.4097163105953518e-06
+    },
+    {
+      "a": "755",
+      "b": "756",
+      "level": 0,
+      "endpoint_gap_m": 1.1987049168703153e-07
+    },
+    {
+      "a": "755",
+      "b": "756",
+      "level": 1,
+      "endpoint_gap_m": 2.509914343029611e-07
+    },
+    {
+      "a": "756",
+      "b": "757",
+      "level": 0,
+      "endpoint_gap_m": 1.1921641750216067e-06
+    },
+    {
+      "a": "756",
+      "b": "757",
+      "level": 1,
+      "endpoint_gap_m": 1.1112110574709686e-06
+    },
+    {
+      "a": "757",
+      "b": "758",
+      "level": 0,
+      "endpoint_gap_m": 2.9054316160917025e-07
+    },
+    {
+      "a": "757",
+      "b": "758",
+      "level": 1,
+      "endpoint_gap_m": 1.1870651525313593e-06
+    },
+    {
+      "a": "501",
+      "b": "755",
+      "level": 0,
+      "endpoint_gap_m": 6.185009624035576e-07
+    },
+    {
+      "a": "501",
+      "b": "755",
+      "level": 1,
+      "endpoint_gap_m": 3.8847763085708874e-07
+    },
+    {
+      "a": "502",
+      "b": "753",
+      "level": 0,
+      "endpoint_gap_m": 7.495521075223173e-07
+    },
+    {
+      "a": "502",
+      "b": "753",
+      "level": 1,
+      "endpoint_gap_m": 2.3704675037718863e-07
+    }
+  ],
+  "route_checks": [
+    {
+      "key": "752",
+      "level": 0,
+      "side": -1,
+      "start_error_m": 3.552713678800501e-15,
+      "open_boundary": true
+    },
+    {
+      "key": "752",
+      "level": 1,
+      "side": -1,
+      "start_error_m": 3.66205343881779e-15,
+      "open_boundary": true
+    },
+    {
+      "key": "753",
+      "level": 0,
+      "side": -1,
+      "start_error_m": 7.944109290391274e-15,
+      "open_boundary": false
+    },
+    {
+      "key": "753",
+      "level": 0,
+      "side": 1,
+      "start_error_m": 3.972054645195637e-15,
+      "open_boundary": false
+    },
+    {
+      "key": "753",
+      "level": 1,
+      "side": -1,
+      "start_error_m": 4.027524346742929e-15,
+      "open_boundary": false
+    },
+    {
+      "key": "753",
+      "level": 1,
+      "side": 1,
+      "start_error_m": 5.068262347813025e-15,
+      "open_boundary": false
+    },
+    {
+      "key": "754",
+      "level": 0,
+      "side": -1,
+      "start_error_m": 7.108895957933346e-15,
+      "open_boundary": false
+    },
+    {
+      "key": "754",
+      "level": 1,
+      "side": -1,
+      "start_error_m": 3.614624287906422e-15,
+      "open_boundary": false
+    },
+    {
+      "key": "755",
+      "level": 0,
+      "side": -1,
+      "start_error_m": 1.1102230246251565e-16,
+      "open_boundary": false
+    },
+    {
+      "key": "755",
+      "level": 0,
+      "side": 1,
+      "start_error_m": 1.4210854715202004e-14,
+      "open_boundary": false
+    },
+    {
+      "key": "755",
+      "level": 1,
+      "side": -1,
+      "start_error_m": 4.440892098500626e-16,
+      "open_boundary": false
+    },
+    {
+      "key": "755",
+      "level": 1,
+      "side": 1,
+      "start_error_m": 1.4649896587576702e-14,
+      "open_boundary": false
+    },
+    {
+      "key": "756",
+      "level": 0,
+      "side": -1,
+      "start_error_m": 7.106294666405892e-15,
+      "open_boundary": false
+    },
+    {
+      "key": "756",
+      "level": 0,
+      "side": 1,
+      "start_error_m": 1.1102230246251565e-16,
+      "open_boundary": false
+    },
+    {
+      "key": "756",
+      "level": 1,
+      "side": -1,
+      "start_error_m": 1.0070646956748923e-14,
+      "open_boundary": false
+    },
+    {
+      "key": "756",
+      "level": 1,
+      "side": 1,
+      "start_error_m": 7.119291619286993e-15,
+      "open_boundary": false
+    },
+    {
+      "key": "757",
+      "level": 0,
+      "side": -1,
+      "start_error_m": 2.1316571191421636e-14,
+      "open_boundary": false
+    },
+    {
+      "key": "757",
+      "level": 0,
+      "side": 1,
+      "start_error_m": 7.113229329843195e-15,
+      "open_boundary": false
+    },
+    {
+      "key": "757",
+      "level": 1,
+      "side": -1,
+      "start_error_m": 2.1317438523750435e-14,
+      "open_boundary": false
+    },
+    {
+      "key": "757",
+      "level": 1,
+      "side": 1,
+      "start_error_m": 1.0048591735576161e-14,
+      "open_boundary": false
+    },
+    {
+      "key": "501",
+      "level": 0,
+      "side": 1,
+      "start_error_m": 7.94721185223203e-15,
+      "open_boundary": false
+    },
+    {
+      "key": "501",
+      "level": 1,
+      "side": 1,
+      "start_error_m": 1.2811415694315237e-14,
+      "open_boundary": false
+    },
+    {
+      "key": "502",
+      "level": 0,
+      "side": 1,
+      "start_error_m": 3.568292035180542e-15,
+      "open_boundary": false
+    },
+    {
+      "key": "502",
+      "level": 1,
+      "side": 1,
+      "start_error_m": 7.354337211075899e-15,
+      "open_boundary": false
+    },
+    {
+      "key": "758",
+      "level": 0,
+      "side": -1,
+      "start_error_m": 3.814697272730427e-06,
+      "open_boundary": false
+    },
+    {
+      "key": "758",
+      "level": 1,
+      "side": -1,
+      "start_error_m": 2.009841006845403e-14,
+      "open_boundary": false
+    }
+  ],
+  "new_open_bus_boundaries": 2,
+  "measurements": [
+    {
+      "key": "752",
+      "patches": [
+        {
+          "name": "bus_lower",
+          "type": "connected_row_pipe",
+          "heldout_count": 123,
+          "outside_connected_row_excluded": 260,
+          "residual_trimming": false,
+          "rms_m": 0.03810678184818701,
+          "p95_abs_m": 0.08321878761053085,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "bus_upper",
+          "type": "connected_row_pipe",
+          "heldout_count": 109,
+          "outside_connected_row_excluded": 251,
+          "residual_trimming": false,
+          "rms_m": 0.03433856026571566,
+          "p95_abs_m": 0.08631931394338607,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "bus_lower_front_cap",
+          "type": "front_cap_only",
+          "heldout_count": 23,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.059307528390824676,
+          "p95_abs_m": 0.16258694678544983,
+          "five_cm_screen_passed": false
+        },
+        {
+          "name": "bus_upper_front_cap",
+          "type": "front_cap_only",
+          "heldout_count": 18,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.0329140794930095,
+          "p95_abs_m": 0.05134638193994748,
+          "five_cm_screen_passed": true
+        }
+      ]
+    },
+    {
+      "key": "753",
+      "patches": [
+        {
+          "name": "bus_lower",
+          "type": "connected_row_pipe",
+          "heldout_count": 359,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.013311573268546009,
+          "p95_abs_m": 0.014191181678324933,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "bus_upper",
+          "type": "connected_row_pipe",
+          "heldout_count": 355,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.01825700683981198,
+          "p95_abs_m": 0.018490549921989487,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "bus_lower_front_cap",
+          "type": "front_cap_only",
+          "heldout_count": 18,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.05198992911836759,
+          "p95_abs_m": 0.09838685281574724,
+          "five_cm_screen_passed": false
+        },
+        {
+          "name": "bus_upper_front_cap",
+          "type": "front_cap_only",
+          "heldout_count": 19,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.011213182829647842,
+          "p95_abs_m": 0.01565563846379513,
+          "five_cm_screen_passed": true
+        }
+      ]
+    },
+    {
+      "key": "754",
+      "patches": [
+        {
+          "name": "bus_lower",
+          "type": "connected_row_pipe",
+          "heldout_count": 394,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.021761567837818144,
+          "p95_abs_m": 0.06028895620256659,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "bus_upper",
+          "type": "connected_row_pipe",
+          "heldout_count": 383,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.02414267865037673,
+          "p95_abs_m": 0.06547064259648323,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "bus_lower_front_cap",
+          "type": "front_cap_only",
+          "heldout_count": 25,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.07575306342289571,
+          "p95_abs_m": 0.16572347879409777,
+          "five_cm_screen_passed": false
+        },
+        {
+          "name": "bus_upper_front_cap",
+          "type": "front_cap_only",
+          "heldout_count": 15,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.009038924184012129,
+          "p95_abs_m": 0.016111732646822904,
+          "five_cm_screen_passed": true
+        }
+      ]
+    },
+    {
+      "key": "755",
+      "patches": [
+        {
+          "name": "bus_lower",
+          "type": "connected_row_pipe",
+          "heldout_count": 359,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.015543549397984729,
+          "p95_abs_m": 0.015627700462937343,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "bus_upper",
+          "type": "connected_row_pipe",
+          "heldout_count": 345,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.00940927227582011,
+          "p95_abs_m": 0.012390957213938236,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "bus_lower_front_cap",
+          "type": "front_cap_only",
+          "heldout_count": 22,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.05298018502818381,
+          "p95_abs_m": 0.11729616969823835,
+          "five_cm_screen_passed": false
+        },
+        {
+          "name": "bus_upper_front_cap",
+          "type": "front_cap_only",
+          "heldout_count": 18,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.007901437490018223,
+          "p95_abs_m": 0.016644051112234593,
+          "five_cm_screen_passed": true
+        }
+      ]
+    },
+    {
+      "key": "756",
+      "patches": [
+        {
+          "name": "bus_lower",
+          "type": "connected_row_pipe",
+          "heldout_count": 379,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.012944655233476125,
+          "p95_abs_m": 0.016844251193106174,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "bus_upper",
+          "type": "connected_row_pipe",
+          "heldout_count": 358,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.012950977631250212,
+          "p95_abs_m": 0.017988663259893605,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "bus_lower_front_cap",
+          "type": "front_cap_only",
+          "heldout_count": 24,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.07028184679572799,
+          "p95_abs_m": 0.147835798561573,
+          "five_cm_screen_passed": false
+        },
+        {
+          "name": "bus_upper_front_cap",
+          "type": "front_cap_only",
+          "heldout_count": 15,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.008060401325535876,
+          "p95_abs_m": 0.017375004664063453,
+          "five_cm_screen_passed": true
+        }
+      ]
+    },
+    {
+      "key": "757",
+      "patches": [
+        {
+          "name": "bus_lower",
+          "type": "connected_row_pipe",
+          "heldout_count": 367,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.013424597684589023,
+          "p95_abs_m": 0.014525566902011613,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "bus_upper",
+          "type": "connected_row_pipe",
+          "heldout_count": 388,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.01577340520698174,
+          "p95_abs_m": 0.011811875691637393,
+          "five_cm_screen_passed": true
+        },
+        {
+          "name": "bus_lower_front_cap",
+          "type": "front_cap_only",
+          "heldout_count": 21,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.06390150984965058,
+          "p95_abs_m": 0.11884082853794098,
+          "five_cm_screen_passed": false
+        },
+        {
+          "name": "bus_upper_front_cap",
+          "type": "front_cap_only",
+          "heldout_count": 12,
+          "outside_connected_row_excluded": 0,
+          "residual_trimming": false,
+          "rms_m": 0.00804809990753785,
+          "p95_abs_m": 0.01456293999217449,
+          "five_cm_screen_passed": true
+        }
+      ]
+    }
+  ],
+  "local_screens_passed": 18,
+  "local_screens_unpassed": 6,
+  "front_region_diagnostics": [
+    {
+      "key": "752",
+      "level": 0,
+      "heldout_count": 23,
+      "scope": "same frozen front patch against cap plus modeled front portal; component-membership diagnostic, not a replacement for the cap-only result",
+      "rms_m": 0.03400806896975039,
+      "p95_abs_m": 0.06924425587058067,
+      "five_cm_screen_passed": true
+    },
+    {
+      "key": "752",
+      "level": 1,
+      "heldout_count": 18,
+      "scope": "same frozen front patch against cap plus modeled front portal; component-membership diagnostic, not a replacement for the cap-only result",
+      "rms_m": 0.02636445091221697,
+      "p95_abs_m": 0.04659728948026887,
+      "five_cm_screen_passed": true
+    },
+    {
+      "key": "753",
+      "level": 0,
+      "heldout_count": 18,
+      "scope": "same frozen front patch against cap plus modeled front portal; component-membership diagnostic, not a replacement for the cap-only result",
+      "rms_m": 0.05198992911836759,
+      "p95_abs_m": 0.09838685281574724,
+      "five_cm_screen_passed": false
+    },
+    {
+      "key": "753",
+      "level": 1,
+      "heldout_count": 19,
+      "scope": "same frozen front patch against cap plus modeled front portal; component-membership diagnostic, not a replacement for the cap-only result",
+      "rms_m": 0.011213182829647842,
+      "p95_abs_m": 0.01565563846379513,
+      "five_cm_screen_passed": true
+    },
+    {
+      "key": "754",
+      "level": 0,
+      "heldout_count": 25,
+      "scope": "same frozen front patch against cap plus modeled front portal; component-membership diagnostic, not a replacement for the cap-only result",
+      "rms_m": 0.05329191043036759,
+      "p95_abs_m": 0.10382657945156094,
+      "five_cm_screen_passed": false
+    },
+    {
+      "key": "754",
+      "level": 1,
+      "heldout_count": 15,
+      "scope": "same frozen front patch against cap plus modeled front portal; component-membership diagnostic, not a replacement for the cap-only result",
+      "rms_m": 0.009038924184012129,
+      "p95_abs_m": 0.016111732646822904,
+      "five_cm_screen_passed": true
+    },
+    {
+      "key": "755",
+      "level": 0,
+      "heldout_count": 22,
+      "scope": "same frozen front patch against cap plus modeled front portal; component-membership diagnostic, not a replacement for the cap-only result",
+      "rms_m": 0.036622019940670054,
+      "p95_abs_m": 0.08991721030324695,
+      "five_cm_screen_passed": true
+    },
+    {
+      "key": "755",
+      "level": 1,
+      "heldout_count": 18,
+      "scope": "same frozen front patch against cap plus modeled front portal; component-membership diagnostic, not a replacement for the cap-only result",
+      "rms_m": 0.007901437490018223,
+      "p95_abs_m": 0.016644051112234593,
+      "five_cm_screen_passed": true
+    },
+    {
+      "key": "756",
+      "level": 0,
+      "heldout_count": 24,
+      "scope": "same frozen front patch against cap plus modeled front portal; component-membership diagnostic, not a replacement for the cap-only result",
+      "rms_m": 0.05575230418818632,
+      "p95_abs_m": 0.1040464986115694,
+      "five_cm_screen_passed": false
+    },
+    {
+      "key": "756",
+      "level": 1,
+      "heldout_count": 15,
+      "scope": "same frozen front patch against cap plus modeled front portal; component-membership diagnostic, not a replacement for the cap-only result",
+      "rms_m": 0.008060401325535876,
+      "p95_abs_m": 0.017375004664063453,
+      "five_cm_screen_passed": true
+    },
+    {
+      "key": "757",
+      "level": 0,
+      "heldout_count": 21,
+      "scope": "same frozen front patch against cap plus modeled front portal; component-membership diagnostic, not a replacement for the cap-only result",
+      "rms_m": 0.06052229926084135,
+      "p95_abs_m": 0.10870075225830078,
+      "five_cm_screen_passed": false
+    },
+    {
+      "key": "757",
+      "level": 1,
+      "heldout_count": 12,
+      "scope": "same frozen front patch against cap plus modeled front portal; component-membership diagnostic, not a replacement for the cap-only result",
+      "rms_m": 0.00804809990753785,
+      "p95_abs_m": 0.01456293999217449,
+      "five_cm_screen_passed": true
+    }
+  ],
+  "new_bridge_checks": [
+    {
+      "key": "752",
+      "name": "rear_vertical",
+      "heldout_count": 59,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.04296819861137384,
+      "p95_abs_m": 0.09073135554790493,
+      "five_cm_screen_passed": true
+    },
+    {
+      "key": "752",
+      "name": "rear_upper",
+      "heldout_count": 49,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.04747874924981435,
+      "p95_abs_m": 0.07854736149311066,
+      "five_cm_screen_passed": true
+    },
+    {
+      "key": "752",
+      "name": "rear_lower",
+      "heldout_count": 53,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.0485123841340046,
+      "p95_abs_m": 0.0872474730014801,
+      "five_cm_screen_passed": true
+    },
+    {
+      "key": "753",
+      "name": "rear_vertical",
+      "heldout_count": 76,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.07708654639170243,
+      "p95_abs_m": 0.15306640416383743,
+      "five_cm_screen_passed": false
+    },
+    {
+      "key": "753",
+      "name": "rear_upper",
+      "heldout_count": 79,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.03042540280128143,
+      "p95_abs_m": 0.05381034165620804,
+      "five_cm_screen_passed": true
+    },
+    {
+      "key": "753",
+      "name": "rear_lower",
+      "heldout_count": 78,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.05819719182175916,
+      "p95_abs_m": 0.15993007123470304,
+      "five_cm_screen_passed": false
+    },
+    {
+      "key": "754",
+      "name": "rear_vertical",
+      "heldout_count": 67,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.053370140245249525,
+      "p95_abs_m": 0.14721878170967093,
+      "five_cm_screen_passed": false
+    },
+    {
+      "key": "754",
+      "name": "rear_upper",
+      "heldout_count": 60,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.044128379906402136,
+      "p95_abs_m": 0.09037124663591382,
+      "five_cm_screen_passed": true
+    },
+    {
+      "key": "754",
+      "name": "rear_lower",
+      "heldout_count": 69,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.06450011958783668,
+      "p95_abs_m": 0.1363831847906112,
+      "five_cm_screen_passed": false
+    },
+    {
+      "key": "755",
+      "name": "rear_vertical",
+      "heldout_count": 54,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.07358951021744588,
+      "p95_abs_m": 0.15506409481167788,
+      "five_cm_screen_passed": false
+    },
+    {
+      "key": "755",
+      "name": "rear_upper",
+      "heldout_count": 79,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.0401903116327591,
+      "p95_abs_m": 0.08908239677548406,
+      "five_cm_screen_passed": true
+    },
+    {
+      "key": "755",
+      "name": "rear_lower",
+      "heldout_count": 105,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.06282982938194437,
+      "p95_abs_m": 0.12817578613758085,
+      "five_cm_screen_passed": false
+    },
+    {
+      "key": "756",
+      "name": "rear_vertical",
+      "heldout_count": 72,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.04969945601811531,
+      "p95_abs_m": 0.11200373284518719,
+      "five_cm_screen_passed": true
+    },
+    {
+      "key": "756",
+      "name": "rear_upper",
+      "heldout_count": 76,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.03957662377628728,
+      "p95_abs_m": 0.06500615552067757,
+      "five_cm_screen_passed": true
+    },
+    {
+      "key": "756",
+      "name": "rear_lower",
+      "heldout_count": 104,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.06593624860821215,
+      "p95_abs_m": 0.1684524782001972,
+      "five_cm_screen_passed": false
+    },
+    {
+      "key": "757",
+      "name": "rear_vertical",
+      "heldout_count": 68,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.06645404267555703,
+      "p95_abs_m": 0.15587109476327896,
+      "five_cm_screen_passed": false
+    },
+    {
+      "key": "757",
+      "name": "rear_upper",
+      "heldout_count": 73,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.03489047620072524,
+      "p95_abs_m": 0.051973613351583466,
+      "five_cm_screen_passed": true
+    },
+    {
+      "key": "757",
+      "name": "rear_lower",
+      "heldout_count": 93,
+      "scope": "actual finite rear bridge and its support surfaces, from expanded reference crop",
+      "rms_m": 0.06613198610950101,
+      "p95_abs_m": 0.13580478131771073,
+      "five_cm_screen_passed": false
+    }
+  ],
+  "bridge_screens_passed": 9,
+  "bridge_screens_unpassed": 9,
+  "support_contact_checks": [
+    {
+      "key": "752",
+      "side": -1,
+      "frame_foundation_and_leg_plate_contacts": true
+    },
+    {
+      "key": "753",
+      "side": 1,
+      "frame_foundation_and_leg_plate_contacts": true
+    },
+    {
+      "key": "754",
+      "side": -1,
+      "frame_foundation_and_leg_plate_contacts": true
+    },
+    {
+      "key": "755",
+      "side": 1,
+      "frame_foundation_and_leg_plate_contacts": true
+    },
+    {
+      "key": "756",
+      "side": -1,
+      "frame_foundation_and_leg_plate_contacts": true
+    },
+    {
+      "key": "756",
+      "side": 1,
+      "frame_foundation_and_leg_plate_contacts": true
+    },
+    {
+      "key": "757",
+      "side": -1,
+      "frame_foundation_and_leg_plate_contacts": true
+    },
+    {
+      "key": "757",
+      "side": 1,
+      "frame_foundation_and_leg_plate_contacts": true
+    },
+    {
+      "key": "501",
+      "side": 1,
+      "frame_foundation_and_leg_plate_contacts": true
+    },
+    {
+      "key": "502",
+      "side": 1,
+      "frame_foundation_and_leg_plate_contacts": true
+    }
+  ],
+  "camera_framing": {
+    "204_B15R2_752_Clean": {
+      "min": [
+        0.3355599045753479,
+        0.26115962862968445
+      ],
+      "max": [
+        0.6852670907974243,
+        0.6739366054534912
+      ]
+    },
+    "207_B15R2_753_Clean": {
+      "min": [
+        0.26287078857421875,
+        0.26115882396698
+      ],
+      "max": [
+        0.8405377864837646,
+        0.7216663956642151
+      ]
+    },
+    "210_B15R2_754_Clean": {
+      "min": [
+        0.19128146767616272,
+        0.2611599564552307
+      ],
+      "max": [
+        0.685267448425293,
+        0.6739371418952942
+      ]
+    },
+    "213_B15R2_755_Clean": {
+      "min": [
+        0.2608776092529297,
+        0.26115986704826355
+      ],
+      "max": [
+        0.8381358981132507,
+        0.7209715843200684
+      ]
+    },
+    "216_B15R2_756_Clean": {
+      "min": [
+        0.19422098994255066,
+        0.26115939021110535
+      ],
+      "max": [
+        0.8421229720115662,
+        0.7225269675254822
+      ]
+    },
+    "219_B15R2_757_Clean": {
+      "min": [
+        0.18977269530296326,
+        0.26115989685058594
+      ],
+      "max": [
+        0.8424807786941528,
+        0.7221320271492004
+      ]
+    },
+    "223_B15R2_756_Rear_Clean": {
+      "min": [
+        0.18763266503810883,
+        0.2708030045032501
+      ],
+      "max": [
+        0.8651257753372192,
+        0.7830552458763123
+      ]
+    },
+    "226_B15R2_756_Side_Clean": {
+      "min": [
+        0.377777636051178,
+        0.31727612018585205
+      ],
+      "max": [
+        0.7555559873580933,
+        0.6845608353614807
+      ]
+    },
+    "229_B15R2_756_Top_Clean": {
+      "min": [
+        0.08762475848197937,
+        0.12800109386444092
+      ],
+      "max": [
+        0.9201920032501221,
+        0.6723015904426575
+      ]
+    },
+    "232_B15R2_754_501_Junction": {
+      "min": [
+        0.1403820514678955,
+        0.1420890986919403
+      ],
+      "max": [
+        0.9493135213851929,
+        0.9131174087524414
+      ]
+    }
+  },
+  "pending": [
+    "lower front-cap R1 checks included front portal surfaces; retain historical6 failed checks and inspect actual front assembly association",
+    "new rear bridge and supports require saved finite surface review; photo-derived dimensions, not manufacturerCAD",
+    "752 negative bus boundary remains pending coupler500; other historical B11/B12/B13/B14 unpassed items remain",
+    "overall outdoor modeling and alignment goal remains unfinished"
+  ],
+  "formal_promotions": 0,
+  "outdoor_goal_complete": false,
+  "validation_scope": "full retained history; saved finite pipe interfaces, shared source asset, reference surface patches and modeled support contacts; not whole-device or whole-station acceptance",
+  "blend_saved_by_validator": false
+}

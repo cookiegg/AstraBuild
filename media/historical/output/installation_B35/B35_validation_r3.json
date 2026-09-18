@@ -1,0 +1,436 @@
+{
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/xialin_B35_auxiliary_equipment_r3.blend",
+  "sha256": "66beb37e0808df38281e9d271cdf2eecbc7b4f1356ee95652b6e3efcf16cebc2",
+  "previous_objects_unchanged": 35550,
+  "previous_scenes_unchanged": 710,
+  "previous_collections_unchanged": 794,
+  "previous_materials_unchanged": 382,
+  "previous_station_transforms_unchanged": 7112,
+  "protected_previous_files_unchanged": 3230,
+  "protected_r1_files_unchanged": 50,
+  "source_asset_roundtrip_identical": true,
+  "shared_main_transformers_preserved": true,
+  "shared_cctv_and_lantern_heads": true,
+  "counts": {
+    "objects": 36615,
+    "scenes": 731,
+    "station_objects": 7114
+  },
+  "summary": {
+    "cctv": 21,
+    "garden_lights": 3,
+    "white_enclosures": 2,
+    "green_crossroad_gate": 1,
+    "yard_vents": 3,
+    "hydrant_covers": 1,
+    "boards": 4
+  },
+  "pole_source_checks": [
+    {
+      "key": "CCTV_00",
+      "samples": 229,
+      "shaft_radial_rms_m": 0.01134838380288411,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_01",
+      "samples": 99,
+      "shaft_radial_rms_m": 0.03512645723120205,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_02",
+      "samples": 235,
+      "shaft_radial_rms_m": 0.018196726086571562,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_03",
+      "samples": 208,
+      "shaft_radial_rms_m": 0.014991950272339606,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_04",
+      "samples": 189,
+      "shaft_radial_rms_m": 0.019985766067818416,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_05",
+      "samples": 230,
+      "shaft_radial_rms_m": 0.012389014139322883,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_06",
+      "samples": 183,
+      "shaft_radial_rms_m": 0.010986268747074363,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "LAMP_07",
+      "samples": 31,
+      "shaft_radial_rms_m": 0.016076867204077642,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_09",
+      "samples": 203,
+      "shaft_radial_rms_m": 0.014147673935390907,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_10",
+      "samples": 167,
+      "shaft_radial_rms_m": 0.021630402683387822,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_11",
+      "samples": 215,
+      "shaft_radial_rms_m": 0.0117748559191629,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "LAMP_12",
+      "samples": 23,
+      "shaft_radial_rms_m": 0.011466791215302146,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_13",
+      "samples": 209,
+      "shaft_radial_rms_m": 0.015174078135072358,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_14",
+      "samples": 187,
+      "shaft_radial_rms_m": 0.01288402009728929,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "LAMP_15",
+      "samples": 20,
+      "shaft_radial_rms_m": 0.011646407626359342,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_16",
+      "samples": 44,
+      "shaft_radial_rms_m": 0.016272629610415226,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_17",
+      "samples": 196,
+      "shaft_radial_rms_m": 0.013246086005217036,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_18",
+      "samples": 195,
+      "shaft_radial_rms_m": 0.017624966535299665,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_19",
+      "samples": 171,
+      "shaft_radial_rms_m": 0.01466255385003345,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_20",
+      "samples": 204,
+      "shaft_radial_rms_m": 0.012137042855039106,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_21",
+      "samples": 138,
+      "shaft_radial_rms_m": 0.01897945277298282,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_22",
+      "samples": 60,
+      "shaft_radial_rms_m": 0.03454069545647668,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_23",
+      "samples": 97,
+      "shaft_radial_rms_m": 0.03664833697015213,
+      "source_odd_triangles": true,
+      "parity_basis": "original_triangle_index"
+    },
+    {
+      "key": "CCTV_WEST",
+      "samples": 81,
+      "shaft_radial_rms_m": 0.03709114497697896,
+      "source_odd_triangles": true,
+      "parity_basis": "saved_npz_face_index"
+    }
+  ],
+  "new_pedestals_ground_contacts": [
+    {
+      "name": "B35::CCTV_00.foundation",
+      "ground": -0.0260317325592041,
+      "bottom": -0.06597542576491833,
+      "top": 0.10402457602322102
+    },
+    {
+      "name": "B35::CCTV_01.foundation",
+      "ground": -0.16288471221923828,
+      "bottom": -0.20288103818893433,
+      "top": -0.03288103640079498
+    },
+    {
+      "name": "B35::CCTV_02.foundation",
+      "ground": -0.026919126510620117,
+      "bottom": -0.0668859388679266,
+      "top": 0.10311406292021275
+    },
+    {
+      "name": "B35::CCTV_03.foundation",
+      "ground": 0.005089521408081055,
+      "bottom": -0.03490364924073219,
+      "top": 0.13509635254740715
+    },
+    {
+      "name": "B35::CCTV_04.foundation",
+      "ground": 0.028174996376037598,
+      "bottom": -0.011829160153865814,
+      "top": 0.15817084163427353
+    },
+    {
+      "name": "B35::CCTV_05.foundation",
+      "ground": 0.049843788146972656,
+      "bottom": 0.009831503033638,
+      "top": 0.17983150482177734
+    },
+    {
+      "name": "B35::CCTV_06.foundation",
+      "ground": 0.018762707710266113,
+      "bottom": -0.021203182637691498,
+      "top": 0.14879681915044785
+    },
+    {
+      "name": "B35::LAMP_07.foundation",
+      "ground": -0.10189533233642578,
+      "bottom": -0.14182287082076073,
+      "top": 0.028177130967378616
+    },
+    {
+      "name": "B35::CCTV_09.foundation",
+      "ground": 0.07748901844024658,
+      "bottom": -0.09245022293180227,
+      "top": 0.07754977885633707
+    },
+    {
+      "name": "B35::CCTV_10.foundation",
+      "ground": -0.10602259635925293,
+      "bottom": -0.1460299827158451,
+      "top": 0.023970019072294235
+    },
+    {
+      "name": "B35::CCTV_11.foundation",
+      "ground": -0.05342388153076172,
+      "bottom": -0.09339041262865067,
+      "top": 0.07660958915948868
+    },
+    {
+      "name": "B35::LAMP_12.foundation",
+      "ground": -0.26305508613586426,
+      "bottom": -0.3030562773346901,
+      "top": -0.13305627554655075
+    },
+    {
+      "name": "B35::CCTV_13.foundation",
+      "ground": -0.1467576026916504,
+      "bottom": -0.18674813210964203,
+      "top": -0.016748130321502686
+    },
+    {
+      "name": "B35::CCTV_14.foundation",
+      "ground": -0.12587690353393555,
+      "bottom": -0.1658683344721794,
+      "top": 0.00413166731595993
+    },
+    {
+      "name": "B35::LAMP_15.foundation",
+      "ground": -0.2807769775390625,
+      "bottom": -0.32110679894685745,
+      "top": -0.1511067971587181
+    },
+    {
+      "name": "B35::CCTV_16.foundation",
+      "ground": -0.2856144905090332,
+      "bottom": -0.3261473998427391,
+      "top": -0.15614739805459976
+    },
+    {
+      "name": "B35::CCTV_17.foundation",
+      "ground": -0.2761721611022949,
+      "bottom": -0.3161715343594551,
+      "top": -0.14617153257131577
+    },
+    {
+      "name": "B35::CCTV_18.foundation",
+      "ground": -0.22275495529174805,
+      "bottom": -0.2627348229289055,
+      "top": -0.09273482114076614
+    },
+    {
+      "name": "B35::CCTV_19.foundation",
+      "ground": -0.17500567436218262,
+      "bottom": -0.2150331661105156,
+      "top": -0.04503316432237625
+    },
+    {
+      "name": "B35::CCTV_20.foundation",
+      "ground": -0.14460134506225586,
+      "bottom": -0.18467772006988525,
+      "top": -0.01467771828174591
+    },
+    {
+      "name": "B35::CCTV_21.foundation",
+      "ground": -0.2328331470489502,
+      "bottom": -0.3278103843331337,
+      "top": -0.15781038254499435
+    },
+    {
+      "name": "B35::CCTV_22.foundation",
+      "ground": -0.4478485584259033,
+      "bottom": -0.48784806579351425,
+      "top": -0.3178480640053749
+    },
+    {
+      "name": "B35::CCTV_23.foundation",
+      "ground": -0.2607264518737793,
+      "bottom": -0.30104728788137436,
+      "top": -0.13104728609323502
+    },
+    {
+      "name": "B35::CCTV_WEST.foundation",
+      "ground": -0.03682208061218262,
+      "bottom": -0.13166477903723717,
+      "top": 0.038335222750902176
+    }
+  ],
+  "fence_source_checks": [
+    {
+      "key": "south_straight",
+      "samples": 2490,
+      "initial_domain_samples": 2490,
+      "excluded_independent_vent_samples": 0,
+      "rms_m": 0.08290931970575602,
+      "p95_m": 0.19824058860540375,
+      "residual_trimming": false,
+      "domain": "Original fixed fence ROI minus pre-existing measured vent boxes of half-width .32m"
+    },
+    {
+      "key": "gate",
+      "samples": 1357,
+      "initial_domain_samples": 1357,
+      "excluded_independent_vent_samples": 0,
+      "rms_m": 0.03535517261081511,
+      "p95_m": 0.055960763990879056,
+      "residual_trimming": false,
+      "domain": "Original fixed fence ROI minus pre-existing measured vent boxes of half-width .32m"
+    },
+    {
+      "key": "east_long",
+      "samples": 3549,
+      "initial_domain_samples": 3549,
+      "excluded_independent_vent_samples": 0,
+      "rms_m": 0.10990538075536495,
+      "p95_m": 0.3191743195056915,
+      "residual_trimming": false,
+      "domain": "Original fixed fence ROI minus pre-existing measured vent boxes of half-width .32m"
+    },
+    {
+      "key": "east_return",
+      "samples": 372,
+      "initial_domain_samples": 372,
+      "excluded_independent_vent_samples": 0,
+      "rms_m": 0.054503617741264686,
+      "p95_m": 0.07325518317520618,
+      "residual_trimming": false,
+      "domain": "Original fixed fence ROI minus pre-existing measured vent boxes of half-width .32m"
+    },
+    {
+      "key": "curved_run",
+      "samples": 3880,
+      "initial_domain_samples": 3950,
+      "excluded_independent_vent_samples": 70,
+      "rms_m": 0.203479680417575,
+      "p95_m": 0.3764177799224854,
+      "residual_trimming": false,
+      "domain": "Original fixed fence ROI minus pre-existing measured vent boxes of half-width .32m"
+    }
+  ],
+  "gate_leaf_endpoints_match": true,
+  "camera_framing": {
+    "726_B35_Station_West_Clean": {
+      "min": [
+        0.09812121093273163,
+        0.15025067329406738
+      ],
+      "max": [
+        0.8983776569366455,
+        0.9399999976158142
+      ]
+    },
+    "729_B35_Station_Top_Clean": {
+      "min": [
+        0.2667248249053955,
+        0.060451049357652664
+      ],
+      "max": [
+        0.7297066450119019,
+        0.9399999976158142
+      ]
+    },
+    "741_B35_CCTV_Detail_Clean": {
+      "min": [
+        0.4513309895992279,
+        0.04838660731911659
+      ],
+      "max": [
+        0.5305336713790894,
+        0.925494909286499
+      ]
+    }
+  },
+  "limitations": [
+    "Source gaps leave some auxiliary poles and small fittings unconfirmed; represented assets are the identified subset.",
+    "White south enclosure footprint, fence member sections, camera/lamp housings and board sizes use photo proportions.",
+    "Unreadable board diagrams and device identifiers omitted; no underground utility interiors modeled."
+  ],
+  "comparison_scope": "Fixed odd original triangle shaft and fence member samples; same reconstruction as modeling input, not independent surveyed accuracy.",
+  "broader_objective_complete": false
+}

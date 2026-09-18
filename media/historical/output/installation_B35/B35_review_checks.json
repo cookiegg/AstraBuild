@@ -1,0 +1,8 @@
+{
+  "interactive_cases": 7,
+  "embedded_images": 21,
+  "javascript_syntax_passed": true,
+  "control_smoke_passed": true,
+  "local_links_resolve": true,
+  "html_sha256": "3d6256ae0f5aeba41e7151f90aba8620c4a1aab17ff4dada421cba338562a316"
+}

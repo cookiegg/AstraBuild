@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "scope": "full-station working-preview integration and immutability, NOT formal semantic promotion",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B02/xialin_photo_first_B02_station_preview_r2.blend",
+  "sha256": "bf3d0dc5c62434f19dda3d828bd69ce1eacae191a0e7fde007d75e20ae11ea36",
+  "baseline_scene_components_preserved": 15096,
+  "old_target_components_removed_only_from_preview": 60,
+  "candidate_equipment_instances": 3,
+  "candidate_meshes": 186,
+  "preview_equipment_meshes": 15222,
+  "scene_checks": {
+    "09_Photo_First_B02_Station_Clean": {
+      "unchanged_original_mesh_objects": 15036,
+      "candidate_meshes": 186,
+      "candidate_matrix_max_error": 2.1710045601253114e-06,
+      "same_source_objects_shared": true,
+      "old_target_meshes_absent": true
+    },
+    "10_Photo_First_B02_Coarse_Overlay": {
+      "unchanged_original_mesh_objects": 15036,
+      "candidate_meshes": 186,
+      "candidate_matrix_max_error": 2.1710045601253114e-06,
+      "same_source_objects_shared": true,
+      "old_target_meshes_absent": true
+    },
+    "11_Photo_First_B02_Local_Detail": {
+      "unchanged_original_mesh_objects": 0,
+      "candidate_meshes": 186,
+      "candidate_matrix_max_error": 2.1710045601253114e-06,
+      "same_source_objects_shared": true,
+      "old_target_meshes_absent": true
+    }
+  },
+  "coarse_meshes_preserved": 23,
+  "official_registry_rewritten": false,
+  "formal_v50_unchanged": true,
+  "photo_first_assets_unchanged": true,
+  "accessory_poses_approximate": true,
+  "local_wire_routes_pending": true,
+  "original_B01_failure_preserved": true,
+  "protected_hashes_checked": 170,
+  "source_model_saved_during_QA": false
+}

@@ -1,0 +1,8 @@
+{
+  "cases": 21,
+  "relative_artifact_links_valid": true,
+  "javascript_syntax_passed": true,
+  "embedded_images_match_renders": true,
+  "browser_layout_reviewed": false,
+  "html_sha256": "56baaec9f524f6ddc5afbb28cb37d33d4b5481f0642fc560bc5ddded628e1dd2"
+}

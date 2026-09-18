@@ -1,0 +1,183 @@
+{
+  "status": "saved_geometry_and_preservation_passed_with_alignment_pending",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/r2/xialin_B12_749_GIS_r2.blend",
+  "sha256": "933674f4802f36c22cd25b2b43579987ffb09c8bab18c7ddddae53d89d9b649c",
+  "previous_objects_unchanged": 23924,
+  "previous_scenes_unchanged": 92,
+  "previous_collections_unchanged": 300,
+  "previous_materials_unchanged": 288,
+  "protected_files_unchanged": 678,
+  "source_P03_meshes_unchanged": 120,
+  "upper_subset_unchanged": 15,
+  "formal_baseline_preserved": 15096,
+  "legacy_meshes_omitted_only_in_new_scenes": 121,
+  "retained_legacy_meshes": 6222,
+  "expanded_meshes_per_749": 297,
+  "shared_compact_bushings": 3,
+  "shared_bus_modules": 2,
+  "asset_roundtrip_identical": true,
+  "B04_cabinet_pose_preserved": true,
+  "contact_checks": 15,
+  "contact_max_error_m": 8.568167686462402e-08,
+  "camera_framing": {
+    "110_B12_749_Rear_Clean": {
+      "min": [
+        0.1495456099510193,
+        0.10687461495399475
+      ],
+      "max": [
+        0.8467028141021729,
+        0.784378707408905
+      ]
+    },
+    "113_B12_749_Front_Clean": {
+      "min": [
+        0.18506455421447754,
+        0.07306601107120514
+      ],
+      "max": [
+        0.8716234564781189,
+        0.9067881107330322
+      ]
+    },
+    "116_B12_749_Side_Clean": {
+      "min": [
+        0.10736418515443802,
+        0.15565264225006104
+      ],
+      "max": [
+        0.8985466957092285,
+        0.7893152832984924
+      ]
+    },
+    "119_B12_749_Top_Clean": {
+      "min": [
+        0.11278083175420761,
+        0.06013532355427742
+      ],
+      "max": [
+        0.8930485248565674,
+        0.9650000333786011
+      ]
+    }
+  },
+  "cylinder_measurements": [
+    {
+      "component": "bus_lower",
+      "actual_center": [
+        0.9418159725304349,
+        0.7547065020618788
+      ],
+      "actual_radius_m": 0.22744916759382336,
+      "heldout_count": 321,
+      "heldout_rms_m": 0.03581087860544842,
+      "heldout_p95_abs_m": 0.10252172716386357,
+      "five_cm_patch_screen_passed": true,
+      "scope": "cylinder patch residual only; excludes flanges/end shapes"
+    },
+    {
+      "component": "bus_upper",
+      "actual_center": [
+        0.9458472730751737,
+        1.7982875705776564
+      ],
+      "actual_radius_m": 0.22744916759382336,
+      "heldout_count": 294,
+      "heldout_rms_m": 0.029196563239084178,
+      "heldout_p95_abs_m": 0.09633056763942976,
+      "five_cm_patch_screen_passed": true,
+      "scope": "cylinder patch residual only; excludes flanges/end shapes"
+    },
+    {
+      "component": "longitudinal_tank",
+      "actual_center": [
+        0.7738420243838959,
+        1.8185039882084197
+      ],
+      "actual_radius_m": 0.3212200020201728,
+      "heldout_count": 119,
+      "heldout_rms_m": 0.0482800852847015,
+      "heldout_p95_abs_m": 0.07239492901732396,
+      "five_cm_patch_screen_passed": true,
+      "scope": "cylinder patch residual only; excludes flanges/end shapes"
+    },
+    {
+      "component": "front_vertical_shell",
+      "actual_center": [
+        -0.12424714118242264,
+        0.7094992399215698
+      ],
+      "actual_radius_m": 0.3869043396296991,
+      "heldout_count": 185,
+      "heldout_rms_m": 0.05145523448153845,
+      "heldout_p95_abs_m": 0.13057520385479332,
+      "five_cm_patch_screen_passed": false,
+      "scope": "cylinder patch residual only; excludes flanges/end shapes"
+    },
+    {
+      "component": "rear_vertical_shell",
+      "actual_center": [
+        -2.6721599102020264,
+        0.6959821581840515
+      ],
+      "actual_radius_m": 0.2514201471338942,
+      "heldout_count": 224,
+      "heldout_rms_m": 0.06353575566720687,
+      "heldout_p95_abs_m": 0.11510906746402573,
+      "five_cm_patch_screen_passed": false,
+      "scope": "cylinder patch residual only; excludes flanges/end shapes"
+    },
+    {
+      "component": "upper_metal_can",
+      "actual_center": [
+        -2.6504321098327637,
+        0.7080414891242981
+      ],
+      "actual_radius_m": 0.21519141486971108,
+      "heldout_count": 65,
+      "heldout_rms_m": 0.028235657477089757,
+      "heldout_p95_abs_m": 0.0696553200943594,
+      "five_cm_patch_screen_passed": true,
+      "scope": "cylinder patch residual only; excludes flanges/end shapes"
+    }
+  ],
+  "bushing_measurements": [
+    {
+      "name": "side_plus",
+      "heldout_count": 494,
+      "saved_surface_rms_m": 0.020724750161540996,
+      "saved_surface_p95_m": 0.039514631591737265,
+      "five_cm_patch_screen_passed": true,
+      "scope": "actual shared mesh nearest-surface distance on reserved shell patches; not full terminal/lead acceptance"
+    },
+    {
+      "name": "side_minus",
+      "heldout_count": 414,
+      "saved_surface_rms_m": 0.023291310034517336,
+      "saved_surface_p95_m": 0.043748816475272165,
+      "five_cm_patch_screen_passed": true,
+      "scope": "actual shared mesh nearest-surface distance on reserved shell patches; not full terminal/lead acceptance"
+    },
+    {
+      "name": "rear",
+      "heldout_count": 400,
+      "saved_surface_rms_m": 0.01893753068602724,
+      "saved_surface_p95_m": 0.04092789385467767,
+      "five_cm_patch_screen_passed": true,
+      "scope": "actual shared mesh nearest-surface distance on reserved shell patches; not full terminal/lead acceptance"
+    }
+  ],
+  "patch_screen_threshold_m": 0.05,
+  "patch_screen_not_whole_device_acceptance": true,
+  "complete_GIS_device": false,
+  "formal_promotions": 0,
+  "pending": [
+    "all dimensions are reference-derived, not survey/manufacturer CAD",
+    "front/rear vessel patch residuals and reconstructed surface irregularities remain visible",
+    "new compact bushing exact skirt count and terminal hardware unresolved",
+    "inter-bay bus boundaries, remote outgoing leads, hidden connectors and small service pipes pending",
+    "B04 cabinet rear depth mismatch remains; current pose and source shape preserved",
+    "other ZF23 variants require independent pose and topology checks before reuse"
+  ],
+  "blend_saved_by_validator": false
+}

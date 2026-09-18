@@ -1,0 +1,441 @@
+{
+  "stage": "D38",
+  "revision": "D38.2",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D38/xialin_D38_fire_gis_fixes.blend",
+  "sha256": "ca84352903281ba8ff431ab22f32efe76efa5098061fc45fcb447d73717e7db4",
+  "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D38/D38_components.blend",
+  "asset_sha256": "3e0d0add7c5dadef3f099053c2f2e9b9e5b8bf221dd2b11f55b07de37909c87b",
+  "baseline_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D37/xialin_D37_small_facilities.blend",
+  "baseline_sha256_before": "6b6a20a0604762a082cc09ef6fa822d5e8403ae93eef0ae9a34073d63f27459e",
+  "baseline_sha256_after": "6b6a20a0604762a082cc09ef6fa822d5e8403ae93eef0ae9a34073d63f27459e",
+  "baseline_counts": {
+    "objects": 36864,
+    "scenes": 750,
+    "collections": 850,
+    "station_objects": 7141
+  },
+  "counts_after_build": {
+    "objects": 37153,
+    "scenes": 755,
+    "collections": 858,
+    "station_objects_in_d38_review": 7139
+  },
+  "station_scene": "769_D38_Station_Top_Clean",
+  "new_scenes": [
+    "766_D38_Fire_Room_Clean",
+    "767_D38_Fire_Room_Overlay",
+    "768_D38_GIS_Row_Overlay",
+    "769_D38_Station_Top_Clean",
+    "770_D38_Cabinet_Sites_Overlay"
+  ],
+  "quarantined_objects": [
+    {
+      "name": "T23052218322040428::cabinet.1.body",
+      "cabinet": "cabinet.1",
+      "xy": [
+        -19.45,
+        -42.85
+      ],
+      "reason": "落点粗模无设备；fire-system 批次 ray-position proxy"
+    },
+    {
+      "name": "T23052218322040428::cabinet.1.panel",
+      "cabinet": "cabinet.1",
+      "xy": [
+        -19.45,
+        -42.85
+      ],
+      "reason": "落点粗模无设备；fire-system 批次 ray-position proxy"
+    },
+    {
+      "name": "T23052218322040428::cabinet.1.sign",
+      "cabinet": "cabinet.1",
+      "xy": [
+        -19.45,
+        -42.85
+      ],
+      "reason": "落点粗模无设备；fire-system 批次 ray-position proxy"
+    },
+    {
+      "name": "T23052218322040428::cabinet.2.body",
+      "cabinet": "cabinet.2",
+      "xy": [
+        -25.63,
+        -30.18
+      ],
+      "reason": "落点粗模无设备；fire-system 批次 ray-position proxy"
+    },
+    {
+      "name": "T23052218322040428::cabinet.2.panel",
+      "cabinet": "cabinet.2",
+      "xy": [
+        -25.63,
+        -30.18
+      ],
+      "reason": "落点粗模无设备；fire-system 批次 ray-position proxy"
+    },
+    {
+      "name": "T23052218322040428::cabinet.2.sign",
+      "cabinet": "cabinet.2",
+      "xy": [
+        -25.63,
+        -30.18
+      ],
+      "reason": "落点粗模无设备；fire-system 批次 ray-position proxy"
+    },
+    {
+      "name": "T23052218322040428::cabinet.3.body",
+      "cabinet": "cabinet.3",
+      "xy": [
+        -7.62,
+        -76.38
+      ],
+      "reason": "落点粗模无设备；fire-system 批次 ray-position proxy"
+    },
+    {
+      "name": "T23052218322040428::cabinet.3.panel",
+      "cabinet": "cabinet.3",
+      "xy": [
+        -7.62,
+        -76.38
+      ],
+      "reason": "落点粗模无设备；fire-system 批次 ray-position proxy"
+    },
+    {
+      "name": "T23052218322040428::cabinet.3.sign",
+      "cabinet": "cabinet.3",
+      "xy": [
+        -7.62,
+        -76.38
+      ],
+      "reason": "落点粗模无设备；fire-system 批次 ray-position proxy"
+    }
+  ],
+  "quarantine_collection": "D38_QUARANTINE__not_in_station",
+  "created_objects": [
+    {
+      "name": "D38::fire_room.base",
+      "collection": "D38_FIRE_ROOM_MASTER",
+      "kind": "box",
+      "material": "D38_concrete",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D38::fire_room.body",
+      "collection": "D38_FIRE_ROOM_MASTER",
+      "kind": "box",
+      "material": "D38_fire_red",
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "D38::sand_box.body",
+      "collection": "D38_FIRE_SAND_BOX_MASTER",
+      "kind": "box",
+      "material": "D38_sand_yellow",
+      "vertices": 8,
+      "faces": 6
+    }
+  ],
+  "linked_bay_objects": 275,
+  "placement_instances": [
+    {
+      "name": "D38::FIRE_ROOM",
+      "facility_id": "D38_FIRE_ROOM",
+      "collection": "D38_FIRE_ROOM_MASTER",
+      "xy": [
+        -23.34,
+        -38.93
+      ],
+      "ground_z_world": -0.2802467346191406,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": -157.4,
+      "matrix_world": [
+        [
+          -0.9232102036476135,
+          0.3842952847480774,
+          0.0,
+          -23.34000015258789
+        ],
+        [
+          -0.3842952847480774,
+          -0.9232102036476135,
+          0.0,
+          -38.93000030517578
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.2802467346191406
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D38::D38_FIRE_SAND_BOX_S",
+      "facility_id": "D38_FIRE_SAND_BOX_S",
+      "collection": "D38_FIRE_SAND_BOX_MASTER",
+      "xy": [
+        -24.28,
+        -36.49
+      ],
+      "ground_z_world": -0.2677803039550781,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": -157.4,
+      "matrix_world": [
+        [
+          -0.9232102036476135,
+          0.3842952847480774,
+          0.0,
+          -24.280000686645508
+        ],
+        [
+          -0.3842952847480774,
+          -0.9232102036476135,
+          0.0,
+          -36.4900016784668
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.2677803039550781
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D38::D38_FIRE_SAND_BOX_N",
+      "facility_id": "D38_FIRE_SAND_BOX_N",
+      "collection": "D38_FIRE_SAND_BOX_MASTER",
+      "xy": [
+        -21.98,
+        -41.21
+      ],
+      "ground_z_world": -0.2839202880859375,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": -157.4,
+      "matrix_world": [
+        [
+          -0.9232102036476135,
+          0.3842952847480774,
+          0.0,
+          -21.979999542236328
+        ],
+        [
+          -0.3842952847480774,
+          -0.9232102036476135,
+          0.0,
+          -41.209999084472656
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.2839202880859375
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D38::D38_GIS220_BAY_G1",
+      "facility_id": "D38_GIS220_BAY_G1",
+      "collection": "D38_GIS220_BAY_MASTER",
+      "xy": [
+        -22.42,
+        -57.84
+      ],
+      "ground_z_world": -0.20045852661132812,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 115.6,
+      "matrix_world": [
+        [
+          -0.43208545446395874,
+          -0.901832640171051,
+          0.0,
+          -22.420000076293945
+        ],
+        [
+          0.901832640171051,
+          -0.43208545446395874,
+          0.0,
+          -57.84000015258789
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.20045852661132812
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D38::D38_GIS220_BAY_G2",
+      "facility_id": "D38_GIS220_BAY_G2",
+      "collection": "D38_GIS220_BAY_MASTER",
+      "xy": [
+        -27.55,
+        -47.26
+      ],
+      "ground_z_world": -0.27939605712890625,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 115.6,
+      "matrix_world": [
+        [
+          -0.43208545446395874,
+          -0.901832640171051,
+          0.0,
+          -27.549999237060547
+        ],
+        [
+          0.901832640171051,
+          -0.43208545446395874,
+          0.0,
+          -47.2599983215332
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.27939605712890625
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "D38::D38_GIS220_BAY_G3",
+      "facility_id": "D38_GIS220_BAY_G3",
+      "collection": "D38_GIS220_BAY_MASTER",
+      "xy": [
+        -40.94,
+        -17.2
+      ],
+      "ground_z_world": -0.09376144409179688,
+      "ground_source": "mesh_raycast",
+      "yaw_deg": 115.6,
+      "matrix_world": [
+        [
+          -0.43208545446395874,
+          -0.901832640171051,
+          0.0,
+          -40.939998626708984
+        ],
+        [
+          0.901832640171051,
+          -0.43208545446395874,
+          0.0,
+          -17.200000762939453
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -0.09376144409179688
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "camera_objects": [
+    "766_D38_Fire_Room_Clean_CAM",
+    "767_D38_Fire_Room_Overlay_CAM",
+    "768_D38_GIS_Row_Overlay_CAM",
+    "769_D38_Station_Top_Clean_CAM",
+    "770_D38_Cabinet_Sites_Overlay_CAM"
+  ],
+  "master_collections": [
+    "D38_FIRE_ROOM_MASTER",
+    "D38_FIRE_SAND_BOX_MASTER",
+    "D38_GIS220_BAY_MASTER"
+  ],
+  "site_collection": "D38_SITE",
+  "asset_collection": "D38_ASSETS",
+  "summary": {
+    "quarantined_cabinets": 3,
+    "quarantined_objects": 9,
+    "fire_room": 1,
+    "fire_sand_boxes": 2,
+    "gis_bays": 3,
+    "geometry_objects": 3,
+    "linked_bay_objects": 275,
+    "placement_instances": 6
+  },
+  "plan_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/D38/plan_D38.json",
+  "plan_sha256": "3e177bbb5b01cc383497bb6d9fefc9c87a59c3db886cbca306167a5878e0b499",
+  "renders": [
+    {
+      "scene": "766_D38_Fire_Room_Clean",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D38/766_D38_Fire_Room_Clean.png",
+      "seconds": 1.22,
+      "pixel_std": 0.32603,
+      "sha256": "e2c1be5ac693e989c17f336f84d852bec4704a595e0d6f8161b570ce8803b3f2"
+    },
+    {
+      "scene": "767_D38_Fire_Room_Overlay",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D38/767_D38_Fire_Room_Overlay.png",
+      "seconds": 1.55,
+      "pixel_std": 0.20036,
+      "sha256": "c71893d5f1e70cb883eb9e2f3ec7b54e18fdc9ba0e2d84b7ac6de2a5fa430e4c"
+    },
+    {
+      "scene": "768_D38_GIS_Row_Overlay",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D38/768_D38_GIS_Row_Overlay.png",
+      "seconds": 4.75,
+      "pixel_std": 0.27429,
+      "sha256": "1b2d22bee8a68cb1206ff472cf7c6c4c480e038c0e0fb4bc80a77e06e89528fe"
+    },
+    {
+      "scene": "769_D38_Station_Top_Clean",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D38/769_D38_Station_Top_Clean.png",
+      "seconds": 4.26,
+      "pixel_std": 0.31604,
+      "sha256": "11795f225ca7d91c4ae9d4d0b47449e3458e0142d58bc6e85f115319ed98d923"
+    },
+    {
+      "scene": "770_D38_Cabinet_Sites_Overlay",
+      "path": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D38/770_D38_Cabinet_Sites_Overlay.png",
+      "seconds": 4.61,
+      "pixel_std": 0.25292,
+      "sha256": "45577eabbe7604680a0df99b0a3de05fbfc6ea6348ad4fc763242d359d28ff9d"
+    }
+  ],
+  "limitations": [
+    "GIS 间隔的电气型号、编号、相别均不可考；仅按粗模外形放置候选几何，不作功能命名。",
+    "消防砂箱的黄色为消防砂箱惯例推定，无影像颜色证据；消防室红色来自用户对粗模纹理的确认。",
+    "粗模位置与模型位置经 B02 刚体注册矩阵换算，局部误差可达分米级；不宣称独立测绘精度。",
+    "cabinet.4 保留依据是粗模结构存在；其真实身份（是否为消防柜）未单独确认。"
+  ]
+}
