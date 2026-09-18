@@ -39,6 +39,54 @@ REWRITE_SUBSET = [
 
 HISTORICAL_RE = re.compile(r"[^\"'\s]*media/historical/[^\"'\s)]+")
 PNG_DATA_RE = re.compile(r"data:image/png;base64,([A-Za-z0-9+/=\s]+?)(?=[\"'\)\]])")
+DATA_URI_RE = re.compile(r"data:image/[A-Za-z0-9.+-]+;base64,[A-Za-z0-9+/=\s]+")
+
+PUBLIC_TOKEN_MAP = {
+    "C110": "Cabin-A",
+    "C220": "Cabin-B",
+    "SA110": "SA-A",
+    "SA220": "SA-B",
+    "GIS110": "GIS-A",
+    "GIS220": "GIS-B",
+}
+PUBLIC_TEXT_EXTS = {".json", ".md", ".txt", ".csv", ".html"}
+
+
+def _sanitize_plain_text(text):
+    text = re.sub(
+        r"(?i)220\s*kV\s+Xialin\s+Substation(?:,\s*Xuancheng)?",
+        "an anonymized operating substation",
+        text,
+    )
+    text = re.sub(r"(?i)Xialin\s+Substation", "an anonymized substation", text)
+    text = re.sub(r"(?i)Xialin", "site", text)
+    text = re.sub(r"(?i)Xuancheng", "anonymized-location", text)
+    text = re.sub(r"(?i)(?<!\d)35\s*kV(?!\d)|35\s*千伏", "VC-C", text)
+    text = re.sub(r"(?i)(?<!\d)110\s*kV(?!\d)|110\s*千伏", "VC-A", text)
+    text = re.sub(r"(?i)(?<!\d)220\s*kV(?!\d)|220\s*千伏", "VC-B", text)
+    for old_token, public_token in PUBLIC_TOKEN_MAP.items():
+        text = re.sub(rf"(?i){re.escape(old_token)}(?!\d)", public_token, text)
+    return text
+
+
+def sanitize_public_text(text):
+    """Remove site-identifying labels while leaving embedded base64 untouched."""
+    out = []
+    pos = 0
+    for match in DATA_URI_RE.finditer(text):
+        out.append(_sanitize_plain_text(text[pos:match.start()]))
+        out.append(match.group(0))
+        pos = match.end()
+    out.append(_sanitize_plain_text(text[pos:]))
+    return "".join(out)
+
+
+def sanitize_public_path(rel):
+    """Anonymize voltage-coded identifiers in public asset paths."""
+    out = rel
+    for old_token, public_token in PUBLIC_TOKEN_MAP.items():
+        out = re.sub(rf"(?i){re.escape(old_token)}(?!\d)", public_token, out)
+    return out
 
 
 def collect_historical_refs():
@@ -91,7 +139,7 @@ def recompress_review_html(src, dst, quality=70):
         except Exception:
             return match.group(0)
 
-    out = PNG_DATA_RE.sub(repl, text)
+    out = sanitize_public_text(PNG_DATA_RE.sub(repl, text))
     with open(dst, "w", encoding="utf-8") as fh:
         fh.write(out)
     return stats
@@ -102,9 +150,16 @@ def rewrite_release_json(deploy):
         src = os.path.join(ROOT, "release", name)
         dst = os.path.join(deploy, "release", name)
         os.makedirs(os.path.dirname(dst), exist_ok=True)
-        if name.endswith(".json"):
+        ext = os.path.splitext(name)[1].lower()
+        if ext in PUBLIC_TEXT_EXTS:
             text = open(src, encoding="utf-8", errors="replace").read()
-            text = re.sub(r"((?:\.\./)?media/historical/[^\"'\s)]+?)\.png\b", r"\1.webp", text)
+            text = sanitize_public_text(text)
+            if ext == ".json":
+                text = re.sub(
+                    r"((?:\.\./)?media/historical/[^\"'\s)]+?)\.png\b",
+                    r"\1.webp",
+                    text,
+                )
             with open(dst, "w", encoding="utf-8") as fh:
                 fh.write(text)
         else:
@@ -143,23 +198,31 @@ def main():
     counts = {"webp": 0, "copy": 0, "html": 0}
     for rel in refs:
         src = os.path.join(ROOT, rel)
+        public_rel = sanitize_public_path(rel)
         if not os.path.exists(src):
             print(f"  MISSING {rel}")
             continue
         ext = os.path.splitext(rel)[1].lower()
         if ext == ".png":
-            dst = os.path.join(deploy, rel[:-4] + ".webp")
+            dst = os.path.join(deploy, public_rel[:-4] + ".webp")
             png_to_webp(os.path.realpath(src), dst)
             counts["webp"] += 1
         elif ext == ".html":
-            dst = os.path.join(deploy, rel)
+            dst = os.path.join(deploy, public_rel)
             stats = recompress_review_html(os.path.realpath(src), dst)
             counts["html"] += 1
             if stats["n"]:
-                print(f"  html {os.path.basename(rel)}: {stats['n']} images, "
+                print(f"  html {os.path.basename(public_rel)}: {stats['n']} images, "
                       f"{stats['before']/1e6:.1f} -> {stats['after']/1e6:.1f} MB (b64 chars)")
+        elif ext in PUBLIC_TEXT_EXTS:
+            dst = os.path.join(deploy, public_rel)
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            text = open(os.path.realpath(src), encoding="utf-8", errors="replace").read()
+            with open(dst, "w", encoding="utf-8") as fh:
+                fh.write(sanitize_public_text(text))
+            counts["copy"] += 1
         else:
-            copy(os.path.realpath(src), os.path.join(deploy, rel))
+            copy(os.path.realpath(src), os.path.join(deploy, public_rel))
             counts["copy"] += 1
     print("historical:", counts)
 

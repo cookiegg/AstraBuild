@@ -137,7 +137,7 @@ We reinterpret the B/D history as a suite of heterogeneous reconstruction tasks 
 | Surge-arrester fitting | B01–B05, B18 | SA110/SA220 bodies and installation | local fitting, pose/scale, held-out checking | B01 preserved failure; B02 naked-shaft RMS 1.8–3.4 cm under revised domain |
 | Wall and gate | B06 | station wall + gate | large civil geometry from coarse reference | east-wall median reference distance 7.87 m→0.015 m |
 | Transformer reconstruction | B07–B08 | two main transformers | complex assembly and reusable abstraction | shared T1/T2 assembly; bank median ~0.01 m; T2 front P95 0.62 m tail retained |
-| Capacitor-bank reconstruction | B09–B10 | six 35 kV capacitor groups | repeated structures and local assemblies | 18 lane medians 0.6–2.4 cm; first broad outdoor coverage audit |
+| Capacitor-bank reconstruction | B09–B10 | six VC-C capacitor groups | repeated structures and local assemblies | 18 lane medians 0.6–2.4 cm; first broad outdoor coverage audit |
 | VC-A GIS/device families | B11–B16 | GIS bays, arresters, bus-tie/VT structures | reusable families and variants | B13 creates seven GIS sets with ~2,400 expanded meshes |
 | VC-B GIS/outgoing families | B17–B19 | outgoing bays and variants | cross-family reuse and complex topology | B17 75 local checks: 50 pass / 25 retained non-pass |
 | Bus and conductor systems | B20–B30 | busbars, drops, insulator strings | explicit connectivity and flexible paths | ~88.8 m busbar; 804 discs; endpoint continuity ~1e-6 m scale |

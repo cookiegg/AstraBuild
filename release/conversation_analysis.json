@@ -512,7 +512,7 @@
    "tool_calls": 43,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已继续完成并保存：\n\n- 110/220 千伏三排构架：19 组支架、15 跨桁架。\n- 主变区：3 面防火墙、3 组墙顶支架、2 跨桁架及爬梯。\n\n已检查粗模叠合和结构连接，主变 1、2 仍共用母版。最新版本已在 Blender 打开。\n\n[当前工程](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/CURRENT.md) · [滑动对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B26/B26_review.html)\n\n接下来继续补悬挂/耐张绝缘子和主要架空引线。",
+   "summary_excerpt": "已继续完成并保存：\n\n- VC-A/VC-B三排构架：19 组支架、15 跨桁架。\n- 主变区：3 面防火墙、3 组墙顶支架、2 跨桁架及爬梯。\n\n已检查粗模叠合和结构连接，主变 1、2 仍共用母版。最新版本已在 Blender 打开。\n\n[当前工程](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/CURRENT.md) · [滑动对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B26/B26_review.html)\n\n接下来继续补悬挂/耐张绝缘子和主要架空引线。",
    "review_link": "installation_B26/B26_review.html"
   },
   "B27": {
@@ -844,7 +844,7 @@
   {
    "ts": "2026-09-12T11:49:24.233Z",
    "batches": [],
-   "excerpt": "下一批先处理 35kV 电容器组。现有照片能看到电容器支架、电抗器和放电线圈，已有独立部件模型可用；我会逐组核对布局，再装入站内，先检查 #1～#3 组。"
+   "excerpt": "下一批先处理 VC-C 电容器组。现有照片能看到电容器支架、电抗器和放电线圈，已有独立部件模型可用；我会逐组核对布局，再装入站内，先检查 #1～#3 组。"
   },
   {
    "ts": "2026-09-12T12:03:21.622Z",
@@ -1642,17 +1642,17 @@
   {
    "ts": "2026-09-12T23:52:38.935Z",
    "batches": [],
-   "excerpt": "全站检查发现了一项明显漏建：高处构架还不完整。110 千伏侧已有部分 A 字柱，但上方桁架横梁尚未补齐；220 千伏侧的高架构件缺口更大。接下来优先处理这些在照片和粗模中都清楚可见的大构件。"
+   "excerpt": "全站检查发现了一项明显漏建：高处构架还不完整。VC-A侧已有部分 A 字柱，但上方桁架横梁尚未补齐；VC-B侧的高架构件缺口更大。接下来优先处理这些在照片和粗模中都清楚可见的大构件。"
   },
   {
    "ts": "2026-09-13T00:01:01.263Z",
    "batches": [],
-   "excerpt": "粗模剖面还表明，三组构架的支承高度和梁高不同，旧模型统一套用柱高会带来明显偏差。我会分别测量 110 千伏外侧、内侧及 220 千伏侧的柱脚、柱轴和横梁，再复用相应的构件。"
+   "excerpt": "粗模剖面还表明，三组构架的支承高度和梁高不同，旧模型统一套用柱高会带来明显偏差。我会分别测量 VC-A外侧、内侧及 VC-B侧的柱脚、柱轴和横梁，再复用相应的构件。"
   },
   {
    "ts": "2026-09-13T00:15:51.155Z",
    "batches": [],
-   "excerpt": "现在继续补齐 110 千伏和 220 千伏区域的高架构架。照片和粗模显示，横梁是三角形截面的桁架；我正在校准横梁宽度和斜撑间距，随后生成三组构架并检查叠合效果。"
+   "excerpt": "现在继续补齐 VC-A和 VC-B区域的高架构架。照片和粗模显示，横梁是三角形截面的桁架；我正在校准横梁宽度和斜撑间距，随后生成三组构架并检查叠合效果。"
   },
   {
    "ts": "2026-09-13T00:17:44.262Z",
@@ -1667,17 +1667,17 @@
   {
    "ts": "2026-09-13T00:25:17.678Z",
    "batches": [],
-   "excerpt": "三组叠图中，柱腿和横梁已基本落到粗模对应位置，220 千伏整排缺失的高架结构也已补出。文件检查已确认旧的 500 个场景保持不变；我正在排查新构件保存后的变换差异，完成后把这一版设为当前工程。"
+   "excerpt": "三组叠图中，柱腿和横梁已基本落到粗模对应位置，VC-B整排缺失的高架结构也已补出。文件检查已确认旧的 500 个场景保持不变；我正在排查新构件保存后的变换差异，完成后把这一版设为当前工程。"
   },
   {
    "ts": "2026-09-13T00:28:40.228Z",
    "batches": [],
-   "excerpt": "读回检查确认，刚才的新构件差异是保存时的数值舍入，最大顶点偏差约 0.24 毫米。已完成的 110 千伏对照中，15 跨中的前 11 跨横梁都明显贴近了粗模；柱腿附近仍有爬梯、法兰和重建破损造成的局部差异，我会在记录中保留。"
+   "excerpt": "读回检查确认，刚才的新构件差异是保存时的数值舍入，最大顶点偏差约 0.24 毫米。已完成的 VC-A对照中，15 跨中的前 11 跨横梁都明显贴近了粗模；柱腿附近仍有爬梯、法兰和重建破损造成的局部差异，我会在记录中保留。"
   },
   {
    "ts": "2026-09-13T00:31:00.850Z",
    "batches": [],
-   "excerpt": "这一版已在 Blender 中打开，19 组支架、15 跨桁架及旧场景检查均已完成。高架区域到模型的距离中位数，110 千伏侧从约 1.75 米降至 0.10 米，220 千伏侧从约 8.12 米降至 0.15 米。接下来重点补主变上方构架、悬挂绝缘子和主要引线。"
+   "excerpt": "这一版已在 Blender 中打开，19 组支架、15 跨桁架及旧场景检查均已完成。高架区域到模型的距离中位数，VC-A侧从约 1.75 米降至 0.10 米，VC-B侧从约 8.12 米降至 0.15 米。接下来重点补主变上方构架、悬挂绝缘子和主要引线。"
   },
   {
    "ts": "2026-09-13T00:31:51.833Z",
@@ -1709,7 +1709,7 @@
    "batches": [
     "B26"
    ],
-   "excerpt": "已继续完成并保存：\n\n- 110/220 千伏三排构架：19 组支架、15 跨桁架。\n- 主变区：3 面防火墙、3 组墙顶支架、2 跨桁架及爬梯。\n\n已检查粗模叠合和结构连接，主变 1、2 仍共用母版。最新版本已在 Blender 打开。\n\n[当前工程](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/CURRENT.md) · [滑动对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B26/B26_review.html)\n\n接下来继续补悬挂/耐张绝缘子和主要架空引线。"
+   "excerpt": "已继续完成并保存：\n\n- VC-A/VC-B三排构架：19 组支架、15 跨桁架。\n- 主变区：3 面防火墙、3 组墙顶支架、2 跨桁架及爬梯。\n\n已检查粗模叠合和结构连接，主变 1、2 仍共用母版。最新版本已在 Blender 打开。\n\n[当前工程](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/CURRENT.md) · [滑动对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B26/B26_review.html)\n\n接下来继续补悬挂/耐张绝缘子和主要架空引线。"
   },
   {
    "ts": "2026-09-13T00:58:47.151Z",
