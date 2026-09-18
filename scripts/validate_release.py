@@ -135,7 +135,7 @@ def main() -> int:
     # v1.0 site contract: the website now tracks the B01-B36 manuscript
     # (rewrite_b01_b36/, paper_layout_v24.pdf), not the v0.9 main draft.
     must("From Local Fits to Persistent Industrial 3D Reconstruction" in html, "site hero must carry the B01-B36 manuscript title")
-    must("paper_layout_v24.pdf" in html, "site must link the typeset B01-B36 paper")
+    must("paper_layout_v25.pdf" in html, "site must link the typeset B01-B36 paper")
     must("B01–B36" in html, "site must use the B01-B36 record framing")
     for fig_ref in ["fig01_overview_v24", "fig02_longitudinal_map_b01_b36", "fig03_operator_portfolio_b01_b36", "fig04_transitions_v24", "fig05_persistence_v24", "fig06_findings_v24", "fig07_session_anatomy_v24"]:
         must(fig_ref in html, f"site must include manuscript figure: {fig_ref}")
