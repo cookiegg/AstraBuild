@@ -18,6 +18,8 @@ from PIL import Image
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
+sys.path.insert(0, str(REPO / "rewrite_b01_b36" / "figure_v24"))
+from build_figure_v24 import relight_dark
 OUT = HERE / "xiaohongshu"
 OUT.mkdir(parents=True, exist_ok=True)
 
@@ -81,8 +83,10 @@ def rect(x, y, w, h, fill="white", stroke=LINE, sw=2, rx=20, extra=""):
     return f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="{fill}" stroke="{stroke}" stroke-width="{sw}"{extra}/>'
 
 
-def img_b64(path: Path, max_px=1400) -> str:
+def img_b64(path: Path, max_px=1400, light=False) -> str:
     im = Image.open(path).convert("RGB")
+    if light:
+        im = relight_dark(im)
     if max(im.size) > max_px:
         r = max_px / max(im.size)
         im = im.resize((int(im.width * r), int(im.height * r)), Image.LANCZOS)
@@ -94,10 +98,10 @@ def img_b64(path: Path, max_px=1400) -> str:
 _clip_id = [0]
 
 
-def image(path, x, y, w, h, rx=16):
+def image(path, x, y, w, h, rx=16, light=False):
     _clip_id[0] += 1
     cid = f"clip{_clip_id[0]}"
-    href = img_b64(Path(path))
+    href = img_b64(Path(path), light=light)
     return (f'<defs><clipPath id="{cid}"><rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}"/></clipPath></defs>'
             f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="#e9edf3"/>'
             f'<image x="{x}" y="{y}" width="{w}" height="{h}" href="{href}" preserveAspectRatio="xMidYMid slice" clip-path="url(#{cid})"/>')
@@ -173,7 +177,7 @@ def card02_what():
     stat(svg, 400, y, 280, "4", "四个描述阶段", PURPLE)
     stat(svg, 716, y, 280, "36,812", "最终工程对象", TEAL)
     svg.append(image(FIELD, 84, 620, 444, 320, 20))
-    svg.append(image(GIS, 552, 620, 444, 320, 20))
+    svg.append(image(GIS, 552, 620, 444, 320, 20, light=True))
     svg.append(text("现场影像证据", 306, 990, 400, 26, "700", MUTED, "middle")[0])
     svg.append(text("重建部件模型", 774, 990, 400, 26, "700", MUTED, "middle")[0])
     svg.append(rect(84, 1050, 912, 200, "white", LINE, 2, 20))
