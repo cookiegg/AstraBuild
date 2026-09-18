@@ -1,10 +1,10 @@
 {
   "status": "saved_pending_r2_readback",
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B02/xialin_photo_first_B02_station_preview_r2.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B02/site_photo_first_B02_station_preview_r2.blend",
   "file_sha256": "bf3d0dc5c62434f19dda3d828bd69ce1eacae191a0e7fde007d75e20ae11ea36",
   "source_hashes": {
-    "/data/proj/xunjian-copilot/experiments/blender-substation/digital-twin/output/xialin_semantic_station_v50.blend": "439aa4f0beaf53bc8dae49cd1bc486d00a0d1b2d07ffeb6692c1c17a1db739b9",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/output/xialin_photo_workbench.blend": "c6c3a34da9c5cf3e4d46b1d3584d1dbd85693379018db1f825009a77a75742a2",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/digital-twin/output/site_semantic_station_v50.blend": "439aa4f0beaf53bc8dae49cd1bc486d00a0d1b2d07ffeb6692c1c17a1db739b9",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/output/site_photo_workbench.blend": "c6c3a34da9c5cf3e4d46b1d3584d1dbd85693379018db1f825009a77a75742a2",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B02/P02_B02_749_installation_review.blend": "d358d69acd5fbc82618841bc580267ce1c8068bd33c7b906233dcddd600bd567",
     "/data/proj/xunjian-copilot/experiments/blender-substation/digital-twin/output/semantic_registry_v50.json": "bddc26873558efc4cd078361d420ae68bf66a3b1956c851e952a9a8199ee0989",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B02/placement_B02_r2.json": "4fd4473df487edfc64a939f2f9fe6817c49b17e98df416d0490c96da4a58b43e"

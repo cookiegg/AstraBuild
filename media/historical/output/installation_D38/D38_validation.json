@@ -1,5 +1,5 @@
 {
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D38/xialin_D38_fire_gis_fixes.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D38/site_D38_fire_gis_fixes.blend",
   "sha256": "ca84352903281ba8ff431ab22f32efe76efa5098061fc45fcb447d73717e7db4",
   "previous_objects_unchanged": 36855,
   "previous_scenes_unchanged": 750,
@@ -47,38 +47,38 @@
       "ground_source": "mesh_raycast"
     },
     {
-      "name": "D38::D38_GIS220_BAY_G1",
+      "name": "D38::D38_GIS-B_BAY_G1",
       "ground_gap_m": 3.5762786865234375e-06,
       "ground_source": "mesh_raycast"
     },
     {
-      "name": "D38::D38_GIS220_BAY_G2",
+      "name": "D38::D38_GIS-B_BAY_G2",
       "ground_gap_m": 3.814697265625e-06,
       "ground_source": "mesh_raycast"
     },
     {
-      "name": "D38::D38_GIS220_BAY_G3",
+      "name": "D38::D38_GIS-B_BAY_G3",
       "ground_gap_m": 2.1457672119140625e-06,
       "ground_source": "mesh_raycast"
     }
   ],
   "bay_clearance": [
     {
-      "name": "D38::D38_GIS220_BAY_G1",
+      "name": "D38::D38_GIS-B_BAY_G1",
       "xy": [
         -22.42,
         -57.84
       ]
     },
     {
-      "name": "D38::D38_GIS220_BAY_G2",
+      "name": "D38::D38_GIS-B_BAY_G2",
       "xy": [
         -27.55,
         -47.26
       ]
     },
     {
-      "name": "D38::D38_GIS220_BAY_G3",
+      "name": "D38::D38_GIS-B_BAY_G3",
       "xy": [
         -40.94,
         -17.2

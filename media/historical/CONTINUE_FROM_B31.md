@@ -1,6 +1,6 @@
 # B31 保存与续作
 
-当前工程 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B31/xialin_B31_main_building_r2.blend`，SHA256 `22643b892ae05b9dd2c2eb0e18d31c9526c38dacf5c1a41641956118742c559b`。独立组件 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B31/B31_main_building_components_r2.blend`，SHA256 `e9d7fb04869bb34fcfa843e05e7f0edb0ec5414c6e67509cf0edcef4cbf09aa5`。R1 文件及全部历史版本保留；后续从 R2 继续，不能误用 R1。
+当前工程 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B31/site_B31_main_building_r2.blend`，SHA256 `22643b892ae05b9dd2c2eb0e18d31c9526c38dacf5c1a41641956118742c559b`。独立组件 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B31/B31_main_building_components_r2.blend`，SHA256 `e9d7fb04869bb34fcfa843e05e7f0edb0ec5414c6e67509cf0edcef4cbf09aa5`。R1 文件及全部历史版本保留；后续从 R2 继续，不能误用 R1。
 
 ## 持续目标
 
@@ -10,7 +10,7 @@
 
 ## 本版
 
-保存前确认 B30 GUI dirtyFalse，逐字节复制到 `xialin_B31_before_buildings_checkpoint.blend`，SHA 与 B30 相同。保护前版 2859 个文件。
+保存前确认 B30 GUI dirtyFalse，逐字节复制到 `site_B31_before_buildings_checkpoint.blend`，SHA 与 B30 相同。保护前版 2859 个文件。
 
 从粗模抽取中央土建走廊 4288747 个原三角形，`CENTRAL_CIVIL_reference.npz` 保留宏观顶点、面、原对象索引和原 loop_triangle 索引。`PERIMETER_reference.npz` 包含外边缘。`B31_vertical_samples.npz` 是 8 厘米体素化的竖直表面样本；`B31_existing_central_inventory.json` 是已有整站中央范围对象，不要整份输出。
 
@@ -29,9 +29,9 @@ R2 共22张预览；`B31_review.html` 6组同相机滑动对照、20张内嵌PNG
 ## 接下来 B32
 
 B32 目录已建立，只做了测量，尚无新几何、输入保护记录或发布。
-`installation/measure_B32_containers.py`、`output/installation_B32/B32_container_measurements.json`、C110/C220立面诊断。
-C110 宽2.80077、长9.19289米，yaw−0.286864°；C220 宽2.79861、长12.19722米，yaw−0.344053°。两者单独定位，公共白色横向墙板、青绿色屋顶/角柱、端部竖式空调、雨水管、舱门可复用；不要把短舱拉伸为长舱导致门/空调变形。
-已看原图 DJI0010 和 DSC3117/3140 的110舱，DJI0002的220舱。两个舱短端中心都有竖式空调，长面白色板材与青绿角带。C220西侧局部Y约−48.1有单门，110舱另一侧门需看原图再定位。源顶面高度约110舱3.1、220舱2.9–3.0，需结合屋顶数据，不能把端面高点直接当统一顶高。
+`installation/measure_B32_containers.py`、`output/installation_B32/B32_container_measurements.json`、Cabin-A/Cabin-B立面诊断。
+Cabin-A 宽2.80077、长9.19289米，yaw−0.286864°；Cabin-B 宽2.79861、长12.19722米，yaw−0.344053°。两者单独定位，公共白色横向墙板、青绿色屋顶/角柱、端部竖式空调、雨水管、舱门可复用；不要把短舱拉伸为长舱导致门/空调变形。
+已看原图 DJI0010 和 DSC3117/3140 的110舱，DJI0002的220舱。两个舱短端中心都有竖式空调，长面白色板材与青绿角带。Cabin-B西侧局部Y约−48.1有单门，110舱另一侧门需看原图再定位。源顶面高度约110舱3.1、220舱2.9–3.0，需结合屋顶数据，不能把端面高点直接当统一顶高。
 
 然后继续入口小建筑、已有泵房细化和低附属区域、道路/碎石地坪/步道、剩余围墙和监控照明等。已有泵房粗体 `T23052218322040428::pump_house.*` 在宏观X−32..−24、Y−67..−57，不能叠加一个实体造成双壳。前部大低矩形X−49..−31,Y−68..−58可能是水池/低附属区域，先看图不要盲目建成高楼。
 

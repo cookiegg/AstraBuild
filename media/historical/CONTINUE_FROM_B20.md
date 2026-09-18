@@ -1,14 +1,14 @@
 # B20续作说明
 
-目标仍是“请持续进行变电站建模任务，直到室外设备大都实现建模与对齐。”状态active。本轮是实质进展：连接16段220kV可见直线母线，约88.812726m；55检修口、35支柱/基础、4新伸缩节。未完成全部室外设备，也没有宣布整排精度通过。
+目标仍是“请持续进行变电站建模任务，直到室外设备大都实现建模与对齐。”状态active。本轮是实质进展：连接16段VC-B可见直线母线，约88.812726m；55检修口、35支柱/基础、4新伸缩节。未完成全部室外设备，也没有宣布整排精度通过。
 
-当前`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/xialin_B20_220kV_bus_row.blend`，SHA256 `a2ab73c6ad88924482ca62a1502b0008f98b8a34794aacb8e7b42c45bacfc6df`；共用附件库`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/B20_bus_accessory_masters.blend`，SHA `cc9165e39b42b138041101dd1a17eef6fed954e958ac57b4fbdce77a6f5c6256`。CURRENT已指B20。GUI当前431_B20_SPARE_Clean，422场景，展开746网格，dirty=False。整站411/412；7局部区域413–433；CAP434、EXPANSION435；整排正交俯视436/437。共27渲染，B20_review.html为含全部原PNG的约64MB单文件对照页。Node检查27选择、图像链接和前后环绕通过，不是浏览器布局检查。
+当前`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/site_B20_VC-B_bus_row.blend`，SHA256 `a2ab73c6ad88924482ca62a1502b0008f98b8a34794aacb8e7b42c45bacfc6df`；共用附件库`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/B20_bus_accessory_masters.blend`，SHA `cc9165e39b42b138041101dd1a17eef6fed954e958ac57b4fbdce77a6f5c6256`。CURRENT已指B20。GUI当前431_B20_SPARE_Clean，422场景，展开746网格，dirty=False。整站411/412；7局部区域413–433；CAP434、EXPANSION435；整排正交俯视436/437。共27渲染，B20_review.html为含全部原PNG的约64MB单文件对照页。Node检查27选择、图像链接和前后环绕通过，不是浏览器布局检查。
 
 保留27524旧对象、395旧场景、523旧集合、318旧材质和1867份历史/参考文件。旧场景不变。新整站通过新集合链接保留对象，排除2个旧13.5m长筒及13个被连接消耗的B17短管，共15对象；正式基线15096网格不变，当前旧网格1837。旧短管在历史场景保留。双主变仍共享B08总成。两聚合母线记录改为分布式连接候选，没有计成新增独立设备。覆盖清单153项，仍13条旧几何、26条室外/混合待映射，室内23，旧主要细化记录3；30GIS外观、48避雷器、双主变和6电容器组等；86个工作候选仍不是完成率。
 
 使用F0沿用B19，原点4801，X横排、Y纵排、Z高。完整参考`reference.npz`含530555顶点/1027049三角形，世界变换frame_to_world；`reference_origins.json`保留原对象与三角面编号。固定粗模域X[-3.4,4.8],Y[-54,35],Z[-.40,3.6]。`existing_geometry.json`保留1099个旧母线/4801/4800/4100网格实际世界顶点。父级变换使用B19递归parent@parent_inverse@basis，不能退回裸matrix_basis。
 `port_inventory.json`为所有实际本体端面，B17源是原短管start，B19源是原ports，4801/4800/4600源是实际展开筒网格端圈。`route_plan.json`21个相邻区间：16新直线，4原已连接（4802—4B77两路、4801—4800两路），1为4100路径待建。32端圈到原本体实际网格最大距离0.00069963m；接缝检查不是粗模整体误差。新筒两个端面用F0 XZ圆圈，半径保留原端口；沿Y渐变中轴，不用旋转圆圈造成斜端面小楔缝。每段64边、128顶点开放侧壁。法线检查已通过。
-新直线：lane0 4D75—VT_IB—4D76—2899—4600—4802，以及4800—VT_II—4B80—4B81。lane1 4D75—4D76—2899—4600—4802，以及4B77—4801、4800—VT_IA—4B80—4B81。lane名称仅物理横排，不新断言电气母线身份；聚合编号沿旧数据：lane0=12MZ0000000419148(220kVIA母)，lane1=12MZ0000000419290(220kVII母)。IA/II压变称谓仍沿B19候选，不能用名字直接替代物理连线。
+新直线：lane0 4D75—VT_IB—4D76—2899—4600—4802，以及4800—VT_II—4B80—4B81。lane1 4D75—4D76—2899—4600—4802，以及4B77—4801、4800—VT_IA—4B80—4B81。lane名称仅物理横排，不新断言电气母线身份；聚合编号沿旧数据：lane0=12MZ0000000419148(VC-BIA母)，lane1=12MZ0000000419290(VC-BII母)。IA/II压变称谓仍沿B19候选，不能用名字直接替代物理连线。
 
 重要：4100确实横向。粗模俯视明确lane1约X2.0从4B77到4801直通，本轮已连。lane0约X-0.3在Y约-8至-6中断并转向X负侧的4100横筒，不能沿Y直接贯通。原4100两横母线范围：X[-2.732,-.292]，近Y中心-8.394、Z1.9465；远Y中心-6.076、Z1.9545。原外侧端部与转弯可能需要缩短旧横筒、补弯头或侧支口，必须先看实际粗模和照片。当前`4100_route_diagnostic.png`清楚显示两处横转；上侧line1连续、下侧line0缺口。`row_bus_diagnostic.png`3段全排、`support_side_diagnostic.png`真实侧面投影、`features_diagnostic.png`候选检修口/支柱。
 推荐下一步优先完成4100两处转向，再核对4D75排端封盖。4D75两个Y负侧旧短管仍保留开放，不能计整排闭合。本轮照片实际查看20260804的0003、0011、0021，对照诊断图；其余B19照片仍保护。

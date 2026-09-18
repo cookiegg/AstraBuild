@@ -1,7 +1,7 @@
 {
   "objective": "请持续进行变电站建模任务，直到室外设备大都实现建模与对齐。",
   "previous_turn_classification": "progress: B29 overhead assemblies saved; B30 GIS downleads and arrester branches added, reopened and reviewed",
-  "station_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/xialin_B30_GIS_downleads_arrester_branches.blend",
+  "station_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/site_B30_GIS_downleads_arrester_branches.blend",
   "station_sha256": "9e1787a3eeb01e28f34eb2fa82dc5b741fef98ef5a86a085566513d5f68e4aad",
   "completion_proven": true,
   "conclusion": "多数室外设备已具备可编辑的主体外形，并在全站与局部视图中按照片/已配准粗模完成主要布局对齐。",
@@ -12,7 +12,7 @@
   "all_outdoor_items_complete": false,
   "zones": [
     {
-      "zone": "110 kV 外排",
+      "zone": "VC-A 外排",
       "assessment": "major_exterior_modeled_and_coarse_aligned",
       "evidence": [
         {
@@ -50,7 +50,7 @@
       "limits": "个别柜体/壳体轮廓及七处早期避雷器底座筛查残差尚存，不能宣称各部件均达到统一厘米精度。"
     },
     {
-      "zone": "110 kV 主变进线侧",
+      "zone": "VC-A 主变进线侧",
       "assessment": "major_exterior_modeled_and_coarse_aligned",
       "evidence": [
         {
@@ -78,7 +78,7 @@
       "limits": "柜体和小机构外形近似；电气编号仍采用既有候选映射。"
     },
     {
-      "zone": "220 kV 外排出线侧",
+      "zone": "VC-B 外排出线侧",
       "assessment": "major_exterior_modeled_and_coarse_aligned",
       "evidence": [
         {
@@ -111,7 +111,7 @@
       "limits": "金具、盘片数量和线径为照片近似；站外出线延伸未完成。"
     },
     {
-      "zone": "220 kV 主变进线侧",
+      "zone": "VC-B 主变进线侧",
       "assessment": "major_exterior_modeled_and_coarse_aligned",
       "evidence": [
         {
@@ -139,7 +139,7 @@
       "limits": "局部柜体尺寸/位置还有可见差异；区域参考裁切包含相邻设备片段，不能算成本区缺设备。"
     },
     {
-      "zone": "220 kV 母联、分段、母压变和备用间隔",
+      "zone": "VC-B 母联、分段、母压变和备用间隔",
       "assessment": "major_exterior_modeled_and_coarse_aligned",
       "evidence": [
         {
@@ -362,13 +362,13 @@
       "path": "/data/proj/xunjian-copilot/图像数据/DJI_202608251449_025_电站0825new/DJI_20260825145244_0014_V.JPG",
       "sha256": "d1404f0d890173cd3780a444d90f24dd2e38da7a45fc0307ab857d89398f5f2f",
       "viewed_full_original": true,
-      "note": "110 kV 套管、避雷器支线与构架细节"
+      "note": "VC-A 套管、避雷器支线与构架细节"
     },
     {
       "path": "/data/proj/xunjian-copilot/图像数据/DJI_202608251449_025_电站0825new/DJI_20260825145729_0059_V.JPG",
       "sha256": "b7bfef04b57f991a9c97ba722ff18e80a2c66eb761d7a85d8a58286c8179ebfd",
       "viewed_full_original": true,
-      "note": "220 kV 双耐张串、下引线及分支细节"
+      "note": "VC-B 双耐张串、下引线及分支细节"
     }
   ],
   "view_evidence": [
@@ -494,15 +494,15 @@
       "Small pipes, terminals and exact rear-end cap taper remain approximate; no manufacturer dimensions or whole-device acceptance.",
       "Earlier B11/B12/B13/B14/B15 unpassed patches and750/751 identity remain; other outdoor families and outer bus boundaries unfinished.",
       "Exact gas chamber envelopes and compact mechanisms remain approximate; retain all unpassed reference checks.",
-      "Sixteen exposed bus boundaries require neighboring220kV variants and actual route integration.",
+      "Sixteen exposed bus boundaries require neighboringVC-B variants and actual route integration.",
       "Cabinet fronts and individual phase labels need closer photo confirmation;4B77 alias retained as provisional.",
-      "Small leads and terminals plus remaining220kV variants and arresters unfinished; inherited B11-B16 failures remain.",
+      "Small leads and terminals plus remainingVC-B variants and arresters unfinished; inherited B11-B16 failures remain.",
       "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
       "4B77 aliases and phase identities are provisional; no phase label text invented.",
       "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
-      "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain.",
+      "OtherVC-B GIS variants,neutral equipment and inherited B11-B17 partial alignment remain.",
       "Six body models and independent supports are exterior approximations; all finite-surface failures retained.",
-      "Remaining long220kV mother-bus spools and4100 section bends need connected-row integration; ports are explicit.",
+      "Remaining longVC-B mother-bus spools and4100 section bends need connected-row integration; ports are explicit.",
       "4B80/4B81 separate control cabinets not verified; old guessed cabinets omitted in candidate station only.",
       "IA/II cabinet associations based on photo-relative arrangement; phase names and exact electrical topology unasserted.",
       "4801/4800/4100 original refined geometry retained for review, not counted as newly completed devices.",

@@ -1,9 +1,9 @@
 {
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B27/xialin_B27_central_strain_insulators.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B27/site_B27_central_strain_insulators.blend",
   "sha256": "3d931d4e25eb93d7e526ea014c4dceba6a684af4669396aad348a9a68b1535df",
   "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B27/B27_central_strain_components.blend",
   "asset_sha256": "06851aa03cbbb001e14eac5f8cd200d9d11e91d1d62f7b94a79060166b1db8ab",
-  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B26/xialin_B26_transformer_central_gantry.blend",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B26/site_B26_transformer_central_gantry.blend",
   "previous_sha256": "e64f4de349ef6405d23f169c7909c667ac69ef0e576d2d9b87fd52bb90042a66",
   "station_scene": "554_B27_Station_Clean",
   "default_scene": "556_B27_Central_Clean",

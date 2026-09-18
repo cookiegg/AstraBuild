@@ -4,7 +4,7 @@
 
 ## 当前文件
 
-- 整站：`output/installation_B12/r2/xialin_B12_749_GIS_r2.blend`
+- 整站：`output/installation_B12/r2/site_B12_749_GIS_r2.blend`
 - SHA256：`933674f4802f36c22cd25b2b43579987ffb09c8bab18c7ddddae53d89d9b649c`
 - 可复用局部资产：`output/installation_B12/B12_749_modular_exterior.blend`
 - 资产 SHA256：`f691d9eb934ea9eedecdf78746866acb068b93f6e81ad9d6d0ab1b7f9d4f32b2`
@@ -56,6 +56,6 @@ R1完整保留。R2只修正俯视相机方向和取景，并加入青色叠加�
 
 新队列`asset_variant_installation_queue_v12.json`，覆盖审计`B12_outdoor_coverage.json`。39个工作设备候选数不变，仅升级749范围。其余62条旧几何位置待复核、26条室外/混合映射未明、3条既有主要外形对齐待整站复查；B11的7项避雷器安装失败仍保留。整体任务尚未证明大都完成。
 
-双主变仍共用B08部件总成；用户已明确两台主变部件完全一样。六组电容器、30只SA110主体/支柱、B06矩形围墙保持原状态。
+双主变仍共用B08部件总成；用户已明确两台主变部件完全一样。六组电容器、30只SA-A主体/支柱、B06矩形围墙保持原状态。
 
 继续使用本机MCP原生Blender后台子进程执行GPU渲染，环境库`/data/program/blender-5.1.2-linux-x64/lib`。壳层沙箱看不到原生进程PID，查进程应通过MCP调用本机`ps`或读取日志。不要由沙箱ps查不到PID误判失败。所有bpy集合局部变换用matrix_basis；历史场景校验按相同顺序更新以避免matrix_world缓存差异。不要导入有顶层I/O的旧构建脚本，按AST抽取纯辅助函数。

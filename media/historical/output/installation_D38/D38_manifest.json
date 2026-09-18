@@ -1,11 +1,11 @@
 {
   "stage": "D38",
   "revision": "D38.2",
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D38/xialin_D38_fire_gis_fixes.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D38/site_D38_fire_gis_fixes.blend",
   "sha256": "ca84352903281ba8ff431ab22f32efe76efa5098061fc45fcb447d73717e7db4",
   "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D38/D38_components.blend",
   "asset_sha256": "3e0d0add7c5dadef3f099053c2f2e9b9e5b8bf221dd2b11f55b07de37909c87b",
-  "baseline_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D37/xialin_D37_small_facilities.blend",
+  "baseline_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D37/site_D37_small_facilities.blend",
   "baseline_sha256_before": "6b6a20a0604762a082cc09ef6fa822d5e8403ae93eef0ae9a34073d63f27459e",
   "baseline_sha256_after": "6b6a20a0604762a082cc09ef6fa822d5e8403ae93eef0ae9a34073d63f27459e",
   "baseline_counts": {
@@ -255,9 +255,9 @@
       ]
     },
     {
-      "name": "D38::D38_GIS220_BAY_G1",
-      "facility_id": "D38_GIS220_BAY_G1",
-      "collection": "D38_GIS220_BAY_MASTER",
+      "name": "D38::D38_GIS-B_BAY_G1",
+      "facility_id": "D38_GIS-B_BAY_G1",
+      "collection": "D38_GIS-B_BAY_MASTER",
       "xy": [
         -22.42,
         -57.84
@@ -293,9 +293,9 @@
       ]
     },
     {
-      "name": "D38::D38_GIS220_BAY_G2",
-      "facility_id": "D38_GIS220_BAY_G2",
-      "collection": "D38_GIS220_BAY_MASTER",
+      "name": "D38::D38_GIS-B_BAY_G2",
+      "facility_id": "D38_GIS-B_BAY_G2",
+      "collection": "D38_GIS-B_BAY_MASTER",
       "xy": [
         -27.55,
         -47.26
@@ -331,9 +331,9 @@
       ]
     },
     {
-      "name": "D38::D38_GIS220_BAY_G3",
-      "facility_id": "D38_GIS220_BAY_G3",
-      "collection": "D38_GIS220_BAY_MASTER",
+      "name": "D38::D38_GIS-B_BAY_G3",
+      "facility_id": "D38_GIS-B_BAY_G3",
+      "collection": "D38_GIS-B_BAY_MASTER",
       "xy": [
         -40.94,
         -17.2
@@ -379,7 +379,7 @@
   "master_collections": [
     "D38_FIRE_ROOM_MASTER",
     "D38_FIRE_SAND_BOX_MASTER",
-    "D38_GIS220_BAY_MASTER"
+    "D38_GIS-B_BAY_MASTER"
   ],
   "site_collection": "D38_SITE",
   "asset_collection": "D38_ASSETS",

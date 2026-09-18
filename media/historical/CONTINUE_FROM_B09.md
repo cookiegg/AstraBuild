@@ -1,6 +1,6 @@
 # Continue from B09 — capacitor bank exterior candidates
 
-Latest station: output/installation_B09/xialin_B09_capacitor_banks.blend
+Latest station: output/installation_B09/site_B09_capacitor_banks.blend
 SHA256: d9d95b447b58165719096bb2f53d1f630fca0170e9ebfb5abea58a1b48e60b5f
 Default scene: 59_B09_Three_Banks. Station: 47_B09_Station_Clean.
 Review: output/installation_B09/B09_review.html (12 embedded real Blender renders).
@@ -10,7 +10,7 @@ Queue: asset_variant_installation_queue_v9.json. CURRENT.md is mutable; all prio
 
 ## User scope and preserved work
 
-User requested “继续后续其他设备处理”. B09 processes 35kV capacitor groups #1/#2/#3,
+User requested “继续后续其他设备处理”. B09 processes VC-C capacitor groups #1/#2/#3,
 respectively 031 / 12MZ0000000242519, 032 / 12MZ0000000242517, 033 / 12MZ0000000242515.
 This is a bounded core-exterior batch, not a claim to finish all station equipment.
 T1 and T2 still share B08_TRANSFORMER_MASTER exactly as the user explicitly confirmed;

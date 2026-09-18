@@ -475,8 +475,8 @@
     "Remove extra spools at752\u2013502 and754\u2013501 close interfaces, then inspect actual through-pipe ends; projected overlap4\u20138cm is a separate finite endpoint trim task",
     "Rebuild six diagnostic proxies, save R2 separately, rerender station and changed six module views, validate saved source preservation and finite endpoints before updating CURRENT"
   ],
-  "current_authoritative_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r3/xialin_B14_transformer_outgoing_GIS_r3.blend",
-  "B15_r1_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B15/xialin_B15_spare_double_deck_GIS.blend",
+  "current_authoritative_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r3/site_B14_transformer_outgoing_GIS_r3.blend",
+  "B15_r1_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B15/site_B15_spare_double_deck_GIS.blend",
   "B15_r1_not_ready_for_current_pointer": true,
   "goal_complete": false
 }

@@ -40,6 +40,6 @@ fire_spray, foundation; monitor_online 与 smart_terminal 亦排除——B08 已
 
 ## 产物
 
-- `output/installation_D41/xialin_D41_T_inspection_accessories.blend`
+- `output/installation_D41/site_D41_T_inspection_accessories.blend`
 - `output/installation_D41/D41_part_world_locations.json`（部件×巡视点位×T1/T2 世界坐标清单）
 - `output/installation_D41/D41_validation.json` + 渲染核查图

@@ -1,12 +1,12 @@
 # B32 保存与续作
 
-当前工程 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/xialin_B32_secondary_equipment_cabins_r3.blend`，SHA256 `b0265b2626a009cea20056b08d01e671d0761952710185b375b0cfd3780a587f`。独立组件 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/B32_cabin_components_r3.blend`。从 R3 继续；R1/R2 保留，不作为后续基线。之前 B31/B30 及所有冻结版本保持。
+当前工程 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/site_B32_secondary_equipment_cabins_r3.blend`，SHA256 `b0265b2626a009cea20056b08d01e671d0761952710185b375b0cfd3780a587f`。独立组件 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/B32_cabin_components_r3.blend`。从 R3 继续；R1/R2 保留，不作为后续基线。之前 B31/B30 及所有冻结版本保持。
 
 广义目标仍 active：在已有基础上尽可能完善剩余室外建筑、土建和辅助设施；不能因设备舱完成标记整站目标完成。
 
-两座舱独立矩形旋转拟合，C110 2.80077 × 9.19289米 yaw−0.286864°；C220 2.79861 × 12.19722米 yaw−0.344053°。框架及原三角形奇偶对照域在 B32_container_measurements.json。共享两种主组件 B32_CABIN_END_WALL_HVAC_MASTER / B32_CABIN_DOOR_MASTER，四端部与三门；各舱 SITE 根实例在 B32_CABINS_SITE。
+两座舱独立矩形旋转拟合，Cabin-A 2.80077 × 9.19289米 yaw−0.286864°；Cabin-B 2.79861 × 12.19722米 yaw−0.344053°。框架及原三角形奇偶对照域在 B32_container_measurements.json。共享两种主组件 B32_CABIN_END_WALL_HVAC_MASTER / B32_CABIN_DOOR_MASTER，四端部与三门；各舱 SITE 根实例在 B32_CABINS_SITE。
 
-门位修正：C110 东侧局部Y−3.90；C220 西侧Y−5.50与+5.32。源台阶诊断 B32_source_steps_diagnostic.png。B31续作记录中曾把220舱西侧中部凹陷当门，已被照片和两端台阶证据纠正，不能再沿用。角条和板缝已经裁开门洞，楼梯基底采用源地面−.13/−.30，顶面.28/.13；小构件尺寸近似。
+门位修正：Cabin-A 东侧局部Y−3.90；Cabin-B 西侧Y−5.50与+5.32。源台阶诊断 B32_source_steps_diagnostic.png。B31续作记录中曾把220舱西侧中部凹陷当门，已被照片和两端台阶证据纠正，不能再沿用。角条和板缝已经裁开门洞，楼梯基底采用源地面−.13/−.30，顶面.28/.13；小构件尺寸近似。
 
 最终 B32_validation_r3.json 验证全部旧数据/场景结构、7114旧整站位置、新对象/实例变换、真实门洞无遮挡、台阶标高、组件独立重读和八个相机包络。三面/四面墙域为同源相关重建，残差不可作独立测绘精度。B32_review.html八组同相机滑动对照，25内嵌图，JS与控件检查通过。GUI重读R3，dirtyFalse，截图已看。
 

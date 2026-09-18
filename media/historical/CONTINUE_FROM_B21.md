@@ -2,7 +2,7 @@
 
 目标仍为“请持续进行变电站建模任务，直到室外设备大都实现建模与对齐。”状态active，本轮实质进展。新增两段4100主母线连接，总长11.626335米；6个共用端盖、7个沿线检修口及4处支撑。没有新增独立设备完成数，室外整体完成仍未证明。
 
-当前文件：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/r2/xialin_B21_4100_T_connections_and_endcaps_r2.blend`，SHA `84645dfac3bc92f8c8e69db25a5bb178de74bf86bd5efdd4553de864f9996d8a`；共享端盖库`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/B21_shared_endcaps.blend`，SHA `55519ae606bb049d644b8d8629f243181fc6ce6b3d6e983265fdcd95c3291a0a`。GUI已重新打开r2，当前446_B21_T_Junction_Cut_Clean，440场景、dirtyFalse。**446是一个合并的局部剖视代理，只用于看T形连接**；编辑真实设备请切换440_B21_SECTION_Oblique_Clean，整站438，排端449。18张最新渲染嵌入B21_review.html。443–448六张最新图位于r2，其他图沿用O21初版；初版裁切图仅留诊断不再作为当前对照。
+当前文件：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/r2/site_B21_4100_T_connections_and_endcaps_r2.blend`，SHA `84645dfac3bc92f8c8e69db25a5bb178de74bf86bd5efdd4553de864f9996d8a`；共享端盖库`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/B21_shared_endcaps.blend`，SHA `55519ae606bb049d644b8d8629f243181fc6ce6b3d6e983265fdcd95c3291a0a`。GUI已重新打开r2，当前446_B21_T_Junction_Cut_Clean，440场景、dirtyFalse。**446是一个合并的局部剖视代理，只用于看T形连接**；编辑真实设备请切换440_B21_SECTION_Oblique_Clean，整站438，排端449。18张最新渲染嵌入B21_review.html。443–448六张最新图位于r2，其他图沿用O21初版；初版裁切图仅留诊断不再作为当前对照。
 
 历史检查：28041旧对象、422旧场景、570旧集合、318旧材质、1935份历史文件均保留。旧整站3394个继续使用对象的世界变换不变；当前旧语义网格1837，正式基线15096。双主变仍共享B08_TRANSFORMER_MASTER。B21仅排除3个已被连接取代的B17短管：`["B17::4D75.bus_extension.0.1", "B17::4D75.bus_extension.1.1", "B17::4B77.bus_extension.1.-1"]`；它们仍存在B20历史中。旧4100横管本体和高层组件完全保留。
 

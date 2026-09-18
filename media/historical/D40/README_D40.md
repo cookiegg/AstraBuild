@@ -2,10 +2,10 @@
 
 **目的**：铁架（构架/桁架/支架）、缆线（导线/跳线/引线）、绝缘子瓷件等按现场照片证据赋 PBR 材质（金属度/粗糙度/基色），解决展示渲染中"灰蒙蒙、无金属感"的问题。**只改材质，不动任何几何/变换/场景结构**。
 
-**基线**：`output/installation_D38/xialin_D38_fire_gis_fixes.blend`（SHA-256 `ca84352903281ba8ff431ab22f32efe76efa5098061fc45fcb447d73717e7db4`），只读打开，另存为 `output/installation_D40/xialin_D40_metal_materials.blend`。
+**基线**：`output/installation_D38/site_D38_fire_gis_fixes.blend`（SHA-256 `ca84352903281ba8ff431ab22f32efe76efa5098061fc45fcb447d73717e7db4`），只读打开，另存为 `output/installation_D40/site_D40_metal_materials.blend`。
 
 **照片证据**（`图像数据/`）：
-- DJI_20260804131058_0039_V（110kV GIS 区）：GIS 母线筒为白漆铝管、构架桁架/立柱为镀锌钢（中灰金属）、悬式绝缘子串深灰褐、支撑/金具镀锌亮灰；
+- DJI_20260804131058_0039_V（VC-A GIS 区）：GIS 母线筒为白漆铝管、构架桁架/立柱为镀锌钢（中灰金属）、悬式绝缘子串深灰褐、支撑/金具镀锌亮灰；
 - DJI_20260804131402_0059_V：围墙/土建；
 - _DSC3181（主变后部）：散热片白灰、支架腿镀锌灰、消防管红色（已有材质）。
 

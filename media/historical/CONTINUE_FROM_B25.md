@@ -1,10 +1,10 @@
 # B25 续作说明
 
-当前工程 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B25/xialin_B25_outdoor_gantries.blend`，SHA `e3db4336f7d46f7cbd646450ff4c69bb671ae0f19e263d96fbe4963d0464db6d`。部件库 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B25/B25_gantry_fittings.blend`，SHA `39919152e618a6cfef96fe09395fcd6a8468ab3f8e5ecb7f8a7b1386f2e17200`。GUI已打开，默认516_B25_Station_Clean，dirtyFalse，共521场景。新增516–536共21场景，516全站、517全站叠图、518构架概览；519–524为110外侧、525–530为110内侧、531–536为220外侧，每组按整排clean/overlay/reference与单跨clean/overlay/reference排列。全部21图已渲染；B25_review.html滑动对照，已核对文件链接、21图哈希与JS语法，未声称浏览器布局测试。
+当前工程 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B25/site_B25_outdoor_gantries.blend`，SHA `e3db4336f7d46f7cbd646450ff4c69bb671ae0f19e263d96fbe4963d0464db6d`。部件库 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B25/B25_gantry_fittings.blend`，SHA `39919152e618a6cfef96fe09395fcd6a8468ab3f8e5ecb7f8a7b1386f2e17200`。GUI已打开，默认516_B25_Station_Clean，dirtyFalse，共521场景。新增516–536共21场景，516全站、517全站叠图、518构架概览；519–524为110外侧、525–530为110内侧、531–536为220外侧，每组按整排clean/overlay/reference与单跨clean/overlay/reference排列。全部21图已渲染；B25_review.html滑动对照，已核对文件链接、21图哈希与JS语法，未声称浏览器布局测试。
 
 ## 本轮完成及依据
 
-先重新对照全站实际室外物理区域。inspect_B25.py从B24r2登记粗模采4432234三角中心，按固定区域10厘米体素采样对照实际模型有限表面。原GIS220高于7米区域99.9%以上采样距模型超过1米；GIS110、主变高架区域也明显缺失。不能只按已有台账或全站清模观感宣布目标完成。
+先重新对照全站实际室外物理区域。inspect_B25.py从B24r2登记粗模采4432234三角中心，按固定区域10厘米体素采样对照实际模型有限表面。原GIS-B高于7米区域99.9%以上采样距模型超过1米；GIS-A、主变高架区域也明显缺失。不能只按已有台账或全站清模观感宣布目标完成。
 
 三组构架共19组A支架、15跨约232.028米横梁。110外侧8组7跨，原7组校正并补Y约−19.17的一组；110内侧6组4跨；220外侧5组4跨全部补建。原13组37件通用A架统一高13.2米不适合实际三组高度。本轮分别拟合柱轴、基础顶、弦杆；110外侧梁底约10.1米、内侧12.04米、220外侧13.83米，并随纵向略有坡度。实际三角截面：两下弦一上弦；底宽约0.940/0.910/1.607米，高约0.739/0.757/1.516米。实拍0014、0039及0057等确认结构，登记粗模剖面支持。底部交叉撑会污染宽度中位数，最终从斜面中高段反推底宽。每跨独立拟合斜撑周期/相位；不能用单向最近距离无限加密斜撑来降低误差。
 
@@ -18,7 +18,7 @@ fit_B25_gantry_r2.py拟合38根柱腿，限制清晰圆管公共半径/锥度，
 
 最初矩阵逐元素1e−5检查触发了Blender float32近退化Euler分解差异；直接逐顶点比较发现最大仅0.2433毫米。保留数值诊断，不修改几何来消除数值舍入；实际逐顶点差异需小于1毫米，和图像表面5厘米筛查无关。
 
-38个固定柱腿域按原始偶数三角拟合、奇数三角比较，6域RMS≤5厘米、32域高于，详见B25_validation.json。来自同一次空间相关重建，不能当独立测绘点。梯子、法兰和破损残差保留。15跨横梁使用完整三角梁包围域、固定7.5厘米体素采样，不按残差删点。GIS110高于7米区域距模型中位数1.75→0.10米；GIS220高于7米区域距模型中位数8.12→0.15米。高区对照重新构建当前实际场景BVH，不可取旧模型距离与新几何的最小值，因为本轮旧13架已从当前场景移除；旧距离仅作before。
+38个固定柱腿域按原始偶数三角拟合、奇数三角比较，6域RMS≤5厘米、32域高于，详见B25_validation.json。来自同一次空间相关重建，不能当独立测绘点。梯子、法兰和破损残差保留。15跨横梁使用完整三角梁包围域、固定7.5厘米体素采样，不按残差删点。GIS-A高于7米区域距模型中位数1.75→0.10米；GIS-B高于7米区域距模型中位数8.12→0.15米。高区对照重新构建当前实际场景BVH，不可取旧模型距离与新几何的最小值，因为本轮旧13架已从当前场景移除；旧距离仅作before。
 
 2477受保护文件保持：2392继承完整SHA证据+size/mtime，79个B24发布文件/记录全SHA核验，6个本轮新增引用全SHA（其余4个引用已有保护）。release_B25包括本轮脚本、提取/拟合/核验/图像/库/工程、v25队列与本说明，从发布起冻结。CURRENT可变。
 

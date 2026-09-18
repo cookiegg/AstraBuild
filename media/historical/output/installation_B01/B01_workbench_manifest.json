@@ -2,7 +2,7 @@
   "status": "saved_pending_independent_readback",
   "trial": "B01",
   "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B01/P02_B01_749_installation_review.blend",
-  "source_asset": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P02_r1/P02_SA110_photo_first.blend",
+  "source_asset": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P02_r1/P02_SA-A_photo_first.blend",
   "source_asset_sha256": "1df8ba4ec1fcaca62d985bddfe3f4dcaac493af7879effda4981feef53dc385b",
   "placement_sha256": "992bc20268407aa2ca73288939a7a06e255788c86d936501f9a546c84724ef85",
   "source_module_snapshot": {

@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/xialin_B08_shared_transformers_r2.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/site_B08_shared_transformers_r2.blend",
   "sha256": "69f59b972458e2a6e95726477f49f46aaff8baec2f76fe04f94f3f1aac010403",
   "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/B08_transformer_shared_asset_r2.blend",
   "asset_sha256": "8afc3ee891019eb1137aa5a722bd6e120a381101fdd1f64147391b62f7510bca",

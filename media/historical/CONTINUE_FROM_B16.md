@@ -2,7 +2,7 @@
 
 用户要求持续推进至室外设备大都完成建模与对齐。此批已保存、核验和审阅；整体目标仍 active，未完成。
 
-当前整站：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B16/r2/xialin_B16_coupler_bus_VT_r2.blend`，SHA256 `c35271d2284c37a33e84bed4dfa0232794248792d65fab890437320aca22ee54`。
+当前整站：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B16/r2/site_B16_coupler_bus_VT_r2.blend`，SHA256 `c35271d2284c37a33e84bed4dfa0232794248792d65fab890437320aca22ee54`。
 可追加部件库：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B16/B16_coupler_VT_components.blend`，SHA256 `3af7377bdfe0796399487903dd8696a951af3359bc5e0440ee8dc8a3ef730f79`。
 审阅：`output/installation_B16/B16_review.html`（31幅实际渲染）。覆盖表B16，队列v16。
 R1文件保留；R2只把新增设备的灰色参考裁块缩小至各自间隔，改善邻近粗模遮挡，设备几何与安装矩阵不变。31幅R2渲染与当前文件一致。
@@ -13,7 +13,7 @@ I/II母压变共用B16_VT_BARREL_BRANCH_MASTER的75个展开网格，分别接�
 三组柜体各自独立定位，复用B13_CABINET_DEEP_MASTER。双主变继续共用同一套B08总成。
 现场网格数：{"500": 169, "VT_I": 128, "VT_II": 128, "750": 300, "751": 298, "752": 123}。
 
-照片依据：20260804的0049可见母联500和II母柜标识，0051可见I母柜，0058长视图以及20260825航拍用于行列关系。早期20260804的0003/0005虽标母联500，却位于220kV设备行并邻近4600/4800标识，已排除这部分冲突的本体证据。
+照片依据：20260804的0049可见母联500和II母柜标识，0051可见I母柜，0058长视图以及20260825航拍用于行列关系。早期20260804的0003/0005虽标母联500，却位于VC-B设备行并邻近4600/4800标识，已排除这部分冲突的本体证据。
 参考提取与独立局部测量见inputs_B16、B16_extraction、B16_placement_datums_r2。初始种子不是测量真值；VT初始圆柱拟合和0.40m端部拟合诊断都保留。
 
 母线相邻顺序：750 → I母压变 → II母压变 → 751 → 母联500 → 752。五对相邻设备，共10处上下层接点，20条半跨管段，实际保存端环验证误差小于0.02mm。
@@ -27,5 +27,5 @@ I/II母压变共用B16_VT_BARREL_BRANCH_MASTER的75个展开网格，分别接�
 当前共248场景，默认235母联斜视；整站233/234；母联235–243；I母244–252；II母253–261；共用部件262；相邻连接行263。各设备按斜视/后视/侧视排列，每组模型、叠加、参考三幅。GUI重新打开R2且dirty=False，默认实际展开169网格。
 57个工作设备候选不是完成率；153项清单混合室内、室外与聚合范围。19套GIS主体候选仍部分对齐；44项旧几何位置待复核，其余见覆盖表。
 
-下一步：220kV GIS和P01避雷器系列，按实际照片及粗模确定可复用家族并定位；继续补齐室外主要设备，然后处理局部失败、外部导线和附件。不要重复开展已完成的B16检查，除非出现新修改或新问题。
+下一步：VC-B GIS和P01避雷器系列，按实际照片及粗模确定可复用家族并定位；继续补齐室外主要设备，然后处理局部失败、外部导线和附件。不要重复开展已完成的B16检查，除非出现新修改或新问题。
 后台通过MCP启动原生Blender进行GPU渲染。shell不可见原生PID，依MCP ps与作业日志判断结束。旧文件冻结；局部矩阵用matrix_basis；历史校验按相同旧场景顺序求值。用AST提取纯辅助函数，避免导入含顶层I/O的旧builder。不得标记室外整体目标complete。

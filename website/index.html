@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="AstraBuild studies how a general-purpose reasoning model coordinates persistent industrial 3D reconstruction, across the 36-batch B01–B36 record from one operating 220 kV substation.">
+  <meta name="description" content="AstraBuild studies how a general-purpose reasoning model coordinates persistent industrial 3D reconstruction, across the 36-batch B01–B36 record from one anonymized operating substation.">
   <meta name="theme-color" content="#ffffff">
   <title>AstraBuild · From Local Fits to Persistent Industrial 3D Reconstruction</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -39,14 +39,10 @@
           <p class="research-question lang-zh">当工业三维重建从局部拟合推进到可复用设备、连接表示和受状态约束的整站收尾时，一个持续的通用推理工作流会如何变化？</p>
 
           <div class="author-block">
-            <div class="author-names">Walter Wang, hb.luo, pf.li, j.di, y.cao, y.kang</div>
-            <div class="author-note"><span class="lang-en">AstraBuild · Sep 18, 2026</span><span class="lang-zh">AstraBuild · 2026 年 9 月 18 日</span></div>
+            <div class="author-names">Walter Wang, P. Li, J. Di, H. Luo*</div>
+            <div class="author-note"><span class="lang-en">* Corresponding author</span><span class="lang-zh">* 通讯作者</span></div>
           </div>
 
-          <div class="paper-meta">
-            <span><b><span class="lang-en">Study site</span><span class="lang-zh">研究站点</span></b> 220 kV Xialin Substation</span>
-            <span><b><span class="lang-en">Model</span><span class="lang-zh">模型</span></b> Codex + GPT-6 Astra*</span>
-          </div>
 
           <div class="hero-actions">
             <a class="btn primary" href="../rewrite_b01_b36/paper_layout_v24.pdf"><span class="lang-en">Paper (PDF)</span><span class="lang-zh">论文 PDF</span></a>
@@ -67,7 +63,7 @@
           </div>
           <div class="hero-mini-grid">
             <figure><img src="../media/field_gis.jpg" alt="Field photograph of substation equipment"><figcaption><span class="lang-en">field evidence</span><span class="lang-zh">现场证据</span></figcaption></figure>
-            <figure><img src="../media/cases/gis220.png" alt="Reconstructed 220 kV GIS"><figcaption><span class="lang-en">component model</span><span class="lang-zh">部件模型</span></figcaption></figure>
+            <figure><img src="../media/cases/gis_b.png" alt="Reconstructed GIS"><figcaption><span class="lang-en">component model</span><span class="lang-zh">部件模型</span></figcaption></figure>
             <figure><img src="../media/cases/conductors.png" alt="Connected bus and conductor systems"><figcaption><span class="lang-en">connected systems</span><span class="lang-zh">连接系统</span></figcaption></figure>
           </div>
         </div>
@@ -97,8 +93,8 @@
 
       <div class="report-main">
         <div class="abstract-block">
-          <p class="lang-en">We study GPT-6 Astra/Codex over B01–B36, a 36-batch reconstruction of one operating 220 kV substation from registered photogrammetric geometry, field imagery, engineering records, and inherited Blender state. Local fitting remains useful throughout, while the operator portfolio broadens as dependencies accumulate; numerical estimation and acceptance stay in deterministic geometry code; and persistent external state enables cross-batch composition while propagating erroneous shared abstractions until they are revised. The study does not establish model superiority, independent survey accuracy, or cross-site generalization.</p>
-          <p class="lang-zh">我们研究 GPT-6 Astra/Codex 在 B01–B36 上的表现：这是一座运行中 220 kV 变电站的 36 批次重建记录，输入包括注册摄影测量几何、现场影像、工程记录和继承的 Blender 状态。记录显示：局部拟合始终有效，而算子组合随依赖累积不断扩展；数值估计与验收始终由确定性几何代码完成；持续外部状态使跨批次组合成为可能，同时也会传播错误的共享抽象，直到其被修订。本研究不构成模型优越性、独立测绘精度或跨站泛化的证据。</p>
+          <p class="lang-en">We study GPT-6 Astra/Codex over B01–B36, a 36-batch reconstruction of one operating substation from registered photogrammetric geometry, field imagery, engineering records, and inherited Blender state. Local fitting remains useful throughout, while the operator portfolio broadens as dependencies accumulate; numerical estimation and acceptance stay in deterministic geometry code; and persistent external state enables cross-batch composition while propagating erroneous shared abstractions until they are revised. The study does not establish model superiority, independent survey accuracy, or cross-site generalization.</p>
+          <p class="lang-zh">我们研究 GPT-6 Astra/Codex 在 B01–B36 上的表现：这是一座运行中匿名变电站的 36 批次重建记录，输入包括注册摄影测量几何、现场影像、工程记录和继承的 Blender 状态。记录显示：局部拟合始终有效，而算子组合随依赖累积不断扩展；数值估计与验收始终由确定性几何代码完成；持续外部状态使跨批次组合成为可能，同时也会传播错误的共享抽象，直到其被修订。本研究不构成模型优越性、独立测绘精度或跨站泛化的证据。</p>
         </div>
 
         <section id="overview" class="section">
@@ -203,8 +199,8 @@
             </article>
             <article>
               <h3><span class="lang-en">4.2.3 From scheduled additions to gap-driven, state-constrained closure</span><span class="lang-zh">4.2.3 从计划性增补到缺口驱动、受状态约束的收尾</span></h3>
-              <p class="lang-en">B25 compared registered high-region geometry against the current scene and found unexplained structures; selected-region medians moved from 1.75 m to 0.10 m (GIS110) and 8.12 m to 0.15 m (GIS220). B26 applied the same logic to the transformer/firewall region (3.15 m → 0.06 m; &gt;1 m sample fraction 78.8% → 14.6%) — diagnostics over selected regions, not whole-site completeness. B31 fit the main building while preserving more than seven thousand existing transforms; B35 explicitly limits the product to the visible outdoor model. B36 adds bus-rack assemblies constrained simultaneously by source evidence, inherited endpoints, and occupied space, including a final 0.16 m displacement to avoid a fire riser.</p>
-              <p class="lang-zh">B25 将注册高区几何与当前场景对比，发现未解释结构；选定区域中位数从 1.75 m 降至 0.10 m（GIS110）、从 8.12 m 降至 0.15 m（GIS220）。B26 将同一逻辑用于主变/防火墙区域（3.15 m → 0.06 m；&gt;1 m 采样比例 78.8% → 14.6%）——这些是选定区域的诊断量，不是整站完备性。B31 在保持七千余个既有变换的情况下拟合主控楼；B35 明确将产物限定为可见室外模型。B36 新增的母线架同时受源证据、继承端点与已占用空间约束，包括最后为避让消防立管而做的 0.16 m 局部位移。</p>
+              <p class="lang-en">B25 compared registered high-region geometry against the current scene and found unexplained structures; selected-region medians moved from 1.75 m to 0.10 m (GIS-A) and 8.12 m to 0.15 m (GIS-B). B26 applied the same logic to the transformer/firewall region (3.15 m → 0.06 m; &gt;1 m sample fraction 78.8% → 14.6%) — diagnostics over selected regions, not whole-site completeness. B31 fit the main building while preserving more than seven thousand existing transforms; B35 explicitly limits the product to the visible outdoor model. B36 adds bus-rack assemblies constrained simultaneously by source evidence, inherited endpoints, and occupied space, including a final 0.16 m displacement to avoid a fire riser.</p>
+              <p class="lang-zh">B25 将注册高区几何与当前场景对比，发现未解释结构；选定区域中位数从 1.75 m 降至 0.10 m（GIS-A）、从 8.12 m 降至 0.15 m（GIS-B）。B26 将同一逻辑用于主变/防火墙区域（3.15 m → 0.06 m；&gt;1 m 采样比例 78.8% → 14.6%）——这些是选定区域的诊断量，不是整站完备性。B31 在保持七千余个既有变换的情况下拟合主控楼；B35 明确将产物限定为可见室外模型。B36 新增的母线架同时受源证据、继承端点与已占用空间约束，包括最后为避让消防立管而做的 0.16 m 局部位移。</p>
             </article>
           </div>
           <figure class="research-figure wide evidence-figure">
@@ -436,13 +432,15 @@
         </section>
 
         <section id="citation" class="section citation-section">
-          <div class="section-head no-index"><div><div class="paper-section-label">Citation</div><h2>Citation</h2><p><span class="lang-en">Working citation until authorship and venue are finalized.</span><span class="lang-zh">作者与投稿方向确定前的工作引用。</span></p></div></div>
+          <div class="section-head no-index"><div><div class="paper-section-label">Citation</div><h2>Citation</h2><p><span class="lang-en">Suggested citation for the public research release.</span><span class="lang-zh">公开研究版本的建议引用格式。</span></p></div></div>
           <pre><code>@misc{astrabuild2026,
   title  = {AstraBuild: From Local Fits to Persistent Industrial 3D
             Reconstruction with a General-Purpose Reasoning Model},
-  author = {Walter Wang and hb.luo and pf.li and j.di and y.cao and y.kang},
+  author = {Walter Wang and P. Li and J. Di and H. Luo},
   year   = {2026},
-  note   = {Longitudinal B01--B36 field record manuscript and project website}
+  url    = {https://github.com/cookiegg/AstraBuild},
+  note   = {Longitudinal B01--B36 field-record manuscript and project website.
+            H. Luo is the corresponding author.}
 }</code></pre>
           <p id="metrics-status" class="status">metrics.json</p>
         </section>

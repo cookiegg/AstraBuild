@@ -1,7 +1,7 @@
 {
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/xialin_B13_GIS_line_bays_r2.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/site_B13_GIS_line_bays_r2.blend",
   "sha256": "db23fb9a761ddf6e2a2a031cfb8537f813a46dfd32742dd88176e33e7224ca40",
-  "r1_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/xialin_B13_GIS_line_bays.blend",
+  "r1_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/site_B13_GIS_line_bays.blend",
   "r1_sha256": "b9c42462bfbba0ac38d7f870257eea9524d37f21644b9e63e1c448cc0fbcb002",
   "status": "framing_revision_saved_geometry_unchanged",
   "r1_objects_unchanged_except_one_camera": 24323,

@@ -10,7 +10,7 @@ D37 取代 C37 测试版。C37 的几何与坐标计划可用，但其渲染产�
 
 ## 基线
 
-- 输入工程：`../output/installation_B36/xialin_B36_transformer_bus_racks_r3.blend`
+- 输入工程：`../output/installation_B36/site_B36_transformer_bus_racks_r3.blend`
 - 输入 SHA-256：`b6bbc3caeffdf72ca52df2dd5e01234269fe652827131e64f1f8a1da7ef502e8`
 - B36 规模：36,812 个对象、743 个场景、842 个集合、400 个材质；整站场景包含 7,116 个站内对象。
 - B36 已验证：保存后重读一致、既有对象/场景/站内变换保持、组件库往返一致、新几何有限、主母线与既有设备无非预期表面穿插。

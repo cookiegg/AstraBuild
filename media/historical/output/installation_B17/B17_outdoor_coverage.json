@@ -2,8 +2,8 @@
   "objective": "请持续进行变电站建模任务，直到室外设备大都实现建模与对齐。",
   "goal_status": "active",
   "completion_proven": false,
-  "previous_goal_turn_classification": "progress: five220kV outgoing GIS bays,15 shared terminal heads, independent cabinets and two close-pair bus connections",
-  "station_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B17/r3/xialin_B17_220kV_outgoing_GIS_r3.blend",
+  "previous_goal_turn_classification": "progress: fiveVC-B outgoing GIS bays,15 shared terminal heads, independent cabinets and two close-pair bus connections",
+  "station_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B17/r3/site_B17_VC-B_outgoing_GIS_r3.blend",
   "station_sha256": "3e6b6a4c3946442ecec0460f2bc0e49cb8552eed9e3509bd262607e432a99500",
   "scene": "264_B17_Station_Clean",
   "official_records": 153,
@@ -206,7 +206,7 @@
     },
     {
       "device_id": "12MZ0000000225541",
-      "name": "35kVI段压变",
+      "name": "VC-CI段压变",
       "family": "开关柜",
       "inventory_model": "KYN61-40.5",
       "scope_triage": "indoor_excluded",
@@ -240,7 +240,7 @@
     },
     {
       "device_id": "12MZ0000000223250",
-      "name": "35kV分段开关300",
+      "name": "VC-C分段开关300",
       "family": "开关柜",
       "inventory_model": "KYN61-40.5",
       "scope_triage": "indoor_excluded",
@@ -325,7 +325,7 @@
     },
     {
       "device_id": "12MZ0000000224814",
-      "name": "35kVII段压变",
+      "name": "VC-CII段压变",
       "family": "开关柜",
       "inventory_model": "KYN61-40.5",
       "scope_triage": "indoor_excluded",
@@ -461,7 +461,7 @@
     },
     {
       "device_id": "12MZ0000000262057",
-      "name": "35kV分段3001",
+      "name": "VC-C分段3001",
       "family": "开关柜",
       "inventory_model": "KYN61-40.5",
       "scope_triage": "indoor_excluded",
@@ -512,7 +512,7 @@
     },
     {
       "device_id": "12MZ0000000242509",
-      "name": "35kV#6电力电容器036ABC相",
+      "name": "VC-C#6电力电容器036ABC相",
       "family": "电力电容器",
       "inventory_model": "TBB35-10000/417-ACW",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -537,7 +537,7 @@
     },
     {
       "device_id": "12MZ0000000242511",
-      "name": "35kV#5电力电容器035ABC相",
+      "name": "VC-C#5电力电容器035ABC相",
       "family": "电力电容器",
       "inventory_model": "TBB35-10000/417-ACW",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -562,7 +562,7 @@
     },
     {
       "device_id": "12MZ0000000242517",
-      "name": "35kV#2电力电容器032ABC相",
+      "name": "VC-C#2电力电容器032ABC相",
       "family": "电力电容器",
       "inventory_model": "TBB35-10000/417-ACW",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -587,7 +587,7 @@
     },
     {
       "device_id": "12MZ0000000242513",
-      "name": "35kV#4电力电容器034ABC相",
+      "name": "VC-C#4电力电容器034ABC相",
       "family": "电力电容器",
       "inventory_model": "TBB35-10000/417-ACW",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -612,7 +612,7 @@
     },
     {
       "device_id": "12MZ0000000242519",
-      "name": "35kV#1电力电容器031ABC相",
+      "name": "VC-C#1电力电容器031ABC相",
       "family": "电力电容器",
       "inventory_model": "TBB35-10000/417-ACW",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -637,7 +637,7 @@
     },
     {
       "device_id": "12MZ0000000242515",
-      "name": "35kV#3电力电容器033ABC相",
+      "name": "VC-C#3电力电容器033ABC相",
       "family": "电力电容器",
       "inventory_model": "TBB35-10000/417-ACW",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -780,7 +780,7 @@
         "B17::4D75.CORE",
         "B17::4D75.CABINET"
       ],
-      "legacy_variant": "GIS220_OUTGOING",
+      "legacy_variant": "GIS-B_OUTGOING",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -790,9 +790,9 @@
       ],
       "limitations": [
         "Exact gas chamber envelopes and compact mechanisms remain approximate; retain all unpassed reference checks.",
-        "Sixteen exposed bus boundaries require neighboring220kV variants and actual route integration.",
+        "Sixteen exposed bus boundaries require neighboringVC-B variants and actual route integration.",
         "Cabinet fronts and individual phase labels need closer photo confirmation;4B77 alias retained as provisional.",
-        "Small leads and terminals plus remaining220kV variants and arresters unfinished; inherited B11-B16 failures remain."
+        "Small leads and terminals plus remainingVC-B variants and arresters unfinished; inherited B11-B16 failures remain."
       ],
       "photo_candidate_count": 8,
       "formal_installation_or_full_acceptance_claim": false,
@@ -802,7 +802,7 @@
     },
     {
       "device_id": "12MZ0000000219417",
-      "name": "110kV II母压变",
+      "name": "VC-A II母压变",
       "family": "组合电器",
       "inventory_model": "ZF23-126(L)",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -812,13 +812,13 @@
         "B16::VT_II.CORE",
         "B16::VT_II.CABINET"
       ],
-      "legacy_variant": "GIS110_VT",
+      "legacy_variant": "GIS-A_VT",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
         "saved B16 VT_II major exterior;105 core meshes and128 site meshes",
         "6/7 actual finite component reference checks below5cm, failed patches retained",
-        "labeled110kV cabinet photos and isolated coarse topology reviewed; conflicting220kV body labels excluded"
+        "labeledVC-A cabinet photos and isolated coarse topology reviewed; conflictingVC-B body labels excluded"
       ],
       "limitations": [
         "500 vertical and VT barrel reference patches include coarse distortions/supports; retain independent failed diagnostics and review actual saved finite surfaces.",
@@ -827,7 +827,7 @@
       ],
       "photo_candidate_count": 3,
       "formal_installation_or_full_acceptance_claim": false,
-      "identity_status": "110kV cabinet labels plus row topology; conflicting220kV body labels excluded",
+      "identity_status": "VC-A cabinet labels plus row topology; conflictingVC-B body labels excluded",
       "local_patch_screens_passed": 6,
       "local_patch_screens_unpassed": 1
     },
@@ -840,7 +840,7 @@
       "current_status": "legacy_major_fit_record_needs_current_visual_review",
       "legacy_direct_mesh_count": 249,
       "candidate_roots": [],
-      "legacy_variant": "GIS220_4100_EXTERIOR_V9",
+      "legacy_variant": "GIS-B_4100_EXTERIOR_V9",
       "legacy_geometry_status": "bounded_4100_visible_exterior_two_case_depths_and_minor_details_approximate",
       "legacy_alignment_status": "major_4100_exterior_and_both_cabinet_envelopes_refitted_instruments_pending",
       "evidence": [
@@ -853,7 +853,7 @@
     },
     {
       "device_id": "12MZ0000000219424",
-      "name": "110kV II母",
+      "name": "VC-A II母",
       "family": "组合电器",
       "inventory_model": "ZF23-126(L)",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -882,7 +882,7 @@
         "B17::4B77.CORE",
         "B17::4B77.CABINET"
       ],
-      "legacy_variant": "GIS220_OUTGOING",
+      "legacy_variant": "GIS-B_OUTGOING",
       "legacy_geometry_status": "photo_confirmed_MFPT_outgoing_role_family_v2_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -892,9 +892,9 @@
       ],
       "limitations": [
         "Exact gas chamber envelopes and compact mechanisms remain approximate; retain all unpassed reference checks.",
-        "Sixteen exposed bus boundaries require neighboring220kV variants and actual route integration.",
+        "Sixteen exposed bus boundaries require neighboringVC-B variants and actual route integration.",
         "Cabinet fronts and individual phase labels need closer photo confirmation;4B77 alias retained as provisional.",
-        "Small leads and terminals plus remaining220kV variants and arresters unfinished; inherited B11-B16 failures remain."
+        "Small leads and terminals plus remainingVC-B variants and arresters unfinished; inherited B11-B16 failures remain."
       ],
       "photo_candidate_count": 0,
       "formal_installation_or_full_acceptance_claim": false,
@@ -913,7 +913,7 @@
       "candidate_roots": [
         "B15R2::753.CORE"
       ],
-      "legacy_variant": "GIS110_SPARE_DUAL_DECK",
+      "legacy_variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_geometry_status": "photo_reviewed_dual_deck_compact_spare_module_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -947,7 +947,7 @@
         "B15R2::758.CORE",
         "B13::758.CABINET"
       ],
-      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_variant": "GIS-A_OUTGOING",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -973,7 +973,7 @@
     },
     {
       "device_id": "12MZ0000000419148",
-      "name": "220kVIA母",
+      "name": "VC-BIA母",
       "family": "组合电器",
       "inventory_model": "MFPT-250-50L",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -999,7 +999,7 @@
       "current_status": "legacy_major_fit_record_needs_current_visual_review",
       "legacy_direct_mesh_count": 353,
       "candidate_roots": [],
-      "legacy_variant": "GIS220_4801_EXTERIOR_REFIT_V7",
+      "legacy_variant": "GIS-B_4801_EXTERIOR_REFIT_V7",
       "legacy_geometry_status": "4801_measured_major_exterior_envelopes_plus_photo_relative_detail_not_full_CAD",
       "legacy_alignment_status": "4801_v46_major_exterior_plus_v47_individual_control_cabinet_envelope_not_complete_CAD",
       "evidence": [
@@ -1021,7 +1021,7 @@
       "candidate_roots": [
         "B15R2::752.CORE"
       ],
-      "legacy_variant": "GIS110_SPARE_DUAL_DECK",
+      "legacy_variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_geometry_status": "photo_reviewed_dual_deck_compact_spare_module_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1055,7 +1055,7 @@
       "candidate_roots": [
         "B15R2::756.CORE"
       ],
-      "legacy_variant": "GIS110_SPARE_DUAL_DECK",
+      "legacy_variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_geometry_status": "photo_reviewed_dual_deck_compact_spare_module_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1079,7 +1079,7 @@
     },
     {
       "device_id": "12MZ0000000419290",
-      "name": "220kVII母",
+      "name": "VC-BII母",
       "family": "组合电器",
       "inventory_model": "MFPT-250-50L",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -1108,7 +1108,7 @@
         "B17::4D76.CORE",
         "B17::4D76.CABINET"
       ],
-      "legacy_variant": "GIS220_OUTGOING",
+      "legacy_variant": "GIS-B_OUTGOING",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1118,9 +1118,9 @@
       ],
       "limitations": [
         "Exact gas chamber envelopes and compact mechanisms remain approximate; retain all unpassed reference checks.",
-        "Sixteen exposed bus boundaries require neighboring220kV variants and actual route integration.",
+        "Sixteen exposed bus boundaries require neighboringVC-B variants and actual route integration.",
         "Cabinet fronts and individual phase labels need closer photo confirmation;4B77 alias retained as provisional.",
-        "Small leads and terminals plus remaining220kV variants and arresters unfinished; inherited B11-B16 failures remain."
+        "Small leads and terminals plus remainingVC-B variants and arresters unfinished; inherited B11-B16 failures remain."
       ],
       "photo_candidate_count": 11,
       "formal_installation_or_full_acceptance_claim": false,
@@ -1140,7 +1140,7 @@
         "B17::4802.CORE",
         "B17::4802.CABINET"
       ],
-      "legacy_variant": "GIS220_OUTGOING",
+      "legacy_variant": "GIS-B_OUTGOING",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1150,9 +1150,9 @@
       ],
       "limitations": [
         "Exact gas chamber envelopes and compact mechanisms remain approximate; retain all unpassed reference checks.",
-        "Sixteen exposed bus boundaries require neighboring220kV variants and actual route integration.",
+        "Sixteen exposed bus boundaries require neighboringVC-B variants and actual route integration.",
         "Cabinet fronts and individual phase labels need closer photo confirmation;4B77 alias retained as provisional.",
-        "Small leads and terminals plus remaining220kV variants and arresters unfinished; inherited B11-B16 failures remain."
+        "Small leads and terminals plus remainingVC-B variants and arresters unfinished; inherited B11-B16 failures remain."
       ],
       "photo_candidate_count": 14,
       "formal_installation_or_full_acceptance_claim": false,
@@ -1171,7 +1171,7 @@
       "candidate_roots": [
         "B15R2::757.CORE"
       ],
-      "legacy_variant": "GIS110_SPARE_DUAL_DECK",
+      "legacy_variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_geometry_status": "photo_reviewed_dual_deck_compact_spare_module_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1195,14 +1195,14 @@
     },
     {
       "device_id": "12MZ0000000219422",
-      "name": "220kV II母压变",
+      "name": "VC-B II母压变",
       "family": "组合电器",
       "inventory_model": "SDA524-252",
       "scope_triage": "outdoor_or_mixed_needs_review",
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 73,
       "candidate_roots": [],
-      "legacy_variant": "GIS220_SDA_VT",
+      "legacy_variant": "GIS-B_SDA_VT",
       "legacy_geometry_status": "photo_reviewed_SDA524_252_compact_VT_role_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1223,7 +1223,7 @@
       "candidate_roots": [
         "B15R2::754.CORE"
       ],
-      "legacy_variant": "GIS110_SPARE_DUAL_DECK",
+      "legacy_variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_geometry_status": "photo_reviewed_dual_deck_compact_spare_module_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1257,7 +1257,7 @@
         "B13::748.CORE",
         "B13::748.CABINET"
       ],
-      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_variant": "GIS-A_OUTGOING",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1282,14 +1282,14 @@
     },
     {
       "device_id": "12MZ0000000219419",
-      "name": "220KV IA母压变",
+      "name": "VC-B IA母压变",
       "family": "组合电器",
       "inventory_model": "MFPT-250-50L",
       "scope_triage": "outdoor_or_mixed_needs_review",
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 281,
       "candidate_roots": [],
-      "legacy_variant": "GIS220_VT",
+      "legacy_variant": "GIS-B_VT",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1308,7 +1308,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 67,
       "candidate_roots": [],
-      "legacy_variant": "GIS220_SDA_OUTGOING",
+      "legacy_variant": "GIS-B_SDA_OUTGOING",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1330,7 +1330,7 @@
         "B13::750.CORE",
         "B13::750.CABINET"
       ],
-      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_variant": "GIS-A_OUTGOING",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1380,7 +1380,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 67,
       "candidate_roots": [],
-      "legacy_variant": "GIS220_SDA_OUTGOING",
+      "legacy_variant": "GIS-B_SDA_OUTGOING",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1401,7 +1401,7 @@
       "candidate_roots": [
         "B15R2::755.CORE"
       ],
-      "legacy_variant": "GIS110_SPARE_DUAL_DECK",
+      "legacy_variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_geometry_status": "photo_reviewed_dual_deck_compact_spare_module_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1425,7 +1425,7 @@
     },
     {
       "device_id": "12MZ0000000219425",
-      "name": "110kVI母",
+      "name": "VC-AI母",
       "family": "组合电器",
       "inventory_model": "ZF23-126(L)",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -1452,7 +1452,7 @@
         "B13::759.CORE",
         "B13::759.CABINET"
       ],
-      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_variant": "GIS-A_OUTGOING",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1504,7 +1504,7 @@
         "B13::749.CORE",
         "B13::749.CABINET"
       ],
-      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_variant": "GIS-A_OUTGOING",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1539,13 +1539,13 @@
         "B16::500.CORE",
         "B16::500.CABINET"
       ],
-      "legacy_variant": "GIS110_COUPLER",
+      "legacy_variant": "GIS-A_COUPLER",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
         "saved B16 500 major exterior;146 core meshes and169 site meshes",
         "5/9 actual finite component reference checks below5cm, failed patches retained",
-        "labeled110kV cabinet photos and isolated coarse topology reviewed; conflicting220kV body labels excluded"
+        "labeledVC-A cabinet photos and isolated coarse topology reviewed; conflictingVC-B body labels excluded"
       ],
       "limitations": [
         "500 vertical and VT barrel reference patches include coarse distortions/supports; retain independent failed diagnostics and review actual saved finite surfaces.",
@@ -1554,7 +1554,7 @@
       ],
       "photo_candidate_count": 7,
       "formal_installation_or_full_acceptance_claim": false,
-      "identity_status": "110kV cabinet labels plus row topology; conflicting220kV body labels excluded",
+      "identity_status": "VC-A cabinet labels plus row topology; conflictingVC-B body labels excluded",
       "local_patch_screens_passed": 5,
       "local_patch_screens_unpassed": 4
     },
@@ -1567,7 +1567,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 272,
       "candidate_roots": [],
-      "legacy_variant": "GIS220_COUPLER",
+      "legacy_variant": "GIS-B_COUPLER",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1589,7 +1589,7 @@
         "B15R2::501.CORE",
         "B14::501.CABINET"
       ],
-      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_variant": "GIS-A_OUTGOING",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1613,7 +1613,7 @@
     },
     {
       "device_id": "12MZ0000000419149",
-      "name": "220kVIB母",
+      "name": "VC-BIB母",
       "family": "组合电器",
       "inventory_model": "MFPT-250-50L",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -1630,7 +1630,7 @@
     },
     {
       "device_id": "12MZ0000000219418",
-      "name": "110kV I母压变",
+      "name": "VC-A I母压变",
       "family": "组合电器",
       "inventory_model": "ZF23-126(L)",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -1640,13 +1640,13 @@
         "B16::VT_I.CORE",
         "B16::VT_I.CABINET"
       ],
-      "legacy_variant": "GIS110_VT",
+      "legacy_variant": "GIS-A_VT",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
         "saved B16 VT_I major exterior;105 core meshes and128 site meshes",
         "6/7 actual finite component reference checks below5cm, failed patches retained",
-        "labeled110kV cabinet photos and isolated coarse topology reviewed; conflicting220kV body labels excluded"
+        "labeledVC-A cabinet photos and isolated coarse topology reviewed; conflictingVC-B body labels excluded"
       ],
       "limitations": [
         "500 vertical and VT barrel reference patches include coarse distortions/supports; retain independent failed diagnostics and review actual saved finite surfaces.",
@@ -1655,7 +1655,7 @@
       ],
       "photo_candidate_count": 6,
       "formal_installation_or_full_acceptance_claim": false,
-      "identity_status": "110kV cabinet labels plus row topology; conflicting220kV body labels excluded",
+      "identity_status": "VC-A cabinet labels plus row topology; conflictingVC-B body labels excluded",
       "local_patch_screens_passed": 6,
       "local_patch_screens_unpassed": 1
     },
@@ -1678,14 +1678,14 @@
     },
     {
       "device_id": "12MZ0000000219423",
-      "name": "220kV IB母压变",
+      "name": "VC-B IB母压变",
       "family": "组合电器",
       "inventory_model": "SDA524-252",
       "scope_triage": "outdoor_or_mixed_needs_review",
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 73,
       "candidate_roots": [],
-      "legacy_variant": "GIS220_SDA_VT",
+      "legacy_variant": "GIS-B_SDA_VT",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1707,7 +1707,7 @@
         "B15R2::502.CORE",
         "B14::502.CABINET"
       ],
-      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_variant": "GIS-A_OUTGOING",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1738,7 +1738,7 @@
       "current_status": "legacy_major_fit_record_needs_current_visual_review",
       "legacy_direct_mesh_count": 386,
       "candidate_roots": [],
-      "legacy_variant": "GIS220_4800_EXTERIOR_REFIT_V8",
+      "legacy_variant": "GIS-B_4800_EXTERIOR_REFIT_V8",
       "legacy_geometry_status": "4800_photo_coarse_specific_exterior_not_generalized_to_other_bays",
       "legacy_alignment_status": "4800_independent_exterior_axes_cases_and_control_cabinet_fit_minor_details_approximate",
       "evidence": [
@@ -1761,7 +1761,7 @@
         "B17::2899.CORE",
         "B17::2899.CABINET"
       ],
-      "legacy_variant": "GIS220_OUTGOING",
+      "legacy_variant": "GIS-B_OUTGOING",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1771,9 +1771,9 @@
       ],
       "limitations": [
         "Exact gas chamber envelopes and compact mechanisms remain approximate; retain all unpassed reference checks.",
-        "Sixteen exposed bus boundaries require neighboring220kV variants and actual route integration.",
+        "Sixteen exposed bus boundaries require neighboringVC-B variants and actual route integration.",
         "Cabinet fronts and individual phase labels need closer photo confirmation;4B77 alias retained as provisional.",
-        "Small leads and terminals plus remaining220kV variants and arresters unfinished; inherited B11-B16 failures remain."
+        "Small leads and terminals plus remainingVC-B variants and arresters unfinished; inherited B11-B16 failures remain."
       ],
       "photo_candidate_count": 10,
       "formal_installation_or_full_acceptance_claim": false,
@@ -1810,7 +1810,7 @@
         "B13::751.CORE",
         "B13::751.CABINET"
       ],
-      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_variant": "GIS-A_OUTGOING",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1846,7 +1846,7 @@
         "B13::747.CORE",
         "B13::747.CABINET"
       ],
-      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_variant": "GIS-A_OUTGOING",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1881,7 +1881,7 @@
         "B13::746.CORE",
         "B13::746.CABINET"
       ],
-      "legacy_variant": "GIS110_OUTGOING",
+      "legacy_variant": "GIS-A_OUTGOING",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1913,7 +1913,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 26,
       "candidate_roots": [],
-      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_variant": "SA-B_SHORT_SUPPORT",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1936,7 +1936,7 @@
         "B11_759_B_PEDESTAL",
         "B11_759_B_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1960,7 +1960,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 20,
       "candidate_roots": [],
-      "legacy_variant": "SA220_TALL",
+      "legacy_variant": "SA-B_TALL",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -1979,7 +1979,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 20,
       "candidate_roots": [],
-      "legacy_variant": "SA220_TALL",
+      "legacy_variant": "SA-B_TALL",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2002,7 +2002,7 @@
         "B11_751_B_PEDESTAL",
         "B11_751_B_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2043,7 +2043,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 26,
       "candidate_roots": [],
-      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_variant": "SA-B_SHORT_SUPPORT",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2062,7 +2062,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 26,
       "candidate_roots": [],
-      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_variant": "SA-B_SHORT_SUPPORT",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2081,7 +2081,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 20,
       "candidate_roots": [],
-      "legacy_variant": "SA220_TALL",
+      "legacy_variant": "SA-B_TALL",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2103,7 +2103,7 @@
         "B05_750_C_BODY",
         "B05_750_C_PEDESTAL"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2128,7 +2128,7 @@
         "B02_749_C_PEDESTAL",
         "B02_749_C_ACCESSORY"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2149,7 +2149,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 20,
       "candidate_roots": [],
-      "legacy_variant": "SA220_TALL",
+      "legacy_variant": "SA-B_TALL",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2171,7 +2171,7 @@
         "B05_750_B_BODY",
         "B05_750_B_PEDESTAL"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2195,7 +2195,7 @@
         "B05_746_C_BODY",
         "B05_746_C_PEDESTAL"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2220,7 +2220,7 @@
         "B03_747_A_PEDESTAL",
         "B03_747_A_ACCESSORY"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2245,7 +2245,7 @@
         "B11_748_B_PEDESTAL",
         "B11_748_B_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2293,8 +2293,8 @@
         "B11_T2_MV_C_ACCESSORY",
         "B11_T2_MV_C_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
-      "legacy_geometry_status": "official_model_matched_SA110_SINGLE_master_photo_family_dimensions_unverified",
+      "legacy_variant": "SA-A_SINGLE",
+      "legacy_geometry_status": "official_model_matched_SA-A_SINGLE_master_photo_family_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
         "saved B11 P02 body/pedestal shared sources",
@@ -2334,7 +2334,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 26,
       "candidate_roots": [],
-      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_variant": "SA-B_SHORT_SUPPORT",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2353,7 +2353,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 26,
       "candidate_roots": [],
-      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_variant": "SA-B_SHORT_SUPPORT",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2376,7 +2376,7 @@
         "B11_T1_501_C_PEDESTAL",
         "B11_T1_501_C_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2404,7 +2404,7 @@
         "B03_748_A_PEDESTAL",
         "B03_748_A_ACCESSORY"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2429,7 +2429,7 @@
         "B11_759_C_PEDESTAL",
         "B11_759_C_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2453,7 +2453,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 26,
       "candidate_roots": [],
-      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_variant": "SA-B_SHORT_SUPPORT",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2476,7 +2476,7 @@
         "B02_749_B_PEDESTAL",
         "B02_749_B_ACCESSORY"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2501,7 +2501,7 @@
         "B11_758_B_PEDESTAL",
         "B11_758_B_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2530,8 +2530,8 @@
         "B11_T2_MV_B_ACCESSORY",
         "B11_T2_MV_B_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
-      "legacy_geometry_status": "official_model_matched_SA110_SINGLE_master_photo_family_dimensions_unverified",
+      "legacy_variant": "SA-A_SINGLE",
+      "legacy_geometry_status": "official_model_matched_SA-A_SINGLE_master_photo_family_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
         "saved B11 P02 body/pedestal shared sources",
@@ -2558,7 +2558,7 @@
         "B03_748_C_PEDESTAL",
         "B03_748_C_ACCESSORY"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2583,7 +2583,7 @@
         "B03_747_C_PEDESTAL",
         "B03_747_C_ACCESSORY"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2604,7 +2604,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 26,
       "candidate_roots": [],
-      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_variant": "SA-B_SHORT_SUPPORT",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2623,7 +2623,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 26,
       "candidate_roots": [],
-      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_variant": "SA-B_SHORT_SUPPORT",
       "legacy_geometry_status": "official_model_matched_reusable_arrester_master_support_installation_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2645,7 +2645,7 @@
         "B05_750_A_BODY",
         "B05_750_A_PEDESTAL"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2671,7 +2671,7 @@
         "B11_746_B_ACCESSORY",
         "B11_746_B_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2699,7 +2699,7 @@
         "B11_759_A_PEDESTAL",
         "B11_759_A_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2727,7 +2727,7 @@
         "B11_751_A_PEDESTAL",
         "B11_751_A_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2751,7 +2751,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 26,
       "candidate_roots": [],
-      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_variant": "SA-B_SHORT_SUPPORT",
       "legacy_geometry_status": "official_model_matched_reusable_arrester_master_support_installation_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2787,7 +2787,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 26,
       "candidate_roots": [],
-      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_variant": "SA-B_SHORT_SUPPORT",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2810,7 +2810,7 @@
         "B11_746_A_PEDESTAL",
         "B11_746_A_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2855,8 +2855,8 @@
         "B11_T2_MV_A_PEDESTAL",
         "B11_T2_MV_A_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
-      "legacy_geometry_status": "official_model_matched_SA110_SINGLE_master_photo_family_dimensions_unverified",
+      "legacy_variant": "SA-A_SINGLE",
+      "legacy_geometry_status": "official_model_matched_SA-A_SINGLE_master_photo_family_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
         "saved B11 P02 body/pedestal shared sources",
@@ -2879,7 +2879,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 26,
       "candidate_roots": [],
-      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_variant": "SA-B_SHORT_SUPPORT",
       "legacy_geometry_status": "official_model_matched_reusable_arrester_master_support_installation_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2902,7 +2902,7 @@
         "B11_758_C_PEDESTAL",
         "B11_758_C_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2930,7 +2930,7 @@
         "B11_758_A_PEDESTAL",
         "B11_758_A_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2958,7 +2958,7 @@
         "B11_T1_501_B_PEDESTAL",
         "B11_T1_501_B_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -2999,7 +2999,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 20,
       "candidate_roots": [],
-      "legacy_variant": "SA220_TALL",
+      "legacy_variant": "SA-B_TALL",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -3039,7 +3039,7 @@
         "B11_751_C_PEDESTAL",
         "B11_751_C_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -3084,7 +3084,7 @@
         "B11_T1_501_A_PEDESTAL",
         "B11_T1_501_A_SITE_PAD"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -3108,7 +3108,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 26,
       "candidate_roots": [],
-      "legacy_variant": "SA220_SHORT_SUPPORT",
+      "legacy_variant": "SA-B_SHORT_SUPPORT",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -3131,7 +3131,7 @@
         "B03_747_B_PEDESTAL",
         "B03_747_B_ACCESSORY"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -3169,7 +3169,7 @@
       "current_status": "legacy_geometry_pose_review_pending",
       "legacy_direct_mesh_count": 20,
       "candidate_roots": [],
-      "legacy_variant": "SA220_TALL",
+      "legacy_variant": "SA-B_TALL",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -3211,7 +3211,7 @@
         "B02_749_A_PEDESTAL",
         "B02_749_A_ACCESSORY"
       ],
-      "legacy_variant": "SA110_SINGLE",
+      "legacy_variant": "SA-A_SINGLE",
       "legacy_geometry_status": "photo_guided_family_LOD1_dimensions_unverified",
       "legacy_alignment_status": null,
       "evidence": [
@@ -3333,7 +3333,7 @@
     },
     {
       "device_id": "T23052218322040418",
-      "name": "220kV夏霖变电站接地装置",
+      "name": "VC-B夏霖变电站接地装置",
       "family": "接地装置",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3350,7 +3350,7 @@
     },
     {
       "device_id": "T23052218322040419",
-      "name": "220kV夏霖变电站端子箱及检修电源箱",
+      "name": "VC-B夏霖变电站端子箱及检修电源箱",
       "family": "端子箱及检修电源箱",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3369,7 +3369,7 @@
     },
     {
       "device_id": "T23052218322040420",
-      "name": "220kV夏霖变电站站用交流电源系统",
+      "name": "VC-B夏霖变电站站用交流电源系统",
       "family": "站用交流电源系统",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3386,7 +3386,7 @@
     },
     {
       "device_id": "T23052218322040421",
-      "name": "220kV夏霖变电站站用直流电源系统",
+      "name": "VC-B夏霖变电站站用直流电源系统",
       "family": "站用直流电源系统",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3403,7 +3403,7 @@
     },
     {
       "device_id": "T23052218322040422",
-      "name": "220kV夏霖变电站设备构架",
+      "name": "VC-B夏霖变电站设备构架",
       "family": "设备构架",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3422,7 +3422,7 @@
     },
     {
       "device_id": "T23052218322040423",
-      "name": "220kV夏霖变电站辅助设施",
+      "name": "VC-B夏霖变电站辅助设施",
       "family": "辅助设施",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3439,7 +3439,7 @@
     },
     {
       "device_id": "T23052218322040424",
-      "name": "220kV夏霖变电站土建设施",
+      "name": "VC-B夏霖变电站土建设施",
       "family": "土建设施",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3458,7 +3458,7 @@
     },
     {
       "device_id": "T23052218322040425",
-      "name": "220kV夏霖变电站独立避雷针",
+      "name": "VC-B夏霖变电站独立避雷针",
       "family": "独立避雷针",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3475,7 +3475,7 @@
     },
     {
       "device_id": "T23052218322040426",
-      "name": "220kV夏霖变电站电力电缆",
+      "name": "VC-B夏霖变电站电力电缆",
       "family": "电力电缆",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3492,7 +3492,7 @@
     },
     {
       "device_id": "T23052218322040427",
-      "name": "220kV夏霖变电站二次屏柜",
+      "name": "VC-B夏霖变电站二次屏柜",
       "family": "二次屏柜",
       "inventory_model": null,
       "scope_triage": "indoor_excluded",
@@ -3509,7 +3509,7 @@
     },
     {
       "device_id": "T23052218322040428",
-      "name": "220kV夏霖变电站消防系统",
+      "name": "VC-B夏霖变电站消防系统",
       "family": "消防系统",
       "inventory_model": "",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3541,7 +3541,7 @@
     {
       "requirement": "Major outdoor zones are coherently modeled and aligned with no systematic placement errors",
       "status": "incomplete",
-      "evidence": "Two transformers,6 capacitor banks,30SA110 bodies with7 mount failures,24 partial GIS candidates. B17 adds5 candidates with50/75 local screens; other outdoor families remain."
+      "evidence": "Two transformers,6 capacitor banks,30SA-A bodies with7 mount failures,24 partial GIS candidates. B17 adds5 candidates with50/75 local screens; other outdoor families remain."
     },
     {
       "requirement": "Saved, reopenable artifacts and traceable review evidence",
@@ -3550,9 +3550,9 @@
     }
   ],
   "priority_next": [
-    "Continue remaining220kV GIS coupler/VT families and18 standalone220kV arresters from photographs and coarse geometry.",
-    "P01 is220kV GIS coupler4800, not an arrester asset; P02 is the110kV arrester source.",
-    "Connect16 exposed220kV bus boundaries while installing neighboring variants; preserve existing110kV boundary records.",
+    "Continue remainingVC-B GIS coupler/VT families and18 standaloneVC-B arresters from photographs and coarse geometry.",
+    "P01 isVC-B GIS coupler4800, not an arrester asset; P02 is theVC-A arrester source.",
+    "Connect16 exposedVC-B bus boundaries while installing neighboring variants; preserve existingVC-A boundary records.",
     "Review B17 gas-chamber/cabinet approximations and all inherited failures; verify provisional identities, external leads and remaining outdoor scope."
   ],
   "completion_ratio": null,
@@ -3791,9 +3791,9 @@
     "Small pipes, terminals and exact rear-end cap taper remain approximate; no manufacturer dimensions or whole-device acceptance.",
     "Earlier B11/B12/B13/B14/B15 unpassed patches and750/751 identity remain; other outdoor families and outer bus boundaries unfinished.",
     "Exact gas chamber envelopes and compact mechanisms remain approximate; retain all unpassed reference checks.",
-    "Sixteen exposed bus boundaries require neighboring220kV variants and actual route integration.",
+    "Sixteen exposed bus boundaries require neighboringVC-B variants and actual route integration.",
     "Cabinet fronts and individual phase labels need closer photo confirmation;4B77 alias retained as provisional.",
-    "Small leads and terminals plus remaining220kV variants and arresters unfinished; inherited B11-B16 failures remain."
+    "Small leads and terminals plus remainingVC-B variants and arresters unfinished; inherited B11-B16 failures remain."
   ],
   "bus_boundary_update": {
     "B15_752_negative_pair_connected": true,
@@ -3812,7 +3812,7 @@
     ],
     "scope": "geometric model interfaces; does not imply electrical commissioning or whole-device acceptance"
   },
-  "220kV_bus_boundary_update": {
+  "VC-B_bus_boundary_update": {
     "connections": [
       {
         "a": "4802",
@@ -4101,7 +4101,7 @@
         "open_pending_boundary": true
       }
     ],
-    "scope": "actual geometric model interfaces; remaining220kV variants not yet integrated"
+    "scope": "actual geometric model interfaces; remainingVC-B variants not yet integrated"
   },
-  "source_identity_correction": "P01 is220kV GIS coupler4800, not an arrester asset. Historical continuation misnomer corrected here; frozen history retained."
+  "source_identity_correction": "P01 isVC-B GIS coupler4800, not an arrester asset. Historical continuation misnomer corrected here; frozen history retained."
 }

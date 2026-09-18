@@ -1,9 +1,9 @@
 {
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B31/xialin_B31_main_building_r2.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B31/site_B31_main_building_r2.blend",
   "sha256": "22643b892ae05b9dd2c2eb0e18d31c9526c38dacf5c1a41641956118742c559b",
   "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B31/B31_main_building_components_r2.blend",
   "asset_sha256": "e9d7fb04869bb34fcfa843e05e7f0edb0ec5414c6e67509cf0edcef4cbf09aa5",
-  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/xialin_B30_GIS_downleads_arrester_branches.blend",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/site_B30_GIS_downleads_arrester_branches.blend",
   "previous_sha256": "9e1787a3eeb01e28f34eb2fa82dc5b741fef98ef5a86a085566513d5f68e4aad",
   "station_scene": "634_B31_Station_Clean",
   "default_scene": "636_B31_Main_West_Clean",
@@ -29763,7 +29763,7 @@
     "11 AC units positioned using separately visible source envelopes (west4, east5, rear2); case sizes are a shared exterior approximation. Further occluded small accessories remain possible."
   ],
   "broader_objective_remaining": [
-    "110kV and 220kV secondary equipment containers",
+    "VC-A and VC-B secondary equipment containers",
     "Front entry/service buildings and existing pump house refinement",
     "Roads, gravel fields, paths, boundary walls and remaining auxiliary poles"
   ],

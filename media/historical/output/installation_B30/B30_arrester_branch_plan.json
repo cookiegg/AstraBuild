@@ -3,11 +3,11 @@
     {
       "id": "G110_OUT_NEG_00_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_00_GIS_LEAD",
       "terminal": {
         "id": "B05_746_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B05_746_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -713,11 +713,11 @@
     {
       "id": "G110_OUT_NEG_01_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_01_GIS_LEAD",
       "terminal": {
         "id": "B11_746_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_746_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -1404,11 +1404,11 @@
     {
       "id": "G110_OUT_NEG_02_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_02_GIS_LEAD",
       "terminal": {
         "id": "B11_746_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_746_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -2134,11 +2134,11 @@
     {
       "id": "G110_OUT_NEG_03_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_03_GIS_LEAD",
       "terminal": {
         "id": "B03_747_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B03_747_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -2829,11 +2829,11 @@
     {
       "id": "G110_OUT_NEG_04_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_04_GIS_LEAD",
       "terminal": {
         "id": "B03_747_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B03_747_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -3561,11 +3561,11 @@
     {
       "id": "G110_OUT_NEG_05_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_05_GIS_LEAD",
       "terminal": {
         "id": "B03_747_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B03_747_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -4318,11 +4318,11 @@
     {
       "id": "G110_OUT_NEG_06_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_06_GIS_LEAD",
       "terminal": {
         "id": "B03_748_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B03_748_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -5039,11 +5039,11 @@
     {
       "id": "G110_OUT_NEG_07_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_07_GIS_LEAD",
       "terminal": {
         "id": "B11_748_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_748_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -5814,11 +5814,11 @@
     {
       "id": "G110_OUT_NEG_08_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_08_GIS_LEAD",
       "terminal": {
         "id": "B03_748_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B03_748_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -6572,11 +6572,11 @@
     {
       "id": "G110_OUT_NEG_09_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_09_GIS_LEAD",
       "terminal": {
         "id": "B02_749_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B02_749_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -7342,11 +7342,11 @@
     {
       "id": "G110_OUT_NEG_10_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_10_GIS_LEAD",
       "terminal": {
         "id": "B02_749_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B02_749_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -8091,11 +8091,11 @@
     {
       "id": "G110_OUT_NEG_11_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_11_GIS_LEAD",
       "terminal": {
         "id": "B02_749_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B02_749_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -8823,11 +8823,11 @@
     {
       "id": "G110_OUT_NEG_12_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_12_GIS_LEAD",
       "terminal": {
         "id": "B05_750_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B05_750_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -9575,11 +9575,11 @@
     {
       "id": "G110_OUT_NEG_13_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_13_GIS_LEAD",
       "terminal": {
         "id": "B05_750_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B05_750_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -10328,11 +10328,11 @@
     {
       "id": "G110_OUT_NEG_14_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_14_GIS_LEAD",
       "terminal": {
         "id": "B05_750_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B05_750_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -11090,11 +11090,11 @@
     {
       "id": "G110_OUT_NEG_15_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_15_GIS_LEAD",
       "terminal": {
         "id": "B11_751_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_751_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -11863,11 +11863,11 @@
     {
       "id": "G110_OUT_NEG_16_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_16_GIS_LEAD",
       "terminal": {
         "id": "B11_751_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_751_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -12635,11 +12635,11 @@
     {
       "id": "G110_OUT_NEG_17_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_17_GIS_LEAD",
       "terminal": {
         "id": "B11_751_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_751_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13433,11 +13433,11 @@
     {
       "id": "G110_OUT_NEG_18_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_18_GIS_LEAD",
       "terminal": {
         "id": "B11_758_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_758_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -14125,11 +14125,11 @@
     {
       "id": "G110_OUT_NEG_19_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_19_GIS_LEAD",
       "terminal": {
         "id": "B11_758_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_758_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -14845,11 +14845,11 @@
     {
       "id": "G110_OUT_NEG_20_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_20_GIS_LEAD",
       "terminal": {
         "id": "B11_758_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_758_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -15532,11 +15532,11 @@
     {
       "id": "G110_OUT_NEG_21_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_21_GIS_LEAD",
       "terminal": {
         "id": "B11_759_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_759_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -16198,11 +16198,11 @@
     {
       "id": "G110_OUT_NEG_22_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_22_GIS_LEAD",
       "terminal": {
         "id": "B11_759_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_759_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -16854,11 +16854,11 @@
     {
       "id": "G110_OUT_NEG_23_GIS_LEAD_SA_BRANCH",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_OUT_NEG_23_GIS_LEAD",
       "terminal": {
         "id": "B11_759_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_759_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -17490,11 +17490,11 @@
     {
       "id": "G110_IN_POS_00_GIS_LEAD_SA_BRANCH",
       "row": "G110_IN",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_IN_POS_00_GIS_LEAD",
       "terminal": {
         "id": "B11_T2_MV_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T2_MV_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -18365,11 +18365,11 @@
     {
       "id": "G110_IN_POS_01_GIS_LEAD_SA_BRANCH",
       "row": "G110_IN",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_IN_POS_01_GIS_LEAD",
       "terminal": {
         "id": "B11_T2_MV_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T2_MV_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -19117,11 +19117,11 @@
     {
       "id": "G110_IN_POS_02_GIS_LEAD_SA_BRANCH",
       "row": "G110_IN",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_IN_POS_02_GIS_LEAD",
       "terminal": {
         "id": "B11_T2_MV_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T2_MV_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -19936,11 +19936,11 @@
     {
       "id": "G110_IN_POS_03_GIS_LEAD_SA_BRANCH",
       "row": "G110_IN",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_IN_POS_03_GIS_LEAD",
       "terminal": {
         "id": "B11_T1_501_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T1_501_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -20778,11 +20778,11 @@
     {
       "id": "G110_IN_POS_04_GIS_LEAD_SA_BRANCH",
       "row": "G110_IN",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_IN_POS_04_GIS_LEAD",
       "terminal": {
         "id": "B11_T1_501_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T1_501_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -21521,11 +21521,11 @@
     {
       "id": "G110_IN_POS_05_GIS_LEAD_SA_BRANCH",
       "row": "G110_IN",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "downlead_group": "G110_IN_POS_05_GIS_LEAD",
       "terminal": {
         "id": "B11_T1_501_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T1_501_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -22275,11 +22275,11 @@
     {
       "id": "G220_OUT_POS_00_GIS_LEAD_SA_BRANCH",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "G220_OUT_POS_00_GIS_LEAD",
       "terminal": {
         "id": "B18::4D75_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D75_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -23058,11 +23058,11 @@
     {
       "id": "G220_OUT_POS_01_GIS_LEAD_SA_BRANCH",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "G220_OUT_POS_01_GIS_LEAD",
       "terminal": {
         "id": "B18::4D75_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D75_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -23843,11 +23843,11 @@
     {
       "id": "G220_OUT_POS_02_GIS_LEAD_SA_BRANCH",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "G220_OUT_POS_02_GIS_LEAD",
       "terminal": {
         "id": "B18::4D75_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D75_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -24695,11 +24695,11 @@
     {
       "id": "G220_OUT_POS_03_GIS_LEAD_SA_BRANCH",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "G220_OUT_POS_03_GIS_LEAD",
       "terminal": {
         "id": "B18::4D76_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D76_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -25593,11 +25593,11 @@
     {
       "id": "G220_OUT_POS_04_GIS_LEAD_SA_BRANCH",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "G220_OUT_POS_04_GIS_LEAD",
       "terminal": {
         "id": "B18::4D76_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D76_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -26457,11 +26457,11 @@
     {
       "id": "G220_OUT_POS_05_GIS_LEAD_SA_BRANCH",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "G220_OUT_POS_05_GIS_LEAD",
       "terminal": {
         "id": "B18::4D76_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D76_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -27305,11 +27305,11 @@
     {
       "id": "G220_OUT_POS_06_GIS_LEAD_SA_BRANCH",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "G220_OUT_POS_06_GIS_LEAD",
       "terminal": {
         "id": "B18::2899_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::2899_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -28151,11 +28151,11 @@
     {
       "id": "G220_OUT_POS_07_GIS_LEAD_SA_BRANCH",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "G220_OUT_POS_07_GIS_LEAD",
       "terminal": {
         "id": "B18::2899_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::2899_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -28990,11 +28990,11 @@
     {
       "id": "G220_OUT_POS_08_GIS_LEAD_SA_BRANCH",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "G220_OUT_POS_08_GIS_LEAD",
       "terminal": {
         "id": "B18::2899_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::2899_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -29849,11 +29849,11 @@
     {
       "id": "G220_OUT_POS_09_GIS_LEAD_SA_BRANCH",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "G220_OUT_POS_09_GIS_LEAD",
       "terminal": {
         "id": "B18::4B77_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4B77_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -30664,11 +30664,11 @@
     {
       "id": "G220_OUT_POS_10_GIS_LEAD_SA_BRANCH",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "G220_OUT_POS_10_GIS_LEAD",
       "terminal": {
         "id": "B18::4B77_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4B77_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -31493,11 +31493,11 @@
     {
       "id": "G220_OUT_POS_11_GIS_LEAD_SA_BRANCH",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "G220_OUT_POS_11_GIS_LEAD",
       "terminal": {
         "id": "B18::4B77_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4B77_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -32340,11 +32340,11 @@
     {
       "id": "CROSS_220_00_GIS_LEAD_SA_BRANCH",
       "row": "G220_IN",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "CROSS_220_00_GIS_LEAD",
       "terminal": {
         "id": "B18::T2_HV_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T2_HV_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -33263,11 +33263,11 @@
     {
       "id": "CROSS_220_01_GIS_LEAD_SA_BRANCH",
       "row": "G220_IN",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "CROSS_220_01_GIS_LEAD",
       "terminal": {
         "id": "B18::T2_HV_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T2_HV_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -34125,11 +34125,11 @@
     {
       "id": "CROSS_220_02_GIS_LEAD_SA_BRANCH",
       "row": "G220_IN",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "CROSS_220_02_GIS_LEAD",
       "terminal": {
         "id": "B18::T2_HV_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T2_HV_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -35034,11 +35034,11 @@
     {
       "id": "CROSS_220_03_GIS_LEAD_SA_BRANCH",
       "row": "G220_IN",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "CROSS_220_03_GIS_LEAD",
       "terminal": {
         "id": "B18::T1_HV_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T1_HV_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -35951,11 +35951,11 @@
     {
       "id": "CROSS_220_04_GIS_LEAD_SA_BRANCH",
       "row": "G220_IN",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "CROSS_220_04_GIS_LEAD",
       "terminal": {
         "id": "B18::T1_HV_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T1_HV_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -36810,11 +36810,11 @@
     {
       "id": "CROSS_220_05_GIS_LEAD_SA_BRANCH",
       "row": "G220_IN",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "downlead_group": "CROSS_220_05_GIS_LEAD",
       "terminal": {
         "id": "B18::T1_HV_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T1_HV_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [

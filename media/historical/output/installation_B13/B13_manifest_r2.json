@@ -1,9 +1,9 @@
 {
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/xialin_B13_GIS_line_bays_r2.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/site_B13_GIS_line_bays_r2.blend",
   "sha256": "db23fb9a761ddf6e2a2a031cfb8537f813a46dfd32742dd88176e33e7224ca40",
   "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/B13_reusable_line_components_r2.blend",
   "asset_sha256": "85f2dc2d671ae352ca67975698347255012d79d78331fc2321e496f880a141fb",
-  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/r2/xialin_B12_749_GIS_r2.blend",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/r2/site_B12_749_GIS_r2.blend",
   "previous_sha256": "933674f4802f36c22cd25b2b43579987ffb09c8bab18c7ddddae53d89d9b649c",
   "previous_scenes": [
     "07_Full_Station_Semantic_v50",
@@ -14,7 +14,7 @@
     "104_B11_T2_MV_Clean",
     "105_B11_T2_MV_Overlay",
     "106_B11_T2_MV_Reference",
-    "107_B11_110kV_Arresters",
+    "107_B11_VC-A_Arresters",
     "108_B12_Station_Clean",
     "109_B12_Station_Overlay",
     "110_B12_749_Rear_Clean",
@@ -3697,7 +3697,7 @@
     "Open bus work boundaries must be integrated with remaining spare/VT/coupler variants",
     "Cabinet rear housing function and exact hardware unverified; common major envelope reconstructed"
   ],
-  "r1_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/xialin_B13_GIS_line_bays.blend",
+  "r1_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/site_B13_GIS_line_bays.blend",
   "r1_sha256": "b9c42462bfbba0ac38d7f870257eea9524d37f21644b9e63e1c448cc0fbcb002",
   "framing_revision_only": true,
   "temporary_rear_review_scene": "153_B13_Cabinet_Rear_Review"

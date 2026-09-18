@@ -2,11 +2,11 @@
   "stage": "D37",
   "revision": "D37.1",
   "supersedes": "C37",
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D37/xialin_D37_small_facilities.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D37/site_D37_small_facilities.blend",
   "sha256": "6b6a20a0604762a082cc09ef6fa822d5e8403ae93eef0ae9a34073d63f27459e",
   "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_D37/D37_small_facility_components.blend",
   "asset_sha256": "3dcac3db13b34900f9f07c9f4266921f74a21fa2f0a614def3f6d776c1ef6ab2",
-  "baseline_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B36/xialin_B36_transformer_bus_racks_r3.blend",
+  "baseline_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B36/site_B36_transformer_bus_racks_r3.blend",
   "baseline_sha256_before": "b6bbc3caeffdf72ca52df2dd5e01234269fe652827131e64f1f8a1da7ef502e8",
   "baseline_sha256_after": "b6bbc3caeffdf72ca52df2dd5e01234269fe652827131e64f1f8a1da7ef502e8",
   "baseline_counts": {

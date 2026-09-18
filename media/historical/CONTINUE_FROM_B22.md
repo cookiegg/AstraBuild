@@ -2,7 +2,7 @@
 
 目标仍为“请持续进行变电站建模任务，直到室外设备大都实现建模与对齐。”goal active。本轮实质进展：两套中性点实物总成、机构箱和连接臂共用3母版，分别测量摆放，替换155个错误先验网格和6个旧根对象；没有新增整台设备完成计数。
 
-当前文件 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/r2/xialin_B22_shared_neutral_assemblies_r2.blend`，SHA `8979bc01abe9571d931f03e908c31dcb16d237f2581e88f4a42fdca6bec20b0c`；资产 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/r2/B22_neutral_components_r2.blend`，SHA `c50ed938cb517beaef464d055ef40c69564462eb16aa8def5948bd745f1afab6`。GUI已打开r2，默认458_B22_T1_Oblique_Clean，dirtyFalse，461场景。整站456/457，T1三视图458–466，T2 467–475，母版编辑476。21张当前渲染都在O22/r2，HTML全嵌入实际PNG；浏览器布局未检验，只查文件链接、PNG哈希、JS语法。初版模型/资产/清单/21PNG/验证均保留，r2按照片把红色部件支架从5.205m降低至4.77m、取消包围部件上半部的错误框架，并补机构箱基础。更改没有涉及旧B21及以前的几何。
+当前文件 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/r2/site_B22_shared_neutral_assemblies_r2.blend`，SHA `8979bc01abe9571d931f03e908c31dcb16d237f2581e88f4a42fdca6bec20b0c`；资产 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/r2/B22_neutral_components_r2.blend`，SHA `c50ed938cb517beaef464d055ef40c69564462eb16aa8def5948bd745f1afab6`。GUI已打开r2，默认458_B22_T1_Oblique_Clean，dirtyFalse，461场景。整站456/457，T1三视图458–466，T2 467–475，母版编辑476。21张当前渲染都在O22/r2，HTML全嵌入实际PNG；浏览器布局未检验，只查文件链接、PNG哈希、JS语法。初版模型/资产/清单/21PNG/验证均保留，r2按照片把红色部件支架从5.205m降低至4.77m、取消包围部件上半部的错误框架，并补机构箱基础。更改没有涉及旧B21及以前的几何。
 
 历史核验：28131旧对象、440旧场景、585旧集合、318旧材质原样保留；3293个仍用于整站的旧对象世界变换不变；旧语义网格现1682，正式基线15096。主变T1/T2仍共享B08_TRANSFORMER_MASTER。2072份历史/证据文件在初版完整SHA检查通过；r2只改B22自有文件，所有已检验文件size/mtime_ns保持不变，checkpoint绑定初版报告与预期哈希，未重复对2072文件全文扫描。这个复用步骤在B22_previous_files_checkpoint.json和最终验证中明确记录。
 
@@ -10,7 +10,7 @@
 
 照片0006/0008/0012/0049/0050/0052/0053 + DSC3206。原始照片路径和哈希在inputs_B22，变电站坐标来自已登记粗模。先前3010/3020分别6瓷套三相阵列的模型与照片不符，位置又落在走道；中性点实际是一根圆立柱托一根纵梁，上面单列棕色竖瓷套、黑色竖瓷套和斜置小瓷套、另一端红色模压绝缘部件，下面有机构箱。旧LZW10代理来自含主变套管的扩展裁剪，位置相差超过1m，不能保留其形状冒充红色部件。
 
-替换候选编号 `['12MZ0000000242535', '12MZ0000000242549', '12MZ0000000259337', '12MZ0000000259338', '12MZ0000000259391', '12MZ0000000259397']`，对应两条3010/3020、两条高压中性点避雷器、T2中性点流变和T2 5020机构箱。153项台账保留，只记录physical_neutral_cluster_modeled_identity_partial_alignment_pending。T2机构箱有DSC3206“#2主变110kV侧/5020中性点接地闸刀”实拍铭牌；T1相应5010关联和红色部件精确身份均仍候选。不能据这组实物强行宣布所有高/中压中性点CT/SA/接地刀闸已完成，也不能继续用早期ABC阵列推断设备存在。
+替换候选编号 `['12MZ0000000242535', '12MZ0000000242549', '12MZ0000000259337', '12MZ0000000259338', '12MZ0000000259391', '12MZ0000000259397']`，对应两条3010/3020、两条高压中性点避雷器、T2中性点流变和T2 5020机构箱。153项台账保留，只记录physical_neutral_cluster_modeled_identity_partial_alignment_pending。T2机构箱有DSC3206“#2主变VC-A侧/5020中性点接地闸刀”实拍铭牌；T1相应5010关联和红色部件精确身份均仍候选。不能据这组实物强行宣布所有高/中压中性点CT/SA/接地刀闸已完成，也不能继续用早期ABC阵列推断设备存在。
 
 ## 几何与坐标
 

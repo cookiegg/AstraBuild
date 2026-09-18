@@ -1,6 +1,6 @@
 {
   "status": "saved_geometry_and_history_preserved_partial_alignment",
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B19/r3/xialin_B19_remaining_220kV_GIS_r3.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B19/r3/site_B19_remaining_VC-B_GIS_r3.blend",
   "sha256": "68151206c9a9c78703cb920c2374a048e9119206f92f04b978cf06c7597b91d2",
   "previous_objects_unchanged": 26896,
   "previous_scenes_unchanged": 336,
@@ -1079,7 +1079,7 @@
   },
   "pending": [
     "Six body models and independent supports are exterior approximations; all finite-surface failures retained.",
-    "Remaining long220kV mother-bus spools and4100 section bends need connected-row integration; ports are explicit.",
+    "Remaining longVC-B mother-bus spools and4100 section bends need connected-row integration; ports are explicit.",
     "4B80/4B81 separate control cabinets not verified; old guessed cabinets omitted in candidate station only.",
     "IA/II cabinet associations based on photo-relative arrangement; phase names and exact electrical topology unasserted.",
     "4801/4800/4100 original refined geometry retained for review, not counted as newly completed devices.",

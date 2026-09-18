@@ -1,6 +1,6 @@
 # Continue from B06 r2 — civil perimeter plan calibrated
 
-Current file: output/installation_B06/xialin_photo_first_B06_wall_aligned_r2.blend.
+Current file: output/installation_B06/site_photo_first_B06_wall_aligned_r2.blend.
 Saved-file check: output/installation_B06/B06_validation_r2.json.
 Queue: asset_variant_installation_queue_v6.json. Current entry: CURRENT.md.
 All B05 and formal v50 source scenes remain present and unchanged.

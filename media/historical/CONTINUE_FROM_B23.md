@@ -2,7 +2,7 @@
 
 目标“请持续进行变电站建模任务，直到室外设备大都实现建模与对齐。”仍active，不能宣称整站完成。本轮实质进展：2条中性点到主变小套管的三维弧形引线、2条棕黑竖瓷套间短连接线、4条旁侧软连接；共享斜瓷套、支架、连接臂改形，弥补B22主要局部缺件。未增加整台台账设备完成数。
 
-当前 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/r3/xialin_B23_neutral_leads_and_mechanisms_r3.blend`，SHA `a62bbc7fb238e742ee33b1c66ac7d5db12b21ca6f05ccc8b25b3a00e7a815236`；共享资产 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/r3/B23_neutral_components_r3.blend`，SHA `082bfb159d93a814b920257181ac0154ce213a31c64fbc1591d7d853d7a0c18d`。GUI已打开r3，默认497_B23_T1_Transformer_Context，dirtyFalse，484场景。整站477/478；T1局部479–487、T2 488–496；主变环境497/498，母版499。23张当前PNG均在r3；HTML全嵌入，离线检查链接、像素非空、嵌入哈希、JS语法；未做浏览器布局验收。上层特写复制完整可见部件作诊断，现有主变套管直接复用B08真实母版和姿态；整站与完整局部可编辑。
+当前 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/r3/site_B23_neutral_leads_and_mechanisms_r3.blend`，SHA `a62bbc7fb238e742ee33b1c66ac7d5db12b21ca6f05ccc8b25b3a00e7a815236`；共享资产 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/r3/B23_neutral_components_r3.blend`，SHA `082bfb159d93a814b920257181ac0154ce213a31c64fbc1591d7d853d7a0c18d`。GUI已打开r3，默认497_B23_T1_Transformer_Context，dirtyFalse，484场景。整站477/478；T1局部479–487、T2 488–496；主变环境497/498，母版499。23张当前PNG均在r3；HTML全嵌入，离线检查链接、像素非空、嵌入哈希、JS语法；未做浏览器布局验收。上层特写复制完整可见部件作诊断，现有主变套管直接复用B08真实母版和姿态；整站与完整局部可编辑。
 
 ## 历史与身份
 

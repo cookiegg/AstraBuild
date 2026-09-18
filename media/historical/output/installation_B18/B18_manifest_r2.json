@@ -1,9 +1,9 @@
 {
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/r2/xialin_B18_220kV_arresters_r2.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/r2/site_B18_VC-B_arresters_r2.blend",
   "sha256": "176d78f3610b988f1662c4830f73728b184193472199934af8b3e902a8dde257",
-  "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/B18_SA220_shared_components.blend",
+  "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/B18_SA-B_shared_components.blend",
   "asset_sha256": "2ce98bb6304ca80f4fb12ffa6782915243c480e6654c7225a3661f7c2746ea14",
-  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B17/r3/xialin_B17_220kV_outgoing_GIS_r3.blend",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B17/r3/site_B17_VC-B_outgoing_GIS_r3.blend",
   "previous_sha256": "3e6b6a4c3946442ecec0460f2bc0e49cb8552eed9e3509bd262607e432a99500",
   "previous_scenes": [
     "07_Full_Station_Semantic_v50",
@@ -14,7 +14,7 @@
     "104_B11_T2_MV_Clean",
     "105_B11_T2_MV_Overlay",
     "106_B11_T2_MV_Reference",
-    "107_B11_110kV_Arresters",
+    "107_B11_VC-A_Arresters",
     "108_B12_Station_Clean",
     "109_B12_Station_Overlay",
     "110_B12_749_Rear_Clean",
@@ -306,7 +306,7 @@
   "previous_objects": [
     "101_B11_T1_501_Clean_CAM",
     "104_B11_T2_MV_Clean_CAM",
-    "107_B11_110kV_Arresters_CAM",
+    "107_B11_VC-A_Arresters_CAM",
     "110_B12_749_Rear_Clean_CAM",
     "113_B12_749_Front_Clean_CAM",
     "116_B12_749_Side_Clean_CAM",
@@ -6419,7 +6419,7 @@
     "12MZ0000000219416::switch.disconnector.position_window",
     "12MZ0000000219416::switch.disconnector.round_cover",
     "12MZ0000000219416::switch.disconnector.transition",
-    "12MZ0000000219417 | 110kV II母压变",
+    "12MZ0000000219417 | VC-A II母压变",
     "12MZ0000000219417::body.bellows.ring00",
     "12MZ0000000219417::body.bellows.ring01",
     "12MZ0000000219417::body.bellows.ring02",
@@ -6462,7 +6462,7 @@
     "12MZ0000000219417::terminal.connector",
     "12MZ0000000219417::terminal.interface_flange",
     "12MZ0000000219417::terminal.local_interface",
-    "12MZ0000000219418 | 110kV I母压变",
+    "12MZ0000000219418 | VC-A I母压变",
     "12MZ0000000219418::body.bellows.ring00",
     "12MZ0000000219418::body.bellows.ring01",
     "12MZ0000000219418::body.bellows.ring02",
@@ -6505,7 +6505,7 @@
     "12MZ0000000219418::terminal.connector",
     "12MZ0000000219418::terminal.interface_flange",
     "12MZ0000000219418::terminal.local_interface",
-    "12MZ0000000219419 | 220KV IA母压变",
+    "12MZ0000000219419 | VC-B IA母压变",
     "12MZ0000000219419::bus.branch.A.lower",
     "12MZ0000000219419::bus.branch.A.lower_flange",
     "12MZ0000000219419::bus.branch.A.upper",
@@ -6787,7 +6787,7 @@
     "12MZ0000000219419::role.vt.phase.C.terminal_flange",
     "12MZ0000000219419::role.vt.phase.C.terminal_interface",
     "12MZ0000000219419::role.vt.phase.C.top_barrel",
-    "12MZ0000000219422 | 220kV II母压变",
+    "12MZ0000000219422 | VC-B II母压变",
     "12MZ0000000219422::cabinet.base_plinth",
     "12MZ0000000219422::cabinet.body",
     "12MZ0000000219422::cabinet.device_plate",
@@ -6861,7 +6861,7 @@
     "12MZ0000000219422::role.vt.phase.C.branch_front",
     "12MZ0000000219422::role.vt.phase.C.canister",
     "12MZ0000000219422::role.vt.phase.C.terminal_interface",
-    "12MZ0000000219423 | 220kV IB母压变",
+    "12MZ0000000219423 | VC-B IB母压变",
     "12MZ0000000219423::cabinet.base_plinth",
     "12MZ0000000219423::cabinet.body",
     "12MZ0000000219423::cabinet.device_plate",
@@ -6941,7 +6941,7 @@
     "12MZ0000000219424::control_cabinet::cabinet.handle",
     "12MZ0000000219424::control_cabinet::cabinet.roof",
     "12MZ0000000219424::control_cabinet::nameplate.device_identity",
-    "12MZ0000000242509 | 35kV#6电力电容器036ABC相",
+    "12MZ0000000242509 | VC-C#6电力电容器036ABC相",
     "12MZ0000000242509::bank.bank_a_c_feed",
     "12MZ0000000242509::bank.bank_a_l_feed",
     "12MZ0000000242509::bank.bank_a_switch_lead",
@@ -8226,7 +8226,7 @@
     "12MZ0000000242509::phase.C.bay_rail_left",
     "12MZ0000000242509::phase.C.bay_rail_right",
     "12MZ0000000242509::phase.C.bay_top_terminal_bridge",
-    "12MZ0000000242511 | 35kV#5电力电容器035ABC相",
+    "12MZ0000000242511 | VC-C#5电力电容器035ABC相",
     "12MZ0000000242511::bank.bank_a_c_feed",
     "12MZ0000000242511::bank.bank_a_l_feed",
     "12MZ0000000242511::bank.bank_a_switch_lead",
@@ -9511,7 +9511,7 @@
     "12MZ0000000242511::phase.C.bay_rail_left",
     "12MZ0000000242511::phase.C.bay_rail_right",
     "12MZ0000000242511::phase.C.bay_top_terminal_bridge",
-    "12MZ0000000242513 | 35kV#4电力电容器034ABC相",
+    "12MZ0000000242513 | VC-C#4电力电容器034ABC相",
     "12MZ0000000242513::bank.bank_a_c_feed",
     "12MZ0000000242513::bank.bank_a_l_feed",
     "12MZ0000000242513::bank.bank_a_switch_lead",
@@ -10796,7 +10796,7 @@
     "12MZ0000000242513::phase.C.bay_rail_left",
     "12MZ0000000242513::phase.C.bay_rail_right",
     "12MZ0000000242513::phase.C.bay_top_terminal_bridge",
-    "12MZ0000000242515 | 35kV#3电力电容器033ABC相",
+    "12MZ0000000242515 | VC-C#3电力电容器033ABC相",
     "12MZ0000000242515::bank.bank_a_c_feed",
     "12MZ0000000242515::bank.bank_a_l_feed",
     "12MZ0000000242515::bank.bank_a_switch_lead",
@@ -12081,7 +12081,7 @@
     "12MZ0000000242515::phase.C.bay_rail_left",
     "12MZ0000000242515::phase.C.bay_rail_right",
     "12MZ0000000242515::phase.C.bay_top_terminal_bridge",
-    "12MZ0000000242517 | 35kV#2电力电容器032ABC相",
+    "12MZ0000000242517 | VC-C#2电力电容器032ABC相",
     "12MZ0000000242517::bank.bank_a_c_feed",
     "12MZ0000000242517::bank.bank_a_l_feed",
     "12MZ0000000242517::bank.bank_a_switch_lead",
@@ -13366,7 +13366,7 @@
     "12MZ0000000242517::phase.C.bay_rail_left",
     "12MZ0000000242517::phase.C.bay_rail_right",
     "12MZ0000000242517::phase.C.bay_top_terminal_bridge",
-    "12MZ0000000242519 | 35kV#1电力电容器031ABC相",
+    "12MZ0000000242519 | VC-C#1电力电容器031ABC相",
     "12MZ0000000242519::bank.bank_a_c_feed",
     "12MZ0000000242519::bank.bank_a_l_feed",
     "12MZ0000000242519::bank.bank_a_switch_lead",
@@ -20439,120 +20439,120 @@
     "P05_terminal.shed.6",
     "P05_terminal.stem",
     "P05_terminal.stud",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.flange.a",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.flange.b",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.joint_band.a",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.joint_band.b",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.rib.00",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.rib.01",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.rib.02",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.rib.03",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.rib.04",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.rib.05",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.rib.06",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.rib.07",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.rib.08",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.rib.09",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.rib.10",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.rib.11",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.tie_bar.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.tie_bar.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.tie_bar.2",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.bellows.tie_bar.3",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_A.shell",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.flange.a",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.flange.b",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.joint_band.a",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.joint_band.b",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.rib.00",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.rib.01",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.rib.02",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.rib.03",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.rib.04",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.rib.05",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.rib.06",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.rib.07",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.rib.08",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.rib.09",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.rib.10",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.rib.11",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.tie_bar.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.tie_bar.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.tie_bar.2",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.bellows.tie_bar.3",
-    "PHYS_GIS220_4801_4800_CORRIDOR::lane_B.shell",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S01.base_plate",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S01.crossbar.0.36.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S01.crossbar.0.36.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S01.crossbar.0.71.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S01.crossbar.0.71.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S01.footing",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S01.top_plate",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S01.upright.0.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S01.upright.0.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S01.upright.1.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S01.upright.1.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S02.base_plate",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S02.crossbar.0.36.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S02.crossbar.0.36.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S02.crossbar.0.71.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S02.crossbar.0.71.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S02.footing",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S02.top_plate",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S02.upright.0.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S02.upright.0.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S02.upright.1.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S02.upright.1.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S03.base_plate",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S03.crossbar.0.36.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S03.crossbar.0.36.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S03.crossbar.0.71.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S03.crossbar.0.71.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S03.footing",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S03.top_plate",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S03.upright.0.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S03.upright.0.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S03.upright.1.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S03.upright.1.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S04.base_plate",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S04.crossbar.0.36.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S04.crossbar.0.36.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S04.crossbar.0.71.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S04.crossbar.0.71.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S04.footing",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S04.top_plate",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S04.upright.0.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S04.upright.0.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S04.upright.1.0",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S04.upright.1.1",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S05.base_plate",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S05.footing",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S05.post",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S05.top_plate",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S06.base_plate",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S06.footing",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S06.post",
-    "PHYS_GIS220_4801_4800_CORRIDOR::support.S06.top_plate",
-    "SA220 03_Lower_porcelain continuous 28-shed housing",
-    "SA220 05_Upper_porcelain continuous 28-shed housing",
-    "SA220 anchor bolts",
-    "SA220 auxiliary sensor housing",
-    "SA220 base stiffening gussets",
-    "SA220 concrete plinth",
-    "SA220 coupling identification plate",
-    "SA220 galvanized round support",
-    "SA220 grading ring and terminal assembly",
-    "SA220 ground strap approximation",
-    "SA220 inter-section metal coupling",
-    "SA220 local monitor cable",
-    "SA220 monitor display",
-    "SA220 monitor display.001",
-    "SA220 monitor white enclosure",
-    "SA220 raised insulating base mounts",
-    "SA220 replaceable nameplate backing",
-    "SA220 steel base plate",
-    "SA220 support top cap",
-    "SA220 terminal palm",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.flange.a",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.flange.b",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.joint_band.a",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.joint_band.b",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.rib.00",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.rib.01",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.rib.02",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.rib.03",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.rib.04",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.rib.05",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.rib.06",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.rib.07",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.rib.08",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.rib.09",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.rib.10",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.rib.11",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.tie_bar.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.tie_bar.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.tie_bar.2",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.bellows.tie_bar.3",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_A.shell",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.flange.a",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.flange.b",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.joint_band.a",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.joint_band.b",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.rib.00",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.rib.01",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.rib.02",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.rib.03",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.rib.04",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.rib.05",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.rib.06",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.rib.07",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.rib.08",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.rib.09",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.rib.10",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.rib.11",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.tie_bar.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.tie_bar.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.tie_bar.2",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.bellows.tie_bar.3",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::lane_B.shell",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S01.base_plate",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S01.crossbar.0.36.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S01.crossbar.0.36.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S01.crossbar.0.71.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S01.crossbar.0.71.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S01.footing",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S01.top_plate",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S01.upright.0.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S01.upright.0.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S01.upright.1.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S01.upright.1.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S02.base_plate",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S02.crossbar.0.36.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S02.crossbar.0.36.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S02.crossbar.0.71.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S02.crossbar.0.71.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S02.footing",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S02.top_plate",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S02.upright.0.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S02.upright.0.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S02.upright.1.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S02.upright.1.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S03.base_plate",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S03.crossbar.0.36.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S03.crossbar.0.36.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S03.crossbar.0.71.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S03.crossbar.0.71.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S03.footing",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S03.top_plate",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S03.upright.0.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S03.upright.0.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S03.upright.1.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S03.upright.1.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S04.base_plate",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S04.crossbar.0.36.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S04.crossbar.0.36.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S04.crossbar.0.71.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S04.crossbar.0.71.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S04.footing",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S04.top_plate",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S04.upright.0.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S04.upright.0.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S04.upright.1.0",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S04.upright.1.1",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S05.base_plate",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S05.footing",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S05.post",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S05.top_plate",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S06.base_plate",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S06.footing",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S06.post",
+    "PHYS_GIS-B_4801_4800_CORRIDOR::support.S06.top_plate",
+    "SA-B 03_Lower_porcelain continuous 28-shed housing",
+    "SA-B 05_Upper_porcelain continuous 28-shed housing",
+    "SA-B anchor bolts",
+    "SA-B auxiliary sensor housing",
+    "SA-B base stiffening gussets",
+    "SA-B concrete plinth",
+    "SA-B coupling identification plate",
+    "SA-B galvanized round support",
+    "SA-B grading ring and terminal assembly",
+    "SA-B ground strap approximation",
+    "SA-B inter-section metal coupling",
+    "SA-B local monitor cable",
+    "SA-B monitor display",
+    "SA-B monitor display.001",
+    "SA-B monitor white enclosure",
+    "SA-B raised insulating base mounts",
+    "SA-B replaceable nameplate backing",
+    "SA-B steel base plate",
+    "SA-B support top cap",
+    "SA-B terminal palm",
     "T1 Buchholz relay approximate housing",
     "T1 FRONT radiator bank 01",
     "T1 FRONT radiator bank 02",
@@ -21223,7 +21223,7 @@
     "T23052218322040424::wall.nw.west.post.00",
     "T23052218322040424::wall.nw.west.post.01",
     "T23052218322040424::wall.nw.west.post.02",
-    "T23052218322040428 | 220kV夏霖变电站消防系统",
+    "T23052218322040428 | VC-B夏霖变电站消防系统",
     "T23052218322040428::cabinet.1.body",
     "T23052218322040428::cabinet.1.panel",
     "T23052218322040428::cabinet.1.sign",
@@ -38663,7 +38663,7 @@
   "roots": [
     {
       "name": "B18::body.porcelain.0",
-      "source": "B18_SA220_PORCELAIN_SECTION_MASTER",
+      "source": "B18_SA-B_PORCELAIN_SECTION_MASTER",
       "matrix": [
         [
           1.0,
@@ -38690,12 +38690,12 @@
           1.0
         ]
       ],
-      "role": "SA220_PORCELAIN_SECTION",
+      "role": "SA-B_PORCELAIN_SECTION",
       "uniform_scale": 1
     },
     {
       "name": "B18::body.porcelain.1",
-      "source": "B18_SA220_PORCELAIN_SECTION_MASTER",
+      "source": "B18_SA-B_PORCELAIN_SECTION_MASTER",
       "matrix": [
         [
           1.0,
@@ -38722,12 +38722,12 @@
           1.0
         ]
       ],
-      "role": "SA220_PORCELAIN_SECTION",
+      "role": "SA-B_PORCELAIN_SECTION",
       "uniform_scale": 1
     },
     {
       "name": "B18::2899_A.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           -0.9811347723007202,
@@ -38754,12 +38754,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::2899_A.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           -0.9811347723007202,
@@ -38786,12 +38786,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::2899_A.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           -0.9811347723007202,
@@ -38818,12 +38818,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::2899_A.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           -0.8610267639160156,
@@ -38850,12 +38850,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::2899_B.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           -0.9672391414642334,
@@ -38882,12 +38882,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::2899_B.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           -0.9672391414642334,
@@ -38914,12 +38914,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::2899_B.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           -0.9672391414642334,
@@ -38946,12 +38946,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::2899_B.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           -0.8488321900367737,
@@ -38978,12 +38978,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::2899_C.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           -0.9573619961738586,
@@ -39010,12 +39010,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::2899_C.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           -0.9573619961738586,
@@ -39042,12 +39042,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::2899_C.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           -0.9573619961738586,
@@ -39074,12 +39074,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::2899_C.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           -0.8401641249656677,
@@ -39106,12 +39106,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::4B77_A.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           -0.9187189340591431,
@@ -39138,12 +39138,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::4B77_A.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           -0.9187189340591431,
@@ -39170,12 +39170,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::4B77_A.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           -0.9187189340591431,
@@ -39202,12 +39202,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::4B77_A.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           -0.8062517642974854,
@@ -39234,12 +39234,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::4B77_B.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           -0.9539669752120972,
@@ -39266,12 +39266,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::4B77_B.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           -0.9539669752120972,
@@ -39298,12 +39298,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::4B77_B.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           -0.9539669752120972,
@@ -39330,12 +39330,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::4B77_B.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           -0.8371847867965698,
@@ -39362,12 +39362,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::4B77_C.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           -0.9778817892074585,
@@ -39394,12 +39394,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::4B77_C.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           -0.9778817892074585,
@@ -39426,12 +39426,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::4B77_C.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           -0.9778817892074585,
@@ -39458,12 +39458,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::4B77_C.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           -0.8581719994544983,
@@ -39490,12 +39490,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D75_A.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           -0.9427074790000916,
@@ -39522,12 +39522,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D75_A.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           -0.9427074193954468,
@@ -39554,12 +39554,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D75_A.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           -0.9427074790000916,
@@ -39586,12 +39586,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D75_A.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           -0.8273037075996399,
@@ -39618,12 +39618,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D75_B.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           -0.9307936429977417,
@@ -39650,12 +39650,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D75_B.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           -0.9307936429977417,
@@ -39682,12 +39682,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D75_B.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           -0.9307936429977417,
@@ -39714,12 +39714,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D75_B.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           -0.8168482780456543,
@@ -39746,12 +39746,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D75_C.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           -0.9283393621444702,
@@ -39778,12 +39778,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D75_C.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           -0.9283393621444702,
@@ -39810,12 +39810,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D75_C.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           -0.9283393621444702,
@@ -39842,12 +39842,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D75_C.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           -0.8146944642066956,
@@ -39874,12 +39874,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D76_A.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           -0.9750323295593262,
@@ -39906,12 +39906,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D76_A.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           -0.9750323295593262,
@@ -39938,12 +39938,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D76_A.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           -0.9750323295593262,
@@ -39970,12 +39970,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D76_A.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           -0.8556713461875916,
@@ -40002,12 +40002,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D76_B.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           -0.968216061592102,
@@ -40034,12 +40034,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D76_B.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           -0.968216061592102,
@@ -40066,12 +40066,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D76_B.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           -0.968216061592102,
@@ -40098,12 +40098,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D76_B.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           -0.8496894836425781,
@@ -40130,12 +40130,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D76_C.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           -0.9511335492134094,
@@ -40162,12 +40162,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D76_C.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           -0.9511335492134094,
@@ -40194,12 +40194,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D76_C.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           -0.9511335492134094,
@@ -40226,12 +40226,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::4D76_C.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           -0.8346982002258301,
@@ -40258,12 +40258,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::T1_HV_A.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           0.9817852973937988,
@@ -40290,12 +40290,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::T1_HV_A.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           0.9817852973937988,
@@ -40322,12 +40322,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::T1_HV_A.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           0.9817852973937988,
@@ -40354,12 +40354,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::T1_HV_A.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           0.8615975975990295,
@@ -40386,12 +40386,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::T1_HV_B.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           0.9725877046585083,
@@ -40418,12 +40418,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::T1_HV_B.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           0.9725877046585083,
@@ -40450,12 +40450,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::T1_HV_B.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           0.9725877046585083,
@@ -40482,12 +40482,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::T1_HV_B.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           0.8535259962081909,
@@ -40514,12 +40514,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::T1_HV_C.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           0.980103611946106,
@@ -40546,12 +40546,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::T1_HV_C.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           0.980103611946106,
@@ -40578,12 +40578,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::T1_HV_C.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           0.980103611946106,
@@ -40610,12 +40610,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::T1_HV_C.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           0.8601217865943909,
@@ -40642,12 +40642,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::T2_HV_A.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           0.9579510688781738,
@@ -40674,12 +40674,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::T2_HV_A.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           0.9579510688781738,
@@ -40706,12 +40706,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::T2_HV_A.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           0.9579510688781738,
@@ -40738,12 +40738,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::T2_HV_A.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           0.8406811356544495,
@@ -40770,12 +40770,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::T2_HV_B.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           0.9831796288490295,
@@ -40802,12 +40802,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::T2_HV_B.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           0.9831796288490295,
@@ -40834,12 +40834,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::T2_HV_B.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           0.9831796288490295,
@@ -40866,12 +40866,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::T2_HV_B.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           0.8628212809562683,
@@ -40898,12 +40898,12 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     },
     {
       "name": "B18::T2_HV_C.BODY",
-      "source": "B18_SA220_TWO_SECTION_BODY_MASTER",
+      "source": "B18_SA-B_TWO_SECTION_BODY_MASTER",
       "matrix": [
         [
           0.9901849627494812,
@@ -40930,12 +40930,12 @@
           1.0
         ]
       ],
-      "role": "SA220_BODY",
+      "role": "SA-B_BODY",
       "uniform_scale": 1
     },
     {
       "name": "B18::T2_HV_C.FOOT",
-      "source": "B18_SA220_STEEL_FOOT_MASTER",
+      "source": "B18_SA-B_STEEL_FOOT_MASTER",
       "matrix": [
         [
           0.9901849031448364,
@@ -40962,12 +40962,12 @@
           1.0
         ]
       ],
-      "role": "SA220_FOOT",
+      "role": "SA-B_FOOT",
       "uniform_scale": 1
     },
     {
       "name": "B18::T2_HV_C.COUNTER",
-      "source": "B18_SA220_COUNTER_MASTER",
+      "source": "B18_SA-B_COUNTER_MASTER",
       "matrix": [
         [
           0.9901849627494812,
@@ -40994,12 +40994,12 @@
           1.0
         ]
       ],
-      "role": "SA220_COUNTER",
+      "role": "SA-B_COUNTER",
       "uniform_scale": 1
     },
     {
       "name": "B18::T2_HV_C.SENSOR",
-      "source": "B18_SA220_SENSOR_MASTER",
+      "source": "B18_SA-B_SENSOR_MASTER",
       "matrix": [
         [
           0.8689690232276917,
@@ -41026,15 +41026,15 @@
           1.0
         ]
       ],
-      "role": "SA220_SENSOR",
+      "role": "SA-B_SENSOR",
       "uniform_scale": 1
     }
   ],
-  "body_master": "B18_SA220_TWO_SECTION_BODY_MASTER",
-  "porcelain_master": "B18_SA220_PORCELAIN_SECTION_MASTER",
-  "counter_master": "B18_SA220_COUNTER_MASTER",
-  "sensor_master": "B18_SA220_SENSOR_MASTER",
-  "foot_master": "B18_SA220_STEEL_FOOT_MASTER",
+  "body_master": "B18_SA-B_TWO_SECTION_BODY_MASTER",
+  "porcelain_master": "B18_SA-B_PORCELAIN_SECTION_MASTER",
+  "counter_master": "B18_SA-B_COUNTER_MASTER",
+  "sensor_master": "B18_SA-B_SENSOR_MASTER",
+  "foot_master": "B18_SA-B_STEEL_FOOT_MASTER",
   "expanded_body_meshes": 27,
   "expanded_meshes_per_site": {
     "2899_A": 58,
@@ -41295,11 +41295,11 @@
     "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
     "4B77 aliases and phase identities are provisional; no phase label text invented.",
     "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
-    "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+    "OtherVC-B GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
   ],
   "formal_promotions": 0,
   "outdoor_goal_complete": false,
-  "r1_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/xialin_B18_220kV_arresters.blend",
+  "r1_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/site_B18_VC-B_arresters.blend",
   "r1_sha256": "240b3d6465d3831e948eac1741a995e69cca328a7bfe02081085804189f493fb",
   "foundation_revision": "R2 concrete top identified from strong horizontal surfaces; R1 gusset-level mistake corrected; supports lengthened and low accessories adjusted"
 }

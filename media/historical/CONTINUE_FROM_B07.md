@@ -1,6 +1,6 @@
 # Continue from B07 r2 — #1 partial transformer site exterior
 
-Current model: output/installation_B07/xialin_B07_T1_site_exterior_r2.blend.
+Current model: output/installation_B07/site_B07_T1_site_exterior_r2.blend.
 Review: output/installation_B07/B07_review.html. Validation: output/installation_B07/B07_validation_r2.json.
 Queue: asset_variant_installation_queue_v7.json. Latest entry: CURRENT.md.
 

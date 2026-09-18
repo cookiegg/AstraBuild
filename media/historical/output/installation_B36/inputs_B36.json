@@ -1,5 +1,5 @@
 {
-  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/xialin_B35_auxiliary_equipment_r3.blend",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/site_B35_auxiliary_equipment_r3.blend",
   "previous_sha256": "66beb37e0808df38281e9d271cdf2eecbc7b4f1356ee95652b6e3efcf16cebc2",
   "previous_manifest": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_manifest_r3.json",
   "frames": {
@@ -471,7 +471,7 @@
       480689,
       1789230801391682711
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/xialin_B13_GIS_line_bays.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/site_B13_GIS_line_bays.blend": [
       994587283,
       1789231302671912200
     ],
@@ -491,7 +491,7 @@
       1388508,
       1789232044570905789
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/xialin_B13_GIS_line_bays_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/site_B13_GIS_line_bays_r2.blend": [
       994608518,
       1789231987083283130
     ],
@@ -555,7 +555,7 @@
       62130,
       1789228128834501962
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/xialin_B12_749_GIS.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/site_B12_749_GIS.blend": [
       889183856,
       1789229141984712852
     ],
@@ -647,7 +647,7 @@
       1567879,
       1789229284635975694
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/r2/xialin_B12_749_GIS_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/r2/site_B12_749_GIS_r2.blend": [
       896423569,
       1789229270128050301
     ],
@@ -735,7 +735,7 @@
       56260,
       1789185580143156647
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B02/xialin_photo_first_B02_station_preview_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B02/site_photo_first_B02_station_preview_r2.blend": [
       730602190,
       1789186476044644136
     ],
@@ -803,7 +803,7 @@
       47929,
       1789185466319365130
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B02/xialin_photo_first_B02_station_preview.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B02/site_photo_first_B02_station_preview.blend": [
       730628140,
       1789186258685337122
     ],
@@ -883,7 +883,7 @@
       142492,
       1789242474010805764
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/xialin_B18_220kV_arresters.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/site_B18_VC-B_arresters.blend": [
       1203110301,
       1789243073729952800
     ],
@@ -1079,7 +1079,7 @@
       137375,
       1789242473778805664
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/B18_SA220_shared_components.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/B18_SA-B_shared_components.blend": [
       917126,
       1789243071989957450
     ],
@@ -1303,7 +1303,7 @@
       1389310,
       1789243427092871622
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/r2/xialin_B18_220kV_arresters_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/r2/site_B18_VC-B_arresters_r2.blend": [
       1203130784,
       1789243411624923527
     ],
@@ -1519,7 +1519,7 @@
       2640156,
       1789209880438072332
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/xialin_B07_T1_site_exterior.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/site_B07_T1_site_exterior.blend": [
       766467594,
       1789209708859539884
     ],
@@ -1551,7 +1551,7 @@
       18447096,
       1789210267879258160
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/xialin_B07_T1_site_exterior_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/site_B07_T1_site_exterior_r2.blend": [
       766471520,
       1789210026540945849
     ],
@@ -1703,7 +1703,7 @@
       4499,
       1789256110971119527
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/xialin_B24_station_service_305_306.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/site_B24_station_service_305_306.blend": [
       1535590938,
       1789256084591238195
     ],
@@ -1831,7 +1831,7 @@
       1817128,
       1789256413136677319
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/r2/xialin_B24_station_service_305_306.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/r2/site_B24_station_service_305_306.blend": [
       1535598199,
       1789256387613301452
     ],
@@ -1971,7 +1971,7 @@
       445949,
       1789261665427984489
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B27/xialin_B27_central_strain_insulators.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B27/site_B27_central_strain_insulators.blend": [
       1858925831,
       1789261973738175241
     ],
@@ -2235,7 +2235,7 @@
       1032,
       1789263771903472335
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/xialin_B29_strains_jumpers_crosslines.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/site_B29_strains_jumpers_crosslines.blend": [
       2451489314,
       1789265849434175306
     ],
@@ -2247,7 +2247,7 @@
       5366,
       1789265629151482268
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/GIS220_reference.npz": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/GIS-B_reference.npz": [
       12797396,
       1789263769775480254
     ],
@@ -2335,7 +2335,7 @@
       1487911,
       1789265862598098331
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/GIS110_reference.npz": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/GIS-A_reference.npz": [
       11791578,
       1789263768551484805
     ],
@@ -2375,7 +2375,7 @@
       1439142,
       1789264610250735907
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/xialin_B29_strains_jumpers_crosslines.blend1": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/site_B29_strains_jumpers_crosslines.blend1": [
       2453226002,
       1789265579975779879
     ],
@@ -2527,7 +2527,7 @@
       1853099,
       1789275211334176226
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/xialin_B35_auxiliary_equipment_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/site_B35_auxiliary_equipment_r2.blend": [
       3297112502,
       1789275738841315625
     ],
@@ -2603,7 +2603,7 @@
       69233638,
       1789276785465978792
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/xialin_B35_auxiliary_equipment_r3.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/site_B35_auxiliary_equipment_r3.blend": [
       3297123254,
       1789276425764650712
     ],
@@ -2615,7 +2615,7 @@
       5630,
       1789275359356607378
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/xialin_B35_auxiliary_equipment.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/site_B35_auxiliary_equipment.blend": [
       3297089822,
       1789275176370579808
     ],
@@ -3063,7 +3063,7 @@
       1308065,
       1789251326233767705
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/xialin_B22_shared_neutral_assemblies.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/site_B22_shared_neutral_assemblies.blend": [
       1482703183,
       1789252730805001837
     ],
@@ -3199,35 +3199,35 @@
       1472072,
       1789252747812816277
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/logs/xialin_B22_validate_r2.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/logs/site_B22_validate_r2.log": [
       2068,
       1789253366523228808
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/logs/xialin_B22_validate.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/logs/site_B22_validate.log": [
       2054,
       1789253206416516350
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/logs/xialin_B22_build_retry.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/logs/site_B22_build_retry.log": [
       5059,
       1789252761628667338
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/logs/xialin_B22_refine.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/logs/site_B22_refine.log": [
       5160,
       1789253133945126594
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/logs/xialin_B22_cluster_inspect.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/logs/site_B22_cluster_inspect.log": [
       1796,
       1789251956607311205
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/logs/xialin_B22_extract.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/logs/site_B22_extract.log": [
       736,
       1789251247582024142
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/logs/xialin_B22_build.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/logs/site_B22_build.log": [
       1056,
       1789252647813945007
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/logs/xialin_B22_inspect.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/logs/site_B22_inspect.log": [
       2775,
       1789251340133720736
     ],
@@ -3311,7 +3311,7 @@
       1177934,
       1789253132541138612
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/r2/xialin_B22_shared_neutral_assemblies_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/r2/site_B22_shared_neutral_assemblies_r2.blend": [
       1486021772,
       1789253102637396481
     ],
@@ -3507,7 +3507,7 @@
       1713043,
       1789240186078245397
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B17/B17_220kV_outgoing_components.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B17/B17_VC-B_outgoing_components.blend": [
       1905894,
       1789240800566316752
     ],
@@ -3523,7 +3523,7 @@
       1683167,
       1789240197234170475
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B17/xialin_B17_220kV_outgoing_GIS.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B17/site_B17_VC-B_outgoing_GIS.blend": [
       1159336244,
       1789240802314305967
     ],
@@ -3803,7 +3803,7 @@
       1287207,
       1789241416558577281
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B17/r3/xialin_B17_220kV_outgoing_GIS_r3.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B17/r3/site_B17_VC-B_outgoing_GIS_r3.blend": [
       1159669991,
       1789241404106652047
     ],
@@ -3927,7 +3927,7 @@
       1549794,
       1789241214751792098
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B17/r2/xialin_B17_220kV_outgoing_GIS_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B17/r2/site_B17_VC-B_outgoing_GIS_r2.blend": [
       1159615021,
       1789241183795979117
     ],
@@ -4003,7 +4003,7 @@
       1663688,
       1789241195391909035
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B17/r2/B17_220kV_outgoing_components_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B17/r2/B17_VC-B_outgoing_components_r2.blend": [
       1983395,
       1789241182391987605
     ],
@@ -4167,7 +4167,7 @@
       6425,
       1789255219742684015
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/xialin_B23_neutral_leads_and_mechanisms.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/site_B23_neutral_leads_and_mechanisms.blend": [
       1503971832,
       1789254210846154446
     ],
@@ -4287,35 +4287,35 @@
       76847,
       1789254702163649271
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/logs/xialin_B23_validate_r2.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/logs/site_B23_validate_r2.log": [
       2150,
       1789254877955499876
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/logs/xialin_B23_residuals.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/logs/site_B23_residuals.log": [
       718,
       1789254529243518681
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/logs/xialin_B23_validate_r3.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/logs/site_B23_validate_r3.log": [
       2150,
       1789255159670864315
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/logs/xialin_B23_validate.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/logs/site_B23_validate.log": [
       2137,
       1789254469771391190
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/logs/xialin_B23_refine.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/logs/site_B23_refine.log": [
       5854,
       1789254742479636733
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/logs/xialin_B23_finish_bridge.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/logs/site_B23_finish_bridge.log": [
       5860,
       1789255049295159215
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/logs/xialin_B23_build.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/logs/site_B23_build.log": [
       5731,
       1789254243742385396
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/r3/xialin_B23_neutral_leads_and_mechanisms_r3.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/r3/site_B23_neutral_leads_and_mechanisms_r3.blend": [
       1530104328,
       1789255016399236704
     ],
@@ -4487,7 +4487,7 @@
       1680777,
       1789254732987640962
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/r2/xialin_B23_neutral_leads_and_mechanisms_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/r2/site_B23_neutral_leads_and_mechanisms_r2.blend": [
       1517413809,
       1789254709639648033
     ],
@@ -4675,7 +4675,7 @@
       647,
       1789215908626896049
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/xialin_B09_capacitor_banks.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/site_B09_capacitor_banks.blend": [
       841182194,
       1789215470407027168
     ],
@@ -4819,7 +4819,7 @@
       30222,
       1789249597099358043
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/xialin_B21_4100_T_connections_and_endcaps.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/site_B21_4100_T_connections_and_endcaps.blend": [
       1472667995,
       1789250109869093831
     ],
@@ -4915,23 +4915,23 @@
       249066,
       1789249128986145206
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/logs/xialin_B21_refine_review.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/logs/site_B21_refine_review.log": [
       2046,
       1789250957618791514
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/logs/xialin_B21_build.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/logs/site_B21_build.log": [
       4611,
       1789250957618791514
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/logs/xialin_B21_validate_r2.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/logs/site_B21_validate_r2.log": [
       1641,
       1789250957618791514
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/logs/xialin_B21_validate.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/logs/site_B21_validate.log": [
       2919,
       1789250957618791514
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/logs/xialin_B21_inspect.log": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/logs/site_B21_inspect.log": [
       1372,
       1789250957614791522
     ],
@@ -4943,7 +4943,7 @@
       1558864,
       1789250455874905199
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/r2/xialin_B21_4100_T_connections_and_endcaps_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B21/r2/site_B21_4100_T_connections_and_endcaps_r2.blend": [
       1475430801,
       1789250448998889237
     ],
@@ -5047,7 +5047,7 @@
       1614135,
       1789204940472723358
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/xialin_photo_first_B06_wall_aligned_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/site_photo_first_B06_wall_aligned_r2.blend": [
       745418293,
       1789204828149338327
     ],
@@ -5083,7 +5083,7 @@
       1602741,
       1789204983960485664
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/xialin_photo_first_B06_wall_aligned.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/site_photo_first_B06_wall_aligned.blend": [
       745413221,
       1789204428819542385
     ],
@@ -5119,7 +5119,7 @@
       2237596,
       1789233602812557742
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/xialin_B14_transformer_outgoing_GIS.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/site_B14_transformer_outgoing_GIS.blend": [
       1021566965,
       1789233541268968109
     ],
@@ -5331,7 +5331,7 @@
       110076,
       1789232928273052144
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r3/xialin_B14_transformer_outgoing_GIS_r3.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r3/site_B14_transformer_outgoing_GIS_r3.blend": [
       1021592861,
       1789234317110857749
     ],
@@ -5367,7 +5367,7 @@
       1343140,
       1789233818108158525
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r2/xialin_B14_transformer_outgoing_GIS_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r2/site_B14_transformer_outgoing_GIS_r2.blend": [
       1021584595,
       1789233799056171701
     ],
@@ -5591,7 +5591,7 @@
       105444,
       1789149240087931179
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P03_r2/P03_GIS110_749_photo_first.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P03_r2/P03_GIS-A_749_photo_first.blend": [
       2105084,
       1789149240659926947
     ],
@@ -5659,7 +5659,7 @@
       533366,
       1789234971475748280
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B15/xialin_B15_spare_double_deck_GIS.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B15/site_B15_spare_double_deck_GIS.blend": [
       1050434672,
       1789235507168804293
     ],
@@ -6039,7 +6039,7 @@
       2969717,
       1789237249418469699
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B15/r3/xialin_B15_spare_GIS_connected_r3.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B15/r3/site_B15_spare_GIS_connected_r3.blend": [
       1082348476,
       1789237221966631123
     ],
@@ -6215,7 +6215,7 @@
       2449417,
       1789236893468565154
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B15/r2/xialin_B15_spare_GIS_connected_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B15/r2/site_B15_spare_GIS_connected_r2.blend": [
       1082337058,
       1789236880720640321
     ],
@@ -6571,7 +6571,7 @@
       3056055,
       1789239081804955838
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B16/xialin_B16_coupler_bus_VT.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B16/site_B16_coupler_bus_VT.blend": [
       1113910598,
       1789239062861059516
     ],
@@ -6643,7 +6643,7 @@
       1676507,
       1789239312019688704
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B16/r2/xialin_B16_coupler_bus_VT_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B16/r2/site_B16_coupler_bus_VT_r2.blend": [
       1092628234,
       1789239289659812277
     ],
@@ -6811,7 +6811,7 @@
       2072257,
       1789217633387999785
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/xialin_B10_capacitor_banks.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/site_B10_capacitor_banks.blend": [
       875677984,
       1789220864422726453
     ],
@@ -7051,7 +7051,7 @@
       1958748,
       1789248238869862628
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/xialin_B20_220kV_bus_row.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/site_B20_VC-B_bus_row.blend": [
       1425288744,
       1789248215165897067
     ],
@@ -7203,7 +7203,7 @@
       1861,
       1789260573001930264
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B26/xialin_B26_transformer_central_gantry.blend1": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B26/site_B26_transformer_central_gantry.blend1": [
       1765152988,
       1789260360894854611
     ],
@@ -7323,7 +7323,7 @@
       14917,
       1789260905004263919
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B26/xialin_B26_transformer_central_gantry.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B26/site_B26_transformer_central_gantry.blend": [
       1765183612,
       1789260797544825012
     ],
@@ -7415,7 +7415,7 @@
       4524255,
       1789189997146165905
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B03/r2/xialin_photo_first_B03_station_preview.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B03/r2/site_photo_first_B03_station_preview.blend": [
       734770677,
       1789190179140851867
     ],
@@ -7535,7 +7535,7 @@
       4938,
       1789267052906864627
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/GIS220_reference.npz": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/GIS-B_reference.npz": [
       42810332,
       1789266435650822089
     ],
@@ -7615,7 +7615,7 @@
       2446813,
       1789267021231183100
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/GIS110_reference.npz": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/GIS-A_reference.npz": [
       36962665,
       1789266432078842447
     ],
@@ -7639,7 +7639,7 @@
       2153208,
       1789267484155008639
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/xialin_B30_GIS_downleads_arrester_branches.blend1": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/site_B30_GIS_downleads_arrester_branches.blend1": [
       3216320888,
       1789267000915390767
     ],
@@ -7691,7 +7691,7 @@
       1615903,
       1789267475843076680
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/xialin_B30_GIS_downleads_arrester_branches.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/site_B30_GIS_downleads_arrester_branches.blend": [
       3217791972,
       1789267416531567737
     ],
@@ -7707,7 +7707,7 @@
       934,
       1789267909551714814
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/SA110_terminal_datums.json": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/SA-A_terminal_datums.json": [
       7910,
       1789266084804813228
     ],
@@ -7847,7 +7847,7 @@
       1791251,
       1789212283240766840
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/xialin_B08_shared_transformers_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/site_B08_shared_transformers_r2.blend": [
       821317931,
       1789212456767885763
     ],
@@ -7859,7 +7859,7 @@
       2841529,
       1789212697422652963
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/xialin_B08_shared_transformers.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/site_B08_shared_transformers.blend": [
       821210630,
       1789212218429093625
     ],
@@ -7991,7 +7991,7 @@
       1458082,
       1789226659814680563
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/107_B11_110kV_Arresters.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/107_B11_VC-A_Arresters.png": [
       812010,
       1789226661990674089
     ],
@@ -8067,7 +8067,7 @@
       1447746,
       1789226661106676721
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/xialin_B11_110kV_arresters.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/site_B11_VC-A_arresters.blend": [
       881735457,
       1789226513363086449
     ],
@@ -8143,7 +8143,7 @@
       973783,
       1789226826474154126
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/xialin_B11_110kV_arresters_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/site_B11_VC-A_arresters_r2.blend": [
       881747748,
       1789226768638343371
     ],
@@ -8159,7 +8159,7 @@
       1163045,
       1789226831122138648
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/107_B11_110kV_Arresters.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/107_B11_VC-A_Arresters.png": [
       813702,
       1789226833146131895
     ],
@@ -8323,7 +8323,7 @@
       145782,
       1789177699883423084
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/660_B32_C110_Oblique_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/660_B32_Cabin-A_Oblique_Reference.png": [
       1343714,
       1789271003527286832
     ],
@@ -8331,7 +8331,7 @@
       1381,
       1789271239868339003
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/659_B32_C110_Oblique_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/659_B32_Cabin-A_Oblique_Overlay.png": [
       1452992,
       1789271001999307902
     ],
@@ -8347,23 +8347,23 @@
       2408284,
       1789270998719353237
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/677_B32_C220_End_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/677_B32_Cabin-B_End_Overlay.png": [
       1955431,
       1789271030946913710
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/xialin_B32_secondary_equipment_cabins_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/site_B32_secondary_equipment_cabins_r2.blend": [
       3264540674,
       1789271263964067797
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/658_B32_C110_Oblique_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/658_B32_Cabin-A_Oblique_Clean.png": [
       1277199,
       1789271000459329171
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/666_B32_C110_End_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/666_B32_Cabin-A_End_Reference.png": [
       1870441,
       1789271012787159772
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/675_B32_C220_Side_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/675_B32_Cabin-B_Side_Reference.png": [
       1379472,
       1789271027654958016
     ],
@@ -8379,15 +8379,15 @@
       119107,
       1789271270375996391
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/663_B32_C110_Side_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/663_B32_Cabin-A_Side_Reference.png": [
       1305795,
       1789271008111223797
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/669_B32_C110_Top_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/669_B32_Cabin-A_Top_Reference.png": [
       1525443,
       1789271017747092159
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/671_B32_C220_Oblique_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/671_B32_Cabin-B_Oblique_Overlay.png": [
       1579075,
       1789271021027047616
     ],
@@ -8395,7 +8395,7 @@
       131005,
       1789271777551083390
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/678_B32_C220_End_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/678_B32_Cabin-B_End_Reference.png": [
       1847132,
       1789271032618891260
     ],
@@ -8407,7 +8407,7 @@
       879638,
       1789271260100110981
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/662_B32_C110_Side_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/662_B32_Cabin-A_Side_Overlay.png": [
       1323275,
       1789271006599244560
     ],
@@ -8415,7 +8415,7 @@
       5831,
       1789272093808460582
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/C110_facade_diagnostic.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/Cabin-A_facade_diagnostic.png": [
       391807,
       1789270248801140206
     ],
@@ -8423,15 +8423,15 @@
       1737006,
       1789270990979460767
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/672_B32_C220_Oblique_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/672_B32_Cabin-B_Oblique_Reference.png": [
       1459262,
       1789271022711024799
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/674_B32_C220_Side_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/674_B32_Cabin-B_Side_Overlay.png": [
       1409276,
       1789271026034979865
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/667_B32_C110_Top_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/667_B32_Cabin-A_Top_Clean.png": [
       1259321,
       1789271014339138583
     ],
@@ -8439,7 +8439,7 @@
       7103,
       1789271837890565753
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/673_B32_C220_Side_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/673_B32_Cabin-B_Side_Clean.png": [
       1234808,
       1789271024355002559
     ],
@@ -8447,11 +8447,11 @@
       50298025,
       1789271998213232191
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/670_B32_C220_Oblique_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/670_B32_Cabin-B_Oblique_Clean.png": [
       1359215,
       1789271019391069817
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/664_B32_C110_End_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/664_B32_Cabin-A_End_Clean.png": [
       1613430,
       1789271009659202571
     ],
@@ -8467,19 +8467,19 @@
       7103,
       1789271331451331394
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/xialin_B32_secondary_equipment_cabins.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/site_B32_secondary_equipment_cabins.blend": [
       3264473807,
       1789270977751646374
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/676_B32_C220_End_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/676_B32_Cabin-B_End_Clean.png": [
       1602946,
       1789271029298935874
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/679_B32_C220_Top_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/679_B32_Cabin-B_Top_Clean.png": [
       1193748,
       1789271034254869326
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/C220_facade_diagnostic.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/Cabin-B_facade_diagnostic.png": [
       388003,
       1789270249381137463
     ],
@@ -8487,7 +8487,7 @@
       1565017,
       1789271043850741314
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/668_B32_C110_Top_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/668_B32_Cabin-A_Top_Overlay.png": [
       1668287,
       1789271016059115134
     ],
@@ -8495,7 +8495,7 @@
       5575,
       1789271239480343408
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/665_B32_C110_End_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/665_B32_Cabin-A_End_Overlay.png": [
       1982717,
       1789271011243180883
     ],
@@ -8503,11 +8503,11 @@
       7760,
       1789271043958739879
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/xialin_B32_secondary_equipment_cabins_r3.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/site_B32_secondary_equipment_cabins_r3.blend": [
       3264823456,
       1789271770683142939
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/661_B32_C110_Side_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/661_B32_Cabin-A_Side_Clean.png": [
       1181828,
       1789271005083265405
     ],
@@ -8539,19 +8539,19 @@
       668533,
       1789271311039550680
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/681_B32_C220_Top_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/681_B32_Cabin-B_Top_Reference.png": [
       1469096,
       1789271037718822989
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/680_B32_C220_Top_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/680_B32_Cabin-B_Top_Overlay.png": [
       1549533,
       1789271035902847262
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/660_B32_C110_Oblique_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/660_B32_Cabin-A_Oblique_Reference.png": [
       1389223,
       1789271289135789260
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/659_B32_C110_Oblique_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/659_B32_Cabin-A_Oblique_Overlay.png": [
       1460584,
       1789271287391808406
     ],
@@ -8559,39 +8559,39 @@
       2057239,
       1789271284015845529
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/677_B32_C220_End_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/677_B32_Cabin-B_End_Overlay.png": [
       1958051,
       1789271316891487517
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/658_B32_C110_Oblique_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/658_B32_Cabin-A_Oblique_Clean.png": [
       1302113,
       1789271285671827310
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/666_B32_C110_End_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/666_B32_Cabin-A_End_Reference.png": [
       1870444,
       1789271298615685581
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/675_B32_C220_Side_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/675_B32_Cabin-B_Side_Reference.png": [
       1379475,
       1789271313735521552
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/663_B32_C110_Side_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/663_B32_Cabin-A_Side_Reference.png": [
       1303690,
       1789271293823737907
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/669_B32_C110_Top_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/669_B32_Cabin-A_Top_Reference.png": [
       1525446,
       1789271303535632028
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/671_B32_C220_Oblique_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/671_B32_Cabin-B_Oblique_Overlay.png": [
       1582546,
       1789271306939595076
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/678_B32_C220_End_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/678_B32_Cabin-B_End_Reference.png": [
       1847135,
       1789271318467470548
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/662_B32_C110_Side_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/662_B32_Cabin-A_Side_Overlay.png": [
       1328262,
       1789271292267754935
     ],
@@ -8599,35 +8599,35 @@
       1565124,
       1789271276791925262
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/672_B32_C220_Oblique_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/672_B32_Cabin-B_Oblique_Reference.png": [
       1459265,
       1789271308667576351
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/674_B32_C220_Side_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/674_B32_Cabin-B_Side_Overlay.png": [
       1418940,
       1789271312179538357
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/667_B32_C110_Top_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/667_B32_Cabin-A_Top_Clean.png": [
       1259425,
       1789271300227668014
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/673_B32_C220_Side_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/673_B32_Cabin-B_Side_Clean.png": [
       1246428,
       1789271310559555872
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/670_B32_C220_Oblique_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/670_B32_Cabin-B_Oblique_Clean.png": [
       1366912,
       1789271305267613216
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/664_B32_C110_End_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/664_B32_Cabin-A_End_Clean.png": [
       1617812,
       1789271295419720461
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/676_B32_C220_End_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/676_B32_Cabin-B_End_Clean.png": [
       1606183,
       1789271315303504634
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/679_B32_C220_Top_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/679_B32_Cabin-B_Top_Clean.png": [
       1193751,
       1789271320047453553
     ],
@@ -8635,31 +8635,31 @@
       1565119,
       1789271329123356260
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/668_B32_C110_Top_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/668_B32_Cabin-A_Top_Overlay.png": [
       1670379,
       1789271301843650424
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/665_B32_C110_End_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/665_B32_Cabin-A_End_Overlay.png": [
       1969166,
       1789271297019702989
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/661_B32_C110_Side_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/661_B32_Cabin-A_Side_Clean.png": [
       1196843,
       1789271290699772111
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/681_B32_C220_Top_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/681_B32_Cabin-B_Top_Reference.png": [
       1469099,
       1789271323679414552
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/680_B32_C220_Top_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r2_previews/680_B32_Cabin-B_Top_Overlay.png": [
       1549536,
       1789271321915433482
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/660_B32_C110_Oblique_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/660_B32_Cabin-A_Oblique_Reference.png": [
       1428434,
       1789271796642918549
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/659_B32_C110_Oblique_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/659_B32_Cabin-A_Oblique_Overlay.png": [
       1500247,
       1789271795078932015
     ],
@@ -8667,39 +8667,39 @@
       2057206,
       1789271791794960311
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/677_B32_C220_End_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/677_B32_Cabin-B_End_Overlay.png": [
       1828234,
       1789271823902684897
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/658_B32_C110_Oblique_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/658_B32_Cabin-A_Oblique_Clean.png": [
       1307694,
       1789271793518945453
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/666_B32_C110_End_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/666_B32_Cabin-A_End_Reference.png": [
       1785760,
       1789271806022837927
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/675_B32_C220_Side_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/675_B32_Cabin-B_Side_Reference.png": [
       1381184,
       1789271820738711916
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/663_B32_C110_Side_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/663_B32_Cabin-A_Side_Reference.png": [
       1298857,
       1789271801338878157
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/669_B32_C110_Top_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/669_B32_Cabin-A_Top_Reference.png": [
       1664950,
       1789271810650798237
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/671_B32_C220_Oblique_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/671_B32_Cabin-B_Oblique_Overlay.png": [
       1623908,
       1789271813822771067
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/678_B32_C220_End_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/678_B32_Cabin-B_End_Reference.png": [
       1735044,
       1789271825470671517
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/662_B32_C110_Side_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/662_B32_Cabin-A_Side_Overlay.png": [
       1326594,
       1789271799794891431
     ],
@@ -8707,35 +8707,35 @@
       1565903,
       1789271784051027155
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/672_B32_C220_Oblique_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/672_B32_Cabin-B_Oblique_Reference.png": [
       1491134,
       1789271815414757439
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/674_B32_C220_Side_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/674_B32_Cabin-B_Side_Overlay.png": [
       1421264,
       1789271818750728906
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/667_B32_C110_Top_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/667_B32_Cabin-A_Top_Clean.png": [
       1260295,
       1789271807562824714
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/673_B32_C220_Side_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/673_B32_Cabin-B_Side_Clean.png": [
       1259471,
       1789271817106742963
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/670_B32_C220_Oblique_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/670_B32_Cabin-B_Oblique_Clean.png": [
       1399090,
       1789271812230784699
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/664_B32_C110_End_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/664_B32_Cabin-A_End_Clean.png": [
       1549140,
       1789271802898864752
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/676_B32_C220_End_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/676_B32_Cabin-B_End_Clean.png": [
       1521906,
       1789271822314698454
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/679_B32_C220_Top_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/679_B32_Cabin-B_Top_Clean.png": [
       1209737,
       1789271827014658347
     ],
@@ -8743,23 +8743,23 @@
       1565912,
       1789271835554585616
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/668_B32_C110_Top_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/668_B32_Cabin-A_Top_Overlay.png": [
       1811814,
       1789271809106811472
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/665_B32_C110_End_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/665_B32_Cabin-A_End_Overlay.png": [
       1868300,
       1789271804474851216
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/661_B32_C110_Side_Clean.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/661_B32_Cabin-A_Side_Clean.png": [
       1197443,
       1789271798234904848
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/681_B32_C220_Top_Reference.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/681_B32_Cabin-B_Top_Reference.png": [
       1597498,
       1789271830126631821
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/680_B32_C220_Top_Overlay.png": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/r3_previews/680_B32_Cabin-B_Top_Overlay.png": [
       1686811,
       1789271828574645048
     ],
@@ -8811,7 +8811,7 @@
       820,
       1789258911592846587
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B25/GIS110_coverage.npz": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B25/GIS-A_coverage.npz": [
       4747601,
       1789257103436723285
     ],
@@ -8823,7 +8823,7 @@
       3192594,
       1789257108720654790
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B25/xialin_B25_outdoor_gantries.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B25/site_B25_outdoor_gantries.blend": [
       1658989672,
       1789258816352801699
     ],
@@ -9019,7 +9019,7 @@
       435407,
       1789257334325900735
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B25/GIS220_coverage.npz": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B25/GIS-B_coverage.npz": [
       5431538,
       1789257091884873772
     ],
@@ -9047,7 +9047,7 @@
       14113,
       1789246770522137096
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B19/xialin_B19_remaining_220kV_GIS.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B19/site_B19_remaining_VC-B_GIS.blend": [
       1258211443,
       1789245532088671482
     ],
@@ -9395,7 +9395,7 @@
       2354097,
       1789246326873286649
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B19/r3/xialin_B19_remaining_220kV_GIS_r3.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B19/r3/site_B19_remaining_VC-B_GIS_r3.blend": [
       1258330722,
       1789246317017486289
     ],
@@ -9635,7 +9635,7 @@
       2353929,
       1789245859195345572
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B19/r2/xialin_B19_remaining_220kV_GIS_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B19/r2/site_B19_remaining_VC-B_GIS_r2.blend": [
       1258317998,
       1789245849175386212
     ],
@@ -9875,7 +9875,7 @@
       105460,
       1789149093001038624
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P03_r1/P03_GIS110_749_photo_first.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P03_r1/P03_GIS-A_749_photo_first.blend": [
       2104600,
       1789149093497034818
     ],
@@ -9903,7 +9903,7 @@
       756,
       1789263507324396647
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B28/xialin_B28_outdoor_suspension_insulators.blend1": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B28/site_B28_outdoor_suspension_insulators.blend1": [
       2062334150,
       1789262896585661422
     ],
@@ -10071,7 +10071,7 @@
       233143,
       1789263502796411207
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B28/xialin_B28_outdoor_suspension_insulators.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B28/site_B28_outdoor_suspension_insulators.blend": [
       2061333750,
       1789263243689144952
     ],
@@ -10119,7 +10119,7 @@
       1415195,
       1789269899946725135
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B31/xialin_B31_main_building_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B31/site_B31_main_building_r2.blend": [
       3258241081,
       1789270257813097563
     ],
@@ -10127,7 +10127,7 @@
       5135442,
       1789268977445294707
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B31/xialin_B31_main_building.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B31/site_B31_main_building.blend": [
       3247431721,
       1789269859018900180
     ],
@@ -10183,7 +10183,7 @@
       1219095,
       1789269898374731910
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B31/xialin_B31_before_buildings_checkpoint.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B31/site_B31_before_buildings_checkpoint.blend": [
       3217791972,
       1789267416531567737
     ],
@@ -10439,7 +10439,7 @@
       1880878,
       1789273821733718325
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B34/xialin_B34_ground_roads_perimeter.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B34/site_B34_ground_roads_perimeter.blend": [
       3286013360,
       1789273811017736380
     ],
@@ -10571,7 +10571,7 @@
       82001,
       1789146589523724788
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P02_r1/P02_SA110_photo_first.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P02_r1/P02_SA-A_photo_first.blend": [
       2459834,
       1789146589891723613
     ],
@@ -10599,7 +10599,7 @@
       89519,
       1789146589619724481
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/xialin_photo_first_B05_station_preview.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/site_photo_first_B05_station_preview.blend": [
       729315382,
       1789202291752310205
     ],
@@ -10695,7 +10695,7 @@
       1776,
       1789202483279323959
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/xialin_photo_first_B05_station_preview_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/site_photo_first_B05_station_preview_r2.blend": [
       729210991,
       1789202547558994397
     ],
@@ -10979,7 +10979,7 @@
       1168632,
       1789272626061409528
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B33/xialin_B33_entrance_service_buildings_r2.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B33/site_B33_entrance_service_buildings_r2.blend": [
       3276281051,
       1789272910404415381
     ],
@@ -10987,7 +10987,7 @@
       2777522,
       1789271764287198515
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B33/xialin_B33_entrance_service_buildings.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B33/site_B33_entrance_service_buildings.blend": [
       3275546115,
       1789272566680808426
     ],
@@ -11239,7 +11239,7 @@
       1045436,
       1789201416061008684
     ],
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B04/xialin_photo_first_B04_station_preview.blend": [
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B04/site_photo_first_B04_station_preview.blend": [
       732215697,
       1789201896910375010
     ],

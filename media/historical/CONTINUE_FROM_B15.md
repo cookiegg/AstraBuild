@@ -2,7 +2,7 @@
 
 用户要求持续推进至室外设备大都完成建模与对齐。此批是进展，目标仍 active，未完成。
 
-当前整站：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B15/r3/xialin_B15_spare_GIS_connected_r3.blend`，SHA256 `28cc24c5f75871a4205a0e305a154a2e3e7e9edaf88b20abc4732403e74bae7b`。
+当前整站：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B15/r3/site_B15_spare_GIS_connected_r3.blend`，SHA256 `28cc24c5f75871a4205a0e305a154a2e3e7e9edaf88b20abc4732403e74bae7b`。
 共用部件库：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B15/r2/B15_reusable_spare_components_r2.blend`，SHA256 `c2acb22ebae27004ab614fcd2d20b04b75a3f6885c10522de15e4f8f199a5827`。
 审阅 `output/installation_B15/B15_review.html`，31幅保存场景实际渲染，覆盖表B15，队列v15。
 早期 `CONTINUE_B15_IN_PROGRESS.md` / `B15_progress.json` 仅记录R1阶段；本文件与release_B15.json为最终B15接续依据。
@@ -17,5 +17,5 @@ B11七处避雷器安装失败、B12的749后立壳、B13十个壳体/母线失�
 R1的186场景、24531对象和954个历史文件保留检查通过；R1本身保存了B14历史。现217场景，整站202/203，默认216（756），六组单体204–221，共用编辑222，756后/侧/顶223–231，754/501接口232。编号沿用B15R2，实际当前文件和全部31图为R3。
 54个设备工作候选不是完成率；清单153项混合室内、室外、聚合范围。16套GIS都是主体候选且局部对齐待复核；47项旧几何位置待复核，其他范围见覆盖表。
 
-下一步：母联500（12MZ0000000219410）、I母压变（12MZ0000000219418）、II母压变（12MZ0000000219417）实际照片/粗模拓扑与定位；随后220kV GIS、P01避雷器及剩余室外设备。B14_next_GIS_targets里的初始位置只是裁块定位种子，不能当测量真值。
+下一步：母联500（12MZ0000000219410）、I母压变（12MZ0000000219418）、II母压变（12MZ0000000219417）实际照片/粗模拓扑与定位；随后VC-B GIS、P01避雷器及剩余室外设备。B14_next_GIS_targets里的初始位置只是裁块定位种子，不能当测量真值。
 后台使用MCP启动原生Blender进行GPU渲染。shell不可见原生PID；只能依据MCP ps/作业日志确认终态。旧文件冻结，不重写。局部矩阵用matrix_basis，历史矩阵验证依相同旧场景顺序更新。通过AST抽取纯函数，避免导入带顶层I/O的旧builder。R3归档了旧R2支架对象，确保旧历史不丢失；新工作站场景不关联归档集合。

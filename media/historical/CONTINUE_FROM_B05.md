@@ -1,7 +1,7 @@
 # Continue from B05 r2 — 15 arrester candidates and one partial GIS cabinet
 
 Paths below are relative to experiments/blender-substation/photo-first-pilot.
-Latest full station: output/installation_B05/xialin_photo_first_B05_station_preview_r2.blend.
+Latest full station: output/installation_B05/site_photo_first_B05_station_preview_r2.blend.
 Readback: output/installation_B05/B05_validation.json. Release: output/installation_B05/release_B05.json.
 Queue: asset_variant_installation_queue_v5.json. Formal baseline remains semantic v50.
 

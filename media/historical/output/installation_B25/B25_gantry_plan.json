@@ -175008,7 +175008,7 @@
       "common_leg_radius_m": 0.20296441913475466
     }
   ],
-  "source_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/r2/xialin_B24_station_service_305_306.blend",
+  "source_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/r2/site_B24_station_service_305_306.blend",
   "method": "geometry-derived paired tilted-cylinder axes; independent installed feet; fitted top/bottom longitudinal chords and diagonal lattice periodicity; original even triangles only for fitting",
   "limitations": [
     "Small flange, fastener and ladder dimensions remain photo-derived approximations.",

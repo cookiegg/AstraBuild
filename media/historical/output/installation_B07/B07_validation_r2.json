@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "acceptance_scope": "file preservation, module geometry, uniform instances, exterior bank planes and framing only",
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/xialin_B07_T1_site_exterior_r2.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/site_B07_T1_site_exterior_r2.blend",
   "sha256": "b3a5f6af1737c1b487de713a76615d3a267d40f63aa3efa4de9f89483264ec4f",
   "original_objects_unchanged": 20930,
   "original_collections_unchanged": 219,

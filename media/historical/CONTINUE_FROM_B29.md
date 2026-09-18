@@ -1,6 +1,6 @@
 # B29 续作说明
 
-当前工程 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/xialin_B29_strains_jumpers_crosslines.blend`，SHA `33313cca55fbb1d300a10a64d8599e13a3ac2eb1ce8782d26eec0e6ba7f94c5c`。组件 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/B29_overhead_components.blend`，SHA `df38df4fb813ff354ba6e0f29cde263dc4d5086df1fd3e5c10df8811014ecdab`。默认599_B29_G220_OUT_Detail_Clean；585全站，587/590/593三排，596/599首跨，602主变与跨场导线；每组有叠图/参考场景。589场景、32818对象。GUI读回dirtyFalse。
+当前工程 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/site_B29_strains_jumpers_crosslines.blend`，SHA `33313cca55fbb1d300a10a64d8599e13a3ac2eb1ce8782d26eec0e6ba7f94c5c`。组件 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/B29_overhead_components.blend`，SHA `df38df4fb813ff354ba6e0f29cde263dc4d5086df1fd3e5c10df8811014ecdab`。默认599_B29_G220_OUT_Detail_Clean；585全站，587/590/593三排，596/599首跨，602主变与跨场导线；每组有叠图/参考场景。589场景、32818对象。GUI读回dirtyFalse。
 
 ## 本轮实际完成
 
@@ -20,11 +20,11 @@
 
 目标仍为室外设备大都建模对齐；下引线/避雷器分支是实际显著缺项，goal保持active。
 
-B29/GIS110_reference.npz、GIS220_reference.npz和CROSS_reference.npz包含从原始01_SOURCE_MESH__registered_clay提取的vertices/faces/frame_to_world，以及每面source_object_index/source_triangle_index，源对象名见B29_source_object_names.json。宏观X横站、Y沿排；F见各plan，勿当worldXYZ。
+B29/GIS-A_reference.npz、GIS-B_reference.npz和CROSS_reference.npz包含从原始01_SOURCE_MESH__registered_clay提取的vertices/faces/frame_to_world，以及每面source_object_index/source_triangle_index，源对象名见B29_source_object_names.json。宏观X横站、Y沿排；F见各plan，勿当worldXYZ。
 
-next_GIS_terminals.json是旧保存设备的66个实际端子：30个110GIS、18个220GIS、18个SA220。110501/502实际根是B15R2::501/502.CORE、母版B15R2_501/502_EQUIPMENT_VARIANT，不要误用被替代B14整机；套管仍共享B12。端子坐标从parent-aware几何求得，不用inactive scene dimensions/matrix_world。B30/SA110_terminal_datums.json另有30个SA110端子。
+next_GIS_terminals.json是旧保存设备的66个实际端子：30个110GIS、18个220GIS、18个SA-B。110501/502实际根是B15R2::501/502.CORE、母版B15R2_501/502_EQUIPMENT_VARIANT，不要误用被替代B14整机；套管仍共享B12。端子坐标从parent-aware几何求得，不用inactive scene dimensions/matrix_world。B30/SA-A_terminal_datums.json另有30个SA-A端子。
 
-B30/plan_B30_downleads.py和B30_downlead_plan.json已初拟48组、72根GIS下引线（30个110、18个220）。42组从B29 U跳线下端到对应GIS套管；另外6组从220主跨X约−6.1分接到4801/4802套管。源诊断显示下引线弯曲，且Z约5.4/5.8/7.7/8.0存在避雷器分支；不要将分支混拟入主体。B30拟合代码/图尚须继续检查，尤其G110_OUT_NEG_01源点较少，不能声称已保存建模。SA110/220分支尚未规划。
+B30/plan_B30_downleads.py和B30_downlead_plan.json已初拟48组、72根GIS下引线（30个110、18个220）。42组从B29 U跳线下端到对应GIS套管；另外6组从220主跨X约−6.1分接到4801/4802套管。源诊断显示下引线弯曲，且Z约5.4/5.8/7.7/8.0存在避雷器分支；不要将分支混拟入主体。B30拟合代码/图尚须继续检查，尤其G110_OUT_NEG_01源点较少，不能声称已保存建模。SA-A/220分支尚未规划。
 
 MCP所有user_prompt逐字“继续后续其他设备处理”。原生Blender5.1.2后台经GUI MCP subprocess启动，LD_LIBRARY_PATH=/data/program/blender-5.1.2-linux-x64/lib，原生PID与shell不同。工具超时不是终止，依日志Blender quit+原生ps确认。GUI执行脚本要__file__。AST抽纯函数，勿import旧builder顶层；expand/object_transform来自B19，含父层和instance_offset。原分辨率看图要view_image(detail='original')再image(...,'original')。未裁图，未用技能/子代理。
 

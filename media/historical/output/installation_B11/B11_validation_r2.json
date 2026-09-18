@@ -1,6 +1,6 @@
 {
   "status": "software_preservation_and_readback_passed_with_mounting_pending",
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/xialin_B11_110kV_arresters_r2.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/site_B11_VC-A_arresters_r2.blend",
   "sha256": "0a18323d9ded48d5ec5e4e05b386111f8ba76403e7f237db6d25007e85badd05",
   "formal_promotions": 0,
   "previous_objects_unchanged": 23852,
@@ -12,7 +12,7 @@
   "formal_baseline_meshes_preserved": 15096,
   "retained_legacy_meshes_in_new_station": 6343,
   "legacy_meshes_omitted_only_in_new_scenes": 300,
-  "all_110kV_arrester_candidates": 30,
+  "all_VC-A_arrester_candidates": 30,
   "new_devices": 15,
   "updated_previous_candidates": 3,
   "new_uniform_module_instances": 39,

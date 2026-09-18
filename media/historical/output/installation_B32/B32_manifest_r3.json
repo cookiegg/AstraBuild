@@ -1,81 +1,81 @@
 {
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/xialin_B32_secondary_equipment_cabins_r3.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/site_B32_secondary_equipment_cabins_r3.blend",
   "sha256": "b0265b2626a009cea20056b08d01e671d0761952710185b375b0cfd3780a587f",
   "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B32/B32_cabin_components_r3.blend",
   "asset_sha256": "b980e6e04a44734d804a4a1092d8376079ffd08a6b84753bcdafa41a8666fddc",
-  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B31/xialin_B31_main_building_r2.blend",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B31/site_B31_main_building_r2.blend",
   "previous_sha256": "22643b892ae05b9dd2c2eb0e18d31c9526c38dacf5c1a41641956118742c559b",
   "station_scene": "656_B32_Station_Clean",
-  "default_scene": "658_B32_C110_Oblique_Clean",
+  "default_scene": "658_B32_Cabin-A_Oblique_Clean",
   "new_scenes": [
     "656_B32_Station_Clean",
     "657_B32_Station_Overlay",
-    "658_B32_C110_Oblique_Clean",
-    "659_B32_C110_Oblique_Overlay",
-    "660_B32_C110_Oblique_Reference",
-    "661_B32_C110_Side_Clean",
-    "662_B32_C110_Side_Overlay",
-    "663_B32_C110_Side_Reference",
-    "664_B32_C110_End_Clean",
-    "665_B32_C110_End_Overlay",
-    "666_B32_C110_End_Reference",
-    "667_B32_C110_Top_Clean",
-    "668_B32_C110_Top_Overlay",
-    "669_B32_C110_Top_Reference",
-    "670_B32_C220_Oblique_Clean",
-    "671_B32_C220_Oblique_Overlay",
-    "672_B32_C220_Oblique_Reference",
-    "673_B32_C220_Side_Clean",
-    "674_B32_C220_Side_Overlay",
-    "675_B32_C220_Side_Reference",
-    "676_B32_C220_End_Clean",
-    "677_B32_C220_End_Overlay",
-    "678_B32_C220_End_Reference",
-    "679_B32_C220_Top_Clean",
-    "680_B32_C220_Top_Overlay",
-    "681_B32_C220_Top_Reference",
+    "658_B32_Cabin-A_Oblique_Clean",
+    "659_B32_Cabin-A_Oblique_Overlay",
+    "660_B32_Cabin-A_Oblique_Reference",
+    "661_B32_Cabin-A_Side_Clean",
+    "662_B32_Cabin-A_Side_Overlay",
+    "663_B32_Cabin-A_Side_Reference",
+    "664_B32_Cabin-A_End_Clean",
+    "665_B32_Cabin-A_End_Overlay",
+    "666_B32_Cabin-A_End_Reference",
+    "667_B32_Cabin-A_Top_Clean",
+    "668_B32_Cabin-A_Top_Overlay",
+    "669_B32_Cabin-A_Top_Reference",
+    "670_B32_Cabin-B_Oblique_Clean",
+    "671_B32_Cabin-B_Oblique_Overlay",
+    "672_B32_Cabin-B_Oblique_Reference",
+    "673_B32_Cabin-B_Side_Clean",
+    "674_B32_Cabin-B_Side_Overlay",
+    "675_B32_Cabin-B_Side_Reference",
+    "676_B32_Cabin-B_End_Clean",
+    "677_B32_Cabin-B_End_Overlay",
+    "678_B32_Cabin-B_End_Reference",
+    "679_B32_Cabin-B_Top_Clean",
+    "680_B32_Cabin-B_Top_Overlay",
+    "681_B32_Cabin-B_Top_Reference",
     "682_B32_Station_West"
   ],
   "detail_scenes": [
     {
-      "scene": "658_B32_C110_Oblique_Clean",
-      "collection": "B32_C110_LOCAL_REVIEW",
-      "key": "C110"
+      "scene": "658_B32_Cabin-A_Oblique_Clean",
+      "collection": "B32_Cabin-A_LOCAL_REVIEW",
+      "key": "Cabin-A"
     },
     {
-      "scene": "661_B32_C110_Side_Clean",
-      "collection": "B32_C110_LOCAL_REVIEW",
-      "key": "C110"
+      "scene": "661_B32_Cabin-A_Side_Clean",
+      "collection": "B32_Cabin-A_LOCAL_REVIEW",
+      "key": "Cabin-A"
     },
     {
-      "scene": "664_B32_C110_End_Clean",
-      "collection": "B32_C110_LOCAL_REVIEW",
-      "key": "C110"
+      "scene": "664_B32_Cabin-A_End_Clean",
+      "collection": "B32_Cabin-A_LOCAL_REVIEW",
+      "key": "Cabin-A"
     },
     {
-      "scene": "667_B32_C110_Top_Clean",
-      "collection": "B32_C110_LOCAL_REVIEW",
-      "key": "C110"
+      "scene": "667_B32_Cabin-A_Top_Clean",
+      "collection": "B32_Cabin-A_LOCAL_REVIEW",
+      "key": "Cabin-A"
     },
     {
-      "scene": "670_B32_C220_Oblique_Clean",
-      "collection": "B32_C220_LOCAL_REVIEW",
-      "key": "C220"
+      "scene": "670_B32_Cabin-B_Oblique_Clean",
+      "collection": "B32_Cabin-B_LOCAL_REVIEW",
+      "key": "Cabin-B"
     },
     {
-      "scene": "673_B32_C220_Side_Clean",
-      "collection": "B32_C220_LOCAL_REVIEW",
-      "key": "C220"
+      "scene": "673_B32_Cabin-B_Side_Clean",
+      "collection": "B32_Cabin-B_LOCAL_REVIEW",
+      "key": "Cabin-B"
     },
     {
-      "scene": "676_B32_C220_End_Clean",
-      "collection": "B32_C220_LOCAL_REVIEW",
-      "key": "C220"
+      "scene": "676_B32_Cabin-B_End_Clean",
+      "collection": "B32_Cabin-B_LOCAL_REVIEW",
+      "key": "Cabin-B"
     },
     {
-      "scene": "679_B32_C220_Top_Clean",
-      "collection": "B32_C220_LOCAL_REVIEW",
-      "key": "C220"
+      "scene": "679_B32_Cabin-B_Top_Clean",
+      "collection": "B32_Cabin-B_LOCAL_REVIEW",
+      "key": "Cabin-B"
     }
   ],
   "context": "B26_RETAINED_STATION_COMPONENTS",
@@ -1883,7 +1883,7 @@
       "material": "B32_steel"
     },
     {
-      "name": "B32::C110.floor",
+      "name": "B32::Cabin-A.floor",
       "matrix": [
         [
           2.690768241882324,
@@ -1914,7 +1914,7 @@
       "material": "B32_base"
     },
     {
-      "name": "B32::C110.base_rail.-1",
+      "name": "B32::Cabin-A.base_rail.-1",
       "matrix": [
         [
           0.12999999523162842,
@@ -1945,7 +1945,7 @@
       "material": "B32_base"
     },
     {
-      "name": "B32::C110.foundation_rail.-1",
+      "name": "B32::Cabin-A.foundation_rail.-1",
       "matrix": [
         [
           0.3199999928474426,
@@ -1976,7 +1976,7 @@
       "material": "B32_concrete"
     },
     {
-      "name": "B32::C110.west.panel.0",
+      "name": "B32::Cabin-A.west.panel.0",
       "matrix": [
         [
           0.054999999701976776,
@@ -2007,7 +2007,7 @@
       "material": "B32_wall"
     },
     {
-      "name": "B32::C110.west.joint.0.0",
+      "name": "B32::Cabin-A.west.joint.0.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -2038,7 +2038,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.west.joint.1.0",
+      "name": "B32::Cabin-A.west.joint.1.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -2069,7 +2069,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.west.joint.2.0",
+      "name": "B32::Cabin-A.west.joint.2.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -2100,7 +2100,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.west.joint.3.0",
+      "name": "B32::Cabin-A.west.joint.3.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -2131,7 +2131,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.west.joint.4.0",
+      "name": "B32::Cabin-A.west.joint.4.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -2162,7 +2162,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.west.joint.5.0",
+      "name": "B32::Cabin-A.west.joint.5.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -2193,7 +2193,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.west.joint.6.0",
+      "name": "B32::Cabin-A.west.joint.6.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -2224,7 +2224,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.west.joint.7.0",
+      "name": "B32::Cabin-A.west.joint.7.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -2255,7 +2255,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.west.joint.8.0",
+      "name": "B32::Cabin-A.west.joint.8.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -2286,7 +2286,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.west.vertical_joint.0",
+      "name": "B32::Cabin-A.west.vertical_joint.0",
       "matrix": [
         [
           0.00800000037997961,
@@ -2317,7 +2317,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.west.vertical_joint.1",
+      "name": "B32::Cabin-A.west.vertical_joint.1",
       "matrix": [
         [
           0.00800000037997961,
@@ -2348,7 +2348,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.west.vertical_joint.2",
+      "name": "B32::Cabin-A.west.vertical_joint.2",
       "matrix": [
         [
           0.00800000037997961,
@@ -2379,7 +2379,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.west.vertical_joint.3",
+      "name": "B32::Cabin-A.west.vertical_joint.3",
       "matrix": [
         [
           0.00800000037997961,
@@ -2410,7 +2410,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.west.vertical_joint.4",
+      "name": "B32::Cabin-A.west.vertical_joint.4",
       "matrix": [
         [
           0.00800000037997961,
@@ -2441,7 +2441,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.west.vertical_joint.5",
+      "name": "B32::Cabin-A.west.vertical_joint.5",
       "matrix": [
         [
           0.00800000037997961,
@@ -2472,7 +2472,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.corner_strip.-1.-1.0",
+      "name": "B32::Cabin-A.corner_strip.-1.-1.0",
       "matrix": [
         [
           0.02800000086426735,
@@ -2503,7 +2503,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C110.corner_strip.-1.1.0",
+      "name": "B32::Cabin-A.corner_strip.-1.1.0",
       "matrix": [
         [
           0.02800000086426735,
@@ -2534,7 +2534,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C110.roof_gutter.-1",
+      "name": "B32::Cabin-A.roof_gutter.-1",
       "matrix": [
         [
           0.12999999523162842,
@@ -2565,7 +2565,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C110.base_rail.1",
+      "name": "B32::Cabin-A.base_rail.1",
       "matrix": [
         [
           0.12999999523162842,
@@ -2596,7 +2596,7 @@
       "material": "B32_base"
     },
     {
-      "name": "B32::C110.foundation_rail.1",
+      "name": "B32::Cabin-A.foundation_rail.1",
       "matrix": [
         [
           0.3199999928474426,
@@ -2627,7 +2627,7 @@
       "material": "B32_concrete"
     },
     {
-      "name": "B32::C110.east.panel.0",
+      "name": "B32::Cabin-A.east.panel.0",
       "matrix": [
         [
           0.054999999701976776,
@@ -2658,7 +2658,7 @@
       "material": "B32_wall"
     },
     {
-      "name": "B32::C110.east.panel.1",
+      "name": "B32::Cabin-A.east.panel.1",
       "matrix": [
         [
           0.054999999701976776,
@@ -2689,7 +2689,7 @@
       "material": "B32_wall"
     },
     {
-      "name": "B32::C110.east.panel.2",
+      "name": "B32::Cabin-A.east.panel.2",
       "matrix": [
         [
           0.054999999701976776,
@@ -2720,7 +2720,7 @@
       "material": "B32_wall"
     },
     {
-      "name": "B32::C110.east.joint.0.0",
+      "name": "B32::Cabin-A.east.joint.0.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -2751,7 +2751,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.joint.0.1",
+      "name": "B32::Cabin-A.east.joint.0.1",
       "matrix": [
         [
           0.009999999776482582,
@@ -2782,7 +2782,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.joint.1.0",
+      "name": "B32::Cabin-A.east.joint.1.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -2813,7 +2813,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.joint.1.1",
+      "name": "B32::Cabin-A.east.joint.1.1",
       "matrix": [
         [
           0.009999999776482582,
@@ -2844,7 +2844,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.joint.2.0",
+      "name": "B32::Cabin-A.east.joint.2.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -2875,7 +2875,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.joint.2.1",
+      "name": "B32::Cabin-A.east.joint.2.1",
       "matrix": [
         [
           0.009999999776482582,
@@ -2906,7 +2906,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.joint.3.0",
+      "name": "B32::Cabin-A.east.joint.3.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -2937,7 +2937,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.joint.3.1",
+      "name": "B32::Cabin-A.east.joint.3.1",
       "matrix": [
         [
           0.009999999776482582,
@@ -2968,7 +2968,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.joint.4.0",
+      "name": "B32::Cabin-A.east.joint.4.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -2999,7 +2999,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.joint.4.1",
+      "name": "B32::Cabin-A.east.joint.4.1",
       "matrix": [
         [
           0.009999999776482582,
@@ -3030,7 +3030,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.joint.5.0",
+      "name": "B32::Cabin-A.east.joint.5.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -3061,7 +3061,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.joint.5.1",
+      "name": "B32::Cabin-A.east.joint.5.1",
       "matrix": [
         [
           0.009999999776482582,
@@ -3092,7 +3092,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.joint.6.0",
+      "name": "B32::Cabin-A.east.joint.6.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -3123,7 +3123,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.joint.6.1",
+      "name": "B32::Cabin-A.east.joint.6.1",
       "matrix": [
         [
           0.009999999776482582,
@@ -3154,7 +3154,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.joint.7.0",
+      "name": "B32::Cabin-A.east.joint.7.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -3185,7 +3185,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.joint.8.0",
+      "name": "B32::Cabin-A.east.joint.8.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -3216,7 +3216,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.vertical_joint.0",
+      "name": "B32::Cabin-A.east.vertical_joint.0",
       "matrix": [
         [
           0.00800000037997961,
@@ -3247,7 +3247,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.vertical_joint.1",
+      "name": "B32::Cabin-A.east.vertical_joint.1",
       "matrix": [
         [
           0.00800000037997961,
@@ -3278,7 +3278,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.vertical_joint.2",
+      "name": "B32::Cabin-A.east.vertical_joint.2",
       "matrix": [
         [
           0.00800000037997961,
@@ -3309,7 +3309,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.vertical_joint.3",
+      "name": "B32::Cabin-A.east.vertical_joint.3",
       "matrix": [
         [
           0.00800000037997961,
@@ -3340,7 +3340,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.vertical_joint.4",
+      "name": "B32::Cabin-A.east.vertical_joint.4",
       "matrix": [
         [
           0.00800000037997961,
@@ -3371,7 +3371,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.east.vertical_joint.5",
+      "name": "B32::Cabin-A.east.vertical_joint.5",
       "matrix": [
         [
           0.00800000037997961,
@@ -3402,7 +3402,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C110.corner_strip.1.-1.0",
+      "name": "B32::Cabin-A.corner_strip.1.-1.0",
       "matrix": [
         [
           0.02800000086426735,
@@ -3433,7 +3433,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C110.corner_strip_header.1.-1.0",
+      "name": "B32::Cabin-A.corner_strip_header.1.-1.0",
       "matrix": [
         [
           0.02800000086426735,
@@ -3464,7 +3464,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C110.corner_strip.1.1.0",
+      "name": "B32::Cabin-A.corner_strip.1.1.0",
       "matrix": [
         [
           0.02800000086426735,
@@ -3495,7 +3495,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C110.roof_gutter.1",
+      "name": "B32::Cabin-A.roof_gutter.1",
       "matrix": [
         [
           0.12999999523162842,
@@ -3526,7 +3526,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C110.roof_plate",
+      "name": "B32::Cabin-A.roof_plate",
       "matrix": [
         [
           2.9107682704925537,
@@ -3557,7 +3557,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C110.roof_seam.00",
+      "name": "B32::Cabin-A.roof_seam.00",
       "matrix": [
         [
           2.9107682704925537,
@@ -3588,7 +3588,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C110.roof_seam.01",
+      "name": "B32::Cabin-A.roof_seam.01",
       "matrix": [
         [
           2.9107682704925537,
@@ -3619,7 +3619,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C110.roof_seam.02",
+      "name": "B32::Cabin-A.roof_seam.02",
       "matrix": [
         [
           2.9107682704925537,
@@ -3650,7 +3650,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C110.roof_seam.03",
+      "name": "B32::Cabin-A.roof_seam.03",
       "matrix": [
         [
           2.9107682704925537,
@@ -3681,7 +3681,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C110.roof_seam.04",
+      "name": "B32::Cabin-A.roof_seam.04",
       "matrix": [
         [
           2.9107682704925537,
@@ -3712,7 +3712,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C110.roof_seam.05",
+      "name": "B32::Cabin-A.roof_seam.05",
       "matrix": [
         [
           2.9107682704925537,
@@ -3743,7 +3743,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C110.roof_seam.06",
+      "name": "B32::Cabin-A.roof_seam.06",
       "matrix": [
         [
           2.9107682704925537,
@@ -3774,7 +3774,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C110.roof_lifting_loop.-1.-1",
+      "name": "B32::Cabin-A.roof_lifting_loop.-1.-1",
       "matrix": [
         [
           -0.024999994784593582,
@@ -3805,7 +3805,7 @@
       "material": "B32_steel"
     },
     {
-      "name": "B32::C110.roof_lifting_loop.1.-1",
+      "name": "B32::Cabin-A.roof_lifting_loop.1.-1",
       "matrix": [
         [
           -0.024999994784593582,
@@ -3836,7 +3836,7 @@
       "material": "B32_steel"
     },
     {
-      "name": "B32::C110.roof_lifting_loop.-1.1",
+      "name": "B32::Cabin-A.roof_lifting_loop.-1.1",
       "matrix": [
         [
           -0.024999994784593582,
@@ -3867,7 +3867,7 @@
       "material": "B32_steel"
     },
     {
-      "name": "B32::C110.roof_lifting_loop.1.1",
+      "name": "B32::Cabin-A.roof_lifting_loop.1.1",
       "matrix": [
         [
           -0.024999994784593582,
@@ -3898,7 +3898,7 @@
       "material": "B32_steel"
     },
     {
-      "name": "B32::C110.door_step.0.0",
+      "name": "B32::Cabin-A.door_step.0.0",
       "matrix": [
         [
           1.4500000476837158,
@@ -3929,7 +3929,7 @@
       "material": "B32_concrete"
     },
     {
-      "name": "B32::C110.door_step_nosing.0.0",
+      "name": "B32::Cabin-A.door_step_nosing.0.0",
       "matrix": [
         [
           0.05000000074505806,
@@ -3960,7 +3960,7 @@
       "material": "B32_yellow"
     },
     {
-      "name": "B32::C110.door_step.0.1",
+      "name": "B32::Cabin-A.door_step.0.1",
       "matrix": [
         [
           1.1399999856948853,
@@ -3991,7 +3991,7 @@
       "material": "B32_concrete"
     },
     {
-      "name": "B32::C110.door_step_nosing.0.1",
+      "name": "B32::Cabin-A.door_step_nosing.0.1",
       "matrix": [
         [
           0.05000000074505806,
@@ -4022,7 +4022,7 @@
       "material": "B32_yellow"
     },
     {
-      "name": "B32::C110.door_step.0.2",
+      "name": "B32::Cabin-A.door_step.0.2",
       "matrix": [
         [
           0.8299999833106995,
@@ -4053,7 +4053,7 @@
       "material": "B32_concrete"
     },
     {
-      "name": "B32::C110.door_step_nosing.0.2",
+      "name": "B32::Cabin-A.door_step_nosing.0.2",
       "matrix": [
         [
           0.05000000074505806,
@@ -4084,7 +4084,7 @@
       "material": "B32_yellow"
     },
     {
-      "name": "B32::C110.name",
+      "name": "B32::Cabin-A.name",
       "matrix": [
         [
           0.0,
@@ -4115,7 +4115,7 @@
       "material": "B32_dark"
     },
     {
-      "name": "B32::C110.name_east",
+      "name": "B32::Cabin-A.name_east",
       "matrix": [
         [
           0.0,
@@ -4146,7 +4146,7 @@
       "material": "B32_dark"
     },
     {
-      "name": "B32::C220.floor",
+      "name": "B32::Cabin-B.floor",
       "matrix": [
         [
           2.6886093616485596,
@@ -4177,7 +4177,7 @@
       "material": "B32_base"
     },
     {
-      "name": "B32::C220.base_rail.-1",
+      "name": "B32::Cabin-B.base_rail.-1",
       "matrix": [
         [
           0.12999999523162842,
@@ -4208,7 +4208,7 @@
       "material": "B32_base"
     },
     {
-      "name": "B32::C220.foundation_rail.-1",
+      "name": "B32::Cabin-B.foundation_rail.-1",
       "matrix": [
         [
           0.3199999928474426,
@@ -4239,7 +4239,7 @@
       "material": "B32_concrete"
     },
     {
-      "name": "B32::C220.west.panel.0",
+      "name": "B32::Cabin-B.west.panel.0",
       "matrix": [
         [
           0.054999999701976776,
@@ -4270,7 +4270,7 @@
       "material": "B32_wall"
     },
     {
-      "name": "B32::C220.west.panel.1",
+      "name": "B32::Cabin-B.west.panel.1",
       "matrix": [
         [
           0.054999999701976776,
@@ -4301,7 +4301,7 @@
       "material": "B32_wall"
     },
     {
-      "name": "B32::C220.west.panel.2",
+      "name": "B32::Cabin-B.west.panel.2",
       "matrix": [
         [
           0.054999999701976776,
@@ -4332,7 +4332,7 @@
       "material": "B32_wall"
     },
     {
-      "name": "B32::C220.west.panel.3",
+      "name": "B32::Cabin-B.west.panel.3",
       "matrix": [
         [
           0.054999999701976776,
@@ -4363,7 +4363,7 @@
       "material": "B32_wall"
     },
     {
-      "name": "B32::C220.west.panel.4",
+      "name": "B32::Cabin-B.west.panel.4",
       "matrix": [
         [
           0.054999999701976776,
@@ -4394,7 +4394,7 @@
       "material": "B32_wall"
     },
     {
-      "name": "B32::C220.west.joint.0.0",
+      "name": "B32::Cabin-B.west.joint.0.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -4425,7 +4425,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.0.1",
+      "name": "B32::Cabin-B.west.joint.0.1",
       "matrix": [
         [
           0.009999999776482582,
@@ -4456,7 +4456,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.0.2",
+      "name": "B32::Cabin-B.west.joint.0.2",
       "matrix": [
         [
           0.009999999776482582,
@@ -4487,7 +4487,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.1.0",
+      "name": "B32::Cabin-B.west.joint.1.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -4518,7 +4518,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.1.1",
+      "name": "B32::Cabin-B.west.joint.1.1",
       "matrix": [
         [
           0.009999999776482582,
@@ -4549,7 +4549,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.1.2",
+      "name": "B32::Cabin-B.west.joint.1.2",
       "matrix": [
         [
           0.009999999776482582,
@@ -4580,7 +4580,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.2.0",
+      "name": "B32::Cabin-B.west.joint.2.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -4611,7 +4611,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.2.1",
+      "name": "B32::Cabin-B.west.joint.2.1",
       "matrix": [
         [
           0.009999999776482582,
@@ -4642,7 +4642,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.2.2",
+      "name": "B32::Cabin-B.west.joint.2.2",
       "matrix": [
         [
           0.009999999776482582,
@@ -4673,7 +4673,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.3.0",
+      "name": "B32::Cabin-B.west.joint.3.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -4704,7 +4704,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.3.1",
+      "name": "B32::Cabin-B.west.joint.3.1",
       "matrix": [
         [
           0.009999999776482582,
@@ -4735,7 +4735,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.3.2",
+      "name": "B32::Cabin-B.west.joint.3.2",
       "matrix": [
         [
           0.009999999776482582,
@@ -4766,7 +4766,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.4.0",
+      "name": "B32::Cabin-B.west.joint.4.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -4797,7 +4797,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.4.1",
+      "name": "B32::Cabin-B.west.joint.4.1",
       "matrix": [
         [
           0.009999999776482582,
@@ -4828,7 +4828,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.4.2",
+      "name": "B32::Cabin-B.west.joint.4.2",
       "matrix": [
         [
           0.009999999776482582,
@@ -4859,7 +4859,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.5.0",
+      "name": "B32::Cabin-B.west.joint.5.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -4890,7 +4890,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.5.1",
+      "name": "B32::Cabin-B.west.joint.5.1",
       "matrix": [
         [
           0.009999999776482582,
@@ -4921,7 +4921,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.5.2",
+      "name": "B32::Cabin-B.west.joint.5.2",
       "matrix": [
         [
           0.009999999776482582,
@@ -4952,7 +4952,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.6.0",
+      "name": "B32::Cabin-B.west.joint.6.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -4983,7 +4983,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.6.1",
+      "name": "B32::Cabin-B.west.joint.6.1",
       "matrix": [
         [
           0.009999999776482582,
@@ -5014,7 +5014,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.6.2",
+      "name": "B32::Cabin-B.west.joint.6.2",
       "matrix": [
         [
           0.009999999776482582,
@@ -5045,7 +5045,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.joint.7.0",
+      "name": "B32::Cabin-B.west.joint.7.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -5076,7 +5076,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.vertical_joint.0",
+      "name": "B32::Cabin-B.west.vertical_joint.0",
       "matrix": [
         [
           0.00800000037997961,
@@ -5107,7 +5107,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.vertical_joint.1",
+      "name": "B32::Cabin-B.west.vertical_joint.1",
       "matrix": [
         [
           0.00800000037997961,
@@ -5138,7 +5138,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.vertical_joint.2",
+      "name": "B32::Cabin-B.west.vertical_joint.2",
       "matrix": [
         [
           0.00800000037997961,
@@ -5169,7 +5169,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.vertical_joint.3",
+      "name": "B32::Cabin-B.west.vertical_joint.3",
       "matrix": [
         [
           0.00800000037997961,
@@ -5200,7 +5200,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.vertical_joint.4",
+      "name": "B32::Cabin-B.west.vertical_joint.4",
       "matrix": [
         [
           0.00800000037997961,
@@ -5231,7 +5231,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.vertical_joint.5",
+      "name": "B32::Cabin-B.west.vertical_joint.5",
       "matrix": [
         [
           0.00800000037997961,
@@ -5262,7 +5262,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.vertical_joint.6",
+      "name": "B32::Cabin-B.west.vertical_joint.6",
       "matrix": [
         [
           0.00800000037997961,
@@ -5293,7 +5293,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.west.vertical_joint.7",
+      "name": "B32::Cabin-B.west.vertical_joint.7",
       "matrix": [
         [
           0.00800000037997961,
@@ -5324,7 +5324,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.corner_strip.-1.-1.0",
+      "name": "B32::Cabin-B.corner_strip.-1.-1.0",
       "matrix": [
         [
           0.02800000086426735,
@@ -5355,7 +5355,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.corner_strip_header.-1.-1.0",
+      "name": "B32::Cabin-B.corner_strip_header.-1.-1.0",
       "matrix": [
         [
           0.02800000086426735,
@@ -5386,7 +5386,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.corner_strip.-1.1.0",
+      "name": "B32::Cabin-B.corner_strip.-1.1.0",
       "matrix": [
         [
           0.02800000086426735,
@@ -5417,7 +5417,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.corner_strip_header.-1.1.1",
+      "name": "B32::Cabin-B.corner_strip_header.-1.1.1",
       "matrix": [
         [
           0.02800000086426735,
@@ -5448,7 +5448,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.roof_gutter.-1",
+      "name": "B32::Cabin-B.roof_gutter.-1",
       "matrix": [
         [
           0.12999999523162842,
@@ -5479,7 +5479,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.base_rail.1",
+      "name": "B32::Cabin-B.base_rail.1",
       "matrix": [
         [
           0.12999999523162842,
@@ -5510,7 +5510,7 @@
       "material": "B32_base"
     },
     {
-      "name": "B32::C220.foundation_rail.1",
+      "name": "B32::Cabin-B.foundation_rail.1",
       "matrix": [
         [
           0.3199999928474426,
@@ -5541,7 +5541,7 @@
       "material": "B32_concrete"
     },
     {
-      "name": "B32::C220.east.panel.0",
+      "name": "B32::Cabin-B.east.panel.0",
       "matrix": [
         [
           0.054999999701976776,
@@ -5572,7 +5572,7 @@
       "material": "B32_wall"
     },
     {
-      "name": "B32::C220.east.joint.0.0",
+      "name": "B32::Cabin-B.east.joint.0.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -5603,7 +5603,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.east.joint.1.0",
+      "name": "B32::Cabin-B.east.joint.1.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -5634,7 +5634,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.east.joint.2.0",
+      "name": "B32::Cabin-B.east.joint.2.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -5665,7 +5665,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.east.joint.3.0",
+      "name": "B32::Cabin-B.east.joint.3.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -5696,7 +5696,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.east.joint.4.0",
+      "name": "B32::Cabin-B.east.joint.4.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -5727,7 +5727,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.east.joint.5.0",
+      "name": "B32::Cabin-B.east.joint.5.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -5758,7 +5758,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.east.joint.6.0",
+      "name": "B32::Cabin-B.east.joint.6.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -5789,7 +5789,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.east.joint.7.0",
+      "name": "B32::Cabin-B.east.joint.7.0",
       "matrix": [
         [
           0.009999999776482582,
@@ -5820,7 +5820,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.east.vertical_joint.0",
+      "name": "B32::Cabin-B.east.vertical_joint.0",
       "matrix": [
         [
           0.00800000037997961,
@@ -5851,7 +5851,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.east.vertical_joint.1",
+      "name": "B32::Cabin-B.east.vertical_joint.1",
       "matrix": [
         [
           0.00800000037997961,
@@ -5882,7 +5882,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.east.vertical_joint.2",
+      "name": "B32::Cabin-B.east.vertical_joint.2",
       "matrix": [
         [
           0.00800000037997961,
@@ -5913,7 +5913,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.east.vertical_joint.3",
+      "name": "B32::Cabin-B.east.vertical_joint.3",
       "matrix": [
         [
           0.00800000037997961,
@@ -5944,7 +5944,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.east.vertical_joint.4",
+      "name": "B32::Cabin-B.east.vertical_joint.4",
       "matrix": [
         [
           0.00800000037997961,
@@ -5975,7 +5975,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.east.vertical_joint.5",
+      "name": "B32::Cabin-B.east.vertical_joint.5",
       "matrix": [
         [
           0.00800000037997961,
@@ -6006,7 +6006,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.east.vertical_joint.6",
+      "name": "B32::Cabin-B.east.vertical_joint.6",
       "matrix": [
         [
           0.00800000037997961,
@@ -6037,7 +6037,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.east.vertical_joint.7",
+      "name": "B32::Cabin-B.east.vertical_joint.7",
       "matrix": [
         [
           0.00800000037997961,
@@ -6068,7 +6068,7 @@
       "material": "B32_seam"
     },
     {
-      "name": "B32::C220.corner_strip.1.-1.0",
+      "name": "B32::Cabin-B.corner_strip.1.-1.0",
       "matrix": [
         [
           0.02800000086426735,
@@ -6099,7 +6099,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.corner_strip.1.1.0",
+      "name": "B32::Cabin-B.corner_strip.1.1.0",
       "matrix": [
         [
           0.02800000086426735,
@@ -6130,7 +6130,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.roof_gutter.1",
+      "name": "B32::Cabin-B.roof_gutter.1",
       "matrix": [
         [
           0.12999999523162842,
@@ -6161,7 +6161,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.roof_plate",
+      "name": "B32::Cabin-B.roof_plate",
       "matrix": [
         [
           2.908609390258789,
@@ -6192,7 +6192,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.roof_seam.00",
+      "name": "B32::Cabin-B.roof_seam.00",
       "matrix": [
         [
           2.908609390258789,
@@ -6223,7 +6223,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.roof_seam.01",
+      "name": "B32::Cabin-B.roof_seam.01",
       "matrix": [
         [
           2.908609390258789,
@@ -6254,7 +6254,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.roof_seam.02",
+      "name": "B32::Cabin-B.roof_seam.02",
       "matrix": [
         [
           2.908609390258789,
@@ -6285,7 +6285,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.roof_seam.03",
+      "name": "B32::Cabin-B.roof_seam.03",
       "matrix": [
         [
           2.908609390258789,
@@ -6316,7 +6316,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.roof_seam.04",
+      "name": "B32::Cabin-B.roof_seam.04",
       "matrix": [
         [
           2.908609390258789,
@@ -6347,7 +6347,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.roof_seam.05",
+      "name": "B32::Cabin-B.roof_seam.05",
       "matrix": [
         [
           2.908609390258789,
@@ -6378,7 +6378,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.roof_seam.06",
+      "name": "B32::Cabin-B.roof_seam.06",
       "matrix": [
         [
           2.908609390258789,
@@ -6409,7 +6409,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.roof_seam.07",
+      "name": "B32::Cabin-B.roof_seam.07",
       "matrix": [
         [
           2.908609390258789,
@@ -6440,7 +6440,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.roof_seam.08",
+      "name": "B32::Cabin-B.roof_seam.08",
       "matrix": [
         [
           2.908609390258789,
@@ -6471,7 +6471,7 @@
       "material": "B32_green"
     },
     {
-      "name": "B32::C220.roof_lifting_loop.-1.-1",
+      "name": "B32::Cabin-B.roof_lifting_loop.-1.-1",
       "matrix": [
         [
           -0.02500000037252903,
@@ -6502,7 +6502,7 @@
       "material": "B32_steel"
     },
     {
-      "name": "B32::C220.roof_lifting_loop.1.-1",
+      "name": "B32::Cabin-B.roof_lifting_loop.1.-1",
       "matrix": [
         [
           -0.02500000037252903,
@@ -6533,7 +6533,7 @@
       "material": "B32_steel"
     },
     {
-      "name": "B32::C220.roof_lifting_loop.-1.1",
+      "name": "B32::Cabin-B.roof_lifting_loop.-1.1",
       "matrix": [
         [
           -0.02500000037252903,
@@ -6564,7 +6564,7 @@
       "material": "B32_steel"
     },
     {
-      "name": "B32::C220.roof_lifting_loop.1.1",
+      "name": "B32::Cabin-B.roof_lifting_loop.1.1",
       "matrix": [
         [
           -0.02500000037252903,
@@ -6595,7 +6595,7 @@
       "material": "B32_steel"
     },
     {
-      "name": "B32::C220.door_step.0.0",
+      "name": "B32::Cabin-B.door_step.0.0",
       "matrix": [
         [
           1.4500000476837158,
@@ -6626,7 +6626,7 @@
       "material": "B32_concrete"
     },
     {
-      "name": "B32::C220.door_step_nosing.0.0",
+      "name": "B32::Cabin-B.door_step_nosing.0.0",
       "matrix": [
         [
           0.05000000074505806,
@@ -6657,7 +6657,7 @@
       "material": "B32_yellow"
     },
     {
-      "name": "B32::C220.door_step.0.1",
+      "name": "B32::Cabin-B.door_step.0.1",
       "matrix": [
         [
           1.1399999856948853,
@@ -6688,7 +6688,7 @@
       "material": "B32_concrete"
     },
     {
-      "name": "B32::C220.door_step_nosing.0.1",
+      "name": "B32::Cabin-B.door_step_nosing.0.1",
       "matrix": [
         [
           0.05000000074505806,
@@ -6719,7 +6719,7 @@
       "material": "B32_yellow"
     },
     {
-      "name": "B32::C220.door_step.0.2",
+      "name": "B32::Cabin-B.door_step.0.2",
       "matrix": [
         [
           0.8299999833106995,
@@ -6750,7 +6750,7 @@
       "material": "B32_concrete"
     },
     {
-      "name": "B32::C220.door_step_nosing.0.2",
+      "name": "B32::Cabin-B.door_step_nosing.0.2",
       "matrix": [
         [
           0.05000000074505806,
@@ -6781,7 +6781,7 @@
       "material": "B32_yellow"
     },
     {
-      "name": "B32::C220.door_step.1.0",
+      "name": "B32::Cabin-B.door_step.1.0",
       "matrix": [
         [
           1.4500000476837158,
@@ -6812,7 +6812,7 @@
       "material": "B32_concrete"
     },
     {
-      "name": "B32::C220.door_step_nosing.1.0",
+      "name": "B32::Cabin-B.door_step_nosing.1.0",
       "matrix": [
         [
           0.05000000074505806,
@@ -6843,7 +6843,7 @@
       "material": "B32_yellow"
     },
     {
-      "name": "B32::C220.door_step.1.1",
+      "name": "B32::Cabin-B.door_step.1.1",
       "matrix": [
         [
           1.1399999856948853,
@@ -6874,7 +6874,7 @@
       "material": "B32_concrete"
     },
     {
-      "name": "B32::C220.door_step_nosing.1.1",
+      "name": "B32::Cabin-B.door_step_nosing.1.1",
       "matrix": [
         [
           0.05000000074505806,
@@ -6905,7 +6905,7 @@
       "material": "B32_yellow"
     },
     {
-      "name": "B32::C220.door_step.1.2",
+      "name": "B32::Cabin-B.door_step.1.2",
       "matrix": [
         [
           0.8299999833106995,
@@ -6936,7 +6936,7 @@
       "material": "B32_concrete"
     },
     {
-      "name": "B32::C220.door_step_nosing.1.2",
+      "name": "B32::Cabin-B.door_step_nosing.1.2",
       "matrix": [
         [
           0.05000000074505806,
@@ -6967,7 +6967,7 @@
       "material": "B32_yellow"
     },
     {
-      "name": "B32::C220.name",
+      "name": "B32::Cabin-B.name",
       "matrix": [
         [
           0.0,
@@ -7000,7 +7000,7 @@
   ],
   "roots": [
     {
-      "name": "B32::C110.END.-1",
+      "name": "B32::Cabin-A.END.-1",
       "source": "B32_CABIN_END_WALL_HVAC_MASTER",
       "matrix": [
         [
@@ -7030,7 +7030,7 @@
       ]
     },
     {
-      "name": "B32::C110.END.1",
+      "name": "B32::Cabin-A.END.1",
       "source": "B32_CABIN_END_WALL_HVAC_MASTER",
       "matrix": [
         [
@@ -7060,7 +7060,7 @@
       ]
     },
     {
-      "name": "B32::C110.DOOR.0",
+      "name": "B32::Cabin-A.DOOR.0",
       "source": "B32_CABIN_DOOR_MASTER",
       "matrix": [
         [
@@ -7090,8 +7090,8 @@
       ]
     },
     {
-      "name": "B32::C110.SITE",
-      "source": "B32_C110_CABIN_MASTER",
+      "name": "B32::Cabin-A.SITE",
+      "source": "B32_Cabin-A_CABIN_MASTER",
       "matrix": [
         [
           -0.9017335176467896,
@@ -7120,7 +7120,7 @@
       ]
     },
     {
-      "name": "B32::C220.END.-1",
+      "name": "B32::Cabin-B.END.-1",
       "source": "B32_CABIN_END_WALL_HVAC_MASTER",
       "matrix": [
         [
@@ -7150,7 +7150,7 @@
       ]
     },
     {
-      "name": "B32::C220.END.1",
+      "name": "B32::Cabin-B.END.1",
       "source": "B32_CABIN_END_WALL_HVAC_MASTER",
       "matrix": [
         [
@@ -7180,7 +7180,7 @@
       ]
     },
     {
-      "name": "B32::C220.DOOR.0",
+      "name": "B32::Cabin-B.DOOR.0",
       "source": "B32_CABIN_DOOR_MASTER",
       "matrix": [
         [
@@ -7210,7 +7210,7 @@
       ]
     },
     {
-      "name": "B32::C220.DOOR.1",
+      "name": "B32::Cabin-B.DOOR.1",
       "source": "B32_CABIN_DOOR_MASTER",
       "matrix": [
         [
@@ -7240,8 +7240,8 @@
       ]
     },
     {
-      "name": "B32::C220.SITE",
-      "source": "B32_C220_CABIN_MASTER",
+      "name": "B32::Cabin-B.SITE",
+      "source": "B32_Cabin-B_CABIN_MASTER",
       "matrix": [
         [
           -0.9021645188331604,
@@ -7272,9 +7272,9 @@
   ],
   "placements": [
     {
-      "key": "C110",
-      "root": "B32::C110.SITE",
-      "master": "B32_C110_CABIN_MASTER",
+      "key": "Cabin-A",
+      "root": "B32::Cabin-A.SITE",
+      "master": "B32_Cabin-A_CABIN_MASTER",
       "world_matrix": [
         [
           -0.901733491464675,
@@ -7312,12 +7312,12 @@
       "step_depth": 1.45,
       "step_width": 1.2,
       "door_side": "east",
-      "source_measurement": "C110"
+      "source_measurement": "Cabin-A"
     },
     {
-      "key": "C220",
-      "root": "B32::C220.SITE",
-      "master": "B32_C220_CABIN_MASTER",
+      "key": "Cabin-B",
+      "root": "B32::Cabin-B.SITE",
+      "master": "B32_Cabin-B_CABIN_MASTER",
       "world_matrix": [
         [
           -0.9021645269796777,
@@ -7356,12 +7356,12 @@
       "step_depth": 1.45,
       "step_width": 1.2,
       "door_side": "west",
-      "source_measurement": "C220"
+      "source_measurement": "Cabin-B"
     }
   ],
   "pending": [
     "Shell datums from correlated registered reconstruction; door centers, roof sheets and small HVAC details use photo-derived regularization.",
-    "C110 east door at local Y -3.90, C220 two west doors at -5.50 and +5.32: source stair footprints and photos DSC3140/DJI0001/0002. Door centers regularized to stair platforms; green corner strips clipped around real door openings. Floor and stair elevations approximate source deck levels. Hidden interiors and precise manufacturer dimensions not reconstructed.",
+    "Cabin-A east door at local Y -3.90, Cabin-B two west doors at -5.50 and +5.32: source stair footprints and photos DSC3140/DJI0001/0002. Door centers regularized to stair platforms; green corner strips clipped around real door openings. Floor and stair elevations approximate source deck levels. Hidden interiors and precise manufacturer dimensions not reconstructed.",
     "Other entrance/service buildings, roads, missing boundary walls and auxiliary facilities still require modeling."
   ],
   "outdoor_goal_complete": false

@@ -1,7 +1,7 @@
 {
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/xialin_B09_capacitor_banks.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/site_B09_capacitor_banks.blend",
   "sha256": "d9d95b447b58165719096bb2f53d1f630fca0170e9ebfb5abea58a1b48e60b5f",
-  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/xialin_B08_shared_transformers_r2.blend",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/site_B08_shared_transformers_r2.blend",
   "previous_sha256": "69f59b972458e2a6e95726477f49f46aaff8baec2f76fe04f94f3f1aac010403",
   "source_asset": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P05_r2/P05_TBB35_capacitor_photo_first.blend",
   "source_asset_sha256": "55722f0c114ae46c9d3f6f4bd7fdc2ab54a835b3deb20d218c21c54b103e9c11",

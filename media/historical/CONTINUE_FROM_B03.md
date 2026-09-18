@@ -7,7 +7,7 @@ and real renders during work. Original formal station remains semantic v50.
 
 ## Current deliverables
 
-- Full station: output/installation_B03/r2/xialin_photo_first_B03_station_preview.blend
+- Full station: output/installation_B03/r2/site_photo_first_B03_station_preview.blend
   SHA256 04a5974dca2a04e3134915e7f76f2aea47c58b46e8b46faead7508dd29c5c2fc
   734,770,677 bytes. B03_station_validation.json passed (software/integration scope).
 - Local six-target review: output/installation_B03/r2/P02_B03_748_747_installation_review.blend

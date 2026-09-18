@@ -6,7 +6,7 @@
       "phase_candidate": "A",
       "device_id": "12MZ0000000149700",
       "name": "夏吴2899避雷器A相",
-      "variant": "SA220_SHORT_SUPPORT",
+      "variant": "SA-B_SHORT_SUPPORT",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -46.721059999999994,
@@ -576,7 +576,7 @@
       "phase_candidate": "B",
       "device_id": "12MZ0000000149701",
       "name": "夏吴2899避雷器B相",
-      "variant": "SA220_SHORT_SUPPORT",
+      "variant": "SA-B_SHORT_SUPPORT",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -45.52106,
@@ -1192,7 +1192,7 @@
       "phase_candidate": "C",
       "device_id": "12MZ0000000149702",
       "name": "夏吴2899避雷器C相",
-      "variant": "SA220_SHORT_SUPPORT",
+      "variant": "SA-B_SHORT_SUPPORT",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -43.821059999999996,
@@ -1791,7 +1791,7 @@
       "phase_candidate": "A",
       "device_id": "12MZ0000000149725",
       "name": "备用壹4B77避雷器A相",
-      "variant": "SA220_SHORT_SUPPORT",
+      "variant": "SA-B_SHORT_SUPPORT",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -41.321059999999996,
@@ -2143,7 +2143,7 @@
       "phase_candidate": "B",
       "device_id": "12MZ0000000149726",
       "name": "备用壹4B77避雷器B相",
-      "variant": "SA220_SHORT_SUPPORT",
+      "variant": "SA-B_SHORT_SUPPORT",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -40.22106,
@@ -2500,7 +2500,7 @@
       "phase_candidate": "C",
       "device_id": "12MZ0000000149727",
       "name": "备用壹4B77避雷器C相",
-      "variant": "SA220_SHORT_SUPPORT",
+      "variant": "SA-B_SHORT_SUPPORT",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -38.421060000000004,
@@ -2891,7 +2891,7 @@
       "phase_candidate": "A",
       "device_id": "12MZ0000000149675",
       "name": "河夏4D75避雷器A相",
-      "variant": "SA220_SHORT_SUPPORT",
+      "variant": "SA-B_SHORT_SUPPORT",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -57.321059999999996,
@@ -3359,7 +3359,7 @@
       "phase_candidate": "B",
       "device_id": "12MZ0000000149676",
       "name": "河夏4D75避雷器B相",
-      "variant": "SA220_SHORT_SUPPORT",
+      "variant": "SA-B_SHORT_SUPPORT",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -55.62106,
@@ -3927,7 +3927,7 @@
       "phase_candidate": "C",
       "device_id": "12MZ0000000149677",
       "name": "河夏4D75避雷器C相",
-      "variant": "SA220_SHORT_SUPPORT",
+      "variant": "SA-B_SHORT_SUPPORT",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -53.92106,
@@ -4570,7 +4570,7 @@
       "phase_candidate": "A",
       "device_id": "12MZ0000000149646",
       "name": "河夏4D76避雷器A相",
-      "variant": "SA220_SHORT_SUPPORT",
+      "variant": "SA-B_SHORT_SUPPORT",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -51.821059999999996,
@@ -5251,7 +5251,7 @@
       "phase_candidate": "B",
       "device_id": "12MZ0000000149647",
       "name": "河夏4D76避雷器B相",
-      "variant": "SA220_SHORT_SUPPORT",
+      "variant": "SA-B_SHORT_SUPPORT",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -50.42106,
@@ -5970,7 +5970,7 @@
       "phase_candidate": "C",
       "device_id": "12MZ0000000149648",
       "name": "河夏4D76避雷器C相",
-      "variant": "SA220_SHORT_SUPPORT",
+      "variant": "SA-B_SHORT_SUPPORT",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -49.12106,
@@ -6541,7 +6541,7 @@
       "phase_candidate": "A",
       "device_id": "12MZ0000000150031",
       "name": "#1主变高压侧避雷器A相",
-      "variant": "SA220_TALL",
+      "variant": "SA-B_TALL",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -19.43476,
@@ -7521,7 +7521,7 @@
       "phase_candidate": "B",
       "device_id": "12MZ0000000150032",
       "name": "#1主变高压侧避雷器B相",
-      "variant": "SA220_TALL",
+      "variant": "SA-B_TALL",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -18.43476,
@@ -8368,7 +8368,7 @@
       "phase_candidate": "C",
       "device_id": "12MZ0000000150033",
       "name": "#1主变高压侧避雷器C相",
-      "variant": "SA220_TALL",
+      "variant": "SA-B_TALL",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -16.63476,
@@ -9192,7 +9192,7 @@
       "phase_candidate": "A",
       "device_id": "12MZ0000000149781",
       "name": "#2主变高压侧避雷器A相",
-      "variant": "SA220_TALL",
+      "variant": "SA-B_TALL",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -27.021060000000002,
@@ -10086,7 +10086,7 @@
       "phase_candidate": "B",
       "device_id": "12MZ0000000149782",
       "name": "#2主变高压侧避雷器B相",
-      "variant": "SA220_TALL",
+      "variant": "SA-B_TALL",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -25.621060000000003,
@@ -10919,7 +10919,7 @@
       "phase_candidate": "C",
       "device_id": "12MZ0000000149783",
       "name": "#2主变高压侧避雷器C相",
-      "variant": "SA220_TALL",
+      "variant": "SA-B_TALL",
       "model": "Y10W-204/532W",
       "legacy_seed": [
         -24.321060000000003,

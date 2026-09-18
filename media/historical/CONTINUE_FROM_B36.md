@@ -4,7 +4,7 @@
 
 新增 5 根母线架钢柱、33 个短支柱绝缘子、6 组房屋侧立式器件及支柱、6 个穿墙套管、6 条连续主连接排，以及基础、柱脚加劲板、纵横梁和接续附件。四类主要部件均使用同一组件库中的共享集合。
 
-工程：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B36/xialin_B36_transformer_bus_racks_r3.blend`。SHA-256：`b6bbc3caeffdf72ca52df2dd5e01234269fe652827131e64f1f8a1da7ef502e8`。
+工程：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B36/site_B36_transformer_bus_racks_r3.blend`。SHA-256：`b6bbc3caeffdf72ca52df2dd5e01234269fe652827131e64f1f8a1da7ef502e8`。
 
 组件库：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B36/B36_bus_rack_components_r3.blend`。SHA-256：`f7a4065277b49b0ede055eeefbd28ce853c896ebe951b761d75816bd5a791c8d`。
 

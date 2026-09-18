@@ -1,6 +1,6 @@
 # B27 续作说明
 
-当前 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B27/xialin_B27_central_strain_insulators.blend`，SHA `3d931d4e25eb93d7e526ea014c4dceba6a684af4669396aad348a9a68b1535df`；资产 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B27/B27_central_strain_components.blend`，SHA `06851aa03cbbb001e14eac5f8cd200d9d11e91d1d62f7b94a79060166b1db8ab`。GUI已打开556_B27_Central_Clean，dirtyFalse，31032对象、550场景。新增554–565共12场景：554全站clean、555全站叠图，556–558主变区，559–561仅绝缘子，562–564单相两侧，565盘片母版编辑。B27_review.html三个滑动对照与全站/母版预览，链接与JS检查通过，未做浏览器布局验收。
+当前 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B27/site_B27_central_strain_insulators.blend`，SHA `3d931d4e25eb93d7e526ea014c4dceba6a684af4669396aad348a9a68b1535df`；资产 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B27/B27_central_strain_components.blend`，SHA `06851aa03cbbb001e14eac5f8cd200d9d11e91d1d62f7b94a79060166b1db8ab`。GUI已打开556_B27_Central_Clean，dirtyFalse，31032对象、550场景。新增554–565共12场景：554全站clean、555全站叠图，556–558主变区，559–561仅绝缘子，562–564单相两侧，565盘片母版编辑。B27_review.html三个滑动对照与全站/母版预览，链接与JS检查通过，未做浏览器布局验收。
 
 本轮属于实质推进：实拍0059完整5280×3956显示中央6相位位置各有两侧耐张串，共12串。沿用B26 CENTRAL_reference.npz及原三角身份，宏观F与B20/B25/B26一致。负X侧短串约1.76米，正X侧长串约2.95米；中心线Y线性、Z二次拟合偶数三角，盘片等弧长布置并逐个沿切线旋转。B27_plan.json保存轴线、13/20盘片近似数、.135m半径、6相位Ys、端点和固定奇数比较域。不是制造图纸/铭牌规格，源粗模平滑单片细节。
 

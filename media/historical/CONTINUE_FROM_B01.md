@@ -23,7 +23,7 @@ No newly promoted official equipment, no inspection-point mapping update.
 
 ## What was instantiated
 
-Frozen source output/P02_r1/P02_SA110_photo_first.blend, SHA256
+Frozen source output/P02_r1/P02_SA-A_photo_first.blend, SHA256
 1df8ba4ec1fcaca62d985bddfe3f4dcaac493af7879effda4981feef53dc385b.
 Source has 67 authored objects across BODY38 / PEDESTAL17 / ACCESSORY7 / LOCAL_LEAD5,
 using four primitive Mesh datablocks. All 67 original geometry hashes, local matrices,

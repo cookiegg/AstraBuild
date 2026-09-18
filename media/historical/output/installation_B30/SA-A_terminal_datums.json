@@ -2,7 +2,7 @@
   "terminals": [
     {
       "id": "B02_749_A_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B02_749_A_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -13,7 +13,7 @@
     },
     {
       "id": "B02_749_B_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B02_749_B_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -24,7 +24,7 @@
     },
     {
       "id": "B02_749_C_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B02_749_C_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -35,7 +35,7 @@
     },
     {
       "id": "B03_748_A_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B03_748_A_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -46,7 +46,7 @@
     },
     {
       "id": "B03_748_C_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B03_748_C_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -57,7 +57,7 @@
     },
     {
       "id": "B03_747_A_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B03_747_A_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -68,7 +68,7 @@
     },
     {
       "id": "B03_747_B_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B03_747_B_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -79,7 +79,7 @@
     },
     {
       "id": "B03_747_C_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B03_747_C_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -90,7 +90,7 @@
     },
     {
       "id": "B05_746_C_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B05_746_C_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -101,7 +101,7 @@
     },
     {
       "id": "B05_750_A_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B05_750_A_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -112,7 +112,7 @@
     },
     {
       "id": "B05_750_B_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B05_750_B_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -123,7 +123,7 @@
     },
     {
       "id": "B05_750_C_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B05_750_C_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -134,7 +134,7 @@
     },
     {
       "id": "B11_746_A_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_746_A_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -145,7 +145,7 @@
     },
     {
       "id": "B11_746_B_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_746_B_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -156,7 +156,7 @@
     },
     {
       "id": "B11_748_B_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_748_B_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -167,7 +167,7 @@
     },
     {
       "id": "B11_751_A_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_751_A_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -178,7 +178,7 @@
     },
     {
       "id": "B11_751_B_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_751_B_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -189,7 +189,7 @@
     },
     {
       "id": "B11_751_C_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_751_C_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -200,7 +200,7 @@
     },
     {
       "id": "B11_758_A_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_758_A_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -211,7 +211,7 @@
     },
     {
       "id": "B11_758_B_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_758_B_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -222,7 +222,7 @@
     },
     {
       "id": "B11_758_C_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_758_C_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -233,7 +233,7 @@
     },
     {
       "id": "B11_759_A_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_759_A_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -244,7 +244,7 @@
     },
     {
       "id": "B11_759_B_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_759_B_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -255,7 +255,7 @@
     },
     {
       "id": "B11_759_C_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_759_C_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -266,7 +266,7 @@
     },
     {
       "id": "B11_T1_501_A_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_T1_501_A_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -277,7 +277,7 @@
     },
     {
       "id": "B11_T1_501_B_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_T1_501_B_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -288,7 +288,7 @@
     },
     {
       "id": "B11_T1_501_C_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_T1_501_C_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -299,7 +299,7 @@
     },
     {
       "id": "B11_T2_MV_A_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_T2_MV_A_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -310,7 +310,7 @@
     },
     {
       "id": "B11_T2_MV_B_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_T2_MV_B_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [
@@ -321,7 +321,7 @@
     },
     {
       "id": "B11_T2_MV_C_BODY",
-      "kind": "SA110_arrester",
+      "kind": "SA-A_arrester",
       "root": "B11_T2_MV_C_BODY",
       "terminal_mesh": "P02_body.terminal_lug",
       "point": [

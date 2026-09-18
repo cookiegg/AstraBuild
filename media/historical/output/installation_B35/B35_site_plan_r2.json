@@ -12440,7 +12440,7 @@
       "width": 2.05,
       "height": 1.1,
       "bottom": 0.65,
-      "label": "110kV",
+      "label": "VC-A",
       "method": "DJI0005 visible green board near cabin, source partial"
     },
     {
@@ -12453,7 +12453,7 @@
       "width": 2.05,
       "height": 1.1,
       "bottom": 0.65,
-      "label": "220kV",
+      "label": "VC-B",
       "method": "DJI0001/0059 source board adjacent equipment cabin"
     }
   ],

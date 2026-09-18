@@ -5,7 +5,7 @@
       "device_id": "12MZ0000000219410",
       "name": "母联500",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_COUPLER",
+      "variant": "GIS-A_COUPLER",
       "frame_to_world": [
         [
           -0.9012996483415838,
@@ -2203,9 +2203,9 @@
     {
       "key": "VT_I",
       "device_id": "12MZ0000000219418",
-      "name": "110kV I母压变",
+      "name": "VC-A I母压变",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_VT",
+      "variant": "GIS-A_VT",
       "frame_to_world": [
         [
           -0.9012996483415838,
@@ -3792,9 +3792,9 @@
     {
       "key": "VT_II",
       "device_id": "12MZ0000000219417",
-      "name": "110kV II母压变",
+      "name": "VC-A II母压变",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_VT",
+      "variant": "GIS-A_VT",
       "frame_to_world": [
         [
           -0.9012996483415838,

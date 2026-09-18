@@ -1,10 +1,10 @@
 # B30 交付与续作说明
 
-工程 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/xialin_B30_GIS_downleads_arrester_branches.blend`，SHA256 `9e1787a3eeb01e28f34eb2fa82dc5b741fef98ef5a86a085566513d5f68e4aad`。共享导线组件 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/B30_downlead_components.blend`，SHA256 `a4d06a3cd4146b52a5760cd9ea15cf0d007c9d53d4ab1f750568b1fb6af6a85c`。Blender 5.1.2 已重新打开，默认622_B30_G220_OUT_Detail_Clean，dirtyFalse；618场景、33223对象，当前整站7113对象。对照页B30_review.html有9组同相机滑动对照、29幅嵌入PNG。
+工程 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/site_B30_GIS_downleads_arrester_branches.blend`，SHA256 `9e1787a3eeb01e28f34eb2fa82dc5b741fef98ef5a86a085566513d5f68e4aad`。共享导线组件 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/B30_downlead_components.blend`，SHA256 `a4d06a3cd4146b52a5760cd9ea15cf0d007c9d53d4ab1f750568b1fb6af6a85c`。Blender 5.1.2 已重新打开，默认622_B30_G220_OUT_Detail_Clean，dirtyFalse；618场景、33223对象，当前整站7113对象。对照页B30_review.html有9组同相机滑动对照、29幅嵌入PNG。
 
 ## 实际新增
 
-48组 GIS 下引线=110外排24单根、110内排6双根、220外排12双根、220内排6双根，共72根。前42组连接B29跳线末端与已有GIS套管端子，另外6组从220 kV主跨线在宏观X约−6.1米处分接到4801/4802套管。主引线整体沿Z单调，端点约束下拟合照片粗模中的弯曲走向；双分裂下端汇合到现有端子。
+48组 GIS 下引线=110外排24单根、110内排6双根、220外排12双根、220内排6双根，共72根。前42组连接B29跳线末端与已有GIS套管端子，另外6组从VC-B主跨线在宏观X约−6.1米处分接到4801/4802套管。主引线整体沿Z单调，端点约束下拟合照片粗模中的弯曲走向；双分裂下端汇合到现有端子。
 
 48条避雷器单支线：110外24、110内6、220外12、220内6。每条从实际SA端子接入对应下引线，双线使用短桥线合并。分接高度按可见支线区域拟合，未将上部旁线误拟入本支线。共新增384个几何对象=120根线+72上端线夹+48GIS端子夹+48SA端子夹+48分接夹+48双线短桥。
 
@@ -36,7 +36,7 @@
 
 ## 数据与操作
 
-本版计划B30_downlead_plan.json/B30_arrester_branch_plan.json保存全部路径、拟合域及原面索引。SA110_terminal_datums.json与B29/next_GIS_terminals.json是实际保存端子数据；B30/GIS110_reference.npz、GIS220_reference.npz、CROSS_reference.npz保留原重建出处。宏观坐标F沿用B20–B29，见plan.frame_to_world。
+本版计划B30_downlead_plan.json/B30_arrester_branch_plan.json保存全部路径、拟合域及原面索引。SA-A_terminal_datums.json与B29/next_GIS_terminals.json是实际保存端子数据；B30/GIS-A_reference.npz、GIS-B_reference.npz、CROSS_reference.npz保留原重建出处。宏观坐标F沿用B20–B29，见plan.frame_to_world。
 
 父级和instance_offset必须计入：object_transform/expand来自build_B19的纯函数，不用inactive scene matrix_world/dimensions。旧builder只能AST抽纯函数，不能import顶层执行。MCP user_prompt逐字“继续后续其他设备处理”。所有本轮后台进程已Blender quit，并通过原生ps确认退出。没有技能或子代理。
 

@@ -1,6 +1,6 @@
 # B33 保存与续作
 
-当前工程 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B33/xialin_B33_entrance_service_buildings_r2.blend`，SHA256 `009050a5a745f05a889e6e4be115a1f56a851329ff7403d5ceb356f3177fc1df`。独立组件 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B33/B33_service_building_components_r2.blend`。R2为最终基线；R1保留。
+当前工程 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B33/site_B33_entrance_service_buildings_r2.blend`，SHA256 `009050a5a745f05a889e6e4be115a1f56a851329ff7403d5ceb356f3177fc1df`。独立组件 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B33/B33_service_building_components_r2.blend`。R2为最终基线；R1保留。
 
 广义目标仍 active：尽可能完善剩余室外建筑、土建和辅助设施。不要因建筑完成就标记整站目标完成。
 

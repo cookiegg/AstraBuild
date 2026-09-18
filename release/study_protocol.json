@@ -1,7 +1,7 @@
 {
   "release": "AstraBuild research draft v0.2",
   "study_type": "longitudinal single-site case study",
-  "site": "220 kV Xialin Substation, Xuancheng",
+  "site": "an anonymized operating substation",
   "research_questions": [
     {
       "id": "RQ1",
@@ -19,7 +19,7 @@
       "id": "RQ3",
       "title": "Coverage-driven completion",
       "question": "Can residual and occupancy audits identify omissions that inventory-driven completion misses?",
-      "evidence": ["B25/B26 >1 m coverage fraction", "GIS220 high-region median", "transformer high-region median"]
+      "evidence": ["B25/B26 >1 m coverage fraction", "GIS-B high-region median", "transformer high-region median"]
     },
     {
       "id": "RQ4",

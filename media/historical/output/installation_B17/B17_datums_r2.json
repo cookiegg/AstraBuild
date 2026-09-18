@@ -4,7 +4,7 @@
       "key": "4D75",
       "device_id": "12MZ0000000219303",
       "name": "河夏4D75",
-      "variant": "GIS220_OUTGOING",
+      "variant": "GIS-B_OUTGOING",
       "frame_to_world": [
         [
           -0.8995578289031982,
@@ -4066,7 +4066,7 @@
       "key": "4D76",
       "device_id": "12MZ0000000219304",
       "name": "河夏4D76",
-      "variant": "GIS220_OUTGOING",
+      "variant": "GIS-B_OUTGOING",
       "frame_to_world": [
         [
           -0.8995578289031982,
@@ -8085,7 +8085,7 @@
       "key": "2899",
       "device_id": "12MZ0000000196735",
       "name": "夏吴2899组合电器",
-      "variant": "GIS220_OUTGOING",
+      "variant": "GIS-B_OUTGOING",
       "frame_to_world": [
         [
           -0.8995578289031982,
@@ -12695,7 +12695,7 @@
       "key": "4802",
       "device_id": "12MZ0000000219415",
       "name": "#2主变4802",
-      "variant": "GIS220_OUTGOING",
+      "variant": "GIS-B_OUTGOING",
       "frame_to_world": [
         [
           -0.8995578289031982,
@@ -17760,7 +17760,7 @@
       "key": "4B77",
       "device_id": "12MZ0000000219242",
       "name": "备用壹4B77",
-      "variant": "GIS220_OUTGOING",
+      "variant": "GIS-B_OUTGOING",
       "frame_to_world": [
         [
           -0.8995578289031982,
@@ -21452,7 +21452,7 @@
       "key": "4801",
       "device_id": "12MZ0000000219413",
       "name": "#1主变4801",
-      "variant": "GIS220_4801_EXTERIOR_REFIT_V7",
+      "variant": "GIS-B_4801_EXTERIOR_REFIT_V7",
       "frame_to_world": [
         [
           -0.8995578289031982,

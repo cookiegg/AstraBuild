@@ -1,36 +1,36 @@
 {
-  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r3/xialin_B14_transformer_outgoing_GIS_r3.blend",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r3/site_B14_transformer_outgoing_GIS_r3.blend",
   "previous_sha256": "f7811b60e3c449e83536a7db0a8a79f5b6a3ce012ef87ef9adc3dd50d2362a27",
   "previous_manifest": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/B14_manifest_r3.json",
   "source_B12_manifest": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/B12_manifest_r2.json",
   "protected_hashes": {
     "/data/proj/xunjian-copilot/experiments/blender-substation/digital-twin/output/semantic_registry_v50.json": "bddc26873558efc4cd078361d420ae68bf66a3b1956c851e952a9a8199ee0989",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/digital-twin/output/xialin_semantic_station_v50.blend": "439aa4f0beaf53bc8dae49cd1bc486d00a0d1b2d07ffeb6692c1c17a1db739b9",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/asset-library/output/xialin_outdoor_alignment_workbench_v50.blend": "0a992d8e9be9d2382e9d450b1e8ba1ff290fd07e2f9f08d92753d3f5bf04ee2f",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/output/xialin_photo_workbench.blend": "c6c3a34da9c5cf3e4d46b1d3584d1dbd85693379018db1f825009a77a75742a2",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/digital-twin/output/site_semantic_station_v50.blend": "439aa4f0beaf53bc8dae49cd1bc486d00a0d1b2d07ffeb6692c1c17a1db739b9",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/asset-library/output/site_outdoor_alignment_workbench_v50.blend": "0a992d8e9be9d2382e9d450b1e8ba1ff290fd07e2f9f08d92753d3f5bf04ee2f",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/output/site_photo_workbench.blend": "c6c3a34da9c5cf3e4d46b1d3584d1dbd85693379018db1f825009a77a75742a2",
     "/data/proj/xunjian-copilot/变电站设备图/设备级清单(2).xlsx": "06e4b96d0ed9948fc3fee0ed6b610ac2eeeebcce10edd1d1afb157e4b7a2db60",
     "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_4100_exterior_v9.py": "a4eff9c20c08928ecaa4b6cf5b5a2f1d418e0564d4eda5c303b535d83766a4cd",
     "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_4800_exterior_refit_v8.py": "412041573e8693085690564bf1263433531cba42f3696b2d878e8489717dd735",
     "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_4801_exterior_refit_v7.py": "f7a7e3a79b572ae76eb05e85f0ab707f7386ad5679a7f18a25a4936a286fbf72",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis110_coupler.py": "bde47855b0d821c3b2519237f236f028c2184f5b2f7b83507befa0cb49c0fb0b",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis110_coupler_v2.py": "c67a1676f5e6257f73f2c0cfa173c6ff0c2d32a2f57dd8e7111045547b6a7d78",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis110_iimu_control_cabinet_partial_v1.py": "d5476e1465941d81c64081166faa822070c671c38efb8d5f2b4ec8af57a9aaaa",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis110_outgoing.py": "a9953d3e0ea3a2cb5ad97b578f04ae995923192877878e4382e631b3df27f8fc",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis110_outgoing_v2.py": "2d064f7b0b5c60c2555f73728a6d8ea0a9541ce549aefd7f2baed32e130ced7f",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis110_outgoing_v3.py": "83b70730d9e211602f68498ba6756bc24930577b6e3894419207df5ba15085e1",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis110_outgoing_v4.py": "b643a7b29542876b34e6b02ad7637e05058bd13c6f3bb86080ea8ff5f420a91f",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis110_outgoing_v5.py": "ad622ebd81090cf473b1dae841fbb6708a1b98104b920c709420243c34a72623",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis110_spare_dual.py": "64c9e18495239040314e8ed42af656cdf3ded44ff33f9712505fbbfe593f33ef",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis110_vt.py": "433d5f85a9c96062defa296eb7ec48850dadf402d655a8743bf2f1e68b8f44d0",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis110_vt_v2.py": "05d6afbabcc30fdd6f83916efef711da5e6be2e55e23f6e321c1519f8cb92edf",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis220_bus_segments_v1.py": "f367653fe9e431c316b07c43e20250b0764dd40f31c825164028467f72150878",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis220_mfpt.py": "29a2c7d62d14cb0a549645d472ad3806ce1d045705b69f924521f1e1fe29b1c7",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis220_mfpt_v2.py": "c35635d84b20ad982701155f82f8bcca0241158bbf58f46229b089f67b516f86",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis220_mfpt_v3.py": "321ebe03ae97397855bf21ea93b74c828d7db79d4e99a23eaa5f6631a5a75fdc",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis220_mfpt_v4.py": "46d689ed65f00cdb4e34b34ac3e5b7f7057d0d68b365af02efbeaa7e83558a09",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis220_mfpt_v5.py": "203e3ebd6f2b3cf8d05f7f8e9b975ec16ecf0a7f1154ca38d073319568f8176f",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis220_sda.py": "0118669979f944885b52c1950dc7b7acdba002fddc42f3474669ef9ce379bb6e",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_gis220_sda_v2.py": "11e5ac2d6edb59052ae73b2f31ea3c4e37ec5f90bb68a01f6ac7b76c492dd1da",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-A_coupler.py": "bde47855b0d821c3b2519237f236f028c2184f5b2f7b83507befa0cb49c0fb0b",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-A_coupler_v2.py": "c67a1676f5e6257f73f2c0cfa173c6ff0c2d32a2f57dd8e7111045547b6a7d78",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-A_iimu_control_cabinet_partial_v1.py": "d5476e1465941d81c64081166faa822070c671c38efb8d5f2b4ec8af57a9aaaa",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-A_outgoing.py": "a9953d3e0ea3a2cb5ad97b578f04ae995923192877878e4382e631b3df27f8fc",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-A_outgoing_v2.py": "2d064f7b0b5c60c2555f73728a6d8ea0a9541ce549aefd7f2baed32e130ced7f",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-A_outgoing_v3.py": "83b70730d9e211602f68498ba6756bc24930577b6e3894419207df5ba15085e1",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-A_outgoing_v4.py": "b643a7b29542876b34e6b02ad7637e05058bd13c6f3bb86080ea8ff5f420a91f",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-A_outgoing_v5.py": "ad622ebd81090cf473b1dae841fbb6708a1b98104b920c709420243c34a72623",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-A_spare_dual.py": "64c9e18495239040314e8ed42af656cdf3ded44ff33f9712505fbbfe593f33ef",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-A_vt.py": "433d5f85a9c96062defa296eb7ec48850dadf402d655a8743bf2f1e68b8f44d0",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-A_vt_v2.py": "05d6afbabcc30fdd6f83916efef711da5e6be2e55e23f6e321c1519f8cb92edf",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-B_bus_segments_v1.py": "f367653fe9e431c316b07c43e20250b0764dd40f31c825164028467f72150878",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-B_mfpt.py": "29a2c7d62d14cb0a549645d472ad3806ce1d045705b69f924521f1e1fe29b1c7",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-B_mfpt_v2.py": "c35635d84b20ad982701155f82f8bcca0241158bbf58f46229b089f67b516f86",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-B_mfpt_v3.py": "321ebe03ae97397855bf21ea93b74c828d7db79d4e99a23eaa5f6631a5a75fdc",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-B_mfpt_v4.py": "46d689ed65f00cdb4e34b34ac3e5b7f7057d0d68b365af02efbeaa7e83558a09",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-B_mfpt_v5.py": "203e3ebd6f2b3cf8d05f7f8e9b975ec16ecf0a7f1154ca38d073319568f8176f",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-B_sda.py": "0118669979f944885b52c1950dc7b7acdba002fddc42f3474669ef9ce379bb6e",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_GIS-B_sda_v2.py": "11e5ac2d6edb59052ae73b2f31ea3c4e37ec5f90bb68a01f6ac7b76c492dd1da",
     "/data/proj/xunjian-copilot/experiments/blender-substation/gis-family/build_mfpt_mechanism_exteriors_v6.py": "279c1ce53ca279c7b7845fbf1202adb09896dc2a3abf8cf5e538a28aeefb0d37",
     "/data/proj/xunjian-copilot/experiments/blender-substation/digital-twin/build_station_v10.py": "9e94617079637e838fc7a4b4fd408ba8db5db0cbcbd619ee4016d334b04c79a3",
     "/data/proj/xunjian-copilot/experiments/blender-substation/digital-twin/build_station_v11.py": "fedd3cb9382f93c431d03087945917e570e30970c2db113c83bb2fbaf17d3dc2",
@@ -88,7 +88,7 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/validate_P01_r3.py": "c09e12dcb86f9251ad2c1a8ad22b5b69a9149ed0b44c8d7fd0c4561c6d979afa",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/inputs/asset_spec_P01_r3.json": "838ea67ebe41ac28dc057a55d9cf1ab1c89433e9c7f12e4b8e06a1c959398b36",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/r3/frozen_release_R3.json": "6735b949559c93f7ec1c5f2e18749456aceaf8c5edcee578c7940719d05400f5",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P02_r1/P02_SA110_photo_first.blend": "1df8ba4ec1fcaca62d985bddfe3f4dcaac493af7879effda4981feef53dc385b",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P02_r1/P02_SA-A_photo_first.blend": "1df8ba4ec1fcaca62d985bddfe3f4dcaac493af7879effda4981feef53dc385b",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P02_r1/P02_validation.json": "2f87df298d9e95f8124738e12532fc1bcc6935503d34f80ed07ddc59f1d7d170",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P02_r1/P02_manifest.json": "ec72cbe3c83c824922e79d5f9b670c42992cd0a43f8191a4d71947df9e91f912",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P02_r1/P02_components.json": "1e142237a56322b2d0fd9d3fab772ef6aa1e856c15d5e79a63d559e1f34fc099",
@@ -102,7 +102,7 @@
     "/data/proj/xunjian-copilot/图像数据/DJI_202608251449_025_电站0825new/DJI_20260825145229_0012_V.JPG": "8f251b82e34f222df7c9ee3ca0d675d30b9caa72ddb674fdb42b146786358c57",
     "/data/proj/xunjian-copilot/图像数据/DJI_202608251449_025_电站0825new/DJI_20260825145244_0014_V.JPG": "d1404f0d890173cd3780a444d90f24dd2e38da7a45fc0307ab857d89398f5f2f",
     "/data/proj/xunjian-copilot/图像数据/DCIM/10200919/JPG/_DSC3133.JPG": "26d868e909de15e073ec8e72aed580bfa4e167757294cbe0807ba52adaa24e9d",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P03_r2/P03_GIS110_749_photo_first.blend": "997018567571976ae0ba182250f6f392e6706c97d14d238a4211d7e737ab81e4",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P03_r2/P03_GIS-A_749_photo_first.blend": "997018567571976ae0ba182250f6f392e6706c97d14d238a4211d7e737ab81e4",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P03_r2/P03_manifest.json": "e539fee1c2bc4a5d716836e83cd4cb3c94c99bd532bd6de9d23ce48fe87ae906",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P03_r2/P03_validation.json": "bf049e2db952638a92064c16ab0be96da4054d1876aa1f22621c61f5a448af10",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/P03_r2/P03_components.json": "f9e9fb80e40b0f1dbaef079741afcba9789bfeda71cc2376b2ad05bd4c97a4d4",
@@ -175,7 +175,7 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/installation/render_B01_overlay.py": "e59d4cc1ae15a1070f4a18be36380c9d98eb51bc68624147e0c93473bcf785a0",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B01/release_B01.json": "34b8c284f6e72e898fb946c1c413f50a0f9b1e974c1cc69307e716038e30f385",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B02/P02_B02_749_installation_review.blend": "d358d69acd5fbc82618841bc580267ce1c8068bd33c7b906233dcddd600bd567",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B02/xialin_photo_first_B02_station_preview_r2.blend": "bf3d0dc5c62434f19dda3d828bd69ce1eacae191a0e7fde007d75e20ae11ea36",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B02/site_photo_first_B02_station_preview_r2.blend": "bf3d0dc5c62434f19dda3d828bd69ce1eacae191a0e7fde007d75e20ae11ea36",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B02/B02_validation.json": "d5f4cf68f42c9c2a8490a18182524bc3093ebca3c9152c0deb8a3e651a86f681",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B02/B02_station_preview_r2_validation.json": "f7fab7c44b2891264f6d34baecb5b665cf7ff99abef34a5e961e8cd01f9e400d",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B02/B02_workbench_manifest.json": "bdb0f5d6517ab439449a61c73fc2826e2ff04b387b91f21213de5fd1b6de10f4",
@@ -201,7 +201,7 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B02/release_B02.json": "f093cdb2de1b24bbe0e477ce59536b8699500904c66924d3390855239e914e51",
     "/data/proj/xunjian-copilot/图像数据/DJI_202608251449_025_电站0825new/DJI_20260825145250_0015_V.JPG": "65d4e6f9ab7f09634ddb2a9664dd2db718c513f180f571081450ffd18f66a8e6",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B03/r2/P02_B03_748_747_installation_review.blend": "f87fbd4827f256ade8598451255247174fd3a9fdc4a10aa613cf76b89b1b9657",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B03/r2/xialin_photo_first_B03_station_preview.blend": "04a5974dca2a04e3134915e7f76f2aea47c58b46e8b46faead7508dd29c5c2fc",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B03/r2/site_photo_first_B03_station_preview.blend": "04a5974dca2a04e3134915e7f76f2aea47c58b46e8b46faead7508dd29c5c2fc",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B03/r2/B03_validation.json": "d08cb3a18770291c070c3c2303ade4144a9699ea797488ab84b0c70c109de392",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B03/r2/B03_station_validation.json": "8307d543f0e2cdb7006f8288900bb811efbd4c5cc0c9d136dfc115122d2ae18f",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B03/r2/B03_manifest.json": "2daa2b9ec6521caa27935972e0183d81cefd5a0fa0c1407b8e4a4445993fa488",
@@ -236,7 +236,7 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B04/B04_gpu_render_done.json": "ab19c2ca630735a66c5edd561b5139d64ece8be5e4196ac9280409920f4d9428",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B04/B04_cabinet_overlay.jpg": "56ca9582a675833cf8f62f5f4bb1d1ed9ec2169d745e1f87f7e391297aec7a6c",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B04/B04_reference.npz": "46b7fdd7f18f5bb5a3e5fa5d02d955e0ca3bf59bb1ba8863c36c41641cd6e1cd",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B04/xialin_photo_first_B04_station_preview.blend": "26506ba06702bb7bea8f3b8125a15e528c300e18b9637a1f2ff76fd8e3ef87c1",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B04/site_photo_first_B04_station_preview.blend": "26506ba06702bb7bea8f3b8125a15e528c300e18b9637a1f2ff76fd8e3ef87c1",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B04/B04_station_clean.jpg": "7885619ff0318c27e7dd6c3cc51b9abb6fc14f3a4caa3fc6c7e677624c15fbba",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B04/placement_B04.json": "cf357c07bb24138aa584f58ad16bbf1624f6815f44f4ed573cdc997ae7450954",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B04/B04_core_diagnostic_overlay.jpg": "70c3aaef9a58f06992e2363f61bfa2ff626a3fd2324a7db355b99f406d37dc92",
@@ -245,7 +245,7 @@
     "/data/proj/xunjian-copilot/图像数据/DJI_202608251449_025_电站0825new/DJI_20260825145151_0008_V.JPG": "116a1f3d588a26f1e1faa07a41f000e591f5dcd16cdd916584dd15905377af3c",
     "/data/proj/xunjian-copilot/图像数据/label-merged/DJI_20260804131235_0049_V.jpeg": "76b7e9e02475f4e0d87fe01e573660407fbea3692a9639bcd3f8e486a44189d8",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/inputs_B05.json": "1bf1c8847ba658c9487537d1c31e90915e508d0bcdfbb3470e6d8fee37fe1297",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/xialin_photo_first_B05_station_preview.blend": "3dace1d5af6ef1128bb90ce6634f363d8581365d1f2b86caa590a22c61f0f321",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/site_photo_first_B05_station_preview.blend": "3dace1d5af6ef1128bb90ce6634f363d8581365d1f2b86caa590a22c61f0f321",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/B05_station_overlay.jpg": "df1202db79a1cc2a21f6fcfeb55750eeeb5e5499fd47973aa41f2c027d6652f1",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/B05_station_manifest.json": "7825c8f0bf973f788582b827a6302b93b30877a30446a73b01f922287fd7a661",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/B05_extraction.json": "d4bff8f94653659fbdf3fabc766f1d3312db05f83f8d3a393b389359bfbf8be8",
@@ -265,7 +265,7 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/photo_review_B05.json": "16daf08b97abaacdc5d3309f185cfc5c8a043a36e93c85da526a8fc3d3755a78",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/746_DJI_20260825145151_0008_V_photo.jpg": "1370ffaf91d758424732d6c1a0e9753b6667e0c88446ec43cd2581f8d5ccbfa0",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/placement_B05.json": "9414b27b8f9e5624ab30a7aafb31328010acd6066d3ccc2975343fe6e7947f58",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/xialin_photo_first_B05_station_preview_r2.blend": "967fccc7588893b06ae4431a03a7625eedad406670fbf2dd82de4b6943b3003b",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/site_photo_first_B05_station_preview_r2.blend": "967fccc7588893b06ae4431a03a7625eedad406670fbf2dd82de4b6943b3003b",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/B05_750_overlay.jpg": "e85252e3e6ef5ed3e8ddb7f5826290f771d18154a5ef59353af2ea1a6b8e5a39",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/B05_750_clean_r2.jpg": "01bdfca027061903b5b675678af195544bf5df1ba366acb53ef59f953d4f5f8b",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/750_DJI_20260804131235_0049_V_photo.jpg": "cbe132f94f9847656e945022390d344d0037864d092ad8a3728816a562ef4700",
@@ -313,7 +313,7 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/26_B06_Gate_Overlay.png": "ebedc460bb256ea0861622858216ef2eece63637e444530c5c932acaab4bff1e",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/22_Photo_First_B06_Coarse_Overlay_r2.png": "4d23f42a28154d8b50a7ae2bcd114ce9af085e313fb5711a0960c4c1fc5a5cd7",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/23_B06_Wall_Top_Overlay_r2.png": "d0ed67a05700ebbccfeb8e97962504a4e98602d51fd5920472b68a04c3d6259e",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/xialin_photo_first_B06_wall_aligned_r2.blend": "06bf806e74a3fa665c3391a824ccfe4b667726036ec9a273463d11bfdb180382",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/site_photo_first_B06_wall_aligned_r2.blend": "06bf806e74a3fa665c3391a824ccfe4b667726036ec9a273463d11bfdb180382",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/B06_gate_frame.json": "43d9208ff91c1c5eb3e7198a7b5de9a6dab157a3e749818cc456692e1175d93f",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/B06_wall_before_after.png": "6116472d36202f82cab812042ea8a26678a95a185a6c39bab5a3b933a2705114",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/24_B06_Station_Perspective.png": "b4c4c831530d0939af75b40c097ad003cea8cd0be2015ae8cb70f9b4cd0ea2a1",
@@ -321,7 +321,7 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/B06_before_wall_top.png": "56e7e9e90f84067395d23100dfda3092f2529690c0ffadedc441730a19300fbd",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/B06_render_done_r2.json": "f66f2dfd0adb33f81c35c8c3da03de627a05dcc7e584ffb29c9081df68cfc575",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/26_B06_Gate_Overlay_r2.png": "0024ef87d789a030893d3641254aeb9bbb8adc4fd92e8ed403b6cb35b10216e0",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/xialin_photo_first_B06_wall_aligned.blend": "e51d7652258c96ded06a2893d4bfac896de5100730479b9c4cfbe71b6b4c28f7",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/site_photo_first_B06_wall_aligned.blend": "e51d7652258c96ded06a2893d4bfac896de5100730479b9c4cfbe71b6b4c28f7",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/B06_before_wall_top_r2.png": "976e8b9e4a68cca5940f8d60e97cbcaa83c1f99e8a93e7ab6966da97bf9a932a",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/asset_variant_installation_queue_v6.json": "638c0f254fc91ee8d474c34592c77a82336e318dca71ecce69346faff2749b52",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/CONTINUE_FROM_B06.md": "cd3314c8c4e104dfeba33fe8b2cb7136655462d6dcb7ff3bfcbd47ed73da2860",
@@ -381,8 +381,8 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/B07_transformer_installation_workbench.blend": "988686ca8835cb67248ea88c6b5e00ac1d0aec9659ec028659eb082f40160616",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/B07_validation_r2.json": "ba35a2b6a2a9bf3ef34d35567fe42235e469d4f45e281825500069c573d94941",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/inputs_B07.json": "639da7ec5692d1e4f82c4a05e13e885a105f42a3bcff3daa29041f027bccdbb3",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/xialin_B07_T1_site_exterior.blend": "6f20aa238b1544babea1f4c59b570ce824b3fc80956bc5fc8238209a84cc8161",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/xialin_B07_T1_site_exterior_r2.blend": "b3a5f6af1737c1b487de713a76615d3a267d40f63aa3efa4de9f89483264ec4f",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/site_B07_T1_site_exterior.blend": "6f20aa238b1544babea1f4c59b570ce824b3fc80956bc5fc8238209a84cc8161",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/site_B07_T1_site_exterior_r2.blend": "b3a5f6af1737c1b487de713a76615d3a267d40f63aa3efa4de9f89483264ec4f",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/release_B07.json": "e56404b0706e9081eb3e118b0f0f2d0096a813604be3802ec45d872c5b705a1a",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/CONTINUE_FROM_B08.md": "cfd1a894e7d6ce56eba400dca815407321a5741cbf689ce295340b6dd3909f58",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/asset_variant_installation_queue_v8.json": "b58151f605da575cc185c61cf83c5fded95278aa151032e2a430ac02951bddb6",
@@ -446,8 +446,8 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/T2_reference.npz": "bc9967d44e6513182aca8fc9825230c179af35e6016ca8bbd41c3435c890a04e",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/T2_reference_origins.json": "ae56b2fac56d42f7606a7d5dc403dfc2b4e0f2cd348c6da193c273c723b72a5d",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/inputs_B08.json": "1931242b1a34f95f86b0d47936b79fb0ccd3243a00b35d955d1f072415aba8ff",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/xialin_B08_shared_transformers.blend": "7cd3c1ae8aec0231d16f3bfb68d6d0ea139f774ce96886959fab47b4949ac821",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/xialin_B08_shared_transformers_r2.blend": "69f59b972458e2a6e95726477f49f46aaff8baec2f76fe04f94f3f1aac010403",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/site_B08_shared_transformers.blend": "7cd3c1ae8aec0231d16f3bfb68d6d0ea139f774ce96886959fab47b4949ac821",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/site_B08_shared_transformers_r2.blend": "69f59b972458e2a6e95726477f49f46aaff8baec2f76fe04f94f3f1aac010403",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/release_B08.json": "91c6634d8337d4446c08a2aeacca6f21ec62dd1428abc5c5ee91fd1c7044b02e",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/CONTINUE_FROM_B09.md": "3f00c8c666283b3ae9df5662e7b783814f9f5294fb0c2f60bb77254bfbf4189c",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/asset_variant_installation_queue_v9.json": "aa4c7f5fe8e5e6912681c8e5ec5005d186c789214d6ecb619ecbb2caa2cdf207",
@@ -500,7 +500,7 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/B09_review_script_check.json": "17b82ab6f0b9abe8a0ca13bb7a9023326f783d36d3943eac4f284754d59e3e91",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/B09_validation.json": "83d1c87a877a64bedc8d38a948227efa24e5021a150bd5c7a7795151ce6fead7",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/inputs_B09.json": "be7badbb5e5aef1811bd71867ee216ad2ad74f7cd22524509226d7555419f913",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/xialin_B09_capacitor_banks.blend": "d9d95b447b58165719096bb2f53d1f630fca0170e9ebfb5abea58a1b48e60b5f",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/site_B09_capacitor_banks.blend": "d9d95b447b58165719096bb2f53d1f630fca0170e9ebfb5abea58a1b48e60b5f",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/release_B09.json": "379dbcad2dffa03127e58854f1a2988c2c9672c285a43dd3892cf4300d493d2f",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/CONTINUE_FROM_B10.md": "6cd0da08b45ab638aec09be3a68aa3fbc52caaab4405fa927fce213c74ea8af4",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/asset_variant_installation_queue_v10.json": "aa5024b10b24b15b1ef963887f34b2dac15a9622c20f8d6e666840ea0b45698b",
@@ -569,7 +569,7 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/B10_review_script_check.json": "a65009131a0fd2a16caa9e8cf7c0309f631fe7dc7b1c1867f174e964e473aaf8",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/B10_validation.json": "584a4d4385f437c5b94f2ae125f7201892423776c00d3488b94ea4bbf4f3bdf1",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/inputs_B10.json": "46bd723df3a712fee68b8918cdd5ad8b86b75c6625bf428ede242017e72417ec",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/xialin_B10_capacitor_banks.blend": "bfc18cd99b6db6f54d47b9a1434488ba34e69ba9965043fe03462658e4b43a87",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/site_B10_capacitor_banks.blend": "bfc18cd99b6db6f54d47b9a1434488ba34e69ba9965043fe03462658e4b43a87",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/release_B10.json": "462db9fb085a11326df08035d783c35e952674aed5de3a29f3d62ddc31f5f79e",
     "/data/proj/xunjian-copilot/图像数据/label-merged/DJI_20260804131138_0043_V.jpeg": "5c1b78fa6c2b52d9c3dd6bfbc3ec7986fed49c1ec2eaf1f07727d9c5a90347b5",
     "/data/proj/xunjian-copilot/图像数据/label-merged/DJI_20260804131215_0047_V.jpeg": "09b6c9af9a3c65a8e850ff12283f5a340d2e9465f1dac23ab430bf1163c67fce",
@@ -617,7 +617,7 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/104_B11_T2_MV_Clean.png": "91e94077ee5b27784dcc0f8beb9b8544d2cade52afa4fc3e4909e4277d6d4788",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/105_B11_T2_MV_Overlay.png": "53c188faeb7d4e259ab712d01170d578ad42049870c4e93f0dd36f017c8ca1e2",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/106_B11_T2_MV_Reference.png": "64c6d67e267457cb3f1a2a6b8d5f9fe6350a059b69b398e3a125784098bec975",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/107_B11_110kV_Arresters.png": "ebda307a217dc20f851d9a1f3eff26ba020271dff0fbf737d8d64e9460202452",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/107_B11_VC-A_Arresters.png": "ebda307a217dc20f851d9a1f3eff26ba020271dff0fbf737d8d64e9460202452",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/84_B11_Station_Clean.png": "f557d6c0e879a6448fbe64c67168a15ea9616be78ab86e40aeaa57a32cb1555d",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/86_B11_746_Clean.png": "c69854b99a262c44e6a1ca52d32a010a71b36ffdaaca5ead666230296c602e97",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/87_B11_746_Overlay.png": "fcec5f7ecfad709f821d4cabf6091c08efa5d8fc21c89a8ddea91a1274a12bef",
@@ -663,7 +663,7 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/104_B11_T2_MV_Clean.png": "16810c841bacd554551b90aade02f7124c173ab34c3eda8f351463272ff1fea2",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/105_B11_T2_MV_Overlay.png": "fee62e278053cf4c7c55d65415056da948743dfcdb5c6608ea5af2f263e65bee",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/106_B11_T2_MV_Reference.png": "7291907a9e4999065af81bfc5d0e76c4aae14713f8d4385af0e3fcfe5cdcc54d",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/107_B11_110kV_Arresters.png": "678189c8f3850bbee9db55498b2c969c59afa015de165b781ef3e07f828652bb",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/107_B11_VC-A_Arresters.png": "678189c8f3850bbee9db55498b2c969c59afa015de165b781ef3e07f828652bb",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/84_B11_Station_Clean.png": "3db845ec4422688068b4bcc01bf24f30cf54298bab368f9041fa30d932db37e2",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/86_B11_746_Clean.png": "151992d608f8564dbc68198e6954ae35eef14d4bbb6b447b8766cf1614fb21e2",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/87_B11_746_Overlay.png": "28ccb961d6600aa03041ad6f52e5bc95accf36abdcbfa46b6830872f3c96b27b",
@@ -679,8 +679,8 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/97_B11_758_Reference.png": "b86f6232fb0d38244fff366b48c7dce149c0ff3d1e6f1b66c1fc0033f2d48c4d",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/98_B11_759_Clean.png": "771d523b6efba2f1c089752861fb4437967d4264e4a6dcee6a9d9f75fbc085c9",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/99_B11_759_Overlay.png": "be1606621035e4123c095198c0ec5cac7b41e1522a821a96c08836d5edde46fb",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/xialin_B11_110kV_arresters_r2.blend": "0a18323d9ded48d5ec5e4e05b386111f8ba76403e7f237db6d25007e85badd05",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/xialin_B11_110kV_arresters.blend": "ea3a72dba33e3a01b03a7e53dd1a2bb16830f3647d6172f38df045af48ed364c",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/site_B11_VC-A_arresters_r2.blend": "0a18323d9ded48d5ec5e4e05b386111f8ba76403e7f237db6d25007e85badd05",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/site_B11_VC-A_arresters.blend": "ea3a72dba33e3a01b03a7e53dd1a2bb16830f3647d6172f38df045af48ed364c",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/release_B11.json": "51300fda98314a54ab5540767374a0e059801e6b2a23360435209ca4417ff33a",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/CONTINUE_FROM_B12.md": "e0793691d48220383d24e9bcb9bed5767df6213c4117244eaaab7e1cddf1fad7",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/asset_variant_installation_queue_v12.json": "852070bbb21748c45f86e28e43ea711dabbe09eb24b46c0ddb637a749a2732e3",
@@ -739,8 +739,8 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/r2/119_B12_749_Top_Clean.png": "cc9179b9260e8511700cb87eb6a7ca18b693cd72a9bc72134b2dabf9b2420f10",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/r2/120_B12_749_Top_Overlay.png": "d9d3715896103b26ef753fba938f186eb840e49f4f6c7b24ac856ad566634f71",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/r2/121_B12_749_Top_Reference.png": "b853e519afdf43220ca4075cf0227e2bc4a2c987c3f05f99285f830477b86397",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/r2/xialin_B12_749_GIS_r2.blend": "933674f4802f36c22cd25b2b43579987ffb09c8bab18c7ddddae53d89d9b649c",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/xialin_B12_749_GIS.blend": "c8e785862d533f03bd69abb1734f68dc55f5df90ed7f9131e6a0c77a0ff8170a",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/r2/site_B12_749_GIS_r2.blend": "933674f4802f36c22cd25b2b43579987ffb09c8bab18c7ddddae53d89d9b649c",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/site_B12_749_GIS.blend": "c8e785862d533f03bd69abb1734f68dc55f5df90ed7f9131e6a0c77a0ff8170a",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/release_B12.json": "e0f47b8cdf277135e52bcceb3b868c758268a413712306353ee09932f67dedf1",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/CONTINUE_FROM_B13.md": "c782c061affd6b67ce42acac9ef3dc9bb6fd1417342bef3d89ef316e3f450a5f",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/asset_variant_installation_queue_v13.json": "78c3a3c80c334da24814d1c8b718fede7ffa8700693ff5815973cf5ddef46e8c",
@@ -839,8 +839,8 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/151_B13_Cabinet_Local_Edit.png": "31b76fd6c81f1e71e3cdc04410ccbd1c7456a4e463bfadb81ae46160a40556ce",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/153_B13_Cabinet_Rear_Review.png": "61d3b72192f390bf30aa90127303cff8209df6e6af1d612e22024de793fd3f22",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/B13_reusable_line_components_r2.blend": "85f2dc2d671ae352ca67975698347255012d79d78331fc2321e496f880a141fb",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/xialin_B13_GIS_line_bays_r2.blend": "db23fb9a761ddf6e2a2a031cfb8537f813a46dfd32742dd88176e33e7224ca40",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/xialin_B13_GIS_line_bays.blend": "b9c42462bfbba0ac38d7f870257eea9524d37f21644b9e63e1c448cc0fbcb002",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/site_B13_GIS_line_bays_r2.blend": "db23fb9a761ddf6e2a2a031cfb8537f813a46dfd32742dd88176e33e7224ca40",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/site_B13_GIS_line_bays.blend": "b9c42462bfbba0ac38d7f870257eea9524d37f21644b9e63e1c448cc0fbcb002",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/release_B13.json": "3c2e113989114919935e63c8bc69542c57876f0fff44b7376c9cb771bfe732a9",
     "/data/proj/xunjian-copilot/图像数据/label-merged/DJI_20260804131040_0037_V.jpeg": "f532db2652704e7a3f4ffe9d2c8b2a6d23b372dd0d35fffbfc920edd985062fb",
     "/data/proj/xunjian-copilot/图像数据/label-merged/DJI_20260804131156_0045_V.jpeg": "8145272243b299c3330fa01beca31e11809c3dbb449b517f3728611c89b6918b",
@@ -953,9 +953,9 @@
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r2/172_B14_502_Top_Reference.png": "e82b303f137e1b301be464d03c2c14cebd80b13df0392dc2f93af7a0132571ab",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r2/173_B14_Core_Local_Edit.png": "114dbb05127a5efe2a0d1eb8995f7c7aa321caf44d9c388e18fc6612e3af9085",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r2/B14_transformer_outgoing_components_r2.blend": "a50156268c7c457ae5749482a76c6d2f4598393fcb4c21ca7c277b546897b57f",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r2/xialin_B14_transformer_outgoing_GIS_r2.blend": "939e426d660955e97a65e2b75478f38d978fd586f5f54a833d4d907d4dc727d2",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r3/xialin_B14_transformer_outgoing_GIS_r3.blend": "f7811b60e3c449e83536a7db0a8a79f5b6a3ce012ef87ef9adc3dd50d2362a27",
-    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/xialin_B14_transformer_outgoing_GIS.blend": "17edcc389c574aaa7020a9538ab8081d59e6ea7b8956af42e55d5c5812eb858b",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r2/site_B14_transformer_outgoing_GIS_r2.blend": "939e426d660955e97a65e2b75478f38d978fd586f5f54a833d4d907d4dc727d2",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r3/site_B14_transformer_outgoing_GIS_r3.blend": "f7811b60e3c449e83536a7db0a8a79f5b6a3ce012ef87ef9adc3dd50d2362a27",
+    "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/site_B14_transformer_outgoing_GIS.blend": "17edcc389c574aaa7020a9538ab8081d59e6ea7b8956af42e55d5c5812eb858b",
     "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/release_B14.json": "4d3f10bca81fb004fe993cd75c3023bdec354ac1b07b8ffcb00100710aab87e8",
     "/data/proj/xunjian-copilot/图像数据/label-merged/DJI_20260804131118_0041_V.jpeg": "93b01386ad68fdc0a8fd54bc2d30ba7f8b37203fcd21e9c8dc7928b6f33ad0cd"
   },
@@ -965,7 +965,7 @@
       "device_id": "12MZ0000000207101",
       "name": "备用捌752",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_SPARE_DUAL_DECK",
+      "variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_seed": [
         26.543,
         -5.905,
@@ -1010,7 +1010,7 @@
       "device_id": "12MZ0000000207103",
       "name": "备用玖753",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_SPARE_DUAL_DECK",
+      "variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_seed": [
         28.943,
         -13.195,
@@ -1055,7 +1055,7 @@
       "device_id": "12MZ0000000219236",
       "name": "备用拾754",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_SPARE_DUAL_DECK",
+      "variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_seed": [
         32.5,
         -19.665,
@@ -1100,7 +1100,7 @@
       "device_id": "12MZ0000000219239",
       "name": "备用拾壹755",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_SPARE_DUAL_DECK",
+      "variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_seed": [
         37.563,
         -23.887,
@@ -1145,7 +1145,7 @@
       "device_id": "12MZ0000000219237",
       "name": "备用拾贰756",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_SPARE_DUAL_DECK",
+      "variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_seed": [
         41.07257080289909,
         -32.397511041469734,
@@ -1190,7 +1190,7 @@
       "device_id": "12MZ0000000219238",
       "name": "备用拾叁757",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_SPARE_DUAL_DECK",
+      "variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_seed": [
         44.34284408413223,
         -39.20199480303139,
@@ -1346,7 +1346,7 @@
         },
         {
           "class_id": 268,
-          "label": "110kV II母_组合电器_汇控柜_*",
+          "label": "VC-A II母_组合电器_汇控柜_*",
           "xywh": [
             0.154886,
             0.676422,
@@ -1406,7 +1406,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.707961,
             0.55539,
@@ -1416,7 +1416,7 @@
         },
         {
           "class_id": 352,
-          "label": "220kV夏霖变电站设备构架_设备构架_本体_本体外观",
+          "label": "VC-B夏霖变电站设备构架_设备构架_本体_本体外观",
           "xywh": [
             0.50062,
             0.094411,
@@ -1426,7 +1426,7 @@
         },
         {
           "class_id": 360,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_墙面",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_墙面",
           "xywh": [
             0.77753,
             0.907077,
@@ -1731,7 +1731,7 @@
         },
         {
           "class_id": 352,
-          "label": "220kV夏霖变电站设备构架_设备构架_本体_本体外观",
+          "label": "VC-B夏霖变电站设备构架_设备构架_本体_本体外观",
           "xywh": [
             0.502728,
             0.072421,
@@ -1741,7 +1741,7 @@
         },
         {
           "class_id": 360,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_墙面",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_墙面",
           "xywh": [
             0.468874,
             0.908234,
@@ -1996,7 +1996,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.34072,
             0.46815,
@@ -2006,7 +2006,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.383049,
             0.466507,
@@ -2016,7 +2016,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.551799,
             0.472321,
@@ -2026,7 +2026,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.633333,
             0.472321,
@@ -2036,7 +2036,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.717992,
             0.483316,
@@ -2046,7 +2046,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.761174,
             0.475228,
@@ -2056,7 +2056,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.822917,
             0.476997,
@@ -2066,7 +2066,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.888258,
             0.478261,
@@ -2076,7 +2076,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.98892,
             0.478766,
@@ -2086,7 +2086,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.941477,
             0.479019,
@@ -2096,7 +2096,7 @@
         },
         {
           "class_id": 358,
-          "label": "220kV夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
+          "label": "VC-B夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
           "xywh": [
             0.500095,
             0.274014,
@@ -2106,7 +2106,7 @@
         },
         {
           "class_id": 360,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_墙面",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_墙面",
           "xywh": [
             0.508617,
             0.445526,
@@ -2116,7 +2116,7 @@
         },
         {
           "class_id": 360,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_墙面",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_墙面",
           "xywh": [
             0.855871,
             0.461198,
@@ -2126,7 +2126,7 @@
         },
         {
           "class_id": 214,
-          "label": "35kV#3电力电容器033ABC相_电力电容器_其他_整体外观",
+          "label": "VC-C#3电力电容器033ABC相_电力电容器_其他_整体外观",
           "xywh": [
             0.106061,
             0.462841,
@@ -2281,7 +2281,7 @@
         },
         {
           "class_id": 347,
-          "label": "220kV夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
+          "label": "VC-B夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
           "xywh": [
             0.3156,
             0.945437,
@@ -2291,7 +2291,7 @@
         },
         {
           "class_id": 347,
-          "label": "220kV夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
+          "label": "VC-B夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
           "xywh": [
             0.477183,
             0.784061,
@@ -2301,7 +2301,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.351066,
             0.558532,
@@ -2311,7 +2311,7 @@
         },
         {
           "class_id": 352,
-          "label": "220kV夏霖变电站设备构架_设备构架_本体_本体外观",
+          "label": "VC-B夏霖变电站设备构架_设备构架_本体_本体外观",
           "xywh": [
             0.505828,
             0.075397,
@@ -2321,7 +2321,7 @@
         },
         {
           "class_id": 352,
-          "label": "220kV夏霖变电站设备构架_设备构架_本体_本体外观",
+          "label": "VC-B夏霖变电站设备构架_设备构架_本体_本体外观",
           "xywh": [
             0.738963,
             0.472222,
@@ -2331,7 +2331,7 @@
         },
         {
           "class_id": 360,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_墙面",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_墙面",
           "xywh": [
             0.311136,
             0.904101,
@@ -2546,7 +2546,7 @@
         },
         {
           "class_id": 358,
-          "label": "220kV夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
+          "label": "VC-B夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
           "xywh": [
             0.500095,
             0.318756,
@@ -2556,7 +2556,7 @@
         },
         {
           "class_id": 358,
-          "label": "220kV夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
+          "label": "VC-B夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
           "xywh": [
             0.100473,
             0.581016,
@@ -2566,7 +2566,7 @@
         },
         {
           "class_id": 214,
-          "label": "35kV#3电力电容器033ABC相_电力电容器_其他_整体外观",
+          "label": "VC-C#3电力电容器033ABC相_电力电容器_其他_整体外观",
           "xywh": [
             0.253883,
             0.535768,
@@ -2576,7 +2576,7 @@
         },
         {
           "class_id": 204,
-          "label": "35kV#2电力电容器032ABC相_电力电容器_其他_整体外观",
+          "label": "VC-C#2电力电容器032ABC相_电力电容器_其他_整体外观",
           "xywh": [
             0.30786,
             0.505182,
@@ -2586,7 +2586,7 @@
         },
         {
           "class_id": 194,
-          "label": "35kV#1电力电容器031ABC相_电力电容器_其他_整体外观",
+          "label": "VC-C#1电力电容器031ABC相_电力电容器_其他_整体外观",
           "xywh": [
             0.342045,
             0.484328,
@@ -2596,7 +2596,7 @@
         },
         {
           "class_id": 360,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_墙面",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_墙面",
           "xywh": [
             0.737689,
             0.508721,
@@ -2606,7 +2606,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.539867,
             0.540445,
@@ -2616,7 +2616,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.673958,
             0.538928,
@@ -2626,7 +2626,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.78267,
             0.541835,
@@ -2636,7 +2636,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.880966,
             0.543731,
@@ -2646,7 +2646,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.937784,
             0.546891,
@@ -2656,7 +2656,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.980303,
             0.55637,
@@ -2666,7 +2666,7 @@
         },
         {
           "class_id": 361,
-          "label": "220kV夏霖变电站土建设施_土建设施_围墙_围墙外观",
+          "label": "VC-B夏霖变电站土建设施_土建设施_围墙_围墙外观",
           "xywh": [
             0.501042,
             0.902806,
@@ -2981,7 +2981,7 @@
         },
         {
           "class_id": 347,
-          "label": "220kV夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
+          "label": "VC-B夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
           "xywh": [
             0.08755,
             0.94957,
@@ -2991,7 +2991,7 @@
         },
         {
           "class_id": 347,
-          "label": "220kV夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
+          "label": "VC-B夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
           "xywh": [
             0.355407,
             0.94494,
@@ -3001,7 +3001,7 @@
         },
         {
           "class_id": 347,
-          "label": "220kV夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
+          "label": "VC-B夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
           "xywh": [
             0.611979,
             0.943618,
@@ -3011,7 +3011,7 @@
         },
         {
           "class_id": 347,
-          "label": "220kV夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
+          "label": "VC-B夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
           "xywh": [
             0.814732,
             0.949074,
@@ -3021,7 +3021,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.623016,
             0.55787,
@@ -3031,7 +3031,7 @@
         },
         {
           "class_id": 352,
-          "label": "220kV夏霖变电站设备构架_设备构架_本体_本体外观",
+          "label": "VC-B夏霖变电站设备构架_设备构架_本体_本体外观",
           "xywh": [
             0.50372,
             0.09838,
@@ -3041,7 +3041,7 @@
         },
         {
           "class_id": 352,
-          "label": "220kV夏霖变电站设备构架_设备构架_本体_本体外观",
+          "label": "VC-B夏霖变电站设备构架_设备构架_本体_本体外观",
           "xywh": [
             0.800967,
             0.29332,
@@ -3256,7 +3256,7 @@
         },
         {
           "class_id": 347,
-          "label": "220kV夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
+          "label": "VC-B夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
           "xywh": [
             0.500124,
             0.878803,
@@ -3266,7 +3266,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.503224,
             0.555225,
@@ -3276,7 +3276,7 @@
         },
         {
           "class_id": 352,
-          "label": "220kV夏霖变电站设备构架_设备构架_本体_本体外观",
+          "label": "VC-B夏霖变电站设备构架_设备构架_本体_本体外观",
           "xywh": [
             0.500992,
             0.082507,
@@ -3286,7 +3286,7 @@
         },
         {
           "class_id": 352,
-          "label": "220kV夏霖变电站设备构架_设备构架_本体_本体外观",
+          "label": "VC-B夏霖变电站设备构架_设备构架_本体_本体外观",
           "xywh": [
             0.398438,
             0.366567,
@@ -3296,7 +3296,7 @@
         },
         {
           "class_id": 352,
-          "label": "220kV夏霖变电站设备构架_设备构架_本体_本体外观",
+          "label": "VC-B夏霖变电站设备构架_设备构架_本体_本体外观",
           "xywh": [
             0.97185,
             0.35582,
@@ -3411,7 +3411,7 @@
         },
         {
           "class_id": 347,
-          "label": "220kV夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
+          "label": "VC-B夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
           "xywh": [
             0.578125,
             0.876323,
@@ -3421,7 +3421,7 @@
         },
         {
           "class_id": 347,
-          "label": "220kV夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
+          "label": "VC-B夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
           "xywh": [
             0.566716,
             0.670635,
@@ -3431,7 +3431,7 @@
         },
         {
           "class_id": 347,
-          "label": "220kV夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
+          "label": "VC-B夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
           "xywh": [
             0.818576,
             0.697255,
@@ -3441,7 +3441,7 @@
         },
         {
           "class_id": 347,
-          "label": "220kV夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
+          "label": "VC-B夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
           "xywh": [
             0.323165,
             0.711475,
@@ -3451,7 +3451,7 @@
         },
         {
           "class_id": 347,
-          "label": "220kV夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
+          "label": "VC-B夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
           "xywh": [
             0.080357,
             0.920139,
@@ -3461,7 +3461,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.191592,
             0.438657,
@@ -3471,7 +3471,7 @@
         },
         {
           "class_id": 352,
-          "label": "220kV夏霖变电站设备构架_设备构架_本体_本体外观",
+          "label": "VC-B夏霖变电站设备构架_设备构架_本体_本体外观",
           "xywh": [
             0.779142,
             0.31746,
@@ -3481,7 +3481,7 @@
         },
         {
           "class_id": 352,
-          "label": "220kV夏霖变电站设备构架_设备构架_本体_本体外观",
+          "label": "VC-B夏霖变电站设备构架_设备构架_本体_本体外观",
           "xywh": [
             0.056052,
             0.29332,
@@ -3636,7 +3636,7 @@
         },
         {
           "class_id": 361,
-          "label": "220kV夏霖变电站土建设施_土建设施_围墙_围墙外观",
+          "label": "VC-B夏霖变电站土建设施_土建设施_围墙_围墙外观",
           "xywh": [
             0.501515,
             0.927452,
@@ -3646,7 +3646,7 @@
         },
         {
           "class_id": 358,
-          "label": "220kV夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
+          "label": "VC-B夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
           "xywh": [
             0.499811,
             0.322295,
@@ -3656,7 +3656,7 @@
         },
         {
           "class_id": 358,
-          "label": "220kV夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
+          "label": "VC-B夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
           "xywh": [
             0.373201,
             0.605157,
@@ -3676,7 +3676,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.912027,
             0.545374,
@@ -3686,7 +3686,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.797064,
             0.543605,
@@ -3696,7 +3696,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.71108,
             0.541582,
@@ -3706,7 +3706,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.659659,
             0.543352,
@@ -3716,7 +3716,7 @@
         },
         {
           "class_id": 360,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_墙面",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_墙面",
           "xywh": [
             0.811458,
             0.515799,
@@ -3726,7 +3726,7 @@
         },
         {
           "class_id": 214,
-          "label": "35kV#3电力电容器033ABC相_电力电容器_其他_整体外观",
+          "label": "VC-C#3电力电容器033ABC相_电力电容器_其他_整体外观",
           "xywh": [
             0.34233,
             0.538423,
@@ -3881,7 +3881,7 @@
         },
         {
           "class_id": 347,
-          "label": "220kV夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
+          "label": "VC-B夏霖变电站辅助设施_辅助设施_防汛设施_站内地面",
           "xywh": [
             0.499876,
             0.87996,
@@ -3891,7 +3891,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.478547,
             0.557374,
@@ -3901,7 +3901,7 @@
         },
         {
           "class_id": 352,
-          "label": "220kV夏霖变电站设备构架_设备构架_本体_本体外观",
+          "label": "VC-B夏霖变电站设备构架_设备构架_本体_本体外观",
           "xywh": [
             0.510789,
             0.097388,
@@ -3911,7 +3911,7 @@
         },
         {
           "class_id": 352,
-          "label": "220kV夏霖变电站设备构架_设备构架_本体_本体外观",
+          "label": "VC-B夏霖变电站设备构架_设备构架_本体_本体外观",
           "xywh": [
             0.625992,
             0.363591,
@@ -4051,7 +4051,7 @@
         },
         {
           "class_id": 352,
-          "label": "220kV夏霖变电站设备构架_设备构架_本体_本体外观",
+          "label": "VC-B夏霖变电站设备构架_设备构架_本体_本体外观",
           "xywh": [
             0.032118,
             0.26422,
@@ -4316,7 +4316,7 @@
         },
         {
           "class_id": 214,
-          "label": "35kV#3电力电容器033ABC相_电力电容器_其他_整体外观",
+          "label": "VC-C#3电力电容器033ABC相_电力电容器_其他_整体外观",
           "xywh": [
             0.650189,
             0.360465,
@@ -4336,7 +4336,7 @@
         },
         {
           "class_id": 360,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_墙面",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_墙面",
           "xywh": [
             0.240436,
             0.424545,
@@ -4346,7 +4346,7 @@
         },
         {
           "class_id": 360,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_墙面",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_墙面",
           "xywh": [
             0.774716,
             0.261122,
@@ -4356,7 +4356,7 @@
         },
         {
           "class_id": 329,
-          "label": "220kV II母压变_组合电器_本体_本体外观",
+          "label": "VC-B II母压变_组合电器_本体_本体外观",
           "xywh": [
             0.596402,
             0.245829,
@@ -4386,7 +4386,7 @@
         },
         {
           "class_id": 338,
-          "label": "220kV II母压变_组合电器_汇控柜_*",
+          "label": "VC-B II母压变_组合电器_汇控柜_*",
           "xywh": [
             0.614773,
             0.265799,
@@ -4396,7 +4396,7 @@
         },
         {
           "class_id": 358,
-          "label": "220kV夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
+          "label": "VC-B夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
           "xywh": [
             0.515057,
             0.089232,
@@ -4406,7 +4406,7 @@
         },
         {
           "class_id": 358,
-          "label": "220kV夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
+          "label": "VC-B夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
           "xywh": [
             0.630587,
             0.447422,
@@ -4416,7 +4416,7 @@
         },
         {
           "class_id": 358,
-          "label": "220kV夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
+          "label": "VC-B夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
           "xywh": [
             0.499432,
             0.843529,
@@ -4691,7 +4691,7 @@
         },
         {
           "class_id": 358,
-          "label": "220kV夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
+          "label": "VC-B夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
           "xywh": [
             0.367803,
             0.485971,
@@ -4721,7 +4721,7 @@
         },
         {
           "class_id": 358,
-          "label": "220kV夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
+          "label": "VC-B夏霖变电站土建设施_土建设施_基础构架_基础构架外观",
           "xywh": [
             0.112027,
             0.344034,
@@ -4741,7 +4741,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.601705,
             0.096309,
@@ -4751,7 +4751,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.626042,
             0.0886,
@@ -4761,7 +4761,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.660322,
             0.081269,
@@ -4771,7 +4771,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.701231,
             0.071411,
@@ -4781,7 +4781,7 @@
         },
         {
           "class_id": 359,
-          "label": "220kV夏霖变电站土建设施_土建设施_建筑物_门窗",
+          "label": "VC-B夏霖变电站土建设施_土建设施_建筑物_门窗",
           "xywh": [
             0.730966,
             0.063195,

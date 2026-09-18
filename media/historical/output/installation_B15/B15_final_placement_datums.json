@@ -5,7 +5,7 @@
       "device_id": "12MZ0000000207101",
       "name": "\u5907\u7528\u634c752",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_SPARE_DUAL_DECK",
+      "variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_seed": [
         26.543,
         -5.905,
@@ -2779,7 +2779,7 @@
       "device_id": "12MZ0000000207103",
       "name": "\u5907\u7528\u7396753",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_SPARE_DUAL_DECK",
+      "variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_seed": [
         28.943,
         -13.195,
@@ -5473,7 +5473,7 @@
       "device_id": "12MZ0000000219236",
       "name": "\u5907\u7528\u62fe754",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_SPARE_DUAL_DECK",
+      "variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_seed": [
         32.5,
         -19.665,
@@ -8248,7 +8248,7 @@
       "device_id": "12MZ0000000219239",
       "name": "\u5907\u7528\u62fe\u58f9755",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_SPARE_DUAL_DECK",
+      "variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_seed": [
         37.563,
         -23.887,
@@ -10905,7 +10905,7 @@
       "device_id": "12MZ0000000219237",
       "name": "\u5907\u7528\u62fe\u8d30756",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_SPARE_DUAL_DECK",
+      "variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_seed": [
         41.07257080289909,
         -32.397511041469734,
@@ -13719,7 +13719,7 @@
       "device_id": "12MZ0000000219238",
       "name": "\u5907\u7528\u62fe\u53c1757",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_SPARE_DUAL_DECK",
+      "variant": "GIS-A_SPARE_DUAL_DECK",
       "legacy_seed": [
         44.34284408413223,
         -39.20199480303139,

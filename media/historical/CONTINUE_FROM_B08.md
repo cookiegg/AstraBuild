@@ -1,6 +1,6 @@
 # Continue from B08 r2 — shared transformer exterior
 
-Latest station: output/installation_B08/xialin_B08_shared_transformers_r2.blend.
+Latest station: output/installation_B08/site_B08_shared_transformers_r2.blend.
 Default scene: 42_B08_Transformer_Pair. Editable master scene: 44_B08_EDIT_SHARED_MASTER.
 Offline review: output/installation_B08/B08_review.html.
 Directly openable local asset: output/installation_B08/B08_transformer_editable.blend.

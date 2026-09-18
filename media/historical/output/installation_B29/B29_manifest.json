@@ -1,9 +1,9 @@
 {
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/xialin_B29_strains_jumpers_crosslines.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/site_B29_strains_jumpers_crosslines.blend",
   "sha256": "33313cca55fbb1d300a10a64d8599e13a3ac2eb1ce8782d26eec0e6ba7f94c5c",
   "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/B29_overhead_components.blend",
   "asset_sha256": "df38df4fb813ff354ba6e0f29cde263dc4d5086df1fd3e5c10df8811014ecdab",
-  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B28/xialin_B28_outdoor_suspension_insulators.blend",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B28/site_B28_outdoor_suspension_insulators.blend",
   "previous_sha256": "d9911b13470022524f7f215f71bcea49acd7abad7787a86fe99bb175cee8a774",
   "station_scene": "585_B29_Station_Clean",
   "default_scene": "599_B29_G220_OUT_Detail_Clean",
@@ -47613,7 +47613,7 @@
       "id": "G110_OUT_NEG_00_JUMPER",
       "strain_group": "G110_OUT_NEG_00",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_00",
       "suspension_root": "B28::G110_OUT_SUSP_00.ASSEMBLY",
       "start": [
@@ -48293,7 +48293,7 @@
       "id": "G110_OUT_NEG_01_JUMPER",
       "strain_group": "G110_OUT_NEG_01",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_01",
       "suspension_root": "B28::G110_OUT_SUSP_01.ASSEMBLY",
       "start": [
@@ -48996,7 +48996,7 @@
       "id": "G110_OUT_NEG_02_JUMPER",
       "strain_group": "G110_OUT_NEG_02",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_02",
       "suspension_root": "B28::G110_OUT_SUSP_02.ASSEMBLY",
       "start": [
@@ -49761,7 +49761,7 @@
       "id": "G110_OUT_NEG_03_JUMPER",
       "strain_group": "G110_OUT_NEG_03",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_03",
       "suspension_root": "B28::G110_OUT_SUSP_03.ASSEMBLY",
       "start": [
@@ -50692,7 +50692,7 @@
       "id": "G110_OUT_NEG_04_JUMPER",
       "strain_group": "G110_OUT_NEG_04",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_04",
       "suspension_root": "B28::G110_OUT_SUSP_04.ASSEMBLY",
       "start": [
@@ -51647,7 +51647,7 @@
       "id": "G110_OUT_NEG_05_JUMPER",
       "strain_group": "G110_OUT_NEG_05",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_05",
       "suspension_root": "B28::G110_OUT_SUSP_05.ASSEMBLY",
       "start": [
@@ -52499,7 +52499,7 @@
       "id": "G110_OUT_NEG_06_JUMPER",
       "strain_group": "G110_OUT_NEG_06",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_06",
       "suspension_root": "B28::G110_OUT_SUSP_06.ASSEMBLY",
       "start": [
@@ -53443,7 +53443,7 @@
       "id": "G110_OUT_NEG_07_JUMPER",
       "strain_group": "G110_OUT_NEG_07",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_07",
       "suspension_root": "B28::G110_OUT_SUSP_07.ASSEMBLY",
       "start": [
@@ -54379,7 +54379,7 @@
       "id": "G110_OUT_NEG_08_JUMPER",
       "strain_group": "G110_OUT_NEG_08",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_08",
       "suspension_root": "B28::G110_OUT_SUSP_08.ASSEMBLY",
       "start": [
@@ -55369,7 +55369,7 @@
       "id": "G110_OUT_NEG_09_JUMPER",
       "strain_group": "G110_OUT_NEG_09",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_09",
       "suspension_root": "B28::G110_OUT_SUSP_09.ASSEMBLY",
       "start": [
@@ -56366,7 +56366,7 @@
       "id": "G110_OUT_NEG_10_JUMPER",
       "strain_group": "G110_OUT_NEG_10",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_10",
       "suspension_root": "B28::G110_OUT_SUSP_10.ASSEMBLY",
       "start": [
@@ -57186,7 +57186,7 @@
       "id": "G110_OUT_NEG_11_JUMPER",
       "strain_group": "G110_OUT_NEG_11",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_11",
       "suspension_root": "B28::G110_OUT_SUSP_11.ASSEMBLY",
       "start": [
@@ -58103,7 +58103,7 @@
       "id": "G110_OUT_NEG_12_JUMPER",
       "strain_group": "G110_OUT_NEG_12",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_12",
       "suspension_root": "B28::G110_OUT_SUSP_12.ASSEMBLY",
       "start": [
@@ -59173,7 +59173,7 @@
       "id": "G110_OUT_NEG_13_JUMPER",
       "strain_group": "G110_OUT_NEG_13",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_13",
       "suspension_root": "B28::G110_OUT_SUSP_13.ASSEMBLY",
       "start": [
@@ -60196,7 +60196,7 @@
       "id": "G110_OUT_NEG_14_JUMPER",
       "strain_group": "G110_OUT_NEG_14",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_14",
       "suspension_root": "B28::G110_OUT_SUSP_14.ASSEMBLY",
       "start": [
@@ -61145,7 +61145,7 @@
       "id": "G110_OUT_NEG_15_JUMPER",
       "strain_group": "G110_OUT_NEG_15",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_15",
       "suspension_root": "B28::G110_OUT_SUSP_15.ASSEMBLY",
       "start": [
@@ -62334,7 +62334,7 @@
       "id": "G110_OUT_NEG_16_JUMPER",
       "strain_group": "G110_OUT_NEG_16",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_16",
       "suspension_root": "B28::G110_OUT_SUSP_16.ASSEMBLY",
       "start": [
@@ -63412,7 +63412,7 @@
       "id": "G110_OUT_NEG_17_JUMPER",
       "strain_group": "G110_OUT_NEG_17",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_17",
       "suspension_root": "B28::G110_OUT_SUSP_17.ASSEMBLY",
       "start": [
@@ -64568,7 +64568,7 @@
       "id": "G110_OUT_NEG_18_JUMPER",
       "strain_group": "G110_OUT_NEG_18",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_18",
       "suspension_root": "B28::G110_OUT_SUSP_18.ASSEMBLY",
       "start": [
@@ -65377,7 +65377,7 @@
       "id": "G110_OUT_NEG_19_JUMPER",
       "strain_group": "G110_OUT_NEG_19",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_19",
       "suspension_root": "B28::G110_OUT_SUSP_19.ASSEMBLY",
       "start": [
@@ -66218,7 +66218,7 @@
       "id": "G110_OUT_NEG_20_JUMPER",
       "strain_group": "G110_OUT_NEG_20",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_20",
       "suspension_root": "B28::G110_OUT_SUSP_20.ASSEMBLY",
       "start": [
@@ -67006,7 +67006,7 @@
       "id": "G110_OUT_NEG_21_JUMPER",
       "strain_group": "G110_OUT_NEG_21",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_21",
       "suspension_root": "B28::G110_OUT_SUSP_21.ASSEMBLY",
       "start": [
@@ -67764,7 +67764,7 @@
       "id": "G110_OUT_NEG_22_JUMPER",
       "strain_group": "G110_OUT_NEG_22",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_22",
       "suspension_root": "B28::G110_OUT_SUSP_22.ASSEMBLY",
       "start": [
@@ -68497,7 +68497,7 @@
       "id": "G110_OUT_NEG_23_JUMPER",
       "strain_group": "G110_OUT_NEG_23",
       "row": "G110_OUT",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_OUT_SUSP_23",
       "suspension_root": "B28::G110_OUT_SUSP_23.ASSEMBLY",
       "start": [
@@ -69193,7 +69193,7 @@
       "id": "G110_IN_POS_00_JUMPER",
       "strain_group": "G110_IN_POS_00",
       "row": "G110_IN",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_IN_SUSP_00",
       "suspension_root": "B28::G110_IN_SUSP_00.ASSEMBLY",
       "start": [
@@ -71192,7 +71192,7 @@
       "id": "G110_IN_POS_01_JUMPER",
       "strain_group": "G110_IN_POS_01",
       "row": "G110_IN",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_IN_SUSP_01",
       "suspension_root": "B28::G110_IN_SUSP_01.ASSEMBLY",
       "start": [
@@ -73041,7 +73041,7 @@
       "id": "G110_IN_POS_02_JUMPER",
       "strain_group": "G110_IN_POS_02",
       "row": "G110_IN",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_IN_SUSP_02",
       "suspension_root": "B28::G110_IN_SUSP_02.ASSEMBLY",
       "start": [
@@ -74954,7 +74954,7 @@
       "id": "G110_IN_POS_03_JUMPER",
       "strain_group": "G110_IN_POS_03",
       "row": "G110_IN",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_IN_SUSP_03",
       "suspension_root": "B28::G110_IN_SUSP_03.ASSEMBLY",
       "start": [
@@ -77046,7 +77046,7 @@
       "id": "G110_IN_POS_04_JUMPER",
       "strain_group": "G110_IN_POS_04",
       "row": "G110_IN",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_IN_SUSP_04",
       "suspension_root": "B28::G110_IN_SUSP_04.ASSEMBLY",
       "start": [
@@ -79027,7 +79027,7 @@
       "id": "G110_IN_POS_05_JUMPER",
       "strain_group": "G110_IN_POS_05",
       "row": "G110_IN",
-      "zone": "GIS110",
+      "zone": "GIS-A",
       "suspension_id": "G110_IN_SUSP_05",
       "suspension_root": "B28::G110_IN_SUSP_05.ASSEMBLY",
       "start": [
@@ -80942,7 +80942,7 @@
       "id": "G220_OUT_POS_00_JUMPER",
       "strain_group": "G220_OUT_POS_00",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "suspension_id": "G220_OUT_SUSP_00",
       "suspension_root": "B28::G220_OUT_SUSP_00.ASSEMBLY",
       "start": [
@@ -83026,7 +83026,7 @@
       "id": "G220_OUT_POS_01_JUMPER",
       "strain_group": "G220_OUT_POS_01",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "suspension_id": "G220_OUT_SUSP_01",
       "suspension_root": "B28::G220_OUT_SUSP_01.ASSEMBLY",
       "start": [
@@ -85489,7 +85489,7 @@
       "id": "G220_OUT_POS_02_JUMPER",
       "strain_group": "G220_OUT_POS_02",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "suspension_id": "G220_OUT_SUSP_02",
       "suspension_root": "B28::G220_OUT_SUSP_02.ASSEMBLY",
       "start": [
@@ -88252,7 +88252,7 @@
       "id": "G220_OUT_POS_03_JUMPER",
       "strain_group": "G220_OUT_POS_03",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "suspension_id": "G220_OUT_SUSP_03",
       "suspension_root": "B28::G220_OUT_SUSP_03.ASSEMBLY",
       "start": [
@@ -91048,7 +91048,7 @@
       "id": "G220_OUT_POS_04_JUMPER",
       "strain_group": "G220_OUT_POS_04",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "suspension_id": "G220_OUT_SUSP_04",
       "suspension_root": "B28::G220_OUT_SUSP_04.ASSEMBLY",
       "start": [
@@ -93871,7 +93871,7 @@
       "id": "G220_OUT_POS_05_JUMPER",
       "strain_group": "G220_OUT_POS_05",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "suspension_id": "G220_OUT_SUSP_05",
       "suspension_root": "B28::G220_OUT_SUSP_05.ASSEMBLY",
       "start": [
@@ -96881,7 +96881,7 @@
       "id": "G220_OUT_POS_06_JUMPER",
       "strain_group": "G220_OUT_POS_06",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "suspension_id": "G220_OUT_SUSP_06",
       "suspension_root": "B28::G220_OUT_SUSP_06.ASSEMBLY",
       "start": [
@@ -99625,7 +99625,7 @@
       "id": "G220_OUT_POS_07_JUMPER",
       "strain_group": "G220_OUT_POS_07",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "suspension_id": "G220_OUT_SUSP_07",
       "suspension_root": "B28::G220_OUT_SUSP_07.ASSEMBLY",
       "start": [
@@ -102426,7 +102426,7 @@
       "id": "G220_OUT_POS_08_JUMPER",
       "strain_group": "G220_OUT_POS_08",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "suspension_id": "G220_OUT_SUSP_08",
       "suspension_root": "B28::G220_OUT_SUSP_08.ASSEMBLY",
       "start": [
@@ -105219,7 +105219,7 @@
       "id": "G220_OUT_POS_09_JUMPER",
       "strain_group": "G220_OUT_POS_09",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "suspension_id": "G220_OUT_SUSP_09",
       "suspension_root": "B28::G220_OUT_SUSP_09.ASSEMBLY",
       "start": [
@@ -107830,7 +107830,7 @@
       "id": "G220_OUT_POS_10_JUMPER",
       "strain_group": "G220_OUT_POS_10",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "suspension_id": "G220_OUT_SUSP_10",
       "suspension_root": "B28::G220_OUT_SUSP_10.ASSEMBLY",
       "start": [
@@ -110425,7 +110425,7 @@
       "id": "G220_OUT_POS_11_JUMPER",
       "strain_group": "G220_OUT_POS_11",
       "row": "G220_OUT",
-      "zone": "GIS220",
+      "zone": "GIS-B",
       "suspension_id": "G220_OUT_SUSP_11",
       "suspension_root": "B28::G220_OUT_SUSP_11.ASSEMBLY",
       "start": [

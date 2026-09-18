@@ -1,6 +1,6 @@
 # B26 续作说明
 
-当前工程 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B26/xialin_B26_transformer_central_gantry.blend`，SHA `e64f4de349ef6405d23f169c7909c667ac69ef0e576d2d9b87fd52bb90042a66`。资产 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B26/B26_central_gantry_and_firewalls.blend`，SHA `6053b079fc793ca07a593b285cd75c24a304e83ba033b75b1a5ac03d83ac49a4`。GUI已打开默认539_B26_Central_Equipment_Clean，dirtyFalse，共538场景。新增537–553共17场景：537全站、538全站叠图；539–541主变设备连同构架；542–544仅三墙与构架；545–547第一墙、548–550中墙、551–553第三墙，各组三个为clean/overlay/reference。B26_review.html嵌入17图、7个对照视角，链接/图像hash与JS检查通过，未声称浏览器布局验收。
+当前工程 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B26/site_B26_transformer_central_gantry.blend`，SHA `e64f4de349ef6405d23f169c7909c667ac69ef0e576d2d9b87fd52bb90042a66`。资产 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B26/B26_central_gantry_and_firewalls.blend`，SHA `6053b079fc793ca07a593b285cd75c24a304e83ba033b75b1a5ac03d83ac49a4`。GUI已打开默认539_B26_Central_Equipment_Clean，dirtyFalse，共538场景。新增537–553共17场景：537全站、538全站叠图；539–541主变设备连同构架；542–544仅三墙与构架；545–547第一墙、548–550中墙、551–553第三墙，各组三个为clean/overlay/reference。B26_review.html嵌入17图、7个对照视角，链接/图像hash与JS检查通过，未声称浏览器布局验收。
 
 ## 本轮完成
 

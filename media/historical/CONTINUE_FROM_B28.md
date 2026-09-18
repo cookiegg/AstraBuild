@@ -1,6 +1,6 @@
 # B28 续作说明
 
-当前 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B28/xialin_B28_outdoor_suspension_insulators.blend`，SHA `d9911b13470022524f7f215f71bcea49acd7abad7787a86fe99bb175cee8a774`；资产 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B28/B28_suspension_components.blend`，SHA `fa8fe99da78ed73a79f9b34ec2651f3d68bc0da1c44b8a8a43c1ef24bad73eb7`。GUI默认577_B28_G110_OUT_Detail_Clean，dirtyFalse，共31379对象、569场景。新增566–584共19场景：566/567全站clean/overlay；568–570 G110_OUT、571–573 G110_IN、574–576 G220_OUT；577–579 110首跨、580–582 220首跨；583/584分别短/长悬挂母版编辑。五组模型/粗模滑动对照及全站和两母版预览，链接/JS检查通过，未浏览器布局验收。
+当前 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B28/site_B28_outdoor_suspension_insulators.blend`，SHA `d9911b13470022524f7f215f71bcea49acd7abad7787a86fe99bb175cee8a774`；资产 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B28/B28_suspension_components.blend`，SHA `fa8fe99da78ed73a79f9b34ec2651f3d68bc0da1c44b8a8a43c1ef24bad73eb7`。GUI默认577_B28_G110_OUT_Detail_Clean，dirtyFalse，共31379对象、569场景。新增566–584共19场景：566/567全站clean/overlay；568–570 G110_OUT、571–573 G110_IN、574–576 G220_OUT；577–579 110首跨、580–582 220首跨；583/584分别短/长悬挂母版编辑。五组模型/粗模滑动对照及全站和两母版预览，链接/JS检查通过，未浏览器布局验收。
 
 ## 已完成
 

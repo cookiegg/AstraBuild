@@ -1,9 +1,9 @@
 {
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/xialin_B30_GIS_downleads_arrester_branches.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/site_B30_GIS_downleads_arrester_branches.blend",
   "sha256": "9e1787a3eeb01e28f34eb2fa82dc5b741fef98ef5a86a085566513d5f68e4aad",
   "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/B30_downlead_components.blend",
   "asset_sha256": "a4d06a3cd4146b52a5760cd9ea15cf0d007c9d53d4ab1f750568b1fb6af6a85c",
-  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/xialin_B29_strains_jumpers_crosslines.blend",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/site_B29_strains_jumpers_crosslines.blend",
   "previous_sha256": "33313cca55fbb1d300a10a64d8599e13a3ac2eb1ce8782d26eec0e6ba7f94c5c",
   "station_scene": "605_B30_Station_Clean",
   "default_scene": "622_B30_G220_OUT_Detail_Clean",
@@ -12069,7 +12069,7 @@
       ],
       "terminal": {
         "id": "B13::746.CORE/B12::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::746.CORE",
         "part": "B12::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12099,7 +12099,7 @@
       ],
       "terminal": {
         "id": "B13::746.CORE/B12::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::746.CORE",
         "part": "B12::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -12129,7 +12129,7 @@
       ],
       "terminal": {
         "id": "B13::746.CORE/B12::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::746.CORE",
         "part": "B12::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12159,7 +12159,7 @@
       ],
       "terminal": {
         "id": "B13::747.CORE/B12::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::747.CORE",
         "part": "B12::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12189,7 +12189,7 @@
       ],
       "terminal": {
         "id": "B13::747.CORE/B12::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::747.CORE",
         "part": "B12::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -12219,7 +12219,7 @@
       ],
       "terminal": {
         "id": "B13::747.CORE/B12::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::747.CORE",
         "part": "B12::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12249,7 +12249,7 @@
       ],
       "terminal": {
         "id": "B13::748.CORE/B12::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::748.CORE",
         "part": "B12::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12279,7 +12279,7 @@
       ],
       "terminal": {
         "id": "B13::748.CORE/B12::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::748.CORE",
         "part": "B12::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -12309,7 +12309,7 @@
       ],
       "terminal": {
         "id": "B13::748.CORE/B12::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::748.CORE",
         "part": "B12::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12339,7 +12339,7 @@
       ],
       "terminal": {
         "id": "B13::749.CORE/B12::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::749.CORE",
         "part": "B12::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12369,7 +12369,7 @@
       ],
       "terminal": {
         "id": "B13::749.CORE/B12::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::749.CORE",
         "part": "B12::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -12399,7 +12399,7 @@
       ],
       "terminal": {
         "id": "B13::749.CORE/B12::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::749.CORE",
         "part": "B12::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12429,7 +12429,7 @@
       ],
       "terminal": {
         "id": "B13::750.CORE/B12::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::750.CORE",
         "part": "B12::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12459,7 +12459,7 @@
       ],
       "terminal": {
         "id": "B13::750.CORE/B12::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::750.CORE",
         "part": "B12::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -12489,7 +12489,7 @@
       ],
       "terminal": {
         "id": "B13::750.CORE/B12::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::750.CORE",
         "part": "B12::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12519,7 +12519,7 @@
       ],
       "terminal": {
         "id": "B13::751.CORE/B12::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::751.CORE",
         "part": "B12::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12549,7 +12549,7 @@
       ],
       "terminal": {
         "id": "B13::751.CORE/B12::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::751.CORE",
         "part": "B12::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -12579,7 +12579,7 @@
       ],
       "terminal": {
         "id": "B13::751.CORE/B12::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::751.CORE",
         "part": "B12::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12609,7 +12609,7 @@
       ],
       "terminal": {
         "id": "B15R2::758.CORE/B12::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::758.CORE",
         "part": "B12::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12639,7 +12639,7 @@
       ],
       "terminal": {
         "id": "B15R2::758.CORE/B12::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::758.CORE",
         "part": "B12::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -12669,7 +12669,7 @@
       ],
       "terminal": {
         "id": "B15R2::758.CORE/B12::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::758.CORE",
         "part": "B12::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12699,7 +12699,7 @@
       ],
       "terminal": {
         "id": "B13::759.CORE/B12::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::759.CORE",
         "part": "B12::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12729,7 +12729,7 @@
       ],
       "terminal": {
         "id": "B13::759.CORE/B12::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::759.CORE",
         "part": "B12::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -12759,7 +12759,7 @@
       ],
       "terminal": {
         "id": "B13::759.CORE/B12::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::759.CORE",
         "part": "B12::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12792,7 +12792,7 @@
       ],
       "terminal": {
         "id": "B15R2::502.CORE/B14::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::502.CORE",
         "part": "B14::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12825,7 +12825,7 @@
       ],
       "terminal": {
         "id": "B15R2::502.CORE/B14::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::502.CORE",
         "part": "B14::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -12858,7 +12858,7 @@
       ],
       "terminal": {
         "id": "B15R2::502.CORE/B14::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::502.CORE",
         "part": "B14::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12891,7 +12891,7 @@
       ],
       "terminal": {
         "id": "B15R2::501.CORE/B14::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::501.CORE",
         "part": "B14::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12924,7 +12924,7 @@
       ],
       "terminal": {
         "id": "B15R2::501.CORE/B14::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::501.CORE",
         "part": "B14::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -12957,7 +12957,7 @@
       ],
       "terminal": {
         "id": "B15R2::501.CORE/B14::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::501.CORE",
         "part": "B14::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -12990,7 +12990,7 @@
       ],
       "terminal": {
         "id": "B17::4D75.TERMINAL.0",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D75.TERMINAL.0",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -13017,7 +13017,7 @@
       ],
       "terminal": {
         "id": "B17::4D75.TERMINAL.1",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D75.TERMINAL.1",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -13044,7 +13044,7 @@
       ],
       "terminal": {
         "id": "B17::4D75.TERMINAL.2",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D75.TERMINAL.2",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -13071,7 +13071,7 @@
       ],
       "terminal": {
         "id": "B17::4D76.TERMINAL.0",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D76.TERMINAL.0",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -13098,7 +13098,7 @@
       ],
       "terminal": {
         "id": "B17::4D76.TERMINAL.1",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D76.TERMINAL.1",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -13125,7 +13125,7 @@
       ],
       "terminal": {
         "id": "B17::4D76.TERMINAL.2",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D76.TERMINAL.2",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -13152,7 +13152,7 @@
       ],
       "terminal": {
         "id": "B17::2899.TERMINAL.0",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::2899.TERMINAL.0",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -13179,7 +13179,7 @@
       ],
       "terminal": {
         "id": "B17::2899.TERMINAL.1",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::2899.TERMINAL.1",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -13206,7 +13206,7 @@
       ],
       "terminal": {
         "id": "B17::2899.TERMINAL.2",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::2899.TERMINAL.2",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -13233,7 +13233,7 @@
       ],
       "terminal": {
         "id": "B17::4B77.TERMINAL.0",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4B77.TERMINAL.0",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -13260,7 +13260,7 @@
       ],
       "terminal": {
         "id": "B17::4B77.TERMINAL.1",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4B77.TERMINAL.1",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -13287,7 +13287,7 @@
       ],
       "terminal": {
         "id": "B17::4B77.TERMINAL.2",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4B77.TERMINAL.2",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -13314,7 +13314,7 @@
       ],
       "terminal": {
         "id": "B17::4802.TERMINAL.0",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4802.TERMINAL.0",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -13341,7 +13341,7 @@
       ],
       "terminal": {
         "id": "B17::4802.TERMINAL.1",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4802.TERMINAL.1",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -13368,7 +13368,7 @@
       ],
       "terminal": {
         "id": "B17::4802.TERMINAL.2",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4802.TERMINAL.2",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -13395,7 +13395,7 @@
       ],
       "terminal": {
         "id": "12MZ0000000219413::refit.air_terminal.1.terminal",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "12MZ0000000219413::refit.air_terminal.1.terminal",
         "point": [
           -5.046901414816893,
@@ -13421,7 +13421,7 @@
       ],
       "terminal": {
         "id": "12MZ0000000219413::refit.air_terminal.2.terminal",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "12MZ0000000219413::refit.air_terminal.2.terminal",
         "point": [
           -5.029149033335046,
@@ -13447,7 +13447,7 @@
       ],
       "terminal": {
         "id": "12MZ0000000219413::refit.air_terminal.3.terminal",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "12MZ0000000219413::refit.air_terminal.3.terminal",
         "point": [
           -5.020288747841363,
@@ -13470,7 +13470,7 @@
       ],
       "terminal": {
         "id": "B05_746_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B05_746_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13494,7 +13494,7 @@
       ],
       "terminal": {
         "id": "B11_746_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_746_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13518,7 +13518,7 @@
       ],
       "terminal": {
         "id": "B11_746_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_746_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13542,7 +13542,7 @@
       ],
       "terminal": {
         "id": "B03_747_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B03_747_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13566,7 +13566,7 @@
       ],
       "terminal": {
         "id": "B03_747_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B03_747_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13590,7 +13590,7 @@
       ],
       "terminal": {
         "id": "B03_747_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B03_747_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13614,7 +13614,7 @@
       ],
       "terminal": {
         "id": "B03_748_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B03_748_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13638,7 +13638,7 @@
       ],
       "terminal": {
         "id": "B11_748_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_748_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13662,7 +13662,7 @@
       ],
       "terminal": {
         "id": "B03_748_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B03_748_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13686,7 +13686,7 @@
       ],
       "terminal": {
         "id": "B02_749_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B02_749_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13710,7 +13710,7 @@
       ],
       "terminal": {
         "id": "B02_749_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B02_749_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13734,7 +13734,7 @@
       ],
       "terminal": {
         "id": "B02_749_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B02_749_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13758,7 +13758,7 @@
       ],
       "terminal": {
         "id": "B05_750_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B05_750_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13782,7 +13782,7 @@
       ],
       "terminal": {
         "id": "B05_750_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B05_750_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13806,7 +13806,7 @@
       ],
       "terminal": {
         "id": "B05_750_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B05_750_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13830,7 +13830,7 @@
       ],
       "terminal": {
         "id": "B11_751_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_751_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13854,7 +13854,7 @@
       ],
       "terminal": {
         "id": "B11_751_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_751_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13878,7 +13878,7 @@
       ],
       "terminal": {
         "id": "B11_751_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_751_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13902,7 +13902,7 @@
       ],
       "terminal": {
         "id": "B11_758_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_758_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13926,7 +13926,7 @@
       ],
       "terminal": {
         "id": "B11_758_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_758_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13950,7 +13950,7 @@
       ],
       "terminal": {
         "id": "B11_758_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_758_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13974,7 +13974,7 @@
       ],
       "terminal": {
         "id": "B11_759_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_759_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -13998,7 +13998,7 @@
       ],
       "terminal": {
         "id": "B11_759_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_759_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -14022,7 +14022,7 @@
       ],
       "terminal": {
         "id": "B11_759_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_759_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -14048,7 +14048,7 @@
       ],
       "terminal": {
         "id": "B11_T2_MV_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T2_MV_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -14074,7 +14074,7 @@
       ],
       "terminal": {
         "id": "B11_T2_MV_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T2_MV_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -14100,7 +14100,7 @@
       ],
       "terminal": {
         "id": "B11_T2_MV_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T2_MV_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -14126,7 +14126,7 @@
       ],
       "terminal": {
         "id": "B11_T1_501_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T1_501_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -14152,7 +14152,7 @@
       ],
       "terminal": {
         "id": "B11_T1_501_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T1_501_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -14178,7 +14178,7 @@
       ],
       "terminal": {
         "id": "B11_T1_501_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T1_501_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -14204,7 +14204,7 @@
       ],
       "terminal": {
         "id": "B18::4D75_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D75_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14230,7 +14230,7 @@
       ],
       "terminal": {
         "id": "B18::4D75_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D75_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14256,7 +14256,7 @@
       ],
       "terminal": {
         "id": "B18::4D75_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D75_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14282,7 +14282,7 @@
       ],
       "terminal": {
         "id": "B18::4D76_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D76_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14308,7 +14308,7 @@
       ],
       "terminal": {
         "id": "B18::4D76_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D76_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14334,7 +14334,7 @@
       ],
       "terminal": {
         "id": "B18::4D76_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D76_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14360,7 +14360,7 @@
       ],
       "terminal": {
         "id": "B18::2899_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::2899_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14386,7 +14386,7 @@
       ],
       "terminal": {
         "id": "B18::2899_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::2899_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14412,7 +14412,7 @@
       ],
       "terminal": {
         "id": "B18::2899_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::2899_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14438,7 +14438,7 @@
       ],
       "terminal": {
         "id": "B18::4B77_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4B77_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14464,7 +14464,7 @@
       ],
       "terminal": {
         "id": "B18::4B77_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4B77_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14490,7 +14490,7 @@
       ],
       "terminal": {
         "id": "B18::4B77_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4B77_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14516,7 +14516,7 @@
       ],
       "terminal": {
         "id": "B18::T2_HV_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T2_HV_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14542,7 +14542,7 @@
       ],
       "terminal": {
         "id": "B18::T2_HV_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T2_HV_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14568,7 +14568,7 @@
       ],
       "terminal": {
         "id": "B18::T2_HV_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T2_HV_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14594,7 +14594,7 @@
       ],
       "terminal": {
         "id": "B18::T1_HV_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T1_HV_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14620,7 +14620,7 @@
       ],
       "terminal": {
         "id": "B18::T1_HV_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T1_HV_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -14646,7 +14646,7 @@
       ],
       "terminal": {
         "id": "B18::T1_HV_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T1_HV_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -15167,7 +15167,7 @@
       ],
       "terminal": {
         "id": "B13::746.CORE/B12::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::746.CORE",
         "part": "B12::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -15694,7 +15694,7 @@
       ],
       "terminal": {
         "id": "B13::746.CORE/B12::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::746.CORE",
         "part": "B12::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -16221,7 +16221,7 @@
       ],
       "terminal": {
         "id": "B13::746.CORE/B12::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::746.CORE",
         "part": "B12::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -16748,7 +16748,7 @@
       ],
       "terminal": {
         "id": "B13::747.CORE/B12::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::747.CORE",
         "part": "B12::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -17275,7 +17275,7 @@
       ],
       "terminal": {
         "id": "B13::747.CORE/B12::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::747.CORE",
         "part": "B12::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -17802,7 +17802,7 @@
       ],
       "terminal": {
         "id": "B13::747.CORE/B12::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::747.CORE",
         "part": "B12::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -18329,7 +18329,7 @@
       ],
       "terminal": {
         "id": "B13::748.CORE/B12::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::748.CORE",
         "part": "B12::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -18856,7 +18856,7 @@
       ],
       "terminal": {
         "id": "B13::748.CORE/B12::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::748.CORE",
         "part": "B12::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -19383,7 +19383,7 @@
       ],
       "terminal": {
         "id": "B13::748.CORE/B12::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::748.CORE",
         "part": "B12::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -19910,7 +19910,7 @@
       ],
       "terminal": {
         "id": "B13::749.CORE/B12::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::749.CORE",
         "part": "B12::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -20437,7 +20437,7 @@
       ],
       "terminal": {
         "id": "B13::749.CORE/B12::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::749.CORE",
         "part": "B12::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -20964,7 +20964,7 @@
       ],
       "terminal": {
         "id": "B13::749.CORE/B12::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::749.CORE",
         "part": "B12::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -21491,7 +21491,7 @@
       ],
       "terminal": {
         "id": "B13::750.CORE/B12::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::750.CORE",
         "part": "B12::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -22018,7 +22018,7 @@
       ],
       "terminal": {
         "id": "B13::750.CORE/B12::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::750.CORE",
         "part": "B12::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -22545,7 +22545,7 @@
       ],
       "terminal": {
         "id": "B13::750.CORE/B12::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::750.CORE",
         "part": "B12::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -23072,7 +23072,7 @@
       ],
       "terminal": {
         "id": "B13::751.CORE/B12::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::751.CORE",
         "part": "B12::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -23599,7 +23599,7 @@
       ],
       "terminal": {
         "id": "B13::751.CORE/B12::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::751.CORE",
         "part": "B12::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -24126,7 +24126,7 @@
       ],
       "terminal": {
         "id": "B13::751.CORE/B12::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::751.CORE",
         "part": "B12::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -24653,7 +24653,7 @@
       ],
       "terminal": {
         "id": "B15R2::758.CORE/B12::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::758.CORE",
         "part": "B12::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -25180,7 +25180,7 @@
       ],
       "terminal": {
         "id": "B15R2::758.CORE/B12::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::758.CORE",
         "part": "B12::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -25707,7 +25707,7 @@
       ],
       "terminal": {
         "id": "B15R2::758.CORE/B12::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::758.CORE",
         "part": "B12::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -26234,7 +26234,7 @@
       ],
       "terminal": {
         "id": "B13::759.CORE/B12::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::759.CORE",
         "part": "B12::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -26761,7 +26761,7 @@
       ],
       "terminal": {
         "id": "B13::759.CORE/B12::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::759.CORE",
         "part": "B12::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -27288,7 +27288,7 @@
       ],
       "terminal": {
         "id": "B13::759.CORE/B12::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B13::759.CORE",
         "part": "B12::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -27815,7 +27815,7 @@
       ],
       "terminal": {
         "id": "B15R2::502.CORE/B14::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::502.CORE",
         "part": "B14::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -28342,7 +28342,7 @@
       ],
       "terminal": {
         "id": "B15R2::502.CORE/B14::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::502.CORE",
         "part": "B14::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -28869,7 +28869,7 @@
       ],
       "terminal": {
         "id": "B15R2::502.CORE/B14::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::502.CORE",
         "part": "B14::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -29396,7 +29396,7 @@
       ],
       "terminal": {
         "id": "B15R2::502.CORE/B14::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::502.CORE",
         "part": "B14::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -29923,7 +29923,7 @@
       ],
       "terminal": {
         "id": "B15R2::502.CORE/B14::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::502.CORE",
         "part": "B14::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -30450,7 +30450,7 @@
       ],
       "terminal": {
         "id": "B15R2::502.CORE/B14::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::502.CORE",
         "part": "B14::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -30977,7 +30977,7 @@
       ],
       "terminal": {
         "id": "B15R2::501.CORE/B14::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::501.CORE",
         "part": "B14::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -31504,7 +31504,7 @@
       ],
       "terminal": {
         "id": "B15R2::501.CORE/B14::bushing.side_plus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::501.CORE",
         "part": "B14::bushing.side_plus",
         "terminal_mesh": "B12::compact.terminal",
@@ -32031,7 +32031,7 @@
       ],
       "terminal": {
         "id": "B15R2::501.CORE/B14::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::501.CORE",
         "part": "B14::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -32558,7 +32558,7 @@
       ],
       "terminal": {
         "id": "B15R2::501.CORE/B14::bushing.rear",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::501.CORE",
         "part": "B14::bushing.rear",
         "terminal_mesh": "B12::compact.terminal",
@@ -33085,7 +33085,7 @@
       ],
       "terminal": {
         "id": "B15R2::501.CORE/B14::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::501.CORE",
         "part": "B14::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -33612,7 +33612,7 @@
       ],
       "terminal": {
         "id": "B15R2::501.CORE/B14::bushing.side_minus",
-        "kind": "GIS110_bushing",
+        "kind": "GIS-A_bushing",
         "root": "B15R2::501.CORE",
         "part": "B14::bushing.side_minus",
         "terminal_mesh": "B12::compact.terminal",
@@ -34139,7 +34139,7 @@
       ],
       "terminal": {
         "id": "B17::4D75.TERMINAL.0",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D75.TERMINAL.0",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -34660,7 +34660,7 @@
       ],
       "terminal": {
         "id": "B17::4D75.TERMINAL.0",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D75.TERMINAL.0",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -35181,7 +35181,7 @@
       ],
       "terminal": {
         "id": "B17::4D75.TERMINAL.1",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D75.TERMINAL.1",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -35702,7 +35702,7 @@
       ],
       "terminal": {
         "id": "B17::4D75.TERMINAL.1",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D75.TERMINAL.1",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -36223,7 +36223,7 @@
       ],
       "terminal": {
         "id": "B17::4D75.TERMINAL.2",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D75.TERMINAL.2",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -36744,7 +36744,7 @@
       ],
       "terminal": {
         "id": "B17::4D75.TERMINAL.2",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D75.TERMINAL.2",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -37265,7 +37265,7 @@
       ],
       "terminal": {
         "id": "B17::4D76.TERMINAL.0",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D76.TERMINAL.0",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -37786,7 +37786,7 @@
       ],
       "terminal": {
         "id": "B17::4D76.TERMINAL.0",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D76.TERMINAL.0",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -38307,7 +38307,7 @@
       ],
       "terminal": {
         "id": "B17::4D76.TERMINAL.1",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D76.TERMINAL.1",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -38828,7 +38828,7 @@
       ],
       "terminal": {
         "id": "B17::4D76.TERMINAL.1",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D76.TERMINAL.1",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -39349,7 +39349,7 @@
       ],
       "terminal": {
         "id": "B17::4D76.TERMINAL.2",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D76.TERMINAL.2",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -39870,7 +39870,7 @@
       ],
       "terminal": {
         "id": "B17::4D76.TERMINAL.2",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4D76.TERMINAL.2",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -40391,7 +40391,7 @@
       ],
       "terminal": {
         "id": "B17::2899.TERMINAL.0",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::2899.TERMINAL.0",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -40912,7 +40912,7 @@
       ],
       "terminal": {
         "id": "B17::2899.TERMINAL.0",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::2899.TERMINAL.0",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -41433,7 +41433,7 @@
       ],
       "terminal": {
         "id": "B17::2899.TERMINAL.1",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::2899.TERMINAL.1",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -41954,7 +41954,7 @@
       ],
       "terminal": {
         "id": "B17::2899.TERMINAL.1",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::2899.TERMINAL.1",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -42475,7 +42475,7 @@
       ],
       "terminal": {
         "id": "B17::2899.TERMINAL.2",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::2899.TERMINAL.2",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -42996,7 +42996,7 @@
       ],
       "terminal": {
         "id": "B17::2899.TERMINAL.2",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::2899.TERMINAL.2",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -43517,7 +43517,7 @@
       ],
       "terminal": {
         "id": "B17::4B77.TERMINAL.0",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4B77.TERMINAL.0",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -44038,7 +44038,7 @@
       ],
       "terminal": {
         "id": "B17::4B77.TERMINAL.0",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4B77.TERMINAL.0",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -44559,7 +44559,7 @@
       ],
       "terminal": {
         "id": "B17::4B77.TERMINAL.1",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4B77.TERMINAL.1",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -45080,7 +45080,7 @@
       ],
       "terminal": {
         "id": "B17::4B77.TERMINAL.1",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4B77.TERMINAL.1",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -45601,7 +45601,7 @@
       ],
       "terminal": {
         "id": "B17::4B77.TERMINAL.2",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4B77.TERMINAL.2",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -46122,7 +46122,7 @@
       ],
       "terminal": {
         "id": "B17::4B77.TERMINAL.2",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4B77.TERMINAL.2",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -46643,7 +46643,7 @@
       ],
       "terminal": {
         "id": "B17::4802.TERMINAL.0",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4802.TERMINAL.0",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -47164,7 +47164,7 @@
       ],
       "terminal": {
         "id": "B17::4802.TERMINAL.0",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4802.TERMINAL.0",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -47685,7 +47685,7 @@
       ],
       "terminal": {
         "id": "B17::4802.TERMINAL.1",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4802.TERMINAL.1",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -48206,7 +48206,7 @@
       ],
       "terminal": {
         "id": "B17::4802.TERMINAL.1",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4802.TERMINAL.1",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -48727,7 +48727,7 @@
       ],
       "terminal": {
         "id": "B17::4802.TERMINAL.2",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4802.TERMINAL.2",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -49248,7 +49248,7 @@
       ],
       "terminal": {
         "id": "B17::4802.TERMINAL.2",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "B17::4802.TERMINAL.2",
         "terminal_mesh": "B17::terminal.connector",
         "point": [
@@ -49769,7 +49769,7 @@
       ],
       "terminal": {
         "id": "12MZ0000000219413::refit.air_terminal.1.terminal",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "12MZ0000000219413::refit.air_terminal.1.terminal",
         "point": [
           -5.046901414816893,
@@ -50289,7 +50289,7 @@
       ],
       "terminal": {
         "id": "12MZ0000000219413::refit.air_terminal.1.terminal",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "12MZ0000000219413::refit.air_terminal.1.terminal",
         "point": [
           -5.046901414816893,
@@ -50809,7 +50809,7 @@
       ],
       "terminal": {
         "id": "12MZ0000000219413::refit.air_terminal.2.terminal",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "12MZ0000000219413::refit.air_terminal.2.terminal",
         "point": [
           -5.029149033335046,
@@ -51329,7 +51329,7 @@
       ],
       "terminal": {
         "id": "12MZ0000000219413::refit.air_terminal.2.terminal",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "12MZ0000000219413::refit.air_terminal.2.terminal",
         "point": [
           -5.029149033335046,
@@ -51849,7 +51849,7 @@
       ],
       "terminal": {
         "id": "12MZ0000000219413::refit.air_terminal.3.terminal",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "12MZ0000000219413::refit.air_terminal.3.terminal",
         "point": [
           -5.020288747841363,
@@ -52369,7 +52369,7 @@
       ],
       "terminal": {
         "id": "12MZ0000000219413::refit.air_terminal.3.terminal",
-        "kind": "GIS220_bushing",
+        "kind": "GIS-B_bushing",
         "root": "12MZ0000000219413::refit.air_terminal.3.terminal",
         "point": [
           -5.020288747841363,
@@ -52889,7 +52889,7 @@
       ],
       "terminal": {
         "id": "B05_746_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B05_746_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -53409,7 +53409,7 @@
       ],
       "terminal": {
         "id": "B11_746_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_746_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -53929,7 +53929,7 @@
       ],
       "terminal": {
         "id": "B11_746_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_746_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -54449,7 +54449,7 @@
       ],
       "terminal": {
         "id": "B03_747_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B03_747_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -54969,7 +54969,7 @@
       ],
       "terminal": {
         "id": "B03_747_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B03_747_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -55489,7 +55489,7 @@
       ],
       "terminal": {
         "id": "B03_747_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B03_747_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -56009,7 +56009,7 @@
       ],
       "terminal": {
         "id": "B03_748_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B03_748_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -56529,7 +56529,7 @@
       ],
       "terminal": {
         "id": "B11_748_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_748_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -57049,7 +57049,7 @@
       ],
       "terminal": {
         "id": "B03_748_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B03_748_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -57569,7 +57569,7 @@
       ],
       "terminal": {
         "id": "B02_749_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B02_749_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -58089,7 +58089,7 @@
       ],
       "terminal": {
         "id": "B02_749_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B02_749_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -58609,7 +58609,7 @@
       ],
       "terminal": {
         "id": "B02_749_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B02_749_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -59129,7 +59129,7 @@
       ],
       "terminal": {
         "id": "B05_750_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B05_750_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -59649,7 +59649,7 @@
       ],
       "terminal": {
         "id": "B05_750_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B05_750_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -60169,7 +60169,7 @@
       ],
       "terminal": {
         "id": "B05_750_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B05_750_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -60689,7 +60689,7 @@
       ],
       "terminal": {
         "id": "B11_751_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_751_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -61209,7 +61209,7 @@
       ],
       "terminal": {
         "id": "B11_751_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_751_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -61729,7 +61729,7 @@
       ],
       "terminal": {
         "id": "B11_751_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_751_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -62249,7 +62249,7 @@
       ],
       "terminal": {
         "id": "B11_758_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_758_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -62769,7 +62769,7 @@
       ],
       "terminal": {
         "id": "B11_758_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_758_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -63289,7 +63289,7 @@
       ],
       "terminal": {
         "id": "B11_758_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_758_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -63809,7 +63809,7 @@
       ],
       "terminal": {
         "id": "B11_759_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_759_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -64329,7 +64329,7 @@
       ],
       "terminal": {
         "id": "B11_759_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_759_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -64849,7 +64849,7 @@
       ],
       "terminal": {
         "id": "B11_759_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_759_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -65369,7 +65369,7 @@
       ],
       "terminal": {
         "id": "B11_T2_MV_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T2_MV_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -65889,7 +65889,7 @@
       ],
       "terminal": {
         "id": "B11_T2_MV_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T2_MV_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -66409,7 +66409,7 @@
       ],
       "terminal": {
         "id": "B11_T2_MV_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T2_MV_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -66929,7 +66929,7 @@
       ],
       "terminal": {
         "id": "B11_T1_501_C_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T1_501_C_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -67449,7 +67449,7 @@
       ],
       "terminal": {
         "id": "B11_T1_501_B_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T1_501_B_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -67969,7 +67969,7 @@
       ],
       "terminal": {
         "id": "B11_T1_501_A_BODY",
-        "kind": "SA110_arrester",
+        "kind": "SA-A_arrester",
         "root": "B11_T1_501_A_BODY",
         "terminal_mesh": "P02_body.terminal_lug",
         "point": [
@@ -68489,7 +68489,7 @@
       ],
       "terminal": {
         "id": "B18::4D75_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D75_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -69009,7 +69009,7 @@
       ],
       "terminal": {
         "id": "B18::4D75_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D75_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -69529,7 +69529,7 @@
       ],
       "terminal": {
         "id": "B18::4D75_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D75_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -70049,7 +70049,7 @@
       ],
       "terminal": {
         "id": "B18::4D76_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D76_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -70569,7 +70569,7 @@
       ],
       "terminal": {
         "id": "B18::4D76_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D76_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -71089,7 +71089,7 @@
       ],
       "terminal": {
         "id": "B18::4D76_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4D76_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -71609,7 +71609,7 @@
       ],
       "terminal": {
         "id": "B18::2899_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::2899_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -72129,7 +72129,7 @@
       ],
       "terminal": {
         "id": "B18::2899_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::2899_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -72649,7 +72649,7 @@
       ],
       "terminal": {
         "id": "B18::2899_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::2899_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -73169,7 +73169,7 @@
       ],
       "terminal": {
         "id": "B18::4B77_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4B77_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -73689,7 +73689,7 @@
       ],
       "terminal": {
         "id": "B18::4B77_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4B77_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -74209,7 +74209,7 @@
       ],
       "terminal": {
         "id": "B18::4B77_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::4B77_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -74729,7 +74729,7 @@
       ],
       "terminal": {
         "id": "B18::T2_HV_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T2_HV_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -75249,7 +75249,7 @@
       ],
       "terminal": {
         "id": "B18::T2_HV_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T2_HV_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -75769,7 +75769,7 @@
       ],
       "terminal": {
         "id": "B18::T2_HV_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T2_HV_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -76289,7 +76289,7 @@
       ],
       "terminal": {
         "id": "B18::T1_HV_A.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T1_HV_A.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -76809,7 +76809,7 @@
       ],
       "terminal": {
         "id": "B18::T1_HV_B.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T1_HV_B.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [
@@ -77329,7 +77329,7 @@
       ],
       "terminal": {
         "id": "B18::T1_HV_C.BODY",
-        "kind": "SA220_arrester",
+        "kind": "SA-B_arrester",
         "root": "B18::T1_HV_C.BODY",
         "terminal_mesh": "B18::body.terminal_palm",
         "point": [

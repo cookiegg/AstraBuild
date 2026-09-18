@@ -1,7 +1,7 @@
 {
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/xialin_B11_110kV_arresters_r2.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/site_B11_VC-A_arresters_r2.blend",
   "sha256": "0a18323d9ded48d5ec5e4e05b386111f8ba76403e7f237db6d25007e85badd05",
-  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/xialin_B10_capacitor_banks.blend",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/site_B10_capacitor_banks.blend",
   "previous_sha256": "bfc18cd99b6db6f54d47b9a1434488ba34e69ba9965043fe03462658e4b43a87",
   "plan_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/placement_B11_final.json",
   "plan_sha256": "63e7106ef38900b0e1df9f8fc6d273cde45db23345bbce1ba9f6866880bf8d2c",
@@ -99,7 +99,7 @@
     "104_B11_T2_MV_Clean",
     "105_B11_T2_MV_Overlay",
     "106_B11_T2_MV_Reference",
-    "107_B11_110kV_Arresters"
+    "107_B11_VC-A_Arresters"
   ],
   "detail_scenes": [
     "86_B11_746_Clean",
@@ -845,14 +845,14 @@
   ],
   "new_devices": 15,
   "updated_devices": 3,
-  "all_SA110_candidates": 30,
+  "all_SA-A_candidates": 30,
   "formal_promotions": 0,
   "pending": [
     "Seven R2 mounting screens retain failure: outer foot reconstruction scatter, plus 748-B shaft envelope RMS .0518m; axis poses improved but not declared full pass",
     "T2 medium-voltage side individual phase order pending; structural mapping remains provisional",
     "Other small housings and all local exterior wire routes remain incomplete; exact skirt count/terminal orientation unverified"
   ],
-  "initial_B11_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/xialin_B11_110kV_arresters.blend",
+  "initial_B11_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/site_B11_VC-A_arresters.blend",
   "initial_B11_sha256": "ea3a72dba33e3a01b03a7e53dd1a2bb16830f3647d6172f38df045af48ed364c",
   "revision": "r2_framing",
   "render_directory": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2",

@@ -1,6 +1,6 @@
 # B35 R3 保存与维护
 
-当前工程 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/xialin_B35_auxiliary_equipment_r3.blend`，SHA256 `66beb37e0808df38281e9d271cdf2eecbc7b4f1356ee95652b6e3efcf16cebc2`。独立辅助组件 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_auxiliary_components_r2.blend`。所有旧阶段文件和B35 R1保留。默认732入口；726整站斜视，729俯视，735绿围栏，738白围栏，741道路侧监控近景，744柱灯与消防筒。
+当前工程 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/site_B35_auxiliary_equipment_r3.blend`，SHA256 `66beb37e0808df38281e9d271cdf2eecbc7b4f1356ee95652b6e3efcf16cebc2`。独立辅助组件 `/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_auxiliary_components_r2.blend`。所有旧阶段文件和B35 R1保留。默认732入口；726整站斜视，729俯视，735绿围栏，738白围栏，741道路侧监控近景，744柱灯与消防筒。
 
 本轮“先保存，继续剩余室外建筑并尽可能完善”的主要室外可视建模工作已完成。成果包括B31主建筑、B32双设备舱、B33泵房/入口建筑/低构筑物、B34地坪道路和剩余外墙、B35辅助设施。地下与隐蔽设备、未能确认的零星细节、铭牌图表及独立工程测量不在已完成内容中。
 

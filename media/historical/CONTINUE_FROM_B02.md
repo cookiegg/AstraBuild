@@ -4,7 +4,7 @@ Paths below are relative to this photo-first-pilot directory. Continue photo/ide
 
 ## Latest files
 
-- Full-station working preview: `output/installation_B02/xialin_photo_first_B02_station_preview_r2.blend`.
+- Full-station working preview: `output/installation_B02/site_photo_first_B02_station_preview_r2.blend`.
 - Full preview SHA: bf3d0dc5c62434f19dda3d828bd69ce1eacae191a0e7fde007d75e20ae11ea36.
 - `output/installation_B02/B02_station_preview_r2_validation.json`: passed, integration/immutability QA, NOT formal semantic promotion.
 - Small local review: `output/installation_B02/P02_B02_749_installation_review.blend`.

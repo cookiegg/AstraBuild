@@ -4,7 +4,7 @@ Active user objective: 请持续进行变电站建模任务，直到室外设备
 Keep this goal active. B10 is concrete progress, not completion of the objective.
 Do not call update_goal complete based on candidate counts or these narrow checks.
 
-Latest station: output/installation_B10/xialin_B10_capacitor_banks.blend
+Latest station: output/installation_B10/site_B10_capacitor_banks.blend
 SHA256: bfc18cd99b6db6f54d47b9a1434488ba34e69ba9965043fe03462658e4b43a87
 Default scene 81_B10_Six_Banks; full station 61_B10_Station_Clean.
 Review: output/installation_B10/B10_review.html (21 embedded actual renders).
@@ -22,9 +22,9 @@ Do not exclude unresolved outdoor records or divide a candidate count by 153 to 
 completion. Inferred dimensions and unseen small internal details do not themselves block
 the user's exterior modeling objective; major visible forms and independent poses do.
 
-Next priority: remaining 110kV arresters (751/758/759 and T1/T2 medium-voltage side; exact 15 IDs in B10_next_arrester_targets.json),
-then 110kV GIS outgoing/spare bay longitudinal arrangement and different exterior variants.
-Repair existing 748-B/746-A/B mounting errors. Review 220kV legacy major fitted bays versus
+Next priority: remaining VC-A arresters (751/758/759 and T1/T2 medium-voltage side; exact 15 IDs in B10_next_arrester_targets.json),
+then VC-A GIS outgoing/spare bay longitudinal arrangement and different exterior variants.
+Repair existing 748-B/746-A/B mounting errors. Review VC-B legacy major fitted bays versus
 unverified repeated family templates; resolve neutral and aggregate infrastructure mapping.
 The coverage file records 77 legacy geometry records needing review, 3 older major-fit
 records needing current visual review, and 26 unresolved outdoor/mixed mappings.

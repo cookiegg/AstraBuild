@@ -28,7 +28,7 @@
   ],
   "containers": [
     {
-      "key": "C110",
+      "key": "Cabin-A",
       "theta_deg": -0.2868643062639707,
       "local_bounds": {
         "xmin": -61.829142470822276,
@@ -1517,7 +1517,7 @@
       ]
     },
     {
-      "key": "C220",
+      "key": "Cabin-B",
       "theta_deg": -0.3440530501505525,
       "local_bounds": {
         "xmin": -9.027860325709753,

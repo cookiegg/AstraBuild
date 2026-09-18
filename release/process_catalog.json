@@ -1298,7 +1298,7 @@
     },
     {
       "batch": "B11",
-      "family": "110 kV GIS and device families",
+      "family": "VC-A GIS and device families",
       "featured": false,
       "output_file_count": 72,
       "image_count": 47,
@@ -1486,7 +1486,7 @@
     },
     {
       "batch": "B12",
-      "family": "110 kV GIS and device families",
+      "family": "VC-A GIS and device families",
       "featured": false,
       "output_file_count": 46,
       "image_count": 24,
@@ -1661,7 +1661,7 @@
     },
     {
       "batch": "B13",
-      "family": "110 kV GIS and device families",
+      "family": "VC-A GIS and device families",
       "featured": false,
       "output_file_count": 83,
       "image_count": 41,
@@ -1859,7 +1859,7 @@
     },
     {
       "batch": "B14",
-      "family": "110 kV GIS and device families",
+      "family": "VC-A GIS and device families",
       "featured": false,
       "output_file_count": 84,
       "image_count": 48,
@@ -2060,7 +2060,7 @@
     },
     {
       "batch": "B15",
-      "family": "110 kV GIS and device families",
+      "family": "VC-A GIS and device families",
       "featured": true,
       "output_file_count": 163,
       "image_count": 105,
@@ -2272,7 +2272,7 @@
     },
     {
       "batch": "B16",
-      "family": "110 kV GIS and device families",
+      "family": "VC-A GIS and device families",
       "featured": false,
       "output_file_count": 111,
       "image_count": 82,
@@ -2461,7 +2461,7 @@
     },
     {
       "batch": "B17",
-      "family": "220 kV GIS and outgoing families",
+      "family": "VC-B GIS and outgoing families",
       "featured": false,
       "output_file_count": 181,
       "image_count": 130,
@@ -2647,7 +2647,7 @@
       "review_checks": null,
       "inputs": "../media/historical/output/installation_B17/inputs_B17.json",
       "measurements": "../media/historical/output/installation_B17/B17_datums_r2.json",
-      "review_title": "220kV 出线设备模型对照 · B17",
+      "review_title": "VC-B 出线设备模型对照 · B17",
       "review_embedded_images": 48,
       "review_has_slider": false,
       "review_select_count": 0,
@@ -2655,7 +2655,7 @@
     },
     {
       "batch": "B18",
-      "family": "220 kV GIS and outgoing families",
+      "family": "VC-B GIS and outgoing families",
       "featured": false,
       "output_file_count": 138,
       "image_count": 80,
@@ -2837,7 +2837,7 @@
       "review_checks": null,
       "inputs": "../media/historical/output/installation_B18/inputs_B18.json",
       "measurements": "../media/historical/output/installation_B18/B18_axis_datums.json",
-      "review_title": "220kV避雷器模型对照 · B18",
+      "review_title": "VC-B避雷器模型对照 · B18",
       "review_embedded_images": 40,
       "review_has_slider": false,
       "review_select_count": 0,
@@ -2845,7 +2845,7 @@
     },
     {
       "batch": "B19",
-      "family": "220 kV GIS and outgoing families",
+      "family": "VC-B GIS and outgoing families",
       "featured": false,
       "output_file_count": 208,
       "image_count": 149,
@@ -3038,7 +3038,7 @@
       "review_checks": null,
       "inputs": "../media/historical/output/installation_B19/inputs_B19.json",
       "measurements": "../media/historical/output/installation_B19/B19_datums.json",
-      "review_title": "220kV GIS与母压变对照 · B19",
+      "review_title": "VC-B GIS与母压变对照 · B19",
       "review_embedded_images": 59,
       "review_has_slider": false,
       "review_select_count": 0,
@@ -3256,7 +3256,7 @@
       "review_checks": null,
       "inputs": "../media/historical/output/installation_B20/inputs_B20.json",
       "measurements": null,
-      "review_title": "B20 · 220kV母线对照",
+      "review_title": "B20 · VC-B母线对照",
       "review_embedded_images": 27,
       "review_has_slider": false,
       "review_select_count": 1,
@@ -4071,20 +4071,6 @@
           "is_station": true
         },
         {
-          "label": "B25_G220_OUT_Span",
-          "clean": "../media/historical/output/installation_B25/534_B25_G220_OUT_Span_Clean.webp",
-          "overlay": "../media/historical/output/installation_B25/535_B25_G220_OUT_Span_Overlay.webp",
-          "reference": "../media/historical/output/installation_B25/536_B25_G220_OUT_Span_Reference.webp",
-          "is_station": false
-        },
-        {
-          "label": "B25_G220_OUT_Row",
-          "clean": "../media/historical/output/installation_B25/531_B25_G220_OUT_Row_Clean.webp",
-          "overlay": "../media/historical/output/installation_B25/532_B25_G220_OUT_Row_Overlay.webp",
-          "reference": "../media/historical/output/installation_B25/533_B25_G220_OUT_Row_Reference.webp",
-          "is_station": false
-        },
-        {
           "label": "B25_G110_OUT_Span",
           "clean": "../media/historical/output/installation_B25/522_B25_G110_OUT_Span_Clean.webp",
           "overlay": "../media/historical/output/installation_B25/523_B25_G110_OUT_Span_Overlay.webp",
@@ -4123,36 +4109,6 @@
           "role": "clean",
           "name": "516_B25_Station_Clean.png",
           "path": "../media/historical/output/installation_B25/516_B25_Station_Clean.webp"
-        },
-        {
-          "role": "reference",
-          "name": "536_B25_G220_OUT_Span_Reference.png",
-          "path": "../media/historical/output/installation_B25/536_B25_G220_OUT_Span_Reference.webp"
-        },
-        {
-          "role": "overlay",
-          "name": "535_B25_G220_OUT_Span_Overlay.png",
-          "path": "../media/historical/output/installation_B25/535_B25_G220_OUT_Span_Overlay.webp"
-        },
-        {
-          "role": "clean",
-          "name": "534_B25_G220_OUT_Span_Clean.png",
-          "path": "../media/historical/output/installation_B25/534_B25_G220_OUT_Span_Clean.webp"
-        },
-        {
-          "role": "reference",
-          "name": "533_B25_G220_OUT_Row_Reference.png",
-          "path": "../media/historical/output/installation_B25/533_B25_G220_OUT_Row_Reference.webp"
-        },
-        {
-          "role": "overlay",
-          "name": "532_B25_G220_OUT_Row_Overlay.png",
-          "path": "../media/historical/output/installation_B25/532_B25_G220_OUT_Row_Overlay.webp"
-        },
-        {
-          "role": "clean",
-          "name": "531_B25_G220_OUT_Row_Clean.png",
-          "path": "../media/historical/output/installation_B25/531_B25_G220_OUT_Row_Clean.webp"
         },
         {
           "role": "reference",
@@ -4583,20 +4539,6 @@
           "is_station": true
         },
         {
-          "label": "B28_G220_OUT_Detail",
-          "clean": "../media/historical/output/installation_B28/580_B28_G220_OUT_Detail_Clean.webp",
-          "overlay": "../media/historical/output/installation_B28/581_B28_G220_OUT_Detail_Overlay.webp",
-          "reference": "../media/historical/output/installation_B28/582_B28_G220_OUT_Detail_Reference.webp",
-          "is_station": false
-        },
-        {
-          "label": "B28_G220_OUT",
-          "clean": "../media/historical/output/installation_B28/574_B28_G220_OUT_Clean.webp",
-          "overlay": "../media/historical/output/installation_B28/575_B28_G220_OUT_Overlay.webp",
-          "reference": "../media/historical/output/installation_B28/576_B28_G220_OUT_Reference.webp",
-          "is_station": false
-        },
-        {
           "label": "B28_G110_OUT_Detail",
           "clean": "../media/historical/output/installation_B28/577_B28_G110_OUT_Detail_Clean.webp",
           "overlay": "../media/historical/output/installation_B28/578_B28_G110_OUT_Detail_Overlay.webp",
@@ -4631,21 +4573,6 @@
         },
         {
           "role": "reference",
-          "name": "582_B28_G220_OUT_Detail_Reference.png",
-          "path": "../media/historical/output/installation_B28/582_B28_G220_OUT_Detail_Reference.webp"
-        },
-        {
-          "role": "overlay",
-          "name": "581_B28_G220_OUT_Detail_Overlay.png",
-          "path": "../media/historical/output/installation_B28/581_B28_G220_OUT_Detail_Overlay.webp"
-        },
-        {
-          "role": "clean",
-          "name": "580_B28_G220_OUT_Detail_Clean.png",
-          "path": "../media/historical/output/installation_B28/580_B28_G220_OUT_Detail_Clean.webp"
-        },
-        {
-          "role": "reference",
           "name": "579_B28_G110_OUT_Detail_Reference.png",
           "path": "../media/historical/output/installation_B28/579_B28_G110_OUT_Detail_Reference.webp"
         },
@@ -4658,21 +4585,6 @@
           "role": "clean",
           "name": "577_B28_G110_OUT_Detail_Clean.png",
           "path": "../media/historical/output/installation_B28/577_B28_G110_OUT_Detail_Clean.webp"
-        },
-        {
-          "role": "reference",
-          "name": "576_B28_G220_OUT_Reference.png",
-          "path": "../media/historical/output/installation_B28/576_B28_G220_OUT_Reference.webp"
-        },
-        {
-          "role": "overlay",
-          "name": "575_B28_G220_OUT_Overlay.png",
-          "path": "../media/historical/output/installation_B28/575_B28_G220_OUT_Overlay.webp"
-        },
-        {
-          "role": "clean",
-          "name": "574_B28_G220_OUT_Clean.png",
-          "path": "../media/historical/output/installation_B28/574_B28_G220_OUT_Clean.webp"
         },
         {
           "role": "reference",
@@ -4760,20 +4672,6 @@
           "is_station": true
         },
         {
-          "label": "B29_G220_OUT_Detail",
-          "clean": "../media/historical/output/installation_B29/599_B29_G220_OUT_Detail_Clean.webp",
-          "overlay": "../media/historical/output/installation_B29/600_B29_G220_OUT_Detail_Overlay.webp",
-          "reference": "../media/historical/output/installation_B29/601_B29_G220_OUT_Detail_Reference.webp",
-          "is_station": false
-        },
-        {
-          "label": "B29_G220_OUT",
-          "clean": "../media/historical/output/installation_B29/593_B29_G220_OUT_Clean.webp",
-          "overlay": "../media/historical/output/installation_B29/594_B29_G220_OUT_Overlay.webp",
-          "reference": "../media/historical/output/installation_B29/595_B29_G220_OUT_Reference.webp",
-          "is_station": false
-        },
-        {
           "label": "B29_G110_OUT_Detail",
           "clean": "../media/historical/output/installation_B29/596_B29_G110_OUT_Detail_Clean.webp",
           "overlay": "../media/historical/output/installation_B29/597_B29_G110_OUT_Detail_Overlay.webp",
@@ -4815,21 +4713,6 @@
         },
         {
           "role": "reference",
-          "name": "601_B29_G220_OUT_Detail_Reference.png",
-          "path": "../media/historical/output/installation_B29/601_B29_G220_OUT_Detail_Reference.webp"
-        },
-        {
-          "role": "overlay",
-          "name": "600_B29_G220_OUT_Detail_Overlay.png",
-          "path": "../media/historical/output/installation_B29/600_B29_G220_OUT_Detail_Overlay.webp"
-        },
-        {
-          "role": "clean",
-          "name": "599_B29_G220_OUT_Detail_Clean.png",
-          "path": "../media/historical/output/installation_B29/599_B29_G220_OUT_Detail_Clean.webp"
-        },
-        {
-          "role": "reference",
           "name": "598_B29_G110_OUT_Detail_Reference.png",
           "path": "../media/historical/output/installation_B29/598_B29_G110_OUT_Detail_Reference.webp"
         },
@@ -4857,11 +4740,6 @@
           "role": "clean",
           "name": "602_B29_Crossyard_Clean.png",
           "path": "../media/historical/output/installation_B29/602_B29_Crossyard_Clean.webp"
-        },
-        {
-          "role": "reference",
-          "name": "595_B29_G220_OUT_Reference.png",
-          "path": "../media/historical/output/installation_B29/595_B29_G220_OUT_Reference.webp"
         }
       ],
       "process_media": [
@@ -4970,27 +4848,6 @@
           "is_station": true
         },
         {
-          "label": "B30_G220_OUT_Detail",
-          "clean": "../media/historical/output/installation_B30/622_B30_G220_OUT_Detail_Clean.webp",
-          "overlay": "../media/historical/output/installation_B30/623_B30_G220_OUT_Detail_Overlay.webp",
-          "reference": "../media/historical/output/installation_B30/624_B30_G220_OUT_Detail_Reference.webp",
-          "is_station": false
-        },
-        {
-          "label": "B30_G220_OUT",
-          "clean": "../media/historical/output/installation_B30/613_B30_G220_OUT_Clean.webp",
-          "overlay": "../media/historical/output/installation_B30/614_B30_G220_OUT_Overlay.webp",
-          "reference": "../media/historical/output/installation_B30/615_B30_G220_OUT_Reference.webp",
-          "is_station": false
-        },
-        {
-          "label": "B30_G220_IN",
-          "clean": "../media/historical/output/installation_B30/616_B30_G220_IN_Clean.webp",
-          "overlay": "../media/historical/output/installation_B30/617_B30_G220_IN_Overlay.webp",
-          "reference": "../media/historical/output/installation_B30/618_B30_G220_IN_Reference.webp",
-          "is_station": false
-        },
-        {
           "label": "B30_G110_OUT_Detail",
           "clean": "../media/historical/output/installation_B30/619_B30_G110_OUT_Detail_Clean.webp",
           "overlay": "../media/historical/output/installation_B30/620_B30_G110_OUT_Detail_Overlay.webp",
@@ -5053,11 +4910,6 @@
           "role": "clean",
           "name": "605_B30_Station_Clean.png",
           "path": "../media/historical/output/installation_B30/605_B30_Station_Clean.webp"
-        },
-        {
-          "role": "overlay",
-          "name": "623_B30_G220_OUT_Detail_Overlay.png",
-          "path": "../media/historical/output/installation_B30/623_B30_G220_OUT_Detail_Overlay.webp"
         }
       ],
       "process_media": [
@@ -5080,7 +4932,7 @@
       "review_page": "../media/historical/output/installation_B30/B30_review.html",
       "review_checks": "../media/historical/output/installation_B30/B30_review_checks.json",
       "inputs": "../media/historical/output/installation_B30/inputs_B30.json",
-      "measurements": "../media/historical/output/installation_B30/SA110_terminal_datums.json",
+      "measurements": "../media/historical/output/installation_B30/SA-A_terminal_datums.json",
       "review_title": "B30 建模对照",
       "review_embedded_images": 29,
       "review_has_slider": true,
@@ -5342,52 +5194,52 @@
           "is_station": true
         },
         {
-          "label": "B32_C220_Top",
-          "clean": "../media/historical/output/installation_B32/679_B32_C220_Top_Clean.webp",
-          "overlay": "../media/historical/output/installation_B32/680_B32_C220_Top_Overlay.webp",
-          "reference": "../media/historical/output/installation_B32/681_B32_C220_Top_Reference.webp",
+          "label": "B32_Cabin-B_Top",
+          "clean": "../media/historical/output/installation_B32/679_B32_Cabin-B_Top_Clean.webp",
+          "overlay": "../media/historical/output/installation_B32/680_B32_Cabin-B_Top_Overlay.webp",
+          "reference": "../media/historical/output/installation_B32/681_B32_Cabin-B_Top_Reference.webp",
           "is_station": false
         },
         {
-          "label": "B32_C220_Side",
-          "clean": "../media/historical/output/installation_B32/673_B32_C220_Side_Clean.webp",
-          "overlay": "../media/historical/output/installation_B32/674_B32_C220_Side_Overlay.webp",
-          "reference": "../media/historical/output/installation_B32/675_B32_C220_Side_Reference.webp",
+          "label": "B32_Cabin-B_Side",
+          "clean": "../media/historical/output/installation_B32/673_B32_Cabin-B_Side_Clean.webp",
+          "overlay": "../media/historical/output/installation_B32/674_B32_Cabin-B_Side_Overlay.webp",
+          "reference": "../media/historical/output/installation_B32/675_B32_Cabin-B_Side_Reference.webp",
           "is_station": false
         },
         {
-          "label": "B32_C220_Oblique",
-          "clean": "../media/historical/output/installation_B32/670_B32_C220_Oblique_Clean.webp",
-          "overlay": "../media/historical/output/installation_B32/671_B32_C220_Oblique_Overlay.webp",
-          "reference": "../media/historical/output/installation_B32/672_B32_C220_Oblique_Reference.webp",
+          "label": "B32_Cabin-B_Oblique",
+          "clean": "../media/historical/output/installation_B32/670_B32_Cabin-B_Oblique_Clean.webp",
+          "overlay": "../media/historical/output/installation_B32/671_B32_Cabin-B_Oblique_Overlay.webp",
+          "reference": "../media/historical/output/installation_B32/672_B32_Cabin-B_Oblique_Reference.webp",
           "is_station": false
         },
         {
-          "label": "B32_C220_End",
-          "clean": "../media/historical/output/installation_B32/676_B32_C220_End_Clean.webp",
-          "overlay": "../media/historical/output/installation_B32/677_B32_C220_End_Overlay.webp",
-          "reference": "../media/historical/output/installation_B32/678_B32_C220_End_Reference.webp",
+          "label": "B32_Cabin-B_End",
+          "clean": "../media/historical/output/installation_B32/676_B32_Cabin-B_End_Clean.webp",
+          "overlay": "../media/historical/output/installation_B32/677_B32_Cabin-B_End_Overlay.webp",
+          "reference": "../media/historical/output/installation_B32/678_B32_Cabin-B_End_Reference.webp",
           "is_station": false
         },
         {
-          "label": "B32_C110_Top",
-          "clean": "../media/historical/output/installation_B32/667_B32_C110_Top_Clean.webp",
-          "overlay": "../media/historical/output/installation_B32/668_B32_C110_Top_Overlay.webp",
-          "reference": "../media/historical/output/installation_B32/669_B32_C110_Top_Reference.webp",
+          "label": "B32_Cabin-A_Top",
+          "clean": "../media/historical/output/installation_B32/667_B32_Cabin-A_Top_Clean.webp",
+          "overlay": "../media/historical/output/installation_B32/668_B32_Cabin-A_Top_Overlay.webp",
+          "reference": "../media/historical/output/installation_B32/669_B32_Cabin-A_Top_Reference.webp",
           "is_station": false
         },
         {
-          "label": "B32_C110_Side",
-          "clean": "../media/historical/output/installation_B32/661_B32_C110_Side_Clean.webp",
-          "overlay": "../media/historical/output/installation_B32/662_B32_C110_Side_Overlay.webp",
-          "reference": "../media/historical/output/installation_B32/663_B32_C110_Side_Reference.webp",
+          "label": "B32_Cabin-A_Side",
+          "clean": "../media/historical/output/installation_B32/661_B32_Cabin-A_Side_Clean.webp",
+          "overlay": "../media/historical/output/installation_B32/662_B32_Cabin-A_Side_Overlay.webp",
+          "reference": "../media/historical/output/installation_B32/663_B32_Cabin-A_Side_Reference.webp",
           "is_station": false
         },
         {
-          "label": "B32_C110_Oblique",
-          "clean": "../media/historical/output/installation_B32/658_B32_C110_Oblique_Clean.webp",
-          "overlay": "../media/historical/output/installation_B32/659_B32_C110_Oblique_Overlay.webp",
-          "reference": "../media/historical/output/installation_B32/660_B32_C110_Oblique_Reference.webp",
+          "label": "B32_Cabin-A_Oblique",
+          "clean": "../media/historical/output/installation_B32/658_B32_Cabin-A_Oblique_Clean.webp",
+          "overlay": "../media/historical/output/installation_B32/659_B32_Cabin-A_Oblique_Overlay.webp",
+          "reference": "../media/historical/output/installation_B32/660_B32_Cabin-A_Oblique_Reference.webp",
           "is_station": false
         }
       ],
@@ -5404,65 +5256,65 @@
         },
         {
           "role": "reference",
-          "name": "681_B32_C220_Top_Reference.png",
-          "path": "../media/historical/output/installation_B32/r3_previews/681_B32_C220_Top_Reference.webp"
+          "name": "681_B32_Cabin-B_Top_Reference.png",
+          "path": "../media/historical/output/installation_B32/r3_previews/681_B32_Cabin-B_Top_Reference.webp"
         },
         {
           "role": "overlay",
-          "name": "680_B32_C220_Top_Overlay.png",
-          "path": "../media/historical/output/installation_B32/r3_previews/680_B32_C220_Top_Overlay.webp"
+          "name": "680_B32_Cabin-B_Top_Overlay.png",
+          "path": "../media/historical/output/installation_B32/r3_previews/680_B32_Cabin-B_Top_Overlay.webp"
         },
         {
           "role": "clean",
-          "name": "679_B32_C220_Top_Clean.png",
-          "path": "../media/historical/output/installation_B32/r3_previews/679_B32_C220_Top_Clean.webp"
+          "name": "679_B32_Cabin-B_Top_Clean.png",
+          "path": "../media/historical/output/installation_B32/r3_previews/679_B32_Cabin-B_Top_Clean.webp"
         },
         {
           "role": "reference",
-          "name": "678_B32_C220_End_Reference.png",
-          "path": "../media/historical/output/installation_B32/r3_previews/678_B32_C220_End_Reference.webp"
+          "name": "678_B32_Cabin-B_End_Reference.png",
+          "path": "../media/historical/output/installation_B32/r3_previews/678_B32_Cabin-B_End_Reference.webp"
         },
         {
           "role": "overlay",
-          "name": "677_B32_C220_End_Overlay.png",
-          "path": "../media/historical/output/installation_B32/r3_previews/677_B32_C220_End_Overlay.webp"
+          "name": "677_B32_Cabin-B_End_Overlay.png",
+          "path": "../media/historical/output/installation_B32/r3_previews/677_B32_Cabin-B_End_Overlay.webp"
         },
         {
           "role": "clean",
-          "name": "676_B32_C220_End_Clean.png",
-          "path": "../media/historical/output/installation_B32/r3_previews/676_B32_C220_End_Clean.webp"
+          "name": "676_B32_Cabin-B_End_Clean.png",
+          "path": "../media/historical/output/installation_B32/r3_previews/676_B32_Cabin-B_End_Clean.webp"
         },
         {
           "role": "reference",
-          "name": "675_B32_C220_Side_Reference.png",
-          "path": "../media/historical/output/installation_B32/r3_previews/675_B32_C220_Side_Reference.webp"
+          "name": "675_B32_Cabin-B_Side_Reference.png",
+          "path": "../media/historical/output/installation_B32/r3_previews/675_B32_Cabin-B_Side_Reference.webp"
         },
         {
           "role": "overlay",
-          "name": "674_B32_C220_Side_Overlay.png",
-          "path": "../media/historical/output/installation_B32/r3_previews/674_B32_C220_Side_Overlay.webp"
+          "name": "674_B32_Cabin-B_Side_Overlay.png",
+          "path": "../media/historical/output/installation_B32/r3_previews/674_B32_Cabin-B_Side_Overlay.webp"
         },
         {
           "role": "clean",
-          "name": "673_B32_C220_Side_Clean.png",
-          "path": "../media/historical/output/installation_B32/r3_previews/673_B32_C220_Side_Clean.webp"
+          "name": "673_B32_Cabin-B_Side_Clean.png",
+          "path": "../media/historical/output/installation_B32/r3_previews/673_B32_Cabin-B_Side_Clean.webp"
         },
         {
           "role": "reference",
-          "name": "672_B32_C220_Oblique_Reference.png",
-          "path": "../media/historical/output/installation_B32/r3_previews/672_B32_C220_Oblique_Reference.webp"
+          "name": "672_B32_Cabin-B_Oblique_Reference.png",
+          "path": "../media/historical/output/installation_B32/r3_previews/672_B32_Cabin-B_Oblique_Reference.webp"
         }
       ],
       "process_media": [
         {
           "role": "diagnostic",
-          "name": "C220_facade_diagnostic.png",
-          "path": "../media/historical/output/installation_B32/C220_facade_diagnostic.webp"
+          "name": "Cabin-B_facade_diagnostic.png",
+          "path": "../media/historical/output/installation_B32/Cabin-B_facade_diagnostic.webp"
         },
         {
           "role": "diagnostic",
-          "name": "C110_facade_diagnostic.png",
-          "path": "../media/historical/output/installation_B32/C110_facade_diagnostic.webp"
+          "name": "Cabin-A_facade_diagnostic.png",
+          "path": "../media/historical/output/installation_B32/Cabin-A_facade_diagnostic.webp"
         },
         {
           "role": "diagnostic",

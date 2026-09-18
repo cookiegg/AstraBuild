@@ -1,6 +1,6 @@
 # B24 续作说明
 
-当前工程：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/r2/xialin_B24_station_service_305_306.blend`，SHA `2e0009e73c449d5c6078c2c8fdb923158b4f8d26d8a0cd8aea3e0e08b589f462`。共享部件库：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/r2/B24_station_service_master.blend`，SHA `05067c1177d545841d3a417cdb193e260d93674d14334d6d74e2c133c0f57059`。GUI已打开r2，默认502_B24_Pair_Oblique_Clean，dirtyFalse。共500场景，新增500–515共16场景；500全站、501全站叠图、502–504双台斜视、505/506共享母版门侧/背侧、507–509站用变305、510–512站用变306、513–515双台俯视。16张当前PNG都在r2，B24_review.html提供嵌入图像与滑动对照；已查链接/图像/JS语法，未声称浏览器布局验收。
+当前工程：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/r2/site_B24_station_service_305_306.blend`，SHA `2e0009e73c449d5c6078c2c8fdb923158b4f8d26d8a0cd8aea3e0e08b589f462`。共享部件库：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/r2/B24_station_service_master.blend`，SHA `05067c1177d545841d3a417cdb193e260d93674d14334d6d74e2c133c0f57059`。GUI已打开r2，默认502_B24_Pair_Oblique_Clean，dirtyFalse。共500场景，新增500–515共16场景；500全站、501全站叠图、502–504双台斜视、505/506共享母版门侧/背侧、507–509站用变305、510–512站用变306、513–515双台俯视。16张当前PNG都在r2，B24_review.html提供嵌入图像与滑动对照；已查链接/图像/JS语法，未声称浏览器布局验收。
 
 ## 本轮完成
 

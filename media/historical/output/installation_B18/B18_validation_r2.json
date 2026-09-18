@@ -1,6 +1,6 @@
 {
   "status": "saved_geometry_and_history_preserved_partial_alignment",
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/r2/xialin_B18_220kV_arresters_r2.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/r2/site_B18_VC-B_arresters_r2.blend",
   "sha256": "176d78f3610b988f1662c4830f73728b184193472199934af8b3e902a8dde257",
   "previous_objects_unchanged": 26468,
   "previous_scenes_unchanged": 296,
@@ -1945,7 +1945,7 @@
     "Class dimensions remain photo/coarse estimates; all unpassed surface or sparse foundation checks retained.",
     "4B77 aliases and phase identities are provisional; no phase label text invented.",
     "External high-voltage conductors remain separate work; local meter/cable shapes approximate.",
-    "Other220kV GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
+    "OtherVC-B GIS variants,neutral equipment and inherited B11-B17 partial alignment remain."
   ],
   "formal_promotions": 0,
   "outdoor_goal_complete": false,

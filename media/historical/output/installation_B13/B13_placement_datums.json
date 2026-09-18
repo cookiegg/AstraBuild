@@ -5,7 +5,7 @@
       "device_id": "12MZ0000000219411",
       "name": "平兴II748",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_OUTGOING",
+      "variant": "GIS-A_OUTGOING",
       "legacy_seed": [
         15.67894,
         20.659940000000002,
@@ -3767,7 +3767,7 @@
       "device_id": "12MZ0000000219243",
       "name": "东坡I747",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_OUTGOING",
+      "variant": "GIS-A_OUTGOING",
       "legacy_seed": [
         11.97894,
         27.159940000000002,
@@ -7303,7 +7303,7 @@
       "device_id": "12MZ0000000219412",
       "name": "夏津746",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_OUTGOING",
+      "variant": "GIS-A_OUTGOING",
       "legacy_seed": [
         9.17894,
         34.559940000000005,
@@ -9795,7 +9795,7 @@
       "device_id": "12MZ0000000207104",
       "name": "备用陆750",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_OUTGOING",
+      "variant": "GIS-A_OUTGOING",
       "legacy_seed": [
         22.27894,
         8.15994,
@@ -12925,7 +12925,7 @@
       "device_id": "12MZ0000000219234",
       "name": "备用柒751",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_OUTGOING",
+      "variant": "GIS-A_OUTGOING",
       "legacy_seed": [
         25.57894,
         0.75994,
@@ -16844,7 +16844,7 @@
       "device_id": "12MZ0000000219305",
       "name": "梅林II758",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_OUTGOING",
+      "variant": "GIS-A_OUTGOING",
       "legacy_seed": [
         46.178940000000004,
         -46.640060000000005,
@@ -19627,7 +19627,7 @@
       "device_id": "12MZ0000000219244",
       "name": "东坡II759",
       "model": "ZF23-126(L)",
-      "variant": "GIS110_OUTGOING",
+      "variant": "GIS-A_OUTGOING",
       "legacy_seed": [
         50.678940000000004,
         -53.44006,

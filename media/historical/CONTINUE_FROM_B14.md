@@ -2,7 +2,7 @@
 
 用户目标仍为持续推进，直到室外设备大都完成建模与对齐。B14 是进展批次，整体未完成；保持 goal active。
 
-当前文件：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r3/xialin_B14_transformer_outgoing_GIS_r3.blend`，SHA256 `f7811b60e3c449e83536a7db0a8a79f5b6a3ce012ef87ef9adc3dd50d2362a27`。
+当前文件：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r3/site_B14_transformer_outgoing_GIS_r3.blend`，SHA256 `f7811b60e3c449e83536a7db0a8a79f5b6a3ce012ef87ef9adc3dd50d2362a27`。
 部件库：`/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B14/r2/B14_transformer_outgoing_components_r2.blend`，SHA256 `a50156268c7c457ae5749482a76c6d2f4598393fcb4c21ca7c277b546897b57f`。
 审阅：`output/installation_B14/B14_review.html`（21幅保存场景实渲染）；覆盖表及队列已更新至 B14/v14。
 
@@ -16,7 +16,7 @@ B13十项超限壳体/母线检查、750/751单独身份、8个旧母线边界�
 
 R3仅补回B13的一台零用户孤立相机 `153_B13_Cabinet_Rear_CAM`，置于不关联任何场景的假用户归档集合 `B14_PRESERVED_UNUSED_HISTORY`，模型几何与R2完全一致，故R2的21幅渲染仍对应当前模型。后续保存需留意 Blender 会清除未关联任何集合的零用户对象；不要为了历史相机丢失放宽模型保留检查。不可修改冻结旧文件。
 
-下一步：752–757六套备用双层母线/封口模块，再处理母联500、I/II母压变与母线整体衔接，随后220kV GIS及P01避雷器族。
+下一步：752–757六套备用双层母线/封口模块，再处理母联500、I/II母压变与母线整体衔接，随后VC-B GIS及P01避雷器族。
 `B14_next_GIS_targets.json` 的初始位置仅用于定位裁块，不是测量真值；其备用间隔photo_ids为空属于旧清单漏关联。已经在实际 photo_evidence 中找到752–757带本体标签照片：0049/0047对应752，0047/0045对应753，0043/0045对应754，0041/0037对应755，0041/0039对应756，0039及航拍0028对应757。实际照片显示这些预留间隔主要为双层母线模块，无完整出线壳体/扇形套管；应复用P03_BUS_LEVEL_UNIT的适用部件，并补正确封口、支撑与相邻管段。不要按旧inventory型号复制整台出线GIS。
 
 后台作业使用MCP启动原生Blender，Workbench GPU渲染可用。shell PID命名空间看不到原生PID，要通过MCP的ps或作业日志确认终态，不能因shell无PID重启。局部矩阵用matrix_basis，历史世界矩阵比较需依次激活相同旧场景。避免执行有顶层读写的builder导入，必要时AST取纯函数。

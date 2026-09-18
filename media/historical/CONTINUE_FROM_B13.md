@@ -4,7 +4,7 @@
 
 ## 当前文件
 
-- 整站：`output/installation_B13/r2/xialin_B13_GIS_line_bays_r2.blend`
+- 整站：`output/installation_B13/r2/site_B13_GIS_line_bays_r2.blend`
 - SHA256：`db23fb9a761ddf6e2a2a031cfb8537f813a46dfd32742dd88176e33e7224ca40`
 - 可追加部件库：`output/installation_B13/r2/B13_reusable_line_components_r2.blend`
 - 部件库 SHA256：`85f2dc2d671ae352ca67975698347255012d79d78331fc2321e496f880a141fb`
@@ -49,7 +49,7 @@ R2仅修正151局部柜体相机的画幅。后视153图为临时相机实际渲
 - 参考照片含内场0043/0047及外场0012/0014/0021，见`inputs_B13.json.source_photos`。有更多照片可从`../output/photo_evidence.json`按标签搜索。
 - 共用本轮`inputs_B13.json.targets`中的初始坐标系旋转，坐标系局部X为设备纵向，Y为双层母线方向；旧种子是初值，不能当测绘真值。
 
-之后继续110kV备用/VT/母联/端部类型、220kV GIS与P01避雷器，再清理中性点设备、集成设施及整站引线。B11七个安装失败目标仍为746A/B、748B、751C、758A、T1_501A、T2_MV_A，未因本轮GIS完成而清除。
+之后继续VC-A备用/VT/母联/端部类型、VC-B GIS与P01避雷器，再清理中性点设备、集成设施及整站引线。B11七个安装失败目标仍为746A/B、748B、751C、758A、T1_501A、T2_MV_A，未因本轮GIS完成而清除。
 
 ## 执行约束
 

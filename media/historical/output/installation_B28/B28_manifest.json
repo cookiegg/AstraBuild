@@ -1,9 +1,9 @@
 {
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B28/xialin_B28_outdoor_suspension_insulators.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B28/site_B28_outdoor_suspension_insulators.blend",
   "sha256": "d9911b13470022524f7f215f71bcea49acd7abad7787a86fe99bb175cee8a774",
   "asset_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B28/B28_suspension_components.blend",
   "asset_sha256": "fa8fe99da78ed73a79f9b34ec2651f3d68bc0da1c44b8a8a43c1ef24bad73eb7",
-  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B27/xialin_B27_central_strain_insulators.blend",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B27/site_B27_central_strain_insulators.blend",
   "previous_sha256": "3d931d4e25eb93d7e526ea014c4dceba6a684af4669396aad348a9a68b1535df",
   "station_scene": "566_B28_Station_Clean",
   "default_scene": "577_B28_G110_OUT_Detail_Clean",

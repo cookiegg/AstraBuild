@@ -1,7 +1,7 @@
 {
-  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/xialin_B07_T1_site_exterior_r2.blend",
+  "file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/site_B07_T1_site_exterior_r2.blend",
   "sha256": "b3a5f6af1737c1b487de713a76615d3a267d40f63aa3efa4de9f89483264ec4f",
-  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/xialin_photo_first_B06_wall_aligned_r2.blend",
+  "previous_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/site_photo_first_B06_wall_aligned_r2.blend",
   "previous_sha256": "06bf806e74a3fa665c3391a824ccfe4b667726036ec9a273463d11bfdb180382",
   "plan_sha256": "44dda6c0fa8228662a76ae15b75b735668836be223458aadb58076beb84e220f",
   "candidate_collection": "B07_T1_PARTIAL_SITE_EXTERIOR_CANDIDATE",
@@ -1893,6 +1893,6 @@
   "complete_transformer": false,
   "scope": "partial exterior assembly, not a complete accepted transformer; frozen P04 core remains unchanged",
   "display_revision": "r2",
-  "r1_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/xialin_B07_T1_site_exterior.blend",
+  "r1_file": "/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/site_B07_T1_site_exterior.blend",
   "r1_sha256": "6f20aa238b1544babea1f4c59b570ce824b3fc80956bc5fc8238209a84cc8161"
 }
