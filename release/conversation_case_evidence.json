@@ -1,0 +1,58 @@
+{
+ "release": "AstraBuild conversation case evidence v0.1",
+ "generated_by": "manual extraction rounds 2026-09-18 (scripts TBD)",
+ "scope_notes": [
+  "quotes are verbatim from the preserved Codex rollout (visible messages); reasoning content itself is encrypted by OpenAI and unreadable.",
+  "reasoning token counts are billing-reported usage fields, a proxy for reasoning effort, not a measure of reasoning depth.",
+  "photo detection is filename-heuristic (DJI_/_DSC/P0x/photo); render references not included."
+ ],
+ "provenance_boundary": "the preserved rollout begins 2026-09-12T08:16Z with the project already at B03; B01-B03 creation dialogue is not present in ~/.codex or ~/.claude session stores. The session's own opening situation analysis is the bridging record for that earlier state.",
+ "case_quotes": {
+  "B23_representation_change": {
+   "ts": "2026-09-12T22:54",
+   "quote_zh": "粗模中能看到两条引线，但它们明显偏离端点之间的直线，所以之前的窄范围检查漏掉了中段。现在已找到弧线走向，会据此建模",
+   "note": "self-diagnosed representation change, in the model's own words; r1->r3 chain follows in the same hour"
+  },
+  "B15_boundary_revision": {
+   "ts": "2026-09-12T17:55",
+   "quote_zh": "整站检查还发现，752 与 502、754 与 501 的间距较小，暂定长度的母线段存在重叠。我会先修正这些连接段",
+   "followup_ts": "2026-09-12T18:14",
+   "followup_zh": "六套备用设备共用主体部件，连接管按现场间距分别生成",
+   "note": "shared master kept for invariant parts; finite spools moved to site-specific generation"
+  },
+  "wall_correction_closure": {
+   "ts": "2026-09-12T09:00",
+   "quote_zh": "你的判断解释了部分视觉感受，但围墙与粗模之间也确实存在几何偏差，不能全部归因于截图。(西北侧 29.3° vs 25.6° ≈ 3.7°; 东侧 −60.2° vs −64.4° ≈ 4.2°)",
+   "note": "user proposed projection-artifact explanation; model verified with coordinates, found real deviation, then fixed it in B06"
+  },
+  "goal_objective_text": {
+   "quote_zh": "请持续进行变电站建模任务，直到室外设备大都实现建模与对齐。",
+   "note": "standing goal-mode objective driving the 19 auto-continuations"
+  }
+ },
+ "selfreport_vs_validator": [
+  {
+   "batch": "B22",
+   "assistant_claim": "28项局部对照中23项通过",
+   "validator_file": "B22_validation.json surface_checks",
+   "file_count": "28/23",
+   "match": true
+  },
+  {
+   "batch": "B23",
+   "assistant_claim": "32项局部检查通过30项",
+   "validator_file": "B23_validation.json surface+lead+crosslink",
+   "file_count": "28+2+2=32 / 26+2+2=30",
+   "match": true
+  },
+  {
+   "batch": "B19",
+   "assistant_claim": "37/60项通过5厘米筛查，23项仍需调整",
+   "validator_file": "B19_outdoor_coverage.json B19_unpassed_surface_checks",
+   "file_count": "23 unpassed (60-37=23)",
+   "match": true
+  }
+ ],
+ "reasoning_tokens_per_batch_note": "peaks at B12 (30.8k), B25 (27.3k), B07 (21.9k), B15 (20.7k); share of output peaks at B35 (0.49), B33 (0.44), B08 (0.36), B36 (0.36). Effort concentrates where abstractions are introduced or revised, not where geometry is largest.",
+ "evidence_diet_note": "distinct photo references: heavy early (B02 372 catalog scan, B04-B08 32-44), ~10/batch mid, zero from B25 onward; input_image messages steady 8-19/batch (renders). Late batches run on registered coarse model + inherited state + fresh renders, not new photos."
+}

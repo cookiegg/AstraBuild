@@ -54,8 +54,8 @@
             <a class="btn" href="#videos"><span class="lang-en">Videos</span><span class="lang-zh">视频</span></a>
             <a class="btn" href="../release/metrics.json"><span class="lang-en">Evidence data</span><span class="lang-zh">证据数据</span></a>
           </div>
-          <p class="hero-note lang-en">* Model configuration is owner-confirmed experimental metadata; the historical B01–B36 artifacts preserve programs, plans, diagnostics, and validation outputs, but not the model's private reasoning trace.</p>
-          <p class="hero-note lang-zh">* 模型配置为项目负责人确认的实验元数据；B01–B36 历史产物保存了程序、计划、诊断与验证输出，但不保存模型的内部推理过程。</p>
+          <p class="hero-note lang-en">* Model configuration is owner-confirmed experimental metadata; the historical B01–B36 artifacts preserve programs, plans, diagnostics, and validation outputs, and the complete conversation log (visible messages + tool calls) is preserved. The model's chain-of-thought is encrypted by the provider and unreadable.</p>
+          <p class="hero-note lang-zh">* 模型配置为项目负责人确认的实验元数据；B01–B36 历史产物保存了程序、计划、诊断与验证输出，完整会话日志（可见消息 + 工具调用）也已保存。模型的思维链由提供方加密，不可读取。</p>
         </div>
 
         <div class="hero-media" aria-label="Progressive station assembly visualization">
@@ -85,6 +85,7 @@
         <a href="#results-transitions">4.2 · Three transitions</a>
         <a href="#results-persistence">4.3 · Persistent state</a>
         <a href="#findings">5 · Findings</a>
+        <a href="#process-record">5.3 · Process record</a>
         <a href="#console">6 · Evaluation console</a>
         <a href="#evidence-appendix">6.2 · Evidence appendix</a>
         <a href="#videos">7 · Videos</a>
@@ -299,6 +300,38 @@
               <h3><span class="lang-en">Human in the loop × 2</span><span class="lang-zh">人在环 × 2</span></h3>
               <p class="lang-en">B08's shared transformer master was created only after explicit user authorization of cross-installation equivalence; B36's omission was spotted by a human reviewer scanning a top view, then traced to a documented earlier decision before rebuilding. Validators and sparse human review catch different failure classes; neither alone covers the record.</p>
               <p class="lang-zh">B08 的共享主变模型在明确用户授权跨安装位同构后才创建；B36 的遗漏由审查人员从顶视图发现，随后溯源到一项有记录的早期决策再重建。验证器与稀疏人工审查各自捕捉不同的失败类，单独任何一个都无法覆盖全部记录。</p>
+            </article>
+          </div>
+          <div class="subsection-head" id="process-record"><h3><span class="lang-en">5.3 The process record: 22.5 hours behind the 36 batches</span><span class="lang-zh">5.3 过程实录：36 个批次背后的 22.5 小时</span></h3><p><span class="lang-en">OpenAI encrypts the model's chain of thought, so Astra's reasoning cannot be read from the reasoning trace itself — but the complete Codex conversation log survives: 299 assistant decision messages and 1,326 timestamped tool calls across the 22.5-hour session in which B03–B36 were produced (B01–B03 predate the preserved log). Everything below is observable behavior, not inferred reasoning.</span><span class="lang-zh">OpenAI 对模型的思维链做了加密，我们无法从思维链本身分析 Astra 的推理；但完整的 Codex 会话日志保存了下来——产出 B03–B36 的 22.5 小时会话中，包含 299 条模型决策消息与 1,326 次带时间戳的工具调用（B01–B03 早于保存的日志）。以下全部是可观测行为，而非推测的推理。</span></p></div>
+
+          <div class="headline-results process-facts">
+            <div><strong>22.5 h</strong><span class="lang-en">one continuous session</span><span class="lang-zh">单次连续会话</span></div>
+            <div><strong>17.8 h</strong><span class="lang-en">unattended span, B09–B35</span><span class="lang-zh">无人值守跨度（B09–B35）</span></div>
+            <div><strong>12</strong><span class="lang-en">human messages · 3 changed the trajectory</span><span class="lang-zh">人工消息 · 3 条改变轨迹</span></div>
+            <div><strong>24/24</strong><span class="lang-en">compactions followed by context-rebuilding reads</span><span class="lang-zh">压缩后均有上下文重建读</span></div>
+          </div>
+
+          <figure class="research-figure wide evidence-figure">
+            <img class="lang-en" src="../rewrite_b01_b36/figure_v24/hybrid_svg/fig07_session_anatomy_v24.svg" alt="Session anatomy of the 22.5-hour conversation run">
+            <img class="lang-zh" src="../rewrite_b01_b36/figure_v24/hybrid_svg/fig07_session_anatomy_v24_zh.svg" alt="22.5 小时会话实录解剖图">
+            <figcaption><span class="lang-en"><b>Figure 7.</b> Session anatomy. Top: batch timeline with the 17.8-hour unattended span and 24 context compactions. Middle: reasoning-output tokens per batch (billing-reported proxy), peaking at abstraction events — B12 first GIS family, B25 coverage audit — not at the largest geometry. Bottom: the twelve substantive human messages; the three highlighted changed the trajectory.</span><span class="lang-zh"><b>图 7.</b> 会话解剖。上：批次时间轴、17.8 小时无人值守跨度与 24 次上下文压缩。中：每批 reasoning token（计费口径代理指标），峰值出现在抽象事件——B12 首个 GIS 设备族、B25 覆盖审计——而非几何最大处。下：12 条实质人工消息，高亮的 3 条改变了轨迹。</span></figcaption>
+          </figure>
+
+          <div class="discussion-sections">
+            <article>
+              <h3><span class="lang-en">Three messages that steered the run</span><span class="lang-zh">改变轨迹的三条消息</span></h3>
+              <p class="lang-en">Wall geometry review (08:52): the user proposed a projection artifact; the model verified against world coordinates, found a real 3.7–4.2° deviation, and corrected the wall in B06 — steering is not rubber-stamping. Reuse authorization (11:00): the B08 shared master was created only after the user confirmed the two transformers were equivalent. Omission report (05:35): "there seems to be a lower rack between the transformer and the building" — B36 started at 06:09.</p>
+              <p class="lang-zh">围墙几何复核（08:52）：用户提出"是投影视觉问题"，模型用世界坐标验证后发现真实的 3.7–4.2° 偏差并在 B06 修正——引导不等于盖章。复用授权（11:00）：用户确认两台主变同构后才创建 B08 共享主模型。遗漏报告（05:35）："主变跟房屋之间好像还有一个矮一点的支架"——B36 于 06:09 开工。</p>
+            </article>
+            <article>
+              <h3><span class="lang-en">External state as measurable memory</span><span class="lang-zh">可测量的"外部记忆"</span></h3>
+              <p class="lang-en">All 24 context compactions are followed within fifteen tool calls by two to four context-reconstructing reads of earlier manifests, validation files, or review pages — the model rebuilds its working context from the engineering state each time the window is truncated. State flows through two channels: an adjacent-batch blend handoff chain (B05←B04, B09←B08, B13←B12, B20←B19, B25←B24, B30←B29, B34←B33), and long-range references that travel inside the blend's namespace and never appear as file reads.</p>
+              <p class="lang-zh">24 次上下文压缩之后的 15 次工具调用内，都出现 2–4 次针对早期 manifest、验证文件或审查页的"上下文重建读"——每次上下文被截断，模型都从工程状态中把自己拼回来。状态经两个通道流动：相邻批次的 blend 交接链（B05←B04、B09←B08、B13←B12、B20←B19、B25←B24、B30←B29、B34←B33），以及发生在 blend 命名空间内部、文件层面不可见的长程引用。</p>
+            </article>
+            <article>
+              <h3><span class="lang-en">Evidence diet and self-report checks</span><span class="lang-zh">证据食谱与自报核对</span></h3>
+              <p class="lang-en">New field-photo references are dense early (372-file catalog scan in B02; 32–44 per batch in B04–B08), decline to about ten, and reach zero after B25; render-viewing stays steady at 8–19 image messages per batch. Exec failure rates fall from 14.6%/14.3% (B05/B06) to under 4% in most late batches. All three spot-checked self-reports — B22's 28/23, B23's 32/30, B19's 37/60 with 23 pending — match the frozen validator files exactly.</p>
+              <p class="lang-zh">新现场照片引用早期密集（B02 一次 372 文件清单扫描；B04–B08 每批 32–44 张），随后降到约 10 张，B25 之后归零；渲染图查看全程稳定在每批 8–19 条。exec 失败率从 B05/B06 的 14.6%/14.3% 降到后期普遍 4% 以下。抽查的三处自报——B22 的 28/23、B23 的 32/30、B19 的 37/60（23 项待调）——与冻结验证文件逐项精确一致。</p>
             </article>
           </div>
         </section>
