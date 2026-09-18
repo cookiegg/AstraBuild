@@ -3,7 +3,7 @@
     {
       "key": "748",
       "device_id": "12MZ0000000219411",
-      "name": "平兴II748",
+      "name": "邻站EII748",
       "model": "ZF23-126(L)",
       "variant": "GIS-A_OUTGOING",
       "legacy_seed": [
@@ -3765,7 +3765,7 @@
     {
       "key": "747",
       "device_id": "12MZ0000000219243",
-      "name": "东坡I747",
+      "name": "邻站CI747",
       "model": "ZF23-126(L)",
       "variant": "GIS-A_OUTGOING",
       "legacy_seed": [
@@ -16842,7 +16842,7 @@
     {
       "key": "758",
       "device_id": "12MZ0000000219305",
-      "name": "梅林II758",
+      "name": "邻站DII758",
       "model": "ZF23-126(L)",
       "variant": "GIS-A_OUTGOING",
       "legacy_seed": [
@@ -19625,7 +19625,7 @@
     {
       "key": "759",
       "device_id": "12MZ0000000219244",
-      "name": "东坡II759",
+      "name": "邻站CII759",
       "model": "ZF23-126(L)",
       "variant": "GIS-A_OUTGOING",
       "legacy_seed": [
@@ -21953,7 +21953,7 @@
     {
       "key": "749",
       "device_id": "12MZ0000000196705",
-      "name": "兴盛I749组合设备",
+      "name": "邻站BI749组合设备",
       "frame_to_world": [
         [
           -0.9012996483415838,

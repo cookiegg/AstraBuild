@@ -418,7 +418,7 @@
     },
     {
       "device_id": "12MZ0000000221432",
-      "name": "中德I374",
+      "name": "邻站FI374",
       "family": "开关柜",
       "inventory_model": "KYN61-40.5",
       "scope_triage": "indoor_excluded",
@@ -997,7 +997,7 @@
     },
     {
       "device_id": "12MZ0000000219305",
-      "name": "梅林II758",
+      "name": "邻站DII758",
       "family": "组合电器",
       "inventory_model": "ZF23-126(L)",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -1344,7 +1344,7 @@
     },
     {
       "device_id": "12MZ0000000219411",
-      "name": "平兴II748",
+      "name": "邻站EII748",
       "family": "组合电器",
       "inventory_model": "ZF23-126(L)",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -1581,7 +1581,7 @@
     },
     {
       "device_id": "12MZ0000000219244",
-      "name": "东坡II759",
+      "name": "邻站CII759",
       "family": "组合电器",
       "inventory_model": "ZF23-126(L)",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -1633,7 +1633,7 @@
     },
     {
       "device_id": "12MZ0000000196705",
-      "name": "兴盛I749组合设备",
+      "name": "邻站BI749组合设备",
       "family": "组合电器",
       "inventory_model": "ZF23-126(L)",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -1918,7 +1918,7 @@
     },
     {
       "device_id": "12MZ0000000196735",
-      "name": "夏吴2899组合电器",
+      "name": "邻站A2899组合电器",
       "family": "组合电器",
       "inventory_model": "MFPT-250-50L",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -2003,7 +2003,7 @@
     },
     {
       "device_id": "12MZ0000000219243",
-      "name": "东坡I747",
+      "name": "邻站CI747",
       "family": "组合电器",
       "inventory_model": "ZF23-126(L)",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -2073,7 +2073,7 @@
     },
     {
       "device_id": "12MZ0000000149700",
-      "name": "夏吴2899避雷器A相",
+      "name": "邻站A2899避雷器A相",
       "family": "避雷器",
       "inventory_model": "Y10W-204/532W",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -2104,7 +2104,7 @@
     },
     {
       "device_id": "12MZ0000000151289",
-      "name": "东坡II759避雷器B相",
+      "name": "邻站CII759避雷器B相",
       "family": "避雷器",
       "inventory_model": "Y10W2-102/266",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -2356,7 +2356,7 @@
     },
     {
       "device_id": "12MZ0000000150129",
-      "name": "兴盛I749避雷器C相",
+      "name": "邻站BI749避雷器C相",
       "family": "避雷器",
       "inventory_model": "Y10W2-102/266",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -2460,7 +2460,7 @@
     },
     {
       "device_id": "12MZ0000000150077",
-      "name": "东坡I747避雷器A相",
+      "name": "邻站CI747避雷器A相",
       "family": "避雷器",
       "inventory_model": "Y10W2-102/266",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -2485,7 +2485,7 @@
     },
     {
       "device_id": "12MZ0000000150103",
-      "name": "平兴II748避雷器B相",
+      "name": "邻站EII748避雷器B相",
       "family": "避雷器",
       "inventory_model": "Y10W2-102/266",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -2687,7 +2687,7 @@
     },
     {
       "device_id": "12MZ0000000150102",
-      "name": "平兴II748避雷器A相",
+      "name": "邻站EII748避雷器A相",
       "family": "避雷器",
       "inventory_model": "Y10W2-102/266",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -2712,7 +2712,7 @@
     },
     {
       "device_id": "12MZ0000000151290",
-      "name": "东坡II759避雷器C相",
+      "name": "邻站CII759避雷器C相",
       "family": "避雷器",
       "inventory_model": "Y10W2-102/266",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -2740,7 +2740,7 @@
     },
     {
       "device_id": "12MZ0000000149701",
-      "name": "夏吴2899避雷器B相",
+      "name": "邻站A2899避雷器B相",
       "family": "避雷器",
       "inventory_model": "Y10W-204/532W",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -2771,7 +2771,7 @@
     },
     {
       "device_id": "12MZ0000000150128",
-      "name": "兴盛I749避雷器B相",
+      "name": "邻站BI749避雷器B相",
       "family": "避雷器",
       "inventory_model": "Y10W2-102/266",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -2796,7 +2796,7 @@
     },
     {
       "device_id": "12MZ0000000151264",
-      "name": "梅林II758避雷器B相",
+      "name": "邻站DII758避雷器B相",
       "family": "避雷器",
       "inventory_model": "Y10W2-102/266",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -2853,7 +2853,7 @@
     },
     {
       "device_id": "12MZ0000000150104",
-      "name": "平兴II748避雷器C相",
+      "name": "邻站EII748避雷器C相",
       "family": "避雷器",
       "inventory_model": "Y10W2-102/266",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -2878,7 +2878,7 @@
     },
     {
       "device_id": "12MZ0000000150079",
-      "name": "东坡I747避雷器C相",
+      "name": "邻站CI747避雷器C相",
       "family": "避雷器",
       "inventory_model": "Y10W2-102/266",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3018,7 +3018,7 @@
     },
     {
       "device_id": "12MZ0000000151288",
-      "name": "东坡II759避雷器A相",
+      "name": "邻站CII759避雷器A相",
       "family": "避雷器",
       "inventory_model": "Y10W2-102/266",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3257,7 +3257,7 @@
     },
     {
       "device_id": "12MZ0000000151265",
-      "name": "梅林II758避雷器C相",
+      "name": "邻站DII758避雷器C相",
       "family": "避雷器",
       "inventory_model": "Y10W2-102/266",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3285,7 +3285,7 @@
     },
     {
       "device_id": "12MZ0000000151263",
-      "name": "梅林II758避雷器A相",
+      "name": "邻站DII758避雷器A相",
       "family": "避雷器",
       "inventory_model": "Y10W2-102/266",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3479,7 +3479,7 @@
     },
     {
       "device_id": "12MZ0000000149702",
-      "name": "夏吴2899避雷器C相",
+      "name": "邻站A2899避雷器C相",
       "family": "避雷器",
       "inventory_model": "Y10W-204/532W",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3510,7 +3510,7 @@
     },
     {
       "device_id": "12MZ0000000150078",
-      "name": "东坡I747避雷器B相",
+      "name": "邻站CI747避雷器B相",
       "family": "避雷器",
       "inventory_model": "Y10W2-102/266",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3621,7 +3621,7 @@
     },
     {
       "device_id": "12MZ0000000150127",
-      "name": "兴盛I749避雷器A相",
+      "name": "邻站BI749避雷器A相",
       "family": "避雷器",
       "inventory_model": "Y10W2-102/266",
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3811,7 +3811,7 @@
     },
     {
       "device_id": "T23052218322040418",
-      "name": "VC-B夏霖变电站接地装置",
+      "name": "VC-B本站接地装置",
       "family": "接地装置",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3828,7 +3828,7 @@
     },
     {
       "device_id": "T23052218322040419",
-      "name": "VC-B夏霖变电站端子箱及检修电源箱",
+      "name": "VC-B本站端子箱及检修电源箱",
       "family": "端子箱及检修电源箱",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3847,7 +3847,7 @@
     },
     {
       "device_id": "T23052218322040420",
-      "name": "VC-B夏霖变电站站用交流电源系统",
+      "name": "VC-B本站站用交流电源系统",
       "family": "站用交流电源系统",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3864,7 +3864,7 @@
     },
     {
       "device_id": "T23052218322040421",
-      "name": "VC-B夏霖变电站站用直流电源系统",
+      "name": "VC-B本站站用直流电源系统",
       "family": "站用直流电源系统",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3881,7 +3881,7 @@
     },
     {
       "device_id": "T23052218322040422",
-      "name": "VC-B夏霖变电站设备构架",
+      "name": "VC-B本站设备构架",
       "family": "设备构架",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3935,7 +3935,7 @@
     },
     {
       "device_id": "T23052218322040423",
-      "name": "VC-B夏霖变电站辅助设施",
+      "name": "VC-B本站辅助设施",
       "family": "辅助设施",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3952,7 +3952,7 @@
     },
     {
       "device_id": "T23052218322040424",
-      "name": "VC-B夏霖变电站土建设施",
+      "name": "VC-B本站土建设施",
       "family": "土建设施",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3978,7 +3978,7 @@
     },
     {
       "device_id": "T23052218322040425",
-      "name": "VC-B夏霖变电站独立避雷针",
+      "name": "VC-B本站独立避雷针",
       "family": "独立避雷针",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -3995,7 +3995,7 @@
     },
     {
       "device_id": "T23052218322040426",
-      "name": "VC-B夏霖变电站电力电缆",
+      "name": "VC-B本站电力电缆",
       "family": "电力电缆",
       "inventory_model": null,
       "scope_triage": "outdoor_or_mixed_needs_review",
@@ -4012,7 +4012,7 @@
     },
     {
       "device_id": "T23052218322040427",
-      "name": "VC-B夏霖变电站二次屏柜",
+      "name": "VC-B本站二次屏柜",
       "family": "二次屏柜",
       "inventory_model": null,
       "scope_triage": "indoor_excluded",
@@ -4029,7 +4029,7 @@
     },
     {
       "device_id": "T23052218322040428",
-      "name": "VC-B夏霖变电站消防系统",
+      "name": "VC-B本站消防系统",
       "family": "消防系统",
       "inventory_model": "",
       "scope_triage": "outdoor_or_mixed_needs_review",

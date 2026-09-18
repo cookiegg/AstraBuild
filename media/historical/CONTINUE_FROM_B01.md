@@ -33,9 +33,9 @@ Original 67-object demo remains in scene 01 with the original accessory display.
 Do not count its accessories as field-installed modules.
 
 The three trial candidates inherit inventory identities, not new nameplate certification:
-- B01_749_A / 12MZ0000000150127 / 兴盛I749避雷器A相
-- B01_749_B / 12MZ0000000150128 / 兴盛I749避雷器B相
-- B01_749_C / 12MZ0000000150129 / 兴盛I749避雷器C相
+- B01_749_A / 12MZ0000000150127 / 邻站BI749避雷器A相
+- B01_749_B / 12MZ0000000150128 / 邻站BI749避雷器B相
+- B01_749_C / 12MZ0000000150129 / 邻站BI749避雷器C相
 
 Scene instance objects carry candidate_device_id, not official device_id.
 They do not change the official roots or source registry. Cylindrical body/pedestal

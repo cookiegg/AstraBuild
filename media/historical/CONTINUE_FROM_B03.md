@@ -21,7 +21,7 @@ and real renders during work. Original formal station remains semantic v50.
 
 ## What changed
 
-Two more groups: 平兴II748 A/B/C and 东坡I747 A/B/C. IDs:
+Two more groups: 邻站EII748 A/B/C and 邻站CI747 A/B/C. IDs:
 748 A/B/C: 12MZ0000000150102 / 12MZ0000000150103 / 12MZ0000000150104.
 747 A/B/C: 12MZ0000000150077 / 12MZ0000000150078 / 12MZ0000000150079.
 They remain inventory/photo-order candidates, not independently read phase nameplates.

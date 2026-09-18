@@ -700,7 +700,7 @@
     {
       "key": "747",
       "device_id": "12MZ0000000219243",
-      "name": "东坡I747",
+      "name": "邻站CI747",
       "world_matrix": [
         [
           -0.9034541249275208,
@@ -812,7 +812,7 @@
     {
       "key": "748",
       "device_id": "12MZ0000000219411",
-      "name": "平兴II748",
+      "name": "邻站EII748",
       "world_matrix": [
         [
           -0.9022888541221619,
@@ -924,7 +924,7 @@
     {
       "key": "749",
       "device_id": "12MZ0000000196705",
-      "name": "兴盛I749组合设备",
+      "name": "邻站BI749组合设备",
       "world_matrix": [
         [
           -0.9012996554374695,
@@ -1260,7 +1260,7 @@
     {
       "key": "758",
       "device_id": "12MZ0000000219305",
-      "name": "梅林II758",
+      "name": "邻站DII758",
       "world_matrix": [
         [
           -0.8988683223724365,
@@ -1372,7 +1372,7 @@
     {
       "key": "759",
       "device_id": "12MZ0000000219244",
-      "name": "东坡II759",
+      "name": "邻站CII759",
       "world_matrix": [
         [
           -0.9030833840370178,
@@ -3021,7 +3021,7 @@
     "12MZ0000000219234::switch.disconnector.position_window",
     "12MZ0000000219234::switch.disconnector.round_cover",
     "12MZ0000000219234::switch.disconnector.transition",
-    "12MZ0000000219243 | 东坡I747",
+    "12MZ0000000219243 | 邻站CI747",
     "12MZ0000000219243::body.earth_strap",
     "12MZ0000000219243::body.expansion_bellows.ring00",
     "12MZ0000000219243::body.expansion_bellows.ring01",
@@ -3153,7 +3153,7 @@
     "12MZ0000000219243::switch.disconnector.position_window",
     "12MZ0000000219243::switch.disconnector.round_cover",
     "12MZ0000000219243::switch.disconnector.transition",
-    "12MZ0000000219244 | 东坡II759",
+    "12MZ0000000219244 | 邻站CII759",
     "12MZ0000000219244::body.earth_strap",
     "12MZ0000000219244::body.expansion_bellows.ring00",
     "12MZ0000000219244::body.expansion_bellows.ring01",
@@ -3285,7 +3285,7 @@
     "12MZ0000000219244::switch.disconnector.position_window",
     "12MZ0000000219244::switch.disconnector.round_cover",
     "12MZ0000000219244::switch.disconnector.transition",
-    "12MZ0000000219305 | 梅林II758",
+    "12MZ0000000219305 | 邻站DII758",
     "12MZ0000000219305::body.earth_strap",
     "12MZ0000000219305::body.expansion_bellows.ring00",
     "12MZ0000000219305::body.expansion_bellows.ring01",
@@ -3417,7 +3417,7 @@
     "12MZ0000000219305::switch.disconnector.position_window",
     "12MZ0000000219305::switch.disconnector.round_cover",
     "12MZ0000000219305::switch.disconnector.transition",
-    "12MZ0000000219411 | 平兴II748",
+    "12MZ0000000219411 | 邻站EII748",
     "12MZ0000000219411::body.earth_strap",
     "12MZ0000000219411::body.expansion_bellows.ring00",
     "12MZ0000000219411::body.expansion_bellows.ring01",
