@@ -25,7 +25,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEPLOY_DIR = sys.argv[1] if len(sys.argv) > 1 else "/tmp/astrabuild-pages"
 
 REWRITE_SUBSET = [
-    "paper_layout_v24.pdf",
+    "paper_layout_v25.pdf",
+    "paper_layout_v25_zh.pdf",
+    "24_FULL_MANUSCRIPT_ZH_V24.md",
     "22_FULL_MANUSCRIPT_FIGURE_V24.md",
     "figure_v24/hybrid_svg/fig01_overview_v24.svg",
     "figure_v24/hybrid_svg/fig04_transitions_v24.svg",

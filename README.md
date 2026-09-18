@@ -9,7 +9,7 @@ AstraBuild is a longitudinal research project on **agentic industrial 3D reconst
 
 > **Privacy notice.** The public release is deliberately de-identified. The substation name, geographic location, precise voltage classes, and other site-identifying metadata have been removed or replaced with anonymous labels such as *Yard A / Yard B* and *GIS-A / GIS-B*.
 
-[Paper PDF](rewrite_b01_b36/paper_layout_v24.pdf) · [Manuscript](rewrite_b01_b36/22_FULL_MANUSCRIPT_FIGURE_V24.md) · [Research website](website/) · [Evidence/metrics](release/metrics.json)
+[Paper PDF](rewrite_b01_b36/paper_layout_v25.pdf) · [论文中文版](rewrite_b01_b36/paper_layout_v25_zh.pdf) · [Manuscript](rewrite_b01_b36/22_FULL_MANUSCRIPT_FIGURE_V24.md) · [Research website](website/) · [Evidence/metrics](release/metrics.json)
 
 ![AstraBuild overview](rewrite_b01_b36/figure_v24/preview_png/fig01_overview_v24.png)
 
@@ -80,7 +80,8 @@ Important interpretation limits:
 website/                         bilingual research website
 rewrite_b01_b36/                current B01–B36 manuscript and figures
   22_FULL_MANUSCRIPT_FIGURE_V24.md
-  paper_layout_v24.pdf
+  paper_layout_v25.pdf
+  paper_layout_v25_zh.pdf
   figure_v24/
 release/                         metrics, protocol, claim matrix, process records
 paper/                           earlier manuscript/report material
@@ -108,7 +109,8 @@ http://127.0.0.1:8765/website/
 ```bash
 cd rewrite_b01_b36
 python3 build_typeset_paper_v24.py
-latexmk -pdf paper_layout_v24.tex
+python3 build_typeset_paper_v25.py && latexmk -pdf paper_layout_v25.tex
+# 中文版: python3 build_typeset_paper_v25.py zh && latexmk -xelatex paper_layout_v25_zh.tex
 ```
 
 ## De-identification policy
@@ -180,7 +182,7 @@ AstraBuild 是一项关于**智能体驱动工业三维重建**的纵向研究�
 
 ## 论文与复现
 
-- 当前论文：`rewrite_b01_b36/paper_layout_v24.pdf`
+- 当前论文：`rewrite_b01_b36/paper_layout_v25.pdf`（中文版：`paper_layout_v25_zh.pdf`）
 - Markdown 源稿：`rewrite_b01_b36/22_FULL_MANUSCRIPT_FIGURE_V24.md`
 - 双语研究网页：`website/`
 - 证据与指标：`release/`
