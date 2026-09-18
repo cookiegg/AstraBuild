@@ -1,7 +1,7 @@
 # AstraBuild: Evaluating GPT-6 Astra as a Long-Horizon 3D Engineering Agent Through Its Process Data
 
 **Status:** analysis-report draft v0.8 (restructures the v0.7 advisor-discussion draft around behavioral analysis of the agent; same evidence base, same quantitative guardrails)
-**Study site:** 220 kV Xialin Substation, Xuancheng
+**Study site:** an anonymized operating substation
 **Research endpoint:** D41
 **Core geometry baseline:** D38.2
 **Presentation-only geometry-preserving layer:** D40
@@ -14,7 +14,7 @@
 
 We evaluate whether **one general-purpose reasoning model** can work as a long-horizon 3D engineering agent: can the same agent solve heterogeneous component-level reconstruction tasks, and can the outputs of those tasks be composed into a persistent, evolving industrial digital twin? The model under test is GPT-6 Astra; the method is the harness around it — an evidence compiler, a Blender/Python programmatic action space, task-native deterministic validators, and a filesystem that serves as external engineering memory. Throughout this report, the harness is the method and the model is the variable under study; we do not attribute harness behavior to the model, or model behavior to the harness.
 
-The evaluation setting is the longitudinal reconstruction of one operating 220 kV substation: **38 core reconstruction batches** spanning **12 task families** (surge arresters, civil works, transformers, capacitor banks, 110/220 kV GIS, bus and conductor systems, buildings and ground, auxiliary facilities, human-guided correction, presentation invariance, inspection-semantic augmentation). The batches are **not IID trials**: later tasks inherit geometry, reusable assets, validators, and recorded failures from earlier ones. We therefore report behavioral and task-native evidence, not a benchmark success rate.
+The evaluation setting is the longitudinal reconstruction of one operating operating substation: **38 core reconstruction batches** spanning **12 task families** (surge arresters, civil works, transformers, capacitor banks, two anonymized voltage classes GIS, bus and conductor systems, buildings and ground, auxiliary facilities, human-guided correction, presentation invariance, inspection-semantic augmentation). The batches are **not IID trials**: later tasks inherit geometry, reusable assets, validators, and recorded failures from earlier ones. We therefore report behavioral and task-native evidence, not a benchmark success rate.
 
 Headline behavioral results, all mined from the preserved process record:
 
@@ -123,8 +123,8 @@ A filename-level audit of the 40-dossier process catalog gives the operator dist
 | Wall and gate | B06 | station wall + gate | large civil geometry from coarse reference | east-wall median reference distance 7.87 m→0.015 m |
 | Transformer reconstruction | B07–B08 | two main transformers | complex assembly, reusable abstraction | shared T1/T2 assembly; bank median ~0.01 m; T2 front P95 0.62 m tail retained |
 | Capacitor-bank reconstruction | B09–B10 | six 35 kV capacitor groups | repeated structures, local assemblies | 18 lane medians 0.6–2.4 cm; first broad outdoor coverage audit |
-| 110 kV GIS/device families | B11–B16 | GIS bays, arresters, bus-tie/VT structures | reusable families and variants | B13: seven GIS sets, ~2,400 expanded meshes |
-| 220 kV GIS/outgoing families | B17–B19 | outgoing bays and variants | cross-family reuse, complex topology | B17: 75 local checks, 50 pass / 25 retained non-pass |
+| VC-A GIS/device families | B11–B16 | GIS bays, arresters, bus-tie/VT structures | reusable families and variants | B13: seven GIS sets, ~2,400 expanded meshes |
+| VC-B GIS/outgoing families | B17–B19 | outgoing bays and variants | cross-family reuse, complex topology | B17: 75 local checks, 50 pass / 25 retained non-pass |
 | Bus and conductor systems | B20–B30 | busbars, drops, insulator strings | explicit connectivity, flexible paths | ~88.8 m busbar; 804 discs; endpoint continuity ~1e-6 m |
 | Building and ground | B31–B34 | main building + ground | large structured civil reconstruction | building: 946 components; ground ~10,182 m²; wall-domain RMS 1.8–3.2 cm |
 | Auxiliary facilities | B35–D37 | CCTV, fence, bus racks, floodlights, manholes | long-tail infrastructure and revision | B35 multi-revision path; omission audit triggers B36 |
@@ -152,7 +152,7 @@ Read as a ladder, the suite separates what the agent does reliably from what it 
 
 **Rung 4 — Connectivity and coverage need dedicated operators.** Bus/conductor systems required route diagnostics and endpoint-continuity checks (B20; continuity ~1e-6 m); unknown omissions required the coverage audit as an active sensor (B25/B26). Neither emerges from per-device fitting.
 
-The quantitative ledger, with its calibrations: **1,550 surface-comparison records**, median/p90/p95 **0.036/0.084/0.116 m** (internal agreement, correlated reference); a 5 cm screen retaining **149 passing / 101 non-passing** items (non-passing items are kept in the accounting, not deleted); coverage audit of selected high regions **78.8%→14.6%** for >1 m unexplained samples, with GIS220 median 8.12→0.15 m and transformer median 3.15→0.06 m (audited regions, not whole-station completeness).
+The quantitative ledger, with its calibrations: **1,550 surface-comparison records**, median/p90/p95 **0.036/0.084/0.116 m** (internal agreement, correlated reference); a 5 cm screen retaining **149 passing / 101 non-passing** items (non-passing items are kept in the accounting, not deleted); coverage audit of selected high regions **78.8%→14.6%** for >1 m unexplained samples, with GIS-B median 8.12→0.15 m and transformer median 3.15→0.06 m (audited regions, not whole-station completeness).
 
 ![Figure 6 — Quantitative evidence: residuals, retained screening items, coverage gaps.](../figures/fig03_quantitative_evidence.png)
 
@@ -188,7 +188,7 @@ We did not observe, and under this harness would not expect to observe, silent i
 
 ## Finding 4 — The reference geometry became a sensor
 
-The B25/B26 transition is the clearest strategic adaptation in the record. Earlier work follows inventory lists; an inventory cannot list what nobody recorded. The coverage audit inverted the question — from "which entry is unresolved?" to "where does the coarse reference contain geometry the model does not explain?" — and turned the reference mesh into an omission sensor. In the audited high regions, the >1 m unexplained-sample fraction moved from 78.8% to 14.6%, with the GIS220 median from 8.12 m to 0.15 m and the transformer median from 3.15 m to 0.06 m.
+The B25/B26 transition is the clearest strategic adaptation in the record. Earlier work follows inventory lists; an inventory cannot list what nobody recorded. The coverage audit inverted the question — from "which entry is unresolved?" to "where does the coarse reference contain geometry the model does not explain?" — and turned the reference mesh into an omission sensor. In the audited high regions, the >1 m unexplained-sample fraction moved from 78.8% to 14.6%, with the GIS-B median from 8.12 m to 0.15 m and the transformer median from 3.15 m to 0.06 m.
 
 The calibrated reading: these are audited regions, not whole-station completeness, and the reference is the same correlated mesh. The behavioral reading: task selection — a decision about *what to work on next* — was revised by the agent's own evidence machinery. That is an E3 behavior under the §1.2 taxonomy, and it is the episode that most distinguishes this record from a pipeline executing a list.
 

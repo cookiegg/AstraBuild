@@ -3,9 +3,9 @@
 **Task capability, hypothesis revision, and failure modes in component-level substation reconstruction**
 
 **Status:** restructured advisor discussion draft v0.9
-**Study site:** 220 kV Xialin Substation, Xuancheng  
-**Research endpoint:** D41  
-**Core geometry baseline:** D38.2  
+**Study site:** an anonymized operating substation
+**Research endpoint:** D41
+**Core geometry baseline:** D38.2
 **Presentation layer (geometry preserved):** D40
 
 > **Experimental provenance note.** The project owner reports that the historical reconstruction process used **Codex + GPT-6 Astra with Extra High reasoning effort**. The inspected historical Blender batch files do not freeze model/reasoning-effort metadata. We therefore treat this configuration as **owner-confirmed experimental metadata**, not as provenance independently recoverable from the old batch logs.
@@ -14,7 +14,7 @@
 
 ## Abstract
 
-Can a general-purpose reasoning model do more than generate plausible 3D assets and instead act as an engineering reasoner that **tests and revises modeling hypotheses when physical evidence contradicts them**? We study this question in a longitudinal reconstruction of one operating 220 kV substation. GPT-6 Astra, accessed through Codex, operates inside a fixed Blender/Python harness that supplies registered photogrammetric geometry, field images, engineering records, prior reconstruction state, deterministic tools, and task-specific validators. The preserved record contains **38 sequential core batches across 12 reconstruction task families**. Because later batches inherit earlier geometry, reusable assets, validators, and failures, the study is a longitudinal case study rather than an IID benchmark.
+Can a general-purpose reasoning model do more than generate plausible 3D assets and instead act as an engineering reasoner that **tests and revises modeling hypotheses when physical evidence contradicts them**? We study this question in a longitudinal reconstruction of one operating operating substation. GPT-6 Astra, accessed through Codex, operates inside a fixed Blender/Python harness that supplies registered photogrammetric geometry, field images, engineering records, prior reconstruction state, deterministic tools, and task-specific validators. The preserved record contains **38 sequential core batches across 12 reconstruction task families**. Because later batches inherit earlier geometry, reusable assets, validators, and failures, the study is a longitudinal case study rather than an IID benchmark.
 
 The record separates two aspects of performance. First, when a task can be reduced to an explicit measurement or fitting problem, the workflow can compile a local reference and delegate numerical estimation to deterministic operators; wall, capacitor, building, and cabin cases then reach centimeter-scale **internal agreement with the same photogrammetric reference used during reconstruction**. Second, the difficult revisions are often not parameter changes. Among the seven documented adaptation/failure episodes selected for cross-case analysis, five concern the evaluation protocol, reusable-asset boundary, geometric representation, or task-selection rule. B15 moves finite geometry out of an overgeneralized shared asset; B23 replaces a straight-lead representation after measured profiles expose roughly 0.5 m of curvature; B25/B26 changes task selection from inventory completion to unexplained geometric coverage; and D38 converts 2D review markup into 3D correction but requires a subsequent review to repair an orientation-semantics error. These episodes show that externalized measurements and review artifacts can cause Astra to revise the **kind of engineering hypothesis** being used, while also showing that first-pass detail interpretation and coordinate semantics remain error-prone.
 
@@ -28,7 +28,7 @@ Modern photogrammetry and neural scene reconstruction can recover rich appearanc
 
 These requirements become difficult in an operating substation because the evidence is incomplete and heterogeneous. The registered photogrammetric mesh provides global layout and local occupied surfaces but contains holes, fused neighbors, stretched geometry, and insufficient component detail. UAV and ground photographs reveal visible structure but are not uniformly calibrated and do not authenticate every device identity. Engineering inventories and 12MZ records provide expected names and inspection concepts but do not guarantee that corresponding geometry has been reconstructed. Human reviewers can recognize omissions or implausible structures, but requiring them to manually edit Blender vertices would negate much of the value of an agentic workflow.
 
-The Xialin reconstruction project provides a long trace of one reasoning system operating inside this setting. Rather than asking a model to reconstruct one isolated object, the project repeatedly asks the **same agent/harness** to solve different 3D engineering tasks in a shared Blender environment. Early tasks fit arresters and civil boundaries. Later tasks build shared transformer assemblies, capacitor banks, GIS families, bus/conductor systems, buildings, and auxiliary facilities. Still later tasks revisit earlier assumptions after geometric validation or human review exposes omissions and errors. The final artifact is not a folder of independent meshes but one persistent station-scale engineering state.
+The site reconstruction project provides a long trace of one reasoning system operating inside this setting. Rather than asking a model to reconstruct one isolated object, the project repeatedly asks the **same agent/harness** to solve different 3D engineering tasks in a shared Blender environment. Early tasks fit arresters and civil boundaries. Later tasks build shared transformer assemblies, capacitor banks, GIS families, bus/conductor systems, buildings, and auxiliary facilities. Still later tasks revisit earlier assumptions after geometric validation or human review exposes omissions and errors. The final artifact is not a folder of independent meshes but one persistent station-scale engineering state.
 
 This structure is closer to recent embodied-agent studies than to a conventional single-object reconstruction benchmark. In embodied-policy reports, one general-purpose policy is exercised across multiple tasks under a shared robot/controller environment [@cheng2026gptpolicy; @su2026astraembodied]. Here, the shared environment is a persistent 3D engineering system: Blender/Python is the actuator; images, coarse geometry, inventories, and prior artifacts form the observation/context; validators provide execution feedback; and the filesystem provides durable external memory.
 
@@ -138,8 +138,8 @@ We reinterpret the B/D history as a suite of heterogeneous reconstruction tasks 
 | Wall and gate | B06 | station wall + gate | large civil geometry from coarse reference | east-wall median reference distance 7.87 m→0.015 m |
 | Transformer reconstruction | B07–B08 | two main transformers | complex assembly and reusable abstraction | shared T1/T2 assembly; bank median ~0.01 m; T2 front P95 0.62 m tail retained |
 | Capacitor-bank reconstruction | B09–B10 | six 35 kV capacitor groups | repeated structures and local assemblies | 18 lane medians 0.6–2.4 cm; first broad outdoor coverage audit |
-| 110 kV GIS/device families | B11–B16 | GIS bays, arresters, bus-tie/VT structures | reusable families and variants | B13 creates seven GIS sets with ~2,400 expanded meshes |
-| 220 kV GIS/outgoing families | B17–B19 | outgoing bays and variants | cross-family reuse and complex topology | B17 75 local checks: 50 pass / 25 retained non-pass |
+| VC-A GIS/device families | B11–B16 | GIS bays, arresters, bus-tie/VT structures | reusable families and variants | B13 creates seven GIS sets with ~2,400 expanded meshes |
+| VC-B GIS/outgoing families | B17–B19 | outgoing bays and variants | cross-family reuse and complex topology | B17 75 local checks: 50 pass / 25 retained non-pass |
 | Bus and conductor systems | B20–B30 | busbars, drops, insulator strings | explicit connectivity and flexible paths | ~88.8 m busbar; 804 discs; endpoint continuity ~1e-6 m scale |
 | Building and ground | B31–B34 | main building + ground | large structured civil reconstruction | building 946 components; ground ~10,182 m²; wall-domain RMS 1.8–3.2 cm |
 | Auxiliary facilities | B35–D37 | CCTV, fence, bus racks, floodlights, manholes | long-tail infrastructure and revision | B35 multi-revision path; later omission audit triggers B36 |
@@ -184,7 +184,7 @@ B08 is the clearest example: after an explicit user authorization that the two t
 B25/B26 marks an important transition. Instead of asking only which inventory entry is unresolved, the workflow asks where selected high-region coarse geometry remains unexplained by the component model. In that audit:
 
 - the fraction of selected samples more than 1 m from modeled geometry changes from **78.8% to 14.6%**;
-- the selected GIS220 high-region median changes from **8.12 m to 0.15 m**;
+- the selected GIS-B high-region median changes from **8.12 m to 0.15 m**;
 - the selected transformer high-region median changes from **3.15 m to 0.06 m**.
 
 The significance is not absolute metric accuracy. The reference scene becomes an **active sensor for omission discovery and task selection**.

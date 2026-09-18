@@ -246,7 +246,7 @@ def figure3_quantitative():
 
     # D slope / log
     ax=axs[1,1]; panel_label(ax,"d")
-    pairs={"GIS220 high region":(8.12,0.15),"Transformer high region":(3.15,0.06)}
+    pairs={"GIS-B high region":(8.12,0.15),"Transformer high region":(3.15,0.06)}
     for i,(name,(before,after)) in enumerate(pairs.items()):
         c=[BLUE,ORANGE][i]
         ax.plot([0,1],[before,after],marker="o",ms=6,lw=2,color=c,label=name)
@@ -458,8 +458,8 @@ def figure9_task_suite_composition():
         ("Walls + gate", "B06", "civil geometry"),
         ("Transformers", "B07–B08", "complex assembly / reuse"),
         ("Capacitor banks", "B09–B10", "repeated structures"),
-        ("110 kV GIS", "B11–B16", "family / variants"),
-        ("220 kV GIS", "B17–B19", "complex topology"),
+        ("VC-A GIS", "B11–B16", "family / variants"),
+        ("VC-B GIS", "B17–B19", "complex topology"),
         ("Bus + conductors", "B20–B30", "connectivity / paths"),
         ("Building + ground", "B31–B34", "large structured civil"),
         ("Auxiliary facilities", "B35–D37", "long-tail infrastructure"),
@@ -537,7 +537,7 @@ def figure10_visual_abstract():
         (PFP / "output" / "installation_B18" / "314_B18_2899_Front_Clean.png", "Arrester"),
         (PFP / "output" / "installation_B08" / "36_B08_T1_Front_Clean_r2.png", "Transformer"),
         (PFP / "output" / "installation_B10" / "63_B10_031_Clean.png", "Capacitor bank"),
-        (PFP / "output" / "installation_B17" / "275_B17_4D76_Front_Clean.png", "220 kV GIS"),
+        (PFP / "output" / "installation_B17" / "275_B17_4D76_Front_Clean.png", "VC-B GIS"),
     ]
     station = PFP / "output" / "installation_D38" / "769_D38_Station_Top_Clean.png"
     semantics = PFP / "output" / "installation_D41" / "render_D41_T1_front.png"
@@ -819,7 +819,7 @@ def figure13_review_protocol():
         ("B07\nMain transformer", PFP/"output/installation_B07/29_B07_T1_Clean_r2.png", PFP/"output/installation_B07/30_B07_T1_Overlay_r2.png", PFP/"output/installation_B07/31_B07_T1_Reference_r2.png"),
         ("B08\nShared transformer", PFP/"output/installation_B08/37_B08_T1_Rear_Clean_r2.png", PFP/"output/installation_B08/38_B08_T1_Rear_Overlay_r2.png", PFP/"output/installation_B08/45_B08_T1_Rear_Reference_r2.png"),
         ("B09\nCapacitor bank 031", PFP/"output/installation_B09/49_B09_031_Clean.png", PFP/"output/installation_B09/50_B09_031_Overlay.png", PFP/"output/installation_B09/51_B09_031_Reference.png"),
-        ("B17\n220 kV GIS 4B77", PFP/"output/installation_B17/r3/305_B17_4B77_Side_Clean.png", PFP/"output/installation_B17/r3/306_B17_4B77_Side_Overlay.png", PFP/"output/installation_B17/r3/307_B17_4B77_Side_Reference.png"),
+        ("B17\nVC-B GIS 4B77", PFP/"output/installation_B17/r3/305_B17_4B77_Side_Clean.png", PFP/"output/installation_B17/r3/306_B17_4B77_Side_Overlay.png", PFP/"output/installation_B17/r3/307_B17_4B77_Side_Reference.png"),
     ]
     missing=[str(p) for _,*ps in rows for p in ps if not p.exists()]
     if missing:

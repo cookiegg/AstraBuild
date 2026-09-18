@@ -1,120 +1,217 @@
-# AstraBuild worked-example research release · v0.7
+# AstraBuild
 
-This directory is an **isolated paper + academic-figure + evidence-first research website release** for the Xialin substation Blender reconstruction experiments. It does not modify or replace any historical `photo-first-pilot` batch, `.blend` output, validation record, or existing presentation asset.
+**From Local Fits to Persistent Industrial 3D Reconstruction with a General-Purpose Reasoning Model**
 
-## Working title
+Walter Wang · P. Li · J. Di · **H. Luo\***  
+\* Corresponding author / 通讯作者
 
-> **AstraBuild: GPT-6 Astra as a Long-Horizon 3D Engineering Agent for Component-Level Substation Reconstruction**
+AstraBuild is a longitudinal research project on **agentic industrial 3D reconstruction**. It studies how a general-purpose reasoning model can formulate, revise, and coordinate executable reconstruction operations while deterministic geometry tools remain responsible for numerical computation and validation.
 
-The release frames the longitudinal engineering record as one persistent 3D engineering agent operating across heterogeneous tasks:
+> **Privacy notice.** The public release is deliberately de-identified. The substation name, geographic location, precise voltage classes, and other site-identifying metadata have been removed or replaced with anonymous labels such as *Yard A / Yard B* and *GIS-A / GIS-B*.
 
-`field/coarse/record evidence → Codex + GPT-6 Astra → Blender/Python actions → deterministic validation → persistent engineering memory → revision / reuse / next task`.
+[Paper PDF](rewrite_b01_b36/paper_layout_v24.pdf) · [Manuscript](rewrite_b01_b36/22_FULL_MANUSCRIPT_FIGURE_V24.md) · [Research website](website/) · [Evidence/metrics](release/metrics.json)
 
-The declared configuration **Codex + GPT-6 Astra + Extra High reasoning** is project-owner-confirmed. Historical Blender batches inspected for this release do not freeze model/reasoning-effort metadata, so the publication explicitly labels this provenance rather than retroactively claiming log-level proof.
+![AstraBuild overview](rewrite_b01_b36/figure_v24/preview_png/fig01_overview_v24.png)
 
-## Version boundary
+---
 
-- **D38.2** — core geometry reconstruction baseline used by headline scene-scale / residual accounting.
-- **D40** — material-only presentation layer with geometry/transform/vertex-count invariance validation.
-- **D41** — research endpoint; adds inspection-relevant transformer accessories and part/world-location records.
+## Overview
 
-These layers must not be collapsed into one undifferentiated version in the paper or website.
+Industrial 3D reconstruction is not only a geometry-recovery problem. An editable engineering model must also preserve reusable component structure, explicit interfaces and connections, revision provenance, and previously accepted state.
 
-## What changed in v0.7
+AstraBuild studies this problem through **B01–B36**, a 36-batch longitudinal reconstruction record from one anonymized operating substation. The workflow couples a general-purpose reasoning model with Blender/Python programs, deterministic geometry operators, and task-specific validators.
 
-v0.7 addresses a remaining explanation problem in the method section: the canonical loop was still too abstract to answer what Astra actually consumes, why a step is needed, who generates a diagnostic figure, what each stage outputs, and how review evidence changes the next revision.
+The central research question is:
 
-Major changes:
+> **How does a persistent general-purpose reasoning workflow change as industrial 3D reconstruction progresses from local fitting to reusable equipment, connected representations, and state-constrained site closure?**
 
-- new **Figure 12** uses B32 as a complete worked example with explicit trigger, input package, observable Astra/Codex role, deterministic NumPy/SciPy/Matplotlib/Blender execution, R1→R2→R3 revisions, validation and persistent outputs;
-- the website now explains B32 before showing the generalized Figure 11 workflow;
-- the original historical `B32_review.html` is lazily embedded in the method section, preserving its eight camera directions, Clean/Overlay/Reference modes and split slider;
-- the website now has a primary **Original Reconstruction Reviews** browser that indexes all 32 historical `review.html` pages from B07–D38 and loads the original interactive page for each transformer, capacitor-bank, GIS, conductor, civil or correction batch;
-- new **Figure 13** extracts representative same-camera `Clean / Overlay / Reference` triplets from B07/B08/B09/B17 for the static paper while the website preserves the full original interactive reviews;
-- the process catalog now indexes each batch's original `*_review.html`, review checks, input record and measurement JSON when present, so dossier users can inspect the historical review UI rather than only selected thumbnails;
-- the paper explicitly states that old batches preserve an observable engineering decision trail, **not GPT-6 Astra's private chain-of-thought**;
-- v0.6's canonical-core/task-specific-operator model, 40 formal dossiers, evidence-first task gallery, D38 flagship, station integration and D41 semantics remain in place.
+### Main findings
 
-## Contents
+1. **Reasoning and numerical geometry play different roles.**  
+   The model selects evidence, comparison domains, representations, and executable procedures; numerical fitting and acceptance are performed by deterministic tools and validators.
 
-- `paper/paper_teacher_discussion.md` — current polished English manuscript for advisor discussion.
-- `paper/teacher_discussion_notes_zh.md` — concise Chinese framing/questions for the meeting.
-- `paper/paper.md` — previous detailed v0.2 manuscript retained for reference.
-- `paper/paper.tex` — LaTeX manuscript source.
-- `paper/technical_report_zh.md` — detailed Chinese technical report.
-- `paper/references.bib` — reconstruction / agent / benchmark references.
-- `figures/` — **13 academic figures**, each generated in SVG/PDF/PNG.
-- `scripts/generate_figures.py` — deterministic publication-figure generator.
-- `scripts/build_process_catalog.py` — read-only scanner that indexes historical batch evidence for the website dossier browser.
-- `release/experiment_manifest.json` — release boundary and provenance contract.
-- `release/metrics.json` — measurements with explicit scope/source and semantic/D38/D40/D41 data.
-- `release/study_protocol.json` — research questions, evidence roles, metric definitions, and key cases.
-- `release/media.json` — publication-media registry.
-- `release/process_catalog.json` — generated index of 40 formal publication dossiers (B01–B36 + D37/D38/D40/D41) and their review/process evidence; superseded C37/variant directories remain historical but are not counted as formal dossiers.
-- `release/claim_matrix.md` — claim → evidence → allowed-interpretation guardrail.
-- `website/` — bilingual static research-report website.
-- `media/` — selected historical videos/renders exposed without modifying the originals, plus the derived short hero loop.
-- `media/cases/` — historical case-study thumbnails/episode evidence for the website.
-- `media/historical/` — local symlink to the read-only `photo-first-pilot` tree so the dossier browser can show original process evidence without copying or modifying it.
-- `scripts/validate_release.py` — offline structural / claim-scope / asset-path validation.
+2. **The operator portfolio broadens as dependencies accumulate.**  
+   Local fitting remains useful, but repeated equipment introduces reuse boundaries, connected systems introduce ports/routes/continuity, and later site work introduces omission discovery, preservation, review, and interference constraints.
 
-## Preview
+3. **Persistent external state enables composition and propagates errors.**  
+   Later batches reuse earlier masters, terminals, transforms, and connection endpoints. The same persistence can also propagate an incorrect shared abstraction until its reuse boundary is revised.
 
-From this directory:
+These results describe one longitudinal field reconstruction. They do **not** establish model superiority, independent survey accuracy, or cross-site generalization.
+
+## Method at a glance
+
+```text
+registered evidence + inherited state
+                 ↓
+        GPT-6 Astra / Codex
+   select evidence / representation
+   write or revise executable programs
+                 ↓
+        deterministic geometry tools
+   fitting · construction · rendering
+   endpoint/contact/coverage/collision checks
+                 ↓
+        validated editable state
+                 ↺
+        context for the next batch
+```
+
+The declared model configuration is project-owner-confirmed experimental metadata. Historical batch artifacts preserve programs, plans, diagnostics, visible messages/tool calls, and validation outputs, but they do not provide access to the model's private chain-of-thought.
+
+## Evidence and scope
+
+The public release preserves the evidence needed to audit the paper's claims:
+
+- fixed-camera **model / overlay / registered-reference** reviews;
+- intermediate measurement and diagnostic figures;
+- batch plans, manifests, validation records, and continuation notes;
+- operator-stage summaries across B01–B36;
+- claim/evidence guardrails in `release/claim_matrix.md`.
+
+Important interpretation limits:
+
+- geometric residuals are measured against the same registered photogrammetric reconstruction used by the workflow, **not** against an independent survey reference;
+- task-native checks are heterogeneous and should not be collapsed into one station-wide accuracy score;
+- human review affects the trajectory, so the system is described as **agent-driven and human-steerable**, not fully autonomous.
+
+## Repository structure
+
+```text
+website/                         bilingual research website
+rewrite_b01_b36/                current B01–B36 manuscript and figures
+  22_FULL_MANUSCRIPT_FIGURE_V24.md
+  paper_layout_v24.pdf
+  figure_v24/
+release/                         metrics, protocol, claim matrix, process records
+paper/                           earlier manuscript/report material
+figures/                         legacy publication figures
+media/                           selected visual evidence
+scripts/                         release/figure/catalog validation utilities
+```
+
+The current paper is the B01–B36 clean-sheet rewrite under `rewrite_b01_b36/`. Older paper/report files are retained only as development history and should not be treated as the current manuscript.
+
+## Reproduce the public website
 
 ```bash
 python3 -m http.server 8765
 ```
 
-Open either URL:
+Then open:
 
 ```text
-http://127.0.0.1:8765/
 http://127.0.0.1:8765/website/
 ```
 
-The root page redirects to the research website. Historical images/videos are exposed through publication-layer paths so local HTTP preview does not require changing the experiment outputs.
-
-## Regenerate academic figures
+## Rebuild the current paper
 
 ```bash
-python3 scripts/generate_figures.py
+cd rewrite_b01_b36
+python3 build_typeset_paper_v24.py
+latexmk -pdf paper_layout_v24.tex
 ```
 
-Generated files include:
+## De-identification policy
+
+For the public repository:
+
+- the station name and geographic location are removed;
+- exact voltage classes are replaced with anonymous site labels;
+- public media filenames use anonymous labels such as `gis_a.png` and `gis_b.png`;
+- the scientific distinction between equipment families is retained only where needed for the analysis.
+
+This de-identification is intended to preserve the research argument while avoiding disclosure of operational site identity.
+
+## Authors
+
+- Walter Wang
+- P. Li
+- J. Di
+- **H. Luo\*** — corresponding author
+
+## Citation
+
+If you use AstraBuild, please cite:
+
+```bibtex
+@misc{astrabuild2026,
+  title  = {AstraBuild: From Local Fits to Persistent Industrial 3D
+            Reconstruction with a General-Purpose Reasoning Model},
+  author = {Walter Wang and P. Li and J. Di and H. Luo},
+  year   = {2026},
+  url    = {https://github.com/cookiegg/AstraBuild},
+  note   = {Longitudinal B01--B36 field-record manuscript and project website.
+            H. Luo is the corresponding author.}
+}
+```
+
+---
+
+# 中文说明
+
+## 项目简介
+
+AstraBuild 是一项关于**智能体驱动工业三维重建**的纵向研究。项目关注的不是“语言模型能否直接生成一个三维场景”，而是：当重建过程持续数十个批次、后续任务需要继承已有工程状态时，通用推理模型如何选择证据、选择表示、编写或修订可执行程序，并与确定性几何工具和验证器协同工作。
+
+公开论文分析 **B01–B36** 共 36 个连续批次，研究问题为：
+
+> **当工业三维重建从局部拟合推进到可复用设备、连接表示以及受既有状态约束的场站收尾时，一个持续的通用推理工作流会如何变化？**
+
+### 主要结论
+
+1. **模型推理与数值几何计算需要区分。**  
+   模型主要负责选择证据、比较域、表示和可执行操作；具体拟合与验收由确定性程序完成。
+
+2. **随着依赖关系增加，所需算子与工程决策不断扩展。**  
+   从局部拟合，到复用边界，再到端口、路由、连续性、遗漏发现、状态保持与干涉约束。
+
+3. **持久化外部状态同时带来组合能力与错误传播风险。**  
+   后续批次可以直接复用早期 MASTER、端子、变换和连接端点；错误的共享抽象也可能沿同一机制传播，直到复用边界被修订。
+
+## 脱密说明
+
+本 GitHub 版本为**脱密公开版**：
+
+- 不公开具体变电站名称；
+- 不公开地理位置或地址；
+- 不公开精确电压等级；
+- 需要区分设备区域时，仅使用匿名的 **区域 A / 区域 B、GIS-A / GIS-B** 等标签；
+- 保留与论文科学结论直接相关的任务结构、批次关系和验证证据。
+
+## 论文与复现
+
+- 当前论文：`rewrite_b01_b36/paper_layout_v24.pdf`
+- Markdown 源稿：`rewrite_b01_b36/22_FULL_MANUSCRIPT_FIGURE_V24.md`
+- 双语研究网页：`website/`
+- 证据与指标：`release/`
+
+本地预览：
+
+```bash
+python3 -m http.server 8765
+```
+
+访问：
 
 ```text
-figures/fig01_agentic_loop.{svg,pdf,png}
-figures/fig02_longitudinal_study.{svg,pdf,png}
-figures/fig03_quantitative_evidence.{svg,pdf,png}
-figures/fig04_structure_and_semantics.{svg,pdf,png}
-figures/fig05_failure_recovery.{svg,pdf,png}
-figures/fig06_d38_human_feedback.{svg,pdf,png}
-figures/fig07_d41_inspection_semantics.{svg,pdf,png}
-figures/fig08_validation_stack.{svg,pdf,png}
-figures/fig09_task_suite_composition.{svg,pdf,png}
-figures/fig10_visual_abstract.{svg,pdf,png}
-figures/fig11_canonical_workflow.{svg,pdf,png}
-figures/fig12_b32_worked_example.{svg,pdf,png}
-figures/fig13_review_protocol.{svg,pdf,png}
+http://127.0.0.1:8765/website/
 ```
 
-## Regenerate process catalog
+## 作者
 
-```bash
-python3 scripts/build_process_catalog.py
+Walter Wang · P. Li · J. Di · **H. Luo\***  
+\* 通讯作者
+
+## 引用
+
+```bibtex
+@misc{astrabuild2026,
+  title  = {AstraBuild: From Local Fits to Persistent Industrial 3D
+            Reconstruction with a General-Purpose Reasoning Model},
+  author = {Walter Wang and P. Li and J. Di and H. Luo},
+  year   = {2026},
+  url    = {https://github.com/cookiegg/AstraBuild},
+  note   = {Longitudinal B01--B36 field-record manuscript and project website.
+            H. Luo is the corresponding author.}
+}
 ```
-
-The catalog is a publication index only. It does not modify any historical experiment output.
-
-## Validate release
-
-```bash
-python3 scripts/validate_release.py
-```
-
-## Claim discipline
-
-The central centimeter-scale geometric values are **residuals against the same photogrammetric coarse mesh used by the reconstruction workflow**. They are **not independent survey accuracy**.
-
-The `149 / 101` 5 cm ledger is a validation screen, not model “accuracy.” The `78.8% → 14.6%` value is a selected high-region coverage-gap audit, not whole-station completeness. The `≈9.5×` figure is a descriptive object/mesh-datablock reuse ratio, not a measured modeling-speedup. Human review is explicitly part of the method, so the report uses *agent-driven / human-steerable* rather than *fully autonomous*.

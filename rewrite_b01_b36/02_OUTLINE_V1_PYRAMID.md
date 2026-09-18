@@ -93,7 +93,7 @@ Surface reconstruction does not directly provide editable component structure, r
 
 ### Sentence group 2 — question and study design
 
-Study one GPT-6 Astra/Codex workflow over B01–B36 of an operating 220 kV substation, using registered photogrammetric geometry, field imagery, engineering records, executable Blender/Python tools, and batch-specific validators.
+Study one GPT-6 Astra/Codex workflow over B01–B36 of an operating operating substation, using registered photogrammetric geometry, field imagery, engineering records, executable Blender/Python tools, and batch-specific validators.
 
 ### Sentence group 3 — main answer, in the same three-part structure as the paper
 

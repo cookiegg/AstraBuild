@@ -41,7 +41,7 @@ table_tex = r'''\begin{table*}[t]
 \textbf{Descriptive band} & \textbf{Batches} & \textbf{Representative targets} & \textbf{Structural issue introduced} \\
 \midrule
 Local fitted structures & B01--B06 & arresters, wall, gate & comparison domain, rigid pose, simple fitted geometry \\
-Repeated equipment & B07--B19 & transformers, capacitor banks, 110/220 kV GIS & reusable components, variants, master/site boundaries \\
+Repeated equipment & B07--B19 & transformers, capacitor banks, two anonymized voltage classes GIS & reusable components, variants, master/site boundaries \\
 Connected systems & B20--B30 & busbars, insulators, jumpers, conductors & ports, routes, flexible paths, continuity, unexplained occupancy \\
 Site closure & B31--B36 & buildings, cabins, ground, auxiliary facilities, bus racks & residual reconstruction under a large inherited state \\
 \bottomrule
@@ -199,8 +199,10 @@ front = rf'''\begin{{document}}
 \begin{{center}}
 {{\LARGE\bfseries {safe_title}\par}}
 \vspace{{0.45em}}
-{{\normalsize Walter Wang, hb.luo, pf.li, j.di, y.cao, y.kang\par}}
-\vspace{{0.3em}}
+{{\normalsize Walter Wang, P. Li, J. Di, H. Luo$^{{*}}$\par}}
+\vspace{{0.2em}}
+{{\small $^{{*}}$Corresponding author\par}}
+\vspace{{0.25em}}
 {{\small Advisor-discussion draft · B01--B36 figure-v2.4 version\par}}
 \end{{center}}
 \vspace{{0.35em}}

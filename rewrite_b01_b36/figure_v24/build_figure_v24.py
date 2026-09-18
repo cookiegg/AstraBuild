@@ -345,7 +345,7 @@ def build_fig5():
     top=[
         (20,118,290,"B08","shared MASTER + persistent terminal state","T1 / T2 are rigid site instances",hist("installation_B08/42_B08_Transformer_Pair_r2.png"),SOFT_BLUE,BLUE),
         (394,118,290,"B23","connection reuses an existing terminal","new geometry defined against a B08 interface",hist("installation_B23/r3/480_B23_T1_Neutral_Oblique_Overlay.png"),SOFT_PURPLE,PURPLE),
-        (768,118,290,"B29","conductors reuse prior clamps and endpoints","jumpers connect previously modeled subsystems",hist("installation_B29/600_B29_G220_OUT_Detail_Overlay.png"),SOFT_ORANGE,ORANGE),
+        (768,118,290,"B29","conductors reuse prior clamps and endpoints","jumpers connect previously modeled subsystems",hist("installation_B29/600_B29_G-B_OUT_Detail_Overlay.png"),SOFT_ORANGE,ORANGE),
         (1142,118,290,"B36","bus-rack closure uses preserved stubs","new routes close onto inherited interfaces",hist("installation_B36/r2_previews/748_B36_T1_Rack_Overlay.png"),SOFT_TEAL,TEAL),
     ]
     for x,y,w,bid,sub,foot,p,tint,stroke in top:

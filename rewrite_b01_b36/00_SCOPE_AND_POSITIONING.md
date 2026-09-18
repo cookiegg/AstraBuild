@@ -62,7 +62,7 @@ Representative evidence: B01/B02 evaluation-domain issue; B06 civil wall/gate fi
 
 ### Regime II — Reusable equipment assemblies (B07–B19)
 
-Targets: transformers, capacitor banks, 110 kV / 220 kV GIS families.
+Targets: transformers, capacitor banks, VC-A / VC-B GIS families.
 
 The workflow becomes more structured: measurement, planning, refinement, audit, reusable `MASTER`/site separation, and fixed review views appear repeatedly.
 

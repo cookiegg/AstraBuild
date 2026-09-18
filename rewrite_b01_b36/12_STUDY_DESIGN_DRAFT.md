@@ -2,14 +2,14 @@
 
 ## 6.1 Sequential reconstruction record
 
-We analyze B01–B36 as one sequential reconstruction record from an operating 220 kV substation. Later batches inherit accepted geometry, reusable assets, transforms, and validation state from earlier batches. The targets also change over the sequence: the early work focuses on local equipment and civil fitting, later work introduces repeated equipment families and explicit connections, and the final batches operate on residual civil and auxiliary structures within a large accumulated scene. Because geometry type, dependency structure, and task-specific validation differ across the sequence, we do not collapse all 36 batches into a single success-rate denominator. The analysis instead asks how the reconstruction operation changes as additional dependencies appear.
+We analyze B01–B36 as one sequential reconstruction record from an operating operating substation. Later batches inherit accepted geometry, reusable assets, transforms, and validation state from earlier batches. The targets also change over the sequence: the early work focuses on local equipment and civil fitting, later work introduces repeated equipment families and explicit connections, and the final batches operate on residual civil and auxiliary structures within a large accumulated scene. Because geometry type, dependency structure, and task-specific validation differ across the sequence, we do not collapse all 36 batches into a single success-rate denominator. The analysis instead asks how the reconstruction operation changes as additional dependencies appear.
 
 For orientation, we group the chronology into four descriptive bands. These bands summarize target structure and are not treated as discovered task regimes or as a common difficulty scale.
 
 | Descriptive band | Batches | Representative targets | Structural issue introduced |
 |---|---|---|---|
 | Local fitted structures | B01–B06 | arresters, wall, gate | comparison domain, rigid pose, simple fitted geometry |
-| Repeated equipment | B07–B19 | transformers, capacitor banks, 110/220 kV GIS | reusable components, variants, master/site boundaries |
+| Repeated equipment | B07–B19 | transformers, capacitor banks, two anonymized voltage classes GIS | reusable components, variants, master/site boundaries |
 | Connected systems | B20–B30 | busbars, insulators, jumpers, conductors | ports, routes, flexible paths, continuity, unexplained occupancy |
 | Site closure | B31–B36 | buildings, cabins, ground, auxiliary facilities, bus racks | residual reconstruction under a large inherited state |
 

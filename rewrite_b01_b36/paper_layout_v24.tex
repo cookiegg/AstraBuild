@@ -54,8 +54,10 @@
 \begin{center}
 {\LARGE\bfseries AstraBuild: From Local Fits to Persistent Industrial 3D Reconstruction with a General-Purpose Reasoning Model\par}
 \vspace{0.45em}
-{\normalsize Walter Wang, hb.luo, pf.li, j.di, y.cao, y.kang\par}
-\vspace{0.3em}
+{\normalsize Walter Wang, P. Li, J. Di, H. Luo$^{*}$\par}
+\vspace{0.2em}
+{\small $^{*}$Corresponding author\par}
+\vspace{0.25em}
 {\small Advisor-discussion draft · B01--B36 figure-v2.4 version\par}
 \end{center}
 \vspace{0.35em}
@@ -67,7 +69,7 @@ choices, and prior state all change as reconstruction proceeds. We ask
 how a general-purpose reasoning model can coordinate this evolving
 process through explicit geometry programs and task-specific validation.
 We study GPT-6 Astra/Codex over B01--B36, a 36-batch reconstruction of
-one operating 220 kV substation from registered photogrammetric
+one anonymized operating substation from registered photogrammetric
 geometry, field imagery, engineering records, and inherited Blender
 state. The record shows that local fitting remains useful throughout the
 sequence, while the required operator portfolio broadens as dependencies
@@ -119,17 +121,17 @@ operations as the target changes while retaining a coherent engineering
 state.
 
 We study this question through AstraBuild, a GPT-6 Astra/Codex
-reconstruction workflow applied to one operating 220 kV substation. The
-analysis uses the preserved B01--B36 sequence, comprising 36 sequential
-batches that begin with local equipment placement and progress through
-repeated equipment families, connected bus and conductor systems, civil
-structures, and late residual site work. Each batch operates through
-executable Blender/Python procedures and task-specific validation, and
-later batches inherit geometry and interfaces produced earlier. We ask:
-\textbf{how does a persistent general-purpose reasoning workflow change
-as industrial 3D reconstruction progresses from local fitting to
-reusable equipment, connected representations, and state-constrained
-site closure?}
+reconstruction workflow applied to one anonymized operating substation.
+The analysis uses the preserved B01--B36 sequence, comprising 36
+sequential batches that begin with local equipment placement and
+progress through repeated equipment families, connected bus and
+conductor systems, civil structures, and late residual site work. Each
+batch operates through executable Blender/Python procedures and
+task-specific validation, and later batches inherit geometry and
+interfaces produced earlier. We ask: \textbf{how does a persistent
+general-purpose reasoning workflow change as industrial 3D
+reconstruction progresses from local fitting to reusable equipment,
+connected representations, and state-constrained site closure?}
 
 The B01--B36 record supports three answers. First, geometric computation
 and acceptance remain explicit outside the language model. The
@@ -391,7 +393,7 @@ route/interference revisions in B20 and B36.
 record}\label{sequential-reconstruction-record}}
 
 We analyze B01--B36 as one sequential reconstruction record from an
-operating 220 kV substation. Later batches inherit accepted geometry,
+operating operating substation. Later batches inherit accepted geometry,
 reusable assets, transforms, and validation state from earlier batches.
 The targets also change over the sequence: the early work focuses on
 local equipment and civil fitting, later work introduces repeated
@@ -643,8 +645,8 @@ status alone. B25 compared registered high-region geometry against the
 current modeled scene and found large structures that remained
 unexplained, including gantries above the GIS and transformer regions.
 Those gaps motivated subsequent reconstruction. In the selected regions,
-the GIS110 median distance to the current model changed from 1.75 m to
-0.10 m after the gantry work, and the GIS220 median changed from 8.12 m
+the GIS-A median distance to the current model changed from 1.75 m to
+0.10 m after the gantry work, and the GIS-B median changed from 8.12 m
 to 0.15 m. B26 applied the same logic to the transformer/firewall
 region; its selected high-region median changed from 3.15 m to 0.06 m,
 while the fraction of selected samples more than 1 m from the modeled

@@ -141,7 +141,7 @@ def save(name, svg):
 
 STATION = REPO / "media/cases/station_side.png"
 FIELD = REPO / "media/field_gis.jpg"
-GIS = REPO / "media/cases/gis220.png"
+GIS = REPO / "media/cases/gis_b.png"
 B15_BEFORE = REPO / "media/cases/b15_before.png"
 B15_AFTER = REPO / "media/cases/b15_after.png"
 
@@ -151,7 +151,7 @@ def card01_cover():
     svg.append(brand())
     svg.append(text("研究实录 · 工业三维重建", 100, 140, 500, 26, "700", TEAL, spacing="0.12em")[0])
     svg.append(text("让 GPT-6 重建一座", 84, 320, 920, 96, "900", INK, family=SANS)[0])
-    svg.append(text("220 kV 变电站", 84, 436, 920, 96, "900", INK, family=SANS)[0])
+    svg.append(text("VC-B 变电站", 84, 436, 920, 96, "900", INK, family=SANS)[0])
     svg.append(text("36 批连续作业，通用推理智能体的工业数字孪生实录", 86, 512, 900, 36, "400", MUTED)[0])
     svg.append(image(STATION, 84, 600, 912, 540, 24))
     x = 84
@@ -372,7 +372,7 @@ def card_shell(kick, title_s, color=TEAL):
 def fig01_vertical():
     svg = card_shell("图 1 · 方法", "从注册物理证据\n到持续工程模型")
     svg.append(image(FIELD, 84, 430, 444, 280, 20))
-    svg.append(image(REPO / "media/cases/gis110.png", 552, 430, 444, 280, 20, light=True))
+    svg.append(image(REPO / "media/cases/gis_a.png", 552, 430, 444, 280, 20, light=True))
     svg.append(text("现场图像与注册粗模", 306, 752, 400, 25, "700", MUTED, "middle")[0])
     svg.append(text("度量布局与占用表面", 774, 752, 400, 25, "700", MUTED, "middle")[0])
     loop_step(svg, 810, 1, "GPT-6 Astra / Codex", "选证据 · 选表示 · 分解任务 · 编写或修订程序", BLUE, SOFT_BLUE)
@@ -487,7 +487,7 @@ def fig04_vertical():
 CHAIN = [
     ("media/cases/b08_reuse.png", "B08 · 共享主变 MASTER", "一套可复用部件结构；T1/T2 为刚性站点实例", BLUE, SOFT_BLUE),
     ("installation_B23/r3/480_B23_T1_Neutral_Oblique_Overlay.png", "B23 · 连接使用已有端子", "新中性点引线几何相对于 B08 接口定义", PURPLE, SOFT_PURPLE),
-    ("installation_B29/600_B29_G220_OUT_Detail_Overlay.png", "B29 · 导线复用线夹端点", "跳线 / 跨场导线连接此前已建子系统", ORANGE, SOFT_ORANGE),
+    ("installation_B29/600_B29_G-B_OUT_Detail_Overlay.png", "B29 · 导线复用线夹端点", "跳线 / 跨场导线连接此前已建子系统", ORANGE, SOFT_ORANGE),
     ("installation_B36/r2_previews/748_B36_T1_Rack_Overlay.png", "B36 · 闭合到保存 stub", "新路径闭合到继承接口，无需重建已有设备", TEAL, SOFT_TEAL),
 ]
 

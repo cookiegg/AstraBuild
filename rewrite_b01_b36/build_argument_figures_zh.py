@@ -80,7 +80,7 @@ def build_fig5():
     nodes=[
         ('B08','installation_B08/42_B08_Transformer_Pair_r2.png','共享主变 MASTER\n+ 持久化端子状态','一套可复用部件结构；T1/T2 为刚性场站实例。'),
         ('B23','installation_B23/r3/480_B23_T1_Neutral_Oblique_Overlay.png','连接使用已有\n主变端子','新的中性点引线几何相对于 B08 接口定义。'),
-        ('B29','installation_B29/600_B29_G220_OUT_Detail_Overlay.png','导线复用此前\n线夹与端点','跳线 / 跨场导线连接此前已建子系统。'),
+        ('B29','installation_B29/600_B29_G-B_OUT_Detail_Overlay.png','导线复用此前\n线夹与端点','跳线 / 跨场导线连接此前已建子系统。'),
         ('B36','installation_B36/r2_previews/748_B36_T1_Rack_Overlay.png','后期母线构架闭合使用\n保存 stub 与空间占用','新路径闭合到继承主变接口，而无需重建已有设备。')]
     axes=[]
     for x0,(batch,rel,title,desc) in zip(x0s,nodes):

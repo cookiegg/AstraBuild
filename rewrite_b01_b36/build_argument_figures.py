@@ -135,7 +135,7 @@ def build_fig5():
         ('B23', 'installation_B23/r3/480_B23_T1_Neutral_Oblique_Overlay.png',
          'Connection uses an existing\ntransformer terminal',
          'New neutral-lead geometry is defined relative to a B08 interface.'),
-        ('B29', 'installation_B29/600_B29_G220_OUT_Detail_Overlay.png',
+        ('B29', 'installation_B29/600_B29_G-B_OUT_Detail_Overlay.png',
          'Conductors reuse prior\nclamps and endpoints',
          'Jumpers/crossyard conductors connect previously modeled subsystems.'),
         ('B36', 'installation_B36/r2_previews/748_B36_T1_Rack_Overlay.png',

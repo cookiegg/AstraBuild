@@ -263,7 +263,7 @@ def build_fig5():
     top=[
         (20,118,330,"B08","shared transformer MASTER + persistent terminal state","one reusable component structure; T1 / T2 are rigid site instances",hist("installation_B08/42_B08_Transformer_Pair_r2.png"),SOFT_BLUE,BLUE),
         (382,118,300,"B23","connection uses an existing transformer terminal","new lead geometry is defined relative to a B08 interface",hist("installation_B23/r3/480_B23_T1_Neutral_Oblique_Overlay.png"),SOFT_PURPLE,PURPLE),
-        (724,118,300,"B29","conductors reuse prior clamps and endpoints","jumpers and crossyard conductors connect previously modeled subsystems",hist("installation_B29/600_B29_G220_OUT_Detail_Overlay.png"),SOFT_ORANGE,ORANGE),
+        (724,118,300,"B29","conductors reuse prior clamps and endpoints","jumpers and crossyard conductors connect previously modeled subsystems",hist("installation_B29/600_B29_G-B_OUT_Detail_Overlay.png"),SOFT_ORANGE,ORANGE),
         (1066,118,370,"B36","late bus-rack closure uses preserved stubs and occupied space","new routes close onto inherited interfaces without rebuilding them",hist("installation_B36/r2_previews/748_B36_T1_Rack_Overlay.png"),SOFT_TEAL,TEAL),
     ]
     for x,y,w,bid,sub,foot,p,tint,stroke in top:

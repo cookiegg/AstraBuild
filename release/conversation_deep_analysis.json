@@ -609,7 +609,7 @@
    "first_15_calls": 15,
    "context_reconstructing_reads": 5,
    "examples": [
-    "const rr=await Promise.allSettled([\ntools.exec_command({cmd:\"tail -35 /tmp/xialin_B14_r3.log && sed -n '1,230p' experime",
+    "const rr=await Promise.allSettled([\ntools.exec_command({cmd:\"tail -35 /tmp/site_B14_r3.log && sed -n '1,230p' experime",
     "text(await tools.exec_command({cmd:\"rg --files experiments/blender-substation/photo-first-pilot/installation | rg 'audit",
     "text(await tools.exec_command({cmd:\"cat experiments/blender-substation/photo-first-pilot/output/installation_B14/B14_nex"
    ]
@@ -621,7 +621,7 @@
    "examples": [
     "const r=await Promise.allSettled([\ntools.exec_command({cmd:\"rg --files -g AGENTS.md -g 'audit_B14.py' -g 'make_B14_revie",
     "text(await tools.exec_command({cmd:\"python - <<'PY'\\nfrom pathlib import Path\\nimport json\\nh=Path('experiments/blender-",
-    "text(await tools.exec_command({cmd:\"tail -20 /tmp/xialin_B15_validate_r3.log; python - <<'PY'\\nimport json\\nfrom pathlib"
+    "text(await tools.exec_command({cmd:\"tail -20 /tmp/site_B15_validate_r3.log; python - <<'PY'\\nimport json\\nfrom pathlib"
    ]
   },
   {
@@ -997,7 +997,7 @@
      "仍需"
     ]
    ],
-   "excerpt": "已保存 B17，本轮新增：\n\n- 5 组 220kV GIS：4D75、4D76、2899、4802、4B77。\n- 15 个共用套管头，分别定位支柱和控制柜。\n- 修正 4802 与 4B77 之间的两条母线短接管。\n\n75 项局部对齐检查中，50 项通过，25 项仍需修正，主要涉及母线、气室和柜面。\n\n[打开模型](experiments/blender-substation/photo-fi"
+   "excerpt": "已保存 B17，本轮新增：\n\n- 5 组 VC-B GIS：4D75、4D76、2899、4802、4B77。\n- 15 个共用套管头，分别定位支柱和控制柜。\n- 修正 4802 与 4B77 之间的两条母线短接管。\n\n75 项局部对齐检查中，50 项通过，25 项仍需修正，主要涉及母线、气室和柜面。\n\n[打开模型](experiments/blender-substation/photo-fi"
   },
   {
    "ts": "2026-09-12T20:13:26.296Z",
@@ -1021,7 +1021,7 @@
      "通过"
     ]
    ],
-   "excerpt": "已保存 B18，新增并定位 **18 台 220kV 独立避雷器**，共用双节瓷套本体、均压环和附件部件，并修正了基础高度。\n\n126 项局部对齐检查中，125 项通过；主变 1 高压侧 C 相均压环约 5.4 厘米偏差，保留待复核。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilo"
+   "excerpt": "已保存 B18，新增并定位 **18 台 VC-B 独立避雷器**，共用双节瓷套本体、均压环和附件部件，并修正了基础高度。\n\n126 项局部对齐检查中，125 项通过；主变 1 高压侧 C 相均压环约 5.4 厘米偏差，保留待复核。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilo"
   },
   {
    "ts": "2026-09-12T20:51:12.982Z",

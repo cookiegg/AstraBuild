@@ -98,7 +98,7 @@ Ask whether one general-purpose reasoning model can coordinate such a persistent
 State only:
 
 - one GPT-6 Astra/Codex workflow;
-- one operating 220 kV substation;
+- one operating operating substation;
 - B01–B36;
 - four reconstruction regimes;
 - later batches inherit earlier state;

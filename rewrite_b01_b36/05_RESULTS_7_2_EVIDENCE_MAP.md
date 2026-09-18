@@ -300,7 +300,7 @@ B25/B26 uses unexplained source geometry as an additional signal for selecting s
 `photo-first-pilot/CONTINUE_FROM_B25.md`
 
 - lines 5–9: inspection samples 4,434,234 coarse triangle centers; large high regions above GIS/transformer areas remain more than 1 m from current modeled surfaces; this motivates gantry reconstruction rather than declaring completion from inventory status or visual impression;
-- lines 15–23: after the gantry reconstruction, selected high-region medians change from 1.75 m to 0.10 m for GIS110 and from 8.12 m to 0.15 m for GIS220; the record explicitly states these are not independent survey measurements.
+- lines 15–23: after the gantry reconstruction, selected high-region medians change from 1.75 m to 0.10 m for GIS-A and from 8.12 m to 0.15 m for GIS-B; the record explicitly states these are not independent survey measurements.
 
 `photo-first-pilot/CONTINUE_FROM_B26.md`
 

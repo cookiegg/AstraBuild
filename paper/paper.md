@@ -1,10 +1,10 @@
 # AstraBuild: Evidence-Grounded Agentic Reconstruction of Component-Level Substation Digital Twins
 
-**Draft status:** research-writing v0.2  
-**Authors:** *to be filled by the project team*  
-**Study site:** 220 kV Xialin Substation, Xuancheng  
-**Research endpoint:** D41  
-**Geometry baseline:** D38.2; D40 is a material-only, geometry-preserving presentation layer  
+**Draft status:** research-writing v0.2
+**Authors:** *to be filled by the project team*
+**Study site:** an anonymized operating substation
+**Research endpoint:** D41
+**Geometry baseline:** D38.2; D40 is a material-only, geometry-preserving presentation layer
 
 > **Provenance note.** The project owner reports that the reconstruction was conducted with **Codex + GPT-6 Astra at Extra High reasoning effort**. The inspected historical Blender batch records do not embed model or reasoning-effort metadata. We therefore treat this configuration as **user-confirmed experimental metadata**, rather than a claim independently recoverable from the old batch logs. The research release freezes this fact explicitly in `release/experiment_manifest.json`.
 
@@ -12,9 +12,9 @@
 
 ## Abstract
 
-Can a general-purpose reasoning agent turn a noisy photogrammetric reconstruction, heterogeneous image evidence, and engineering records into an editable, component-level digital twin over a long-horizon tool-use process? We study this question through a longitudinal reconstruction of a 220 kV operating substation. Rather than treating 3D reconstruction as a one-shot surface-generation problem, **AstraBuild** formulates reconstruction as an evidence-grounded closed loop. At each iteration, an agent inspects selected coarse geometry, field photographs, semantic records, prior artifacts, and execution history; proposes structured Blender/Python operations; constructs or reuses editable assets; runs deterministic validation; and retains the result, failure, limitation, or human correction as context for subsequent iterations.
+Can a general-purpose reasoning agent turn a noisy photogrammetric reconstruction, heterogeneous image evidence, and engineering records into an editable, component-level digital twin over a long-horizon tool-use process? We study this question through a longitudinal reconstruction of a operating substation. Rather than treating 3D reconstruction as a one-shot surface-generation problem, **AstraBuild** formulates reconstruction as an evidence-grounded closed loop. At each iteration, an agent inspects selected coarse geometry, field photographs, semantic records, prior artifacts, and execution history; proposes structured Blender/Python operations; constructs or reuses editable assets; runs deterministic validation; and retains the result, failure, limitation, or human correction as context for subsequent iterations.
 
-The engineering record contains **38 core reconstruction batches** through D38, followed by a geometry-preserving material layer (D40) and an inspection-semantic augmentation (D41). The D38.2/D40-equivalent scene contains **37,153 objects, 755 scenes, 858 collections, and 3,916 mesh datablocks**. The summarized geometry ledger contains **1,550 current reference-surface comparisons** with median/p90/p95 residuals of **0.036/0.084/0.116 m**. These values are comparisons against the same photogrammetric coarse mesh used by the reconstruction process and are **not independent survey accuracy**. A selected high-region coverage audit reduced the fraction of coarse samples farther than 1 m from reconstructed geometry from **78.8% to 14.6%**; the corresponding selected GIS220 and transformer median distances changed from **8.12→0.15 m** and **3.15→0.06 m**. The validation ledger explicitly retains **149 passing and 101 non-passing** 5 cm screening items rather than deleting or relabeling the latter.
+The engineering record contains **38 core reconstruction batches** through D38, followed by a geometry-preserving material layer (D40) and an inspection-semantic augmentation (D41). The D38.2/D40-equivalent scene contains **37,153 objects, 755 scenes, 858 collections, and 3,916 mesh datablocks**. The summarized geometry ledger contains **1,550 current reference-surface comparisons** with median/p90/p95 residuals of **0.036/0.084/0.116 m**. These values are comparisons against the same photogrammetric coarse mesh used by the reconstruction process and are **not independent survey accuracy**. A selected high-region coverage audit reduced the fraction of coarse samples farther than 1 m from reconstructed geometry from **78.8% to 14.6%**; the corresponding selected GIS-B and transformer median distances changed from **8.12→0.15 m** and **3.15→0.06 m**. The validation ledger explicitly retains **149 passing and 101 non-passing** 5 cm screening items rather than deleting or relabeling the latter.
 
 Beyond final geometry, the longitudinal record exposes how the method changes after failure. B01 changes the holdout protocol after a failed arrester screen; B15 changes both measurement strategy and the boundary between reusable masters and site-specific geometry; B36 converts sparse human review into a targeted omission audit; and D38 maps human markup into model coordinates, quarantines false generated objects, rebuilds missing GIS/fire infrastructure, and corrects an orientation-semantics error in a subsequent revision. Finally, D41 aligns **79 accessory meshes spanning 17 inspection-relevant part classes** into a shared transformer accessory layer instantiated for T1 and T2. We argue that the primary contribution is not a claim of fully autonomous or survey-grade reconstruction, but an auditable pattern for using a general-purpose reasoning agent as a **long-horizon reconstruction operator** bounded by explicit evidence, deterministic tools, immutable history, and layered verification.
 
@@ -30,7 +30,7 @@ General-purpose language and vision-language models increasingly operate tools a
 
 > **Can a general-purpose reasoning agent operate an evidence-constrained 3D engineering workflow over hundreds of tool interactions, while deterministic validation and persistent artifacts bound what is accepted?**
 
-AstraBuild explores this question through the reconstruction history of the 220 kV Xialin Substation. The key shift is to treat Blender not as a canvas manipulated directly by a model, but as an **actuated engineering environment**. The agent inspects evidence and generates programmatic actions; Blender/Python executes them; validators reopen and check the saved artifact; a batch record freezes what happened; and later batches reason over both the evolving scene and the external history.
+AstraBuild explores this question through the reconstruction history of the VC-B anonymized substation. The key shift is to treat Blender not as a canvas manipulated directly by a model, but as an **actuated engineering environment**. The agent inspects evidence and generates programmatic actions; Blender/Python executes them; validators reopen and check the saved artifact; a batch record freezes what happened; and later batches reason over both the evolving scene and the external history.
 
 The study is deliberately presented as a **longitudinal single-site case study**, not an IID benchmark. The protocol evolves in response to observed failures. Therefore, the strongest evidence is not a single “accuracy” number or a success rate. It is the combination of (1) artifact-scale structure and reuse, (2) geometry and coverage ledgers with explicit denominators, (3) preserved non-passing results, (4) failure-to-protocol transitions, (5) human-feedback traces, and (6) semantic augmentation that preserves earlier geometry history.
 
@@ -135,7 +135,7 @@ The next artifact is accepted only if the relevant batch-specific checks are sat
 
 ## 4.1 Study site and base geometry
 
-The study reconstructs an operating 220 kV substation. The global spatial reference is a registered photogrammetric mesh composed of 23 tiles covering approximately 112 m × 134 m. This mesh is valuable for global layout, occupied-region discovery, local reference extraction, and visual comparison. It also contains noise, holes, fused geometry, and missing details. Consequently, it is not treated as an independent survey-grade ground truth.
+The study reconstructs an operating operating substation. The global spatial reference is a registered photogrammetric mesh composed of 23 tiles covering approximately 112 m × 134 m. This mesh is valuable for global layout, occupied-region discovery, local reference extraction, and visual comparison. It also contains noise, holes, fused geometry, and missing details. Consequently, it is not treated as an independent survey-grade ground truth.
 
 ## 4.2 Image evidence
 
@@ -348,7 +348,7 @@ These are reported as systems evidence, not causal ablations.
 
 At the D38.2/D40-equivalent geometry layer, the project contains **37,153 objects, 755 scenes, 858 collections, 3,916 mesh datablocks, and 29,986,649 vertices**. The object/mesh-datablock ratio is approximately 9.5×. Between B14 and B36, the technical report counts 9,022 newly created root objects, while many expanded scene objects reuse nested/shared component meshes.
 
-The artifact includes, among other reconstructed structures, 48 arrester bodies, multiple 110/220 kV GIS bays, two shared-assembly transformers, six capacitor groups, approximately 88.8 m of busbar, 804 suspension discs, approximately 10,182 m² of ground surface, and a main building with 946 components.
+The artifact includes, among other reconstructed structures, 48 arrester bodies, multiple two anonymized voltage classes GIS bays, two shared-assembly transformers, six capacitor groups, approximately 88.8 m of busbar, 804 suspension discs, approximately 10,182 m² of ground surface, and a main building with 946 components.
 
 The important qualitative result is not only size. The asset hierarchy evolves. Early batches test frozen asset installation; B08 introduces a mature shared transformer assembly; later batches reuse masters across bays while separating variants and site-specific connectors when evidence requires it. This supports the claim that the agentic process can build an editable component hierarchy rather than only a large monolithic mesh.
 
@@ -370,7 +370,7 @@ The 5 cm screening ledger contains 149 passing and 101 non-passing items. This m
 
 ## 7.3 RQ3 — Coverage-driven reconstruction exposes missing geometry
 
-B25/B26 represent a key transition from inventory-driven modeling (“what named device remains?”) to coverage-driven modeling (“what high-region coarse structure is still unexplained?”). In the selected audit, the fraction of high-region coarse samples more than 1 m from component geometry changes from **78.8% to 14.6%**. The selected GIS220 high-region median changes from **8.12 m to 0.15 m**, while the transformer high-region median changes from **3.15 m to 0.06 m**.
+B25/B26 represent a key transition from inventory-driven modeling (“what named device remains?”) to coverage-driven modeling (“what high-region coarse structure is still unexplained?”). In the selected audit, the fraction of high-region coarse samples more than 1 m from component geometry changes from **78.8% to 14.6%**. The selected GIS-B high-region median changes from **8.12 m to 0.15 m**, while the transformer high-region median changes from **3.15 m to 0.06 m**.
 
 This evidence demonstrates that a semantic inventory can be insufficient for completion. A project can appear “complete” by name while still leave substantial occupied geometry unexplained. Coverage auditing therefore becomes an active task-selection mechanism for later reconstruction.
 
@@ -625,15 +625,15 @@ A future standardized release should encode these as a versioned schema rather t
 
 The research release uses the following language rules.
 
-- **Allowed:** “median residual to the same photogrammetric reference mesh is 3.6 cm.”  
+- **Allowed:** “median residual to the same photogrammetric reference mesh is 3.6 cm.”
   **Not allowed:** “the reconstructed station has 3.6 cm absolute accuracy.”
-- **Allowed:** “149/250 retained 5 cm screening items pass.”  
+- **Allowed:** “149/250 retained 5 cm screening items pass.”
   **Not allowed:** “the model has 59.6% accuracy.”
-- **Allowed:** “the selected high-region >1 m gap fraction changes 78.8%→14.6%.”  
+- **Allowed:** “the selected high-region >1 m gap fraction changes 78.8%→14.6%.”
   **Not allowed:** “whole-station completeness is 85.4%.”
-- **Allowed:** “37,153 objects / 3,916 mesh datablocks gives a descriptive ≈9.5× reuse ratio.”  
+- **Allowed:** “37,153 objects / 3,916 mesh datablocks gives a descriptive ≈9.5× reuse ratio.”
   **Not allowed:** “modeling is 9.5× faster.”
-- **Allowed:** “the workflow is agent-driven and human-steerable.”  
+- **Allowed:** “the workflow is agent-driven and human-steerable.”
   **Not allowed:** “the entire station was reconstructed fully autonomously.”
 
 ---

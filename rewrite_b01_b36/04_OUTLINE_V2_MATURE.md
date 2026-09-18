@@ -110,7 +110,7 @@ One compact sentence:
 
 - one GPT-6 Astra/Codex workflow;
 - B01–B36;
-- one operating 220 kV substation;
+- one operating operating substation;
 - registered coarse geometry + field images + engineering records + executable Blender/Python tools + task-specific validators.
 
 Do not describe B01–B36 as independent trials or report an overall success rate.

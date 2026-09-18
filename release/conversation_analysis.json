@@ -312,7 +312,7 @@
    "tool_calls": 48,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已推进到 **B05 r2**，Blender 已打开最新全站工作台。\n\n- 新增 746、750 两组共 **6 台避雷器候选**。\n- 新增 **749 控制柜局部安装候选**。\n- 累计 **15 台避雷器＋1 个控制柜候选**，保存读回检查通过，旧成果保持不变。\n\n整站尚未全部完成：746 A/B、原 748 B 和控制柜深度仍待复核；P03 GIS 本体的比例对应未通过，暂未替换。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/xialin_photo_first_B05_station_preview_r2.blend) · [查看新增设备对照图](/data/proj/xunjian-copilot/ex",
+   "summary_excerpt": "已推进到 **B05 r2**，Blender 已打开最新全站工作台。\n\n- 新增 746、750 两组共 **6 台避雷器候选**。\n- 新增 **749 控制柜局部安装候选**。\n- 累计 **15 台避雷器＋1 个控制柜候选**，保存读回检查通过，旧成果保持不变。\n\n整站尚未全部完成：746 A/B、原 748 B 和控制柜深度仍待复核；P03 GIS 本体的比例对应未通过，暂未替换。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/site_photo_first_B05_station_preview_r2.blend) · [查看新增设备对照图](/data/proj/xunjian-copilot/ex",
    "review_link": null
   },
   "B06": {
@@ -321,7 +321,7 @@
    "tool_calls": 35,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已完成本轮围墙校准，并在 Blender 中打开了 **B06 r2**：\n\n- 校正西北、东侧围墙约 **3.7°、4.2°** 的方向偏差。\n- 调整大门位置和朝向，补齐门柱与墙体连接。\n- 增加完整俯视、透视检查视图。\n\n保存后检查通过；独立区段相对粗模的墙面距离中位数约为 **3.2 cm、1.5 cm**。门宽和高度仍待核，旧版本及原有设备保留。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/xialin_photo_first_B06_wall_aligned_r2.blend) · [查看校准前后对比](/data/proj/xunjian-copilot/experiments/blender-substa",
+   "summary_excerpt": "已完成本轮围墙校准，并在 Blender 中打开了 **B06 r2**：\n\n- 校正西北、东侧围墙约 **3.7°、4.2°** 的方向偏差。\n- 调整大门位置和朝向，补齐门柱与墙体连接。\n- 增加完整俯视、透视检查视图。\n\n保存后检查通过；独立区段相对粗模的墙面距离中位数约为 **3.2 cm、1.5 cm**。门宽和高度仍待核，旧版本及原有设备保留。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/site_photo_first_B06_wall_aligned_r2.blend) · [查看校准前后对比](/data/proj/xunjian-copilot/experiments/blender-substa",
    "review_link": null
   },
   "B07": {
@@ -330,7 +330,7 @@
    "tool_calls": 49,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已完成本轮 **B07 主变外观装配**：校准并补建了 #1 主变的油箱、散热器、3 根高套管、1 根小套管及上部罩壳，已装入整站，Blender 已打开新版。\n\n原围墙校准和历史场景保留，保存核验通过，已输出 7 张渲染图。\n\n- [打开 Blender 模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/xialin_B07_T1_site_exterior_r2.blend)\n- [查看前后对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/B07_review.html)\n\n",
+   "summary_excerpt": "已完成本轮 **B07 主变外观装配**：校准并补建了 #1 主变的油箱、散热器、3 根高套管、1 根小套管及上部罩壳，已装入整站，Blender 已打开新版。\n\n原围墙校准和历史场景保留，保存核验通过，已输出 7 张渲染图。\n\n- [打开 Blender 模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/site_B07_T1_site_exterior_r2.blend)\n- [查看前后对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/B07_review.html)\n\n",
    "review_link": "installation_B07/B07_review.html"
   },
   "B08": {
@@ -339,7 +339,7 @@
    "tool_calls": 49,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已完成本轮主变 1 补建，并复用到主变 2，Blender 已打开双主变视图。\n\n每台目前包含 **34 组散热器、11 个可见套管、2 只附属柜**，并补充支承和管路。两台共享同一总成，修改一次即可同步更新；外接引线分别定位。共享引用与保存检查已通过。\n\n[整站模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/xialin_B08_shared_transformers_r2.blend) · [交互对照预览](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/B08_review.h",
+   "summary_excerpt": "已完成本轮主变 1 补建，并复用到主变 2，Blender 已打开双主变视图。\n\n每台目前包含 **34 组散热器、11 个可见套管、2 只附属柜**，并补充支承和管路。两台共享同一总成，修改一次即可同步更新；外接引线分别定位。共享引用与保存检查已通过。\n\n[整站模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/site_B08_shared_transformers_r2.blend) · [交互对照预览](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/B08_review.h",
    "review_link": "installation_B08/B08_review.html"
   },
   "B09": {
@@ -348,7 +348,7 @@
    "tool_calls": 36,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已完成 **#1、#2、#3 电容器组的主体外观装配**，保存为 B09 并加载到 Blender。\n\n- 共建 9 套电容器架、9 只电抗器、9 只放电线圈和 9 只小避雷器。\n- 修正前后布置、端子朝向，补齐底座与围栏。\n- 保存回读检查通过，双主变及原有围墙保留。\n\n[打开整站模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/xialin_B09_capacitor_banks.blend) · [查看逐组粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/B09_rev",
+   "summary_excerpt": "已完成 **#1、#2、#3 电容器组的主体外观装配**，保存为 B09 并加载到 Blender。\n\n- 共建 9 套电容器架、9 只电抗器、9 只放电线圈和 9 只小避雷器。\n- 修正前后布置、端子朝向，补齐底座与围栏。\n- 保存回读检查通过，双主变及原有围墙保留。\n\n[打开整站模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/site_B09_capacitor_banks.blend) · [查看逐组粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/B09_rev",
    "review_link": "installation_B09/B09_review.html"
   },
   "B10": {
@@ -357,7 +357,7 @@
    "tool_calls": 24,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已推进到 **B10**，保存并加载到 Blender：\n\n- 补上 #4～#6 电容器组，六组均完成主体装配与位置校准。\n- 完善高位套管、侧部支架和可见连接排。\n- 保存回读及支承、连接端点检查通过，双主变和围墙保留。\n\n[整站模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/xialin_B10_capacitor_banks.blend) · [六组对照预览](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/B10_review.html) · [室外设备覆盖表](/data/",
+   "summary_excerpt": "已推进到 **B10**，保存并加载到 Blender：\n\n- 补上 #4～#6 电容器组，六组均完成主体装配与位置校准。\n- 完善高位套管、侧部支架和可见连接排。\n- 保存回读及支承、连接端点检查通过，双主变和围墙保留。\n\n[整站模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/site_B10_capacitor_banks.blend) · [六组对照预览](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/B10_review.html) · [室外设备覆盖表](/data/",
    "review_link": "installation_B10/B10_review.html"
   },
   "B11": {
@@ -366,7 +366,7 @@
    "tool_calls": 48,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已新增 **15 只 110kV 避雷器**，更新 3 处安装位置，目前同类主体模型共 30 只。双主变、六组电容器和围墙均保留。\n\n累计 23 处通过局部安装检查，7 处仍待复核。下一步继续处理 GIS 间隔的模块、套管和支承对齐。\n\n[打开新版模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/xialin_B11_110kV_arresters_r2.blend) · [查看逐组对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/B11_review.html)",
+   "summary_excerpt": "已新增 **15 只 VC-A 避雷器**，更新 3 处安装位置，目前同类主体模型共 30 只。双主变、六组电容器和围墙均保留。\n\n累计 23 处通过局部安装检查，7 处仍待复核。下一步继续处理 GIS 间隔的模块、套管和支承对齐。\n\n[打开新版模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/site_B11_VC-A_arresters_r2.blend) · [查看逐组对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/B11_review.html)",
    "review_link": "installation_B11/B11_review.html"
   },
   "B12": {
@@ -375,7 +375,7 @@
    "tool_calls": 60,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已建立 **749 GIS 主体总成**并纳入整站，包括双层母线、筒体、机构箱、支架和三根共用套管。\n\n9项局部对齐检查通过7项；两处立式外壳、柜体深度及外部引线仍待完善。原有主变、电容器和避雷器模型已保留。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/r2/xialin_B12_749_GIS_r2.blend) · [查看四视角对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/B12_review.html)\n\n接下来继续相邻748、747、746、750间",
+   "summary_excerpt": "已建立 **749 GIS 主体总成**并纳入整站，包括双层母线、筒体、机构箱、支架和三根共用套管。\n\n9项局部对齐检查通过7项；两处立式外壳、柜体深度及外部引线仍待完善。原有主变、电容器和避雷器模型已保留。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/r2/site_B12_749_GIS_r2.blend) · [查看四视角对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/B12_review.html)\n\n接下来继续相邻748、747、746、750间",
    "review_link": "installation_B12/B12_review.html"
   },
   "B13": {
@@ -384,7 +384,7 @@
    "tool_calls": 44,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已完成本轮设备处理：\n\n- 新增 746、747、748、750、751、758、759 七个 GIS 间隔，并分别对齐。\n- 连同 749，统一修正八个柜体，衔接相邻间隔的双层母线。\n- 88 项局部检查通过 78 项，其余偏差及引线继续处理。\n\n[打开最新 Blender 模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/xialin_B13_GIS_line_bays_r2.blend) · [查看模型与参考对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/B13_r",
+   "summary_excerpt": "已完成本轮设备处理：\n\n- 新增 746、747、748、750、751、758、759 七个 GIS 间隔，并分别对齐。\n- 连同 749，统一修正八个柜体，衔接相邻间隔的双层母线。\n- 88 项局部检查通过 78 项，其余偏差及引线继续处理。\n\n[打开最新 Blender 模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/site_B13_GIS_line_bays_r2.blend) · [查看模型与参考对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/B13_r",
    "review_link": "installation_B13/B13_review.html"
   },
   "B14": {
@@ -411,7 +411,7 @@
    "tool_calls": 29,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已推进到 B16，新增母联 500、I／II 母压变，并完成相邻母线连接；两组母压变共用同一套主体部件。\n\n10 处连接检查通过；23 项局部对齐检查通过 17 项，其余偏差已记录，继续修正。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B16/r2/xialin_B16_coupler_bus_VT_r2.blend) · [查看模型与参考对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B16/B16_review.html)\n\n下一批处理 220 kV GIS 和避雷器。",
+   "summary_excerpt": "已推进到 B16，新增母联 500、I／II 母压变，并完成相邻母线连接；两组母压变共用同一套主体部件。\n\n10 处连接检查通过；23 项局部对齐检查通过 17 项，其余偏差已记录，继续修正。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B16/r2/site_B16_coupler_bus_VT_r2.blend) · [查看模型与参考对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B16/B16_review.html)\n\n下一批处理 VC-B GIS 和避雷器。",
    "review_link": "installation_B16/B16_review.html"
   },
   "B17": {
@@ -420,7 +420,7 @@
    "tool_calls": 51,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已保存 B17，本轮新增：\n\n- 5 组 220kV GIS：4D75、4D76、2899、4802、4B77。\n- 15 个共用套管头，分别定位支柱和控制柜。\n- 修正 4802 与 4B77 之间的两条母线短接管。\n\n75 项局部对齐检查中，50 项通过，25 项仍需修正，主要涉及母线、气室和柜面。\n\n[打开模型](experiments/blender-substation/photo-first-pilot/output/installation_B17/r3/xialin_B17_220kV_outgoing_GIS_r3.blend) · [查看模型与参考对照](experiments/blender-substation/photo-first-pilot/output/installation_B17/B17_review.html)\n\n接下来继续剩余 220kV 母联、母",
+   "summary_excerpt": "已保存 B17，本轮新增：\n\n- 5 组 VC-B GIS：4D75、4D76、2899、4802、4B77。\n- 15 个共用套管头，分别定位支柱和控制柜。\n- 修正 4802 与 4B77 之间的两条母线短接管。\n\n75 项局部对齐检查中，50 项通过，25 项仍需修正，主要涉及母线、气室和柜面。\n\n[打开模型](experiments/blender-substation/photo-first-pilot/output/installation_B17/r3/site_B17_VC-B_outgoing_GIS_r3.blend) · [查看模型与参考对照](experiments/blender-substation/photo-first-pilot/output/installation_B17/B17_review.html)\n\n接下来继续剩余 VC-B 母联、母",
    "review_link": "installation_B17/B17_review.html"
   },
   "B18": {
@@ -429,7 +429,7 @@
    "tool_calls": 54,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已保存 B18，新增并定位 **18 台 220kV 独立避雷器**，共用双节瓷套本体、均压环和附件部件，并修正了基础高度。\n\n126 项局部对齐检查中，125 项通过；主变 1 高压侧 C 相均压环约 5.4 厘米偏差，保留待复核。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/r2/xialin_B18_220kV_arresters_r2.blend) · [查看对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/B18_review.html)\n\n接下来继续剩",
+   "summary_excerpt": "已保存 B18，新增并定位 **18 台 VC-B 独立避雷器**，共用双节瓷套本体、均压环和附件部件，并修正了基础高度。\n\n126 项局部对齐检查中，125 项通过；主变 1 高压侧 C 相均压环约 5.4 厘米偏差，保留待复核。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/r2/site_B18_VC-B_arresters_r2.blend) · [查看对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/B18_review.html)\n\n接下来继续剩",
    "review_link": "installation_B18/B18_review.html"
   },
   "B19": {
@@ -449,7 +449,7 @@
      "excerpt": "已完成本轮 6 组设备主体建模并保存：\n\n- 4B80、4B81 备用间隔，共用一套主体。\n- 4600 母联。\n- IA、IB、II 母线电压互感器，共用部件、分别定位。\n\n已补齐支架连接并统一俯视图方向；主变 1、2 继续复用同一总成。局部对齐检查 **37/60 项通过 5 厘米筛查，23 项仍需调整**。\n\n[打开最新模型](/data/proj/xunjian-copilot/exper"
     }
    ],
-   "summary_excerpt": "已完成本轮 6 组设备主体建模并保存：\n\n- 4B80、4B81 备用间隔，共用一套主体。\n- 4600 母联。\n- IA、IB、II 母线电压互感器，共用部件、分别定位。\n\n已补齐支架连接并统一俯视图方向；主变 1、2 继续复用同一总成。局部对齐检查 **37/60 项通过 5 厘米筛查，23 项仍需调整**。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B19/r3/xialin_B19_remaining_220kV_GIS_r3.blend) · [查看模型与粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilo",
+   "summary_excerpt": "已完成本轮 6 组设备主体建模并保存：\n\n- 4B80、4B81 备用间隔，共用一套主体。\n- 4600 母联。\n- IA、IB、II 母线电压互感器，共用部件、分别定位。\n\n已补齐支架连接并统一俯视图方向；主变 1、2 继续复用同一总成。局部对齐检查 **37/60 项通过 5 厘米筛查，23 项仍需调整**。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B19/r3/site_B19_remaining_VC-B_GIS_r3.blend) · [查看模型与粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilo",
    "review_link": "installation_B19/B19_review.html"
   },
   "B20": {
@@ -458,7 +458,7 @@
    "tool_calls": 44,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已保存 B20 版本：\n\n- 连通 16 段母线，约 88.8 米。\n- 补建 55 个检修口盖、35 处支撑和 4 组伸缩节。\n- 修正旧长管重叠，接口与支架接触检查通过。\n\n16 项表面对照仍超过 5 厘米，需继续细化。下一步处理 4100 转弯连接，再推进中性点设备。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/xialin_B20_220kV_bus_row.blend) · [查看对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/B20_review",
+   "summary_excerpt": "已保存 B20 版本：\n\n- 连通 16 段母线，约 88.8 米。\n- 补建 55 个检修口盖、35 处支撑和 4 组伸缩节。\n- 修正旧长管重叠，接口与支架接触检查通过。\n\n16 项表面对照仍超过 5 厘米，需继续细化。下一步处理 4100 转弯连接，再推进中性点设备。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/site_B20_VC-B_bus_row.blend) · [查看对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/B20_review",
    "review_link": "installation_B20/B20_review.html"
   },
   "B21": {
@@ -476,7 +476,7 @@
    "tool_calls": 42,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已保存两套主变旁的中性点设备总成，共用部件，并分别调整位置和连接臂朝向。\n\n28项局部检查通过23项；斜置瓷套等5处仍需修正，引线尚待补齐。接下来继续处理这些细节及站用变。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/r2/xialin_B22_shared_neutral_assemblies_r2.blend) · [查看对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/B22_review.html)",
+   "summary_excerpt": "已保存两套主变旁的中性点设备总成，共用部件，并分别调整位置和连接臂朝向。\n\n28项局部检查通过23项；斜置瓷套等5处仍需修正，引线尚待补齐。接下来继续处理这些细节及站用变。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/r2/site_B22_shared_neutral_assemblies_r2.blend) · [查看对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/B22_review.html)",
    "review_link": "installation_B22/B22_review.html"
   },
   "B23": {
@@ -485,7 +485,7 @@
    "tool_calls": 29,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已保存新版：补上两条主变引线、两条短连接和四条软连接，并修正斜置机构、连接臂与支座。\n\n本轮32项局部检查通过30项，立柱和机构箱仍有两处细节待调。接下来处理站用变305、306。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/r3/xialin_B23_neutral_leads_and_mechanisms_r3.blend) · [查看对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/B23_review.html)",
+   "summary_excerpt": "已保存新版：补上两条主变引线、两条短连接和四条软连接，并修正斜置机构、连接臂与支座。\n\n本轮32项局部检查通过30项，立柱和机构箱仍有两处细节待调。接下来处理站用变305、306。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/r3/site_B23_neutral_leads_and_mechanisms_r3.blend) · [查看对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/B23_review.html)",
    "review_link": "installation_B23/B23_review.html"
   },
   "B24": {
@@ -494,7 +494,7 @@
    "tool_calls": 29,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "本轮已完成站用变 **305、306** 的外观细化与位置校准，两台共用一套模型，补齐门窗、铰链、把手、百叶和基础。原有主变、GIS、围墙保持不变，局部前门和侧面仍需精修。\n\n[打开当前模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/r2/xialin_B24_station_service_305_306.blend) · [查看模型与粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/B24_review.html)\n\n下一步核查全站室外设备覆盖，定位剩余漏件和明显错位。",
+   "summary_excerpt": "本轮已完成站用变 **305、306** 的外观细化与位置校准，两台共用一套模型，补齐门窗、铰链、把手、百叶和基础。原有主变、GIS、围墙保持不变，局部前门和侧面仍需精修。\n\n[打开当前模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/r2/site_B24_station_service_305_306.blend) · [查看模型与粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/B24_review.html)\n\n下一步核查全站室外设备覆盖，定位剩余漏件和明显错位。",
    "review_link": "installation_B24/B24_review.html"
   },
   "B25": {
@@ -539,7 +539,7 @@
    "tool_calls": 38,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已完成并保存 B29，本批新增：\n\n- 48 处耐张装置，共 60 条绝缘子串。\n- 42 组跳线。\n- 12 跨主导线，已接到现有主变引线。\n\n已检查保存文件和连接端点，两台主变继续共享部件。\n\n[打开当前模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/xialin_B29_strains_jumpers_crosslines.blend) · [查看模型对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/B29_review.html)\n\n下一批继续补 GIS 下引线和避雷器",
+   "summary_excerpt": "已完成并保存 B29，本批新增：\n\n- 48 处耐张装置，共 60 条绝缘子串。\n- 42 组跳线。\n- 12 跨主导线，已接到现有主变引线。\n\n已检查保存文件和连接端点，两台主变继续共享部件。\n\n[打开当前模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/site_B29_strains_jumpers_crosslines.blend) · [查看模型对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/B29_review.html)\n\n下一批继续补 GIS 下引线和避雷器",
    "review_link": "installation_B29/B29_review.html"
   },
   "B30": {
@@ -548,7 +548,7 @@
    "tool_calls": 40,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已保存 **B30 版本**，新增 **72 根 GIS 下引线、48 条避雷器支线**，连接与保存重读检查通过。主变 2 继续复用主变 1 的部件。\n\n全站对照确认，多数室外设备的主体和主要布局已完成建模与对齐。剩余主要是建筑道路、零星辅助设施及局部细节精修。\n\n[打开 Blender 工程](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/xialin_B30_GIS_downleads_arrester_branches.blend) · [查看模型与粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/inst",
+   "summary_excerpt": "已保存 **B30 版本**，新增 **72 根 GIS 下引线、48 条避雷器支线**，连接与保存重读检查通过。主变 2 继续复用主变 1 的部件。\n\n全站对照确认，多数室外设备的主体和主要布局已完成建模与对齐。剩余主要是建筑道路、零星辅助设施及局部细节精修。\n\n[打开 Blender 工程](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/site_B30_GIS_downleads_arrester_branches.blend) · [查看模型与粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/inst",
    "review_link": "installation_B30/B30_review.html"
   },
   "B31": {
@@ -593,7 +593,7 @@
    "tool_calls": 56,
    "assistant_messages": 1,
    "check_reports": [],
-   "summary_excerpt": "已完成本轮补建，保存为 **B35 R3**：\n\n- 新增 21 根监控杆、3 处柱灯。\n- 补齐绿栅栏、双扇门、白围栏、通气管、消防筒和指示板。\n- 合入道路、地坪与剩余围墙；主变 1、2 继续共享组件。\n\n重读验证通过，旧成果已保留。部分遮挡部位和小构件尺寸仍为近似。\n\n[打开 Blender 工程](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/xialin_B35_auxiliary_equipment_r3.blend) · [查看模型与粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installa",
+   "summary_excerpt": "已完成本轮补建，保存为 **B35 R3**：\n\n- 新增 21 根监控杆、3 处柱灯。\n- 补齐绿栅栏、双扇门、白围栏、通气管、消防筒和指示板。\n- 合入道路、地坪与剩余围墙；主变 1、2 继续共享组件。\n\n重读验证通过，旧成果已保留。部分遮挡部位和小构件尺寸仍为近似。\n\n[打开 Blender 工程](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/site_B35_auxiliary_equipment_r3.blend) · [查看模型与粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installa",
    "review_link": "installation_B35/B35_review.html"
   },
   "B36": {
@@ -631,7 +631,7 @@
    "batches": [
     "B03"
    ],
-   "excerpt": "我查看了项目文件、最新渲染、验证记录，并读取了当前 Blender 场景。**目前已经进入“照片驱动的设备资产制作＋分批装入整站”的阶段，但整站精细模型尚未完成验收。**\n\n**首先，你当前 Blender 窗口打开的是 v48，磁盘上的正式整站基线已到 v50，最新照片建模预览是 B03 r2。** 因此，当前窗口没有展示最近的全部成果。\n\n目前的成果可以分成三层：\n\n| 层次 | 实际进展 | 当前意义 |\n|---|---|---|\n| 原始重建粗模 | 23 块整站网格，已有配准 | 提供布局、地面、设备位置和遮挡参考 |\n| 整站语义模型 v50 | 153 条官方设备记录，98 个已定位设备根，15,096 个几何部件 | 已有较完整的设备组织和部件关联基础 |\n| 新照片建模流程 | 5 类独立样板，9 台避雷器候选进入全站预览 | 开始用照片制作的规则模型替换旧设备几何 |\n\n这里的 **98 个设备根不等于完成 98 台精细建模**；其余 55 条记录也不全是漏建，其中包含室内柜和已有部分分布式几何的母线、构架等。9 台新候选是对已有目标的预览替换，不能再加到 98 上。\n\n五类照片样板已经形成：\n\n- **P01：220kV GIS**，已到 r3，但早期安装试验暴露的比例问题仍未解决。\n- **P02：110kV 避雷器**，目前推进最完整，749、748、7"
+   "excerpt": "我查看了项目文件、最新渲染、验证记录，并读取了当前 Blender 场景。**目前已经进入“照片驱动的设备资产制作＋分批装入整站”的阶段，但整站精细模型尚未完成验收。**\n\n**首先，你当前 Blender 窗口打开的是 v48，磁盘上的正式整站基线已到 v50，最新照片建模预览是 B03 r2。** 因此，当前窗口没有展示最近的全部成果。\n\n目前的成果可以分成三层：\n\n| 层次 | 实际进展 | 当前意义 |\n|---|---|---|\n| 原始重建粗模 | 23 块整站网格，已有配准 | 提供布局、地面、设备位置和遮挡参考 |\n| 整站语义模型 v50 | 153 条官方设备记录，98 个已定位设备根，15,096 个几何部件 | 已有较完整的设备组织和部件关联基础 |\n| 新照片建模流程 | 5 类独立样板，9 台避雷器候选进入全站预览 | 开始用照片制作的规则模型替换旧设备几何 |\n\n这里的 **98 个设备根不等于完成 98 台精细建模**；其余 55 条记录也不全是漏建，其中包含室内柜和已有部分分布式几何的母线、构架等。9 台新候选是对已有目标的预览替换，不能再加到 98 上。\n\n五类照片样板已经形成：\n\n- **P01：VC-B GIS**，已到 r3，但早期安装试验暴露的比例问题仍未解决。\n- **P02：VC-A 避雷器**，目前推进最完整，749、748、7"
   },
   {
    "ts": "2026-09-12T08:21:34.379Z",
@@ -673,7 +673,7 @@
    "batches": [
     "B05"
    ],
-   "excerpt": "已推进到 **B05 r2**，Blender 已打开最新全站工作台。\n\n- 新增 746、750 两组共 **6 台避雷器候选**。\n- 新增 **749 控制柜局部安装候选**。\n- 累计 **15 台避雷器＋1 个控制柜候选**，保存读回检查通过，旧成果保持不变。\n\n整站尚未全部完成：746 A/B、原 748 B 和控制柜深度仍待复核；P03 GIS 本体的比例对应未通过，暂未替换。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/xialin_photo_first_B05_station_preview_r2.blend) · [查看新增设备对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/B05_reference_model_comparison.jpg)"
+   "excerpt": "已推进到 **B05 r2**，Blender 已打开最新全站工作台。\n\n- 新增 746、750 两组共 **6 台避雷器候选**。\n- 新增 **749 控制柜局部安装候选**。\n- 累计 **15 台避雷器＋1 个控制柜候选**，保存读回检查通过，旧成果保持不变。\n\n整站尚未全部完成：746 A/B、原 748 B 和控制柜深度仍待复核；P03 GIS 本体的比例对应未通过，暂未替换。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/site_photo_first_B05_station_preview_r2.blend) · [查看新增设备对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B05/B05_reference_model_comparison.jpg)"
   },
   {
    "ts": "2026-09-12T08:52:44.306Z",
@@ -730,7 +730,7 @@
    "batches": [
     "B06"
    ],
-   "excerpt": "已完成本轮围墙校准，并在 Blender 中打开了 **B06 r2**：\n\n- 校正西北、东侧围墙约 **3.7°、4.2°** 的方向偏差。\n- 调整大门位置和朝向，补齐门柱与墙体连接。\n- 增加完整俯视、透视检查视图。\n\n保存后检查通过；独立区段相对粗模的墙面距离中位数约为 **3.2 cm、1.5 cm**。门宽和高度仍待核，旧版本及原有设备保留。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/xialin_photo_first_B06_wall_aligned_r2.blend) · [查看校准前后对比](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/B06_wall_before_after.png)"
+   "excerpt": "已完成本轮围墙校准，并在 Blender 中打开了 **B06 r2**：\n\n- 校正西北、东侧围墙约 **3.7°、4.2°** 的方向偏差。\n- 调整大门位置和朝向，补齐门柱与墙体连接。\n- 增加完整俯视、透视检查视图。\n\n保存后检查通过；独立区段相对粗模的墙面距离中位数约为 **3.2 cm、1.5 cm**。门宽和高度仍待核，旧版本及原有设备保留。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/site_photo_first_B06_wall_aligned_r2.blend) · [查看校准前后对比](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B06/B06_wall_before_after.png)"
   },
   {
    "ts": "2026-09-12T10:20:35.372Z",
@@ -777,7 +777,7 @@
    "batches": [
     "B07"
    ],
-   "excerpt": "已完成本轮 **B07 主变外观装配**：校准并补建了 #1 主变的油箱、散热器、3 根高套管、1 根小套管及上部罩壳，已装入整站，Blender 已打开新版。\n\n原围墙校准和历史场景保留，保存核验通过，已输出 7 张渲染图。\n\n- [打开 Blender 模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/xialin_B07_T1_site_exterior_r2.blend)\n- [查看前后对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/B07_review.html)\n\n当前仍为外观候选版；后侧套管、导线和附件待补建，散热器数量与深度待核。"
+   "excerpt": "已完成本轮 **B07 主变外观装配**：校准并补建了 #1 主变的油箱、散热器、3 根高套管、1 根小套管及上部罩壳，已装入整站，Blender 已打开新版。\n\n原围墙校准和历史场景保留，保存核验通过，已输出 7 张渲染图。\n\n- [打开 Blender 模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/site_B07_T1_site_exterior_r2.blend)\n- [查看前后对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B07/B07_review.html)\n\n当前仍为外观候选版；后侧套管、导线和附件待补建，散热器数量与深度待核。"
   },
   {
    "ts": "2026-09-12T10:58:58.735Z",
@@ -834,7 +834,7 @@
    "batches": [
     "B08"
    ],
-   "excerpt": "已完成本轮主变 1 补建，并复用到主变 2，Blender 已打开双主变视图。\n\n每台目前包含 **34 组散热器、11 个可见套管、2 只附属柜**，并补充支承和管路。两台共享同一总成，修改一次即可同步更新；外接引线分别定位。共享引用与保存检查已通过。\n\n[整站模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/xialin_B08_shared_transformers_r2.blend) · [交互对照预览](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/B08_review.html) · [独立可编辑总成](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/B08_transformer_editable.blend)\n\n粗模局部偏差、引线远端和遮挡细节仍待核对。"
+   "excerpt": "已完成本轮主变 1 补建，并复用到主变 2，Blender 已打开双主变视图。\n\n每台目前包含 **34 组散热器、11 个可见套管、2 只附属柜**，并补充支承和管路。两台共享同一总成，修改一次即可同步更新；外接引线分别定位。共享引用与保存检查已通过。\n\n[整站模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/site_B08_shared_transformers_r2.blend) · [交互对照预览](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/B08_review.html) · [独立可编辑总成](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B08/B08_transformer_editable.blend)\n\n粗模局部偏差、引线远端和遮挡细节仍待核对。"
   },
   {
    "ts": "2026-09-12T11:45:52.543Z",
@@ -881,7 +881,7 @@
    "batches": [
     "B09"
    ],
-   "excerpt": "已完成 **#1、#2、#3 电容器组的主体外观装配**，保存为 B09 并加载到 Blender。\n\n- 共建 9 套电容器架、9 只电抗器、9 只放电线圈和 9 只小避雷器。\n- 修正前后布置、端子朝向，补齐底座与围栏。\n- 保存回读检查通过，双主变及原有围墙保留。\n\n[打开整站模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/xialin_B09_capacitor_banks.blend) · [查看逐组粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/B09_review.html)\n\n后续继续处理进线开关、侧部阶梯支架与连接线；遮挡细节和内部单元数量仍待核对。"
+   "excerpt": "已完成 **#1、#2、#3 电容器组的主体外观装配**，保存为 B09 并加载到 Blender。\n\n- 共建 9 套电容器架、9 只电抗器、9 只放电线圈和 9 只小避雷器。\n- 修正前后布置、端子朝向，补齐底座与围栏。\n- 保存回读检查通过，双主变及原有围墙保留。\n\n[打开整站模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/site_B09_capacitor_banks.blend) · [查看逐组粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B09/B09_review.html)\n\n后续继续处理进线开关、侧部阶梯支架与连接线；遮挡细节和内部单元数量仍待核对。"
   },
   {
    "ts": "2026-09-12T12:42:37.344Z",
@@ -906,19 +906,19 @@
   {
    "ts": "2026-09-12T14:43:40.600Z",
    "batches": [],
-   "excerpt": "B10 已加载到 Blender，并整理好六组对照页和逐设备覆盖表。下一批目标已从当前场景核实：剩余 15 只 110kV 避雷器，分属 751、758、759 及两台主变中压侧；同时保留 748-B、746-A/B 的安装修正项。"
+   "excerpt": "B10 已加载到 Blender，并整理好六组对照页和逐设备覆盖表。下一批目标已从当前场景核实：剩余 15 只 VC-A 避雷器，分属 751、758、759 及两台主变中压侧；同时保留 748-B、746-A/B 的安装修正项。"
   },
   {
    "ts": "2026-09-12T14:54:51.781Z",
    "batches": [
     "B10"
    ],
-   "excerpt": "已推进到 **B10**，保存并加载到 Blender：\n\n- 补上 #4～#6 电容器组，六组均完成主体装配与位置校准。\n- 完善高位套管、侧部支架和可见连接排。\n- 保存回读及支承、连接端点检查通过，双主变和围墙保留。\n\n[整站模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/xialin_B10_capacitor_banks.blend) · [六组对照预览](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/B10_review.html) · [室外设备覆盖表](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/B10_outdoor_coverage.md)\n\n整体目标仍在进行中。下一批继续处理剩余 **15 只 110kV 避雷器**及已知安装偏差，再推进 GIS；局部脚点与遮挡细节仍待核对。"
+   "excerpt": "已推进到 **B10**，保存并加载到 Blender：\n\n- 补上 #4～#6 电容器组，六组均完成主体装配与位置校准。\n- 完善高位套管、侧部支架和可见连接排。\n- 保存回读及支承、连接端点检查通过，双主变和围墙保留。\n\n[整站模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/site_B10_capacitor_banks.blend) · [六组对照预览](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/B10_review.html) · [室外设备覆盖表](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B10/B10_outdoor_coverage.md)\n\n整体目标仍在进行中。下一批继续处理剩余 **15 只 VC-A 避雷器**及已知安装偏差，再推进 GIS；局部脚点与遮挡细节仍待核对。"
   },
   {
    "ts": "2026-09-12T14:57:03.250Z",
    "batches": [],
-   "excerpt": "上一轮已完成六组电容器的装配更新，属于实质进展。我会继续核查当前文件，处理剩余 15 只 110kV 避雷器及已知安装偏差，再推进 GIS 的外形与位置对齐。"
+   "excerpt": "上一轮已完成六组电容器的装配更新，属于实质进展。我会继续核查当前文件，处理剩余 15 只 VC-A 避雷器及已知安装偏差，再推进 GIS 的外形与位置对齐。"
   },
   {
    "ts": "2026-09-12T15:04:49.052Z",
@@ -965,7 +965,7 @@
    "batches": [
     "B11"
    ],
-   "excerpt": "已新增 **15 只 110kV 避雷器**，更新 3 处安装位置，目前同类主体模型共 30 只。双主变、六组电容器和围墙均保留。\n\n累计 23 处通过局部安装检查，7 处仍待复核。下一步继续处理 GIS 间隔的模块、套管和支承对齐。\n\n[打开新版模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/xialin_B11_110kV_arresters_r2.blend) · [查看逐组对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/B11_review.html)"
+   "excerpt": "已新增 **15 只 VC-A 避雷器**，更新 3 处安装位置，目前同类主体模型共 30 只。双主变、六组电容器和围墙均保留。\n\n累计 23 处通过局部安装检查，7 处仍待复核。下一步继续处理 GIS 间隔的模块、套管和支承对齐。\n\n[打开新版模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/r2/site_B11_VC-A_arresters_r2.blend) · [查看逐组对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B11/B11_review.html)"
   },
   {
    "ts": "2026-09-12T15:41:16.128Z",
@@ -1017,7 +1017,7 @@
    "batches": [
     "B12"
    ],
-   "excerpt": "已建立 **749 GIS 主体总成**并纳入整站，包括双层母线、筒体、机构箱、支架和三根共用套管。\n\n9项局部对齐检查通过7项；两处立式外壳、柜体深度及外部引线仍待完善。原有主变、电容器和避雷器模型已保留。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/r2/xialin_B12_749_GIS_r2.blend) · [查看四视角对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/B12_review.html)\n\n接下来继续相邻748、747、746、750间隔，复用部件并分别对齐。"
+   "excerpt": "已建立 **749 GIS 主体总成**并纳入整站，包括双层母线、筒体、机构箱、支架和三根共用套管。\n\n9项局部对齐检查通过7项；两处立式外壳、柜体深度及外部引线仍待完善。原有主变、电容器和避雷器模型已保留。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/r2/site_B12_749_GIS_r2.blend) · [查看四视角对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B12/B12_review.html)\n\n接下来继续相邻748、747、746、750间隔，复用部件并分别对齐。"
   },
   {
    "ts": "2026-09-12T16:22:45.287Z",
@@ -1064,7 +1064,7 @@
    "batches": [
     "B13"
    ],
-   "excerpt": "已完成本轮设备处理：\n\n- 新增 746、747、748、750、751、758、759 七个 GIS 间隔，并分别对齐。\n- 连同 749，统一修正八个柜体，衔接相邻间隔的双层母线。\n- 88 项局部检查通过 78 项，其余偏差及引线继续处理。\n\n[打开最新 Blender 模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/xialin_B13_GIS_line_bays_r2.blend) · [查看模型与参考对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/B13_review.html)\n\n下一批继续处理 501、502 主变出线 GIS。"
+   "excerpt": "已完成本轮设备处理：\n\n- 新增 746、747、748、750、751、758、759 七个 GIS 间隔，并分别对齐。\n- 连同 749，统一修正八个柜体，衔接相邻间隔的双层母线。\n- 88 项局部检查通过 78 项，其余偏差及引线继续处理。\n\n[打开最新 Blender 模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/r2/site_B13_GIS_line_bays_r2.blend) · [查看模型与参考对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B13/B13_review.html)\n\n下一批继续处理 501、502 主变出线 GIS。"
   },
   {
    "ts": "2026-09-12T17:03:34.352Z",
@@ -1221,24 +1221,24 @@
   {
    "ts": "2026-09-12T19:06:13.142Z",
    "batches": [],
-   "excerpt": "新版已在 Blender 中重新打开，母联、两组母压变和双主变的部件复用关系均正常。对照页也已生成；接下来转向 220 kV 区域的 GIS 和避雷器，继续按照片确定设备类型与安装位置。"
+   "excerpt": "新版已在 Blender 中重新打开，母联、两组母压变和双主变的部件复用关系均正常。对照页也已生成；接下来转向 VC-B 区域的 GIS 和避雷器，继续按照片确定设备类型与安装位置。"
   },
   {
    "ts": "2026-09-12T19:06:37.724Z",
    "batches": [
     "B16"
    ],
-   "excerpt": "已推进到 B16，新增母联 500、I／II 母压变，并完成相邻母线连接；两组母压变共用同一套主体部件。\n\n10 处连接检查通过；23 项局部对齐检查通过 17 项，其余偏差已记录，继续修正。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B16/r2/xialin_B16_coupler_bus_VT_r2.blend) · [查看模型与参考对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B16/B16_review.html)\n\n下一批处理 220 kV GIS 和避雷器。"
+   "excerpt": "已推进到 B16，新增母联 500、I／II 母压变，并完成相邻母线连接；两组母压变共用同一套主体部件。\n\n10 处连接检查通过；23 项局部对齐检查通过 17 项，其余偏差已记录，继续修正。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B16/r2/site_B16_coupler_bus_VT_r2.blend) · [查看模型与参考对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B16/B16_review.html)\n\n下一批处理 VC-B GIS 和避雷器。"
   },
   {
    "ts": "2026-09-12T19:06:47.886Z",
    "batches": [],
-   "excerpt": "我继续处理 220 kV 区域。这一轮先核对现有 GIS、避雷器与照片的对应关系，再把可复用的部件安装到实际位置，补齐整站中尚未替换的室外设备。"
+   "excerpt": "我继续处理 VC-B 区域。这一轮先核对现有 GIS、避雷器与照片的对应关系，再把可复用的部件安装到实际位置，补齐整站中尚未替换的室外设备。"
   },
   {
    "ts": "2026-09-12T19:08:25.924Z",
    "batches": [],
-   "excerpt": "照片显示，这一侧的 220 kV 出线设备采用三相套管和双列机构。已有 P01 部件可以复用，但整套排列与母联并不完全相同；我正在按实际间隔拆分通用部件，并分别核对母线、套管和柜体的位置。"
+   "excerpt": "照片显示，这一侧的 VC-B 出线设备采用三相套管和双列机构。已有 P01 部件可以复用，但整套排列与母联并不完全相同；我正在按实际间隔拆分通用部件，并分别核对母线、套管和柜体的位置。"
   },
   {
    "ts": "2026-09-12T19:14:11.708Z",
@@ -1263,7 +1263,7 @@
   {
    "ts": "2026-09-12T19:34:37.921Z",
    "batches": [],
-   "excerpt": "这批 5 组 220kV 出线设备及 15 个套管头已建入模型，4802 与 4B77 之间的两条短接管也已修正。现在正在核验保存后的几何、连接端口和历史场景，并整理对照视图。"
+   "excerpt": "这批 5 组 VC-B 出线设备及 15 个套管头已建入模型，4802 与 4B77 之间的两条短接管也已修正。现在正在核验保存后的几何、连接端口和历史场景，并整理对照视图。"
   },
   {
    "ts": "2026-09-12T19:36:43.788Z",
@@ -1285,12 +1285,12 @@
    "batches": [
     "B17"
    ],
-   "excerpt": "已保存 B17，本轮新增：\n\n- 5 组 220kV GIS：4D75、4D76、2899、4802、4B77。\n- 15 个共用套管头，分别定位支柱和控制柜。\n- 修正 4802 与 4B77 之间的两条母线短接管。\n\n75 项局部对齐检查中，50 项通过，25 项仍需修正，主要涉及母线、气室和柜面。\n\n[打开模型](experiments/blender-substation/photo-first-pilot/output/installation_B17/r3/xialin_B17_220kV_outgoing_GIS_r3.blend) · [查看模型与参考对照](experiments/blender-substation/photo-first-pilot/output/installation_B17/B17_review.html)\n\n接下来继续剩余 220kV 母联、母压变及独立避雷器。"
+   "excerpt": "已保存 B17，本轮新增：\n\n- 5 组 VC-B GIS：4D75、4D76、2899、4802、4B77。\n- 15 个共用套管头，分别定位支柱和控制柜。\n- 修正 4802 与 4B77 之间的两条母线短接管。\n\n75 项局部对齐检查中，50 项通过，25 项仍需修正，主要涉及母线、气室和柜面。\n\n[打开模型](experiments/blender-substation/photo-first-pilot/output/installation_B17/r3/site_B17_VC-B_outgoing_GIS_r3.blend) · [查看模型与参考对照](experiments/blender-substation/photo-first-pilot/output/installation_B17/B17_review.html)\n\n接下来继续剩余 VC-B 母联、母压变及独立避雷器。"
   },
   {
    "ts": "2026-09-12T19:44:46.824Z",
    "batches": [],
-   "excerpt": "上一轮已保存并核验 B17，属于实质进展。我继续处理 220kV 独立避雷器，先按照片核对高、低支架两类结构，再建立共用部件并逐台定位。"
+   "excerpt": "上一轮已保存并核验 B17，属于实质进展。我继续处理 VC-B 独立避雷器，先按照片核对高、低支架两类结构，再建立共用部件并逐台定位。"
   },
   {
    "ts": "2026-09-12T19:46:19.402Z",
@@ -1347,17 +1347,17 @@
    "batches": [
     "B18"
    ],
-   "excerpt": "已保存 B18，新增并定位 **18 台 220kV 独立避雷器**，共用双节瓷套本体、均压环和附件部件，并修正了基础高度。\n\n126 项局部对齐检查中，125 项通过；主变 1 高压侧 C 相均压环约 5.4 厘米偏差，保留待复核。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/r2/xialin_B18_220kV_arresters_r2.blend) · [查看对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/B18_review.html)\n\n接下来继续剩余 220kV GIS、母压变及母线连接。"
+   "excerpt": "已保存 B18，新增并定位 **18 台 VC-B 独立避雷器**，共用双节瓷套本体、均压环和附件部件，并修正了基础高度。\n\n126 项局部对齐检查中，125 项通过；主变 1 高压侧 C 相均压环约 5.4 厘米偏差，保留待复核。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/r2/site_B18_VC-B_arresters_r2.blend) · [查看对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B18/B18_review.html)\n\n接下来继续剩余 VC-B GIS、母压变及母线连接。"
   },
   {
    "ts": "2026-09-12T20:18:54.084Z",
    "batches": [],
-   "excerpt": "上一轮已保存并核验 18 台避雷器，属于实质进展。我继续处理剩余 220kV GIS 和母压变，先核对各间隔的结构与排列，再补齐主体和相邻母线连接。"
+   "excerpt": "上一轮已保存并核验 18 台避雷器，属于实质进展。我继续处理剩余 VC-B GIS 和母压变，先核对各间隔的结构与排列，再补齐主体和相邻母线连接。"
   },
   {
    "ts": "2026-09-12T20:23:52.083Z",
    "batches": [],
-   "excerpt": "已梳理出剩余的 9 个 220kV GIS 和母压变目标。其中备用间隔的结构与已完成的出线间隔不同，我会按照片分别处理，并核对它们与相邻母线的连接位置。"
+   "excerpt": "已梳理出剩余的 9 个 VC-B GIS 和母压变目标。其中备用间隔的结构与已完成的出线间隔不同，我会按照片分别处理，并核对它们与相邻母线的连接位置。"
   },
   {
    "ts": "2026-09-12T20:25:14.776Z",
@@ -1414,12 +1414,12 @@
    "batches": [
     "B19"
    ],
-   "excerpt": "已完成本轮 6 组设备主体建模并保存：\n\n- 4B80、4B81 备用间隔，共用一套主体。\n- 4600 母联。\n- IA、IB、II 母线电压互感器，共用部件、分别定位。\n\n已补齐支架连接并统一俯视图方向；主变 1、2 继续复用同一总成。局部对齐检查 **37/60 项通过 5 厘米筛查，23 项仍需调整**。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B19/r3/xialin_B19_remaining_220kV_GIS_r3.blend) · [查看模型与粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B19/B19_review.html)\n\n后续先处理长母线衔接和重叠，再推进中性点避雷器、接地刀闸等设备。"
+   "excerpt": "已完成本轮 6 组设备主体建模并保存：\n\n- 4B80、4B81 备用间隔，共用一套主体。\n- 4600 母联。\n- IA、IB、II 母线电压互感器，共用部件、分别定位。\n\n已补齐支架连接并统一俯视图方向；主变 1、2 继续复用同一总成。局部对齐检查 **37/60 项通过 5 厘米筛查，23 项仍需调整**。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B19/r3/site_B19_remaining_VC-B_GIS_r3.blend) · [查看模型与粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B19/B19_review.html)\n\n后续先处理长母线衔接和重叠，再推进中性点避雷器、接地刀闸等设备。"
   },
   {
    "ts": "2026-09-12T21:00:31.051Z",
    "batches": [],
-   "excerpt": "上一轮已保存 6 组设备并完成对照检查。这轮继续处理 220kV 母线：先核实已有长管段与新设备接口的位置，再修正重叠和断口。"
+   "excerpt": "上一轮已保存 6 组设备并完成对照检查。这轮继续处理 VC-B 母线：先核实已有长管段与新设备接口的位置，再修正重叠和断口。"
   },
   {
    "ts": "2026-09-12T21:01:42.997Z",
@@ -1451,7 +1451,7 @@
    "batches": [
     "B20"
    ],
-   "excerpt": "已保存 B20 版本：\n\n- 连通 16 段母线，约 88.8 米。\n- 补建 55 个检修口盖、35 处支撑和 4 组伸缩节。\n- 修正旧长管重叠，接口与支架接触检查通过。\n\n16 项表面对照仍超过 5 厘米，需继续细化。下一步处理 4100 转弯连接，再推进中性点设备。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/xialin_B20_220kV_bus_row.blend) · [查看对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/B20_review.html)"
+   "excerpt": "已保存 B20 版本：\n\n- 连通 16 段母线，约 88.8 米。\n- 补建 55 个检修口盖、35 处支撑和 4 组伸缩节。\n- 修正旧长管重叠，接口与支架接触检查通过。\n\n16 项表面对照仍超过 5 厘米，需继续细化。下一步处理 4100 转弯连接，再推进中性点设备。\n\n[打开最新模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/site_B20_VC-B_bus_row.blend) · [查看对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B20/B20_review.html)"
   },
   {
    "ts": "2026-09-12T21:36:59.440Z",
@@ -1548,7 +1548,7 @@
    "batches": [
     "B22"
    ],
-   "excerpt": "已保存两套主变旁的中性点设备总成，共用部件，并分别调整位置和连接臂朝向。\n\n28项局部检查通过23项；斜置瓷套等5处仍需修正，引线尚待补齐。接下来继续处理这些细节及站用变。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/r2/xialin_B22_shared_neutral_assemblies_r2.blend) · [查看对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/B22_review.html)"
+   "excerpt": "已保存两套主变旁的中性点设备总成，共用部件，并分别调整位置和连接臂朝向。\n\n28项局部检查通过23项；斜置瓷套等5处仍需修正，引线尚待补齐。接下来继续处理这些细节及站用变。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/r2/site_B22_shared_neutral_assemblies_r2.blend) · [查看对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B22/B22_review.html)"
   },
   {
    "ts": "2026-09-12T22:51:52.947Z",
@@ -1585,7 +1585,7 @@
    "batches": [
     "B23"
    ],
-   "excerpt": "已保存新版：补上两条主变引线、两条短连接和四条软连接，并修正斜置机构、连接臂与支座。\n\n本轮32项局部检查通过30项，立柱和机构箱仍有两处细节待调。接下来处理站用变305、306。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/r3/xialin_B23_neutral_leads_and_mechanisms_r3.blend) · [查看对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/B23_review.html)"
+   "excerpt": "已保存新版：补上两条主变引线、两条短连接和四条软连接，并修正斜置机构、连接臂与支座。\n\n本轮32项局部检查通过30项，立柱和机构箱仍有两处细节待调。接下来处理站用变305、306。\n\n[打开模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/r3/site_B23_neutral_leads_and_mechanisms_r3.blend) · [查看对照图](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B23/B23_review.html)"
   },
   {
    "ts": "2026-09-12T23:21:24.656Z",
@@ -1627,7 +1627,7 @@
    "batches": [
     "B24"
    ],
-   "excerpt": "本轮已完成站用变 **305、306** 的外观细化与位置校准，两台共用一套模型，补齐门窗、铰链、把手、百叶和基础。原有主变、GIS、围墙保持不变，局部前门和侧面仍需精修。\n\n[打开当前模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/r2/xialin_B24_station_service_305_306.blend) · [查看模型与粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/B24_review.html)\n\n下一步核查全站室外设备覆盖，定位剩余漏件和明显错位。"
+   "excerpt": "本轮已完成站用变 **305、306** 的外观细化与位置校准，两台共用一套模型，补齐门窗、铰链、把手、百叶和基础。原有主变、GIS、围墙保持不变，局部前门和侧面仍需精修。\n\n[打开当前模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/r2/site_B24_station_service_305_306.blend) · [查看模型与粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B24/B24_review.html)\n\n下一步核查全站室外设备覆盖，定位剩余漏件和明显错位。"
   },
   {
    "ts": "2026-09-12T23:46:17.317Z",
@@ -1719,7 +1719,7 @@
   {
    "ts": "2026-09-13T01:05:08.410Z",
    "batches": [],
-   "excerpt": "实拍里能分清两种构型：主变上方有向横梁两侧伸出的斜拉绝缘子，220 kV 构架下还有长串垂直悬挂绝缘子。我正在核对它们的轴线和引线端点，先补主变上方这一组，再复用到两侧构架。"
+   "excerpt": "实拍里能分清两种构型：主变上方有向横梁两侧伸出的斜拉绝缘子，VC-B 构架下还有长串垂直悬挂绝缘子。我正在核对它们的轴线和引线端点，先补主变上方这一组，再复用到两侧构架。"
   },
   {
    "ts": "2026-09-13T01:07:17.692Z",
@@ -1749,12 +1749,12 @@
   {
    "ts": "2026-09-13T01:23:15.106Z",
    "batches": [],
-   "excerpt": "已定位到 42 处垂直悬挂绝缘子：110 kV 外排 24 处、内排 6 处，220 kV 外排 12 处。照片显示它们采用大小交替的伞裙和连续芯杆，我会为这种构型另建共享组件；没有设备的空跨保持现状。"
+   "excerpt": "已定位到 42 处垂直悬挂绝缘子：VC-A 外排 24 处、内排 6 处，VC-B 外排 12 处。照片显示它们采用大小交替的伞裙和连续芯杆，我会为这种构型另建共享组件；没有设备的空跨保持现状。"
   },
   {
    "ts": "2026-09-13T01:28:56.499Z",
    "batches": [],
-   "excerpt": "42 处悬挂绝缘子已生成，110 kV 和 220 kV 分别共用一套母版，并按各处轴线安装。现在检查首跨近景和三排叠图，重点看伞裙方向、上下端连接，以及挂接件与横梁的接触。"
+   "excerpt": "42 处悬挂绝缘子已生成，VC-A 和 VC-B 分别共用一套母版，并按各处轴线安装。现在检查首跨近景和三排叠图，重点看伞裙方向、上下端连接，以及挂接件与横梁的接触。"
   },
   {
    "ts": "2026-09-13T01:31:44.680Z",
@@ -1769,7 +1769,7 @@
   {
    "ts": "2026-09-13T01:37:29.409Z",
    "batches": [],
-   "excerpt": "下一批斜串的候选位置也已找出：110 kV 外排 24 处、内排 6 处。220 kV 候选中混有几处交叉导线，需要再看实拍确认；最终工程仍在做保存读回校验。"
+   "excerpt": "下一批斜串的候选位置也已找出：VC-A 外排 24 处、内排 6 处。VC-B 候选中混有几处交叉导线，需要再看实拍确认；最终工程仍在做保存读回校验。"
   },
   {
    "ts": "2026-09-13T01:39:11.153Z",
@@ -1784,12 +1784,12 @@
   {
    "ts": "2026-09-13T01:42:17.709Z",
    "batches": [],
-   "excerpt": "已确认三排共有 42 处斜串与悬挂绝缘子对应，另有 6 处向主变方向伸出的斜串。220 kV 空跨中的两个候选实际属于横梁，我已排除。接下来扩大粗模提取范围，把斜串末端和 U 形跳线一起对齐。"
+   "excerpt": "已确认三排共有 42 处斜串与悬挂绝缘子对应，另有 6 处向主变方向伸出的斜串。VC-B 空跨中的两个候选实际属于横梁，我已排除。接下来扩大粗模提取范围，把斜串末端和 U 形跳线一起对齐。"
   },
   {
    "ts": "2026-09-13T01:48:09.180Z",
    "batches": [],
-   "excerpt": "220 kV 外向耐张装置还有一个关键区别：每处是两条并列串。粗模中两条轴线可以分开，照片也能对应上。我会按 48 处安装位、共 60 条串建模，并补上双串端部连接板，再接跳线。"
+   "excerpt": "VC-B 外向耐张装置还有一个关键区别：每处是两条并列串。粗模中两条轴线可以分开，照片也能对应上。我会按 48 处安装位、共 60 条串建模，并补上双串端部连接板，再接跳线。"
   },
   {
    "ts": "2026-09-13T02:00:09.823Z",
@@ -1799,7 +1799,7 @@
   {
    "ts": "2026-09-13T02:00:52.928Z",
    "batches": [],
-   "excerpt": "跳线的走向已经核对出来：110 kV 外排是单根，110 kV 内排和 220 kV 外排能分辨出并列双根。接下来会按各自的弧度建模，并用连接件接到上一版已保存的悬垂绝缘子端部。"
+   "excerpt": "跳线的走向已经核对出来：VC-A 外排是单根，VC-A 内排和 VC-B 外排能分辨出并列双根。接下来会按各自的弧度建模，并用连接件接到上一版已保存的悬垂绝缘子端部。"
   },
   {
    "ts": "2026-09-13T02:09:26.353Z",
@@ -1819,7 +1819,7 @@
   {
    "ts": "2026-09-13T02:15:06.490Z",
    "batches": [],
-   "excerpt": "局部视图能看到耐张串、跳线和悬垂绝缘子的完整组合了。检查时发现首跨展示里还带着被裁开的支架小件，我会清理这些展示残片，并调整 220 kV 视角，让双耐张串更容易看清。"
+   "excerpt": "局部视图能看到耐张串、跳线和悬垂绝缘子的完整组合了。检查时发现首跨展示里还带着被裁开的支架小件，我会清理这些展示残片，并调整 VC-B 视角，让双耐张串更容易看清。"
   },
   {
    "ts": "2026-09-13T02:17:55.905Z",
@@ -1836,7 +1836,7 @@
    "batches": [
     "B29"
    ],
-   "excerpt": "已完成并保存 B29，本批新增：\n\n- 48 处耐张装置，共 60 条绝缘子串。\n- 42 组跳线。\n- 12 跨主导线，已接到现有主变引线。\n\n已检查保存文件和连接端点，两台主变继续共享部件。\n\n[打开当前模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/xialin_B29_strains_jumpers_crosslines.blend) · [查看模型对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/B29_review.html)\n\n下一批继续补 GIS 下引线和避雷器分支，48 组下引线已完成初步定位。"
+   "excerpt": "已完成并保存 B29，本批新增：\n\n- 48 处耐张装置，共 60 条绝缘子串。\n- 42 组跳线。\n- 12 跨主导线，已接到现有主变引线。\n\n已检查保存文件和连接端点，两台主变继续共享部件。\n\n[打开当前模型](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/site_B29_strains_jumpers_crosslines.blend) · [查看模型对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B29/B29_review.html)\n\n下一批继续补 GIS 下引线和避雷器分支，48 组下引线已完成初步定位。"
   },
   {
    "ts": "2026-09-13T02:23:51.750Z",
@@ -1846,7 +1846,7 @@
   {
    "ts": "2026-09-13T02:25:46.849Z",
    "batches": [],
-   "excerpt": "已确认这批对应 30 个 110 kV 套管端子、18 个 220 kV 套管端子，以及各自的避雷器。接下来会把下引线和避雷器分支一起建模，检查从构架到设备端子的连接是否连续。"
+   "excerpt": "已确认这批对应 30 个 VC-A 套管端子、18 个 VC-B 套管端子，以及各自的避雷器。接下来会把下引线和避雷器分支一起建模，检查从构架到设备端子的连接是否连续。"
   },
   {
    "ts": "2026-09-13T02:31:19.753Z",
@@ -1888,7 +1888,7 @@
    "batches": [
     "B30"
    ],
-   "excerpt": "已保存 **B30 版本**，新增 **72 根 GIS 下引线、48 条避雷器支线**，连接与保存重读检查通过。主变 2 继续复用主变 1 的部件。\n\n全站对照确认，多数室外设备的主体和主要布局已完成建模与对齐。剩余主要是建筑道路、零星辅助设施及局部细节精修。\n\n[打开 Blender 工程](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/xialin_B30_GIS_downleads_arrester_branches.blend) · [查看模型与粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/B30_review.html)\n\n持续任务累计用时约 15 小时。"
+   "excerpt": "已保存 **B30 版本**，新增 **72 根 GIS 下引线、48 条避雷器支线**，连接与保存重读检查通过。主变 2 继续复用主变 1 的部件。\n\n全站对照确认，多数室外设备的主体和主要布局已完成建模与对齐。剩余主要是建筑道路、零星辅助设施及局部细节精修。\n\n[打开 Blender 工程](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/site_B30_GIS_downleads_arrester_branches.blend) · [查看模型与粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B30/B30_review.html)\n\n持续任务累计用时约 15 小时。"
   },
   {
    "ts": "2026-09-13T03:04:45.166Z",
@@ -1928,7 +1928,7 @@
   {
    "ts": "2026-09-13T03:31:36.975Z",
    "batches": [],
-   "excerpt": "主建筑修订版补入了 11 台可定位的空调外机、窗下通风口和高低屋面之间的爬梯。与此同时，我开始分别测量 110 kV、220 kV 二次设备舱；两者外观相近，但长度不同，会复用通用部件并分别定位。"
+   "excerpt": "主建筑修订版补入了 11 台可定位的空调外机、窗下通风口和高低屋面之间的爬梯。与此同时，我开始分别测量 VC-A、VC-B 二次设备舱；两者外观相近，但长度不同，会复用通用部件并分别定位。"
   },
   {
    "ts": "2026-09-13T03:35:50.765Z",
@@ -1943,12 +1943,12 @@
   {
    "ts": "2026-09-13T03:44:55.515Z",
    "batches": [],
-   "excerpt": "设备舱对照发现了一处门位需要纠正：110 kV 舱的台阶位于东侧，220 kV 舱的门在西侧。我会据此调整 110 kV 舱门，并按照片比例放大舱体文字标识。"
+   "excerpt": "设备舱对照发现了一处门位需要纠正：VC-A 舱的台阶位于东侧，VC-B 舱的门在西侧。我会据此调整 VC-A 舱门，并按照片比例放大舱体文字标识。"
   },
   {
    "ts": "2026-09-13T03:53:00.745Z",
    "batches": [],
-   "excerpt": "我继续核对设备舱的门位和台阶。220 kV 舱西侧的两端各有一处台阶，需要对应设置两扇门；修正后，再推进入口附近的附属建筑和场地设施。"
+   "excerpt": "我继续核对设备舱的门位和台阶。VC-B 舱西侧的两端各有一处台阶，需要对应设置两扇门；修正后，再推进入口附近的附属建筑和场地设施。"
   },
   {
    "ts": "2026-09-13T03:54:57.665Z",
@@ -2018,7 +2018,7 @@
   {
    "ts": "2026-09-13T04:43:19.490Z",
    "batches": [],
-   "excerpt": "绿栅栏在粗模中的路径已辨认出来：它沿入口弯道转折，经过跨路门，再沿 220kV 设备舱侧面接回入口建筑。几根高杆的侧挂球机轮廓也很清楚，可以按监控杆处理；柱灯则复用同一套灯头和灯杆组件。"
+   "excerpt": "绿栅栏在粗模中的路径已辨认出来：它沿入口弯道转折，经过跨路门，再沿 VC-B 设备舱侧面接回入口建筑。几根高杆的侧挂球机轮廓也很清楚，可以按监控杆处理；柱灯则复用同一套灯头和灯杆组件。"
   },
   {
    "ts": "2026-09-13T04:48:09.983Z",
@@ -2080,7 +2080,7 @@
    "batches": [
     "B35"
    ],
-   "excerpt": "已完成本轮补建，保存为 **B35 R3**：\n\n- 新增 21 根监控杆、3 处柱灯。\n- 补齐绿栅栏、双扇门、白围栏、通气管、消防筒和指示板。\n- 合入道路、地坪与剩余围墙；主变 1、2 继续共享组件。\n\n重读验证通过，旧成果已保留。部分遮挡部位和小构件尺寸仍为近似。\n\n[打开 Blender 工程](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/xialin_B35_auxiliary_equipment_r3.blend) · [查看模型与粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_review.html)"
+   "excerpt": "已完成本轮补建，保存为 **B35 R3**：\n\n- 新增 21 根监控杆、3 处柱灯。\n- 补齐绿栅栏、双扇门、白围栏、通气管、消防筒和指示板。\n- 合入道路、地坪与剩余围墙；主变 1、2 继续共享组件。\n\n重读验证通过，旧成果已保留。部分遮挡部位和小构件尺寸仍为近似。\n\n[打开 Blender 工程](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/site_B35_auxiliary_equipment_r3.blend) · [查看模型与粗模对照](/data/proj/xunjian-copilot/experiments/blender-substation/photo-first-pilot/output/installation_B35/B35_review.html)"
   },
   {
    "ts": "2026-09-13T05:35:59.215Z",
