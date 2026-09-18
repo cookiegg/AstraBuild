@@ -517,7 +517,7 @@ def fig05_vertical():
 
 
 def fig06_vertical():
-    svg = card_shell("图 6 · 发现一", "瓶颈从拟合\n上移到问题定义", ORANGE)
+    svg = card_shell("图 6 · 发现一", "有记录的失败\n集中在问题定义层", ORANGE)
     y = 450
     ladder(svg, y, "① 几何拟合", "始终成立", "fit + validate 贯穿每批；无拟合失败记录", TEAL, SOFT_TEAL)
     ladder(svg, y + 178, "② 问题定义", "就地修订", "比较域 · 复用边界 · 表示 · 任务选择", ORANGE, SOFT_ORANGE)
